@@ -1,0 +1,39 @@
+name: Listening audio (Kokoro)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/listening.json', 'tools/make_audio.py', '.github/workflows/audio.yml']
+permissions:
+  contents: write
+concurrency: { group: audio, cancel-in-progress: true }
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: { tests: ['1', '2', '3', '4', '5', '6', '7', '8'] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
+      - run: pip install "kokoro>=0.9.4" soundfile "misaki[en]"
+      - run: python tools/make_audio.py ${{ matrix.tests }} out
+      - uses: actions/upload-artifact@v4
+        with: { name: audio-${{ matrix.tests }}, path: out/audio }
+  commit:
+    needs: tts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: dl, pattern: audio-*, merge-multiple: true }
+      - run: |
+          mkdir -p audio && rm -rf audio/l && cp -r dl/l audio/l
+          python3 -c "import os,json;ps=sorted(os.listdir('audio/l'));json.dump({p:json.load(open(f'audio/l/{p}/v.json')) for p in ps},open('audio/l/index.json','w'))"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio
+          git commit -m "Listening audio generated with Kokoro" || echo "no changes"
+          git push

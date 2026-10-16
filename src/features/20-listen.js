@@ -186,7 +186,8 @@ function LS_run(el,o){
   const A={}, multi=parts.length>1;
   const secs=parts.map(p=>({sid:p.id,src:'Listening Test '+p.test+' Part '+p.part,groups:p.groups,start:(p.part-1)*10+1,p}));
   const total=secs.reduce((s,x)=>s+TS_count(x.groups),0);
-  const seq=[];parts.forEach((p,pi)=>p.lines.forEach(([sid,t])=>seq.push({pi,sp:LS_spk(p,sid),t})));
+  const seq=[];parts.forEach((p,pi)=>p.lines.forEach(([sid,t],li)=>seq.push({pi,sp:LS_spk(p,sid),t,pid:p.id,li,n:p.lines.length})));
+  const LO=x=>({pid:x.pid,li:x.li,n:x.n,t:x.t,lang:x.sp.accent,voice:x.sp.voice});
   let last=-1,playing=false,pauseReq=false,started=false,done=false,sub=false,results=null,cp=0,chk=null,wait=0;
   const ctl=exam?'':`<button class="spk" id="lsPrev" aria-label="Dòng trước">${ic('chevron-left')}</button><button class="spk" id="lsRep" aria-label="Nghe lại dòng này">${ic('rotate-ccw')}</button><button class="spk" id="lsNext" aria-label="Dòng sau">${ic('chevron-right')}</button>`;
   el.innerHTML=`<div class="view ls-run">
@@ -220,8 +221,8 @@ function LS_run(el,o){
       if(multi&&x.pi!==cp&&(exam||j===i||x.pi!==seq[j-1].pi)){cp=x.pi;drawQs();}
       if(exam&&j>0&&x.pi!==seq[j-1].pi){last=j-1;for(wait=10;wait>0;wait--){upd();await LS_sleep(1000);if(my!==LS_tok)return;}wait=0;}
       last=j;upd();
-      for(let q=1;q<=2;q++){const y=seq[j+q];if(y)ttsPrefetch(y.t,{lang:y.sp.accent,voice:y.sp.voice});}
-      await say(x.t,{lang:x.sp.accent,voice:x.sp.voice});
+      for(let q=1;q<=2;q++){const y=seq[j+q];if(y)prefetchLine(LO(y));}
+      await sayLine(LO(x));
       if(my!==LS_tok)return;
       if(pauseReq){pauseReq=false;playing=false;upd();return;}
       const nx=seq[j+1];
@@ -269,7 +270,7 @@ function LS_run(el,o){
     const li=$('#lsList',el);if(li)li.onclick=()=>{TS_clean();onExit();};
     $$('[data-go]',$('#lsRes',el)).forEach(b=>b.onclick=()=>{const r=results.find(x=>x.k===b.dataset.go);const i=secs.indexOf(r.sec);if(i!==cp){cp=i;drawQs();}const it=$(`[data-item="${r.k}"]`,qs);if(it){it.scrollIntoView({behavior:'smooth',block:'center'});it.classList.remove('ts-flash');void it.offsetWidth;it.classList.add('ts-flash');}});
     cp=0;drawQs();
-    const tr=parts.map(p=>`${multi?`<h3 class="ls-trh">Part ${p.part}</h3>`:''}${p.lines.map(([sid,t])=>{const sp=LS_spk(p,sid);return `<div class="ls-tl"><button class="spk sm" data-say="${esc(t)}" data-lang="${esc(sp.accent)}" data-voice="${esc(sp.voice)}" aria-label="Nghe dòng này">${SPK}</button><div class="ls-tlt"><span class="ls-sp">${esc(sp.name)}</span><span class="en-s">${esc(t)}</span></div></div>`;}).join('')}`).join('');
+    const tr=parts.map(p=>`${multi?`<h3 class="ls-trh">Part ${p.part}</h3>`:''}${p.lines.map(([sid,t],li)=>{const sp=LS_spk(p,sid);return `<div class="ls-tl"><button class="spk sm" data-pid="${p.id}" data-li="${li}" data-say="${esc(t)}" data-lang="${esc(sp.accent)}" data-voice="${esc(sp.voice)}" aria-label="Nghe dòng này">${SPK}</button><div class="ls-tlt"><span class="ls-sp">${esc(sp.name)}</span><span class="en-s">${esc(t)}</span></div></div>`;}).join('')}`).join('');
     $('#lsTr',el).innerHTML=exam?`<details class="g"><summary><span class="t">Xem lời thoại (transcript)</span>${ic('chevron-right')}</summary><div class="ls-trb">${tr}</div></details>`
       :`<div class="panel"><div class="spread"><h3>Lời thoại</h3><span class="small muted">Bấm loa để nghe lại từng dòng</span></div><div class="ls-trb">${tr}</div></div>`;
     window.scrollTo({top:0,behavior:'smooth'});
@@ -302,9 +303,9 @@ function LS_diff(target,typed){
   return {ops,ok:ops.filter(x=>x[0]==='ok').length,total:m};
 }
 function LS_dict(box,L){
-  const pool=[];L.forEach(p=>p.lines.forEach(([sid,t])=>{const n=countWords(t);if(n>=8&&n<=25)pool.push({t,sp:LS_spk(p,sid),src:'Test '+p.test+' Part '+p.part});}));
+  const pool=[];L.forEach(p=>p.lines.forEach(([sid,t],li)=>{const n=countWords(t);if(n>=8&&n<=25)pool.push({t,sp:LS_spk(p,sid),pid:p.id,li,n:p.lines.length,src:'Test '+p.test+' Part '+p.part});}));
   const sess={n:0,perfect:0};let cur=null,checked=false;
-  const play=rate=>say(cur.t,{lang:cur.sp.accent,voice:cur.sp.voice,rate});
+  const play=rate=>sayLine({pid:cur.pid,li:cur.li,n:cur.n,t:cur.t,lang:cur.sp.accent,voice:cur.sp.voice,rate});
   const draw=auto=>{
     cur=pick(pool);checked=false;
     box.innerHTML=`<div class="panel ls-dict"><div class="spread"><h3>Chép chính tả</h3><span class="small muted">${esc(cur.src)} · ${countWords(cur.t)} từ</span></div>
@@ -328,7 +329,7 @@ function LS_dict(box,L){
     if(!checked){checked=true;sess.n++;if(perfect)sess.perfect++;award('listen',1);}
     $('#ldOut',box).innerHTML=`<div class="fb ${perfect?'ok':'bad'}"><b>${perfect?'Chính xác từng từ.':`Đúng ${r.ok}/${r.total} từ.`}</b>${perfect?'':' Chữ xanh là từ bạn nghe đúng, chữ đỏ gạch dưới là từ còn thiếu hoặc sai, chữ đỏ gạch ngang là từ thừa.'}</div>
       <div class="ls-diff en-s">${r.ops.map(([t,w])=>`<span class="ls-dw ${t}">${esc(w)}</span>`).join(' ')}</div>
-      <div class="ex"><button class="spk" data-say="${esc(cur.t)}" data-lang="${esc(cur.sp.accent)}" data-voice="${esc(cur.sp.voice)}" aria-label="Nghe lại">${SPK}</button><div><div class="small muted">${esc(cur.sp.name)}</div><div class="en-s">${esc(cur.t)}</div></div></div>`;
+      <div class="ex"><button class="spk" data-pid="${cur.pid}" data-li="${cur.li}" data-say="${esc(cur.t)}" data-lang="${esc(cur.sp.accent)}" data-voice="${esc(cur.sp.voice)}" aria-label="Nghe lại">${SPK}</button><div><div class="small muted">${esc(cur.sp.name)}</div><div class="en-s">${esc(cur.t)}</div></div></div>`;
     $('#ldSess',box).textContent=`Phiên này: ${sess.n} câu, ${sess.perfect} câu đúng hoàn toàn.`;
   }
   draw(false);

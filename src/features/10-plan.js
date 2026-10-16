@@ -274,7 +274,7 @@ VIEWS.placement=async el=>{
       $('#pcLs',el).onclick=()=>{PLC.lsOn=true;PLC.l=PC_lsTask(LIS,well);PLC.step='listen';draw();};
       $('#pcNoLs',el).onclick=()=>{PLC.lsOn=false;finish();};return;}
     if(s==='listen'){
-      const t=PLC.l, sec=PC_lsSec(LIS,t), p=sec.p, lines=p.lines.map(([id,tx])=>({sp:LS_spk(p,id),t:tx}));
+      const t=PLC.l, sec=PC_lsSec(LIS,t), p=sec.p, lines=p.lines.map(([id,tx],li)=>({sp:LS_spk(p,id),t:tx,pid:p.id,li,n:p.lines.length}));
       el.innerHTML=`<div class="view pc">${head()}
         <div class="panel pc-lp"><div class="spread"><h3>Nghe Part ${p.part}</h3><span class="timer-chip" id="pcTm" hidden>${ic('clock')}<span id="pcTmT"></span></span></div>
           <p class="note">${esc(p.setting)}</p>
@@ -297,7 +297,7 @@ VIEWS.placement=async el=>{
       if(t.started){pb.disabled=true;meta.textContent=t.ended?'Bài nghe đã phát xong. Kiểm tra lại rồi nộp.':'Bài nghe đã dừng khi bạn rời trang. Hãy nộp phần nghe.';fill.style.width='100%';if(t.ended)check();return;}
       pb.onclick=async()=>{if(t.started)return;t.started=true;pb.disabled=true;const my=++PC_tok;
         for(let j=0;j<lines.length;j++){const x=lines[j];meta.textContent=`Đang phát ${j+1}/${lines.length} · ${x.sp.name}`;fill.style.width=(j/lines.length*100)+'%';
-          await say(x.t,{lang:x.sp.accent,voice:x.sp.voice});if(my!==PC_tok)return;
+          await sayLine({pid:x.pid,li:x.li,n:x.n,t:x.t,lang:x.sp.accent,voice:x.sp.voice});if(my!==PC_tok)return;
           const nx=lines[j+1];if(nx){await new Promise(r=>setTimeout(r,nx.sp!==x.sp?700:300));if(my!==PC_tok)return;}}
         t.ended=true;fill.style.width='100%';meta.textContent='Bài nghe đã kết thúc. Bạn có 45 giây kiểm tra lại.';check();};
       return;}

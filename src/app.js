@@ -267,7 +267,19 @@ function playURL(url,rate){
 function stopAudio(){if(curAudio){try{curAudio.pause();}catch(e){}curAudio=null;}}
 function stopSay(){sayToken++;stopAudio();try{speechSynthesis.cancel();}catch(e){}}
 const speak=(text,opts)=>say(text,opts);
-document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();say(b.dataset.say,{lang:b.dataset.lang||undefined,voice:b.dataset.voice||'f'});}});
+/* pre-generated human-like audio for listening scripts (Kokoro, audio/l/<part>/<line>.mp3, see tools/make_audio.py) */
+let LAUD=null;
+function lineAudioIndex(){if(!LAUD)LAUD=fetch('audio/l/index.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}));return LAUD;}
+async function lineAudioURL(pid,li,n){const ix=await lineAudioIndex();const e=ix[pid];if(!e||(n&&e.n!==n))return null;return 'audio/l/'+pid+'/'+String(li).padStart(3,'0')+'.mp3';}
+// play one script line: recorded file when available, otherwise TTS. o = {pid, li, n, t, lang, voice, rate}
+async function sayLine(o){
+  const u=o.pid!=null?await lineAudioURL(o.pid,o.li,o.n):null;
+  if(u){stopSay();const tok=++sayToken;const ok=await playURL(u,(o.rate||P.settings.voiceRate)/0.95);if(ok||tok!==sayToken)return;}
+  return say(o.t,{lang:o.lang,voice:o.voice,rate:o.rate});
+}
+function prefetchLine(o){lineAudioURL(o.pid,o.li,o.n).then(u=>{if(u){const a=new Audio();a.preload='auto';a.src=u;}else ttsPrefetch(o.t,{lang:o.lang,voice:o.voice});});}
+lineAudioIndex();
+document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();const o={t:b.dataset.say,lang:b.dataset.lang||undefined,voice:b.dataset.voice||'f'};if(b.dataset.pid){o.pid=b.dataset.pid;o.li=+b.dataset.li;sayLine(o);}else say(o.t,o);}});
 
 /* speech recognition: listen({lang,onText,onEnd}) -> {stop} or null if unsupported */
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
