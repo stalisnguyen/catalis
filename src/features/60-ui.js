@@ -169,7 +169,7 @@ VIEWS.settings=el=>{
   el.innerHTML=`<div class="view set">
    <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0"><b>${c.exam==='general'?'General Training':'Academic'}</b>, mục tiêu band <b>${c.target.toFixed(1)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
-     <div class="row"><button class="btn sm" id="stPlan">Đổi lộ trình</button><button class="btn sm" data-go="placement">Xếp lớp lại</button></div></div>
+     <div class="row"><button class="btn sm" id="stPlan">Đổi lộ trình</button><button class="btn sm" id="stPlR2">Xóa kết quả và xếp lớp lại</button></div></div>
    <div class="panel"><h3>Nhóm từ vựng đang học</h3>${c.auto?'<p class="note">Đang tự chọn theo lộ trình. Bấm chọn tay thì sẽ tắt tự chọn.</p>':''}
      ${levelChips(P.settings.lv,s=>{P.settings.lv=s;c.auto=false;queue=[];touch('main');VIEWS.settings(el);},{id:'stlv'})}
      <label class="row small">Từ mới mỗi ngày <input type="number" id="stNew" min="0" max="60" value="${P.settings.newPerDay}" style="width:84px"></label></div>
@@ -179,7 +179,7 @@ VIEWS.settings=el=>{
      ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>':''}
      ${WEB&&getKey()?'<button class="btn ghost sm" id="stOut" style="align-self:flex-start">Quên mật khẩu trên máy này</button>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
-   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button></div>
+   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button><button class="btn sm" id="stPlR">Xóa kết quả xếp lớp</button></div>
      <p class="note">Catalis, Stalis's IELTS. Danh sách từ: NGSL và NAWL (Browne, Culligan, Phillips; CC BY-SA 4.0). Phiên âm tham khảo ipa-dict (MIT). Đề luyện, bài mẫu do Catalis soạn riêng theo định dạng IELTS, không phải đề thi thật.</p></div>
   </div>`;
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
@@ -188,7 +188,7 @@ VIEWS.settings=el=>{
   uiToggles(el);
   const k=$('#stKey');if(k)k.onclick=async()=>{const ok=await askPassword(false);if(ok){await initPlatform();VIEWS.settings(el);}};
   const o=$('#stOut');if(o)o.onclick=()=>{setKey('');toast('Đã xóa mật khẩu trên máy này.');VIEWS.settings(el);};
-  $('#stRep').onclick=reportsList;$('#stHi').onclick=()=>uiIntro(true);
+  $('#stRep').onclick=reportsList;$('#stHi').onclick=()=>uiIntro(true);$('#stPlR').onclick=plResetPlacement;$('#stPlR2').onclick=plResetPlacement;
 };
 
 /* ---------- feedback: sounds, pop/shake, XP fly, celebrations ---------- */

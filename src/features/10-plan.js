@@ -405,3 +405,20 @@ function reportsList(){
   const cp=$('#rpCp',m.el);if(cp)cp.onclick=()=>{navigator.clipboard.writeText(txt).then(()=>toast('Đã sao chép.')).catch(()=>{$('#rpAll',m.el).select();toast('Bấm Ctrl/Cmd+C để sao chép.');});};
   const cl=$('#rpClr',m.el);if(cl)cl.onclick=()=>{cl.outerHTML='<span class="small">Xóa hết?</span> <button class="btn sm" id="rpY">Xóa</button>';$('#rpY',m.el).onclick=()=>{P.reports=[];touch('main');m.close();};};
 }
+
+/* ---------- reset placement: band, placement scores, and words marked known by placement but never reviewed since ---------- */
+function plResetPlacement(){
+  const isPl=s=>/xếp lớp/i.test(s.title||'');
+  const nScores=(P.scores||[]).filter(isPl).length;
+  const untouched=Object.entries(P.srs).filter(([k,c])=>c.pl&&c.n===2&&!c.l);
+  const m=modal(`<h2>Xóa kết quả xếp lớp</h2>
+    <p class="note">Sẽ xóa band ước lượng từ bài xếp lớp, ${nScores} điểm "Bài xếp lớp" trong lịch sử, và gỡ ${untouched.length} từ được đánh dấu đã biết lúc xếp lớp mà bạn chưa ôn lại lần nào. Từ đã ôn thật, điểm thi thử và XP giữ nguyên.</p>
+    <div class="row"><button class="btn primary" id="rsGo">Xóa và làm lại bài xếp lớp</button><button class="btn" id="rsNo">Thôi</button></div>`);
+  $('#rsNo',m.el).onclick=m.close;
+  $('#rsGo',m.el).onclick=()=>{
+    P.scores=(P.scores||[]).filter(s=>!isPl(s));
+    untouched.forEach(([k])=>delete P.srs[k]);
+    delete P.placeBand; delete P.placed; PLC=null; queue=[]; touch('main');
+    m.close(); toast(`Đã xóa. Gỡ ${untouched.length} từ khỏi danh sách đã biết.`,3500); go('placement');
+  };
+}
