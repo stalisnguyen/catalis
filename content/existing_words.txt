@@ -1,4 +1,39 @@
+a ballpark figure
+a bit of a perfectionist
+a bit of a stretch
+a bit rough around the edges
+a catch-22
+a creature of habit
+a dead-end job
+a defining moment
+a fair-weather friend
+a false economy
+a firm believer in
+a foot in the door
+a grain of truth
+a heart of gold
+a hidden gem
+a last resort
+a lie-in
+a means to an end
+a mixed bag
+a nest egg
+a night owl
+a no-brainer
+a people person
+a quick fix
+a rip-off
+a shoulder to cry on
+a steep learning curve
+a stone's throw from
+a stopgap
+a sweeping generalisation
+a vicious circle
+a weight off my shoulders
+a workaround
+a world away from
 abandon
+abdicate responsibility
 abdominal
 ability
 abortion
@@ -6,6 +41,7 @@ abroad
 absence
 absolute
 absolutely
+absolve
 absorb
 absorption
 abstract
@@ -83,6 +119,7 @@ aesthetic
 affair
 affect
 affirm
+affluent
 afford
 affordable housing
 afraid
@@ -94,6 +131,7 @@ agenda
 agent
 aggregate
 aggressive
+agree to disagree
 agreement
 agribusiness
 agricultural
@@ -111,8 +149,10 @@ album
 alcohol
 algebra
 algorithm
+algorithmic bias
 alien
 alive
+all else being equal
 allege
 alliance
 allocate
@@ -135,6 +175,9 @@ amino
 amongst
 amount
 amplitude
+an early riser
+an eye-opener
+an impulse buy
 analogy
 analysis
 analyst
@@ -153,6 +196,8 @@ animal welfare
 announce
 announcement
 annual
+anomaly
+anthropogenic
 anthropology
 anti
 anti-social behaviour
@@ -182,6 +227,7 @@ applied research
 apply
 appoint
 appointment
+appreciably
 appreciate
 apprenticeship
 appropriate
@@ -195,6 +241,7 @@ arbitrary
 archaeology
 architect
 architecture
+arguably
 argue
 argument
 arise
@@ -220,6 +267,9 @@ artistic
 artistic expression
 arts funding
 artwork
+as clear as day
+as far as i can tell
+as i understand it
 ashamed
 aside
 aspect
@@ -240,6 +290,8 @@ assume
 assumption
 assure
 astronomical salaries
+at the crack of dawn
+at the end of my tether
 athlete
 athletic
 atmosphere
@@ -257,15 +309,19 @@ attitude
 attract
 attraction
 attractive
+attributable to
 attribute
 auction
 audience
 audio
 audit
+augment
 aunt
+austerity
 authenticity
 author
 authority
+autodidact
 automatically
 automation
 autonomous vehicle
@@ -281,6 +337,7 @@ awful
 axiom
 axis
 baby
+back to the drawing board
 background
 backpacker
 backward
@@ -308,6 +365,7 @@ bat
 bath
 battery storage
 battle
+be symptomatic of
 beach
 beam
 beat
@@ -325,6 +383,7 @@ belong
 below
 belt
 bend
+bend over backwards
 beneath
 benefit
 beside
@@ -350,7 +409,9 @@ bird
 birth
 birth rate
 bite
+bite the bullet
 bizarre
+black box
 blame
 blank
 bleed
@@ -365,6 +426,7 @@ board
 boat
 bodily
 body language
+body of evidence
 bomb
 bond
 bone
@@ -393,6 +455,7 @@ brand
 brand loyalty
 bread
 breadwinner
+break the bank
 breakdown
 breakfast
 breakthrough
@@ -408,6 +471,7 @@ brilliant
 broad
 broadcast
 broadly
+broadly speaking
 brother
 brown
 brownfield site
@@ -422,14 +486,20 @@ bunch
 bundle
 burden
 bureaucracy
+burgeoning
 burn
+burn the candle at both ends
 burnout
 burst
 bury
 bus
+bustling
 busy
 button
 buyer
+by and large
+by extension
+by the same token
 bycatch
 cable
 cake
@@ -438,9 +508,11 @@ calculate
 calculation
 calculator
 calculus
+call the shots
 calm
 calorie intake
 camaraderie
+came out of my shell
 camera
 camp
 campaign
@@ -466,6 +538,7 @@ carbon
 carbon capture
 carbon footprint
 carbon neutral
+carbon offsetting
 carbon tax
 card
 career
@@ -481,9 +554,13 @@ cast
 castle
 cat
 catalog
+catalyst
 catch
 category
 cattle
+causal link
+causation
+caveat
 celebrate
 celebration
 celebrity endorsement
@@ -524,6 +601,7 @@ cheese
 chemical
 chemistry
 chemotherapy
+cherish the memory of
 chess
 chest
 chicken
@@ -538,6 +616,7 @@ choice
 chromosome
 chronic
 chronic disease
+chuffed
 chunk
 church
 cigarette
@@ -572,12 +651,15 @@ click
 clickbait
 client
 climate
+climate adaptation
 climb
+climb the career ladder
 clinic
 clinical
 clip
 clock
 clone
+close-knit
 closely
 closure
 clothes
@@ -595,8 +677,10 @@ coat
 code
 coefficient
 coffee
+cogent
 cognitive
 cognitive development
+cognitive load
 coherent
 coin
 cold
@@ -605,6 +689,7 @@ colleague
 collect
 collection
 collective
+collective memory
 college
 colloquial
 colonial
@@ -612,7 +697,10 @@ colony
 column
 combination
 combine
+come down on the side of
+come into its own
 comedy
+comes across as
 comfort
 comfortable
 comma
@@ -661,6 +749,7 @@ complex
 complexity
 complicate
 complication
+complicit
 comply
 component
 compose
@@ -675,6 +764,8 @@ compromise
 compulsory education
 computation
 compute
+concede
+conceivably
 conceive
 concentrate
 concentration
@@ -695,12 +786,16 @@ confident
 configuration
 confine
 confirm
+conflate
 conflict
+conflict of interest
 confound
+confounding variable
 confuse
 confusion
 congestion charge
 congruent
+conjecture
 connect
 connection
 connectivity
@@ -743,6 +838,7 @@ container
 contemporary
 contemporary art
 content
+contentious
 contest
 context
 continent
@@ -756,6 +852,7 @@ contradictory
 contrary
 contrast
 contribute
+contributing factor
 contribution
 control group
 controversial
@@ -791,11 +888,16 @@ correlate
 correlation
 correspond
 correspondence
+corroborate
 corruption
 cortex
+cosmopolitan
+cost an arm and a leg
 cost of living
+cost-benefit analysis
 couch potato
 cough
+couldn't care less
 council
 counsel
 count
@@ -817,6 +919,7 @@ cream
 creation
 creative
 creature
+credentialism
 credibility
 credit
 crew
@@ -844,14 +947,20 @@ crude
 cry
 crystal
 cue
+culminate in
+culpable
 cultural
 cultural appropriation
+cultural capital
 cultural diversity
 cultural erosion
 cultural exchange
+cultural hegemony
 cultural heritage
 cultural homogenisation
 cultural identity
+cultural relativism
+cultural revival
 cultural sensitivity
 culture
 cup
@@ -865,6 +974,7 @@ curtain
 curve
 custodial sentence
 custom
+cut out for
 cutting-edge
 cyberbullying
 cybercrime
@@ -904,6 +1014,7 @@ deceive
 declare
 decline
 declining birth rate
+decouple
 decrease
 dedicate
 deep
@@ -931,6 +1042,7 @@ delta
 demand
 democracy
 democratic
+democratise
 demonstrate
 demonstration
 demonstrator
@@ -948,7 +1060,9 @@ depict
 deposit
 depress
 depression
+deprivation
 depth
+deregulation
 derelict
 derivative
 derive
@@ -983,8 +1097,10 @@ dialect
 dialog
 diameter
 diary
+diaspora
 dictate
 dictionary
+didactic
 die out
 diet
 differ
@@ -997,6 +1113,7 @@ diffusion
 dig
 digital
 digital divide
+digital footprint
 digital literacy
 dilemma
 dilute
@@ -1027,10 +1144,13 @@ discrimination
 discuss
 discussion
 disease
+disenfranchised
 dish
+disincentive
 disk
 dismiss
 disorder
+displace
 displacement
 display
 disposable income
@@ -1068,7 +1188,9 @@ domination
 donor
 dose
 double
+double-blind trial
 doubt
+down-to-earth
 dozen
 draft
 drag
@@ -1079,6 +1201,7 @@ dramatically
 dream
 dress
 drift
+drift apart
 drink
 driver
 drop
@@ -1092,21 +1215,28 @@ due
 duration
 dust
 duty
+duty of care
 dye
 dynamic
 dysfunctional family
+dystopian
 e-commerce
 ear
+earmark
 earn
 earth
 ease
+easier said than done
 easily
 east
 eastern
+easy to get along with
 echo chamber
 eco-friendly
 ecological
 ecological balance
+ecological collapse
+ecological resilience
 ecology
 economic downturn
 economic growth
@@ -1131,6 +1261,7 @@ efficiency
 efficient
 effort
 egg
+egregious
 elaborate
 elastic
 elasticity
@@ -1183,6 +1314,7 @@ encounter
 encourage
 endangered language
 endangered species
+endemic
 endurance
 enemy
 energy
@@ -1194,6 +1326,7 @@ energy transition
 energy-intensive
 enforcement
 engage
+engender
 engine
 engineer
 enhance
@@ -1208,9 +1341,11 @@ entertainment
 entire
 entirely
 entitle
+entitlement
 entity
 entrance
 entrant
+entrenched
 entrepreneurship
 entry
 envelope
@@ -1222,8 +1357,10 @@ enzyme
 epidemic
 epidemiology
 episode
+epistemic humility
 equal
 equality
+equality of opportunity
 equally
 equation
 equilibrium
@@ -1233,11 +1370,14 @@ equivalent
 era
 eradicate
 erase
+erode
 error
+erudite
 escape
 essay
 essence
 essential
+essentialise
 essentially
 establish
 establishment
@@ -1245,12 +1385,15 @@ estate
 estimate
 estimation
 ethical
+ethically fraught
 ethics
 ethnic
+ethnocentric
 evaluate
 evaluation
 evening
 eventually
+every now and then
 everybody
 everyday
 everyone
@@ -1262,6 +1405,7 @@ evolution
 evolutionary
 evolve
 ex
+exacerbate
 exact
 exactly
 exam
@@ -1321,6 +1465,7 @@ extra
 extract
 extracurricular activities
 extraordinary
+extrapolate
 extreme
 extreme sports
 extreme weather events
@@ -1340,10 +1485,14 @@ fail
 failure
 fair
 fair play
+fair point
 fairly
 faith
 faithfully
+fall out with
 false
+false dichotomy
+falsifiable
 familiar
 famine
 famous
@@ -1367,6 +1516,7 @@ federal
 fee
 feed
 feedback
+feel the pinch
 fellow
 female
 fence
@@ -1399,8 +1549,10 @@ firm
 firmly
 first-time buyer
 firstly
+fiscal prudence
 fish
 fit
+fit it in
 fitness regime
 fix
 flag
@@ -1435,12 +1587,16 @@ fool
 foot
 football
 footnote
+for the life of me
+for the time being
+for what it's worth
 forecast
 foreign
 foreign direct investment
 forest
 forever
 forget
+fork out
 formal
 formally
 format
@@ -1473,6 +1629,7 @@ frequent
 frequently
 fresh
 friction
+frictionless
 friendly
 friendship
 frighten
@@ -1483,6 +1640,7 @@ fuel
 fuel efficiency
 fuel poverty
 fulfill
+full of themselves
 fully
 fun
 function
@@ -1504,6 +1662,7 @@ gas
 gate
 gated community
 gather
+gather momentum
 gauge
 gay
 gaze
@@ -1530,10 +1689,17 @@ gentrification
 genuine
 geothermal energy
 gesture
+get on like a house on fire
+get to grips with
+get to the bottom of
 ghost
 giant
 gift
 gig economy
+give and take
+give or take
+give rise to
+give someone the benefit of the doubt
 glad
 glance
 glass
@@ -1544,6 +1710,7 @@ global village
 globalisation
 globalization
 globetrotter
+go the extra mile
 go viral
 goal
 goat
@@ -1553,6 +1720,8 @@ golden
 golf
 goodness
 goods
+got a lot of time for
+got cold feet
 govern
 governor
 grab
@@ -1581,6 +1750,7 @@ green
 green belt
 green spaces
 greenhouse gas emissions
+greenwashing
 greet
 grid
 gridlock
@@ -1601,6 +1771,7 @@ guitar
 gullible
 gun
 gut
+gutted
 guy
 habit
 habitat
@@ -1616,14 +1787,22 @@ hang
 happiness
 happy
 harbor
+hard to pin down
 hardly
 harm
+harness
 harvest
+has a real buzz about it
+has a soft spot for
+has seen better days
 hat
 hate
+have a lot on my plate
+having said that
 hawk
 headhunt
 headquarter
+headstrong
 health insurance
 healthcare provision
 healthy
@@ -1665,6 +1844,11 @@ historic
 historical
 historically
 hit
+hit and miss
+hit it off
+hit the ground running
+hit the snooze button
+hold sway
 holder
 hole
 holiday
@@ -1690,6 +1874,7 @@ hot
 hotel
 household
 housing shortage
+how can i put this
 huge
 humane
 humor
@@ -1698,9 +1883,25 @@ hunt
 hurry
 hurt
 husband
+hybridity
 hydroelectric power
 hydrogen
 hypothesis
+i can't help thinking
+i couldn't agree more
+i see where you're coming from
+i take your point
+i was in stitches
+i was none the wiser
+i wouldn't go that far
+i'd be lying if i said
+i'd beg to differ
+i'd go as far as to say
+i'd have to say
+i'll never live it down
+i'm not entirely sure, but
+i'm with you on that
+i've never really given it much thought
 ice
 ideal
 identical
@@ -1708,6 +1909,9 @@ identification
 identify
 identity
 ideology
+if anything
+if i remember rightly
+if you ask me
 ignore
 ill
 illegal
@@ -1743,6 +1947,14 @@ improve
 improvement
 impulse
 impulse buying
+in a manner of speaking
+in all likelihood
+in effect
+in flux
+in the middle of nowhere
+in the nick of time
+in the pipeline
+in two minds about
 incentive
 inch
 incidence
@@ -1752,12 +1964,16 @@ inclusion
 income
 income disparity
 inconclusive
+incontrovertible
 incorporate
 increasingly
 incredible
 incredibly
+incremental
+inculcate
 incumbent
 indeed
+indefensible
 independence
 independent
 independently
@@ -1777,6 +1993,7 @@ industrialize
 industry
 inequality
 inevitably
+inexorable
 infant
 infect
 infection
@@ -1793,6 +2010,7 @@ inform
 informal
 informal settlement
 information overload
+informed consent
 infrastructure
 inhibit
 inhibition
@@ -1811,6 +2029,7 @@ inner city
 innocent
 innovation
 input
+inquiring mind
 inquiry
 inquisitive
 insect
@@ -1818,6 +2037,7 @@ insert
 inside
 insight
 insist
+insofar as
 inspire
 instability
 install
@@ -1829,6 +2049,7 @@ institution
 institutional
 instruction
 instrument
+insular
 insulation
 insurance
 insure
@@ -1839,6 +2060,7 @@ integrated transport system
 integration
 intellectual
 intellectual curiosity
+intellectual rigour
 intelligence
 intend
 intense
@@ -1854,6 +2076,8 @@ interestingly
 interface
 interfere
 intergenerational
+intergenerational equity
+intergenerational poverty
 interior
 intermediate
 intermittent
@@ -1890,11 +2114,30 @@ invite
 involvement
 ion
 iron
+iron out
 irrelevant
+irreparable
 irreversible
 irrigation
 island
 isolate
+it brings back memories
+it cuts both ways
+it depends what you mean by
+it does my head in
+it left a bad taste in my mouth
+it really gets to me
+it rings a bell
+it strikes me that
+it struck a chord
+it took me by surprise
+it was a baptism of fire
+it was touch and go
+it's a far cry from
+it's all a bit of a blur
+it's etched in my memory
+it's hard to argue with
+it's second nature
 item
 itinerary
 itself
@@ -1923,20 +2166,26 @@ justification
 justify
 juvenile delinquency
 keen
+keep someone at arm's length
+keeps themselves to themselves
 key
 keystone species
 kick
 kid
 kidney
 kill
+kill time
 kilometer
 king
+kinship
 kiss
 kitchen
 knee
 knife
 knock
+knock-on effect
 knowledge
+knowledge economy
 lab
 label
 labor
@@ -1945,12 +2194,14 @@ labour market
 labour-saving device
 lack
 lady
+laissez-faire
 lake
 landfill
 landscape
 language acquisition
 language barrier
 largely
+larger than life
 last-mile connectivity
 latchkey child
 lateral
@@ -1968,9 +2219,12 @@ lazy
 leader
 leadership
 leaf
+leafy
 league
 lean
 leap
+learn the ropes
+learner autonomy
 leather
 lecture
 lecturer
@@ -1986,11 +2240,16 @@ lend
 length
 lenient
 lesson
+let me put it this way
+level playing field
+level-headed
 lever
+levy
 lexical
 liability
 liable
 liberal
+liberal education
 library
 license
 lie
@@ -2000,6 +2259,7 @@ lifelong learning
 lifestyle
 lifetime
 lift
+like clockwork
 likelihood
 likely
 likewise
@@ -2023,6 +2283,7 @@ literacy rate
 literally
 literary
 literature
+live beyond your means
 liveability
 liver
 livestock
@@ -2038,15 +2299,22 @@ log
 logic
 logical
 longitudinal
+longitudinal study
+look up to
+looking back
 loop
 loose
+lose touch with
+lose track of time
 loss
+lost for words
 loud
 lovely
 lover
 low-emission zone
 luck
 lucky
+luddite
 lump
 lunch
 lung
@@ -2066,7 +2334,9 @@ mainstream media
 maintain
 maintenance
 majority
+make ends meet
 maker
+makes my blood boil
 male
 mall
 malnutrition
@@ -2085,11 +2355,15 @@ map
 marble
 march
 margin
+margin of error
 marginal
 marginalised
+marginally
 marine life
 mark
+marked shift
 marker
+market failure
 marriage
 marrow
 marry
@@ -2113,6 +2387,7 @@ maximum
 mayor
 meal
 meaningful
+means-tested
 meanwhile
 measure
 measurement
@@ -2129,6 +2404,7 @@ medicine
 medium
 mega-event
 megacity
+melting pot
 membership
 membrane
 memorize
@@ -2142,10 +2418,13 @@ mercury
 mere
 merely
 merge
+meritocracy
 mess
 message
 messenger
+meta-analysis
 metabolism
+metacognition
 metal
 metaphor
 meter
@@ -2158,6 +2437,7 @@ migrate
 migration
 mile
 military
+militate against
 milk
 millimeter
 mine
@@ -2179,6 +2459,7 @@ mission
 mistake
 mitigate
 mix
+mixed feelings
 mixed-ability class
 mixed-use development
 mixture
@@ -2197,6 +2478,8 @@ molecule
 mom
 momentum
 monetary
+money doesn't grow on trees
+money's a bit tight
 monitor
 monkey
 monoculture
@@ -2204,8 +2487,14 @@ monopoly
 monthly
 mood
 moon
+moot point
 moral
+moral grey area
+moral hazard
+moral obligation
+moral relativism
 morality
+more or less
 moreover
 morphological
 morphology
@@ -2226,6 +2515,7 @@ mouse
 mouth
 movement
 movie
+muddle through
 multi
 multicultural
 multilingual
@@ -2240,6 +2530,7 @@ musical
 musician
 mutation
 mutual
+my heart isn't in it
 myself
 mystery
 myth
@@ -2248,6 +2539,7 @@ namely
 nanny state
 narrative
 narrow
+narrow curriculum
 nasty
 nation
 national
@@ -2267,6 +2559,7 @@ necessary
 necessity
 neck
 negative
+negative externalities
 neglect
 negotiate
 negotiation
@@ -2291,6 +2584,7 @@ newspaper
 nice
 nicely
 niche
+nip it in the bud
 nitrogen
 noble
 nobody
@@ -2310,14 +2604,21 @@ normally
 north
 northern
 nose
+not exactly over the moon
+not my cup of tea
+not necessarily
+not sold on
 notation
 notice
 notion
+notwithstanding
 noun
 novel
 novice
+now that i think about it
 nowadays
 nowhere
+nuanced
 nuclear
 nuclear family
 nuclear power
@@ -2354,6 +2655,8 @@ occurrence
 ocean
 odd
 off the beaten track
+off the top of my head
+off the tourist trail
 off-grid
 offender
 offense
@@ -2362,12 +2665,20 @@ official
 offspring
 oil
 okay
+on balance
+on cloud nine
+on edge
+on good terms with
 on the brink of extinction
+on the same wavelength
+once in a blue moon
+once-in-a-lifetime
 online
 online anonymity
 onset
 onto
 onwards
+opaque
 opera
 operate
 operation
@@ -2375,6 +2686,7 @@ operator
 opinion
 opponent
 opportunity
+opportunity cost
 oppose
 opposite
 opposition
@@ -2398,6 +2710,8 @@ origin
 original
 originally
 oscillation
+ostensibly
+otherness
 otherwise
 ought
 ourselves
@@ -2406,6 +2720,7 @@ outcome
 outdoor pursuits
 outer
 outlet
+outlier
 outline
 output
 outsourcing
@@ -2413,8 +2728,10 @@ over-reliance
 over-the-counter
 overall
 overcome
+overconsumption
 overcrowded
 overfishing
+overhaul
 overhead
 overlap
 overprotective
@@ -2455,6 +2772,7 @@ parenthesis
 parenting style
 park
 park-and-ride
+parochial
 parole
 partial
 partially
@@ -2471,19 +2789,23 @@ passage
 passenger
 passion
 pastime
+patch things up
 patent
+paternalistic
 path
 pathway
 patient
 patron
 pattern
 pause
+pay over the odds
 payment
 peace
 peak
 peak demand
 peak season
 peasant
+pedagogical
 pedagogy
 pedestrianisation
 peer
@@ -2508,14 +2830,17 @@ permanent
 permission
 permissive
 permit
+perpetuate
 personal
 personal best
 personality
 personally
+personally speaking
 personnel
 perspective
 persuade
 persuasive
+pervasive
 pest
 pesticide
 petty crime
@@ -2543,6 +2868,7 @@ pi
 piano
 pick
 picture
+picture-postcard
 picturesque
 piece
 pig
@@ -2556,12 +2882,15 @@ plagiarism
 plain
 plane
 planet
+planetary boundaries
+planned obsolescence
 planner
 plant
 plant-based diet
 plantation
 plastic
 plate
+plateau
 platform
 plausible
 player
@@ -2577,6 +2906,7 @@ pocket
 poem
 poet
 poetry
+poky
 polar
 pole
 police
@@ -2587,6 +2917,7 @@ politics
 poll
 pollutant
 pollution
+polymath
 pool
 poor
 pop
@@ -2599,6 +2930,7 @@ portrait
 portray
 portrayal
 pose
+posit
 positive
 positively
 possess
@@ -2606,6 +2938,7 @@ possession
 possibility
 possibly
 post
+postcode lottery
 poster
 postgraduate
 pot
@@ -2617,6 +2950,7 @@ pound
 pour
 poverty
 poverty line
+poverty trap
 powder
 power grid
 power outage
@@ -2627,9 +2961,11 @@ pragmatic
 praise
 pray
 pre
+precarious
 precede
 precipitate
 precipitation
+precipitous
 precise
 precisely
 predator
@@ -2642,6 +2978,7 @@ pregnancy
 pregnant
 prejudice
 preliminary
+preliminary findings
 premise
 preparation
 prepare
@@ -2652,6 +2989,7 @@ president
 presidential
 press
 press freedom
+pressed for time
 pressure
 presumably
 presume
@@ -2677,6 +3015,7 @@ prior
 priority
 prison
 prisoner
+pristine
 private
 privilege
 prize
@@ -2699,12 +3038,14 @@ professor
 proficiency
 profile
 profit
+profligate
 profound
 progress
 progression
 progressive
 project
 projection
+proliferate
 prominent
 promise
 promote
@@ -2732,18 +3073,21 @@ proud
 prove
 province
 provision
+provisional
 psychiatric
 psychological
 psychologist
 psychology
 pub
 public funding
+public goods
 public health campaign
 public opinion
 publication
 publish
 publisher
 pull
+pull your weight
 pulse
 pump
 punch
@@ -2755,10 +3099,12 @@ purchase
 purchasing power
 pure
 purely
+purportedly
 purpose
 pursue
 push
 push the boundaries
+put aside
 puzzle
 qualification
 qualify
@@ -2770,6 +3116,7 @@ quantum
 quarter
 questionnaire
 quick
+quick-witted
 quickly
 quiet
 quietly
@@ -2787,6 +3134,7 @@ radius
 rail
 rain
 rainfall
+ramifications
 random
 randomize
 randomly
@@ -2817,7 +3165,10 @@ realm
 rear
 reasonable
 reasonably
+rebut
+recalibrate
 recall
+received wisdom
 recent
 recently
 receptor
@@ -2836,8 +3187,10 @@ recreational
 recruit
 red
 red tape
+redistribution
 reduce
 reduction
+reductive
 redundancy
 refer
 reference
@@ -2847,14 +3200,17 @@ reforestation
 reform
 refugee
 refuse
+refute
 regard
 regardless
+regenerative
 regime
 region
 regional
 register
 registration
 regression
+regressive taxation
 regret
 regular
 regularly
@@ -2889,6 +3245,7 @@ render
 renewable energy
 rent
 rent control
+rent-seeking
 reoffend
 repair
 repeat
@@ -2903,6 +3260,7 @@ represent
 representation
 representative
 reproduce
+reproducibility
 reproduction
 republic
 reputation
@@ -2939,6 +3297,7 @@ restaurant
 restore
 restrict
 restriction
+resurgence
 retail
 retain
 retire
@@ -2952,6 +3311,7 @@ revise
 revolution
 revolutionary
 reward
+rewilding
 rewrite
 rhetoric
 rhythm
@@ -2963,6 +3323,7 @@ ride-hailing
 ridiculous
 rigorous
 ring
+ring-fence
 rising sea levels
 risk
 ritual
@@ -2978,11 +3339,14 @@ roll
 romantic
 roof
 root
+root cause
+rootless
 rope
 rotate
 rotation
 rote learning
 rough
+rough and ready
 roughly
 round
 route
@@ -2992,6 +3356,7 @@ royal
 rub
 ruin
 ruler
+run-down
 rural
 rural-urban migration
 rush
@@ -3010,6 +3375,7 @@ sand
 satisfaction
 satisfy
 save
+scaffolding
 scale
 scan
 scare
@@ -3024,6 +3390,7 @@ science
 scientific
 scientific consensus
 scientific literacy
+scientific orthodoxy
 scientist
 scope
 score
@@ -3032,7 +3399,9 @@ screen
 screen time
 scripture
 scroll
+scrupulous
 sea
+sea change
 seal
 search
 season
@@ -3049,6 +3418,7 @@ secure
 security
 sedentary lifestyle
 sediment
+see eye to eye
 seed
 seek
 segment
@@ -3057,6 +3427,7 @@ selection
 selective
 self
 self-employed
+self-fulfilling prophecy
 self-sufficiency
 semantic
 semester
@@ -3065,6 +3436,7 @@ seminar
 senior
 sensation
 sensationalism
+sense of belonging
 sensible
 sensitive
 sensitivity
@@ -3081,6 +3453,9 @@ servant
 serve
 server
 session
+set in motion
+set in their ways
+set my sights on
 settle
 settlement
 severe
@@ -3107,6 +3482,7 @@ shirt
 shock
 shoe
 shoot
+shop around
 shoplifting
 shore
 short-haul flight
@@ -3171,6 +3547,7 @@ slide
 slight
 slightly
 slip
+slippery slope
 slope
 slot
 slow
@@ -3185,18 +3562,23 @@ smoke
 smooth
 snake
 snap
+snap up
 sneeze
 sniff
 snow
+snowed under
 soaring property prices
 social cohesion
+social exclusion
 social housing
 social inequality
 social media influencer
 social mobility
+social stratification
 socialize
 socially
 society
+socio-economic status
 sodium
 soft
 software
@@ -3221,6 +3603,7 @@ song
 sophisticate
 sorry
 soul
+soulless
 source
 south
 southern
@@ -3239,6 +3622,7 @@ specifically
 specification
 specify
 specimen
+specious
 spectator sport
 spectrum
 speech
@@ -3246,8 +3630,10 @@ speed
 spell
 sperm
 sphere
+spill over into
 spin
 spirit
+splash out on
 splice
 split
 sponsor
@@ -3259,6 +3645,7 @@ sporting legacy
 sports facilities
 sportsmanship
 spot
+sprawling
 spray
 spread
 spring
@@ -3269,6 +3656,7 @@ stable
 stack
 staff turnover
 stage
+stagnate
 stain
 stair
 stake
@@ -3289,15 +3677,22 @@ station
 statistic
 statistical
 statistically
+statistically significant
 status
 steady
 steal
 steel
+steeped in history
 stem
+stem from
+step up to the plate
 stereotype
+stewardship
 stick
+stigmatise
 stimulate
 stimulus
+stimulus package
 stir
 stock
 stomach
@@ -3313,6 +3708,7 @@ strange
 stranger
 strategic
 strategy
+straw man
 stream
 streamline
 street
@@ -3322,6 +3718,7 @@ stress
 stretch
 strict
 strictly
+strictly speaking
 strike
 string
 strip
@@ -3329,8 +3726,11 @@ stripe
 stroke
 strongly
 structural
+structural disadvantage
 structure
 struggle
+stuck in a rut
+stuck with me
 studio
 stuff
 stupid
@@ -3348,6 +3748,7 @@ subsistence farming
 substance
 substance abuse
 substantial
+substantiate
 substitute
 substitution
 substrate
@@ -3375,6 +3776,7 @@ summer
 sun
 super
 superior
+supersede
 supplement
 supplier
 supply
@@ -3392,6 +3794,7 @@ surprise
 surprisingly
 surround
 surveillance
+surveillance capitalism
 survey
 survival
 survive
@@ -3406,6 +3809,7 @@ swap
 swear
 sweatshop
 sweep
+sweeping generalisation
 sweet
 swell
 swim
@@ -3424,8 +3828,14 @@ synthesis
 synthetic
 systematic
 tabloid
+tacit knowledge
 tackle
+tackle head-on
 tail
+take issue with
+take on
+taken aback
+takes after
 tale
 talent
 tall
@@ -3442,6 +3852,7 @@ taxi
 taxpayers' money
 tea
 teach
+teaching to the test
 team spirit
 tear
 tech
@@ -3449,10 +3860,14 @@ tech-savvy
 technical
 technically
 technique
+techno-optimism
 technological breakthrough
+technological determinism
 technology
 technophobe
+teeming with
 teenager
+teething problems
 telephone
 television
 temperature
@@ -3467,6 +3882,8 @@ tennis
 tense
 tension
 tent
+tentative
+tenuous
 terminal
 terminology
 terrible
@@ -3476,6 +3893,24 @@ terrorist
 tertiary education
 text
 textbook
+that said
+that's beside the point
+that's debatable
+that's not quite how i see it
+the attention economy
+the burden of proof
+the daily grind
+the ends justify the means
+the greater good
+the haves and have-nots
+the jury's still out on
+the life and soul of the party
+the precautionary principle
+the public purse
+the short answer is
+the tip of the iceberg
+the tragedy of the commons
+the way i see it
 theater
 theme
 theorem
@@ -3483,6 +3918,10 @@ theoretical
 theorist
 theory
 therapy
+there for me
+there's a lot to be said for
+there's no easy answer to that
+there's no one-size-fits-all
 thereby
 therefore
 thermal
@@ -3498,19 +3937,29 @@ threshold
 throat
 throughout
 throw
+throw money at
+thrown in at the deep end
 thumb
 thus
 ticket
 tidal energy
 tie
 tight
+tighten my belt
 till
+time flies
 time-honoured
 tiny
 tip
+tipping point
 tire
 tissue
 title
+to a certain extent
+to a degree
+to be fair
+to my mind
+tokenism
 tolerance
 toll
 tomorrow
@@ -3571,6 +4020,7 @@ trap
 trauma
 travel
 treat
+treat myself
 treatment
 treaty
 tree
@@ -3581,6 +4031,7 @@ trial and error
 triangle
 tribe
 trick
+trickle-down economics
 tricky
 trigger
 trip
@@ -3602,29 +4053,36 @@ tutor
 twice
 twin
 twist
+two-tier system
 typical
 typically
+ubiquitous
 ugly
 ultimate
 ultimately
 unable
+unassuming
 uncertainty
 uncle
 unclear
+unconscionable
 undergo
 undergraduate
 underlie
 underlying condition
 undermine
 underneath
+underpin
 undertake
 unemployed
 unemployment
 unemployment rate
+unfettered
 unfortunately
 uniform
 unify
 unintelligible
+unintended consequences
 union
 unique
 unit
@@ -3640,15 +4098,21 @@ unlikely
 unrealistic beauty standards
 unspoilt
 unstable
+unsustainable
+untenable
 unusual
 unwind
+up to a point
+up-and-coming
 upbringing
 update
 uplift
 upon
 upper
 upset
+upsurge
 upward
+upward mobility
 urban
 urban heat island
 urban planning
@@ -3694,6 +4158,7 @@ velocity
 venture
 verb
 verbal
+vernacular
 version
 versus
 vertical
@@ -3702,6 +4167,7 @@ veteran
 via
 viable
 vice
+vicious circle
 victim
 victory
 video
@@ -3718,6 +4184,7 @@ visitor
 visual
 vital
 vitamin
+vividly remember
 vocabulary
 vocational training
 voice
@@ -3734,6 +4201,7 @@ wake
 wall
 wander
 wanderlust
+wane
 warm
 warn
 wash
@@ -3741,6 +4209,8 @@ waste
 watershed
 wave
 wavelength
+we go back a long way
+we're like chalk and cheese
 weak
 weakness
 wealth
@@ -3749,6 +4219,7 @@ wealthy
 weapon
 wear
 wearable technology
+wears their heart on their sleeve
 weather
 weave
 web
@@ -3766,9 +4237,11 @@ west
 western
 westernisation
 wet
+what i'm getting at is
 whatever
 wheat
 wheel
+when all's said and done
 whenever
 whereas
 whereby
@@ -3776,6 +4249,7 @@ wherever
 whichever
 whilst
 whisper
+whistle-blower
 white-collar
 white-collar crime
 whoever
@@ -3787,6 +4261,7 @@ wild
 wildlife corridor
 wildlife reserve
 wind
+wind down
 wind farm
 window
 wine
@@ -3798,6 +4273,7 @@ wire
 wisdom
 wise
 wish
+with hindsight
 withdraw
 witness
 wonder
@@ -3811,16 +4287,20 @@ workshop
 world heritage site
 worry
 worth
+worth every penny
+wouldn't want to live there
 wound
 wrap
 writer
 wrong
+xenophobia
 yard
 yeah
 yeast
 yellow
 yesterday
 yield
+you've got a point there
 yourself
 youth
 zone

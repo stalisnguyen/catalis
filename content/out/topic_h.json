@@ -1,0 +1,4810 @@
+[
+ {
+  "w": "fair enough",
+  "ipa": "/ˌfeər ɪˈnʌf/",
+  "pos": "phr",
+  "vi": "được thôi, hợp lý (chấp nhận lý do của người khác)",
+  "ex": "Fair enough, I hadn't thought about how expensive it would be to run a car in a city like that.",
+  "exvi": "Cũng hợp lý, tôi chưa nghĩ đến chuyện nuôi một chiếc xe ở thành phố như thế tốn kém đến mức nào.",
+  "col": [
+   "fair enough, but...",
+   "that's fair enough"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "tell me about it",
+  "ipa": "/ˈtel mi əˈbaʊt ɪt/",
+  "pos": "idiom",
+  "vi": "đúng thế, tôi hiểu quá mà (vì cũng từng trải qua)",
+  "ex": "Commuting in rush hour? Tell me about it, I spent two years squashed on the same train every morning.",
+  "exvi": "Đi làm giờ cao điểm hả? Tôi hiểu quá, tôi từng bị ép chặt trên đúng chuyến tàu đó mỗi sáng suốt hai năm.",
+  "col": [
+   "oh, tell me about it",
+   "tell me about it, I..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "you're telling me",
+  "ipa": "/jɔː ˈtelɪŋ mi/",
+  "pos": "idiom",
+  "vi": "còn phải nói, tôi biết rõ điều đó",
+  "ex": "You're telling me the weather's been unpredictable lately; I got soaked twice last week without an umbrella.",
+  "exvi": "Còn phải nói, dạo này thời tiết thất thường lắm, tuần trước tôi bị ướt sũng hai lần vì không mang ô.",
+  "col": [
+   "you're telling me!",
+   "you're telling me it's..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "fancy that",
+  "ipa": "/ˈfænsi ˈðæt/",
+  "pos": "idiom",
+  "vi": "ồ, thật bất ngờ (hơi hài hước)",
+  "ex": "My old English teacher now runs a bakery down the road from me, fancy that.",
+  "exvi": "Cô giáo tiếng Anh cũ của tôi giờ mở tiệm bánh ngay cuối phố nhà tôi, bất ngờ thật.",
+  "col": [
+   "well, fancy that",
+   "fancy that!"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "can't complain",
+  "ipa": "/ˌkɑːnt kəmˈpleɪn/",
+  "pos": "phr",
+  "vi": "cũng ổn, không có gì phải than",
+  "ex": "Work's been fairly busy, but honestly I can't complain, the team's great and the hours are flexible.",
+  "exvi": "Công việc khá bận nhưng thật ra tôi chẳng có gì phải than, đội nhóm tốt mà giờ giấc lại linh hoạt.",
+  "col": [
+   "I can't complain",
+   "mustn't grumble, can't complain"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "rather you than me",
+  "ipa": "/ˈrɑːðə ju ðən ˈmiː/",
+  "pos": "idiom",
+  "vi": "bạn làm thì được chứ tôi thì chịu",
+  "ex": "You're running a marathon in this heat? Rather you than me, I'd be wiped out after five kilometres.",
+  "exvi": "Bạn chạy marathon trong cái nóng này à? Bạn thì được chứ tôi chịu, năm cây số là tôi kiệt sức rồi.",
+  "col": [
+   "rather you than me!",
+   "well, rather you than me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "good for you",
+  "ipa": "/ˈɡʊd fə ˈjuː/",
+  "pos": "phr",
+  "vi": "hay quá, chúc mừng bạn (khen ngợi, ủng hộ)",
+  "ex": "My cousin finally quit her job to retrain as a nurse, and I just thought, good for you.",
+  "exvi": "Chị họ tôi cuối cùng cũng nghỉ việc để học lại làm y tá, và tôi chỉ nghĩ: hay quá, chúc mừng chị.",
+  "col": [
+   "good for you!",
+   "good for her"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it's not the end of the world",
+  "ipa": "/ɪts ˌnɒt ði ˌend əv ðə ˈwɜːld/",
+  "pos": "idiom",
+  "vi": "không phải chuyện gì ghê gớm, không đến nỗi tận thế",
+  "ex": "I missed the deadline by a day, but it's not the end of the world, my manager was surprisingly relaxed about it.",
+  "exvi": "Tôi trễ hạn một ngày nhưng cũng chẳng phải chuyện tày trời, sếp tôi lại khá thoải mái.",
+  "col": [
+   "it's not the end of the world if...",
+   "hardly the end of the world"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "that makes two of us",
+  "ipa": "/ðæt ˌmeɪks ˈtuː əv əs/",
+  "pos": "idiom",
+  "vi": "tôi cũng vậy",
+  "ex": "You've never really understood the appeal of reality TV? That makes two of us.",
+  "exvi": "Bạn chưa bao giờ hiểu nổi sức hút của truyền hình thực tế à? Tôi cũng thế.",
+  "col": [
+   "well, that makes two of us",
+   "that makes two of us, then"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "you can say that again",
+  "ipa": "/ju kən ˈseɪ ðæt əˈɡen/",
+  "pos": "idiom",
+  "vi": "quá đúng, hoàn toàn đồng ý",
+  "ex": "Rents in the city centre have gone through the roof? You can say that again.",
+  "exvi": "Giá thuê nhà ở trung tâm tăng vọt à? Quá đúng luôn.",
+  "col": [
+   "you can say that again!",
+   "oh, you can say that again"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "these things happen",
+  "ipa": "/ˈðiːz ˌθɪŋz ˈhæpən/",
+  "pos": "phr",
+  "vi": "chuyện thường thôi, ai cũng gặp",
+  "ex": "The flight was cancelled at the last minute, but these things happen, so we just booked a hotel and made the best of it.",
+  "exvi": "Chuyến bay bị hủy vào phút chót nhưng chuyện đó thường thôi, nên chúng tôi đặt khách sạn và tận hưởng theo cách khác.",
+  "col": [
+   "these things happen",
+   "it happens"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I can take it or leave it",
+  "ipa": "/aɪ kən ˌteɪk ɪt ɔː ˈliːv ɪt/",
+  "pos": "idiom",
+  "vi": "có cũng được, không có cũng chẳng sao",
+  "ex": "To be honest, I can take it or leave it when it comes to football, I only watch the big tournaments.",
+  "exvi": "Thật ra bóng đá với tôi có cũng được không cũng chẳng sao, tôi chỉ xem các giải lớn.",
+  "col": [
+   "I can take or leave...",
+   "it's take it or leave it for me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "that's putting it mildly",
+  "ipa": "/ðæts ˈpʊtɪŋ ɪt ˈmaɪldli/",
+  "pos": "idiom",
+  "vi": "nói vậy còn nhẹ đấy",
+  "ex": "Saying the exam was challenging is putting it mildly; half the class walked out looking shell-shocked.",
+  "exvi": "Nói kỳ thi khó là còn nhẹ đấy, nửa lớp bước ra mặt mũi ngơ ngác.",
+  "col": [
+   "that's putting it mildly",
+   "to put it mildly"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I could have kicked myself",
+  "ipa": "/aɪ ˈkʊd əv ˈkɪkt maɪˈself/",
+  "pos": "idiom",
+  "vi": "tôi tức mình ghê (vì lỗi ngớ ngẩn của bản thân)",
+  "ex": "I could have kicked myself when I realised I'd left my passport on the kitchen table.",
+  "exvi": "Tôi tức mình kinh khủng khi nhận ra mình để quên hộ chiếu trên bàn bếp.",
+  "col": [
+   "I could have kicked myself when...",
+   "I could kick myself"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I didn't know where to look",
+  "ipa": "/aɪ ˈdɪdnt ˌnəʊ weə tə ˈlʊk/",
+  "pos": "idiom",
+  "vi": "tôi ngượng chín người, không biết nhìn đi đâu",
+  "ex": "When my boss read my rather blunt email out to the whole meeting, I didn't know where to look.",
+  "exvi": "Khi sếp đọc to cái email khá thẳng thừng của tôi trước cả cuộc họp, tôi ngượng chín người.",
+  "col": [
+   "I didn't know where to look",
+   "not know where to put yourself"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it threw me",
+  "ipa": "/ɪt ˈθruː mi/",
+  "pos": "phr",
+  "vi": "làm tôi lúng túng, bối rối",
+  "ex": "The interviewer suddenly switched to asking about my childhood, and it threw me for a moment.",
+  "exvi": "Người phỏng vấn đột nhiên chuyển sang hỏi về tuổi thơ của tôi, và tôi lúng túng mất một lúc.",
+  "col": [
+   "it threw me for a moment",
+   "it really threw me",
+   "throw someone off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "gobsmacked",
+  "ipa": "/ˈɡɒbsmækt/",
+  "pos": "adj",
+  "vi": "sửng sốt, há hốc mồm (thân mật, Anh)",
+  "ex": "I was absolutely gobsmacked when I saw how much the village had changed in just ten years.",
+  "exvi": "Tôi sửng sốt thật sự khi thấy ngôi làng đã thay đổi nhiều thế nào chỉ trong mười năm.",
+  "col": [
+   "absolutely gobsmacked",
+   "I was gobsmacked when..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it made my day",
+  "ipa": "/ɪt ˌmeɪd maɪ ˈdeɪ/",
+  "pos": "idiom",
+  "vi": "làm tôi vui cả ngày",
+  "ex": "A stranger stopped me on the street just to say she liked my jacket, and honestly it made my day.",
+  "exvi": "Một người lạ dừng tôi lại trên phố chỉ để khen áo khoác của tôi, thật lòng là tôi vui cả ngày.",
+  "col": [
+   "it really made my day",
+   "that made my day"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it beggars belief",
+  "ipa": "/ɪt ˈbeɡəz bɪˈliːf/",
+  "pos": "idiom",
+  "vi": "thật khó tin, không thể tin nổi (thường là bực)",
+  "ex": "It beggars belief that some companies still don't let staff work from home even one day a week.",
+  "exvi": "Thật khó tin là vẫn có công ty không cho nhân viên làm ở nhà dù chỉ một ngày mỗi tuần.",
+  "col": [
+   "it beggars belief that...",
+   "frankly, it beggars belief"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it's neither here nor there",
+  "ipa": "/ɪts ˌnaɪðə ˈhɪə nɔː ˈðeə/",
+  "pos": "idiom",
+  "vi": "chẳng quan trọng, không liên quan",
+  "ex": "Whether the café is trendy or not is neither here nor there to me, I just want decent coffee.",
+  "exvi": "Quán có hợp mốt hay không chẳng quan trọng với tôi, tôi chỉ cần cà phê ngon.",
+  "col": [
+   "that's neither here nor there",
+   "it's neither here nor there whether..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I'm all for it",
+  "ipa": "/aɪm ˈɔːl fər ɪt/",
+  "pos": "phr",
+  "vi": "tôi hoàn toàn ủng hộ",
+  "ex": "If the council wants to turn that car park into a public garden, I'm all for it.",
+  "exvi": "Nếu chính quyền muốn biến bãi đỗ xe đó thành vườn công cộng thì tôi hoàn toàn ủng hộ.",
+  "col": [
+   "I'm all for it",
+   "I'm all for + noun/-ing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "count me in",
+  "ipa": "/ˌkaʊnt mi ˈɪn/",
+  "pos": "phr v",
+  "vi": "cho tôi tham gia với",
+  "ex": "If you're organising a weekend hike in the hills, count me in, I've been dying to get out of the city.",
+  "exvi": "Nếu bạn tổ chức đi bộ đường dài cuối tuần thì cho tôi một suất, tôi đang thèm ra khỏi thành phố lắm.",
+  "col": [
+   "count me in",
+   "count me out"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "that's the last thing I need",
+  "ipa": "/ðæts ðə ˈlɑːst θɪŋ aɪ ˈniːd/",
+  "pos": "idiom",
+  "vi": "đó là điều tôi không muốn chút nào lúc này",
+  "ex": "My laptop crashed the night before the presentation, which was the last thing I needed.",
+  "exvi": "Laptop của tôi hỏng ngay đêm trước buổi thuyết trình, đúng là điều tôi không cần nhất lúc đó.",
+  "col": [
+   "the last thing I need is...",
+   "just the last thing I needed"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I can't say I blame",
+  "ipa": "/aɪ ˌkɑːnt seɪ aɪ ˈbleɪm/",
+  "pos": "phr",
+  "vi": "tôi chẳng trách được (vì cũng hiểu lý do)",
+  "ex": "Lots of young people are leaving the countryside, and I can't say I blame them given the lack of jobs.",
+  "exvi": "Nhiều người trẻ rời nông thôn và tôi chẳng trách họ được khi việc làm ít như vậy.",
+  "col": [
+   "I can't say I blame them",
+   "I don't blame you"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "you've got to laugh",
+  "ipa": "/juv ˌɡɒt tə ˈlɑːf/",
+  "pos": "idiom",
+  "vi": "thôi thì cười cho qua (khi gặp chuyện xui)",
+  "ex": "The tent collapsed in the middle of the night and we were soaked, but you've got to laugh, haven't you?",
+  "exvi": "Lều sập giữa đêm và chúng tôi ướt sũng, nhưng thôi thì cười cho qua chứ biết làm sao.",
+  "col": [
+   "you've got to laugh",
+   "you have to laugh"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it's just one of those things",
+  "ipa": "/ɪts ˌdʒʌst ˈwʌn əv ˈðəʊz ˌθɪŋz/",
+  "pos": "idiom",
+  "vi": "chuyện không tránh được, chẳng ai có lỗi",
+  "ex": "We lost touch after university; nobody fell out, it's just one of those things.",
+  "exvi": "Chúng tôi mất liên lạc sau đại học, không ai giận ai cả, chỉ là chuyện đời vậy thôi.",
+  "col": [
+   "it's just one of those things",
+   "one of those days"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I'll believe it when I see it",
+  "ipa": "/aɪl bɪˈliːv ɪt wen aɪ ˈsiː ɪt/",
+  "pos": "idiom",
+  "vi": "phải tận mắt thấy tôi mới tin",
+  "ex": "They keep promising a direct train to the airport, but I'll believe it when I see it.",
+  "exvi": "Họ cứ hứa sẽ có tàu thẳng ra sân bay, nhưng phải thấy tận mắt tôi mới tin.",
+  "col": [
+   "I'll believe it when I see it",
+   "seeing is believing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "so far so good",
+  "ipa": "/ˌsəʊ fɑː səʊ ˈɡʊd/",
+  "pos": "idiom",
+  "vi": "đến giờ vẫn ổn",
+  "ex": "I've only been learning the guitar for a month, but so far so good, my fingers have stopped hurting at least.",
+  "exvi": "Tôi mới học guitar được một tháng nhưng đến giờ vẫn ổn, ít ra ngón tay đã hết đau.",
+  "col": [
+   "so far so good",
+   "so far, so good, but..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "that figures",
+  "ipa": "/ðæt ˈfɪɡəz/",
+  "pos": "phr",
+  "vi": "thảo nào, chẳng có gì lạ",
+  "ex": "He said he never reads the news? That figures, he had no idea there'd been an election.",
+  "exvi": "Anh ấy nói chẳng bao giờ đọc tin tức à? Thảo nào, anh ấy còn không biết vừa có bầu cử.",
+  "col": [
+   "that figures",
+   "it figures"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "no wonder",
+  "ipa": "/ˌnəʊ ˈwʌndə/",
+  "pos": "phr",
+  "vi": "thảo nào, hèn gì",
+  "ex": "You've been working until midnight all week? No wonder you look exhausted.",
+  "exvi": "Bạn làm đến nửa đêm cả tuần à? Hèn gì trông bạn mệt rã rời.",
+  "col": [
+   "no wonder...",
+   "it's no wonder (that)...",
+   "little wonder"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it doesn't bear thinking about",
+  "ipa": "/ɪt ˌdʌznt ˈbeə ˈθɪŋkɪŋ əˈbaʊt/",
+  "pos": "idiom",
+  "vi": "nghĩ đến thôi đã thấy sợ",
+  "ex": "If the brakes had failed on that mountain road, well, it doesn't bear thinking about.",
+  "exvi": "Nếu phanh hỏng trên con đường núi đó thì, thôi, nghĩ đến đã thấy sợ.",
+  "col": [
+   "it doesn't bear thinking about",
+   "what might have happened doesn't bear thinking about"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "a sore point",
+  "ipa": "/ə ˌsɔː ˈpɔɪnt/",
+  "pos": "idiom",
+  "vi": "chuyện nhạy cảm, động vào là khó chịu",
+  "ex": "Don't mention the driving test to my brother, it's still a bit of a sore point after he failed it three times.",
+  "exvi": "Đừng nhắc chuyện thi bằng lái với em tôi, đó vẫn là chuyện nhạy cảm sau ba lần trượt.",
+  "col": [
+   "a bit of a sore point",
+   "a sore point with someone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it took a while to sink in",
+  "ipa": "/ɪt ˌtʊk ə ˈwaɪl tə ˌsɪŋk ˈɪn/",
+  "pos": "idiom",
+  "vi": "phải một lúc sau mới thấm, mới nhận ra hết",
+  "ex": "When I got the scholarship, it took a while to sink in that I'd actually be living abroad for four years.",
+  "exvi": "Khi nhận học bổng, phải một lúc sau tôi mới thấm là mình thật sự sẽ sống ở nước ngoài bốn năm.",
+  "col": [
+   "it hasn't really sunk in yet",
+   "it took a while to sink in",
+   "let it sink in"
+  ],
+  "fam": "sink in (phr v)",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "a bit of a let-down",
+  "ipa": "/ə ˌbɪt əv ə ˈlet daʊn/",
+  "pos": "phr",
+  "vi": "hơi thất vọng, không như mong đợi",
+  "ex": "The film had brilliant reviews, but to be honest I found the ending a bit of a let-down.",
+  "exvi": "Bộ phim được khen nức nở nhưng thật lòng tôi thấy cái kết hơi thất vọng.",
+  "col": [
+   "a bit of a let-down",
+   "a real let-down"
+  ],
+  "fam": "let down (phr v), let-down (n)",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "pleasantly surprised",
+  "ipa": "/ˌplezntli səˈpraɪzd/",
+  "pos": "phr",
+  "vi": "ngạc nhiên một cách vui vẻ",
+  "ex": "I'm not usually into museums, but I was pleasantly surprised by how interactive the science one was.",
+  "exvi": "Tôi vốn không mê bảo tàng nhưng lại bất ngờ thích thú vì bảo tàng khoa học ấy tương tác nhiều thế.",
+  "col": [
+   "pleasantly surprised by",
+   "I was pleasantly surprised to find..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "thrilled to bits",
+  "ipa": "/ˌθrɪld tə ˈbɪts/",
+  "pos": "idiom",
+  "vi": "vui sướng tột độ",
+  "ex": "My grandmother was thrilled to bits when we turned up for her birthday without telling her.",
+  "exvi": "Bà tôi vui sướng vô cùng khi chúng tôi đến mừng sinh nhật mà không báo trước.",
+  "col": [
+   "thrilled to bits",
+   "absolutely thrilled"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "right up my street",
+  "ipa": "/ˌraɪt ʌp maɪ ˈstriːt/",
+  "pos": "idiom",
+  "vi": "rất hợp gu tôi",
+  "ex": "A cooking class in an old farmhouse sounds right up my street.",
+  "exvi": "Một lớp nấu ăn trong ngôi nhà nông trại cũ nghe rất hợp gu tôi.",
+  "col": [
+   "right up my street",
+   "right up your alley (US)"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "not to be sniffed at",
+  "ipa": "/ˌnɒt tə bi ˈsnɪft æt/",
+  "pos": "idiom",
+  "vi": "không phải chuyện nhỏ, không nên coi thường",
+  "ex": "A ten per cent pay rise isn't to be sniffed at, especially in the current climate.",
+  "exvi": "Tăng lương mười phần trăm đâu phải chuyện nhỏ, nhất là trong tình hình hiện nay.",
+  "col": [
+   "not to be sniffed at",
+   "nothing to sniff at"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "caught me off guard",
+  "ipa": "/ˌkɔːt mi ˌɒf ˈɡɑːd/",
+  "pos": "idiom",
+  "vi": "làm tôi bất ngờ, không kịp phòng bị",
+  "ex": "The question about my weaknesses caught me off guard, so I just said the first thing that came into my head.",
+  "exvi": "Câu hỏi về điểm yếu làm tôi bất ngờ nên tôi nói luôn điều đầu tiên nảy ra trong đầu.",
+  "col": [
+   "catch someone off guard",
+   "be caught off guard by"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "couldn't believe my luck",
+  "ipa": "/ˈkʊdnt bɪˌliːv maɪ ˈlʌk/",
+  "pos": "idiom",
+  "vi": "không tin nổi mình may đến vậy",
+  "ex": "I found a first edition of my favourite novel for two pounds and couldn't believe my luck.",
+  "exvi": "Tôi tìm được bản in đầu tiên cuốn tiểu thuyết yêu thích chỉ với hai bảng, không tin nổi mình may thế.",
+  "col": [
+   "I couldn't believe my luck",
+   "as luck would have it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "what a relief",
+  "ipa": "/ˌwɒt ə rɪˈliːf/",
+  "pos": "phr",
+  "vi": "nhẹ cả người",
+  "ex": "When the doctor said it was nothing serious, honestly, what a relief.",
+  "exvi": "Khi bác sĩ nói không có gì nghiêm trọng, thật sự là nhẹ cả người.",
+  "col": [
+   "what a relief!",
+   "it was such a relief",
+   "much to my relief"
+  ],
+  "fam": "relieve (v), relieved (adj)",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I wouldn't put it past",
+  "ipa": "/aɪ ˌwʊdnt pʊt ɪt ˈpɑːst/",
+  "pos": "idiom",
+  "vi": "tôi không ngạc nhiên nếu ai đó làm vậy (thường việc xấu)",
+  "ex": "I wouldn't put it past some landlords to raise the rent again before the year's out.",
+  "exvi": "Tôi chẳng ngạc nhiên nếu vài chủ nhà lại tăng giá thuê trước cuối năm.",
+  "col": [
+   "I wouldn't put it past him to...",
+   "I wouldn't put anything past them"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "a lot to take in",
+  "ipa": "/ə ˌlɒt tə ˌteɪk ˈɪn/",
+  "pos": "phr",
+  "vi": "nhiều thứ quá, khó tiếp nhận ngay",
+  "ex": "My first week in Tokyo was a lot to take in, the noise, the crowds, the sheer scale of everything.",
+  "exvi": "Tuần đầu ở Tokyo có quá nhiều thứ để tiếp nhận: tiếng ồn, đám đông, mọi thứ đều to lớn.",
+  "col": [
+   "it's a lot to take in",
+   "take it all in"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it's a bit much",
+  "ipa": "/ɪts ə ˌbɪt ˈmʌtʃ/",
+  "pos": "phr",
+  "vi": "hơi quá đáng, hơi quá",
+  "ex": "Charging people to use the toilet in a shopping centre is a bit much, if you ask me.",
+  "exvi": "Thu tiền đi vệ sinh trong trung tâm thương mại thì hơi quá, theo tôi.",
+  "col": [
+   "it's a bit much",
+   "that's a bit much, isn't it?"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I wouldn't say no",
+  "ipa": "/aɪ ˌwʊdnt seɪ ˈnəʊ/",
+  "pos": "phr",
+  "vi": "tôi cũng muốn lắm (cách nhận lời nhẹ nhàng)",
+  "ex": "A week somewhere warm in the middle of winter? I wouldn't say no.",
+  "exvi": "Một tuần ở nơi nào đó ấm áp giữa mùa đông à? Tôi chẳng từ chối đâu.",
+  "col": [
+   "I wouldn't say no to...",
+   "I wouldn't say no"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I'm not fussed",
+  "ipa": "/aɪm ˌnɒt ˈfʌst/",
+  "pos": "phr",
+  "vi": "tôi sao cũng được, không quan trọng (Anh, thân mật)",
+  "ex": "We can go for Thai or Italian, I'm not fussed either way.",
+  "exvi": "Ăn Thái hay Ý đều được, tôi sao cũng được.",
+  "col": [
+   "I'm not fussed",
+   "not fussed either way",
+   "not fussed about"
+  ],
+  "fam": "fuss (n, v), fussy (adj)",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "better late than never",
+  "ipa": "/ˌbetə ˌleɪt ðən ˈnevə/",
+  "pos": "idiom",
+  "vi": "muộn còn hơn không",
+  "ex": "I only started saving for retirement in my thirties, but better late than never.",
+  "exvi": "Tôi đến ngoài ba mươi mới bắt đầu để dành cho lúc nghỉ hưu, nhưng muộn còn hơn không.",
+  "col": [
+   "better late than never",
+   "well, better late than never"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "small world",
+  "ipa": "/ˌsmɔːl ˈwɜːld/",
+  "pos": "idiom",
+  "vi": "trái đất tròn thật",
+  "ex": "It turned out my new flatmate went to the same tiny primary school as me, small world.",
+  "exvi": "Hóa ra bạn cùng nhà mới học cùng ngôi trường tiểu học nhỏ xíu với tôi, trái đất tròn thật.",
+  "col": [
+   "small world!",
+   "it's a small world"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "I had a sneaking suspicion",
+  "ipa": "/aɪ ˌhæd ə ˌsniːkɪŋ səˈspɪʃn/",
+  "pos": "idiom",
+  "vi": "tôi lờ mờ đoán trước",
+  "ex": "I had a sneaking suspicion the restaurant would be fully booked, so I rang ahead.",
+  "exvi": "Tôi lờ mờ đoán nhà hàng sẽ kín chỗ nên đã gọi đặt trước.",
+  "col": [
+   "have a sneaking suspicion that...",
+   "a sneaking feeling"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "it serves him right",
+  "ipa": "/ɪt ˌsɜːvz ɪm ˈraɪt/",
+  "pos": "idiom",
+  "vi": "đáng đời, đáng bị vậy",
+  "ex": "He ignored every warning about the speed cameras, so the fine serves him right.",
+  "exvi": "Anh ta lờ hết mọi cảnh báo về camera bắn tốc độ nên bị phạt là đáng đời.",
+  "col": [
+   "it serves you right",
+   "serves them right for..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Natural reactions",
+  "lv": 5
+ },
+ {
+  "w": "come on in leaps and bounds",
+  "ipa": "/ˌkʌm ˈɒn ɪn ˌliːps ən ˈbaʊndz/",
+  "pos": "idiom",
+  "vi": "tiến bộ vượt bậc, rất nhanh",
+  "ex": "My daughter's English has come on in leaps and bounds since she started watching cartoons without subtitles.",
+  "exvi": "Tiếng Anh của con gái tôi tiến bộ vượt bậc từ khi bé xem hoạt hình không phụ đề.",
+  "col": [
+   "come on in leaps and bounds",
+   "improve in leaps and bounds"
+  ],
+  "fam": "come on (phr v)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "unrecognisable",
+  "ipa": "/ʌnˈrekəɡnaɪzəbl/",
+  "pos": "adj",
+  "vi": "thay đổi đến mức không nhận ra",
+  "ex": "The riverside used to be all warehouses, but it's unrecognisable now, full of cafés and cycle paths.",
+  "exvi": "Bờ sông trước đây toàn nhà kho, giờ thì không nhận ra nổi, đầy quán cà phê và đường xe đạp.",
+  "col": [
+   "virtually unrecognisable",
+   "unrecognisable from what it was"
+  ],
+  "fam": "recognise (v), recognisable (adj), recognition (n)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "change beyond recognition",
+  "ipa": "/ˌtʃeɪndʒ bɪˌjɒnd ˌrekəɡˈnɪʃn/",
+  "pos": "idiom",
+  "vi": "thay đổi đến mức không còn nhận ra",
+  "ex": "My hometown has changed beyond recognition since the motorway was built.",
+  "exvi": "Quê tôi đã thay đổi đến mức không nhận ra từ khi có đường cao tốc.",
+  "col": [
+   "change beyond (all) recognition",
+   "transformed beyond recognition"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "things have moved on",
+  "ipa": "/ˌθɪŋz həv ˌmuːvd ˈɒn/",
+  "pos": "phr",
+  "vi": "mọi thứ đã khác, đã tiến lên",
+  "ex": "People used to frown on working from home, but things have moved on a lot since then.",
+  "exvi": "Ngày trước người ta không thích chuyện làm ở nhà, nhưng mọi thứ đã khác đi nhiều rồi.",
+  "col": [
+   "things have moved on",
+   "move on from"
+  ],
+  "fam": "move on (phr v)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "turn over a new leaf",
+  "ipa": "/ˌtɜːn ˌəʊvər ə ˌnjuː ˈliːf/",
+  "pos": "idiom",
+  "vi": "làm lại từ đầu, thay đổi bản thân theo hướng tốt",
+  "ex": "After a pretty chaotic first year at uni, I decided to turn over a new leaf and actually go to lectures.",
+  "exvi": "Sau năm nhất đại học khá bừa bộn, tôi quyết định làm lại từ đầu và chịu đi học đầy đủ.",
+  "col": [
+   "turn over a new leaf",
+   "decide to turn over a new leaf"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a change of heart",
+  "ipa": "/ə ˌtʃeɪndʒ əv ˈhɑːt/",
+  "pos": "idiom",
+  "vi": "sự đổi ý, thay đổi suy nghĩ",
+  "ex": "I was dead against getting a dog, but I had a change of heart after looking after my neighbour's for a week.",
+  "exvi": "Tôi từng phản đối nuôi chó dữ lắm nhưng đổi ý sau một tuần trông chó giúp hàng xóm.",
+  "col": [
+   "have a change of heart",
+   "a sudden change of heart"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "grow on",
+  "ipa": "/ˈɡrəʊ ɒn/",
+  "pos": "phr v",
+  "vi": "dần dần thích hơn",
+  "ex": "I wasn't keen on jazz at first, but it's really grown on me over the years.",
+  "exvi": "Ban đầu tôi không mê jazz lắm, nhưng qua năm tháng tôi thích nó lúc nào không hay.",
+  "col": [
+   "it grows on you",
+   "it's grown on me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "grow out of",
+  "ipa": "/ˌɡrəʊ ˈaʊt əv/",
+  "pos": "phr v",
+  "vi": "bỏ được (thói quen trẻ con) khi lớn lên",
+  "ex": "I used to be terrified of the dark, but I grew out of it by the time I was ten.",
+  "exvi": "Hồi nhỏ tôi sợ bóng tối lắm nhưng đến mười tuổi thì hết.",
+  "col": [
+   "grow out of a habit",
+   "he'll grow out of it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "take some getting used to",
+  "ipa": "/ˌteɪk sʌm ˈɡetɪŋ ˈjuːst tuː/",
+  "pos": "phr",
+  "vi": "cần thời gian để quen",
+  "ex": "Driving on the left took some getting used to, but after a week it felt completely natural.",
+  "exvi": "Lái xe bên trái phải mất một thời gian mới quen, nhưng sau một tuần thì thấy hoàn toàn tự nhiên.",
+  "col": [
+   "it takes some getting used to",
+   "it took a lot of getting used to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a breath of fresh air",
+  "ipa": "/ə ˌbreθ əv ˌfreʃ ˈeə/",
+  "pos": "idiom",
+  "vi": "luồng gió mới, điều mới mẻ dễ chịu",
+  "ex": "Our new manager was a breath of fresh air after years of endless meetings that went nowhere.",
+  "exvi": "Sếp mới như luồng gió mới sau bao năm họp hành bất tận chẳng đi đến đâu.",
+  "col": [
+   "a breath of fresh air",
+   "like a breath of fresh air"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "shake things up",
+  "ipa": "/ˌʃeɪk ˌθɪŋz ˈʌp/",
+  "pos": "phr v",
+  "vi": "thay đổi mạnh để làm mới",
+  "ex": "The new head teacher really shook things up, scrapping homework for the younger kids entirely.",
+  "exvi": "Hiệu trưởng mới thật sự thay đổi mạnh tay, bỏ hẳn bài tập về nhà cho các em nhỏ.",
+  "col": [
+   "shake things up a bit",
+   "a shake-up of"
+  ],
+  "fam": "shake-up (n)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "the novelty wears off",
+  "ipa": "/ðə ˈnɒvlti ˌweəz ˈɒf/",
+  "pos": "idiom",
+  "vi": "hết cảm giác mới lạ",
+  "ex": "Smartwatches are fun for a month or so, but once the novelty wears off most people stop wearing them.",
+  "exvi": "Đồng hồ thông minh vui được khoảng một tháng, nhưng hết mới lạ là đa số người ta thôi đeo.",
+  "col": [
+   "once the novelty wears off",
+   "the novelty soon wore off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "fall by the wayside",
+  "ipa": "/ˌfɔːl baɪ ðə ˈweɪsaɪd/",
+  "pos": "idiom",
+  "vi": "bị bỏ dở, bị lãng quên dần",
+  "ex": "I had all these plans to learn Spanish, but they fell by the wayside once work got busy.",
+  "exvi": "Tôi có đủ thứ kế hoạch học tiếng Tây Ban Nha nhưng đều bị bỏ dở khi công việc bận lên.",
+  "col": [
+   "fall by the wayside",
+   "plans fell by the wayside"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a thing of the past",
+  "ipa": "/ə ˌθɪŋ əv ðə ˈpɑːst/",
+  "pos": "idiom",
+  "vi": "chuyện đã qua, không còn nữa",
+  "ex": "Queuing at the bank to pay bills is pretty much a thing of the past now.",
+  "exvi": "Xếp hàng ở ngân hàng để trả hóa đơn giờ gần như là chuyện của quá khứ.",
+  "col": [
+   "become a thing of the past",
+   "is fast becoming a thing of the past"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "catch on",
+  "ipa": "/ˌkætʃ ˈɒn/",
+  "pos": "phr v",
+  "vi": "trở nên phổ biến, được ưa chuộng",
+  "ex": "Electric scooters caught on really quickly in my city, almost overnight.",
+  "exvi": "Xe scooter điện trở nên phổ biến rất nhanh ở thành phố tôi, gần như chỉ sau một đêm.",
+  "col": [
+   "catch on quickly",
+   "never really caught on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "phase in",
+  "ipa": "/ˌfeɪz ˈɪn/",
+  "pos": "phr v",
+  "vi": "áp dụng dần dần, từng bước",
+  "ex": "The ban on plastic bags was phased in over two years, so shops had time to adjust.",
+  "exvi": "Lệnh cấm túi nhựa được áp dụng dần trong hai năm để các cửa hàng kịp thích nghi.",
+  "col": [
+   "be phased in gradually",
+   "phase in / phase out"
+  ],
+  "fam": "phase (n), phase out (phr v)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "go downhill",
+  "ipa": "/ˌɡəʊ ˌdaʊnˈhɪl/",
+  "pos": "idiom",
+  "vi": "xuống dốc, tệ dần đi",
+  "ex": "That restaurant used to be brilliant, but it's really gone downhill since the chef left.",
+  "exvi": "Nhà hàng đó từng rất tuyệt nhưng xuống dốc hẳn từ khi đầu bếp nghỉ.",
+  "col": [
+   "go downhill fast",
+   "it's all been downhill since"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "pick up",
+  "ipa": "/ˌpɪk ˈʌp/",
+  "pos": "phr v",
+  "vi": "khá lên, cải thiện (kinh tế, thời tiết, việc làm ăn)",
+  "ex": "Business was slow during the summer, but it's started to pick up again now the students are back.",
+  "exvi": "Mùa hè làm ăn ế ẩm nhưng giờ sinh viên quay lại thì đã bắt đầu khá lên.",
+  "col": [
+   "things are picking up",
+   "sales picked up"
+  ],
+  "fam": "pick-up (n)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "take off",
+  "ipa": "/ˌteɪk ˈɒf/",
+  "pos": "phr v",
+  "vi": "phát triển vượt bậc, thành công nhanh",
+  "ex": "Her little baking business really took off once a local food blogger wrote about it.",
+  "exvi": "Tiệm bánh nhỏ của cô ấy cất cánh hẳn khi một blogger ẩm thực địa phương viết về nó.",
+  "col": [
+   "really take off",
+   "sales took off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "creep in",
+  "ipa": "/ˌkriːp ˈɪn/",
+  "pos": "phr v",
+  "vi": "len lỏi vào, dần xuất hiện (thường là điều không mong muốn)",
+  "ex": "When you're tired, mistakes start to creep in without you even noticing.",
+  "exvi": "Khi mệt, lỗi bắt đầu len vào mà mình chẳng để ý.",
+  "col": [
+   "errors creep in",
+   "doubts start to creep in"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a turning point",
+  "ipa": "/ə ˈtɜːnɪŋ pɔɪnt/",
+  "pos": "n",
+  "vi": "bước ngoặt",
+  "ex": "Moving abroad at eighteen was a real turning point; it forced me to become independent very quickly.",
+  "exvi": "Ra nước ngoài năm mười tám tuổi là bước ngoặt thật sự, nó buộc tôi phải tự lập rất nhanh.",
+  "col": [
+   "a turning point in my life",
+   "mark a turning point"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a wake-up call",
+  "ipa": "/ə ˈweɪk ʌp ˌkɔːl/",
+  "pos": "n",
+  "vi": "hồi chuông cảnh tỉnh",
+  "ex": "Getting out of breath on a flight of stairs was a bit of a wake-up call, so I joined a gym.",
+  "exvi": "Leo một tầng cầu thang đã thở hổn hển là hồi chuông cảnh tỉnh, nên tôi đăng ký phòng gym.",
+  "col": [
+   "a wake-up call for",
+   "serve as a wake-up call"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "for better or worse",
+  "ipa": "/fə ˌbetər ɔː ˈwɜːs/",
+  "pos": "idiom",
+  "vi": "dù tốt hay xấu",
+  "ex": "For better or worse, most of our social lives now happen on our phones.",
+  "exvi": "Dù tốt hay xấu thì giờ phần lớn đời sống xã hội của chúng ta diễn ra trên điện thoại.",
+  "col": [
+   "for better or (for) worse",
+   "for better or worse, ..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "there's no going back",
+  "ipa": "/ðeəz ˌnəʊ ˌɡəʊɪŋ ˈbæk/",
+  "pos": "idiom",
+  "vi": "không thể quay lại như cũ",
+  "ex": "Once you've used a dishwasher, there's no going back to washing everything by hand.",
+  "exvi": "Đã dùng máy rửa bát rồi thì khó mà quay lại rửa tay mọi thứ.",
+  "col": [
+   "there's no going back now",
+   "no going back to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a new lease of life",
+  "ipa": "/ə ˌnjuː ˌliːs əv ˈlaɪf/",
+  "pos": "idiom",
+  "vi": "sức sống mới, được hồi sinh",
+  "ex": "The old cinema got a new lease of life when it was turned into a community arts centre.",
+  "exvi": "Rạp chiếu phim cũ được hồi sinh khi biến thành trung tâm nghệ thuật cộng đồng.",
+  "col": [
+   "give something a new lease of life",
+   "get a new lease of life"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "come round to",
+  "ipa": "/ˌkʌm ˈraʊnd tuː/",
+  "pos": "phr v",
+  "vi": "dần đồng ý với, thay đổi ý kiến theo",
+  "ex": "My parents hated the idea of me studying art, but they've come round to it now.",
+  "exvi": "Bố mẹ tôi ghét ý tưởng tôi học mỹ thuật, nhưng giờ họ đã dần chấp nhận.",
+  "col": [
+   "come round to the idea",
+   "eventually came round"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "change tack",
+  "ipa": "/ˌtʃeɪndʒ ˈtæk/",
+  "pos": "idiom",
+  "vi": "đổi hướng, đổi cách làm",
+  "ex": "When revising alone wasn't working, I changed tack and joined a study group.",
+  "exvi": "Khi tự ôn một mình không hiệu quả, tôi đổi cách và tham gia nhóm học.",
+  "col": [
+   "change tack",
+   "try a different tack"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "move with the times",
+  "ipa": "/ˌmuːv wɪð ðə ˈtaɪmz/",
+  "pos": "idiom",
+  "vi": "thay đổi theo thời đại",
+  "ex": "Small shops that refused to move with the times and sell online have mostly closed down.",
+  "exvi": "Các cửa hàng nhỏ không chịu thay đổi theo thời và bán online phần lớn đã đóng cửa.",
+  "col": [
+   "move with the times",
+   "keep up with the times"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "behind the times",
+  "ipa": "/bɪˌhaɪnd ðə ˈtaɪmz/",
+  "pos": "idiom",
+  "vi": "lạc hậu, lỗi thời",
+  "ex": "My grandad's a bit behind the times, he still writes cheques for everything.",
+  "exvi": "Ông tôi hơi lạc hậu, việc gì cũng vẫn viết séc.",
+  "col": [
+   "a bit behind the times",
+   "hopelessly behind the times"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "slowly but surely",
+  "ipa": "/ˌsləʊli bət ˈʃʊəli/",
+  "pos": "idiom",
+  "vi": "chậm mà chắc",
+  "ex": "Slowly but surely, people in my neighbourhood are getting into recycling.",
+  "exvi": "Chậm mà chắc, người dân khu tôi đang dần quen với việc tái chế.",
+  "col": [
+   "slowly but surely",
+   "progress slowly but surely"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "it didn't happen overnight",
+  "ipa": "/ɪt ˌdɪdnt ˌhæpən ˌəʊvəˈnaɪt/",
+  "pos": "phr",
+  "vi": "không phải một sớm một chiều",
+  "ex": "My confidence in public speaking didn't happen overnight; it took years of small presentations.",
+  "exvi": "Sự tự tin khi nói trước đám đông của tôi không phải một sớm một chiều, phải mất nhiều năm thuyết trình nhỏ.",
+  "col": [
+   "it didn't happen overnight",
+   "an overnight success"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "bit by bit",
+  "ipa": "/ˌbɪt baɪ ˈbɪt/",
+  "pos": "idiom",
+  "vi": "từng chút một",
+  "ex": "Bit by bit, the old fishing village turned into a busy holiday resort.",
+  "exvi": "Từng chút một, làng chài cũ biến thành khu nghỉ dưỡng nhộn nhịp.",
+  "col": [
+   "bit by bit",
+   "little by little"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "snowball",
+  "ipa": "/ˈsnəʊbɔːl/",
+  "pos": "v",
+  "vi": "lớn dần nhanh như quả cầu tuyết",
+  "ex": "What started as a small online petition snowballed into a national campaign.",
+  "exvi": "Từ một kiến nghị nhỏ trên mạng, nó lớn dần thành chiến dịch toàn quốc.",
+  "col": [
+   "snowball into",
+   "the problem snowballed"
+  ],
+  "fam": "snowball effect (n)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "dwindle",
+  "ipa": "/ˈdwɪndl/",
+  "pos": "v",
+  "vi": "giảm dần, teo tóp dần",
+  "ex": "The number of people going to the village church has dwindled to a handful.",
+  "exvi": "Số người đi nhà thờ làng đã giảm dần chỉ còn vài người.",
+  "col": [
+   "dwindle to",
+   "dwindling numbers"
+  ],
+  "fam": "dwindling (adj)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "take its toll",
+  "ipa": "/ˌteɪk ɪts ˈtəʊl/",
+  "pos": "idiom",
+  "vi": "gây hậu quả, bào mòn dần",
+  "ex": "Years of night shifts eventually took their toll on his health.",
+  "exvi": "Nhiều năm làm ca đêm cuối cùng đã bào mòn sức khỏe anh ấy.",
+  "col": [
+   "take its toll on",
+   "take a heavy toll"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a step in the right direction",
+  "ipa": "/ə ˌstep ɪn ðə ˌraɪt dəˈrekʃn/",
+  "pos": "idiom",
+  "vi": "một bước đi đúng hướng",
+  "ex": "Free school meals won't solve child poverty, but they're a step in the right direction.",
+  "exvi": "Bữa ăn miễn phí ở trường không giải quyết được nghèo đói trẻ em nhưng là bước đi đúng hướng.",
+  "col": [
+   "a step in the right direction",
+   "a small step in the right direction"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a mixed blessing",
+  "ipa": "/ə ˌmɪkst ˈblesɪŋ/",
+  "pos": "idiom",
+  "vi": "điều vừa tốt vừa không tốt",
+  "ex": "Having a supermarket open next door has been a mixed blessing, convenient but much noisier.",
+  "exvi": "Có siêu thị mở ngay cạnh nhà vừa lợi vừa hại, tiện nhưng ồn hơn nhiều.",
+  "col": [
+   "a mixed blessing",
+   "something of a mixed blessing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "turn things around",
+  "ipa": "/ˌtɜːn ˌθɪŋz əˈraʊnd/",
+  "pos": "phr v",
+  "vi": "xoay chuyển tình thế",
+  "ex": "The club was nearly bankrupt, but the new owners managed to turn things around in two seasons.",
+  "exvi": "Câu lạc bộ suýt phá sản nhưng chủ mới đã xoay chuyển tình thế trong hai mùa.",
+  "col": [
+   "turn things around",
+   "turn the business around",
+   "a turnaround"
+  ],
+  "fam": "turnaround (n)",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "bounce back",
+  "ipa": "/ˌbaʊns ˈbæk/",
+  "pos": "phr v",
+  "vi": "phục hồi nhanh, lấy lại phong độ",
+  "ex": "Tourism took a huge hit during the pandemic, but it's bounced back remarkably quickly.",
+  "exvi": "Du lịch bị ảnh hưởng nặng trong đại dịch nhưng đã phục hồi nhanh đáng kinh ngạc.",
+  "col": [
+   "bounce back from",
+   "bounce back quickly"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "outgrow",
+  "ipa": "/ˌaʊtˈɡrəʊ/",
+  "pos": "v",
+  "vi": "lớn vượt khỏi, không còn hợp nữa",
+  "ex": "We'd completely outgrown our tiny flat once the second baby arrived.",
+  "exvi": "Khi bé thứ hai ra đời, căn hộ nhỏ xíu của chúng tôi hoàn toàn không còn đủ.",
+  "col": [
+   "outgrow a hobby",
+   "we've outgrown the house"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "night and day",
+  "ipa": "/ˌnaɪt ən ˈdeɪ/",
+  "pos": "idiom",
+  "vi": "khác một trời một vực",
+  "ex": "The difference between my old phone and this one is night and day.",
+  "exvi": "Điện thoại cũ và cái này khác nhau một trời một vực.",
+  "col": [
+   "it's like night and day",
+   "the difference is night and day"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "a clean slate",
+  "ipa": "/ə ˌkliːn ˈsleɪt/",
+  "pos": "idiom",
+  "vi": "khởi đầu mới, xóa hết chuyện cũ",
+  "ex": "Moving to a new school gave me a clean slate, nobody knew how shy I'd been.",
+  "exvi": "Chuyển trường cho tôi khởi đầu mới, chẳng ai biết tôi từng nhút nhát thế nào.",
+  "col": [
+   "start with a clean slate",
+   "wipe the slate clean"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "the tide is turning",
+  "ipa": "/ðə ˌtaɪd ɪz ˈtɜːnɪŋ/",
+  "pos": "idiom",
+  "vi": "tình thế đang đảo chiều",
+  "ex": "For years everyone wanted a big car, but I think the tide is turning now.",
+  "exvi": "Nhiều năm ai cũng muốn xe to, nhưng tôi nghĩ giờ tình thế đang đảo chiều.",
+  "col": [
+   "the tide is turning",
+   "turn the tide"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "on the up",
+  "ipa": "/ˌɒn ði ˈʌp/",
+  "pos": "idiom",
+  "vi": "đang đi lên, đang khá lên",
+  "ex": "The area's definitely on the up, there are new cafés opening every month.",
+  "exvi": "Khu này chắc chắn đang khá lên, tháng nào cũng có quán cà phê mới mở.",
+  "col": [
+   "on the up",
+   "on the up and up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "past its prime",
+  "ipa": "/ˌpɑːst ɪts ˈpraɪm/",
+  "pos": "idiom",
+  "vi": "đã qua thời hoàng kim",
+  "ex": "The shopping centre is well past its prime, half the units are boarded up.",
+  "exvi": "Trung tâm mua sắm đã qua thời hoàng kim từ lâu, một nửa gian hàng đã đóng ván.",
+  "col": [
+   "past its prime",
+   "in its prime"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "warm to",
+  "ipa": "/ˈwɔːm tuː/",
+  "pos": "phr v",
+  "vi": "dần có thiện cảm với",
+  "ex": "I didn't warm to the city at first, but after a few months I didn't want to leave.",
+  "exvi": "Lúc đầu tôi chẳng có cảm tình với thành phố, nhưng vài tháng sau thì không muốn rời đi.",
+  "col": [
+   "warm to someone",
+   "warm to the idea"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "fizzle out",
+  "ipa": "/ˌfɪzl ˈaʊt/",
+  "pos": "phr v",
+  "vi": "xẹp dần, tàn lụi dần",
+  "ex": "The protest started with thousands of people, but it fizzled out after a couple of weeks.",
+  "exvi": "Cuộc biểu tình bắt đầu với hàng nghìn người nhưng xẹp dần sau vài tuần.",
+  "col": [
+   "fizzle out",
+   "the trend fizzled out"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "wear off",
+  "ipa": "/ˌweər ˈɒf/",
+  "pos": "phr v",
+  "vi": "giảm dần, hết tác dụng",
+  "ex": "The excitement of a new job tends to wear off after the first month.",
+  "exvi": "Sự hào hứng với công việc mới thường giảm dần sau tháng đầu.",
+  "col": [
+   "the effect wears off",
+   "once the excitement wore off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "die down",
+  "ipa": "/ˌdaɪ ˈdaʊn/",
+  "pos": "phr v",
+  "vi": "lắng xuống, dịu đi",
+  "ex": "We waited for the wind to die down before taking the boat out.",
+  "exvi": "Chúng tôi đợi gió lặng bớt rồi mới đưa thuyền ra.",
+  "col": [
+   "the noise died down",
+   "once the fuss dies down"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "make the leap",
+  "ipa": "/ˌmeɪk ðə ˈliːp/",
+  "pos": "idiom",
+  "vi": "dám chuyển hẳn sang điều mới",
+  "ex": "I'd been freelancing on the side for years before I finally made the leap and went full-time.",
+  "exvi": "Tôi làm tự do kiếm thêm nhiều năm trước khi dám chuyển hẳn sang làm toàn thời gian.",
+  "col": [
+   "make the leap from... to...",
+   "take the plunge"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Talking about change",
+  "lv": 5
+ },
+ {
+  "w": "come to think of it",
+  "ipa": "/ˌkʌm tə ˈθɪŋk əv ɪt/",
+  "pos": "phr",
+  "vi": "giờ nghĩ lại thì",
+  "ex": "Come to think of it, that was the last time the whole family was together in one place.",
+  "exvi": "Giờ nghĩ lại thì đó là lần cuối cả gia đình tụ họp đông đủ.",
+  "col": [
+   "come to think of it, ...",
+   "now I come to think of it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "out of the blue",
+  "ipa": "/ˌaʊt əv ðə ˈbluː/",
+  "pos": "idiom",
+  "vi": "bất ngờ, không báo trước",
+  "ex": "An old school friend messaged me completely out of the blue after fifteen years.",
+  "exvi": "Một người bạn cũ nhắn cho tôi hoàn toàn bất ngờ sau mười lăm năm.",
+  "col": [
+   "completely out of the blue",
+   "come out of the blue"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "the next thing I knew",
+  "ipa": "/ðə ˌnekst θɪŋ aɪ ˈnjuː/",
+  "pos": "phr",
+  "vi": "chưa kịp hiểu gì thì đã",
+  "ex": "I sat down on the train for a second, and the next thing I knew we were at the end of the line.",
+  "exvi": "Tôi ngồi xuống tàu một chút, chưa kịp hiểu gì thì đã đến ga cuối.",
+  "col": [
+   "the next thing I knew, ...",
+   "before I knew it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "to cut a long story short",
+  "ipa": "/tə ˌkʌt ə ˌlɒŋ ˌstɔːri ˈʃɔːt/",
+  "pos": "idiom",
+  "vi": "nói tóm lại cho nhanh",
+  "ex": "To cut a long story short, we missed the ferry and spent the night in a tiny guesthouse.",
+  "exvi": "Nói gọn thì chúng tôi lỡ chuyến phà và ngủ một đêm ở nhà nghỉ bé tí.",
+  "col": [
+   "to cut a long story short",
+   "long story short"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "as it turned out",
+  "ipa": "/əz ɪt ˌtɜːnd ˈaʊt/",
+  "pos": "phr",
+  "vi": "hóa ra là",
+  "ex": "I was dreading the interview, but as it turned out the panel were really friendly.",
+  "exvi": "Tôi sợ buổi phỏng vấn lắm, nhưng hóa ra hội đồng rất thân thiện.",
+  "col": [
+   "as it turned out, ...",
+   "it turned out that..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "as luck would have it",
+  "ipa": "/əz ˌlʌk wʊd ˈhæv ɪt/",
+  "pos": "idiom",
+  "vi": "may (hoặc rủi) thay",
+  "ex": "As luck would have it, there was a mechanic in the very next village.",
+  "exvi": "May thay, ngay làng bên cạnh có một thợ sửa xe.",
+  "col": [
+   "as luck would have it",
+   "by a stroke of luck"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "lo and behold",
+  "ipa": "/ˌləʊ ən bɪˈhəʊld/",
+  "pos": "idiom",
+  "vi": "và kìa, thế là (điều bất ngờ xuất hiện)",
+  "ex": "I'd been looking for my keys for an hour, and lo and behold, they were in the fridge.",
+  "exvi": "Tôi tìm chìa khóa cả tiếng, và kìa, chúng nằm trong tủ lạnh.",
+  "col": [
+   "and lo and behold, ...",
+   "lo and behold"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it dawned on me",
+  "ipa": "/ɪt ˈdɔːnd ɒn mi/",
+  "pos": "phr",
+  "vi": "tôi chợt nhận ra",
+  "ex": "Halfway through the meal it dawned on me that I'd left my wallet at home.",
+  "exvi": "Đang ăn giữa chừng thì tôi chợt nhận ra mình để quên ví ở nhà.",
+  "col": [
+   "it dawned on me that...",
+   "it suddenly dawned on me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "I'll never forget the time",
+  "ipa": "/aɪl ˌnevə fəˈɡet ðə ˈtaɪm/",
+  "pos": "phr",
+  "vi": "tôi sẽ không bao giờ quên lần",
+  "ex": "I'll never forget the time my dad tried to cook a turkey and set off every smoke alarm in the house.",
+  "exvi": "Tôi không bao giờ quên lần bố tôi nướng gà tây và làm kêu hết chuông báo khói trong nhà.",
+  "col": [
+   "I'll never forget the time when...",
+   "I'll never forget how..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "back in the day",
+  "ipa": "/ˌbæk ɪn ðə ˈdeɪ/",
+  "pos": "idiom",
+  "vi": "hồi xưa, ngày trước",
+  "ex": "Back in the day, we'd spend whole summers outside and only come home when it got dark.",
+  "exvi": "Hồi xưa chúng tôi chơi ngoài trời suốt mùa hè và chỉ về nhà khi trời tối.",
+  "col": [
+   "back in the day",
+   "back in my day"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "at the time",
+  "ipa": "/ət ðə ˈtaɪm/",
+  "pos": "phr",
+  "vi": "vào lúc đó (khác với bây giờ)",
+  "ex": "At the time I thought it was the worst decision I'd ever made, but now I'm grateful for it.",
+  "exvi": "Lúc đó tôi nghĩ đó là quyết định tệ nhất đời, giờ thì lại biết ơn nó.",
+  "col": [
+   "at the time, I thought...",
+   "it seemed sensible at the time"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "in the heat of the moment",
+  "ipa": "/ɪn ðə ˌhiːt əv ðə ˈməʊmənt/",
+  "pos": "idiom",
+  "vi": "trong lúc nóng giận, bốc đồng",
+  "ex": "I said some things in the heat of the moment that I really regretted later.",
+  "exvi": "Lúc nóng giận tôi đã nói vài điều mà sau đó rất hối hận.",
+  "col": [
+   "in the heat of the moment",
+   "say something in the heat of the moment"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "by sheer chance",
+  "ipa": "/baɪ ˌʃɪə ˈtʃɑːns/",
+  "pos": "phr",
+  "vi": "hoàn toàn tình cờ",
+  "ex": "I got my first job by sheer chance, I happened to sit next to the owner on a bus.",
+  "exvi": "Tôi có công việc đầu tiên hoàn toàn tình cờ, ngồi cạnh ông chủ trên xe buýt.",
+  "col": [
+   "by sheer chance",
+   "purely by chance"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "there and then",
+  "ipa": "/ˌðeər ən ˈðen/",
+  "pos": "idiom",
+  "vi": "ngay lập tức, ngay tại chỗ",
+  "ex": "The flat was perfect, so we signed the contract there and then.",
+  "exvi": "Căn hộ quá ưng nên chúng tôi ký hợp đồng ngay tại chỗ.",
+  "col": [
+   "there and then",
+   "then and there"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "the last straw",
+  "ipa": "/ðə ˌlɑːst ˈstrɔː/",
+  "pos": "idiom",
+  "vi": "giọt nước tràn ly",
+  "ex": "The train was late every single day, but losing my job interview because of it was the last straw.",
+  "exvi": "Ngày nào tàu cũng trễ, nhưng lỡ buổi phỏng vấn vì nó là giọt nước tràn ly.",
+  "col": [
+   "the last straw",
+   "the final straw"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "go pear-shaped",
+  "ipa": "/ˌɡəʊ ˈpeə ʃeɪpt/",
+  "pos": "idiom",
+  "vi": "hỏng bét, đổ bể (Anh, thân mật)",
+  "ex": "Everything was going smoothly until the caterers turned up two hours late, and then it all went pear-shaped.",
+  "exvi": "Mọi thứ suôn sẻ cho đến khi bên tiệc đến trễ hai tiếng, rồi hỏng bét hết.",
+  "col": [
+   "it all went pear-shaped",
+   "go pear-shaped"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "end up",
+  "ipa": "/ˌend ˈʌp/",
+  "pos": "phr v",
+  "vi": "rốt cuộc, cuối cùng lại",
+  "ex": "We were only supposed to stay for one drink, but we ended up talking until two in the morning.",
+  "exvi": "Định chỉ ngồi uống một ly mà rốt cuộc nói chuyện đến hai giờ sáng.",
+  "col": [
+   "end up -ing",
+   "end up in/at",
+   "end up with"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "to top it all off",
+  "ipa": "/tə ˌtɒp ɪt ˌɔːl ˈɒf/",
+  "pos": "idiom",
+  "vi": "tệ hơn nữa là, thêm vào đó",
+  "ex": "The hotel was miles from the beach, the food was awful and, to top it all off, it rained all week.",
+  "exvi": "Khách sạn xa biển, đồ ăn dở, và tệ hơn nữa là mưa cả tuần.",
+  "col": [
+   "to top it all off",
+   "to top it all"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "to make matters worse",
+  "ipa": "/tə ˌmeɪk ˌmætəz ˈwɜːs/",
+  "pos": "phr",
+  "vi": "tệ hơn nữa",
+  "ex": "I got lost in the old town and, to make matters worse, my phone died.",
+  "exvi": "Tôi lạc trong phố cổ, tệ hơn nữa là điện thoại hết pin.",
+  "col": [
+   "to make matters worse",
+   "what made it worse was..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "the funny thing was",
+  "ipa": "/ðə ˌfʌni ˈθɪŋ wɒz/",
+  "pos": "phr",
+  "vi": "điều buồn cười (hay lạ) là",
+  "ex": "The funny thing was, nobody else at the party had noticed the cake was missing.",
+  "exvi": "Buồn cười là chẳng ai khác trong bữa tiệc để ý cái bánh đã biến mất.",
+  "col": [
+   "the funny thing was, ...",
+   "the strange thing is"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "where was I",
+  "ipa": "/ˌweə ˈwɒz aɪ/",
+  "pos": "phr",
+  "vi": "tôi đang nói đến đâu rồi nhỉ",
+  "ex": "Sorry, I've lost my train of thought, where was I? Oh yes, the night we arrived in Hanoi.",
+  "exvi": "Xin lỗi, tôi lạc mạch rồi, đang nói đến đâu nhỉ? À đúng, cái đêm chúng tôi đến Hà Nội.",
+  "col": [
+   "where was I?",
+   "anyway, where was I?"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "I remember it like it was yesterday",
+  "ipa": "/aɪ rɪˌmembər ɪt laɪk ɪt wəz ˈjestədeɪ/",
+  "pos": "idiom",
+  "vi": "tôi nhớ như in, như mới hôm qua",
+  "ex": "My first day at secondary school, I remember it like it was yesterday.",
+  "exvi": "Ngày đầu vào cấp hai, tôi nhớ như mới hôm qua.",
+  "col": [
+   "I remember it like it was yesterday",
+   "it feels like only yesterday"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it seemed like a good idea at the time",
+  "ipa": "/ɪt ˌsiːmd laɪk ə ˌɡʊd aɪˈdɪə ət ðə ˈtaɪm/",
+  "pos": "idiom",
+  "vi": "lúc đó tưởng là ý hay",
+  "ex": "Cycling across the country in August seemed like a good idea at the time.",
+  "exvi": "Đạp xe xuyên quốc gia vào tháng Tám, lúc đó tưởng là ý hay.",
+  "col": [
+   "it seemed like a good idea at the time",
+   "it seemed sensible enough"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "little did I know",
+  "ipa": "/ˌlɪtl dɪd aɪ ˈnəʊ/",
+  "pos": "phr",
+  "vi": "tôi nào có biết",
+  "ex": "Little did I know that the stranger I helped with directions would end up being my business partner.",
+  "exvi": "Tôi nào có ngờ người lạ tôi chỉ đường lại trở thành đối tác làm ăn của mình.",
+  "col": [
+   "little did I know (that)...",
+   "little did they realise"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "a close shave",
+  "ipa": "/ə ˌkləʊs ˈʃeɪv/",
+  "pos": "idiom",
+  "vi": "thoát hiểm trong gang tấc",
+  "ex": "That was a close shave, the lorry missed us by a matter of inches.",
+  "exvi": "Đúng là thoát hiểm trong gang tấc, chiếc xe tải chỉ cách chúng tôi vài phân.",
+  "col": [
+   "a close shave",
+   "a narrow escape"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "lose my bearings",
+  "ipa": "/ˌluːz maɪ ˈbeərɪŋz/",
+  "pos": "idiom",
+  "vi": "mất phương hướng",
+  "ex": "The fog came down so fast on the mountain that we completely lost our bearings.",
+  "exvi": "Sương mù xuống trên núi nhanh đến mức chúng tôi hoàn toàn mất phương hướng.",
+  "col": [
+   "lose your bearings",
+   "get your bearings"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it slipped my mind",
+  "ipa": "/ɪt ˌslɪpt maɪ ˈmaɪnd/",
+  "pos": "idiom",
+  "vi": "tôi quên béng mất",
+  "ex": "I was meant to call my aunt on her birthday, but it completely slipped my mind.",
+  "exvi": "Tôi định gọi cho dì vào sinh nhật dì mà quên béng mất.",
+  "col": [
+   "it completely slipped my mind",
+   "slip someone's mind"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "I hadn't the faintest idea",
+  "ipa": "/aɪ ˌhædnt ðə ˌfeɪntɪst aɪˈdɪə/",
+  "pos": "idiom",
+  "vi": "tôi chẳng biết gì hết",
+  "ex": "When I started the job, I hadn't the faintest idea how to manage a budget.",
+  "exvi": "Khi mới làm, tôi chẳng biết chút gì về quản lý ngân sách.",
+  "col": [
+   "not have the faintest idea",
+   "I haven't the foggiest"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "as I recall",
+  "ipa": "/əz aɪ rɪˈkɔːl/",
+  "pos": "phr",
+  "vi": "theo tôi nhớ thì",
+  "ex": "As I recall, it was my brother who suggested the trip in the first place.",
+  "exvi": "Theo tôi nhớ thì chính anh tôi là người gợi ý chuyến đi.",
+  "col": [
+   "as I recall",
+   "if I recall correctly"
+  ],
+  "fam": "recall (v, n)",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "the penny dropped",
+  "ipa": "/ðə ˌpeni ˈdrɒpt/",
+  "pos": "idiom",
+  "vi": "cuối cùng cũng hiểu ra",
+  "ex": "It took me ages to understand the joke, and then suddenly the penny dropped.",
+  "exvi": "Tôi mất cả buổi mới hiểu câu đùa, rồi bỗng dưng vỡ lẽ.",
+  "col": [
+   "then the penny dropped",
+   "the penny finally dropped"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "against all odds",
+  "ipa": "/əˌɡenst ɔːl ˈɒdz/",
+  "pos": "idiom",
+  "vi": "bất chấp mọi khó khăn, ngoài mọi dự đoán",
+  "ex": "Against all odds, our tiny school team made it to the national final.",
+  "exvi": "Ngoài mọi dự đoán, đội trường bé xíu của chúng tôi vào đến chung kết quốc gia.",
+  "col": [
+   "against all (the) odds",
+   "survive against all odds"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "when it came to it",
+  "ipa": "/wen ɪt ˌkeɪm ˈtuː ɪt/",
+  "pos": "phr",
+  "vi": "đến lúc phải làm thật thì",
+  "ex": "I'd practised the speech for weeks, but when it came to it, my mind went blank.",
+  "exvi": "Tôi tập bài phát biểu hàng tuần, nhưng đến lúc thật thì đầu óc trống rỗng.",
+  "col": [
+   "when it came to it",
+   "when it comes to the crunch"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "out of nowhere",
+  "ipa": "/ˌaʊt əv ˈnəʊweə/",
+  "pos": "idiom",
+  "vi": "đột ngột xuất hiện, từ đâu ra",
+  "ex": "A cyclist appeared out of nowhere and I had to slam on the brakes.",
+  "exvi": "Một người đi xe đạp từ đâu lao ra và tôi phải phanh gấp.",
+  "col": [
+   "appear out of nowhere",
+   "come out of nowhere"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "to this day",
+  "ipa": "/tə ˈðɪs deɪ/",
+  "pos": "phr",
+  "vi": "cho đến tận bây giờ",
+  "ex": "To this day, I have no idea how we managed to fit six people in that car.",
+  "exvi": "Đến tận bây giờ tôi vẫn không hiểu sao chúng tôi nhét được sáu người vào chiếc xe đó.",
+  "col": [
+   "to this day",
+   "even to this day"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "I kid you not",
+  "ipa": "/aɪ ˈkɪd ju ˌnɒt/",
+  "pos": "phr",
+  "vi": "tôi không đùa đâu",
+  "ex": "The queue for the museum went right round the block, I kid you not.",
+  "exvi": "Hàng xếp vào bảo tàng dài vòng quanh cả dãy nhà, không đùa đâu.",
+  "col": [
+   "I kid you not",
+   "no kidding"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "needless to say",
+  "ipa": "/ˌniːdləs tə ˈseɪ/",
+  "pos": "phr",
+  "vi": "khỏi phải nói",
+  "ex": "I forgot my lines in the school play; needless to say, I never auditioned again.",
+  "exvi": "Tôi quên thoại trong vở kịch ở trường, khỏi phải nói, tôi không bao giờ đi thử vai nữa.",
+  "col": [
+   "needless to say, ...",
+   "it goes without saying"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it was the making of me",
+  "ipa": "/ɪt wəz ðə ˈmeɪkɪŋ əv mi/",
+  "pos": "idiom",
+  "vi": "nó đã làm nên con người tôi",
+  "ex": "Working in a busy kitchen at sixteen was hard, but it was the making of me.",
+  "exvi": "Làm trong bếp nhà hàng bận rộn năm mười sáu tuổi rất cực nhưng nó đã rèn nên con người tôi.",
+  "col": [
+   "be the making of someone",
+   "it was the making of her"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "a whale of a time",
+  "ipa": "/ə ˌweɪl əv ə ˈtaɪm/",
+  "pos": "idiom",
+  "vi": "quãng thời gian cực kỳ vui",
+  "ex": "We had a whale of a time at the festival, even though it poured with rain.",
+  "exvi": "Chúng tôi vui hết cỡ ở lễ hội dù mưa như trút.",
+  "col": [
+   "have a whale of a time",
+   "had a whale of a time"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "backfire",
+  "ipa": "/ˌbækˈfaɪə/",
+  "pos": "v",
+  "vi": "phản tác dụng",
+  "ex": "My plan to surprise her completely backfired because she'd already booked the same restaurant.",
+  "exvi": "Kế hoạch gây bất ngờ của tôi phản tác dụng hoàn toàn vì cô ấy đã đặt đúng nhà hàng đó.",
+  "col": [
+   "backfire on someone",
+   "the plan backfired"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "an ordeal",
+  "ipa": "/ən ɔːˈdiːl/",
+  "pos": "n",
+  "vi": "trải nghiệm khổ sở, cực hình",
+  "ex": "Getting a visa turned into a real ordeal, three trips to the embassy and endless forms.",
+  "exvi": "Xin visa trở thành cực hình thật sự: ba lần lên đại sứ quán và giấy tờ không dứt.",
+  "col": [
+   "a real ordeal",
+   "go through an ordeal",
+   "quite an ordeal"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "a rite of passage",
+  "ipa": "/ə ˌraɪt əv ˈpæsɪdʒ/",
+  "pos": "idiom",
+  "vi": "cột mốc trưởng thành, trải nghiệm ai cũng trải qua",
+  "ex": "Backpacking round Southeast Asia was a sort of rite of passage for students in my year.",
+  "exvi": "Đi phượt Đông Nam Á gần như là cột mốc trưởng thành của sinh viên khóa tôi.",
+  "col": [
+   "a rite of passage",
+   "seen as a rite of passage"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "the long and the short of it",
+  "ipa": "/ðə ˌlɒŋ ən ðə ˈʃɔːt əv ɪt/",
+  "pos": "idiom",
+  "vi": "tóm lại là, đại ý là",
+  "ex": "The long and the short of it is that we never got our deposit back.",
+  "exvi": "Tóm lại là chúng tôi không bao giờ lấy lại được tiền cọc.",
+  "col": [
+   "the long and the short of it is...",
+   "that's the long and the short of it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "one thing led to another",
+  "ipa": "/ˌwʌn θɪŋ ˌled tʊ əˈnʌðə/",
+  "pos": "idiom",
+  "vi": "chuyện này dẫn đến chuyện kia",
+  "ex": "We started chatting about books, one thing led to another, and now we run a book club together.",
+  "exvi": "Chúng tôi bắt đầu nói về sách, chuyện này dẫn đến chuyện kia, giờ thì cùng điều hành một câu lạc bộ sách.",
+  "col": [
+   "one thing led to another",
+   "and one thing led to another"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it all came flooding back",
+  "ipa": "/ɪt ˌɔːl ˌkeɪm ˈflʌdɪŋ ˈbæk/",
+  "pos": "idiom",
+  "vi": "mọi ký ức ùa về",
+  "ex": "As soon as I smelt the sea air, it all came flooding back, every summer at my grandparents'.",
+  "exvi": "Vừa ngửi thấy mùi biển, mọi ký ức ùa về, từng mùa hè ở nhà ông bà.",
+  "col": [
+   "memories came flooding back",
+   "it all came flooding back"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "in my element",
+  "ipa": "/ɪn maɪ ˈelɪmənt/",
+  "pos": "idiom",
+  "vi": "như cá gặp nước",
+  "ex": "Put me in charge of planning a trip and I'm in my element.",
+  "exvi": "Giao tôi lên kế hoạch cho chuyến đi là tôi như cá gặp nước.",
+  "col": [
+   "be in your element",
+   "out of my element"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it took me back",
+  "ipa": "/ɪt ˌtʊk mi ˈbæk/",
+  "pos": "phr",
+  "vi": "nó gợi tôi nhớ lại ngày xưa",
+  "ex": "Hearing that song on the radio really took me back to my student days.",
+  "exvi": "Nghe bài hát đó trên radio làm tôi nhớ lại thời sinh viên.",
+  "col": [
+   "that takes me back",
+   "it took me right back to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "before I knew it",
+  "ipa": "/bɪˌfɔːr aɪ ˈnjuː ɪt/",
+  "pos": "phr",
+  "vi": "chưa kịp nhận ra thì",
+  "ex": "I only meant to stay in Da Nang for a week, but before I knew it, a year had gone by.",
+  "exvi": "Tôi chỉ định ở Đà Nẵng một tuần, chưa kịp nhận ra thì đã một năm trôi qua.",
+  "col": [
+   "before I knew it, ...",
+   "before you know it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "for the first time in ages",
+  "ipa": "/fə ðə ˌfɜːst ˌtaɪm ɪn ˈeɪdʒɪz/",
+  "pos": "phr",
+  "vi": "lần đầu sau một thời gian dài",
+  "ex": "Last weekend, for the first time in ages, I switched my phone off and read a whole novel.",
+  "exvi": "Cuối tuần trước, lần đầu sau rất lâu, tôi tắt điện thoại và đọc hết một cuốn tiểu thuyết.",
+  "col": [
+   "for the first time in ages",
+   "I haven't done that in ages"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "I was beside myself",
+  "ipa": "/aɪ wəz bɪˌsaɪd maɪˈself/",
+  "pos": "idiom",
+  "vi": "tôi rối bời, cuống cuồng (vì lo, giận)",
+  "ex": "When my little brother went missing at the fair, my mum was beside herself.",
+  "exvi": "Khi em trai tôi lạc ở hội chợ, mẹ tôi cuống cuồng cả lên.",
+  "col": [
+   "be beside yourself with worry",
+   "beside herself with joy"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "it went down a storm",
+  "ipa": "/ɪt ˌwent ˌdaʊn ə ˈstɔːm/",
+  "pos": "idiom",
+  "vi": "được đón nhận cực kỳ nhiệt tình",
+  "ex": "My mum's home-made spring rolls went down a storm at the office party.",
+  "exvi": "Món chả giò nhà làm của mẹ tôi được cả văn phòng khen nức nở ở bữa tiệc.",
+  "col": [
+   "go down a storm",
+   "went down a storm with"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Telling stories about the past",
+  "lv": 5
+ },
+ {
+  "w": "for all I know",
+  "ipa": "/fər ˈɔːl aɪ ˌnəʊ/",
+  "pos": "phr",
+  "vi": "theo những gì tôi biết thì có khi, biết đâu được",
+  "ex": "For all I know, they've already found a cure and just haven't announced it yet.",
+  "exvi": "Biết đâu được, có khi họ đã tìm ra cách chữa mà chưa công bố thôi.",
+  "col": [
+   "for all I know, ...",
+   "for all we know"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it's anyone's guess",
+  "ipa": "/ɪts ˈeniwʌnz ˈɡes/",
+  "pos": "idiom",
+  "vi": "không ai đoán được",
+  "ex": "Whether flying cars will ever be common is anyone's guess.",
+  "exvi": "Liệu xe bay có bao giờ phổ biến không thì chẳng ai đoán được.",
+  "col": [
+   "it's anyone's guess whether...",
+   "it's anybody's guess"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I wouldn't be surprised if",
+  "ipa": "/aɪ ˌwʊdnt bi səˈpraɪzd ɪf/",
+  "pos": "phr",
+  "vi": "tôi sẽ không ngạc nhiên nếu",
+  "ex": "I wouldn't be surprised if most offices went fully remote within the next decade.",
+  "exvi": "Tôi sẽ không ngạc nhiên nếu phần lớn văn phòng chuyển hẳn sang làm từ xa trong mười năm tới.",
+  "col": [
+   "I wouldn't be surprised if...",
+   "it wouldn't surprise me if..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "chances are",
+  "ipa": "/ˈtʃɑːnsɪz ɑː/",
+  "pos": "phr",
+  "vi": "nhiều khả năng là",
+  "ex": "Chances are, if you ask ten people their favourite city, at least three will say Paris.",
+  "exvi": "Nhiều khả năng nếu hỏi mười người thành phố yêu thích, ít nhất ba người sẽ nói Paris.",
+  "col": [
+   "chances are (that)...",
+   "the chances are"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I dare say",
+  "ipa": "/aɪ ˌdeə ˈseɪ/",
+  "pos": "phr",
+  "vi": "tôi đoán là, chắc là",
+  "ex": "I dare say things will look very different for my kids when they start work.",
+  "exvi": "Tôi đoán mọi thứ sẽ rất khác khi con tôi đi làm.",
+  "col": [
+   "I dare say",
+   "I daresay"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "hazard a guess",
+  "ipa": "/ˌhæzəd ə ˈɡes/",
+  "pos": "idiom",
+  "vi": "đánh liều đoán thử",
+  "ex": "If I had to hazard a guess, I'd say about half the town works in tourism.",
+  "exvi": "Nếu phải đoán thử, tôi cho là khoảng một nửa thị trấn làm du lịch.",
+  "col": [
+   "hazard a guess",
+   "I'd hazard a guess that..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "at a guess",
+  "ipa": "/ət ə ˈɡes/",
+  "pos": "phr",
+  "vi": "đoán chừng",
+  "ex": "At a guess, I'd say the building's at least two hundred years old.",
+  "exvi": "Đoán chừng thì tòa nhà ít nhất hai trăm năm tuổi.",
+  "col": [
+   "at a guess, ...",
+   "at a rough guess"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it stands to reason",
+  "ipa": "/ɪt ˌstændz tə ˈriːzn/",
+  "pos": "idiom",
+  "vi": "điều đó hợp lẽ thường, dễ hiểu thôi",
+  "ex": "It stands to reason that kids who read for pleasure tend to write better.",
+  "exvi": "Hợp lẽ thôi khi trẻ đọc sách vì thích thường viết tốt hơn.",
+  "col": [
+   "it stands to reason that...",
+   "it stands to reason"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "if push comes to shove",
+  "ipa": "/ɪf ˌpʊʃ kʌmz tə ˈʃʌv/",
+  "pos": "idiom",
+  "vi": "nếu tình thế bắt buộc, nếu cùng đường",
+  "ex": "If push comes to shove, I could always move back in with my parents for a while.",
+  "exvi": "Nếu cùng đường thì tôi luôn có thể về ở với bố mẹ một thời gian.",
+  "col": [
+   "if push comes to shove",
+   "when push comes to shove"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "if it were up to me",
+  "ipa": "/ɪf ɪt ˌwɜːr ˈʌp tə mi/",
+  "pos": "phr",
+  "vi": "nếu là tôi quyết",
+  "ex": "If it were up to me, every school would have a proper kitchen garden.",
+  "exvi": "Nếu tôi được quyết thì trường nào cũng có một vườn rau tử tế.",
+  "col": [
+   "if it were up to me, ...",
+   "if it was up to me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "supposing",
+  "ipa": "/səˈpəʊzɪŋ/",
+  "pos": "conj",
+  "vi": "giả sử",
+  "ex": "Supposing you could live anywhere in the world, where would you choose?",
+  "exvi": "Giả sử bạn được sống ở bất cứ đâu trên thế giới thì bạn chọn đâu?",
+  "col": [
+   "supposing (that)...",
+   "suppose you had..."
+  ],
+  "fam": "suppose (v), supposition (n)",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "let's just say",
+  "ipa": "/ˌlets ˌdʒʌst ˈseɪ/",
+  "pos": "phr",
+  "vi": "cứ cho là; nói khéo thì là",
+  "ex": "Let's just say my cooking skills aren't quite up to dinner-party standard yet.",
+  "exvi": "Nói khéo thì tay nghề nấu ăn của tôi chưa đến mức đãi tiệc được.",
+  "col": [
+   "let's just say (that)...",
+   "let's say"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it wouldn't hurt to",
+  "ipa": "/ɪt ˌwʊdnt ˈhɜːt tuː/",
+  "pos": "phr",
+  "vi": "cũng chẳng hại gì nếu",
+  "ex": "It wouldn't hurt to learn a bit of the local language before you go.",
+  "exvi": "Học chút tiếng địa phương trước khi đi cũng chẳng hại gì.",
+  "col": [
+   "it wouldn't hurt to...",
+   "it can't hurt to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "on the cards",
+  "ipa": "/ˌɒn ðə ˈkɑːdz/",
+  "pos": "idiom",
+  "vi": "có khả năng xảy ra",
+  "ex": "A move to Singapore is on the cards for next year, but nothing's confirmed.",
+  "exvi": "Có khả năng năm sau tôi chuyển sang Singapore, nhưng chưa có gì chắc.",
+  "col": [
+   "be on the cards",
+   "a change is on the cards"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it remains to be seen",
+  "ipa": "/ɪt rɪˌmeɪnz tə bi ˈsiːn/",
+  "pos": "phr",
+  "vi": "còn phải chờ xem",
+  "ex": "Whether the new tram line will actually reduce traffic remains to be seen.",
+  "exvi": "Tuyến tàu điện mới có thật sự giảm kẹt xe không thì còn phải chờ xem.",
+  "col": [
+   "it remains to be seen whether...",
+   "that remains to be seen"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "time will tell",
+  "ipa": "/ˌtaɪm wɪl ˈtel/",
+  "pos": "idiom",
+  "vi": "thời gian sẽ trả lời",
+  "ex": "Some people think AI tutors will replace teachers; time will tell.",
+  "exvi": "Có người nghĩ gia sư AI sẽ thay giáo viên, thời gian sẽ trả lời.",
+  "col": [
+   "only time will tell",
+   "time will tell"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "your guess is as good as mine",
+  "ipa": "/jɔː ˌɡes ɪz əz ˌɡʊd əz ˈmaɪn/",
+  "pos": "idiom",
+  "vi": "tôi cũng không biết hơn bạn đâu",
+  "ex": "Why they closed the library? Your guess is as good as mine.",
+  "exvi": "Sao họ đóng cửa thư viện à? Tôi cũng chịu, không biết hơn bạn đâu.",
+  "col": [
+   "your guess is as good as mine",
+   "it's anyone's guess"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "knowing my luck",
+  "ipa": "/ˌnəʊɪŋ maɪ ˈlʌk/",
+  "pos": "phr",
+  "vi": "với cái số xui của tôi thì",
+  "ex": "Knowing my luck, it'll rain on the one day I've booked a boat trip.",
+  "exvi": "Với cái số xui của tôi thì chắc chắn trời mưa đúng hôm tôi đặt đi thuyền.",
+  "col": [
+   "knowing my luck, ...",
+   "knowing him, ..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I'd like to think",
+  "ipa": "/aɪd ˌlaɪk tə ˈθɪŋk/",
+  "pos": "phr",
+  "vi": "tôi mong là, tôi tin (dù không chắc)",
+  "ex": "I'd like to think people will become more environmentally aware as prices of green tech fall.",
+  "exvi": "Tôi mong là con người sẽ ý thức môi trường hơn khi giá công nghệ xanh giảm.",
+  "col": [
+   "I'd like to think (that)...",
+   "I like to think"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "in theory",
+  "ipa": "/ɪn ˈθɪəri/",
+  "pos": "phr",
+  "vi": "về lý thuyết thì",
+  "ex": "In theory, a four-day week should make people more productive, but it depends on the job.",
+  "exvi": "Về lý thuyết, tuần làm bốn ngày sẽ giúp người ta năng suất hơn, nhưng còn tùy công việc.",
+  "col": [
+   "in theory, ...",
+   "in theory and in practice"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "on paper",
+  "ipa": "/ˌɒn ˈpeɪpə/",
+  "pos": "idiom",
+  "vi": "trên giấy tờ, về lý thuyết",
+  "ex": "On paper, the plan looked brilliant, but nobody had asked the residents what they wanted.",
+  "exvi": "Trên giấy tờ thì kế hoạch trông tuyệt vời, nhưng chẳng ai hỏi người dân họ muốn gì.",
+  "col": [
+   "look good on paper",
+   "on paper, ..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "hypothetically speaking",
+  "ipa": "/ˌhaɪpəˈθetɪkli ˈspiːkɪŋ/",
+  "pos": "phr",
+  "vi": "nói giả định thôi",
+  "ex": "Hypothetically speaking, if you were offered double the salary abroad, would you go?",
+  "exvi": "Nói giả định thôi, nếu được trả lương gấp đôi ở nước ngoài, bạn có đi không?",
+  "col": [
+   "hypothetically speaking",
+   "purely hypothetically"
+  ],
+  "fam": "hypothesis (n), hypothetical (adj)",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "in an ideal world",
+  "ipa": "/ɪn ən aɪˌdɪəl ˈwɜːld/",
+  "pos": "phr",
+  "vi": "trong một thế giới lý tưởng thì",
+  "ex": "In an ideal world, everyone would live within walking distance of a park.",
+  "exvi": "Trong thế giới lý tưởng thì ai cũng sống trong tầm đi bộ đến công viên.",
+  "col": [
+   "in an ideal world, ...",
+   "in a perfect world"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "the way things are going",
+  "ipa": "/ðə ˌweɪ ˌθɪŋz ə ˈɡəʊɪŋ/",
+  "pos": "phr",
+  "vi": "theo đà này thì",
+  "ex": "The way things are going, nobody under thirty will be able to afford a house in this city.",
+  "exvi": "Theo đà này thì chẳng ai dưới ba mươi mua nổi nhà ở thành phố này.",
+  "col": [
+   "the way things are going, ...",
+   "at this rate"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I can't see that happening",
+  "ipa": "/aɪ ˌkɑːnt ˈsiː ðæt ˈhæpənɪŋ/",
+  "pos": "phr",
+  "vi": "tôi không nghĩ chuyện đó sẽ xảy ra",
+  "ex": "Cash disappearing completely? I can't see that happening in my parents' lifetime.",
+  "exvi": "Tiền mặt biến mất hoàn toàn à? Tôi không nghĩ chuyện đó xảy ra khi bố mẹ tôi còn sống.",
+  "col": [
+   "I can't see that happening",
+   "I can't see them agreeing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "if all goes to plan",
+  "ipa": "/ɪf ˌɔːl ɡəʊz tə ˈplæn/",
+  "pos": "phr",
+  "vi": "nếu mọi việc theo đúng kế hoạch",
+  "ex": "If all goes to plan, I'll have finished my master's by next summer.",
+  "exvi": "Nếu mọi việc theo kế hoạch thì đến hè năm sau tôi sẽ xong thạc sĩ.",
+  "col": [
+   "if all goes to plan",
+   "if all goes well"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "touch wood",
+  "ipa": "/ˌtʌtʃ ˈwʊd/",
+  "pos": "idiom",
+  "vi": "cầu may, mong không xui (nói khi vừa nói điều tốt)",
+  "ex": "I haven't had a cold all winter, touch wood.",
+  "exvi": "Cả mùa đông tôi chưa bị cảm lần nào, cầu cho tiếp tục vậy.",
+  "col": [
+   "touch wood",
+   "knock on wood (US)"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "there's every chance",
+  "ipa": "/ðeəz ˌevri ˈtʃɑːns/",
+  "pos": "phr",
+  "vi": "rất có khả năng",
+  "ex": "There's every chance the festival will be cancelled if the storm hits on Friday.",
+  "exvi": "Rất có khả năng lễ hội bị hủy nếu bão đổ bộ hôm thứ Sáu.",
+  "col": [
+   "there's every chance that...",
+   "stand every chance of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "a long shot",
+  "ipa": "/ə ˌlɒŋ ˈʃɒt/",
+  "pos": "idiom",
+  "vi": "khả năng thấp nhưng vẫn thử",
+  "ex": "Applying for that job was a long shot, but I thought I might as well give it a go.",
+  "exvi": "Nộp đơn vào việc đó khả năng thấp lắm, nhưng tôi nghĩ cứ thử xem sao.",
+  "col": [
+   "it's a long shot, but...",
+   "not by a long shot"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "a safe bet",
+  "ipa": "/ə ˌseɪf ˈbet/",
+  "pos": "idiom",
+  "vi": "lựa chọn chắc ăn, điều gần như chắc chắn",
+  "ex": "If you're not sure what to order, the noodle soup is always a safe bet.",
+  "exvi": "Nếu không biết gọi gì thì món phở luôn là lựa chọn chắc ăn.",
+  "col": [
+   "a safe bet",
+   "it's a safe bet that..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "had it not been for",
+  "ipa": "/ˌhæd ɪt ˌnɒt bɪn fɔː/",
+  "pos": "phr",
+  "vi": "nếu không nhờ có",
+  "ex": "Had it not been for my teacher's encouragement, I'd never have applied to study abroad.",
+  "exvi": "Nếu không nhờ thầy động viên, tôi đã chẳng bao giờ nộp đơn du học.",
+  "col": [
+   "had it not been for...",
+   "if it hadn't been for"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "if I had my way",
+  "ipa": "/ɪf aɪ ˌhæd maɪ ˈweɪ/",
+  "pos": "phr",
+  "vi": "nếu được làm theo ý tôi",
+  "ex": "If I had my way, cars would be banned from the old quarter altogether.",
+  "exvi": "Nếu được theo ý tôi thì cấm ô tô vào phố cổ luôn.",
+  "col": [
+   "if I had my way, ...",
+   "get your own way"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "given the choice",
+  "ipa": "/ˌɡɪvn ðə ˈtʃɔɪs/",
+  "pos": "phr",
+  "vi": "nếu được chọn",
+  "ex": "Given the choice, I'd always take a train over a plane for short trips.",
+  "exvi": "Nếu được chọn, đi chặng ngắn tôi luôn chọn tàu hỏa hơn máy bay.",
+  "col": [
+   "given the choice, ...",
+   "if given the choice"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I'd be inclined to",
+  "ipa": "/aɪd bi ɪnˈklaɪnd tuː/",
+  "pos": "phr",
+  "vi": "tôi nghiêng về việc",
+  "ex": "I'd be inclined to agree, although I think the problem is more about housing than wages.",
+  "exvi": "Tôi nghiêng về đồng ý, dù tôi nghĩ vấn đề nằm ở nhà ở hơn là lương.",
+  "col": [
+   "I'd be inclined to think...",
+   "I'm inclined to agree"
+  ],
+  "fam": "inclination (n)",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I'm guessing",
+  "ipa": "/aɪm ˈɡesɪŋ/",
+  "pos": "phr",
+  "vi": "tôi đoán là",
+  "ex": "I'm guessing most of the people in that photo have no idea they're being filmed.",
+  "exvi": "Tôi đoán phần lớn người trong ảnh không biết mình đang bị quay.",
+  "col": [
+   "I'm guessing (that)...",
+   "I'm guessing not"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "the chances are slim",
+  "ipa": "/ðə ˌtʃɑːnsɪz ə ˈslɪm/",
+  "pos": "phr",
+  "vi": "khả năng rất thấp",
+  "ex": "The chances are slim that they'll reopen the old railway, but people keep campaigning.",
+  "exvi": "Khả năng mở lại tuyến đường sắt cũ rất thấp, nhưng người ta vẫn vận động.",
+  "col": [
+   "slim chances",
+   "the chances are slim to none"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I'd imagine",
+  "ipa": "/aɪd ɪˈmædʒɪn/",
+  "pos": "phr",
+  "vi": "tôi nghĩ chắc là",
+  "ex": "I'd imagine it's pretty lonely being a lighthouse keeper.",
+  "exvi": "Tôi nghĩ làm người gác hải đăng chắc cô đơn lắm.",
+  "col": [
+   "I'd imagine (that)...",
+   "I imagine so"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "by the looks of it",
+  "ipa": "/baɪ ðə ˈlʊks əv ɪt/",
+  "pos": "phr",
+  "vi": "nhìn qua thì có vẻ",
+  "ex": "By the looks of it, they've finally started building the new bridge.",
+  "exvi": "Nhìn qua thì có vẻ cuối cùng họ cũng bắt đầu xây cầu mới.",
+  "col": [
+   "by the looks of it",
+   "by the look of things"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "something tells me",
+  "ipa": "/ˌsʌmθɪŋ ˈtelz mi/",
+  "pos": "phr",
+  "vi": "linh cảm mách tôi",
+  "ex": "Something tells me this trend for oat milk isn't going away any time soon.",
+  "exvi": "Linh cảm mách tôi trào lưu sữa yến mạch này sẽ không sớm biến mất.",
+  "col": [
+   "something tells me (that)...",
+   "something told me"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I have a hunch",
+  "ipa": "/aɪ ˌhæv ə ˈhʌntʃ/",
+  "pos": "idiom",
+  "vi": "tôi có linh cảm",
+  "ex": "I have a hunch that more people will move back to small towns over the next few years.",
+  "exvi": "Tôi có linh cảm là vài năm tới sẽ có nhiều người chuyển về thị trấn nhỏ hơn.",
+  "col": [
+   "have a hunch that...",
+   "act on a hunch",
+   "play a hunch"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "a foregone conclusion",
+  "ipa": "/ə ˌfɔːɡɒn kənˈkluːʒn/",
+  "pos": "idiom",
+  "vi": "kết quả biết trước",
+  "ex": "Everyone treated the election as a foregone conclusion, and then the outsider won.",
+  "exvi": "Ai cũng coi cuộc bầu cử là kết quả biết trước, rồi ứng viên ít ai để ý lại thắng.",
+  "col": [
+   "a foregone conclusion",
+   "far from a foregone conclusion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "the writing is on the wall",
+  "ipa": "/ðə ˌraɪtɪŋ ɪz ɒn ðə ˈwɔːl/",
+  "pos": "idiom",
+  "vi": "dấu hiệu thất bại đã rõ",
+  "ex": "With everyone streaming films at home, the writing is on the wall for small cinemas.",
+  "exvi": "Khi ai cũng xem phim trực tuyến ở nhà, dấu hiệu tàn lụi của rạp nhỏ đã rõ.",
+  "col": [
+   "the writing is on the wall for...",
+   "see the writing on the wall"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "there's no telling",
+  "ipa": "/ðeəz ˌnəʊ ˈtelɪŋ/",
+  "pos": "phr",
+  "vi": "không thể biết được",
+  "ex": "There's no telling how the job market will look by the time today's toddlers graduate.",
+  "exvi": "Không thể biết thị trường việc làm sẽ ra sao khi trẻ mẫu giáo hôm nay tốt nghiệp.",
+  "col": [
+   "there's no telling what/how...",
+   "no knowing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "odds are",
+  "ipa": "/ˈɒdz ɑː/",
+  "pos": "phr",
+  "vi": "khả năng cao là",
+  "ex": "Odds are you'll bump into someone you know if you stay in that town for more than a day.",
+  "exvi": "Khả năng cao là bạn sẽ gặp người quen nếu ở thị trấn đó hơn một ngày.",
+  "col": [
+   "odds are (that)...",
+   "the odds are stacked against"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "who's to say",
+  "ipa": "/ˌhuːz tə ˈseɪ/",
+  "pos": "phr",
+  "vi": "ai dám chắc",
+  "ex": "Who's to say that what we call progress will look like progress in fifty years?",
+  "exvi": "Ai dám chắc điều ta gọi là tiến bộ sẽ vẫn là tiến bộ sau năm mươi năm?",
+  "col": [
+   "who's to say (that)...?",
+   "who's to say what..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "in all probability",
+  "ipa": "/ɪn ˌɔːl ˌprɒbəˈbɪləti/",
+  "pos": "phr",
+  "vi": "rất có thể, nhiều khả năng",
+  "ex": "In all probability, the café will close once the new chain opens across the road.",
+  "exvi": "Nhiều khả năng quán cà phê sẽ đóng cửa khi chuỗi mới mở bên kia đường.",
+  "col": [
+   "in all probability",
+   "the probability is"
+  ],
+  "fam": "probable (adj), probably (adv)",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "short of",
+  "ipa": "/ˈʃɔːt əv/",
+  "pos": "prep",
+  "vi": "trừ khi, ngoại trừ (việc gì đó cực đoan)",
+  "ex": "Short of banning cars entirely, I don't see how they'll fix the air quality.",
+  "exvi": "Trừ khi cấm hẳn ô tô, tôi không thấy họ cải thiện chất lượng không khí bằng cách nào.",
+  "col": [
+   "short of + -ing",
+   "nothing short of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I'd put money on it",
+  "ipa": "/aɪd ˌpʊt ˈmʌni ɒn ɪt/",
+  "pos": "idiom",
+  "vi": "tôi dám cá chắc",
+  "ex": "They'll raise the ticket prices again next year, I'd put money on it.",
+  "exvi": "Năm sau họ lại tăng giá vé, tôi dám cá luôn.",
+  "col": [
+   "I'd put money on it",
+   "I wouldn't bet on it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it could go either way",
+  "ipa": "/ɪt ˌkʊd ɡəʊ ˈaɪðə ˌweɪ/",
+  "pos": "idiom",
+  "vi": "kết quả có thể theo hướng nào cũng được",
+  "ex": "The vote on the new stadium could go either way at this point.",
+  "exvi": "Cuộc bỏ phiếu về sân vận động mới lúc này có thể nghiêng về bên nào cũng được.",
+  "col": [
+   "it could go either way",
+   "could swing either way"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "I wouldn't bank on it",
+  "ipa": "/aɪ ˌwʊdnt ˈbæŋk ɒn ɪt/",
+  "pos": "idiom",
+  "vi": "đừng trông chờ vào điều đó",
+  "ex": "They say the road will be finished by Christmas, but I wouldn't bank on it.",
+  "exvi": "Họ bảo đường sẽ xong trước Giáng sinh nhưng đừng trông chờ vào điều đó.",
+  "col": [
+   "I wouldn't bank on it",
+   "bank on someone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Speculating and hypothesising",
+  "lv": 5
+ },
+ {
+  "w": "it's not a patch on",
+  "ipa": "/ɪts ˌnɒt ə ˈpætʃ ɒn/",
+  "pos": "idiom",
+  "vi": "không sánh bằng, kém xa",
+  "ex": "The remake was enjoyable enough, but it's not a patch on the original.",
+  "exvi": "Bản làm lại cũng xem được, nhưng kém xa bản gốc.",
+  "col": [
+   "not a patch on",
+   "nowhere near as good as"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "there's not much in it",
+  "ipa": "/ðeəz ˌnɒt ˈmʌtʃ ɪn ɪt/",
+  "pos": "idiom",
+  "vi": "chênh lệch không đáng kể",
+  "ex": "Price-wise there's not much in it, so I'd go for whichever is closer to the station.",
+  "exvi": "Về giá thì chênh không đáng kể, nên tôi chọn cái nào gần ga hơn.",
+  "col": [
+   "there's not much in it",
+   "there's nothing in it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "on a par with",
+  "ipa": "/ˌɒn ə ˈpɑː wɪð/",
+  "pos": "idiom",
+  "vi": "ngang hàng với, tương đương",
+  "ex": "The street food there is on a par with anything you'd get in a proper restaurant.",
+  "exvi": "Đồ ăn đường phố ở đó ngang ngửa mọi thứ bạn ăn trong nhà hàng tử tế.",
+  "col": [
+   "on a par with",
+   "not on a par with"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "streets ahead",
+  "ipa": "/ˌstriːts əˈhed/",
+  "pos": "idiom",
+  "vi": "vượt trội hẳn (Anh, thân mật)",
+  "ex": "When it comes to public transport, Seoul is streets ahead of most cities I've visited.",
+  "exvi": "Về giao thông công cộng, Seoul vượt hẳn hầu hết các thành phố tôi từng đến.",
+  "col": [
+   "streets ahead of",
+   "streets ahead in terms of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "pale in comparison",
+  "ipa": "/ˌpeɪl ɪn kəmˈpærɪsn/",
+  "pos": "idiom",
+  "vi": "lu mờ khi so sánh",
+  "ex": "Our local beach is nice, but it pales in comparison with the ones down south.",
+  "exvi": "Bãi biển chỗ tôi cũng đẹp nhưng lu mờ hẳn so với các bãi phía nam.",
+  "col": [
+   "pale in comparison with/to",
+   "pale into insignificance"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "in a different league",
+  "ipa": "/ɪn ə ˌdɪfrənt ˈliːɡ/",
+  "pos": "idiom",
+  "vi": "ở đẳng cấp khác hẳn",
+  "ex": "Her photography is in a different league from mine; she actually understands light.",
+  "exvi": "Ảnh của cô ấy ở đẳng cấp khác hẳn tôi, cô ấy thật sự hiểu ánh sáng.",
+  "col": [
+   "in a different league",
+   "out of my league"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "can't hold a candle to",
+  "ipa": "/ˌkɑːnt ˌhəʊld ə ˈkændl tuː/",
+  "pos": "idiom",
+  "vi": "không thể sánh với",
+  "ex": "Shop-bought dumplings can't hold a candle to my grandmother's.",
+  "exvi": "Sủi cảo mua ngoài không thể nào sánh với sủi cảo bà tôi làm.",
+  "col": [
+   "can't hold a candle to",
+   "couldn't hold a candle to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "worlds apart",
+  "ipa": "/ˌwɜːldz əˈpɑːt/",
+  "pos": "idiom",
+  "vi": "khác nhau hoàn toàn",
+  "ex": "My brother and I grew up in the same house, but our views on money are worlds apart.",
+  "exvi": "Tôi và anh trai lớn lên chung một nhà mà quan điểm về tiền bạc khác nhau hoàn toàn.",
+  "col": [
+   "worlds apart",
+   "be worlds apart on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "comparing apples and oranges",
+  "ipa": "/kəmˌpeərɪŋ ˌæplz ən ˈɒrɪndʒɪz/",
+  "pos": "idiom",
+  "vi": "so sánh hai thứ không cùng loại",
+  "ex": "Comparing city life with village life is a bit like comparing apples and oranges.",
+  "exvi": "So sánh cuộc sống thành phố với làng quê cũng giống so sánh hai thứ chẳng cùng loại.",
+  "col": [
+   "it's apples and oranges",
+   "like comparing apples and oranges"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "two sides of the same coin",
+  "ipa": "/ˌtuː ˌsaɪdz əv ðə ˌseɪm ˈkɔɪn/",
+  "pos": "idiom",
+  "vi": "hai mặt của cùng một vấn đề",
+  "ex": "Freedom and loneliness are really two sides of the same coin when you live alone.",
+  "exvi": "Tự do và cô đơn thực ra là hai mặt của một vấn đề khi bạn sống một mình.",
+  "col": [
+   "two sides of the same coin",
+   "the other side of the coin"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "much of a muchness",
+  "ipa": "/ˌmʌtʃ əv ə ˈmʌtʃnəs/",
+  "pos": "idiom",
+  "vi": "na ná nhau, chẳng khác bao nhiêu (Anh)",
+  "ex": "Honestly, all the big phone brands are much of a muchness these days.",
+  "exvi": "Thật lòng mà nói, các hãng điện thoại lớn giờ đều na ná nhau.",
+  "col": [
+   "much of a muchness",
+   "pretty much of a muchness"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "by comparison",
+  "ipa": "/baɪ kəmˈpærɪsn/",
+  "pos": "phr",
+  "vi": "khi so sánh thì",
+  "ex": "My first flat was tiny; by comparison, this place feels like a palace.",
+  "exvi": "Căn hộ đầu tiên của tôi bé xíu, so ra thì chỗ này như cung điện.",
+  "col": [
+   "by comparison",
+   "by comparison with"
+  ],
+  "fam": "compare (v), comparable (adj)",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "as opposed to",
+  "ipa": "/əz əˈpəʊzd tuː/",
+  "pos": "phr",
+  "vi": "thay vì, trái với",
+  "ex": "I prefer learning by doing, as opposed to sitting through long lectures.",
+  "exvi": "Tôi thích học qua làm thực tế, chứ không phải ngồi nghe giảng dài.",
+  "col": [
+   "as opposed to + noun/-ing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "the lesser of two evils",
+  "ipa": "/ðə ˌlesər əv ˌtuː ˈiːvlz/",
+  "pos": "idiom",
+  "vi": "cái ít tệ hơn trong hai cái tệ",
+  "ex": "A two-hour bus ride or a ten-hour drive? The bus is the lesser of two evils.",
+  "exvi": "Hai tiếng xe buýt hay mười tiếng lái xe? Đi xe buýt đỡ tệ hơn.",
+  "col": [
+   "the lesser of two evils",
+   "choose the lesser evil"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "have the edge over",
+  "ipa": "/ˌhæv ði ˈedʒ ˌəʊvə/",
+  "pos": "idiom",
+  "vi": "nhỉnh hơn, có lợi thế hơn",
+  "ex": "Both candidates were strong, but she had the edge over him in terms of experience.",
+  "exvi": "Cả hai ứng viên đều mạnh nhưng cô ấy nhỉnh hơn về kinh nghiệm.",
+  "col": [
+   "have the edge over",
+   "give someone the edge"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "leave a lot to be desired",
+  "ipa": "/ˌliːv ə ˌlɒt tə bi dɪˈzaɪəd/",
+  "pos": "idiom",
+  "vi": "còn nhiều thiếu sót, chưa đạt",
+  "ex": "The hotel was in a great spot, but the service left a lot to be desired.",
+  "exvi": "Khách sạn ở vị trí đẹp nhưng dịch vụ còn nhiều thiếu sót.",
+  "col": [
+   "leave a lot to be desired",
+   "leave much to be desired"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "second to none",
+  "ipa": "/ˌsekənd tə ˈnʌn/",
+  "pos": "idiom",
+  "vi": "không ai sánh bằng, số một",
+  "ex": "The hospitality in the mountain villages is second to none.",
+  "exvi": "Lòng hiếu khách ở các làng vùng núi thì không đâu sánh bằng.",
+  "col": [
+   "second to none"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "head and shoulders above",
+  "ipa": "/ˌhed ən ˈʃəʊldəz əˌbʌv/",
+  "pos": "idiom",
+  "vi": "vượt trội hẳn so với",
+  "ex": "As a teacher, she was head and shoulders above anyone else I had at school.",
+  "exvi": "Là giáo viên, cô ấy vượt trội hẳn mọi người thầy khác tôi từng học.",
+  "col": [
+   "head and shoulders above the rest",
+   "stand head and shoulders above"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "nowhere near as",
+  "ipa": "/ˌnəʊweə ˈnɪər æz/",
+  "pos": "phr",
+  "vi": "không bằng một góc, kém xa",
+  "ex": "The sequel was nowhere near as gripping as the first book.",
+  "exvi": "Phần tiếp theo không cuốn hút bằng một góc cuốn đầu.",
+  "col": [
+   "nowhere near as + adj + as",
+   "nowhere near enough"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "nothing like as",
+  "ipa": "/ˌnʌθɪŋ ˈlaɪk æz/",
+  "pos": "phr",
+  "vi": "không hề... bằng",
+  "ex": "The city's nothing like as crowded as it was before the new metro opened.",
+  "exvi": "Thành phố không hề đông như trước khi có tàu điện ngầm mới.",
+  "col": [
+   "nothing like as + adj + as",
+   "nothing like"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "every bit as",
+  "ipa": "/ˌevri ˈbɪt æz/",
+  "pos": "phr",
+  "vi": "không kém gì, hoàn toàn",
+  "ex": "Online courses can be every bit as demanding as face-to-face ones.",
+  "exvi": "Khóa học online có thể đòi hỏi không kém gì học trực tiếp.",
+  "col": [
+   "every bit as + adj + as"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "then again",
+  "ipa": "/ˌðen əˈɡen/",
+  "pos": "phr",
+  "vi": "nhưng mặt khác, nghĩ lại thì",
+  "ex": "Living in the centre is convenient; then again, you pay for it in noise and rent.",
+  "exvi": "Sống ở trung tâm tiện thật, nhưng mặt khác bạn phải trả giá bằng tiếng ồn và tiền thuê.",
+  "col": [
+   "but then again",
+   "then again, ..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "a world of difference",
+  "ipa": "/ə ˌwɜːld əv ˈdɪfrəns/",
+  "pos": "idiom",
+  "vi": "khác biệt rất lớn",
+  "ex": "A good pair of walking boots makes a world of difference on a long hike.",
+  "exvi": "Một đôi giày đi bộ tốt tạo khác biệt rất lớn trong chuyến đi bộ dài.",
+  "col": [
+   "make a world of difference",
+   "there's a world of difference between"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "the same goes for",
+  "ipa": "/ðə ˌseɪm ˈɡəʊz fɔː/",
+  "pos": "phr",
+  "vi": "điều tương tự cũng đúng với",
+  "ex": "Public libraries need more funding, and the same goes for community centres.",
+  "exvi": "Thư viện công cần thêm kinh phí, và trung tâm cộng đồng cũng vậy.",
+  "col": [
+   "the same goes for",
+   "the same applies to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "the flip side",
+  "ipa": "/ðə ˈflɪp saɪd/",
+  "pos": "n",
+  "vi": "mặt trái, mặt kia",
+  "ex": "Working from home saves time; the flip side is that you can feel quite isolated.",
+  "exvi": "Làm ở nhà tiết kiệm thời gian, mặt trái là bạn có thể thấy khá cô lập.",
+  "col": [
+   "the flip side is (that)...",
+   "on the flip side"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "swings and roundabouts",
+  "ipa": "/ˌswɪŋz ən ˈraʊndəbaʊts/",
+  "pos": "idiom",
+  "vi": "được cái này mất cái kia (Anh)",
+  "ex": "A bigger salary but a longer commute, it's all swings and roundabouts really.",
+  "exvi": "Lương cao hơn nhưng đi làm xa hơn, được cái này mất cái kia thôi.",
+  "col": [
+   "it's swings and roundabouts",
+   "it's all swings and roundabouts"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "there's no comparison",
+  "ipa": "/ðeəz ˌnəʊ kəmˈpærɪsn/",
+  "pos": "phr",
+  "vi": "không thể so sánh (vì một bên hơn hẳn)",
+  "ex": "Fresh pasta or dried? There's no comparison, honestly.",
+  "exvi": "Mì Ý tươi hay khô à? Thật ra không thể so được.",
+  "col": [
+   "there's no comparison",
+   "there's no comparison between"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "run-of-the-mill",
+  "ipa": "/ˌrʌn əv ðə ˈmɪl/",
+  "pos": "adj",
+  "vi": "bình thường, tầm thường",
+  "ex": "It looks like a run-of-the-mill café, but the cakes are extraordinary.",
+  "exvi": "Trông như quán cà phê bình thường, nhưng bánh thì đặc biệt vô cùng.",
+  "col": [
+   "a run-of-the-mill hotel",
+   "fairly run-of-the-mill"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "a cut above",
+  "ipa": "/ə ˌkʌt əˈbʌv/",
+  "pos": "idiom",
+  "vi": "hơn hẳn một bậc",
+  "ex": "The local market is a cut above the supermarket for fruit and vegetables.",
+  "exvi": "Chợ địa phương hơn hẳn siêu thị một bậc về rau quả.",
+  "col": [
+   "a cut above the rest",
+   "a cut above the average"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "no match for",
+  "ipa": "/ˌnəʊ ˈmætʃ fɔː/",
+  "pos": "idiom",
+  "vi": "không phải đối thủ của",
+  "ex": "My little hatchback was no match for the snow in the mountains.",
+  "exvi": "Chiếc xe hatchback bé của tôi chẳng chống đỡ nổi tuyết trên núi.",
+  "col": [
+   "be no match for",
+   "more than a match for"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "hold its own",
+  "ipa": "/ˌhəʊld ɪts ˈəʊn/",
+  "pos": "idiom",
+  "vi": "đứng vững, không thua kém",
+  "ex": "Our small town museum can hold its own against some of the big city ones.",
+  "exvi": "Bảo tàng thị trấn nhỏ của chúng tôi chẳng thua kém một số bảo tàng thành phố lớn.",
+  "col": [
+   "hold its own against",
+   "hold your own"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "neck and neck",
+  "ipa": "/ˌnek ən ˈnek/",
+  "pos": "idiom",
+  "vi": "ngang ngửa, sát nút",
+  "ex": "Cycling and walking are neck and neck as the most popular ways to commute in my town.",
+  "exvi": "Đạp xe và đi bộ ngang ngửa nhau là cách đi làm phổ biến nhất ở thị trấn tôi.",
+  "col": [
+   "neck and neck",
+   "be neck and neck with"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "poles apart",
+  "ipa": "/ˌpəʊlz əˈpɑːt/",
+  "pos": "idiom",
+  "vi": "khác nhau như hai cực",
+  "ex": "My parents are poles apart: Dad plans everything, Mum just goes with the flow.",
+  "exvi": "Bố mẹ tôi khác nhau như hai cực: bố lên kế hoạch mọi thứ, mẹ thì cứ thuận theo.",
+  "col": [
+   "be poles apart",
+   "poles apart on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "a close second",
+  "ipa": "/ə ˌkləʊs ˈsekənd/",
+  "pos": "phr",
+  "vi": "xếp thứ hai sát nút",
+  "ex": "Hanoi is my favourite city to eat in, with Penang a close second.",
+  "exvi": "Hà Nội là nơi tôi thích ăn uống nhất, Penang xếp ngay sau sát nút.",
+  "col": [
+   "a close second",
+   "come a close second"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "fall short of",
+  "ipa": "/ˌfɔːl ˈʃɔːt əv/",
+  "pos": "phr v",
+  "vi": "không đạt, thiếu so với",
+  "ex": "The new library is nice, but it falls short of what the council originally promised.",
+  "exvi": "Thư viện mới đẹp nhưng chưa đạt được những gì chính quyền hứa ban đầu.",
+  "col": [
+   "fall short of expectations",
+   "fall short of the target"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "outshine",
+  "ipa": "/ˌaʊtˈʃaɪn/",
+  "pos": "v",
+  "vi": "làm lu mờ, nổi bật hơn",
+  "ex": "The supporting actor completely outshone the star of the film.",
+  "exvi": "Diễn viên phụ hoàn toàn làm lu mờ ngôi sao chính của phim.",
+  "col": [
+   "outshine the rest",
+   "completely outshone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "be torn between",
+  "ipa": "/bi ˈtɔːn bɪˌtwiːn/",
+  "pos": "phr",
+  "vi": "phân vân giữa",
+  "ex": "I'm torn between doing a master's straight away and getting a few years' work experience first.",
+  "exvi": "Tôi đang phân vân giữa học thạc sĩ ngay và đi làm vài năm trước.",
+  "col": [
+   "be torn between A and B",
+   "feel torn"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "weigh up",
+  "ipa": "/ˌweɪ ˈʌp/",
+  "pos": "phr v",
+  "vi": "cân nhắc",
+  "ex": "I spent weeks weighing up the pros and cons before I took the job.",
+  "exvi": "Tôi cân nhắc ưu nhược điểm hàng tuần trời rồi mới nhận việc.",
+  "col": [
+   "weigh up the pros and cons",
+   "weigh up the options"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "all things considered",
+  "ipa": "/ˌɔːl ˌθɪŋz kənˈsɪdəd/",
+  "pos": "phr",
+  "vi": "xét mọi mặt thì",
+  "ex": "All things considered, I think the small school was the better choice for my son.",
+  "exvi": "Xét mọi mặt thì tôi nghĩ trường nhỏ là lựa chọn tốt hơn cho con trai tôi.",
+  "col": [
+   "all things considered, ...",
+   "taking everything into account"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "for my money",
+  "ipa": "/fə maɪ ˈmʌni/",
+  "pos": "idiom",
+  "vi": "theo tôi thì",
+  "ex": "For my money, the best way to see a city is on foot.",
+  "exvi": "Theo tôi, cách tốt nhất để khám phá một thành phố là đi bộ.",
+  "col": [
+   "for my money, ...",
+   "for my money, the best..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "far and away",
+  "ipa": "/ˌfɑːr ənd əˈweɪ/",
+  "pos": "idiom",
+  "vi": "vượt xa, rõ ràng nhất",
+  "ex": "That was far and away the best meal I had on the whole trip.",
+  "exvi": "Đó rõ ràng là bữa ăn ngon nhất cả chuyến đi.",
+  "col": [
+   "far and away the best",
+   "far and away the most"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "measure up",
+  "ipa": "/ˌmeʒər ˈʌp/",
+  "pos": "phr v",
+  "vi": "đạt yêu cầu, sánh được",
+  "ex": "The new stadium didn't quite measure up to the hype.",
+  "exvi": "Sân vận động mới chưa xứng với sự quảng bá rầm rộ.",
+  "col": [
+   "measure up to",
+   "fail to measure up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "stack up against",
+  "ipa": "/ˌstæk ˈʌp əˌɡenst/",
+  "pos": "phr v",
+  "vi": "so với... thì thế nào",
+  "ex": "How does your city stack up against the capital in terms of nightlife?",
+  "exvi": "Thành phố của bạn so với thủ đô về đời sống về đêm thì thế nào?",
+  "col": [
+   "how does it stack up against...?",
+   "stack up well"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "it's a toss-up",
+  "ipa": "/ɪts ə ˈtɒs ʌp/",
+  "pos": "idiom",
+  "vi": "năm ăn năm thua, khó chọn",
+  "ex": "For dinner it's a toss-up between the Korean place and the pizza.",
+  "exvi": "Bữa tối thì khó chọn giữa quán Hàn và pizza.",
+  "col": [
+   "it's a toss-up between A and B",
+   "a bit of a toss-up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "bear no resemblance to",
+  "ipa": "/ˌbeə nəʊ rɪˈzembləns tuː/",
+  "pos": "phr",
+  "vi": "chẳng giống chút nào",
+  "ex": "The hotel bore no resemblance to the photos on its website.",
+  "exvi": "Khách sạn chẳng giống chút nào với ảnh trên trang web.",
+  "col": [
+   "bear no resemblance to",
+   "bear a striking resemblance to"
+  ],
+  "fam": "resemble (v), resemblance (n)",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "knock spots off",
+  "ipa": "/ˌnɒk ˈspɒts ɒf/",
+  "pos": "idiom",
+  "vi": "hơn đứt, ăn đứt (Anh, thân mật)",
+  "ex": "Home-made lemonade knocks spots off anything you can buy in a bottle.",
+  "exvi": "Nước chanh tự làm ăn đứt mọi loại đóng chai.",
+  "col": [
+   "knock spots off",
+   "knock the spots off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "in much the same way",
+  "ipa": "/ɪn ˌmʌtʃ ðə ˌseɪm ˈweɪ/",
+  "pos": "phr",
+  "vi": "cũng theo cách tương tự",
+  "ex": "Kids pick up languages in much the same way they learn to walk, through trial and error.",
+  "exvi": "Trẻ học ngôn ngữ theo cách tương tự như học đi, bằng việc thử và sai.",
+  "col": [
+   "in much the same way (as)",
+   "in the same vein"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "it's horses for courses",
+  "ipa": "/ɪts ˌhɔːsɪz fə ˈkɔːsɪz/",
+  "pos": "idiom",
+  "vi": "mỗi người hợp một kiểu",
+  "ex": "Some people love open-plan offices, others hate them; it's horses for courses.",
+  "exvi": "Có người thích văn phòng mở, có người ghét, mỗi người hợp một kiểu thôi.",
+  "col": [
+   "it's horses for courses",
+   "horses for courses"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "by a long way",
+  "ipa": "/baɪ ə ˌlɒŋ ˈweɪ/",
+  "pos": "phr",
+  "vi": "bỏ xa, hơn rất nhiều",
+  "ex": "Spring is my favourite season by a long way.",
+  "exvi": "Mùa xuân là mùa tôi thích nhất, hơn xa các mùa khác.",
+  "col": [
+   "by a long way",
+   "not by a long way"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "on the one hand... on the other",
+  "ipa": "/ɒn ðə ˈwʌn hænd ... ɒn ði ˈʌðə/",
+  "pos": "phr",
+  "vi": "một mặt... mặt khác",
+  "ex": "On the one hand I love the buzz of the city; on the other, I crave a bit of silence.",
+  "exvi": "Một mặt tôi thích sự nhộn nhịp của thành phố, mặt khác tôi lại thèm chút yên tĩnh.",
+  "col": [
+   "on the one hand..., on the other (hand)..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Comparing and contrasting",
+  "lv": 5
+ },
+ {
+  "w": "mull over",
+  "ipa": "/ˌmʌl ˈəʊvə/",
+  "pos": "phr v",
+  "vi": "nghiền ngẫm, suy nghĩ kỹ",
+  "ex": "I'm still mulling over whether to take the job in Singapore or stay put.",
+  "exvi": "Tôi vẫn đang nghiền ngẫm nên nhận việc ở Singapore hay ở lại.",
+  "col": [
+   "mull it over",
+   "mull over an idea",
+   "give me a day to mull it over"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "get round to",
+  "ipa": "/ˌɡet ˈraʊnd tuː/",
+  "pos": "phr v",
+  "vi": "cuối cùng cũng làm (việc trì hoãn lâu)",
+  "ex": "I've been meaning to sort out my photos for years, but I never quite get round to it.",
+  "exvi": "Tôi định sắp xếp ảnh mấy năm nay rồi mà chẳng bao giờ làm tới.",
+  "col": [
+   "never get round to it",
+   "finally got round to + -ing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "put off",
+  "ipa": "/ˌpʊt ˈɒf/",
+  "pos": "phr v",
+  "vi": "hoãn lại; làm mất hứng",
+  "ex": "I kept putting off going to the dentist until the pain was unbearable.",
+  "exvi": "Tôi cứ hoãn đi nha sĩ đến khi đau không chịu nổi.",
+  "col": [
+   "put off + -ing",
+   "be put off by"
+  ],
+  "fam": "off-putting (adj)",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "put up with",
+  "ipa": "/ˌpʊt ˈʌp wɪð/",
+  "pos": "phr v",
+  "vi": "chịu đựng",
+  "ex": "I put up with the noise from the bar downstairs for a year before I finally moved.",
+  "exvi": "Tôi chịu đựng tiếng ồn từ quán bar dưới nhà cả năm rồi mới chuyển đi.",
+  "col": [
+   "put up with the noise",
+   "won't put up with it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "run into",
+  "ipa": "/ˌrʌn ˈɪntuː/",
+  "pos": "phr v",
+  "vi": "tình cờ gặp; gặp phải (khó khăn)",
+  "ex": "We ran into a few problems with the paperwork, but it all got sorted in the end.",
+  "exvi": "Chúng tôi gặp vài trục trặc giấy tờ nhưng cuối cùng cũng xong.",
+  "col": [
+   "run into problems",
+   "run into an old friend"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "come across",
+  "ipa": "/ˌkʌm əˈkrɒs/",
+  "pos": "phr v",
+  "vi": "tình cờ thấy, bắt gặp",
+  "ex": "I came across this tiny bookshop while I was wandering round the old town.",
+  "exvi": "Tôi tình cờ thấy hiệu sách bé xíu này khi lang thang phố cổ.",
+  "col": [
+   "come across an article",
+   "come across as (seem)"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "catch up on",
+  "ipa": "/ˌkætʃ ˈʌp ɒn/",
+  "pos": "phr v",
+  "vi": "bù lại (việc, giấc ngủ bị thiếu)",
+  "ex": "Sundays are for catching up on sleep and the shows I've missed during the week.",
+  "exvi": "Chủ nhật là để ngủ bù và xem bù mấy chương trình bỏ lỡ trong tuần.",
+  "col": [
+   "catch up on sleep",
+   "catch up on work",
+   "catch up with someone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "fall through",
+  "ipa": "/ˌfɔːl ˈθruː/",
+  "pos": "phr v",
+  "vi": "đổ bể, không thành",
+  "ex": "Our plans to go camping fell through when half the group dropped out.",
+  "exvi": "Kế hoạch đi cắm trại đổ bể khi nửa nhóm rút lui.",
+  "col": [
+   "the deal fell through",
+   "plans fell through"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "sort out",
+  "ipa": "/ˌsɔːt ˈaʊt/",
+  "pos": "phr v",
+  "vi": "giải quyết, thu xếp",
+  "ex": "Could you give me a few days to sort out the details before we book anything?",
+  "exvi": "Cho tôi vài ngày thu xếp chi tiết trước khi đặt gì nhé?",
+  "col": [
+   "sort out a problem",
+   "get it sorted"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "chip in",
+  "ipa": "/ˌtʃɪp ˈɪn/",
+  "pos": "phr v",
+  "vi": "góp tiền; xen vào góp ý",
+  "ex": "We all chipped in and bought our teacher a really nice camera when she retired.",
+  "exvi": "Cả lớp góp tiền mua cho cô một chiếc máy ảnh xịn khi cô nghỉ hưu.",
+  "col": [
+   "chip in for a present",
+   "everyone chipped in"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "pop in",
+  "ipa": "/ˌpɒp ˈɪn/",
+  "pos": "phr v",
+  "vi": "ghé qua một chút",
+  "ex": "I usually pop in to see my grandparents on my way home from work.",
+  "exvi": "Tôi thường ghé thăm ông bà trên đường đi làm về.",
+  "col": [
+   "pop in for a coffee",
+   "pop in to see someone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "nod off",
+  "ipa": "/ˌnɒd ˈɒf/",
+  "pos": "phr v",
+  "vi": "ngủ gật",
+  "ex": "I always nod off on long bus journeys, no matter how hard I try to stay awake.",
+  "exvi": "Tôi luôn ngủ gật trên những chuyến xe buýt dài, cố thức thế nào cũng không được.",
+  "col": [
+   "nod off in front of the TV",
+   "must have nodded off"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "freshen up",
+  "ipa": "/ˌfreʃn ˈʌp/",
+  "pos": "phr v",
+  "vi": "rửa mặt, sửa soạn lại cho tươi tỉnh",
+  "ex": "After the flight I just wanted to freshen up before going out for dinner.",
+  "exvi": "Sau chuyến bay tôi chỉ muốn tắm rửa cho tỉnh rồi mới đi ăn tối.",
+  "col": [
+   "freshen up before dinner",
+   "have a chance to freshen up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "potter about",
+  "ipa": "/ˌpɒtər əˈbaʊt/",
+  "pos": "phr v",
+  "vi": "loanh quanh làm việc vặt thư thả (Anh)",
+  "ex": "My dad's happiest pottering about in the garden on a Sunday afternoon.",
+  "exvi": "Bố tôi vui nhất khi loanh quanh làm vườn chiều Chủ nhật.",
+  "col": [
+   "potter about the house",
+   "potter around (in the garden)"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "laze about",
+  "ipa": "/ˌleɪz əˈbaʊt/",
+  "pos": "phr v",
+  "vi": "nằm ườn, lười biếng thư giãn",
+  "ex": "On holiday I'm quite happy to laze about by the pool with a book.",
+  "exvi": "Đi nghỉ thì tôi khá vui khi được nằm ườn bên hồ bơi với cuốn sách.",
+  "col": [
+   "laze about all day",
+   "laze around"
+  ],
+  "fam": "lazy (adj)",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "talk into",
+  "ipa": "/ˌtɔːk ˈɪntuː/",
+  "pos": "phr v",
+  "vi": "thuyết phục ai làm gì",
+  "ex": "My friend talked me into signing up for a half marathon, and I'm regretting it already.",
+  "exvi": "Bạn tôi dụ tôi đăng ký bán marathon và giờ tôi đã thấy hối hận.",
+  "col": [
+   "talk someone into + -ing",
+   "get talked into"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "talk out of",
+  "ipa": "/ˌtɔːk ˈaʊt əv/",
+  "pos": "phr v",
+  "vi": "thuyết phục ai đừng làm gì",
+  "ex": "My parents tried to talk me out of studying abroad, but I'd made up my mind.",
+  "exvi": "Bố mẹ cố can tôi đừng du học nhưng tôi đã quyết rồi.",
+  "col": [
+   "talk someone out of + -ing",
+   "talk yourself out of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "bump into",
+  "ipa": "/ˌbʌmp ˈɪntuː/",
+  "pos": "phr v",
+  "vi": "tình cờ gặp",
+  "ex": "I bumped into my old maths teacher at the supermarket last week.",
+  "exvi": "Tuần trước tôi tình cờ gặp thầy dạy toán cũ ở siêu thị.",
+  "col": [
+   "bump into someone",
+   "happen to bump into"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "drag on",
+  "ipa": "/ˌdræɡ ˈɒn/",
+  "pos": "phr v",
+  "vi": "kéo dài lê thê",
+  "ex": "The meeting dragged on for three hours and we didn't decide anything.",
+  "exvi": "Cuộc họp kéo dài lê thê ba tiếng mà chẳng quyết được gì.",
+  "col": [
+   "drag on for hours",
+   "the winter dragged on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "pull out of",
+  "ipa": "/ˌpʊl ˈaʊt əv/",
+  "pos": "phr v",
+  "vi": "rút khỏi",
+  "ex": "I had to pull out of the race at the last minute because of a knee injury.",
+  "exvi": "Tôi phải rút khỏi cuộc đua vào phút chót vì chấn thương gối.",
+  "col": [
+   "pull out of a deal",
+   "pull out at the last minute"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "back out of",
+  "ipa": "/ˌbæk ˈaʊt əv/",
+  "pos": "phr v",
+  "vi": "nuốt lời, rút lui (khỏi cam kết)",
+  "ex": "He agreed to help with the move and then backed out the night before.",
+  "exvi": "Anh ấy đồng ý giúp chuyển nhà rồi lại rút lui đêm hôm trước.",
+  "col": [
+   "back out of a deal",
+   "back out at the last minute"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "opt out of",
+  "ipa": "/ˌɒpt ˈaʊt əv/",
+  "pos": "phr v",
+  "vi": "chọn không tham gia",
+  "ex": "You can opt out of the marketing emails, but it takes a bit of digging to find the link.",
+  "exvi": "Bạn có thể chọn không nhận email quảng cáo nhưng phải mò mãi mới thấy đường link.",
+  "col": [
+   "opt out of a scheme",
+   "the right to opt out"
+  ],
+  "fam": "opt-out (n)",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "brush up on",
+  "ipa": "/ˌbrʌʃ ˈʌp ɒn/",
+  "pos": "phr v",
+  "vi": "ôn lại, trau dồi lại",
+  "ex": "I need to brush up on my French before we go to Lyon in the spring.",
+  "exvi": "Tôi phải ôn lại tiếng Pháp trước khi đi Lyon mùa xuân.",
+  "col": [
+   "brush up on your skills",
+   "brush up on grammar"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "dip into",
+  "ipa": "/ˌdɪp ˈɪntuː/",
+  "pos": "phr v",
+  "vi": "đọc lướt qua; tiêu vào (tiền để dành)",
+  "ex": "It's the kind of book you can dip into for ten minutes before bed.",
+  "exvi": "Đó là loại sách bạn có thể đọc lướt mười phút trước khi ngủ.",
+  "col": [
+   "dip into a book",
+   "dip into your savings"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "tuck into",
+  "ipa": "/ˌtʌk ˈɪntuː/",
+  "pos": "phr v",
+  "vi": "ăn ngon lành, xơi",
+  "ex": "We tucked into a huge bowl of noodles as soon as we got off the bus.",
+  "exvi": "Vừa xuống xe là chúng tôi xơi ngay một bát mì to.",
+  "col": [
+   "tuck into a meal",
+   "tuck in!"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "polish off",
+  "ipa": "/ˌpɒlɪʃ ˈɒf/",
+  "pos": "phr v",
+  "vi": "ăn sạch, làm xong nhanh",
+  "ex": "The kids polished off the whole pizza in about five minutes.",
+  "exvi": "Lũ trẻ chén sạch cả chiếc pizza trong khoảng năm phút.",
+  "col": [
+   "polish off the leftovers",
+   "polish off a report"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "rustle up",
+  "ipa": "/ˌrʌsl ˈʌp/",
+  "pos": "phr v",
+  "vi": "nấu vội, xoay nhanh (món ăn)",
+  "ex": "There wasn't much in the fridge, but I managed to rustle up an omelette.",
+  "exvi": "Tủ lạnh chẳng có mấy, nhưng tôi vẫn xoay được món trứng ốp.",
+  "col": [
+   "rustle up a meal",
+   "rustle up something to eat"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "wolf down",
+  "ipa": "/ˌwʊlf ˈdaʊn/",
+  "pos": "phr v",
+  "vi": "ăn ngấu nghiến",
+  "ex": "I wolfed down my lunch at my desk because I had a meeting at one.",
+  "exvi": "Tôi ăn ngấu nghiến bữa trưa tại bàn vì một giờ có họp.",
+  "col": [
+   "wolf down your food",
+   "wolf it down"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "cut back on",
+  "ipa": "/ˌkʌt ˈbæk ɒn/",
+  "pos": "phr v",
+  "vi": "cắt giảm",
+  "ex": "I'm trying to cut back on sugar, which is hard when you live next to a bakery.",
+  "exvi": "Tôi đang cố cắt giảm đường, khó lắm khi sống cạnh tiệm bánh.",
+  "col": [
+   "cut back on spending",
+   "cut back on caffeine"
+  ],
+  "fam": "cutback (n)",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "stock up on",
+  "ipa": "/ˌstɒk ˈʌp ɒn/",
+  "pos": "phr v",
+  "vi": "tích trữ, mua dự trữ",
+  "ex": "Everyone stocked up on bottled water before the typhoon hit.",
+  "exvi": "Ai cũng mua dự trữ nước đóng chai trước khi bão đổ bộ.",
+  "col": [
+   "stock up on food",
+   "stock up for winter"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "pick up on",
+  "ipa": "/ˌpɪk ˈʌp ɒn/",
+  "pos": "phr v",
+  "vi": "để ý, nhận ra (điều tinh tế)",
+  "ex": "Kids pick up on tension between their parents far more than adults realise.",
+  "exvi": "Trẻ con nhận ra căng thẳng giữa bố mẹ nhiều hơn người lớn tưởng.",
+  "col": [
+   "pick up on a hint",
+   "pick up on someone's mood"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "crop up",
+  "ipa": "/ˌkrɒp ˈʌp/",
+  "pos": "phr v",
+  "vi": "bất ngờ xảy ra, nảy sinh",
+  "ex": "Something's cropped up at work, so I'll have to cancel dinner tonight.",
+  "exvi": "Có việc đột xuất ở chỗ làm nên tối nay tôi phải hủy bữa tối.",
+  "col": [
+   "something's cropped up",
+   "problems keep cropping up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "boil down to",
+  "ipa": "/ˌbɔɪl ˈdaʊn tuː/",
+  "pos": "phr v",
+  "vi": "rốt cuộc là do, quy về",
+  "ex": "In the end, choosing a university boils down to cost and location.",
+  "exvi": "Rốt cuộc, chọn trường đại học quy về chi phí và địa điểm.",
+  "col": [
+   "it all boils down to",
+   "boils down to money"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "face up to",
+  "ipa": "/ˌfeɪs ˈʌp tuː/",
+  "pos": "phr v",
+  "vi": "đối mặt, chấp nhận (sự thật khó)",
+  "ex": "At some point you have to face up to the fact that you're not enjoying your job.",
+  "exvi": "Đến lúc nào đó bạn phải đối mặt với sự thật là mình không thích công việc.",
+  "col": [
+   "face up to the fact that",
+   "face up to your responsibilities"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "own up to",
+  "ipa": "/ˌəʊn ˈʌp tuː/",
+  "pos": "phr v",
+  "vi": "thú nhận, nhận lỗi",
+  "ex": "Nobody would own up to eating the last slice of cake.",
+  "exvi": "Không ai chịu nhận đã ăn miếng bánh cuối cùng.",
+  "col": [
+   "own up to a mistake",
+   "own up to it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "come down with",
+  "ipa": "/ˌkʌm ˈdaʊn wɪð/",
+  "pos": "phr v",
+  "vi": "bị (bệnh nhẹ)",
+  "ex": "I came down with a nasty cold the day before my holiday.",
+  "exvi": "Tôi bị cảm nặng đúng ngày trước kỳ nghỉ.",
+  "col": [
+   "come down with flu",
+   "come down with something"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "shake off",
+  "ipa": "/ˌʃeɪk ˈɒf/",
+  "pos": "phr v",
+  "vi": "dứt được, rũ bỏ (bệnh, cảm giác, danh tiếng)",
+  "ex": "I can't seem to shake off this cough, it's been three weeks now.",
+  "exvi": "Tôi mãi không dứt được cơn ho, ba tuần rồi.",
+  "col": [
+   "shake off a cold",
+   "shake off the image"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "get over",
+  "ipa": "/ˌɡet ˈəʊvə/",
+  "pos": "phr v",
+  "vi": "vượt qua, hồi phục sau",
+  "ex": "It took me ages to get over the jet lag after flying back from Canada.",
+  "exvi": "Tôi mất mãi mới hết lệch múi giờ sau khi bay từ Canada về.",
+  "col": [
+   "get over an illness",
+   "get over a break-up",
+   "I can't get over how..."
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "sleep on it",
+  "ipa": "/ˈsliːp ɒn ɪt/",
+  "pos": "idiom",
+  "vi": "để mai tính, ngủ một đêm rồi quyết",
+  "ex": "It's a big decision, so I'm going to sleep on it and let you know tomorrow.",
+  "exvi": "Đây là quyết định lớn nên tôi sẽ để qua đêm và báo bạn ngày mai.",
+  "col": [
+   "sleep on it",
+   "let me sleep on it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "kick back",
+  "ipa": "/ˌkɪk ˈbæk/",
+  "pos": "phr v",
+  "vi": "thư giãn, nghỉ ngơi",
+  "ex": "After exams, I just want to kick back and do absolutely nothing for a week.",
+  "exvi": "Thi xong tôi chỉ muốn nghỉ ngơi và chẳng làm gì cả tuần.",
+  "col": [
+   "kick back and relax",
+   "kick back with a book"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "hold up",
+  "ipa": "/ˌhəʊld ˈʌp/",
+  "pos": "phr v",
+  "vi": "làm chậm trễ; đứng vững (lập luận)",
+  "ex": "Sorry I'm late, I got held up in traffic on the bridge.",
+  "exvi": "Xin lỗi tôi đến muộn, tôi bị kẹt xe trên cầu.",
+  "col": [
+   "get held up",
+   "the argument doesn't hold up"
+  ],
+  "fam": "hold-up (n)",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "tide over",
+  "ipa": "/ˌtaɪd ˈəʊvə/",
+  "pos": "phr v",
+  "vi": "giúp cầm cự qua giai đoạn khó",
+  "ex": "My sister lent me some money to tide me over until payday.",
+  "exvi": "Chị tôi cho vay ít tiền để tôi cầm cự đến ngày lương.",
+  "col": [
+   "tide someone over",
+   "enough to tide me over"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "make do with",
+  "ipa": "/ˌmeɪk ˈduː wɪð/",
+  "pos": "phr v",
+  "vi": "xoay xở với cái có sẵn",
+  "ex": "We didn't have a proper oven in our student flat, so we made do with a microwave.",
+  "exvi": "Căn hộ sinh viên không có lò nướng tử tế nên chúng tôi xoay xở với lò vi sóng.",
+  "col": [
+   "make do with what you've got",
+   "make do and mend"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "sift through",
+  "ipa": "/ˌsɪft ˈθruː/",
+  "pos": "phr v",
+  "vi": "lục lọi, sàng lọc kỹ",
+  "ex": "I spent the whole evening sifting through old emails looking for the booking reference.",
+  "exvi": "Tôi mất cả buổi tối lục email cũ để tìm mã đặt chỗ.",
+  "col": [
+   "sift through documents",
+   "sift through applications"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "settle in",
+  "ipa": "/ˌsetl ˈɪn/",
+  "pos": "phr v",
+  "vi": "ổn định, quen chỗ mới",
+  "ex": "It took my son a few weeks to settle in at his new school.",
+  "exvi": "Con trai tôi mất vài tuần mới quen trường mới.",
+  "col": [
+   "settle in quickly",
+   "settle into a new job"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "squeeze in",
+  "ipa": "/ˌskwiːz ˈɪn/",
+  "pos": "phr v",
+  "vi": "sắp xếp chen vào (lịch kín)",
+  "ex": "The doctor's really busy, but she said she could squeeze me in at four.",
+  "exvi": "Bác sĩ bận lắm nhưng bảo có thể xếp cho tôi lúc bốn giờ.",
+  "col": [
+   "squeeze in a quick coffee",
+   "squeeze someone in"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "get by",
+  "ipa": "/ˌɡet ˈbaɪ/",
+  "pos": "phr v",
+  "vi": "xoay xở đủ sống; đủ dùng",
+  "ex": "My Japanese isn't great, but I can get by in shops and restaurants.",
+  "exvi": "Tiếng Nhật của tôi không giỏi nhưng đủ dùng ở cửa hàng và nhà hàng.",
+  "col": [
+   "get by on a small salary",
+   "just about get by"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "pass up",
+  "ipa": "/ˌpɑːs ˈʌp/",
+  "pos": "phr v",
+  "vi": "bỏ lỡ, từ chối (cơ hội)",
+  "ex": "A free trip to Iceland? That's not something you pass up.",
+  "exvi": "Một chuyến đi Iceland miễn phí à? Đó không phải thứ có thể bỏ qua.",
+  "col": [
+   "pass up an opportunity",
+   "too good to pass up"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "jot down",
+  "ipa": "/ˌdʒɒt ˈdaʊn/",
+  "pos": "phr v",
+  "vi": "ghi nhanh",
+  "ex": "I always jot down ideas on my phone before I forget them.",
+  "exvi": "Tôi luôn ghi nhanh ý tưởng vào điện thoại trước khi quên.",
+  "col": [
+   "jot down a note",
+   "jot it down"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ },
+ {
+  "w": "sound out",
+  "ipa": "/ˌsaʊnd ˈaʊt/",
+  "pos": "phr v",
+  "vi": "thăm dò ý kiến",
+  "ex": "I sounded out a few colleagues before suggesting the idea to my manager.",
+  "exvi": "Tôi thăm dò ý vài đồng nghiệp trước khi đề xuất với sếp.",
+  "col": [
+   "sound someone out about",
+   "sound out opinion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Phrasal verbs for everyday life",
+  "lv": 5
+ }
+]

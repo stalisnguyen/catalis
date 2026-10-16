@@ -23,7 +23,7 @@ for w, b in zip(words, base):
     if w['w'].lower() in seen: continue
     seen.add(w['w'].lower())
     by[b['lv']].append([w['w'], w['ipa'], w['pos'], w['vi'], w['ex'], w['exvi'], w['col'], w['fam'], w['em'], ''])
-for f in ('topic_a.json', 'topic_b.json', 'topic_c.json', 'topic_d.json'):
+for f in ('topic_a.json', 'topic_b.json', 'topic_c.json', 'topic_d.json', 'topic_e.json', 'topic_f.json', 'topic_g.json', 'topic_h.json'):
     for w in load(f):
         if w['w'].lower() in seen: continue
         seen.add(w['w'].lower())

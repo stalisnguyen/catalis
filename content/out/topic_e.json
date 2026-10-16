@@ -1,0 +1,5102 @@
+[
+ {
+  "w": "delineate",
+  "ipa": "/dɪˈlɪnieɪt/",
+  "pos": "v",
+  "vi": "mô tả rõ ràng, phân định chi tiết",
+  "ex": "The opening chapter delineates the boundaries of the study before any data are presented.",
+  "exvi": "Chương mở đầu phân định rõ phạm vi của nghiên cứu trước khi trình bày bất kỳ dữ liệu nào.",
+  "col": [
+   "clearly delineate",
+   "delineate the boundaries",
+   "delineate the scope of"
+  ],
+  "fam": "delineation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "elucidate",
+  "ipa": "/ɪˈluːsɪdeɪt/",
+  "pos": "v",
+  "vi": "làm sáng tỏ, giải thích rõ",
+  "ex": "Further research is needed to elucidate the mechanism by which sleep loss impairs memory.",
+  "exvi": "Cần thêm nghiên cứu để làm sáng tỏ cơ chế mà thiếu ngủ làm suy giảm trí nhớ.",
+  "col": [
+   "elucidate the mechanism",
+   "help to elucidate",
+   "elucidate the role of"
+  ],
+  "fam": "elucidation (n), elucidatory (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "scrutinise",
+  "ipa": "/ˈskruːtɪnaɪz/",
+  "pos": "v",
+  "vi": "xem xét kỹ lưỡng, soi xét",
+  "ex": "Claims made by pharmaceutical companies should be scrutinised by independent reviewers.",
+  "exvi": "Các tuyên bố của công ty dược nên được những người thẩm định độc lập xem xét kỹ lưỡng.",
+  "col": [
+   "closely scrutinise",
+   "scrutinise the evidence",
+   "be carefully scrutinised"
+  ],
+  "fam": "scrutiny (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "interrogate",
+  "ipa": "/ɪnˈterəɡeɪt/",
+  "pos": "v",
+  "vi": "chất vấn, xem xét phản biện (một khái niệm, giả định)",
+  "ex": "The essay interrogates the assumption that economic growth automatically improves wellbeing.",
+  "exvi": "Bài luận chất vấn giả định rằng tăng trưởng kinh tế tự động cải thiện đời sống.",
+  "col": [
+   "interrogate the assumption",
+   "critically interrogate",
+   "interrogate the notion of"
+  ],
+  "fam": "interrogation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "juxtapose",
+  "ipa": "/ˌdʒʌkstəˈpəʊz/",
+  "pos": "v",
+  "vi": "đặt cạnh nhau để so sánh, đối chiếu",
+  "ex": "By juxtaposing urban and rural data, the author exposes a widening gap in access to care.",
+  "exvi": "Bằng cách đặt số liệu thành thị và nông thôn cạnh nhau, tác giả cho thấy khoảng cách tiếp cận y tế ngày càng lớn.",
+  "col": [
+   "juxtapose A with B",
+   "starkly juxtaposed",
+   "juxtapose two perspectives"
+  ],
+  "fam": "juxtaposition (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "disentangle",
+  "ipa": "/ˌdɪsɪnˈtæŋɡl/",
+  "pos": "v",
+  "vi": "tách bạch, gỡ rối (các yếu tố đan xen)",
+  "ex": "It is notoriously difficult to disentangle the effects of income from those of education.",
+  "exvi": "Việc tách bạch tác động của thu nhập khỏi tác động của giáo dục nổi tiếng là khó.",
+  "col": [
+   "disentangle the effects of",
+   "difficult to disentangle",
+   "disentangle cause from effect"
+  ],
+  "fam": "disentanglement (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "discern",
+  "ipa": "/dɪˈsɜːn/",
+  "pos": "v",
+  "vi": "nhận ra, phân biệt được (điều không hiển nhiên)",
+  "ex": "No clear pattern can be discerned in the figures before 2010.",
+  "exvi": "Không thể nhận ra một xu hướng rõ ràng nào trong các số liệu trước năm 2010.",
+  "col": [
+   "discern a pattern",
+   "difficult to discern",
+   "discern a difference"
+  ],
+  "fam": "discernible (adj), discernment (n), discerning (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "encapsulate",
+  "ipa": "/ɪnˈkæpsjuleɪt/",
+  "pos": "v",
+  "vi": "tóm gọn, gói gọn",
+  "ex": "The phrase 'jobless growth' neatly encapsulates the paradox facing many developing economies.",
+  "exvi": "Cụm từ 'tăng trưởng không tạo việc làm' gói gọn nghịch lý mà nhiều nền kinh tế đang phát triển gặp phải.",
+  "col": [
+   "neatly encapsulate",
+   "encapsulate the essence of",
+   "encapsulate the problem"
+  ],
+  "fam": "encapsulation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "epitomise",
+  "ipa": "/ɪˈpɪtəmaɪz/",
+  "pos": "v",
+  "vi": "là hình mẫu tiêu biểu, điển hình cho",
+  "ex": "The collapse of the scheme epitomises the risks of policy designed without local consultation.",
+  "exvi": "Sự sụp đổ của chương trình là ví dụ điển hình cho rủi ro của chính sách thiết kế mà không tham vấn người dân địa phương.",
+  "col": [
+   "epitomise the problem",
+   "be epitomised by",
+   "perfectly epitomise"
+  ],
+  "fam": "epitome (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "typify",
+  "ipa": "/ˈtɪpɪfaɪ/",
+  "pos": "v",
+  "vi": "tiêu biểu cho, mang đặc điểm điển hình của",
+  "ex": "Short-term contracts typify employment in the creative industries.",
+  "exvi": "Hợp đồng ngắn hạn là đặc điểm tiêu biểu của việc làm trong ngành sáng tạo.",
+  "col": [
+   "typify the trend",
+   "be typified by",
+   "typify the approach"
+  ],
+  "fam": "typical (adj), typically (adv)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "shed light on",
+  "ipa": "/ʃed laɪt ɒn/",
+  "pos": "phr",
+  "vi": "làm sáng tỏ, giúp hiểu rõ hơn",
+  "ex": "Archival records shed light on how ordinary households coped with wartime rationing.",
+  "exvi": "Tư liệu lưu trữ giúp làm sáng tỏ cách các hộ gia đình bình thường xoay xở với chế độ phân phối thời chiến.",
+  "col": [
+   "shed new light on",
+   "shed some light on",
+   "shed light on the causes of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "tease out",
+  "ipa": "/tiːz aʊt/",
+  "pos": "phr",
+  "vi": "gỡ ra, rút ra (điều ẩn bên trong) một cách khéo léo",
+  "ex": "Qualitative interviews allow researchers to tease out motivations that surveys tend to miss.",
+  "exvi": "Phỏng vấn định tính giúp nhà nghiên cứu gỡ ra những động cơ mà khảo sát thường bỏ sót.",
+  "col": [
+   "tease out the implications",
+   "tease out differences",
+   "tease out the meaning of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "distil",
+  "ipa": "/dɪˈstɪl/",
+  "pos": "v",
+  "vi": "chắt lọc, cô đọng",
+  "ex": "The report distils three decades of research into a handful of practical recommendations.",
+  "exvi": "Bản báo cáo chắt lọc ba thập kỷ nghiên cứu thành một vài khuyến nghị thiết thực.",
+  "col": [
+   "distil into",
+   "distil the key points",
+   "distil the essence of"
+  ],
+  "fam": "distillation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "demarcate",
+  "ipa": "/ˈdiːmɑːkeɪt/",
+  "pos": "v",
+  "vi": "vạch ranh giới, phân định",
+  "ex": "The legislation fails to demarcate clearly where public responsibility ends and private liability begins.",
+  "exvi": "Luật không phân định rõ trách nhiệm công kết thúc ở đâu và trách nhiệm pháp lý tư nhân bắt đầu từ đâu.",
+  "col": [
+   "clearly demarcate",
+   "demarcate the boundary",
+   "demarcate responsibilities"
+  ],
+  "fam": "demarcation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "ascribe",
+  "ipa": "/əˈskraɪb/",
+  "pos": "v",
+  "vi": "quy cho, gán cho (nguyên nhân, phẩm chất)",
+  "ex": "Early historians ascribed the decline of the city to moral decay rather than to shifting trade routes.",
+  "exvi": "Các sử gia thời kỳ đầu quy sự suy tàn của thành phố cho suy đồi đạo đức thay vì sự thay đổi các tuyến thương mại.",
+  "col": [
+   "ascribe something to",
+   "be wrongly ascribed",
+   "ascribe importance to"
+  ],
+  "fam": "ascription (n), ascribable (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "construe",
+  "ipa": "/kənˈstruː/",
+  "pos": "v",
+  "vi": "hiểu, diễn giải (theo một cách nào đó)",
+  "ex": "Silence in the consultation should not be construed as consent.",
+  "exvi": "Sự im lặng trong buổi tham vấn không nên được hiểu là đồng ý.",
+  "col": [
+   "be construed as",
+   "narrowly construed",
+   "broadly construed"
+  ],
+  "fam": "construal (n), misconstrue (v)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "deduce",
+  "ipa": "/dɪˈdjuːs/",
+  "pos": "v",
+  "vi": "suy ra, suy luận ra",
+  "ex": "From the distribution of the fossils, palaeontologists deduced that the region was once a shallow sea.",
+  "exvi": "Từ sự phân bố của các hóa thạch, các nhà cổ sinh vật học suy ra rằng khu vực này từng là một vùng biển nông.",
+  "col": [
+   "deduce from",
+   "it can be deduced that",
+   "logically deduce"
+  ],
+  "fam": "deduction (n), deductive (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "postulate",
+  "ipa": "/ˈpɒstjuleɪt/",
+  "pos": "v",
+  "vi": "đưa ra giả thuyết, mặc nhận (làm cơ sở lập luận)",
+  "ex": "The model postulates a direct relationship between trust in institutions and willingness to pay tax.",
+  "exvi": "Mô hình đặt ra giả thuyết về mối quan hệ trực tiếp giữa lòng tin vào thể chế và sự sẵn lòng nộp thuế.",
+  "col": [
+   "postulate a relationship",
+   "postulate the existence of",
+   "it has been postulated that"
+  ],
+  "fam": "postulation (n), postulate (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "operationalise",
+  "ipa": "/ˌɒpəˈreɪʃənəlaɪz/",
+  "pos": "v",
+  "vi": "cụ thể hóa (khái niệm) thành thứ đo lường được",
+  "ex": "Happiness is notoriously hard to operationalise, so most studies rely on self-reported life satisfaction.",
+  "exvi": "Hạnh phúc rất khó cụ thể hóa thành chỉ số đo được, nên hầu hết nghiên cứu dựa vào mức hài lòng tự đánh giá.",
+  "col": [
+   "operationalise a concept",
+   "operationalise a variable",
+   "difficult to operationalise"
+  ],
+  "fam": "operationalisation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "quantify",
+  "ipa": "/ˈkwɒntɪfaɪ/",
+  "pos": "v",
+  "vi": "định lượng, đo lường bằng con số",
+  "ex": "The environmental cost of fast fashion is difficult to quantify with any precision.",
+  "exvi": "Chi phí môi trường của thời trang nhanh rất khó định lượng một cách chính xác.",
+  "col": [
+   "difficult to quantify",
+   "quantify the impact",
+   "precisely quantify"
+  ],
+  "fam": "quantification (n), quantifiable (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "ascertain",
+  "ipa": "/ˌæsəˈteɪn/",
+  "pos": "v",
+  "vi": "xác minh, xác định chắc chắn",
+  "ex": "It has not been possible to ascertain whether the decline predates the new regulations.",
+  "exvi": "Chưa thể xác định chắc chắn liệu sự sụt giảm có xảy ra trước các quy định mới hay không.",
+  "col": [
+   "ascertain whether",
+   "ascertain the cause",
+   "difficult to ascertain"
+  ],
+  "fam": "ascertainable (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "triangulate",
+  "ipa": "/traɪˈæŋɡjuleɪt/",
+  "pos": "v",
+  "vi": "đối chiếu chéo (nhiều nguồn, phương pháp) để kiểm chứng",
+  "ex": "The team triangulated survey responses with administrative records and classroom observations.",
+  "exvi": "Nhóm đã đối chiếu chéo câu trả lời khảo sát với hồ sơ hành chính và quan sát lớp học.",
+  "col": [
+   "triangulate data",
+   "triangulate findings",
+   "triangulate with"
+  ],
+  "fam": "triangulation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "contextualise",
+  "ipa": "/kənˈtekstʃuəlaɪz/",
+  "pos": "v",
+  "vi": "đặt vào bối cảnh để hiểu đúng",
+  "ex": "These figures need to be contextualised against the sharp rise in population over the same period.",
+  "exvi": "Các con số này cần được đặt trong bối cảnh dân số tăng mạnh cùng giai đoạn.",
+  "col": [
+   "contextualise the findings",
+   "historically contextualise",
+   "contextualise within"
+  ],
+  "fam": "context (n), contextual (adj), contextualisation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "problematise",
+  "ipa": "/ˈprɒbləmətaɪz/",
+  "pos": "v",
+  "vi": "đặt vấn đề, chỉ ra tính phức tạp của (điều được coi là hiển nhiên)",
+  "ex": "Recent scholarship problematises the neat distinction between 'developed' and 'developing' nations.",
+  "exvi": "Các nghiên cứu gần đây đặt vấn đề với sự phân biệt gọn gàng giữa nước 'phát triển' và 'đang phát triển'.",
+  "col": [
+   "problematise the notion",
+   "problematise the distinction",
+   "problematise assumptions"
+  ],
+  "fam": "problematic (adj), problematisation (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "foreground",
+  "ipa": "/ˈfɔːɡraʊnd/",
+  "pos": "v",
+  "vi": "làm nổi bật, đặt lên hàng đầu",
+  "ex": "The new curriculum foregrounds critical thinking at the expense of factual recall.",
+  "exvi": "Chương trình mới đặt tư duy phản biện lên hàng đầu, đánh đổi bằng việc ghi nhớ kiến thức.",
+  "col": [
+   "foreground the role of",
+   "foreground issues of",
+   "be foregrounded in"
+  ],
+  "fam": "foreground (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "downplay",
+  "ipa": "/ˌdaʊnˈpleɪ/",
+  "pos": "v",
+  "vi": "giảm nhẹ, xem nhẹ (mức độ quan trọng)",
+  "ex": "Official statements tended to downplay the scale of the contamination.",
+  "exvi": "Các tuyên bố chính thức có xu hướng giảm nhẹ quy mô của vụ ô nhiễm.",
+  "col": [
+   "downplay the risks",
+   "downplay the significance of",
+   "seek to downplay"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "overstate",
+  "ipa": "/ˌəʊvəˈsteɪt/",
+  "pos": "v",
+  "vi": "phóng đại, nói quá",
+  "ex": "The influence of social media on voting behaviour is often overstated.",
+  "exvi": "Ảnh hưởng của mạng xã hội đến hành vi bỏ phiếu thường bị phóng đại.",
+  "col": [
+   "overstate the case",
+   "cannot be overstated",
+   "grossly overstated"
+  ],
+  "fam": "overstatement (n), understate (v)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "gloss over",
+  "ipa": "/ɡlɒs ˈəʊvə/",
+  "pos": "phr",
+  "vi": "lướt qua, né tránh (vấn đề khó)",
+  "ex": "The report glosses over the considerable cost of maintaining the new infrastructure.",
+  "exvi": "Báo cáo lướt qua chi phí đáng kể để duy trì cơ sở hạ tầng mới.",
+  "col": [
+   "gloss over the problems",
+   "gloss over differences",
+   "conveniently gloss over"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "lend weight to",
+  "ipa": "/lend weɪt tə/",
+  "pos": "phr",
+  "vi": "củng cố, làm tăng sức thuyết phục cho",
+  "ex": "The latest findings lend weight to the view that early intervention is cost-effective.",
+  "exvi": "Những phát hiện mới nhất củng cố quan điểm rằng can thiệp sớm có hiệu quả về chi phí.",
+  "col": [
+   "lend weight to the argument",
+   "lend further weight to",
+   "lend considerable weight to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "bear out",
+  "ipa": "/beər aʊt/",
+  "pos": "phr",
+  "vi": "xác nhận, chứng thực (là đúng)",
+  "ex": "The predictions of the original model have largely been borne out by subsequent data.",
+  "exvi": "Các dự đoán của mô hình ban đầu phần lớn đã được dữ liệu sau này xác nhận.",
+  "col": [
+   "be borne out by",
+   "bear out the claim",
+   "largely borne out"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "belie",
+  "ipa": "/bɪˈlaɪ/",
+  "pos": "v",
+  "vi": "che giấu (bản chất thật); trái ngược với vẻ bề ngoài",
+  "ex": "The country's impressive growth figures belie deep regional inequalities.",
+  "exvi": "Các con số tăng trưởng ấn tượng của đất nước che giấu sự bất bình đẳng sâu sắc giữa các vùng.",
+  "col": [
+   "belie the fact that",
+   "belie the complexity of",
+   "belie appearances"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "call into question",
+  "ipa": "/kɔːl ˈɪntə ˈkwestʃən/",
+  "pos": "phr",
+  "vi": "đặt dấu hỏi, làm nghi ngờ",
+  "ex": "These anomalies call into question the reliability of the entire dataset.",
+  "exvi": "Những điểm bất thường này đặt dấu hỏi về độ tin cậy của toàn bộ bộ dữ liệu.",
+  "col": [
+   "call into question the validity of",
+   "seriously call into question",
+   "be called into question"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "cast doubt on",
+  "ipa": "/kɑːst daʊt ɒn/",
+  "pos": "phr",
+  "vi": "gây nghi ngờ về",
+  "ex": "New excavations have cast doubt on the traditional dating of the settlement.",
+  "exvi": "Các cuộc khai quật mới đã gây nghi ngờ về niên đại truyền thống của khu định cư.",
+  "col": [
+   "cast serious doubt on",
+   "cast doubt on the claim",
+   "cast further doubt on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "shore up",
+  "ipa": "/ʃɔːr ʌp/",
+  "pos": "phr",
+  "vi": "củng cố, chống đỡ (cái đang yếu)",
+  "ex": "The government introduced subsidies to shore up the struggling steel industry.",
+  "exvi": "Chính phủ đưa ra trợ cấp để chống đỡ ngành thép đang gặp khó khăn.",
+  "col": [
+   "shore up support",
+   "shore up confidence",
+   "shore up the economy"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "buttress",
+  "ipa": "/ˈbʌtrəs/",
+  "pos": "v",
+  "vi": "củng cố, làm vững (lập luận, hệ thống)",
+  "ex": "The author buttresses her argument with an impressive range of comparative data.",
+  "exvi": "Tác giả củng cố lập luận của mình bằng một loạt dữ liệu so sánh ấn tượng.",
+  "col": [
+   "buttress the argument",
+   "be buttressed by",
+   "buttress a claim"
+  ],
+  "fam": "buttress (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "offset",
+  "ipa": "/ˌɒfˈset/",
+  "pos": "v",
+  "vi": "bù đắp, bù trừ",
+  "ex": "Gains in efficiency have been largely offset by rising demand.",
+  "exvi": "Những cải thiện về hiệu suất phần lớn đã bị bù trừ bởi nhu cầu tăng.",
+  "col": [
+   "offset the cost",
+   "be partly offset by",
+   "offset losses"
+  ],
+  "fam": "offset (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "hinge on",
+  "ipa": "/hɪndʒ ɒn/",
+  "pos": "phr",
+  "vi": "phụ thuộc hoàn toàn vào, xoay quanh",
+  "ex": "The success of the policy hinges on the willingness of employers to participate.",
+  "exvi": "Thành công của chính sách phụ thuộc hoàn toàn vào sự sẵn lòng tham gia của các nhà tuyển dụng.",
+  "col": [
+   "hinge on whether",
+   "largely hinge on",
+   "the debate hinges on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "be predicated on",
+  "ipa": "/bi ˈpredɪkeɪtɪd ɒn/",
+  "pos": "phr",
+  "vi": "dựa trên (một giả định, tiền đề)",
+  "ex": "The forecast is predicated on the assumption that interest rates remain stable.",
+  "exvi": "Dự báo này dựa trên giả định rằng lãi suất duy trì ổn định.",
+  "col": [
+   "be predicated on the assumption that",
+   "be predicated on the belief",
+   "largely predicated on"
+  ],
+  "fam": "predicate (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "account for",
+  "ipa": "/əˈkaʊnt fɔː/",
+  "pos": "phr",
+  "vi": "giải thích cho; chiếm (tỉ lệ)",
+  "ex": "Differences in diet may account for much of the variation in life expectancy between regions.",
+  "exvi": "Khác biệt trong chế độ ăn có thể giải thích phần lớn sự chênh lệch tuổi thọ giữa các vùng.",
+  "col": [
+   "account for the difference",
+   "fully account for",
+   "account for a large share of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "reconcile",
+  "ipa": "/ˈrekənsaɪl/",
+  "pos": "v",
+  "vi": "dung hòa, làm cho khớp nhau",
+  "ex": "It is difficult to reconcile the company's environmental pledges with its continued investment in coal.",
+  "exvi": "Rất khó dung hòa các cam kết môi trường của công ty với việc họ tiếp tục đầu tư vào than đá.",
+  "col": [
+   "reconcile A with B",
+   "reconcile conflicting demands",
+   "difficult to reconcile"
+  ],
+  "fam": "reconciliation (n), irreconcilable (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "dovetail with",
+  "ipa": "/ˈdʌvteɪl wɪð/",
+  "pos": "phr",
+  "vi": "khớp với, ăn khớp với",
+  "ex": "The findings dovetail with earlier work on the role of peer influence in adolescence.",
+  "exvi": "Các phát hiện ăn khớp với nghiên cứu trước đó về vai trò ảnh hưởng của bạn bè ở tuổi vị thành niên.",
+  "col": [
+   "dovetail neatly with",
+   "dovetail with existing research",
+   "dovetail with policy"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "map onto",
+  "ipa": "/mæp ˈɒntuː/",
+  "pos": "phr",
+  "vi": "tương ứng với, trùng khớp với",
+  "ex": "Political divisions no longer map neatly onto traditional class boundaries.",
+  "exvi": "Sự chia rẽ chính trị không còn trùng khớp gọn gàng với ranh giới giai cấp truyền thống.",
+  "col": [
+   "map neatly onto",
+   "map directly onto",
+   "do not map onto"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "presuppose",
+  "ipa": "/ˌpriːsəˈpəʊz/",
+  "pos": "v",
+  "vi": "giả định trước, ngầm cho là có sẵn",
+  "ex": "The argument presupposes that consumers have access to accurate information.",
+  "exvi": "Lập luận này ngầm giả định rằng người tiêu dùng có được thông tin chính xác.",
+  "col": [
+   "presuppose that",
+   "presuppose the existence of",
+   "tacitly presuppose"
+  ],
+  "fam": "presupposition (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "entail",
+  "ipa": "/ɪnˈteɪl/",
+  "pos": "v",
+  "vi": "kéo theo, đòi hỏi (như một hệ quả tất yếu)",
+  "ex": "A shift to renewable energy would entail substantial investment in storage capacity.",
+  "exvi": "Chuyển sang năng lượng tái tạo sẽ kéo theo khoản đầu tư lớn vào khả năng lưu trữ.",
+  "col": [
+   "entail a risk",
+   "entail significant costs",
+   "what the job entails"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "necessitate",
+  "ipa": "/nəˈsesɪteɪt/",
+  "pos": "v",
+  "vi": "đòi hỏi, khiến cần thiết",
+  "ex": "An ageing population will necessitate a fundamental rethink of pension provision.",
+  "exvi": "Dân số già hóa sẽ đòi hỏi phải suy nghĩ lại một cách căn bản về chế độ lương hưu.",
+  "col": [
+   "necessitate a change",
+   "necessitate further research",
+   "be necessitated by"
+  ],
+  "fam": "necessity (n), necessary (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "preclude",
+  "ipa": "/prɪˈkluːd/",
+  "pos": "v",
+  "vi": "ngăn ngừa, loại trừ khả năng",
+  "ex": "A small sample size precludes any firm conclusions about the wider population.",
+  "exvi": "Cỡ mẫu nhỏ loại trừ khả năng rút ra kết luận chắc chắn nào về tổng thể rộng hơn.",
+  "col": [
+   "preclude the possibility of",
+   "effectively preclude",
+   "preclude someone from"
+  ],
+  "fam": "preclusion (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "circumscribe",
+  "ipa": "/ˈsɜːkəmskraɪb/",
+  "pos": "v",
+  "vi": "giới hạn, hạn chế (phạm vi, quyền lực)",
+  "ex": "The powers of regional authorities are tightly circumscribed by central government.",
+  "exvi": "Quyền hạn của chính quyền vùng bị chính phủ trung ương giới hạn chặt chẽ.",
+  "col": [
+   "tightly circumscribed",
+   "circumscribe the powers of",
+   "narrowly circumscribed"
+  ],
+  "fam": "circumscription (n)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "subsume",
+  "ipa": "/səbˈsjuːm/",
+  "pos": "v",
+  "vi": "gộp vào, bao hàm (trong một nhóm lớn hơn)",
+  "ex": "Questions of identity are often subsumed under broader debates about economic inequality.",
+  "exvi": "Các vấn đề về bản sắc thường bị gộp vào những tranh luận rộng hơn về bất bình đẳng kinh tế.",
+  "col": [
+   "be subsumed under",
+   "be subsumed into",
+   "subsume within"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "warrant",
+  "ipa": "/ˈwɒrənt/",
+  "pos": "v",
+  "vi": "biện minh cho, đáng để (có hành động)",
+  "ex": "The evidence is not yet strong enough to warrant a change in clinical guidelines.",
+  "exvi": "Bằng chứng chưa đủ mạnh để biện minh cho việc thay đổi hướng dẫn lâm sàng.",
+  "col": [
+   "warrant further investigation",
+   "warrant attention",
+   "hardly warrant"
+  ],
+  "fam": "warrant (n), unwarranted (adj)",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "underscore",
+  "ipa": "/ˌʌndəˈskɔː/",
+  "pos": "v",
+  "vi": "nhấn mạnh, làm nổi bật tầm quan trọng",
+  "ex": "The pandemic underscored the importance of resilient supply chains.",
+  "exvi": "Đại dịch đã nhấn mạnh tầm quan trọng của chuỗi cung ứng có khả năng chống chịu.",
+  "col": [
+   "underscore the need for",
+   "underscore the importance of",
+   "further underscore"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Verbs of analysis",
+  "lv": 5
+ },
+ {
+  "w": "contention",
+  "ipa": "/kənˈtenʃn/",
+  "pos": "n",
+  "vi": "luận điểm, quan điểm được bảo vệ; sự tranh cãi",
+  "ex": "The central contention of the book is that inequality is a political choice rather than an economic inevitability.",
+  "exvi": "Luận điểm trung tâm của cuốn sách là bất bình đẳng là một lựa chọn chính trị chứ không phải tất yếu kinh tế.",
+  "col": [
+   "the central contention",
+   "it is my contention that",
+   "a point of contention"
+  ],
+  "fam": "contend (v), contentious (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "assertion",
+  "ipa": "/əˈsɜːʃn/",
+  "pos": "n",
+  "vi": "lời khẳng định, sự quả quyết",
+  "ex": "The assertion that tourism always benefits local communities is not supported by the evidence.",
+  "exvi": "Lời khẳng định rằng du lịch luôn có lợi cho cộng đồng địa phương không được bằng chứng ủng hộ.",
+  "col": [
+   "a bold assertion",
+   "an unsupported assertion",
+   "challenge the assertion"
+  ],
+  "fam": "assert (v), assertive (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "counterargument",
+  "ipa": "/ˈkaʊntərˌɑːɡjumənt/",
+  "pos": "n",
+  "vi": "lập luận phản bác",
+  "ex": "A strong essay anticipates the most obvious counterargument and addresses it directly.",
+  "exvi": "Một bài luận tốt dự đoán lập luận phản bác dễ thấy nhất và giải quyết nó trực tiếp.",
+  "col": [
+   "a compelling counterargument",
+   "anticipate a counterargument",
+   "address the counterargument"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "rebuttal",
+  "ipa": "/rɪˈbʌtl/",
+  "pos": "n",
+  "vi": "sự bác bỏ, phản bác",
+  "ex": "The minister's rebuttal did little to address the substance of the criticism.",
+  "exvi": "Lời phản bác của bộ trưởng hầu như không giải quyết được thực chất của lời chỉ trích.",
+  "col": [
+   "a detailed rebuttal",
+   "in rebuttal",
+   "a robust rebuttal"
+  ],
+  "fam": "rebut (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "refutation",
+  "ipa": "/ˌrefjuˈteɪʃn/",
+  "pos": "n",
+  "vi": "sự bác bỏ (bằng chứng cứ, chứng minh là sai)",
+  "ex": "The study is often cited as a definitive refutation of the link between vaccines and autism.",
+  "exvi": "Nghiên cứu này thường được trích dẫn như sự bác bỏ dứt khoát mối liên hệ giữa vắc-xin và tự kỷ.",
+  "col": [
+   "a convincing refutation",
+   "a definitive refutation",
+   "a refutation of the claim"
+  ],
+  "fam": "refute (v), irrefutable (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "corollary",
+  "ipa": "/kəˈrɒləri/",
+  "pos": "n",
+  "vi": "hệ quả tất yếu",
+  "ex": "A corollary of longer life expectancy is a growing demand for long-term care.",
+  "exvi": "Một hệ quả tất yếu của tuổi thọ dài hơn là nhu cầu chăm sóc dài hạn ngày càng tăng.",
+  "col": [
+   "a natural corollary",
+   "the corollary of",
+   "as a corollary"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "supposition",
+  "ipa": "/ˌsʌpəˈzɪʃn/",
+  "pos": "n",
+  "vi": "sự giả định, phỏng đoán (chưa có căn cứ chắc)",
+  "ex": "Much of the commentary rests on supposition rather than verifiable evidence.",
+  "exvi": "Phần lớn bình luận dựa trên phỏng đoán chứ không phải bằng chứng có thể kiểm chứng.",
+  "col": [
+   "mere supposition",
+   "on the supposition that",
+   "pure supposition"
+  ],
+  "fam": "suppose (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "tenet",
+  "ipa": "/ˈtenɪt/",
+  "pos": "n",
+  "vi": "nguyên lý, tín điều cơ bản",
+  "ex": "A core tenet of classical economics is that markets tend towards equilibrium.",
+  "exvi": "Một nguyên lý cốt lõi của kinh tế học cổ điển là thị trường có xu hướng tiến tới cân bằng.",
+  "col": [
+   "a central tenet",
+   "a basic tenet",
+   "the tenets of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "rationale",
+  "ipa": "/ˌræʃəˈnɑːl/",
+  "pos": "n",
+  "vi": "cơ sở lý lẽ, lý do căn bản",
+  "ex": "The rationale behind the tax is to discourage consumption of sugary drinks.",
+  "exvi": "Cơ sở lý lẽ của loại thuế này là hạn chế việc tiêu thụ đồ uống có đường.",
+  "col": [
+   "the rationale behind",
+   "a clear rationale",
+   "economic rationale"
+  ],
+  "fam": "rational (adj), rationalise (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "grounds",
+  "ipa": "/ɡraʊndz/",
+  "pos": "n",
+  "vi": "căn cứ, cơ sở (để tin hoặc làm gì)",
+  "ex": "There are reasonable grounds for believing that the policy has reduced youth unemployment.",
+  "exvi": "Có căn cứ hợp lý để tin rằng chính sách đã làm giảm thất nghiệp ở người trẻ.",
+  "col": [
+   "on the grounds that",
+   "reasonable grounds",
+   "grounds for concern"
+  ],
+  "fam": "groundless (adj), well-grounded (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "line of reasoning",
+  "ipa": "/laɪn əv ˈriːzənɪŋ/",
+  "pos": "phr",
+  "vi": "mạch lập luận",
+  "ex": "Following this line of reasoning, any restriction on speech would be unjustifiable.",
+  "exvi": "Theo mạch lập luận này, mọi hạn chế đối với tự do ngôn luận đều không thể biện minh.",
+  "col": [
+   "follow a line of reasoning",
+   "a similar line of reasoning",
+   "this line of reasoning"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "logical fallacy",
+  "ipa": "/ˈlɒdʒɪkl ˈfæləsi/",
+  "pos": "phr",
+  "vi": "ngụy biện logic, lỗi lập luận",
+  "ex": "Assuming that what is natural must be good is a well-known logical fallacy.",
+  "exvi": "Cho rằng cái gì tự nhiên thì cũng tốt là một ngụy biện logic nổi tiếng.",
+  "col": [
+   "commit a logical fallacy",
+   "a common logical fallacy",
+   "expose a logical fallacy"
+  ],
+  "fam": "fallacious (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "non sequitur",
+  "ipa": "/ˌnɒn ˈsekwɪtə/",
+  "pos": "n",
+  "vi": "kết luận không theo logic từ tiền đề",
+  "ex": "To conclude that schools are failing because test scores have plateaued is something of a non sequitur.",
+  "exvi": "Kết luận rằng trường học đang thất bại vì điểm thi chững lại là một suy luận không logic.",
+  "col": [
+   "a complete non sequitur",
+   "something of a non sequitur",
+   "amount to a non sequitur"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "tautology",
+  "ipa": "/tɔːˈtɒlədʒi/",
+  "pos": "n",
+  "vi": "lập luận lặp ý, luận vòng (nói lại chính điều cần chứng minh)",
+  "ex": "Defining success as whatever successful people do reduces the theory to a tautology.",
+  "exvi": "Định nghĩa thành công là bất cứ điều gì người thành công làm khiến lý thuyết trở thành một sự lặp ý vô nghĩa.",
+  "col": [
+   "reduce to a tautology",
+   "a mere tautology",
+   "border on tautology"
+  ],
+  "fam": "tautological (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "circular reasoning",
+  "ipa": "/ˈsɜːkjələ ˈriːzənɪŋ/",
+  "pos": "phr",
+  "vi": "lập luận vòng quanh",
+  "ex": "Using the theory's predictions to validate its assumptions is a clear case of circular reasoning.",
+  "exvi": "Dùng chính dự đoán của lý thuyết để chứng minh các giả định của nó là một ví dụ rõ ràng của lập luận vòng quanh.",
+  "col": [
+   "a case of circular reasoning",
+   "fall into circular reasoning",
+   "rely on circular reasoning"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "discrepancy",
+  "ipa": "/dɪˈskrepənsi/",
+  "pos": "n",
+  "vi": "sự chênh lệch, không khớp",
+  "ex": "There is a marked discrepancy between official unemployment figures and survey estimates.",
+  "exvi": "Có sự chênh lệch rõ rệt giữa số liệu thất nghiệp chính thức và ước tính từ khảo sát.",
+  "col": [
+   "a marked discrepancy",
+   "a discrepancy between",
+   "account for the discrepancy"
+  ],
+  "fam": "discrepant (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "dichotomy",
+  "ipa": "/daɪˈkɒtəmi/",
+  "pos": "n",
+  "vi": "sự phân đôi, đối lập hai cực",
+  "ex": "The dichotomy between nature and nurture has largely given way to more interactive models.",
+  "exvi": "Sự đối lập hai cực giữa bẩm sinh và nuôi dưỡng phần lớn đã nhường chỗ cho các mô hình tương tác hơn.",
+  "col": [
+   "a sharp dichotomy",
+   "the dichotomy between",
+   "a rigid dichotomy"
+  ],
+  "fam": "dichotomous (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "trade-off",
+  "ipa": "/ˈtreɪd ɒf/",
+  "pos": "n",
+  "vi": "sự đánh đổi",
+  "ex": "There is an inevitable trade-off between individual privacy and public security.",
+  "exvi": "Có một sự đánh đổi không thể tránh giữa quyền riêng tư cá nhân và an ninh công cộng.",
+  "col": [
+   "an inevitable trade-off",
+   "a trade-off between",
+   "make a trade-off"
+  ],
+  "fam": "trade off (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "conundrum",
+  "ipa": "/kəˈnʌndrəm/",
+  "pos": "n",
+  "vi": "vấn đề nan giải",
+  "ex": "How to fund social care for an ageing population remains a political conundrum.",
+  "exvi": "Làm thế nào để tài trợ chăm sóc xã hội cho dân số già vẫn là một vấn đề chính trị nan giải.",
+  "col": [
+   "a real conundrum",
+   "pose a conundrum",
+   "an ethical conundrum"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "quandary",
+  "ipa": "/ˈkwɒndəri/",
+  "pos": "n",
+  "vi": "tình thế khó xử, lưỡng lự",
+  "ex": "Regulators face a quandary: intervene too early and stifle innovation, or too late and fail to protect consumers.",
+  "exvi": "Các nhà quản lý đứng trước tình thế khó xử: can thiệp quá sớm thì kìm hãm đổi mới, quá muộn thì không bảo vệ được người tiêu dùng.",
+  "col": [
+   "in a quandary",
+   "a moral quandary",
+   "face a quandary"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "crux",
+  "ipa": "/krʌks/",
+  "pos": "n",
+  "vi": "điểm mấu chốt",
+  "ex": "The crux of the issue is not whether to regulate, but how.",
+  "exvi": "Mấu chốt của vấn đề không phải là có nên quản lý hay không, mà là quản lý như thế nào.",
+  "col": [
+   "the crux of the matter",
+   "the crux of the argument",
+   "the crux of the problem"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "thrust",
+  "ipa": "/θrʌst/",
+  "pos": "n",
+  "vi": "ý chính, hướng chủ đạo",
+  "ex": "The main thrust of the report is that prevention is cheaper than cure.",
+  "exvi": "Ý chủ đạo của báo cáo là phòng bệnh rẻ hơn chữa bệnh.",
+  "col": [
+   "the main thrust",
+   "the general thrust",
+   "the thrust of the argument"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "linchpin",
+  "ipa": "/ˈlɪntʃpɪn/",
+  "pos": "n",
+  "vi": "trụ cột, yếu tố then chốt",
+  "ex": "Trust between teachers and parents is the linchpin of any successful school reform.",
+  "exvi": "Lòng tin giữa giáo viên và phụ huynh là yếu tố then chốt của mọi cải cách giáo dục thành công.",
+  "col": [
+   "the linchpin of",
+   "serve as the linchpin",
+   "a key linchpin"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "bone of contention",
+  "ipa": "/bəʊn əv kənˈtenʃn/",
+  "pos": "phr",
+  "vi": "nguồn gốc tranh cãi",
+  "ex": "The allocation of water rights has long been a bone of contention between the two states.",
+  "exvi": "Việc phân bổ quyền sử dụng nước từ lâu đã là nguồn gốc tranh cãi giữa hai bang.",
+  "col": [
+   "a major bone of contention",
+   "remain a bone of contention",
+   "the main bone of contention"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "point of departure",
+  "ipa": "/pɔɪnt əv dɪˈpɑːtʃə/",
+  "pos": "phr",
+  "vi": "điểm xuất phát (của lập luận, nghiên cứu)",
+  "ex": "Rawls's theory of justice serves as the point of departure for this analysis.",
+  "exvi": "Lý thuyết công lý của Rawls là điểm xuất phát cho phân tích này.",
+  "col": [
+   "a useful point of departure",
+   "take as a point of departure",
+   "serve as a point of departure"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "frame of reference",
+  "ipa": "/freɪm əv ˈrefrəns/",
+  "pos": "phr",
+  "vi": "hệ quy chiếu, khung tham chiếu",
+  "ex": "Without a common frame of reference, the two disciplines often talk past each other.",
+  "exvi": "Không có khung tham chiếu chung, hai ngành thường nói chuyện mà không hiểu nhau.",
+  "col": [
+   "a shared frame of reference",
+   "within a frame of reference",
+   "provide a frame of reference"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "line of inquiry",
+  "ipa": "/laɪn əv ɪnˈkwaɪəri/",
+  "pos": "phr",
+  "vi": "hướng nghiên cứu, hướng điều tra",
+  "ex": "Genetic screening has opened up a promising new line of inquiry.",
+  "exvi": "Sàng lọc di truyền đã mở ra một hướng nghiên cứu mới đầy triển vọng.",
+  "col": [
+   "a promising line of inquiry",
+   "pursue a line of inquiry",
+   "a fruitful line of inquiry"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "body of literature",
+  "ipa": "/ˈbɒdi əv ˈlɪtrətʃə/",
+  "pos": "phr",
+  "vi": "khối tài liệu nghiên cứu (về một chủ đề)",
+  "ex": "A substantial body of literature links green space to improved mental health.",
+  "exvi": "Một khối lượng lớn tài liệu nghiên cứu liên kết không gian xanh với sức khỏe tinh thần tốt hơn.",
+  "col": [
+   "a growing body of literature",
+   "a substantial body of literature",
+   "the existing body of literature"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "weight of evidence",
+  "ipa": "/weɪt əv ˈevɪdəns/",
+  "pos": "phr",
+  "vi": "sức nặng của bằng chứng",
+  "ex": "The weight of evidence now suggests that the decline is driven by habitat loss.",
+  "exvi": "Sức nặng của bằng chứng hiện nay cho thấy sự suy giảm là do mất môi trường sống.",
+  "col": [
+   "the weight of evidence suggests",
+   "on the weight of evidence",
+   "the sheer weight of evidence"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "preponderance of evidence",
+  "ipa": "/prɪˈpɒndərəns əv ˈevɪdəns/",
+  "pos": "phr",
+  "vi": "bằng chứng chiếm ưu thế (phần lớn bằng chứng nghiêng về một phía)",
+  "ex": "The preponderance of evidence points to diet, not genetics, as the main driver.",
+  "exvi": "Phần lớn bằng chứng chỉ ra chế độ ăn, chứ không phải di truyền, là yếu tố chính.",
+  "col": [
+   "a preponderance of evidence",
+   "the preponderance of evidence suggests",
+   "on a preponderance of evidence"
+  ],
+  "fam": "preponderant (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "lacuna",
+  "ipa": "/ləˈkjuːnə/",
+  "pos": "n",
+  "vi": "khoảng trống, chỗ thiếu sót (trong tri thức, tài liệu)",
+  "ex": "This study addresses a significant lacuna in research on rural ageing.",
+  "exvi": "Nghiên cứu này lấp một khoảng trống đáng kể trong nghiên cứu về già hóa ở nông thôn.",
+  "col": [
+   "fill a lacuna",
+   "a significant lacuna",
+   "a lacuna in the literature"
+  ],
+  "fam": "lacunae (n pl)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "gap in the literature",
+  "ipa": "/ɡæp ɪn ðə ˈlɪtrətʃə/",
+  "pos": "phr",
+  "vi": "khoảng trống trong các nghiên cứu hiện có",
+  "ex": "Few studies have examined older migrants, which represents a clear gap in the literature.",
+  "exvi": "Rất ít nghiên cứu xem xét người di cư cao tuổi, đây là một khoảng trống rõ ràng trong các nghiên cứu hiện có.",
+  "col": [
+   "identify a gap in the literature",
+   "address a gap in the literature",
+   "a notable gap in the literature"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "blind spot",
+  "ipa": "/ˈblaɪnd spɒt/",
+  "pos": "n",
+  "vi": "điểm mù, khía cạnh bị bỏ qua",
+  "ex": "The model's main blind spot is its neglect of unpaid domestic work.",
+  "exvi": "Điểm mù chính của mô hình là bỏ qua công việc nội trợ không được trả lương.",
+  "col": [
+   "a major blind spot",
+   "a blind spot in",
+   "expose a blind spot"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "oversight",
+  "ipa": "/ˈəʊvəsaɪt/",
+  "pos": "n",
+  "vi": "sự sơ suất; sự giám sát",
+  "ex": "The failure to consult disabled users was a serious oversight in the design process.",
+  "exvi": "Việc không tham vấn người dùng khuyết tật là một sơ suất nghiêm trọng trong quá trình thiết kế.",
+  "col": [
+   "a serious oversight",
+   "regulatory oversight",
+   "an oversight in"
+  ],
+  "fam": "oversee (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "loophole",
+  "ipa": "/ˈluːphəʊl/",
+  "pos": "n",
+  "vi": "kẽ hở (luật, quy định)",
+  "ex": "Multinationals exploit loopholes to shift profits to low-tax jurisdictions.",
+  "exvi": "Các tập đoàn đa quốc gia lợi dụng kẽ hở để chuyển lợi nhuận sang những nơi thuế thấp.",
+  "col": [
+   "exploit a loophole",
+   "close a loophole",
+   "a legal loophole"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "proviso",
+  "ipa": "/prəˈvaɪzəʊ/",
+  "pos": "n",
+  "vi": "điều kiện kèm theo, điều khoản",
+  "ex": "The proposal was accepted, with the proviso that it be reviewed after two years.",
+  "exvi": "Đề xuất đã được chấp nhận, kèm điều kiện là phải được xem xét lại sau hai năm.",
+  "col": [
+   "with the proviso that",
+   "an important proviso",
+   "on the proviso that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "upshot",
+  "ipa": "/ˈʌpʃɒt/",
+  "pos": "n",
+  "vi": "kết quả cuối cùng",
+  "ex": "The upshot of these reforms was a two-tier system that favoured wealthier districts.",
+  "exvi": "Kết quả cuối cùng của các cải cách này là một hệ thống hai tầng ưu ái các quận giàu hơn.",
+  "col": [
+   "the upshot is that",
+   "the upshot of",
+   "the net upshot"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "dissent",
+  "ipa": "/dɪˈsent/",
+  "pos": "n",
+  "vi": "sự bất đồng, phản đối (với quan điểm chung)",
+  "ex": "Despite broad consensus, there remains significant dissent among economists about the timing.",
+  "exvi": "Dù có sự đồng thuận rộng rãi, vẫn còn bất đồng đáng kể giữa các nhà kinh tế về thời điểm.",
+  "col": [
+   "voice dissent",
+   "a note of dissent",
+   "suppress dissent"
+  ],
+  "fam": "dissent (v), dissenter (n), dissenting (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "orthodoxy",
+  "ipa": "/ˈɔːθədɒksi/",
+  "pos": "n",
+  "vi": "quan điểm chính thống, được chấp nhận rộng rãi",
+  "ex": "Her work challenged the prevailing orthodoxy that markets are self-correcting.",
+  "exvi": "Công trình của bà thách thức quan điểm chính thống rằng thị trường tự điều chỉnh.",
+  "col": [
+   "prevailing orthodoxy",
+   "challenge the orthodoxy",
+   "economic orthodoxy"
+  ],
+  "fam": "orthodox (adj), unorthodox (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "polemic",
+  "ipa": "/pəˈlemɪk/",
+  "pos": "n",
+  "vi": "bài luận chiến, lời công kích mạnh",
+  "ex": "The book reads less as a balanced analysis than as a polemic against globalisation.",
+  "exvi": "Cuốn sách đọc giống một bài luận chiến chống toàn cầu hóa hơn là một phân tích cân bằng.",
+  "col": [
+   "a fierce polemic",
+   "a polemic against",
+   "political polemic"
+  ],
+  "fam": "polemical (adj)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "appraisal",
+  "ipa": "/əˈpreɪzl/",
+  "pos": "n",
+  "vi": "sự đánh giá, thẩm định",
+  "ex": "A sober appraisal of the scheme reveals both its strengths and its limitations.",
+  "exvi": "Một đánh giá tỉnh táo về chương trình cho thấy cả điểm mạnh lẫn hạn chế của nó.",
+  "col": [
+   "a critical appraisal",
+   "a realistic appraisal",
+   "an appraisal of"
+  ],
+  "fam": "appraise (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "a case in point",
+  "ipa": "/ə keɪs ɪn pɔɪnt/",
+  "pos": "phr",
+  "vi": "một ví dụ điển hình (minh họa điều vừa nói)",
+  "ex": "Large infrastructure projects often run over budget; the new rail link is a case in point.",
+  "exvi": "Các dự án hạ tầng lớn thường vượt ngân sách; tuyến đường sắt mới là một ví dụ điển hình.",
+  "col": [
+   "a classic case in point",
+   "a good case in point",
+   "is a case in point"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "counterfactual",
+  "ipa": "/ˌkaʊntəˈfæktʃuəl/",
+  "pos": "n, adj",
+  "vi": "giả định ngược với thực tế (điều sẽ xảy ra nếu...)",
+  "ex": "Without a credible counterfactual, it is impossible to say how much the subsidy actually achieved.",
+  "exvi": "Nếu không có một kịch bản giả định đáng tin, không thể nói khoản trợ cấp thực sự đạt được bao nhiêu.",
+  "col": [
+   "a credible counterfactual",
+   "counterfactual analysis",
+   "construct a counterfactual"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "a confluence of",
+  "ipa": "/ə ˈkɒnfluəns əv/",
+  "pos": "phr",
+  "vi": "sự hội tụ của (nhiều yếu tố)",
+  "ex": "The crisis was triggered by a confluence of high debt, weak regulation and falling house prices.",
+  "exvi": "Cuộc khủng hoảng bị kích hoạt bởi sự hội tụ của nợ cao, quản lý lỏng lẻo và giá nhà giảm.",
+  "col": [
+   "a confluence of factors",
+   "a rare confluence of",
+   "a confluence of events"
+  ],
+  "fam": "confluence (n)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "a litany of",
+  "ipa": "/ə ˈlɪtəni əv/",
+  "pos": "phr",
+  "vi": "một chuỗi dài (thường là điều tiêu cực)",
+  "ex": "The inquiry uncovered a litany of failures in the management of the hospital.",
+  "exvi": "Cuộc điều tra phát hiện một chuỗi dài những sai sót trong việc quản lý bệnh viện.",
+  "col": [
+   "a litany of failures",
+   "a litany of complaints",
+   "a litany of problems"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "a raft of",
+  "ipa": "/ə rɑːft əv/",
+  "pos": "phr",
+  "vi": "một loạt (biện pháp, đề xuất)",
+  "ex": "The government announced a raft of measures to tackle rising energy bills.",
+  "exvi": "Chính phủ công bố một loạt biện pháp để đối phó với hóa đơn năng lượng tăng cao.",
+  "col": [
+   "a raft of measures",
+   "a raft of proposals",
+   "a whole raft of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "a plethora of",
+  "ipa": "/ə ˈpleθərə əv/",
+  "pos": "phr",
+  "vi": "rất nhiều, vô số (đôi khi là quá nhiều)",
+  "ex": "Consumers now face a plethora of choices, which can paradoxically reduce satisfaction.",
+  "exvi": "Người tiêu dùng giờ đối mặt với vô số lựa chọn, điều nghịch lý là có thể làm giảm sự hài lòng.",
+  "col": [
+   "a plethora of options",
+   "a plethora of studies",
+   "a bewildering plethora of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "rationalisation",
+  "ipa": "/ˌræʃnəlaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "sự biện hộ (cho hành vi); sự hợp lý hóa",
+  "ex": "Such arguments are less a justification than a post hoc rationalisation of existing practice.",
+  "exvi": "Những lập luận như vậy không hẳn là sự biện minh mà là sự biện hộ sau khi sự việc đã rồi cho thông lệ hiện có.",
+  "col": [
+   "post hoc rationalisation",
+   "a convenient rationalisation",
+   "rationalisation of"
+  ],
+  "fam": "rationalise (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "cornerstone",
+  "ipa": "/ˈkɔːnəstəʊn/",
+  "pos": "n",
+  "vi": "nền tảng, hòn đá tảng",
+  "ex": "Universal literacy is the cornerstone of a functioning democracy.",
+  "exvi": "Phổ cập biết chữ là nền tảng của một nền dân chủ vận hành tốt.",
+  "col": [
+   "the cornerstone of",
+   "a cornerstone of policy",
+   "form the cornerstone"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "shortcoming",
+  "ipa": "/ˈʃɔːtkʌmɪŋ/",
+  "pos": "n",
+  "vi": "thiếu sót, khuyết điểm",
+  "ex": "The main shortcoming of the study is its reliance on self-reported data.",
+  "exvi": "Thiếu sót chính của nghiên cứu là dựa vào dữ liệu tự báo cáo.",
+  "col": [
+   "a major shortcoming",
+   "address shortcomings",
+   "despite its shortcomings"
+  ],
+  "fam": "fall short (v)",
+  "em": "",
+  "topic": "Nouns of argument",
+  "lv": 5
+ },
+ {
+  "w": "compelling",
+  "ipa": "/kəmˈpelɪŋ/",
+  "pos": "adj",
+  "vi": "thuyết phục mạnh mẽ, khó bác bỏ",
+  "ex": "The authors make a compelling case for treating loneliness as a public health issue.",
+  "exvi": "Các tác giả đưa ra lập luận rất thuyết phục về việc coi cô đơn là một vấn đề sức khỏe cộng đồng.",
+  "col": [
+   "a compelling case",
+   "compelling evidence",
+   "a compelling argument"
+  ],
+  "fam": "compel (v), compellingly (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "incisive",
+  "ipa": "/ɪnˈsaɪsɪv/",
+  "pos": "adj",
+  "vi": "sắc sảo, đi thẳng vào trọng tâm",
+  "ex": "Her incisive critique exposed the weaknesses in the government's modelling.",
+  "exvi": "Bài phê bình sắc sảo của bà đã phơi bày những điểm yếu trong mô hình của chính phủ.",
+  "col": [
+   "incisive analysis",
+   "an incisive critique",
+   "incisive commentary"
+  ],
+  "fam": "incisively (adv), incisiveness (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "perceptive",
+  "ipa": "/pəˈseptɪv/",
+  "pos": "adj",
+  "vi": "tinh tường, nhạy bén trong nhận xét",
+  "ex": "The author offers a perceptive account of how class shapes language use.",
+  "exvi": "Tác giả đưa ra một lý giải tinh tường về cách giai cấp định hình cách dùng ngôn ngữ.",
+  "col": [
+   "a perceptive observation",
+   "highly perceptive",
+   "a perceptive analysis"
+  ],
+  "fam": "perception (n), perceptively (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "illuminating",
+  "ipa": "/ɪˈluːmɪneɪtɪŋ/",
+  "pos": "adj",
+  "vi": "soi sáng, giúp hiểu rõ",
+  "ex": "The comparison with nineteenth-century railway mania is particularly illuminating.",
+  "exvi": "Việc so sánh với cơn sốt đường sắt thế kỷ 19 đặc biệt giúp hiểu rõ vấn đề.",
+  "col": [
+   "particularly illuminating",
+   "an illuminating comparison",
+   "an illuminating study"
+  ],
+  "fam": "illuminate (v), illumination (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "seminal",
+  "ipa": "/ˈsemɪnl/",
+  "pos": "adj",
+  "vi": "có ảnh hưởng lớn, mang tính nền móng (công trình)",
+  "ex": "Kahneman's seminal work transformed the study of decision-making.",
+  "exvi": "Công trình mang tính nền móng của Kahneman đã thay đổi việc nghiên cứu ra quyết định.",
+  "col": [
+   "a seminal study",
+   "seminal work",
+   "a seminal paper"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "salient",
+  "ipa": "/ˈseɪliənt/",
+  "pos": "adj",
+  "vi": "nổi bật, quan trọng nhất",
+  "ex": "The most salient feature of the data is the sharp rise after 2008.",
+  "exvi": "Đặc điểm nổi bật nhất của dữ liệu là sự tăng vọt sau năm 2008.",
+  "col": [
+   "the salient features",
+   "a salient point",
+   "salient issues"
+  ],
+  "fam": "salience (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "germane",
+  "ipa": "/dʒɜːˈmeɪn/",
+  "pos": "adj",
+  "vi": "liên quan trực tiếp, thích đáng",
+  "ex": "The question of cost, while important, is not germane to the ethical argument.",
+  "exvi": "Vấn đề chi phí, dù quan trọng, không liên quan trực tiếp đến lập luận đạo đức.",
+  "col": [
+   "germane to",
+   "directly germane",
+   "not germane to the discussion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "pertinent",
+  "ipa": "/ˈpɜːtɪnənt/",
+  "pos": "adj",
+  "vi": "thích hợp, đúng trọng tâm",
+  "ex": "The report raises a number of pertinent questions about accountability.",
+  "exvi": "Báo cáo đặt ra một số câu hỏi đúng trọng tâm về trách nhiệm giải trình.",
+  "col": [
+   "a pertinent question",
+   "particularly pertinent",
+   "pertinent to"
+  ],
+  "fam": "pertinence (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "apposite",
+  "ipa": "/ˈæpəzɪt/",
+  "pos": "adj",
+  "vi": "thích đáng, rất phù hợp (ví dụ, nhận xét)",
+  "ex": "The analogy with the tobacco industry is especially apposite.",
+  "exvi": "Phép so sánh với ngành thuốc lá đặc biệt thích đáng.",
+  "col": [
+   "an apposite example",
+   "particularly apposite",
+   "an apposite comment"
+  ],
+  "fam": "appositely (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "tangential",
+  "ipa": "/tænˈdʒenʃl/",
+  "pos": "adj",
+  "vi": "chỉ liên quan bên lề, lạc đề",
+  "ex": "The discussion of historical precedent is tangential to the main argument.",
+  "exvi": "Phần bàn về tiền lệ lịch sử chỉ liên quan bên lề đến lập luận chính.",
+  "col": [
+   "tangential to",
+   "of tangential relevance",
+   "a tangential issue"
+  ],
+  "fam": "tangent (n), tangentially (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "extraneous",
+  "ipa": "/ɪkˈstreɪniəs/",
+  "pos": "adj",
+  "vi": "không liên quan, thừa",
+  "ex": "Good summaries strip away extraneous detail and retain only what supports the main claim.",
+  "exvi": "Những bản tóm tắt tốt loại bỏ chi tiết thừa và chỉ giữ lại những gì hỗ trợ luận điểm chính.",
+  "col": [
+   "extraneous detail",
+   "extraneous factors",
+   "extraneous information"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "facile",
+  "ipa": "/ˈfæsaɪl/",
+  "pos": "adj",
+  "vi": "hời hợt, dễ dãi (lập luận đơn giản quá mức)",
+  "ex": "It would be facile to blame the crisis on a single cause.",
+  "exvi": "Sẽ thật hời hợt nếu đổ lỗi cuộc khủng hoảng cho một nguyên nhân duy nhất.",
+  "col": [
+   "a facile argument",
+   "facile comparisons",
+   "a facile explanation"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "glib",
+  "ipa": "/ɡlɪb/",
+  "pos": "adj",
+  "vi": "trơn tru nhưng nông cạn, dễ dãi",
+  "ex": "Glib assurances that technology will solve the climate crisis ignore its political dimensions.",
+  "exvi": "Những lời trấn an dễ dãi rằng công nghệ sẽ giải quyết khủng hoảng khí hậu đã bỏ qua khía cạnh chính trị của nó.",
+  "col": [
+   "a glib answer",
+   "glib assurances",
+   "glib generalisations"
+  ],
+  "fam": "glibly (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "cursory",
+  "ipa": "/ˈkɜːsəri/",
+  "pos": "adj",
+  "vi": "qua loa, sơ sài",
+  "ex": "Even a cursory glance at the data reveals a striking regional imbalance.",
+  "exvi": "Chỉ cần liếc qua dữ liệu cũng thấy sự mất cân bằng vùng miền rõ rệt.",
+  "col": [
+   "a cursory glance",
+   "cursory examination",
+   "a cursory reading"
+  ],
+  "fam": "cursorily (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "perfunctory",
+  "ipa": "/pəˈfʌŋktəri/",
+  "pos": "adj",
+  "vi": "chiếu lệ, làm cho có",
+  "ex": "Public consultation was perfunctory, and most objections were simply ignored.",
+  "exvi": "Việc tham vấn cộng đồng chỉ mang tính chiếu lệ, và phần lớn ý kiến phản đối bị phớt lờ.",
+  "col": [
+   "a perfunctory nod",
+   "perfunctory consultation",
+   "perfunctory attention"
+  ],
+  "fam": "perfunctorily (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "fallacious",
+  "ipa": "/fəˈleɪʃəs/",
+  "pos": "adj",
+  "vi": "sai lầm (dựa trên lập luận sai)",
+  "ex": "The argument is fallacious because it confuses correlation with causation.",
+  "exvi": "Lập luận này sai lầm vì nhầm lẫn giữa tương quan và nhân quả.",
+  "col": [
+   "fallacious reasoning",
+   "a fallacious argument",
+   "demonstrably fallacious"
+  ],
+  "fam": "fallacy (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "spurious",
+  "ipa": "/ˈspjʊəriəs/",
+  "pos": "adj",
+  "vi": "giả tạo, không có căn cứ",
+  "ex": "With enough variables, spurious correlations are almost certain to appear.",
+  "exvi": "Với đủ nhiều biến số, các tương quan giả gần như chắc chắn sẽ xuất hiện.",
+  "col": [
+   "a spurious correlation",
+   "spurious claims",
+   "spurious precision"
+  ],
+  "fam": "spuriously (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "tendentious",
+  "ipa": "/tenˈdenʃəs/",
+  "pos": "adj",
+  "vi": "thiên vị, có dụng ý (nhằm cổ xúy quan điểm)",
+  "ex": "The documentary offers a tendentious reading of the historical record.",
+  "exvi": "Bộ phim tài liệu đưa ra một cách đọc thiên vị về các ghi chép lịch sử.",
+  "col": [
+   "a tendentious account",
+   "highly tendentious",
+   "tendentious claims"
+  ],
+  "fam": "tendentiously (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "even-handed",
+  "ipa": "/ˌiːvn ˈhændɪd/",
+  "pos": "adj",
+  "vi": "công bằng, không thiên vị",
+  "ex": "The book provides an even-handed assessment of both the benefits and harms of globalisation.",
+  "exvi": "Cuốn sách đưa ra đánh giá công bằng cả về lợi ích lẫn tác hại của toàn cầu hóa.",
+  "col": [
+   "an even-handed approach",
+   "even-handed treatment",
+   "scrupulously even-handed"
+  ],
+  "fam": "even-handedness (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "judicious",
+  "ipa": "/dʒuˈdɪʃəs/",
+  "pos": "adj",
+  "vi": "sáng suốt, thận trọng có cân nhắc",
+  "ex": "A judicious use of tariffs can protect infant industries without provoking retaliation.",
+  "exvi": "Việc dùng thuế quan một cách sáng suốt có thể bảo vệ ngành non trẻ mà không gây trả đũa.",
+  "col": [
+   "a judicious choice",
+   "judicious use of",
+   "judicious selection"
+  ],
+  "fam": "judiciously (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "measured",
+  "ipa": "/ˈmeʒəd/",
+  "pos": "adj",
+  "vi": "chừng mực, điềm tĩnh, cân nhắc",
+  "ex": "The central bank's measured response helped to calm the markets.",
+  "exvi": "Phản ứng chừng mực của ngân hàng trung ương giúp làm dịu thị trường.",
+  "col": [
+   "a measured response",
+   "a measured tone",
+   "measured language"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "ill-conceived",
+  "ipa": "/ˌɪl kənˈsiːvd/",
+  "pos": "adj",
+  "vi": "thiếu suy tính, được hoạch định kém",
+  "ex": "The ill-conceived scheme collapsed within a year of its launch.",
+  "exvi": "Chương trình thiếu suy tính đã sụp đổ chỉ trong vòng một năm kể từ khi ra mắt.",
+  "col": [
+   "an ill-conceived plan",
+   "ill-conceived policy",
+   "deeply ill-conceived"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "misguided",
+  "ipa": "/ˌmɪsˈɡaɪdɪd/",
+  "pos": "adj",
+  "vi": "sai lầm (do hiểu sai, dù có thể có thiện ý)",
+  "ex": "Attempts to ban the technology outright are well-intentioned but misguided.",
+  "exvi": "Những nỗ lực cấm hoàn toàn công nghệ này có thiện ý nhưng sai lầm.",
+  "col": [
+   "misguided attempts",
+   "a misguided belief",
+   "well-intentioned but misguided"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "short-sighted",
+  "ipa": "/ˌʃɔːt ˈsaɪtɪd/",
+  "pos": "adj",
+  "vi": "thiển cận",
+  "ex": "Cutting research funding to balance the budget is a short-sighted decision.",
+  "exvi": "Cắt giảm kinh phí nghiên cứu để cân bằng ngân sách là một quyết định thiển cận.",
+  "col": [
+   "a short-sighted policy",
+   "short-sighted decisions",
+   "dangerously short-sighted"
+  ],
+  "fam": "short-sightedness (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "self-defeating",
+  "ipa": "/ˌself dɪˈfiːtɪŋ/",
+  "pos": "adj",
+  "vi": "tự chuốc thất bại, phản tác dụng với chính mục tiêu",
+  "ex": "Raising tariffs to protect jobs can prove self-defeating if trading partners retaliate.",
+  "exvi": "Tăng thuế quan để bảo vệ việc làm có thể tự chuốc thất bại nếu các đối tác thương mại trả đũa.",
+  "col": [
+   "ultimately self-defeating",
+   "a self-defeating strategy",
+   "prove self-defeating"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "efficacious",
+  "ipa": "/ˌefɪˈkeɪʃəs/",
+  "pos": "adj",
+  "vi": "có hiệu quả (đạt kết quả mong muốn)",
+  "ex": "Cognitive behavioural therapy has proved efficacious for a range of anxiety disorders.",
+  "exvi": "Liệu pháp nhận thức hành vi đã chứng tỏ hiệu quả với nhiều chứng rối loạn lo âu.",
+  "col": [
+   "highly efficacious",
+   "efficacious treatment",
+   "prove efficacious"
+  ],
+  "fam": "efficacy (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "defensible",
+  "ipa": "/dɪˈfensəbl/",
+  "pos": "adj",
+  "vi": "có thể bảo vệ, biện hộ được",
+  "ex": "Using animals in research is defensible only when no viable alternative exists.",
+  "exvi": "Dùng động vật trong nghiên cứu chỉ có thể biện hộ được khi không có lựa chọn khả thi nào khác.",
+  "col": [
+   "morally defensible",
+   "a defensible position",
+   "scientifically defensible"
+  ],
+  "fam": "defend (v), indefensible (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "laudable",
+  "ipa": "/ˈlɔːdəbl/",
+  "pos": "adj",
+  "vi": "đáng khen ngợi",
+  "ex": "The aim of the scheme is laudable, but its implementation has been poor.",
+  "exvi": "Mục tiêu của chương trình đáng khen ngợi, nhưng việc thực hiện lại kém.",
+  "col": [
+   "a laudable aim",
+   "laudable goals",
+   "laudable though it is"
+  ],
+  "fam": "laud (v)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "exemplary",
+  "ipa": "/ɪɡˈzempləri/",
+  "pos": "adj",
+  "vi": "mẫu mực, gương mẫu",
+  "ex": "The city's recycling programme has been held up as exemplary.",
+  "exvi": "Chương trình tái chế của thành phố được coi là hình mẫu.",
+  "col": [
+   "exemplary practice",
+   "an exemplary model",
+   "exemplary conduct"
+  ],
+  "fam": "exemplify (v)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "lamentable",
+  "ipa": "/ˈlæməntəbl/",
+  "pos": "adj",
+  "vi": "đáng tiếc, tồi tệ",
+  "ex": "The lamentable state of public housing reflects decades of underinvestment.",
+  "exvi": "Tình trạng tồi tệ của nhà ở công phản ánh hàng thập kỷ đầu tư thiếu.",
+  "col": [
+   "a lamentable failure",
+   "lamentable state",
+   "lamentably slow"
+  ],
+  "fam": "lamentably (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "fraught",
+  "ipa": "/frɔːt/",
+  "pos": "adj",
+  "vi": "đầy (rủi ro, khó khăn); căng thẳng",
+  "ex": "Any attempt to measure intelligence across cultures is fraught with difficulty.",
+  "exvi": "Mọi nỗ lực đo lường trí thông minh giữa các nền văn hóa đều đầy khó khăn.",
+  "col": [
+   "fraught with difficulty",
+   "fraught with danger",
+   "fraught with risk"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "substantive",
+  "ipa": "/səbˈstæntɪv/",
+  "pos": "adj",
+  "vi": "thực chất, quan trọng",
+  "ex": "The talks produced no substantive progress on emissions targets.",
+  "exvi": "Các cuộc đàm phán không mang lại tiến triển thực chất nào về mục tiêu phát thải.",
+  "col": [
+   "substantive progress",
+   "substantive issues",
+   "a substantive change"
+  ],
+  "fam": "substance (n), substantively (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "consequential",
+  "ipa": "/ˌkɒnsɪˈkwenʃl/",
+  "pos": "adj",
+  "vi": "có hệ quả quan trọng",
+  "ex": "Few policy decisions are as consequential as how a country funds its schools.",
+  "exvi": "Ít quyết định chính sách nào có hệ quả quan trọng bằng cách một quốc gia tài trợ cho trường học.",
+  "col": [
+   "highly consequential",
+   "consequential decisions",
+   "deeply consequential"
+  ],
+  "fam": "consequence (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "far-reaching",
+  "ipa": "/ˌfɑː ˈriːtʃɪŋ/",
+  "pos": "adj",
+  "vi": "sâu rộng, có ảnh hưởng lớn",
+  "ex": "The reforms had far-reaching consequences for rural communities.",
+  "exvi": "Các cải cách có những hệ quả sâu rộng đối với cộng đồng nông thôn.",
+  "col": [
+   "far-reaching consequences",
+   "far-reaching implications",
+   "far-reaching reforms"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "overrated",
+  "ipa": "/ˌəʊvəˈreɪtɪd/",
+  "pos": "adj",
+  "vi": "được đánh giá quá cao",
+  "ex": "The role of individual genius in scientific discovery is arguably overrated.",
+  "exvi": "Vai trò của thiên tài cá nhân trong khám phá khoa học có lẽ bị đánh giá quá cao.",
+  "col": [
+   "vastly overrated",
+   "somewhat overrated",
+   "overrated as"
+  ],
+  "fam": "overrate (v), underrated (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "unfounded",
+  "ipa": "/ʌnˈfaʊndɪd/",
+  "pos": "adj",
+  "vi": "không có căn cứ",
+  "ex": "Fears that the policy would cause mass unemployment proved unfounded.",
+  "exvi": "Nỗi lo rằng chính sách sẽ gây thất nghiệp hàng loạt hóa ra không có căn cứ.",
+  "col": [
+   "unfounded fears",
+   "unfounded allegations",
+   "prove unfounded"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "ill-founded",
+  "ipa": "/ˌɪl ˈfaʊndɪd/",
+  "pos": "adj",
+  "vi": "thiếu cơ sở, dựa trên căn cứ sai",
+  "ex": "The assumption that older workers are less productive is largely ill-founded.",
+  "exvi": "Giả định rằng người lao động lớn tuổi kém năng suất hơn phần lớn là thiếu cơ sở.",
+  "col": [
+   "ill-founded assumptions",
+   "ill-founded criticism",
+   "an ill-founded belief"
+  ],
+  "fam": "well-founded (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "well-founded",
+  "ipa": "/ˌwel ˈfaʊndɪd/",
+  "pos": "adj",
+  "vi": "có cơ sở vững chắc",
+  "ex": "Concerns about the safety of the dam turned out to be well-founded.",
+  "exvi": "Những lo ngại về an toàn của con đập hóa ra có cơ sở vững chắc.",
+  "col": [
+   "well-founded concerns",
+   "a well-founded belief",
+   "entirely well-founded"
+  ],
+  "fam": "ill-founded (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "watertight",
+  "ipa": "/ˈwɔːtətaɪt/",
+  "pos": "adj",
+  "vi": "chặt chẽ, không kẽ hở (lập luận, bằng chứng)",
+  "ex": "The prosecution's case was far from watertight.",
+  "exvi": "Lập luận buộc tội của bên công tố còn lâu mới chặt chẽ.",
+  "col": [
+   "a watertight case",
+   "a watertight argument",
+   "far from watertight"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "unassailable",
+  "ipa": "/ˌʌnəˈseɪləbl/",
+  "pos": "adj",
+  "vi": "không thể công kích, vững chắc tuyệt đối",
+  "ex": "Darwin's core insight now seems unassailable, though the details remain contested.",
+  "exvi": "Ý tưởng cốt lõi của Darwin giờ có vẻ vững chắc tuyệt đối, dù các chi tiết vẫn còn tranh cãi.",
+  "col": [
+   "an unassailable position",
+   "unassailable logic",
+   "an unassailable lead"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "of dubious value",
+  "ipa": "/əv ˈdjuːbiəs ˈvæljuː/",
+  "pos": "phr",
+  "vi": "giá trị đáng ngờ",
+  "ex": "League tables of schools are of dubious value to parents choosing a school.",
+  "exvi": "Bảng xếp hạng trường học có giá trị đáng ngờ đối với phụ huynh đang chọn trường.",
+  "col": [
+   "be of dubious value",
+   "of highly dubious value",
+   "of dubious value to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "of paramount importance",
+  "ipa": "/əv ˈpærəmaʊnt ɪmˈpɔːtns/",
+  "pos": "phr",
+  "vi": "tối quan trọng",
+  "ex": "In a pandemic, clear and consistent public messaging is of paramount importance.",
+  "exvi": "Trong đại dịch, thông điệp công chúng rõ ràng và nhất quán là tối quan trọng.",
+  "col": [
+   "be of paramount importance",
+   "of paramount importance to",
+   "considered of paramount importance"
+  ],
+  "fam": "paramount (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "fall short of",
+  "ipa": "/fɔːl ʃɔːt əv/",
+  "pos": "phr",
+  "vi": "không đạt được (kỳ vọng, mục tiêu)",
+  "ex": "The agreement falls well short of what scientists say is necessary.",
+  "exvi": "Thỏa thuận còn xa mới đạt được mức mà các nhà khoa học cho là cần thiết.",
+  "col": [
+   "fall short of expectations",
+   "fall well short of",
+   "fall short of the target"
+  ],
+  "fam": "shortfall (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "stand up to scrutiny",
+  "ipa": "/stænd ʌp tə ˈskruːtɪni/",
+  "pos": "phr",
+  "vi": "đứng vững khi bị xem xét kỹ",
+  "ex": "Few of the company's environmental claims stand up to scrutiny.",
+  "exvi": "Rất ít tuyên bố về môi trường của công ty đứng vững khi bị xem xét kỹ.",
+  "col": [
+   "fail to stand up to scrutiny",
+   "stand up to close scrutiny",
+   "does not stand up to scrutiny"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "hold water",
+  "ipa": "/həʊld ˈwɔːtə/",
+  "pos": "phr",
+  "vi": "hợp lý, đứng vững (lập luận)",
+  "ex": "The claim that the tax will pay for itself simply does not hold water.",
+  "exvi": "Tuyên bố rằng loại thuế này sẽ tự bù đắp đơn giản là không đứng vững.",
+  "col": [
+   "not hold water",
+   "hardly hold water",
+   "an argument that holds water"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "leave much to be desired",
+  "ipa": "/liːv mʌtʃ tə bi dɪˈzaɪəd/",
+  "pos": "phr",
+  "vi": "còn nhiều điều chưa tốt, chưa đạt",
+  "ex": "The quality of the data on informal employment leaves much to be desired.",
+  "exvi": "Chất lượng dữ liệu về lao động phi chính thức còn nhiều điều chưa đạt.",
+  "col": [
+   "leave much to be desired",
+   "leave a lot to be desired",
+   "still leaves much to be desired"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "questionable",
+  "ipa": "/ˈkwestʃənəbl/",
+  "pos": "adj",
+  "vi": "đáng ngờ, còn phải bàn",
+  "ex": "The value of such large-scale testing is questionable at best.",
+  "exvi": "Giá trị của việc kiểm tra quy mô lớn như vậy, ở mức tốt nhất, cũng còn đáng ngờ.",
+  "col": [
+   "highly questionable",
+   "questionable assumptions",
+   "of questionable value"
+  ],
+  "fam": "question (v), unquestionable (adj)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "simplistic",
+  "ipa": "/sɪmˈplɪstɪk/",
+  "pos": "adj",
+  "vi": "đơn giản hóa quá mức",
+  "ex": "Blaming poverty solely on individual choices is a simplistic view.",
+  "exvi": "Đổ lỗi nghèo đói hoàn toàn cho lựa chọn cá nhân là một quan điểm đơn giản hóa quá mức.",
+  "col": [
+   "overly simplistic",
+   "a simplistic view",
+   "simplistic explanations"
+  ],
+  "fam": "simplistically (adv)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "insightful",
+  "ipa": "/ˈɪnsaɪtfʊl/",
+  "pos": "adj",
+  "vi": "sâu sắc, có hiểu biết thấu đáo",
+  "ex": "The final chapter offers an insightful analysis of why reforms stall.",
+  "exvi": "Chương cuối đưa ra một phân tích sâu sắc về lý do cải cách bị đình trệ.",
+  "col": [
+   "an insightful analysis",
+   "insightful comments",
+   "highly insightful"
+  ],
+  "fam": "insight (n)",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "counterproductive",
+  "ipa": "/ˌkaʊntəprəˈdʌktɪv/",
+  "pos": "adj",
+  "vi": "phản tác dụng",
+  "ex": "Excessive testing can be counterproductive, increasing anxiety without improving learning.",
+  "exvi": "Kiểm tra quá nhiều có thể phản tác dụng, làm tăng lo âu mà không cải thiện việc học.",
+  "col": [
+   "prove counterproductive",
+   "entirely counterproductive",
+   "counterproductive to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Words of evaluation",
+  "lv": 5
+ },
+ {
+  "w": "indisputably",
+  "ipa": "/ˌɪndɪˈspjuːtəbli/",
+  "pos": "adv",
+  "vi": "không thể chối cãi",
+  "ex": "The industrial revolution was indisputably a turning point in human history.",
+  "exvi": "Cách mạng công nghiệp không thể chối cãi là một bước ngoặt trong lịch sử loài người.",
+  "col": [
+   "indisputably true",
+   "indisputably the best",
+   "indisputably linked"
+  ],
+  "fam": "indisputable (adj), dispute (v)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "unequivocally",
+  "ipa": "/ˌʌnɪˈkwɪvəkəli/",
+  "pos": "adv",
+  "vi": "dứt khoát, rõ ràng không mơ hồ",
+  "ex": "The trial results show unequivocally that the drug reduces mortality.",
+  "exvi": "Kết quả thử nghiệm cho thấy dứt khoát rằng thuốc làm giảm tỉ lệ tử vong.",
+  "col": [
+   "state unequivocally",
+   "unequivocally reject",
+   "unequivocally clear"
+  ],
+  "fam": "unequivocal (adj), equivocal (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "demonstrably",
+  "ipa": "/dɪˈmɒnstrəbli/",
+  "pos": "adv",
+  "vi": "có thể chứng minh được, rõ ràng",
+  "ex": "The claim is demonstrably false, as the census data show.",
+  "exvi": "Tuyên bố này rõ ràng là sai, như dữ liệu điều tra dân số cho thấy.",
+  "col": [
+   "demonstrably false",
+   "demonstrably better",
+   "demonstrably effective"
+  ],
+  "fam": "demonstrable (adj), demonstrate (v)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "manifestly",
+  "ipa": "/ˈmænɪfestli/",
+  "pos": "adv",
+  "vi": "hiển nhiên, rõ rành rành",
+  "ex": "The existing system is manifestly unfair to part-time workers.",
+  "exvi": "Hệ thống hiện tại rõ rành rành là bất công với người lao động bán thời gian.",
+  "col": [
+   "manifestly unfair",
+   "manifestly inadequate",
+   "manifestly false"
+  ],
+  "fam": "manifest (adj, v), manifestation (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "patently",
+  "ipa": "/ˈpeɪtntli/",
+  "pos": "adv",
+  "vi": "hiển nhiên, rõ ràng (thường nhấn điều tiêu cực)",
+  "ex": "The suggestion that the market will regulate itself is patently absurd in this case.",
+  "exvi": "Gợi ý rằng thị trường sẽ tự điều tiết trong trường hợp này rõ ràng là vô lý.",
+  "col": [
+   "patently absurd",
+   "patently obvious",
+   "patently untrue"
+  ],
+  "fam": "patent (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "self-evidently",
+  "ipa": "/ˌself ˈevɪdəntli/",
+  "pos": "adv",
+  "vi": "tự nó đã hiển nhiên",
+  "ex": "Clean water is self-evidently a precondition for public health.",
+  "exvi": "Nước sạch hiển nhiên là điều kiện tiên quyết cho sức khỏe cộng đồng.",
+  "col": [
+   "self-evidently true",
+   "self-evidently important",
+   "not self-evidently"
+  ],
+  "fam": "self-evident (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "invariably",
+  "ipa": "/ɪnˈveəriəbli/",
+  "pos": "adv",
+  "vi": "luôn luôn, không thay đổi",
+  "ex": "Rapid urbanisation is almost invariably accompanied by rising inequality.",
+  "exvi": "Đô thị hóa nhanh hầu như luôn đi kèm với bất bình đẳng gia tăng.",
+  "col": [
+   "almost invariably",
+   "invariably lead to",
+   "invariably involve"
+  ],
+  "fam": "invariable (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "allegedly",
+  "ipa": "/əˈledʒɪdli/",
+  "pos": "adv",
+  "vi": "được cho là, bị cáo buộc là (chưa xác minh)",
+  "ex": "The data were allegedly manipulated to exaggerate the benefits of the drug.",
+  "exvi": "Dữ liệu bị cho là đã bị thao túng để phóng đại lợi ích của thuốc.",
+  "col": [
+   "allegedly involved",
+   "allegedly responsible",
+   "allegedly committed"
+  ],
+  "fam": "allege (v), allegation (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "seemingly",
+  "ipa": "/ˈsiːmɪŋli/",
+  "pos": "adv",
+  "vi": "có vẻ như, bề ngoài thì",
+  "ex": "Seemingly minor changes in diet can have substantial long-term effects.",
+  "exvi": "Những thay đổi có vẻ nhỏ trong chế độ ăn có thể có tác động lâu dài đáng kể.",
+  "col": [
+   "seemingly endless",
+   "seemingly minor",
+   "seemingly contradictory"
+  ],
+  "fam": "seem (v)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "plausibly",
+  "ipa": "/ˈplɔːzəbli/",
+  "pos": "adv",
+  "vi": "một cách hợp lý, có thể tin được",
+  "ex": "It could plausibly be argued that the reforms merely accelerated an existing trend.",
+  "exvi": "Có thể lập luận một cách hợp lý rằng các cải cách chỉ đẩy nhanh một xu hướng sẵn có.",
+  "col": [
+   "plausibly argue",
+   "could plausibly",
+   "plausibly explain"
+  ],
+  "fam": "plausible (adj), plausibility (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "in all probability",
+  "ipa": "/ɪn ɔːl ˌprɒbəˈbɪləti/",
+  "pos": "phr",
+  "vi": "rất có khả năng",
+  "ex": "In all probability, the decline will continue unless land use changes.",
+  "exvi": "Rất có khả năng sự suy giảm sẽ tiếp tục trừ khi việc sử dụng đất thay đổi.",
+  "col": [
+   "in all probability will",
+   "is in all probability",
+   "in all probability the result of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "in principle",
+  "ipa": "/ɪn ˈprɪnsəpl/",
+  "pos": "phr",
+  "vi": "về nguyên tắc",
+  "ex": "Most people support the scheme in principle but object to paying for it.",
+  "exvi": "Hầu hết mọi người ủng hộ chương trình về nguyên tắc nhưng phản đối việc phải trả tiền cho nó.",
+  "col": [
+   "agree in principle",
+   "in principle at least",
+   "possible in principle"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "admittedly",
+  "ipa": "/ədˈmɪtɪdli/",
+  "pos": "adv",
+  "vi": "phải thừa nhận rằng",
+  "ex": "Admittedly, the sample was small, but the effect was consistent across all groups.",
+  "exvi": "Phải thừa nhận rằng mẫu nhỏ, nhưng tác động đồng nhất ở tất cả các nhóm.",
+  "col": [
+   "admittedly small",
+   "admittedly limited",
+   "though admittedly"
+  ],
+  "fam": "admit (v), admission (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "granted",
+  "ipa": "/ˈɡrɑːntɪd/",
+  "pos": "adv, conj",
+  "vi": "đành rằng, công nhận là",
+  "ex": "Granted, renewable energy is intermittent, but storage technology is improving rapidly.",
+  "exvi": "Đành rằng năng lượng tái tạo không ổn định, nhưng công nghệ lưu trữ đang cải thiện nhanh.",
+  "col": [
+   "granted that",
+   "take for granted",
+   "granted, but"
+  ],
+  "fam": "grant (v)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "to be sure",
+  "ipa": "/tə bi ʃʊə/",
+  "pos": "phr",
+  "vi": "chắc chắn là (dùng để nhượng bộ trước khi phản bác)",
+  "ex": "To be sure, the policy has its critics, yet its results speak for themselves.",
+  "exvi": "Chắc chắn là chính sách có những người chỉ trích, nhưng kết quả của nó đã tự chứng minh.",
+  "col": [
+   "to be sure, but",
+   "there are, to be sure",
+   "to be sure, this is"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "needless to say",
+  "ipa": "/ˈniːdləs tə seɪ/",
+  "pos": "phr",
+  "vi": "không cần phải nói",
+  "ex": "Needless to say, these estimates depend heavily on the assumptions used.",
+  "exvi": "Không cần phải nói, những ước tính này phụ thuộc nhiều vào các giả định được dùng.",
+  "col": [
+   "needless to say, the",
+   "needless to say, this",
+   "and, needless to say"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it is debatable whether",
+  "ipa": "/ɪt ɪz dɪˈbeɪtəbl ˈweðə/",
+  "pos": "phr",
+  "vi": "còn phải bàn liệu có... hay không",
+  "ex": "It is debatable whether tougher sentencing actually deters crime.",
+  "exvi": "Còn phải bàn liệu án phạt nặng hơn có thực sự răn đe tội phạm hay không.",
+  "col": [
+   "it is debatable whether",
+   "highly debatable whether",
+   "it remains debatable whether"
+  ],
+  "fam": "debatable (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "there is little doubt that",
+  "ipa": "/ðeər ɪz ˈlɪtl daʊt ðæt/",
+  "pos": "phr",
+  "vi": "hầu như không còn nghi ngờ rằng",
+  "ex": "There is little doubt that air pollution shortens life expectancy.",
+  "exvi": "Hầu như không còn nghi ngờ rằng ô nhiễm không khí làm giảm tuổi thọ.",
+  "col": [
+   "there is little doubt that",
+   "there can be little doubt that",
+   "leave little doubt that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it would seem that",
+  "ipa": "/ɪt wʊd siːm ðæt/",
+  "pos": "phr",
+  "vi": "có vẻ như (cách nói thận trọng)",
+  "ex": "It would seem that the benefits of the programme have been unevenly distributed.",
+  "exvi": "Có vẻ như lợi ích của chương trình đã được phân bổ không đồng đều.",
+  "col": [
+   "it would seem that",
+   "it would seem, then, that",
+   "it would therefore seem that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it is conceivable that",
+  "ipa": "/ɪt ɪz kənˈsiːvəbl ðæt/",
+  "pos": "phr",
+  "vi": "có thể hình dung được rằng, có khả năng là",
+  "ex": "It is conceivable that the trend will reverse once subsidies are withdrawn.",
+  "exvi": "Có khả năng xu hướng sẽ đảo ngược khi trợ cấp bị rút lại.",
+  "col": [
+   "it is conceivable that",
+   "it is just conceivable that",
+   "it is not inconceivable that"
+  ],
+  "fam": "conceivably (adv), inconceivable (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it stands to reason",
+  "ipa": "/ɪt stændz tə ˈriːzn/",
+  "pos": "phr",
+  "vi": "hợp lẽ tự nhiên, dễ hiểu là",
+  "ex": "It stands to reason that students who sleep well perform better in exams.",
+  "exvi": "Hợp lẽ tự nhiên là học sinh ngủ đủ sẽ làm bài thi tốt hơn.",
+  "col": [
+   "it stands to reason that",
+   "it would stand to reason",
+   "it simply stands to reason"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it is tempting to",
+  "ipa": "/ɪt ɪz ˈtemptɪŋ tə/",
+  "pos": "phr",
+  "vi": "dễ có xu hướng (kết luận vội)",
+  "ex": "It is tempting to attribute the fall in crime to policing, but demographic change played a larger role.",
+  "exvi": "Người ta dễ quy việc tội phạm giảm cho công tác cảnh sát, nhưng thay đổi nhân khẩu học đóng vai trò lớn hơn.",
+  "col": [
+   "it is tempting to conclude",
+   "it is tempting to assume",
+   "while it is tempting to"
+  ],
+  "fam": "tempt (v), temptation (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "there is a case for",
+  "ipa": "/ðeər ɪz ə keɪs fɔː/",
+  "pos": "phr",
+  "vi": "có lý lẽ để ủng hộ (việc gì)",
+  "ex": "There is a strong case for taxing carbon at source.",
+  "exvi": "Có lý lẽ mạnh mẽ để ủng hộ việc đánh thuế carbon từ nguồn phát thải.",
+  "col": [
+   "there is a strong case for",
+   "there is a case for arguing",
+   "make a case for"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it bears repeating",
+  "ipa": "/ɪt beəz rɪˈpiːtɪŋ/",
+  "pos": "phr",
+  "vi": "điều này đáng được nhắc lại",
+  "ex": "It bears repeating that correlation does not imply causation.",
+  "exvi": "Điều đáng nhắc lại là tương quan không có nghĩa là nhân quả.",
+  "col": [
+   "it bears repeating that",
+   "a point that bears repeating",
+   "it is a point worth repeating"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it is no coincidence that",
+  "ipa": "/ɪt ɪz nəʊ kəʊˈɪnsɪdəns ðæt/",
+  "pos": "phr",
+  "vi": "không phải ngẫu nhiên mà",
+  "ex": "It is no coincidence that the most innovative regions also invest most in education.",
+  "exvi": "Không phải ngẫu nhiên mà những vùng đổi mới nhất cũng đầu tư nhiều nhất cho giáo dục.",
+  "col": [
+   "it is no coincidence that",
+   "it is hardly a coincidence that",
+   "it is perhaps no coincidence that"
+  ],
+  "fam": "coincidental (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it is far from clear",
+  "ipa": "/ɪt ɪz fɑː frəm klɪə/",
+  "pos": "phr",
+  "vi": "còn lâu mới rõ ràng",
+  "ex": "It is far from clear that higher pay alone would solve the shortage of nurses.",
+  "exvi": "Còn lâu mới rõ ràng rằng chỉ riêng việc tăng lương sẽ giải quyết được tình trạng thiếu y tá.",
+  "col": [
+   "it is far from clear that",
+   "it is far from clear whether",
+   "remain far from clear"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "it remains to be seen",
+  "ipa": "/ɪt rɪˈmeɪnz tə bi siːn/",
+  "pos": "phr",
+  "vi": "vẫn còn phải chờ xem",
+  "ex": "It remains to be seen whether the agreement will be enforced.",
+  "exvi": "Vẫn còn phải chờ xem liệu thỏa thuận có được thực thi hay không.",
+  "col": [
+   "it remains to be seen whether",
+   "it remains to be seen how",
+   "what remains to be seen"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "to all intents and purposes",
+  "ipa": "/tu ɔːl ɪnˈtents ənd ˈpɜːpəsɪz/",
+  "pos": "phr",
+  "vi": "trên thực tế, xét về mọi mặt",
+  "ex": "The two schemes are, to all intents and purposes, identical.",
+  "exvi": "Hai chương trình này, xét về mọi mặt, là giống hệt nhau.",
+  "col": [
+   "to all intents and purposes identical",
+   "to all intents and purposes over",
+   "is, to all intents and purposes,"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "on the face of it",
+  "ipa": "/ɒn ðə feɪs əv ɪt/",
+  "pos": "phr",
+  "vi": "nhìn bề ngoài thì",
+  "ex": "On the face of it, the policy seems generous, but the eligibility criteria are extremely narrow.",
+  "exvi": "Nhìn bề ngoài thì chính sách có vẻ hào phóng, nhưng tiêu chí đủ điều kiện lại cực kỳ hẹp.",
+  "col": [
+   "on the face of it, this",
+   "seem, on the face of it,",
+   "on the face of it, a reasonable"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "on closer inspection",
+  "ipa": "/ɒn ˈkləʊsə ɪnˈspekʃn/",
+  "pos": "phr",
+  "vi": "khi xem xét kỹ hơn",
+  "ex": "On closer inspection, the apparent improvement is largely a statistical artefact.",
+  "exvi": "Khi xem xét kỹ hơn, sự cải thiện bề ngoài phần lớn chỉ là hệ quả của cách thống kê.",
+  "col": [
+   "on closer inspection, it",
+   "on closer inspection, however",
+   "reveal on closer inspection"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "in the final analysis",
+  "ipa": "/ɪn ðə ˈfaɪnl əˈnæləsɪs/",
+  "pos": "phr",
+  "vi": "xét cho cùng",
+  "ex": "In the final analysis, no technology can substitute for political will.",
+  "exvi": "Xét cho cùng, không công nghệ nào có thể thay thế ý chí chính trị.",
+  "col": [
+   "in the final analysis, the",
+   "in the final analysis, it is",
+   "depend, in the final analysis, on"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "inherently",
+  "ipa": "/ɪnˈhɪərəntli/",
+  "pos": "adv",
+  "vi": "vốn dĩ, về bản chất",
+  "ex": "Forecasting long-term climate impacts is inherently uncertain.",
+  "exvi": "Dự báo tác động khí hậu dài hạn vốn dĩ là không chắc chắn.",
+  "col": [
+   "inherently uncertain",
+   "inherently unstable",
+   "inherently risky"
+  ],
+  "fam": "inherent (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "intrinsically",
+  "ipa": "/ɪnˈtrɪnzɪkli/",
+  "pos": "adv",
+  "vi": "về bản chất, tự thân",
+  "ex": "Some argue that biodiversity is intrinsically valuable, regardless of its economic uses.",
+  "exvi": "Một số người lập luận rằng đa dạng sinh học tự thân có giá trị, bất kể công dụng kinh tế.",
+  "col": [
+   "intrinsically valuable",
+   "intrinsically linked",
+   "intrinsically motivated"
+  ],
+  "fam": "intrinsic (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "categorically",
+  "ipa": "/ˌkætəˈɡɒrɪkli/",
+  "pos": "adv",
+  "vi": "một cách dứt khoát, tuyệt đối",
+  "ex": "The ministry categorically denied that the data had been withheld.",
+  "exvi": "Bộ đã dứt khoát phủ nhận việc dữ liệu bị che giấu.",
+  "col": [
+   "categorically deny",
+   "categorically reject",
+   "state categorically"
+  ],
+  "fam": "categorical (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "emphatically",
+  "ipa": "/ɪmˈfætɪkli/",
+  "pos": "adv",
+  "vi": "một cách mạnh mẽ, dứt khoát",
+  "ex": "The evidence emphatically does not support a return to selective schooling.",
+  "exvi": "Bằng chứng hoàn toàn không ủng hộ việc quay lại hệ thống trường tuyển chọn.",
+  "col": [
+   "emphatically reject",
+   "emphatically not",
+   "emphatically deny"
+  ],
+  "fam": "emphatic (adj), emphasis (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "tentatively",
+  "ipa": "/ˈtentətɪvli/",
+  "pos": "adv",
+  "vi": "một cách thận trọng, dè dặt, tạm thời",
+  "ex": "The authors tentatively suggest that the effect may be stronger in younger children.",
+  "exvi": "Các tác giả dè dặt gợi ý rằng tác động có thể mạnh hơn ở trẻ nhỏ.",
+  "col": [
+   "tentatively suggest",
+   "tentatively conclude",
+   "tentatively agree"
+  ],
+  "fam": "tentative (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "with some reservations",
+  "ipa": "/wɪð sʌm ˌrezəˈveɪʃnz/",
+  "pos": "phr",
+  "vi": "với một số dè dặt",
+  "ex": "I support the proposal, albeit with some reservations about its funding.",
+  "exvi": "Tôi ủng hộ đề xuất này, dù còn một số dè dặt về nguồn tài chính.",
+  "col": [
+   "accept with some reservations",
+   "with some reservations about",
+   "endorse with some reservations"
+  ],
+  "fam": "reservation (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "lean towards",
+  "ipa": "/liːn təˈwɔːdz/",
+  "pos": "phr",
+  "vi": "nghiêng về (quan điểm)",
+  "ex": "On balance, I lean towards the view that regulation should be national rather than local.",
+  "exvi": "Cân nhắc tổng thể, tôi nghiêng về quan điểm rằng quy định nên ở cấp quốc gia thay vì địa phương.",
+  "col": [
+   "lean towards the view",
+   "lean towards caution",
+   "tend to lean towards"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "subscribe to",
+  "ipa": "/səbˈskraɪb tə/",
+  "pos": "phr",
+  "vi": "tán thành, đồng tình với (quan điểm)",
+  "ex": "Few economists now subscribe to the view that deficits never matter.",
+  "exvi": "Giờ ít nhà kinh tế còn tán thành quan điểm rằng thâm hụt không bao giờ quan trọng.",
+  "col": [
+   "subscribe to the view",
+   "subscribe to a theory",
+   "widely subscribed to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "espouse",
+  "ipa": "/ɪˈspaʊz/",
+  "pos": "v",
+  "vi": "ủng hộ, theo (một học thuyết, quan điểm)",
+  "ex": "The party espouses a form of market liberalism tempered by social protection.",
+  "exvi": "Đảng này theo đuổi một dạng chủ nghĩa tự do thị trường có kèm bảo trợ xã hội.",
+  "col": [
+   "espouse a view",
+   "espouse the cause of",
+   "espouse values"
+  ],
+  "fam": "espousal (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "challenge the notion",
+  "ipa": "/ˈtʃælɪndʒ ðə ˈnəʊʃn/",
+  "pos": "phr",
+  "vi": "thách thức quan niệm",
+  "ex": "This study challenges the notion that creativity declines with age.",
+  "exvi": "Nghiên cứu này thách thức quan niệm rằng khả năng sáng tạo giảm theo tuổi tác.",
+  "col": [
+   "challenge the notion that",
+   "directly challenge the notion",
+   "seriously challenge the notion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "take the view",
+  "ipa": "/teɪk ðə vjuː/",
+  "pos": "phr",
+  "vi": "giữ quan điểm, cho rằng",
+  "ex": "The court took the view that the contract had been breached.",
+  "exvi": "Tòa án cho rằng hợp đồng đã bị vi phạm.",
+  "col": [
+   "take the view that",
+   "take a different view",
+   "take a dim view of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "aver",
+  "ipa": "/əˈvɜː/",
+  "pos": "v",
+  "vi": "khẳng định chắc chắn (trang trọng)",
+  "ex": "Proponents aver that the scheme will pay for itself within a decade.",
+  "exvi": "Những người ủng hộ khẳng định chắc chắn rằng chương trình sẽ tự hoàn vốn trong vòng một thập kỷ.",
+  "col": [
+   "aver that",
+   "proponents aver",
+   "firmly aver"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "be inclined to",
+  "ipa": "/bi ɪnˈklaɪnd tə/",
+  "pos": "phr",
+  "vi": "có xu hướng, thiên về (nghĩ, làm)",
+  "ex": "I am inclined to agree with critics who see the tax as regressive.",
+  "exvi": "Tôi thiên về đồng ý với những người chỉ trích cho rằng loại thuế này lũy thoái.",
+  "col": [
+   "be inclined to agree",
+   "be inclined to think",
+   "less inclined to"
+  ],
+  "fam": "inclination (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "be sceptical of",
+  "ipa": "/bi ˈskeptɪkl əv/",
+  "pos": "phr",
+  "vi": "hoài nghi về",
+  "ex": "Many researchers remain sceptical of claims that brain-training games raise intelligence.",
+  "exvi": "Nhiều nhà nghiên cứu vẫn hoài nghi về tuyên bố rằng trò chơi luyện não làm tăng trí thông minh.",
+  "col": [
+   "deeply sceptical of",
+   "remain sceptical of",
+   "healthily sceptical"
+  ],
+  "fam": "scepticism (n), sceptic (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "certitude",
+  "ipa": "/ˈsɜːtɪtjuːd/",
+  "pos": "n",
+  "vi": "sự chắc chắn tuyệt đối",
+  "ex": "Scientific knowledge rarely offers the certitude that politicians demand.",
+  "exvi": "Tri thức khoa học hiếm khi đưa ra sự chắc chắn tuyệt đối mà các chính trị gia đòi hỏi.",
+  "col": [
+   "with certitude",
+   "moral certitude",
+   "a degree of certitude"
+  ],
+  "fam": "certain (adj), certainty (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "ambivalence",
+  "ipa": "/æmˈbɪvələns/",
+  "pos": "n",
+  "vi": "sự mâu thuẫn trong thái độ, phân vân",
+  "ex": "Public ambivalence towards nuclear power reflects both its benefits and its risks.",
+  "exvi": "Thái độ phân vân của công chúng với điện hạt nhân phản ánh cả lợi ích lẫn rủi ro của nó.",
+  "col": [
+   "deep ambivalence",
+   "ambivalence towards",
+   "a sense of ambivalence"
+  ],
+  "fam": "ambivalent (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "equivocal",
+  "ipa": "/ɪˈkwɪvəkl/",
+  "pos": "adj",
+  "vi": "nước đôi, không rõ ràng",
+  "ex": "The evidence on the benefits of vitamin supplements is at best equivocal.",
+  "exvi": "Bằng chứng về lợi ích của thực phẩm bổ sung vitamin, ở mức tốt nhất, vẫn còn nước đôi.",
+  "col": [
+   "equivocal evidence",
+   "equivocal results",
+   "at best equivocal"
+  ],
+  "fam": "equivocate (v), unequivocal (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "agnostic about",
+  "ipa": "/æɡˈnɒstɪk əˈbaʊt/",
+  "pos": "phr",
+  "vi": "trung lập, không đứng về phía nào (về một vấn đề)",
+  "ex": "The report remains agnostic about which technology will ultimately prevail.",
+  "exvi": "Báo cáo vẫn giữ thái độ trung lập về việc công nghệ nào cuối cùng sẽ chiếm ưu thế.",
+  "col": [
+   "remain agnostic about",
+   "largely agnostic about",
+   "agnostic about the outcome"
+  ],
+  "fam": "agnosticism (n)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "avowedly",
+  "ipa": "/əˈvaʊɪdli/",
+  "pos": "adv",
+  "vi": "công khai, tự nhận là",
+  "ex": "The think tank is avowedly free-market in its orientation.",
+  "exvi": "Viện nghiên cứu này công khai theo định hướng thị trường tự do.",
+  "col": [
+   "avowedly political",
+   "avowedly secular",
+   "avowedly neutral"
+  ],
+  "fam": "avow (v), avowed (adj)",
+  "em": "",
+  "topic": "Stance and certainty",
+  "lv": 5
+ },
+ {
+  "w": "conversely",
+  "ipa": "/ˈkɒnvɜːsli/",
+  "pos": "adv",
+  "vi": "ngược lại",
+  "ex": "Higher interest rates tend to strengthen a currency; conversely, rate cuts usually weaken it.",
+  "exvi": "Lãi suất cao hơn thường làm đồng tiền mạnh lên; ngược lại, cắt giảm lãi suất thường làm nó yếu đi.",
+  "col": [
+   "and conversely",
+   "conversely, a decline",
+   "conversely, those who"
+  ],
+  "fam": "converse (n, adj)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "by contrast",
+  "ipa": "/baɪ ˈkɒntrɑːst/",
+  "pos": "phr",
+  "vi": "trái lại, ngược lại (khi so sánh hai đối tượng)",
+  "ex": "Urban households spend a third of their income on rent; rural households, by contrast, spend less than a tenth.",
+  "exvi": "Hộ gia đình thành thị chi một phần ba thu nhập cho tiền thuê nhà; trái lại, hộ nông thôn chi chưa đến một phần mười.",
+  "col": [
+   "by contrast, the",
+   "in stark contrast",
+   "by marked contrast"
+  ],
+  "fam": "contrast (n, v)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "on the contrary",
+  "ipa": "/ɒn ðə ˈkɒntrəri/",
+  "pos": "phr",
+  "vi": "trái lại (bác bỏ ý vừa nêu)",
+  "ex": "The reforms did not reduce inequality; on the contrary, they widened the gap.",
+  "exvi": "Các cải cách không làm giảm bất bình đẳng; trái lại, chúng còn nới rộng khoảng cách.",
+  "col": [
+   "quite the contrary",
+   "on the contrary, it",
+   "evidence to the contrary"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "albeit",
+  "ipa": "/ɔːlˈbiːɪt/",
+  "pos": "conj",
+  "vi": "mặc dù (thường đi với cụm ngắn)",
+  "ex": "Wages have risen, albeit more slowly than prices.",
+  "exvi": "Tiền lương đã tăng, mặc dù chậm hơn giá cả.",
+  "col": [
+   "albeit slowly",
+   "albeit briefly",
+   "albeit on a smaller scale"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "inasmuch as",
+  "ipa": "/ˌɪnəzˈmʌtʃ əz/",
+  "pos": "phr",
+  "vi": "trong chừng mực mà, bởi vì",
+  "ex": "The policy succeeded inasmuch as it reduced waiting times, but at considerable cost.",
+  "exvi": "Chính sách thành công trong chừng mực nó giảm được thời gian chờ, nhưng phải trả giá đáng kể.",
+  "col": [
+   "inasmuch as it",
+   "only inasmuch as",
+   "inasmuch as they"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "given that",
+  "ipa": "/ˈɡɪvn ðæt/",
+  "pos": "phr",
+  "vi": "xét đến việc, vì rằng",
+  "ex": "Given that most emissions come from transport, urban planning has a crucial role to play.",
+  "exvi": "Xét đến việc phần lớn khí thải đến từ giao thông, quy hoạch đô thị có vai trò then chốt.",
+  "col": [
+   "given that most",
+   "particularly given that",
+   "given that the evidence"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in light of",
+  "ipa": "/ɪn laɪt əv/",
+  "pos": "phr",
+  "vi": "dựa trên, xét theo (thông tin mới)",
+  "ex": "In light of recent findings, the guidelines on salt intake are being revised.",
+  "exvi": "Dựa trên những phát hiện gần đây, các hướng dẫn về lượng muối tiêu thụ đang được sửa đổi.",
+  "col": [
+   "in light of recent evidence",
+   "in light of this",
+   "in the light of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in view of",
+  "ipa": "/ɪn vjuː əv/",
+  "pos": "phr",
+  "vi": "xét vì, do",
+  "ex": "In view of the rising costs, the project has been scaled back.",
+  "exvi": "Xét vì chi phí tăng cao, dự án đã bị thu hẹp quy mô.",
+  "col": [
+   "in view of the fact that",
+   "in view of this",
+   "in view of the risks"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "by virtue of",
+  "ipa": "/baɪ ˈvɜːtʃuː əv/",
+  "pos": "phr",
+  "vi": "nhờ vào, do (đặc điểm, địa vị)",
+  "ex": "By virtue of its location, the port became a hub for regional trade.",
+  "exvi": "Nhờ vào vị trí của mình, cảng trở thành trung tâm thương mại khu vực.",
+  "col": [
+   "by virtue of its size",
+   "by virtue of being",
+   "by virtue of the fact that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "owing to",
+  "ipa": "/ˈəʊɪŋ tə/",
+  "pos": "phr",
+  "vi": "do, bởi vì",
+  "ex": "Owing to a lack of reliable data, the analysis is limited to urban areas.",
+  "exvi": "Do thiếu dữ liệu đáng tin cậy, phân tích chỉ giới hạn ở khu vực thành thị.",
+  "col": [
+   "owing to a lack of",
+   "owing largely to",
+   "owing to the fact that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "accordingly",
+  "ipa": "/əˈkɔːdɪŋli/",
+  "pos": "adv",
+  "vi": "do đó; một cách tương ứng",
+  "ex": "Demand for skilled workers has risen, and wages have increased accordingly.",
+  "exvi": "Nhu cầu lao động có tay nghề đã tăng, và tiền lương tăng tương ứng.",
+  "col": [
+   "act accordingly",
+   "adjust accordingly",
+   "and accordingly"
+  ],
+  "fam": "according to (prep), accord (n)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "as such",
+  "ipa": "/əz sʌtʃ/",
+  "pos": "phr",
+  "vi": "vì vậy, với tư cách đó",
+  "ex": "The survey was voluntary and, as such, may over-represent motivated respondents.",
+  "exvi": "Khảo sát là tự nguyện và vì vậy có thể đại diện quá mức những người có động lực.",
+  "col": [
+   "and as such",
+   "as such, it",
+   "not as such"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in turn",
+  "ipa": "/ɪn tɜːn/",
+  "pos": "phr",
+  "vi": "đến lượt mình, kéo theo",
+  "ex": "Poor housing affects children's health, which in turn affects their school attendance.",
+  "exvi": "Nhà ở kém ảnh hưởng đến sức khỏe trẻ em, và đến lượt nó lại ảnh hưởng đến việc đi học.",
+  "col": [
+   "which in turn",
+   "in turn leads to",
+   "this, in turn,"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "to this end",
+  "ipa": "/tə ðɪs end/",
+  "pos": "phr",
+  "vi": "để đạt mục tiêu này",
+  "ex": "The city aims to halve car use by 2035; to this end, it is expanding its tram network.",
+  "exvi": "Thành phố đặt mục tiêu giảm một nửa việc dùng ô tô vào năm 2035; để đạt mục tiêu này, họ đang mở rộng mạng lưới tàu điện.",
+  "col": [
+   "to this end, the",
+   "to that end",
+   "working to this end"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in so doing",
+  "ipa": "/ɪn səʊ ˈduːɪŋ/",
+  "pos": "phr",
+  "vi": "khi làm như vậy",
+  "ex": "The bank cut interest rates and, in so doing, fuelled a housing boom.",
+  "exvi": "Ngân hàng cắt giảm lãi suất và khi làm như vậy đã thổi bùng cơn sốt nhà đất.",
+  "col": [
+   "and, in so doing,",
+   "in so doing, they",
+   "in so doing, it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "hitherto",
+  "ipa": "/ˌhɪðəˈtuː/",
+  "pos": "adv",
+  "vi": "cho đến nay, trước đây",
+  "ex": "The study draws on hitherto unpublished correspondence.",
+  "exvi": "Nghiên cứu dựa trên những thư từ trước đây chưa từng được công bố.",
+  "col": [
+   "hitherto unknown",
+   "hitherto unpublished",
+   "hitherto neglected"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "henceforth",
+  "ipa": "/ˌhensˈfɔːθ/",
+  "pos": "adv",
+  "vi": "từ nay trở đi; (trong bài viết) từ đây về sau",
+  "ex": "Low- and middle-income countries (henceforth LMICs) account for most of the growth.",
+  "exvi": "Các quốc gia thu nhập thấp và trung bình (từ đây gọi là LMICs) chiếm phần lớn mức tăng trưởng.",
+  "col": [
+   "henceforth referred to as",
+   "henceforth known as",
+   "and henceforth"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "wherein",
+  "ipa": "/weərˈɪn/",
+  "pos": "adv",
+  "vi": "trong đó (trang trọng)",
+  "ex": "The paper describes a scenario wherein automation displaces most clerical work.",
+  "exvi": "Bài báo mô tả một kịch bản trong đó tự động hóa thay thế phần lớn công việc văn phòng.",
+  "col": [
+   "a situation wherein",
+   "wherein lies",
+   "a scenario wherein"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in this respect",
+  "ipa": "/ɪn ðɪs rɪˈspekt/",
+  "pos": "phr",
+  "vi": "về mặt này",
+  "ex": "Finland is often cited as a model, and in this respect its teacher training is crucial.",
+  "exvi": "Phần Lan thường được dẫn làm hình mẫu, và về mặt này, việc đào tạo giáo viên của họ là then chốt.",
+  "col": [
+   "in this respect, the",
+   "in one respect",
+   "unique in this respect"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in this regard",
+  "ipa": "/ɪn ðɪs rɪˈɡɑːd/",
+  "pos": "phr",
+  "vi": "về vấn đề này",
+  "ex": "Some progress has been made in this regard, but much remains to be done.",
+  "exvi": "Đã có một số tiến bộ về vấn đề này, nhưng vẫn còn nhiều việc phải làm.",
+  "col": [
+   "in this regard, the",
+   "progress in this regard",
+   "lag behind in this regard"
+  ],
+  "fam": "regard (n, v), regarding (prep)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "with regard to",
+  "ipa": "/wɪð rɪˈɡɑːd tə/",
+  "pos": "phr",
+  "vi": "liên quan đến, về",
+  "ex": "With regard to funding, the report recommends a mixed public and private model.",
+  "exvi": "Về tài chính, báo cáo khuyến nghị mô hình kết hợp công và tư.",
+  "col": [
+   "with regard to funding",
+   "particularly with regard to",
+   "with regard to the issue of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "vis-a-vis",
+  "ipa": "/ˌviːz ɑː ˈviː/",
+  "pos": "prep",
+  "vi": "so với; đối với",
+  "ex": "The currency has weakened considerably vis-a-vis the dollar.",
+  "exvi": "Đồng tiền đã mất giá đáng kể so với đồng đô la.",
+  "col": [
+   "vis-a-vis the dollar",
+   "vis-a-vis its neighbours",
+   "position vis-a-vis"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "as regards",
+  "ipa": "/əz rɪˈɡɑːdz/",
+  "pos": "phr",
+  "vi": "về phần, xét về",
+  "ex": "As regards public opinion, support for the scheme has fallen sharply.",
+  "exvi": "Xét về dư luận, sự ủng hộ dành cho chương trình đã giảm mạnh.",
+  "col": [
+   "as regards the",
+   "as regards cost",
+   "as regards public opinion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "more to the point",
+  "ipa": "/mɔː tə ðə pɔɪnt/",
+  "pos": "phr",
+  "vi": "quan trọng hơn (ý liên quan hơn)",
+  "ex": "The scheme is expensive; more to the point, there is little evidence that it works.",
+  "exvi": "Chương trình này tốn kém; quan trọng hơn, có rất ít bằng chứng cho thấy nó hiệu quả.",
+  "col": [
+   "more to the point, the",
+   "and, more to the point,",
+   "but more to the point"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "not least",
+  "ipa": "/nɒt liːst/",
+  "pos": "phr",
+  "vi": "đặc biệt là, không kém phần",
+  "ex": "The reforms face several obstacles, not least the resistance of established interests.",
+  "exvi": "Các cải cách đối mặt nhiều trở ngại, đặc biệt là sự kháng cự của các nhóm lợi ích lâu đời.",
+  "col": [
+   "not least because",
+   "not least the",
+   "not least among"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "let alone",
+  "ipa": "/let əˈləʊn/",
+  "pos": "phr",
+  "vi": "huống chi, chứ đừng nói đến",
+  "ex": "Many families cannot afford basic childcare, let alone private tuition.",
+  "exvi": "Nhiều gia đình không đủ khả năng chi trả dịch vụ trông trẻ cơ bản, huống chi là học thêm tư nhân.",
+  "col": [
+   "let alone afford",
+   "let alone understand",
+   "let alone solve"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "still less",
+  "ipa": "/stɪl les/",
+  "pos": "phr",
+  "vi": "càng không, lại càng không",
+  "ex": "The data do not prove a link, still less a causal one.",
+  "exvi": "Dữ liệu không chứng minh được mối liên hệ, lại càng không chứng minh được quan hệ nhân quả.",
+  "col": [
+   "still less a",
+   "and still less",
+   "still less likely"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "to say nothing of",
+  "ipa": "/tə seɪ ˈnʌθɪŋ əv/",
+  "pos": "phr",
+  "vi": "chưa kể đến",
+  "ex": "The new airport would destroy wetlands, to say nothing of the noise it would bring.",
+  "exvi": "Sân bay mới sẽ phá hủy vùng đất ngập nước, chưa kể đến tiếng ồn mà nó mang lại.",
+  "col": [
+   "to say nothing of the cost",
+   "to say nothing of the impact",
+   "to say nothing of the fact that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "that is to say",
+  "ipa": "/ðæt ɪz tə seɪ/",
+  "pos": "phr",
+  "vi": "nghĩa là, tức là",
+  "ex": "The policy is regressive; that is to say, it takes a larger share from poorer households.",
+  "exvi": "Chính sách này lũy thoái, nghĩa là nó lấy đi tỉ lệ lớn hơn từ các hộ nghèo hơn.",
+  "col": [
+   "that is to say, the",
+   "or, that is to say,",
+   "that is to say that"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "to wit",
+  "ipa": "/tə wɪt/",
+  "pos": "phr",
+  "vi": "cụ thể là (rất trang trọng)",
+  "ex": "The report identifies the main obstacle, to wit, a shortage of qualified teachers.",
+  "exvi": "Báo cáo chỉ ra trở ngại chính, cụ thể là sự thiếu hụt giáo viên có trình độ.",
+  "col": [
+   "to wit, the",
+   "to wit: the",
+   "namely, to wit"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "chiefly",
+  "ipa": "/ˈtʃiːfli/",
+  "pos": "adv",
+  "vi": "chủ yếu",
+  "ex": "The decline in fish stocks is chiefly attributable to overfishing.",
+  "exvi": "Sự suy giảm trữ lượng cá chủ yếu là do đánh bắt quá mức.",
+  "col": [
+   "chiefly because",
+   "chiefly responsible",
+   "chiefly concerned with"
+  ],
+  "fam": "chief (adj)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "principally",
+  "ipa": "/ˈprɪnsəpli/",
+  "pos": "adv",
+  "vi": "chủ yếu, phần lớn",
+  "ex": "The programme is funded principally through local taxation.",
+  "exvi": "Chương trình được tài trợ chủ yếu thông qua thuế địa phương.",
+  "col": [
+   "principally because",
+   "principally concerned with",
+   "principally responsible"
+  ],
+  "fam": "principal (adj)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in essence",
+  "ipa": "/ɪn ˈesns/",
+  "pos": "phr",
+  "vi": "về bản chất",
+  "ex": "In essence, the debate is about who should bear the cost of adaptation.",
+  "exvi": "Về bản chất, cuộc tranh luận là về việc ai sẽ chịu chi phí thích ứng.",
+  "col": [
+   "in essence, the",
+   "is, in essence,",
+   "in essence, this means"
+  ],
+  "fam": "essential (adj), essentially (adv)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "all told",
+  "ipa": "/ɔːl təʊld/",
+  "pos": "phr",
+  "vi": "tính tổng cộng; nhìn chung",
+  "ex": "All told, the reforms have done more good than harm.",
+  "exvi": "Nhìn chung, các cải cách đã mang lại nhiều lợi hơn hại.",
+  "col": [
+   "all told, the",
+   "cost, all told,",
+   "all told, about"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in the same vein",
+  "ipa": "/ɪn ðə seɪm veɪn/",
+  "pos": "phr",
+  "vi": "cùng tinh thần đó, tương tự",
+  "ex": "In the same vein, critics argue that standardised tests narrow the curriculum.",
+  "exvi": "Cùng tinh thần đó, các nhà phê bình lập luận rằng các bài thi chuẩn hóa thu hẹp chương trình học.",
+  "col": [
+   "in the same vein, the",
+   "continue in the same vein",
+   "written in the same vein"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "along the same lines",
+  "ipa": "/əˈlɒŋ ðə seɪm laɪnz/",
+  "pos": "phr",
+  "vi": "theo hướng tương tự",
+  "ex": "Other cities have introduced schemes along the same lines, with mixed results.",
+  "exvi": "Các thành phố khác đã đưa ra những chương trình theo hướng tương tự, với kết quả không đồng đều.",
+  "col": [
+   "along the same lines as",
+   "think along the same lines",
+   "something along the same lines"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "that being said",
+  "ipa": "/ðæt ˈbiːɪŋ sed/",
+  "pos": "phr",
+  "vi": "dù vậy, nói thế nhưng",
+  "ex": "The results are encouraging. That being said, they are based on a single region.",
+  "exvi": "Kết quả rất đáng khích lệ. Dù vậy, chúng chỉ dựa trên một khu vực duy nhất.",
+  "col": [
+   "that being said, the",
+   "that being said, it",
+   "that being said, there"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "be that as it may",
+  "ipa": "/bi ðæt əz ɪt meɪ/",
+  "pos": "phr",
+  "vi": "dù sao đi nữa, dẫu vậy",
+  "ex": "The tax may be unpopular; be that as it may, it is fiscally necessary.",
+  "exvi": "Loại thuế này có thể không được lòng dân; dẫu vậy, nó cần thiết về mặt tài khóa.",
+  "col": [
+   "be that as it may, the",
+   "be that as it may, it",
+   "but be that as it may"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "provided that",
+  "ipa": "/prəˈvaɪdɪd ðæt/",
+  "pos": "conj",
+  "vi": "miễn là, với điều kiện là",
+  "ex": "Remote work can raise productivity, provided that clear goals are set.",
+  "exvi": "Làm việc từ xa có thể tăng năng suất, miễn là có mục tiêu rõ ràng.",
+  "col": [
+   "provided that the",
+   "only provided that",
+   "provided that it"
+  ],
+  "fam": "providing (conj)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in the event that",
+  "ipa": "/ɪn ði ɪˈvent ðæt/",
+  "pos": "phr",
+  "vi": "trong trường hợp",
+  "ex": "In the event that the targets are missed, funding will be reviewed.",
+  "exvi": "Trong trường hợp không đạt mục tiêu, nguồn tài trợ sẽ được xem xét lại.",
+  "col": [
+   "in the event that the",
+   "in the unlikely event that",
+   "in the event of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "lest",
+  "ipa": "/lest/",
+  "pos": "conj",
+  "vi": "kẻo, để khỏi (trang trọng)",
+  "ex": "Regulators must act cautiously lest they stifle innovation.",
+  "exvi": "Các nhà quản lý phải hành động thận trọng kẻo kìm hãm đổi mới.",
+  "col": [
+   "lest we forget",
+   "lest they",
+   "lest it be"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "with a view to",
+  "ipa": "/wɪð ə vjuː tə/",
+  "pos": "phr",
+  "vi": "nhằm mục đích",
+  "ex": "The data are being collected with a view to designing more targeted interventions.",
+  "exvi": "Dữ liệu đang được thu thập nhằm thiết kế các biện pháp can thiệp có mục tiêu hơn.",
+  "col": [
+   "with a view to improving",
+   "with a view to reducing",
+   "with a view to establishing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "save for",
+  "ipa": "/seɪv fɔː/",
+  "pos": "prep",
+  "vi": "ngoại trừ",
+  "ex": "Save for a brief recovery in 2015, sales have declined steadily.",
+  "exvi": "Ngoại trừ đợt phục hồi ngắn năm 2015, doanh số đã giảm đều.",
+  "col": [
+   "save for a few",
+   "save for the fact that",
+   "save for minor changes"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "barring",
+  "ipa": "/ˈbɑːrɪŋ/",
+  "pos": "prep",
+  "vi": "trừ khi có, nếu không có",
+  "ex": "Barring a major policy shift, emissions will continue to rise.",
+  "exvi": "Trừ khi có một thay đổi chính sách lớn, khí thải sẽ tiếp tục tăng.",
+  "col": [
+   "barring accidents",
+   "barring a major change",
+   "barring any delays"
+  ],
+  "fam": "bar (v)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "irrespective of",
+  "ipa": "/ˌɪrɪˈspektɪv əv/",
+  "pos": "phr",
+  "vi": "bất kể, không phụ thuộc vào",
+  "ex": "Every child should have access to quality education, irrespective of background.",
+  "exvi": "Mọi trẻ em nên được tiếp cận giáo dục chất lượng, bất kể xuất thân.",
+  "col": [
+   "irrespective of background",
+   "irrespective of cost",
+   "irrespective of whether"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "contrary to",
+  "ipa": "/ˈkɒntrəri tə/",
+  "pos": "prep",
+  "vi": "trái với",
+  "ex": "Contrary to popular belief, most plastic waste is not recycled.",
+  "exvi": "Trái với niềm tin phổ biến, phần lớn rác thải nhựa không được tái chế.",
+  "col": [
+   "contrary to popular belief",
+   "contrary to expectations",
+   "run contrary to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "as opposed to",
+  "ipa": "/əz əˈpəʊzd tə/",
+  "pos": "phr",
+  "vi": "trái với, thay vì (để đối lập)",
+  "ex": "The focus should be on prevention, as opposed to treatment.",
+  "exvi": "Trọng tâm nên là phòng ngừa, thay vì điều trị.",
+  "col": [
+   "as opposed to merely",
+   "as opposed to the",
+   "as opposed to simply"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in lieu of",
+  "ipa": "/ɪn ljuː əv/",
+  "pos": "phr",
+  "vi": "thay cho",
+  "ex": "Some employers offer additional leave in lieu of a pay rise.",
+  "exvi": "Một số nhà tuyển dụng cho thêm ngày nghỉ thay cho việc tăng lương.",
+  "col": [
+   "in lieu of payment",
+   "in lieu of notice",
+   "time off in lieu"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "in the first instance",
+  "ipa": "/ɪn ðə fɜːst ˈɪnstəns/",
+  "pos": "phr",
+  "vi": "trước tiên, ban đầu",
+  "ex": "Complaints should be addressed to the local authority in the first instance.",
+  "exvi": "Khiếu nại trước tiên nên được gửi đến chính quyền địa phương.",
+  "col": [
+   "in the first instance, the",
+   "refer in the first instance",
+   "at least in the first instance"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "correspondingly",
+  "ipa": "/ˌkɒrɪˈspɒndɪŋli/",
+  "pos": "adv",
+  "vi": "tương ứng",
+  "ex": "As the population ages, healthcare spending rises correspondingly.",
+  "exvi": "Khi dân số già đi, chi tiêu y tế tăng tương ứng.",
+  "col": [
+   "correspondingly higher",
+   "correspondingly lower",
+   "rise correspondingly"
+  ],
+  "fam": "correspond (v), corresponding (adj)",
+  "em": "",
+  "topic": "Linking in formal writing",
+  "lv": 5
+ },
+ {
+  "w": "to a lesser extent",
+  "ipa": "/tu ə ˈlesə ɪkˈstent/",
+  "pos": "phr",
+  "vi": "ở mức độ thấp hơn",
+  "ex": "The decline affected manufacturing and, to a lesser extent, retail.",
+  "exvi": "Sự suy giảm ảnh hưởng đến sản xuất và, ở mức độ thấp hơn, đến bán lẻ.",
+  "col": [
+   "and, to a lesser extent,",
+   "only to a lesser extent",
+   "to a lesser extent than"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "to a large extent",
+  "ipa": "/tu ə lɑːdʒ ɪkˈstent/",
+  "pos": "phr",
+  "vi": "ở mức độ lớn, phần lớn",
+  "ex": "Educational outcomes are determined to a large extent by family income.",
+  "exvi": "Kết quả học tập phần lớn được quyết định bởi thu nhập gia đình.",
+  "col": [
+   "to a large extent determined",
+   "depend to a large extent on",
+   "to a large extent, the"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "to varying degrees",
+  "ipa": "/tə ˈveəriɪŋ dɪˈɡriːz/",
+  "pos": "phr",
+  "vi": "ở những mức độ khác nhau",
+  "ex": "All the regions studied were affected, albeit to varying degrees.",
+  "exvi": "Tất cả các vùng được nghiên cứu đều bị ảnh hưởng, dù ở những mức độ khác nhau.",
+  "col": [
+   "to varying degrees of success",
+   "affected to varying degrees",
+   "succeed to varying degrees"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in large part",
+  "ipa": "/ɪn lɑːdʒ pɑːt/",
+  "pos": "phr",
+  "vi": "phần lớn là do",
+  "ex": "The recovery was driven in large part by consumer spending.",
+  "exvi": "Sự phục hồi phần lớn là nhờ chi tiêu tiêu dùng.",
+  "col": [
+   "due in large part to",
+   "in large part because",
+   "explained in large part by"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in no small part",
+  "ipa": "/ɪn nəʊ smɔːl pɑːt/",
+  "pos": "phr",
+  "vi": "phần không nhỏ là nhờ/do",
+  "ex": "The scheme's success is due in no small part to strong community involvement.",
+  "exvi": "Thành công của chương trình phần không nhỏ là nhờ sự tham gia mạnh mẽ của cộng đồng.",
+  "col": [
+   "due in no small part to",
+   "in no small part because",
+   "thanks in no small part to"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "for the most part",
+  "ipa": "/fə ðə məʊst pɑːt/",
+  "pos": "phr",
+  "vi": "phần lớn, nhìn chung",
+  "ex": "For the most part, respondents were satisfied with the service.",
+  "exvi": "Nhìn chung, người trả lời hài lòng với dịch vụ.",
+  "col": [
+   "for the most part, the",
+   "remain, for the most part,",
+   "for the most part unaffected"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "overwhelmingly",
+  "ipa": "/ˌəʊvəˈwelmɪŋli/",
+  "pos": "adv",
+  "vi": "áp đảo, tuyệt đại đa số",
+  "ex": "Respondents were overwhelmingly in favour of stricter regulation.",
+  "exvi": "Người trả lời áp đảo ủng hộ quy định chặt chẽ hơn.",
+  "col": [
+   "overwhelmingly positive",
+   "overwhelmingly in favour",
+   "vote overwhelmingly"
+  ],
+  "fam": "overwhelming (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "disproportionately",
+  "ipa": "/ˌdɪsprəˈpɔːʃənətli/",
+  "pos": "adv",
+  "vi": "một cách không cân xứng, nhiều hơn mức tương ứng",
+  "ex": "Rising energy costs fall disproportionately on low-income households.",
+  "exvi": "Chi phí năng lượng tăng đổ dồn một cách không cân xứng lên các hộ thu nhập thấp.",
+  "col": [
+   "disproportionately affect",
+   "disproportionately high",
+   "fall disproportionately on"
+  ],
+  "fam": "disproportionate (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "inordinately",
+  "ipa": "/ɪnˈɔːdɪnətli/",
+  "pos": "adv",
+  "vi": "quá mức, quá đáng",
+  "ex": "The project consumed an inordinately large share of the budget.",
+  "exvi": "Dự án tiêu tốn một phần ngân sách lớn quá mức.",
+  "col": [
+   "inordinately large",
+   "inordinately long",
+   "inordinately expensive"
+  ],
+  "fam": "inordinate (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "markedly",
+  "ipa": "/ˈmɑːkɪdli/",
+  "pos": "adv",
+  "vi": "rõ rệt",
+  "ex": "Literacy rates have improved markedly over the past two decades.",
+  "exvi": "Tỉ lệ biết chữ đã cải thiện rõ rệt trong hai thập kỷ qua.",
+  "col": [
+   "markedly different",
+   "improve markedly",
+   "markedly higher"
+  ],
+  "fam": "marked (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "fractionally",
+  "ipa": "/ˈfrækʃənəli/",
+  "pos": "adv",
+  "vi": "rất ít, chút xíu",
+  "ex": "Turnout was fractionally higher than at the previous election.",
+  "exvi": "Tỉ lệ đi bầu cao hơn chút xíu so với cuộc bầu cử trước.",
+  "col": [
+   "fractionally higher",
+   "fractionally lower",
+   "rise fractionally"
+  ],
+  "fam": "fraction (n), fractional (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "negligibly",
+  "ipa": "/ˈneɡlɪdʒəbli/",
+  "pos": "adv",
+  "vi": "không đáng kể",
+  "ex": "Emissions from the sector have changed only negligibly since 2010.",
+  "exvi": "Lượng phát thải từ ngành này chỉ thay đổi không đáng kể kể từ năm 2010.",
+  "col": [
+   "only negligibly",
+   "differ negligibly",
+   "negligibly small"
+  ],
+  "fam": "negligible (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "nominally",
+  "ipa": "/ˈnɒmɪnəli/",
+  "pos": "adv",
+  "vi": "trên danh nghĩa",
+  "ex": "The agency is nominally independent but relies entirely on government funding.",
+  "exvi": "Cơ quan này độc lập trên danh nghĩa nhưng phụ thuộc hoàn toàn vào ngân sách chính phủ.",
+  "col": [
+   "nominally independent",
+   "nominally in charge",
+   "nominally free"
+  ],
+  "fam": "nominal (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "all but",
+  "ipa": "/ɔːl bʌt/",
+  "pos": "phr",
+  "vi": "gần như hoàn toàn",
+  "ex": "Traditional crafts have all but disappeared from the region.",
+  "exvi": "Các nghề thủ công truyền thống gần như đã biến mất hoàn toàn khỏi vùng.",
+  "col": [
+   "all but disappeared",
+   "all but impossible",
+   "all but certain"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "the lion's share",
+  "ipa": "/ðə ˈlaɪənz ʃeə/",
+  "pos": "phr",
+  "vi": "phần lớn nhất, phần hơn",
+  "ex": "The lion's share of research funding goes to a handful of elite universities.",
+  "exvi": "Phần lớn nhất của kinh phí nghiên cứu được chuyển đến một số ít trường đại học hàng đầu.",
+  "col": [
+   "the lion's share of",
+   "take the lion's share",
+   "receive the lion's share"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "the bulk of",
+  "ipa": "/ðə bʌlk əv/",
+  "pos": "phr",
+  "vi": "phần lớn của",
+  "ex": "The bulk of the evidence points to a genetic component.",
+  "exvi": "Phần lớn bằng chứng chỉ ra một yếu tố di truyền.",
+  "col": [
+   "the bulk of the evidence",
+   "the bulk of the population",
+   "the bulk of spending"
+  ],
+  "fam": "bulk (n)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a smattering of",
+  "ipa": "/ə ˈsmætərɪŋ əv/",
+  "pos": "phr",
+  "vi": "một chút, một ít (kiến thức, số lượng)",
+  "ex": "Most tourists have only a smattering of the local language.",
+  "exvi": "Hầu hết khách du lịch chỉ biết một chút ngôn ngữ địa phương.",
+  "col": [
+   "a smattering of knowledge",
+   "a smattering of French",
+   "a smattering of support"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a sliver of",
+  "ipa": "/ə ˈslɪvər əv/",
+  "pos": "phr",
+  "vi": "một phần rất nhỏ",
+  "ex": "Only a sliver of the population benefits from the tax break.",
+  "exvi": "Chỉ một phần rất nhỏ dân số được hưởng lợi từ ưu đãi thuế.",
+  "col": [
+   "a sliver of hope",
+   "a thin sliver of",
+   "only a sliver of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a significant proportion of",
+  "ipa": "/ə sɪɡˈnɪfɪkənt prəˈpɔːʃn əv/",
+  "pos": "phr",
+  "vi": "một tỉ lệ đáng kể",
+  "ex": "A significant proportion of graduates work in jobs that do not require a degree.",
+  "exvi": "Một tỉ lệ đáng kể sinh viên tốt nghiệp làm những công việc không đòi hỏi bằng đại học.",
+  "col": [
+   "a significant proportion of the population",
+   "account for a significant proportion of",
+   "a significant proportion of income"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "an order of magnitude",
+  "ipa": "/ən ˈɔːdər əv ˈmæɡnɪtjuːd/",
+  "pos": "phr",
+  "vi": "gấp khoảng mười lần (một bậc độ lớn)",
+  "ex": "The new battery stores an order of magnitude more energy than its predecessor.",
+  "exvi": "Pin mới lưu trữ năng lượng gấp khoảng mười lần thế hệ trước.",
+  "col": [
+   "an order of magnitude larger",
+   "an order of magnitude more",
+   "orders of magnitude"
+  ],
+  "fam": "magnitude (n)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in the order of",
+  "ipa": "/ɪn ði ˈɔːdər əv/",
+  "pos": "phr",
+  "vi": "vào khoảng, cỡ chừng",
+  "ex": "The total cost is estimated to be in the order of two billion pounds.",
+  "exvi": "Tổng chi phí ước tính vào khoảng hai tỉ bảng.",
+  "col": [
+   "in the order of millions",
+   "something in the order of",
+   "in the order of 10 per cent"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in the region of",
+  "ipa": "/ɪn ðə ˈriːdʒən əv/",
+  "pos": "phr",
+  "vi": "xấp xỉ, khoảng",
+  "ex": "Unemployment among young people remains in the region of 20 per cent.",
+  "exvi": "Tỉ lệ thất nghiệp ở người trẻ vẫn ở khoảng 20 phần trăm.",
+  "col": [
+   "in the region of 20 per cent",
+   "somewhere in the region of",
+   "a figure in the region of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "upwards of",
+  "ipa": "/ˈʌpwədz əv/",
+  "pos": "phr",
+  "vi": "hơn, trên (một con số)",
+  "ex": "Upwards of a million people were displaced by the floods.",
+  "exvi": "Hơn một triệu người đã phải di dời do lũ lụt.",
+  "col": [
+   "upwards of a million",
+   "upwards of 50 per cent",
+   "cost upwards of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in excess of",
+  "ipa": "/ɪn ɪkˈses əv/",
+  "pos": "phr",
+  "vi": "vượt quá, hơn",
+  "ex": "Temperatures in excess of 40 degrees are now common in the region each summer.",
+  "exvi": "Nhiệt độ vượt quá 40 độ giờ đây là chuyện thường gặp ở khu vực mỗi mùa hè.",
+  "col": [
+   "in excess of",
+   "well in excess of",
+   "sums in excess of"
+  ],
+  "fam": "excessive (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "no fewer than",
+  "ipa": "/nəʊ ˈfjuːə ðæn/",
+  "pos": "phr",
+  "vi": "không dưới (nhấn mạnh số lượng lớn)",
+  "ex": "No fewer than twelve studies have replicated the original finding.",
+  "exvi": "Không dưới mười hai nghiên cứu đã tái lập được phát hiện ban đầu.",
+  "col": [
+   "no fewer than ten",
+   "no fewer than half",
+   "in no fewer than"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "at the very least",
+  "ipa": "/ət ðə ˈveri liːst/",
+  "pos": "phr",
+  "vi": "ít nhất thì, tối thiểu",
+  "ex": "At the very least, the findings justify a larger trial.",
+  "exvi": "Ít nhất thì các phát hiện cũng đủ để biện minh cho một thử nghiệm lớn hơn.",
+  "col": [
+   "at the very least, the",
+   "should at the very least",
+   "at the very least, it"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "per capita",
+  "ipa": "/pə ˈkæpɪtə/",
+  "pos": "phr",
+  "vi": "bình quân đầu người",
+  "ex": "Per capita emissions in wealthy nations are many times higher than in poorer ones.",
+  "exvi": "Lượng phát thải bình quân đầu người ở các nước giàu cao gấp nhiều lần ở các nước nghèo.",
+  "col": [
+   "per capita income",
+   "GDP per capita",
+   "per capita consumption"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in aggregate",
+  "ipa": "/ɪn ˈæɡrɪɡət/",
+  "pos": "phr",
+  "vi": "tính gộp, xét tổng thể",
+  "ex": "Small changes in individual behaviour can, in aggregate, have a large effect.",
+  "exvi": "Những thay đổi nhỏ trong hành vi cá nhân, tính gộp lại, có thể tạo tác động lớn.",
+  "col": [
+   "in aggregate terms",
+   "considered in aggregate",
+   "in aggregate, the"
+  ],
+  "fam": "aggregate (n, adj, v)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "cumulatively",
+  "ipa": "/ˈkjuːmjələtɪvli/",
+  "pos": "adv",
+  "vi": "tích lũy, cộng dồn",
+  "ex": "Each policy was modest, but cumulatively they transformed the labour market.",
+  "exvi": "Mỗi chính sách đều khiêm tốn, nhưng cộng dồn lại chúng đã thay đổi thị trường lao động.",
+  "col": [
+   "cumulatively significant",
+   "cumulatively, the",
+   "add up cumulatively"
+  ],
+  "fam": "cumulative (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in absolute terms",
+  "ipa": "/ɪn ˈæbsəluːt tɜːmz/",
+  "pos": "phr",
+  "vi": "xét về số tuyệt đối",
+  "ex": "Spending rose in absolute terms but fell as a share of GDP.",
+  "exvi": "Chi tiêu tăng xét về số tuyệt đối nhưng giảm tính theo tỉ lệ GDP.",
+  "col": [
+   "in absolute terms, the",
+   "rise in absolute terms",
+   "both in absolute and relative terms"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "in relative terms",
+  "ipa": "/ɪn ˈrelətɪv tɜːmz/",
+  "pos": "phr",
+  "vi": "xét về số tương đối",
+  "ex": "In relative terms, the poorest households suffered the largest losses.",
+  "exvi": "Xét về số tương đối, các hộ nghèo nhất chịu tổn thất lớn nhất.",
+  "col": [
+   "in relative terms, the",
+   "decline in relative terms",
+   "in real and relative terms"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "proportionately",
+  "ipa": "/prəˈpɔːʃənətli/",
+  "pos": "adv",
+  "vi": "một cách tương xứng, theo tỉ lệ",
+  "ex": "Funding has not increased proportionately with student numbers.",
+  "exvi": "Kinh phí không tăng tương xứng với số lượng sinh viên.",
+  "col": [
+   "increase proportionately",
+   "proportionately more",
+   "proportionately fewer"
+  ],
+  "fam": "proportionate (adj), proportion (n)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "commensurate with",
+  "ipa": "/kəˈmenʃərət wɪð/",
+  "pos": "phr",
+  "vi": "tương xứng với",
+  "ex": "Salaries in the care sector are not commensurate with the demands of the work.",
+  "exvi": "Lương trong ngành chăm sóc không tương xứng với yêu cầu của công việc.",
+  "col": [
+   "commensurate with experience",
+   "commensurate with the risk",
+   "not commensurate with"
+  ],
+  "fam": "commensurately (adv)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "on a par with",
+  "ipa": "/ɒn ə pɑː wɪð/",
+  "pos": "phr",
+  "vi": "ngang bằng với",
+  "ex": "Productivity in the sector is now on a par with that of its European competitors.",
+  "exvi": "Năng suất của ngành giờ đã ngang bằng với các đối thủ châu Âu.",
+  "col": [
+   "on a par with",
+   "roughly on a par with",
+   "be put on a par with"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "tantamount to",
+  "ipa": "/ˈtæntəmaʊnt tə/",
+  "pos": "phr",
+  "vi": "tương đương với, chẳng khác gì (thường tiêu cực)",
+  "ex": "Cutting the subsidy now would be tantamount to abandoning rural communities.",
+  "exvi": "Cắt trợ cấp lúc này chẳng khác gì bỏ rơi cộng đồng nông thôn.",
+  "col": [
+   "tantamount to an admission",
+   "be tantamount to",
+   "tantamount to censorship"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "akin to",
+  "ipa": "/əˈkɪn tə/",
+  "pos": "phr",
+  "vi": "giống với, tương tự",
+  "ex": "The rapid spread of misinformation is akin to an epidemic.",
+  "exvi": "Sự lan truyền nhanh của thông tin sai lệch giống như một dịch bệnh.",
+  "col": [
+   "something akin to",
+   "closely akin to",
+   "akin to a"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "verging on",
+  "ipa": "/ˈvɜːdʒɪŋ ɒn/",
+  "pos": "phr",
+  "vi": "gần như, sát với (mức độ cực đoan)",
+  "ex": "Some of the claims made for the technology are verging on the fanciful.",
+  "exvi": "Một số tuyên bố về công nghệ này gần như là hoang đường.",
+  "col": [
+   "verging on the absurd",
+   "verging on obsession",
+   "verging on panic"
+  ],
+  "fam": "verge (n)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "bordering on",
+  "ipa": "/ˈbɔːdərɪŋ ɒn/",
+  "pos": "phr",
+  "vi": "gần như là, giáp ranh với",
+  "ex": "The government's optimism about the timetable is bordering on the reckless.",
+  "exvi": "Sự lạc quan của chính phủ về tiến độ gần như là liều lĩnh.",
+  "col": [
+   "bordering on the absurd",
+   "bordering on negligence",
+   "bordering on contempt"
+  ],
+  "fam": "border (n)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a modicum of",
+  "ipa": "/ə ˈmɒdɪkəm əv/",
+  "pos": "phr",
+  "vi": "một chút, một lượng nhỏ (thường là điều tốt)",
+  "ex": "With a modicum of planning, most of these delays could have been avoided.",
+  "exvi": "Chỉ cần một chút kế hoạch, phần lớn những sự chậm trễ này đã có thể tránh được.",
+  "col": [
+   "a modicum of success",
+   "a modicum of respect",
+   "a modicum of truth"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a dearth of",
+  "ipa": "/ə dɜːθ əv/",
+  "pos": "phr",
+  "vi": "sự khan hiếm, thiếu hụt",
+  "ex": "There is a dearth of reliable data on informal employment.",
+  "exvi": "Có sự khan hiếm dữ liệu đáng tin cậy về lao động phi chính thức.",
+  "col": [
+   "a dearth of evidence",
+   "a dearth of research",
+   "a dearth of qualified staff"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a paucity of",
+  "ipa": "/ə ˈpɔːsəti əv/",
+  "pos": "phr",
+  "vi": "sự ít ỏi, thiếu thốn (trang trọng)",
+  "ex": "The paucity of longitudinal studies makes it hard to assess long-term effects.",
+  "exvi": "Sự ít ỏi của các nghiên cứu theo dõi dài hạn khiến khó đánh giá tác động lâu dài.",
+  "col": [
+   "a paucity of evidence",
+   "a paucity of data",
+   "a relative paucity of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a surfeit of",
+  "ipa": "/ə ˈsɜːfɪt əv/",
+  "pos": "phr",
+  "vi": "sự dư thừa, quá nhiều",
+  "ex": "The problem is not a lack of information but a surfeit of it.",
+  "exvi": "Vấn đề không phải là thiếu thông tin mà là thừa thông tin.",
+  "col": [
+   "a surfeit of information",
+   "a surfeit of choice",
+   "suffer from a surfeit of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a glut of",
+  "ipa": "/ə ɡlʌt əv/",
+  "pos": "phr",
+  "vi": "sự dư thừa (cung vượt cầu)",
+  "ex": "A global glut of oil drove prices to their lowest level in decades.",
+  "exvi": "Tình trạng dư thừa dầu toàn cầu đẩy giá xuống mức thấp nhất trong nhiều thập kỷ.",
+  "col": [
+   "a glut of oil",
+   "a global glut",
+   "a glut of graduates"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a semblance of",
+  "ipa": "/ə ˈsembləns əv/",
+  "pos": "phr",
+  "vi": "một chút dáng vẻ, vẻ ngoài của",
+  "ex": "The ceasefire restored a semblance of normality to the region.",
+  "exvi": "Lệnh ngừng bắn đã khôi phục phần nào vẻ bình thường cho khu vực.",
+  "col": [
+   "a semblance of normality",
+   "a semblance of order",
+   "some semblance of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "a vestige of",
+  "ipa": "/ə ˈvestɪdʒ əv/",
+  "pos": "phr",
+  "vi": "dấu vết còn sót lại",
+  "ex": "The law is a vestige of an era when women could not own property.",
+  "exvi": "Đạo luật này là dấu vết còn sót lại của thời kỳ phụ nữ không được sở hữu tài sản.",
+  "col": [
+   "a vestige of the past",
+   "the last vestige of",
+   "without a vestige of"
+  ],
+  "fam": "vestigial (adj)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "scant",
+  "ipa": "/skænt/",
+  "pos": "adj",
+  "vi": "ít ỏi, không đủ",
+  "ex": "The proposal pays scant attention to the needs of rural areas.",
+  "exvi": "Đề xuất dành rất ít sự quan tâm cho nhu cầu của vùng nông thôn.",
+  "col": [
+   "scant attention",
+   "scant evidence",
+   "scant regard for"
+  ],
+  "fam": "scantly (adv)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "meagre",
+  "ipa": "/ˈmiːɡə/",
+  "pos": "adj",
+  "vi": "ít ỏi, nghèo nàn",
+  "ex": "Many pensioners struggle to survive on meagre state benefits.",
+  "exvi": "Nhiều người hưu trí chật vật sống bằng trợ cấp nhà nước ít ỏi.",
+  "col": [
+   "meagre resources",
+   "meagre income",
+   "meagre returns"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "ample",
+  "ipa": "/ˈæmpl/",
+  "pos": "adj",
+  "vi": "dồi dào, đủ dư",
+  "ex": "There is ample evidence that early childhood education yields long-term benefits.",
+  "exvi": "Có bằng chứng dồi dào cho thấy giáo dục mầm non mang lại lợi ích lâu dài.",
+  "col": [
+   "ample evidence",
+   "ample opportunity",
+   "ample time"
+  ],
+  "fam": "amply (adv)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "copious",
+  "ipa": "/ˈkəʊpiəs/",
+  "pos": "adj",
+  "vi": "rất nhiều, phong phú",
+  "ex": "The author draws on copious archival material to support her claims.",
+  "exvi": "Tác giả dựa vào rất nhiều tư liệu lưu trữ để hỗ trợ cho các luận điểm của mình.",
+  "col": [
+   "copious amounts",
+   "copious notes",
+   "copious evidence"
+  ],
+  "fam": "copiously (adv)",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ },
+ {
+  "w": "manifold",
+  "ipa": "/ˈmænɪfəʊld/",
+  "pos": "adj",
+  "vi": "nhiều và đa dạng",
+  "ex": "The benefits of urban green space are manifold, from cooler streets to better mental health.",
+  "exvi": "Lợi ích của không gian xanh đô thị rất đa dạng, từ đường phố mát hơn đến sức khỏe tinh thần tốt hơn.",
+  "col": [
+   "manifold benefits",
+   "manifold problems",
+   "the reasons are manifold"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Degree, quantity and approximation",
+  "lv": 5
+ }
+]
