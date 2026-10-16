@@ -14,6 +14,14 @@ const TS_v=dv=>/^\d+$/.test(dv)?+dv:dv;
 /* expert (band 8.5-9) pack: derived from data */
 const TS_XPILL='<span class="pill ts-xp">Chuyên gia 8.5-9</span>';
 const TS_bandHi=b=>{const m=String(b||'').match(/\d+(?:\.\d+)?/g);return m?+m[m.length-1]:0;};
+/* Band from a short section is only a rough guess: 10 or 13 questions cannot prove a band 9, and an easy part cannot either.
+   Full tests (36+ questions) use the official-style table. Shorter sections: table band, capped by how hard the content is
+   (normal content max 7.5, expert content max 8.5), and marked partial so full tests take priority in the learner's band. */
+function TS_secBand(skill,raw,total,{expert=false,type}={}){
+  const b=bandOf(skill,raw,total,type);
+  if(total>=36)return {band:b,partial:false};
+  return {band:Math.min(b,expert?8.5:7.5),partial:true};
+}
 const LS_isX=t=>+t>=7;
 const RD_isXP=p=>TS_bandHi(p.band)>=9;
 const RD_isXT=(R,type,t)=>R.some(p=>p.type===type&&p.test===t&&RD_isXP(p));
@@ -115,11 +123,11 @@ function TS_log(results){
     if(r.multi?r.c===2:r.ok){window.__mistOk&&window.__mistOk(x);}else window.__mistake&&window.__mistake('q',x);
   });
 }
-function TS_resHTML({raw,total,band,label,results,buttons=''}){
+function TS_resHTML({raw,total,band,label,results,buttons='',partial=false}){
   const p=raw/total, st=p>=.8?'yay':p>=.55?'ok':'hmm';
-  const msg=p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
+  const msg=p===1?'Đúng hết.'+(partial?' Thử cả đề 40 câu hoặc đề chuyên gia để đo band chính xác hơn.':''):p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
   return `<div class="panel ts-res"><div class="ts-res-top">${typeof mascot==='function'?mascot(st,80):''}
-    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div>${band>=8.5?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
+    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">${partial?"Band tham khảo":"Band ước tính"} <b class="num">${fmtBand(band)}</b></div>${partial?`<span class="small muted">Chỉ dựa trên ${total} câu, chưa phải band thật. Cần làm cả đề 40 câu.</span>`:""}${band>=8.5&&!partial?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
     <p class="note">${msg} Bấm vào số câu để xem lại.</p>
     <div class="ts-dots">${results.map(r=>`<button type="button" class="ts-dot ${r.ok?'ok':''}" data-go="${r.k}" aria-label="Câu ${r.n} ${r.ok?'đúng':'sai'}">${r.n}</button>`).join('')}</div>
     ${buttons?`<div class="row">${buttons}</div>`:''}</div>`;
@@ -253,18 +261,18 @@ function LS_run(el,o){
   function submit(){
     if(sub)return;sub=true;halt();chk&&chk.stop();
     results=secs.flatMap(s=>TS_mark(s,A));
-    const raw=results.filter(r=>r.ok).length, band=bandOf('listening',raw,total);
+    const raw=results.filter(r=>r.ok).length, sb=TS_secBand('listening',raw,total,{expert:parts[0].test>=7}), band=sb.band, partial=sb.partial;
     P.ls=P.ls||{};P.ls.best=P.ls.best||{};
     secs.forEach(s=>{const r=results.filter(x=>x.sec===s&&x.ok).length;P.ls.best[s.sid]=Math.max(P.ls.best[s.sid]??-1,r);});
     if(multi&&total>=40){P.ls.full=P.ls.full||{};P.ls.full[parts[0].test]=Math.max(P.ls.full[parts[0].test]??-1,raw);}
     TS_log(results);
     award('listen',total);if(total>=40&&!mock)award('test',1);
-    recordScore({skill:'listening',band,raw,total,id:multi?'lt'+parts[0].test:parts[0].id,title});
+    recordScore({skill:'listening',band,raw,total,partial,id:multi?'lt'+parts[0].test:parts[0].id,title});
     touch('main');
     $('#tsSub',el).hidden=true;$('#tsTm',el).hidden=true;$('#lsPlayer',el).hidden=true;cnt();
     const btns=onDone?`<button class="btn primary" id="lsNextSec">${esc(nextLabel||'Tiếp tục')} ${ic('chevron-right')}</button>`
       :`<button class="btn primary" id="lsAgain">${ic('rotate-ccw')}Làm lại</button><button class="btn" id="lsList">Về danh sách</button>`;
-    $('#lsRes',el).innerHTML=TS_resHTML({raw,total,band,label:title,results,buttons:btns});
+    $('#lsRes',el).innerHTML=TS_resHTML({raw,total,band,partial,label:title,results,buttons:btns});
     const nb=$('#lsNextSec',el);if(nb)nb.onclick=()=>{TS_clean();onDone(raw,total);};
     const ag=$('#lsAgain',el);if(ag)ag.onclick=()=>LS_run(el,o);
     const li=$('#lsList',el);if(li)li.onclick=()=>{TS_clean();onExit();};

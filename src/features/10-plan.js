@@ -67,7 +67,12 @@ function recordScore(o){
 window.__score=recordScore;
 function latestBands(){
   const out={listening:null,reading:null,writing:null,speaking:null,overall:null};
-  (P.scores||[]).forEach(s=>{if(s.skill in out&&s.band!=null)out[s.skill]=s.band;});
+  // listening/reading: a full 40-question test beats any short section; short sections only fill in when no full test exists
+  const full={};
+  (P.scores||[]).forEach(s=>{if(!(s.skill in out)||s.band==null)return;
+    const short=(s.skill==='listening'||s.skill==='reading')&&s.total&&s.total<36;
+    if(short){if(!full[s.skill])out[s.skill]=s.partial?s.band:Math.min(s.band,7.5);}
+    else{out[s.skill]=s.band;if(s.skill==='listening'||s.skill==='reading')full[s.skill]=1;}});
   if(out.overall==null&&P.placeBand)out.overall=P.placeBand;
   return out;
 }

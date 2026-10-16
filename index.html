@@ -831,6 +831,8 @@ mark{background:var(--orange-soft);color:inherit;border-radius:4px;padding:0 2px
 .ai-out{white-space:pre-wrap;background:var(--sunk);border-radius:12px;padding:12px 14px;font-size:15px;line-height:1.6}
 .timer-chip{display:inline-flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-weight:800;background:var(--sunk);border-radius:999px;padding:4px 12px}
 .timer-chip.low{background:var(--bad-soft);color:var(--bad)}
+.bm-ok{font-size:13px;font-weight:700;color:var(--ok);background:var(--ok-soft);border-radius:999px;padding:2px 10px}
+.band-mini .mini-l{font-size:13.5px}
 
 /* ===== Placement test (pc-) ===== */
 .pc-top{display:flex;flex-direction:column;gap:8px}
@@ -2341,7 +2343,12 @@ function recordScore(o){
 window.__score=recordScore;
 function latestBands(){
   const out={listening:null,reading:null,writing:null,speaking:null,overall:null};
-  (P.scores||[]).forEach(s=>{if(s.skill in out&&s.band!=null)out[s.skill]=s.band;});
+  // listening/reading: a full 40-question test beats any short section; short sections only fill in when no full test exists
+  const full={};
+  (P.scores||[]).forEach(s=>{if(!(s.skill in out)||s.band==null)return;
+    const short=(s.skill==='listening'||s.skill==='reading')&&s.total&&s.total<36;
+    if(short){if(!full[s.skill])out[s.skill]=s.partial?s.band:Math.min(s.band,7.5);}
+    else{out[s.skill]=s.band;if(s.skill==='listening'||s.skill==='reading')full[s.skill]=1;}});
   if(out.overall==null&&P.placeBand)out.overall=P.placeBand;
   return out;
 }
@@ -2723,6 +2730,14 @@ const TS_v=dv=>/^\d+$/.test(dv)?+dv:dv;
 /* expert (band 8.5-9) pack: derived from data */
 const TS_XPILL='<span class="pill ts-xp">Chuyên gia 8.5-9</span>';
 const TS_bandHi=b=>{const m=String(b||'').match(/\d+(?:\.\d+)?/g);return m?+m[m.length-1]:0;};
+/* Band from a short section is only a rough guess: 10 or 13 questions cannot prove a band 9, and an easy part cannot either.
+   Full tests (36+ questions) use the official-style table. Shorter sections: table band, capped by how hard the content is
+   (normal content max 7.5, expert content max 8.5), and marked partial so full tests take priority in the learner's band. */
+function TS_secBand(skill,raw,total,{expert=false,type}={}){
+  const b=bandOf(skill,raw,total,type);
+  if(total>=36)return {band:b,partial:false};
+  return {band:Math.min(b,expert?8.5:7.5),partial:true};
+}
 const LS_isX=t=>+t>=7;
 const RD_isXP=p=>TS_bandHi(p.band)>=9;
 const RD_isXT=(R,type,t)=>R.some(p=>p.type===type&&p.test===t&&RD_isXP(p));
@@ -2824,11 +2839,11 @@ function TS_log(results){
     if(r.multi?r.c===2:r.ok){window.__mistOk&&window.__mistOk(x);}else window.__mistake&&window.__mistake('q',x);
   });
 }
-function TS_resHTML({raw,total,band,label,results,buttons=''}){
+function TS_resHTML({raw,total,band,label,results,buttons='',partial=false}){
   const p=raw/total, st=p>=.8?'yay':p>=.55?'ok':'hmm';
-  const msg=p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
+  const msg=p===1?'Đúng hết.'+(partial?' Thử cả đề 40 câu hoặc đề chuyên gia để đo band chính xác hơn.':''):p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
   return `<div class="panel ts-res"><div class="ts-res-top">${typeof mascot==='function'?mascot(st,80):''}
-    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div>${band>=8.5?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
+    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">${partial?"Band tham khảo":"Band ước tính"} <b class="num">${fmtBand(band)}</b></div>${partial?`<span class="small muted">Chỉ dựa trên ${total} câu, chưa phải band thật. Cần làm cả đề 40 câu.</span>`:""}${band>=8.5&&!partial?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
     <p class="note">${msg} Bấm vào số câu để xem lại.</p>
     <div class="ts-dots">${results.map(r=>`<button type="button" class="ts-dot ${r.ok?'ok':''}" data-go="${r.k}" aria-label="Câu ${r.n} ${r.ok?'đúng':'sai'}">${r.n}</button>`).join('')}</div>
     ${buttons?`<div class="row">${buttons}</div>`:''}</div>`;
@@ -2962,18 +2977,18 @@ function LS_run(el,o){
   function submit(){
     if(sub)return;sub=true;halt();chk&&chk.stop();
     results=secs.flatMap(s=>TS_mark(s,A));
-    const raw=results.filter(r=>r.ok).length, band=bandOf('listening',raw,total);
+    const raw=results.filter(r=>r.ok).length, sb=TS_secBand('listening',raw,total,{expert:parts[0].test>=7}), band=sb.band, partial=sb.partial;
     P.ls=P.ls||{};P.ls.best=P.ls.best||{};
     secs.forEach(s=>{const r=results.filter(x=>x.sec===s&&x.ok).length;P.ls.best[s.sid]=Math.max(P.ls.best[s.sid]??-1,r);});
     if(multi&&total>=40){P.ls.full=P.ls.full||{};P.ls.full[parts[0].test]=Math.max(P.ls.full[parts[0].test]??-1,raw);}
     TS_log(results);
     award('listen',total);if(total>=40&&!mock)award('test',1);
-    recordScore({skill:'listening',band,raw,total,id:multi?'lt'+parts[0].test:parts[0].id,title});
+    recordScore({skill:'listening',band,raw,total,partial,id:multi?'lt'+parts[0].test:parts[0].id,title});
     touch('main');
     $('#tsSub',el).hidden=true;$('#tsTm',el).hidden=true;$('#lsPlayer',el).hidden=true;cnt();
     const btns=onDone?`<button class="btn primary" id="lsNextSec">${esc(nextLabel||'Tiếp tục')} ${ic('chevron-right')}</button>`
       :`<button class="btn primary" id="lsAgain">${ic('rotate-ccw')}Làm lại</button><button class="btn" id="lsList">Về danh sách</button>`;
-    $('#lsRes',el).innerHTML=TS_resHTML({raw,total,band,label:title,results,buttons:btns});
+    $('#lsRes',el).innerHTML=TS_resHTML({raw,total,band,partial,label:title,results,buttons:btns});
     const nb=$('#lsNextSec',el);if(nb)nb.onclick=()=>{TS_clean();onDone(raw,total);};
     const ag=$('#lsAgain',el);if(ag)ag.onclick=()=>LS_run(el,o);
     const li=$('#lsList',el);if(li)li.onclick=()=>{TS_clean();onExit();};
@@ -3140,18 +3155,18 @@ function RD_run(el,o){
     if(sub)return;sub=true;tm&&tm.stop();
     const secsUsed=Math.round((Date.now()-el0)/1000);
     results=secs.flatMap(s=>TS_mark(s,A));
-    const raw=results.filter(r=>r.ok).length, type=passages[0].type, band=bandOf('reading',raw,total,type);
+    const raw=results.filter(r=>r.ok).length, type=passages[0].type, sb=TS_secBand('reading',raw,total,{type,expert:passages.some(x=>TS_bandHi(x.band)>=9)}), band=sb.band, partial=sb.partial;
     P.rd=P.rd||{};P.rd.best=P.rd.best||{};
     secs.forEach(s=>{const r=results.filter(x=>x.sec===s&&x.ok).length;P.rd.best[s.sid]=Math.max(P.rd.best[s.sid]??-1,r);});
     if(multi){P.rd.full=P.rd.full||{};const k=type+passages[0].test;P.rd.full[k]=Math.max(P.rd.full[k]??-1,raw);}
     TS_log(results);
     award('read',total);if(multi&&!mock)award('test',1);
-    recordScore({skill:'reading',band,raw,total,id:multi?type[0]+'t'+passages[0].test:passages[0].id,title,exam:type});
+    recordScore({skill:'reading',band,raw,total,partial,id:multi?type[0]+'t'+passages[0].test:passages[0].id,title,exam:type});
     touch('main');
     $('#tsSub',el).hidden=true;tmc.hidden=true;cnt();
     const btns=onDone?`<button class="btn primary" id="rdNextSec">${esc(nextLabel||'Tiếp tục')} ${ic('chevron-right')}</button>`
       :`<button class="btn primary" id="rdAgain">${ic('rotate-ccw')}Làm lại</button><button class="btn" id="rdList">Về danh sách</button>`;
-    $('#rdRes',el).innerHTML=TS_resHTML({raw,total,band,label:title+' · '+fmtTime(secsUsed),results,buttons:btns});
+    $('#rdRes',el).innerHTML=TS_resHTML({raw,total,band,partial,label:title+' · '+fmtTime(secsUsed),results,buttons:btns});
     const nb=$('#rdNextSec',el);if(nb)nb.onclick=()=>{TS_clean();onDone(raw,total);};
     const ag=$('#rdAgain',el);if(ag)ag.onclick=()=>RD_run(el,o);
     const li=$('#rdList',el);if(li)li.onclick=()=>{TS_clean();onExit();};
@@ -5491,7 +5506,9 @@ VIEWS.home=el=>{
      ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp khoảng 15 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
-     <button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span><span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span></span><span class="mini-l">${est==null?'Làm bài xếp lớp hoặc thi thử để biết':'Mục tiêu '+c.target.toFixed(1)+(days!=null&&days>0?`, còn ${days} ngày đến ngày thi`:'')}</span></button>
+     ${(()=>{const lb=latestBands(),sk=['listening','reading','writing','speaking'].filter(k=>lb[k]!=null),reached=est!=null&&est>=c.target;
+       const sub=est==null?'Làm bài xếp lớp hoặc thi thử để biết':sk.length&&sk.length<4?`Mới có ${sk.map(k=>SK_NAME[k]).join(', ')}. Cần đủ 4 kỹ năng để ra band thật.`:'Dựa trên lần làm gần nhất của 4 kỹ năng.';
+       return `<button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span>${reached?`<span class="bm-ok">Đã chạm mục tiêu ${c.target.toFixed(1)}</span>`:`<span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span>`}</span><span class="mini-l">${sub}${days!=null&&days>0?` Còn ${days} ngày đến ngày thi.`:''}</span>${reached&&c.target<9?`<span class="mini-a" data-plan="1">Nâng mục tiêu lên ${Math.min(9,c.target+0.5).toFixed(1)} ${ic('chevron-right')}</span>`:''}</button>`;})()}
      <button class="mini" data-go="study"><span class="mini-n num">${due}</span><span class="mini-l">${due?'thẻ cần ôn':'Hết thẻ cần ôn'}</span><span class="mini-a">${due?'Ôn nhanh':'Học '+Math.min(5,nw||5)+' từ mới'} ${ic('chevron-right')}</span></button>
      <button class="mini rank" data-go="progress"><span class="seal-rk">${r[1]}</span><span class="mini-l"><b>${r[2]}</b></span><span class="bar-track"><i style="width:${Math.round(pr*100)}%"></i></span><span class="small muted num">${nx?`${xpT-r[0]}/${lo} XP lên ${nx[1]}`:'Danh hiệu cao nhất'}</span></button>
      ${wd?`<div class="panel wotd2"><span class="label">Từ của ngày</span><div class="wotd"><span class="em">${wd.em||''}</span><div style="min-width:0"><div class="h en">${esc(wd.w)}</div><div class="small muted">${esc(wd.ipa)} ${esc(wd.pos)}</div><div class="small">${esc(wd.vi)}</div></div><button class="spk" data-say="${esc(wd.w)}" aria-label="Nghe">${SPK}</button></div><div class="small muted">${esc(wd.col.join(', '))}</div><button class="btn sm" id="hWd" style="align-self:flex-start">Xem chi tiết</button></div>`:''}
@@ -5499,6 +5516,7 @@ VIEWS.home=el=>{
     </div>
    </div></div>`;
   $('#hmGo').onclick=()=>go(next?next.go:'study');
+  const bp=$('[data-plan]',el);if(bp)bp.onclick=e=>{e.stopPropagation();c.target=Math.min(9,c.target+0.5);plApply();touch('main');toast('Mục tiêu mới: band '+c.target.toFixed(1));VIEWS.home(el);};
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.k);
   loadJSON('daily').then(all=>{const t=$('#hmTip');if(!t||!all.length)return;const x=all[dlyIndex()%all.length];t.innerHTML=`${esc(x.title)}`;if(P.dly&&P.dly[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));}).catch(()=>{});

@@ -94,18 +94,18 @@ function RD_run(el,o){
     if(sub)return;sub=true;tm&&tm.stop();
     const secsUsed=Math.round((Date.now()-el0)/1000);
     results=secs.flatMap(s=>TS_mark(s,A));
-    const raw=results.filter(r=>r.ok).length, type=passages[0].type, band=bandOf('reading',raw,total,type);
+    const raw=results.filter(r=>r.ok).length, type=passages[0].type, sb=TS_secBand('reading',raw,total,{type,expert:passages.some(x=>TS_bandHi(x.band)>=9)}), band=sb.band, partial=sb.partial;
     P.rd=P.rd||{};P.rd.best=P.rd.best||{};
     secs.forEach(s=>{const r=results.filter(x=>x.sec===s&&x.ok).length;P.rd.best[s.sid]=Math.max(P.rd.best[s.sid]??-1,r);});
     if(multi){P.rd.full=P.rd.full||{};const k=type+passages[0].test;P.rd.full[k]=Math.max(P.rd.full[k]??-1,raw);}
     TS_log(results);
     award('read',total);if(multi&&!mock)award('test',1);
-    recordScore({skill:'reading',band,raw,total,id:multi?type[0]+'t'+passages[0].test:passages[0].id,title,exam:type});
+    recordScore({skill:'reading',band,raw,total,partial,id:multi?type[0]+'t'+passages[0].test:passages[0].id,title,exam:type});
     touch('main');
     $('#tsSub',el).hidden=true;tmc.hidden=true;cnt();
     const btns=onDone?`<button class="btn primary" id="rdNextSec">${esc(nextLabel||'Tiếp tục')} ${ic('chevron-right')}</button>`
       :`<button class="btn primary" id="rdAgain">${ic('rotate-ccw')}Làm lại</button><button class="btn" id="rdList">Về danh sách</button>`;
-    $('#rdRes',el).innerHTML=TS_resHTML({raw,total,band,label:title+' · '+fmtTime(secsUsed),results,buttons:btns});
+    $('#rdRes',el).innerHTML=TS_resHTML({raw,total,band,partial,label:title+' · '+fmtTime(secsUsed),results,buttons:btns});
     const nb=$('#rdNextSec',el);if(nb)nb.onclick=()=>{TS_clean();onDone(raw,total);};
     const ag=$('#rdAgain',el);if(ag)ag.onclick=()=>RD_run(el,o);
     const li=$('#rdList',el);if(li)li.onclick=()=>{TS_clean();onExit();};

@@ -95,7 +95,9 @@ VIEWS.home=el=>{
      ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp khoảng 15 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
-     <button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span><span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span></span><span class="mini-l">${est==null?'Làm bài xếp lớp hoặc thi thử để biết':'Mục tiêu '+c.target.toFixed(1)+(days!=null&&days>0?`, còn ${days} ngày đến ngày thi`:'')}</span></button>
+     ${(()=>{const lb=latestBands(),sk=['listening','reading','writing','speaking'].filter(k=>lb[k]!=null),reached=est!=null&&est>=c.target;
+       const sub=est==null?'Làm bài xếp lớp hoặc thi thử để biết':sk.length&&sk.length<4?`Mới có ${sk.map(k=>SK_NAME[k]).join(', ')}. Cần đủ 4 kỹ năng để ra band thật.`:'Dựa trên lần làm gần nhất của 4 kỹ năng.';
+       return `<button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span>${reached?`<span class="bm-ok">Đã chạm mục tiêu ${c.target.toFixed(1)}</span>`:`<span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span>`}</span><span class="mini-l">${sub}${days!=null&&days>0?` Còn ${days} ngày đến ngày thi.`:''}</span>${reached&&c.target<9?`<span class="mini-a" data-plan="1">Nâng mục tiêu lên ${Math.min(9,c.target+0.5).toFixed(1)} ${ic('chevron-right')}</span>`:''}</button>`;})()}
      <button class="mini" data-go="study"><span class="mini-n num">${due}</span><span class="mini-l">${due?'thẻ cần ôn':'Hết thẻ cần ôn'}</span><span class="mini-a">${due?'Ôn nhanh':'Học '+Math.min(5,nw||5)+' từ mới'} ${ic('chevron-right')}</span></button>
      <button class="mini rank" data-go="progress"><span class="seal-rk">${r[1]}</span><span class="mini-l"><b>${r[2]}</b></span><span class="bar-track"><i style="width:${Math.round(pr*100)}%"></i></span><span class="small muted num">${nx?`${xpT-r[0]}/${lo} XP lên ${nx[1]}`:'Danh hiệu cao nhất'}</span></button>
      ${wd?`<div class="panel wotd2"><span class="label">Từ của ngày</span><div class="wotd"><span class="em">${wd.em||''}</span><div style="min-width:0"><div class="h en">${esc(wd.w)}</div><div class="small muted">${esc(wd.ipa)} ${esc(wd.pos)}</div><div class="small">${esc(wd.vi)}</div></div><button class="spk" data-say="${esc(wd.w)}" aria-label="Nghe">${SPK}</button></div><div class="small muted">${esc(wd.col.join(', '))}</div><button class="btn sm" id="hWd" style="align-self:flex-start">Xem chi tiết</button></div>`:''}
@@ -103,6 +105,7 @@ VIEWS.home=el=>{
     </div>
    </div></div>`;
   $('#hmGo').onclick=()=>go(next?next.go:'study');
+  const bp=$('[data-plan]',el);if(bp)bp.onclick=e=>{e.stopPropagation();c.target=Math.min(9,c.target+0.5);plApply();touch('main');toast('Mục tiêu mới: band '+c.target.toFixed(1));VIEWS.home(el);};
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.k);
   loadJSON('daily').then(all=>{const t=$('#hmTip');if(!t||!all.length)return;const x=all[dlyIndex()%all.length];t.innerHTML=`${esc(x.title)}`;if(P.dly&&P.dly[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));}).catch(()=>{});

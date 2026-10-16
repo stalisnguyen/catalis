@@ -51,3 +51,5 @@ mark{background:var(--orange-soft);color:inherit;border-radius:4px;padding:0 2px
 .ai-out{white-space:pre-wrap;background:var(--sunk);border-radius:12px;padding:12px 14px;font-size:15px;line-height:1.6}
 .timer-chip{display:inline-flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums;font-weight:800;background:var(--sunk);border-radius:999px;padding:4px 12px}
 .timer-chip.low{background:var(--bad-soft);color:var(--bad)}
+.bm-ok{font-size:13px;font-weight:700;color:var(--ok);background:var(--ok-soft);border-radius:999px;padding:2px 10px}
+.band-mini .mini-l{font-size:13.5px}
