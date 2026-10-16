@@ -87,7 +87,14 @@ const seen=k=>!!P.srs[k];
 // level 0 = the learner's own words (dictionary or Phòng AI imports): always included
 function dueList(levels){const now=Date.now();return V.filter(w=>(levels.includes(w.lv)||w.lv===0)&&P.srs[w.k]&&P.srs[w.k].due<=now).sort((a,b)=>P.srs[a.k].due-P.srs[b.k].due);}
 function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.first>=t&&!c.pl).length;}
-function newList(levels,limit){const out=[];for(const L of [0,...levels]){for(const w of V){if(out.length>=limit)return out;if(w.lv===L&&!P.srs[w.k])out.push(w);}}return out;}
+// new words: the learner's own words first, then round-robin across the selected groups (hardest group first),
+// so a band 8 learner does not wade through all the easier words before meeting harder ones
+function newList(levels,limit){
+  const out=V.filter(w=>w.lv===0&&!P.srs[w.k]).slice(0,limit);
+  const pools=[...levels].sort((a,b)=>b-a).map(L=>V.filter(w=>w.lv===L&&!P.srs[w.k]));
+  for(let i=0;out.length<limit&&pools.some(p=>i<p.length);i++)for(const p of pools){if(out.length>=limit)break;if(p[i])out.push(p[i]);}
+  return out;
+}
 function streak(){let s=0,t=today();const on=k=>P.hist[k]||((P.day||{})[k]&&P.day[k].xp);if(!on(ymd(t)))t-=DAY;while(on(ymd(t))){s++;t-=DAY;}return s;}
 
 /* ================= platform: /api/ai (Groq) and /api/sync (Upstash), locked by the group password ================= */
