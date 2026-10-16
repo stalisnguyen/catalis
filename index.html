@@ -1916,7 +1916,7 @@ async function textAudioURL(t){const ix=await textAudioIndex();if(!ix.size)retur
 let sayToken=0;
 function say(text,{rate,lang,voice='f'}={}){
   const rr=rate||P.settings.voiceRate, L=lang||P.settings.accent||'en-GB'; stopSay(); const tok=++sayToken;
-  if(L==='en-GB')return textAudioURL(text).then(u=>{if(tok!==sayToken)return;if(!u)return sayRest(text,rr,L,voice,tok);return playURL(u,rr/0.95).then(ok=>ok||tok!==sayToken?undefined:sayRest(text,rr,L,voice,tok));});
+  if(L!=='en-US')return textAudioURL(text).then(u=>{if(tok!==sayToken)return;if(!u)return sayRest(text,rr,L,voice,tok);return playURL(u,rr/0.95).then(ok=>ok||tok!==sayToken?undefined:sayRest(text,rr,L,voice,tok));});
   return sayRest(text,rr,L,voice,tok);
 }
 function sayRest(text,rr,L,voice,tok){
