@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
       - run: sudo apt-get update && sudo apt-get install -y espeak-ng
       - run: pip install "kokoro>=0.9.4" "misaki[en]" lameenc
-      - run: python tools/collect_texts.py
+      - run: python tools/collect_texts.py --colloc
       - run: python tools/make_text_audio.py ${{ matrix.shard }} 24 out
       - uses: actions/upload-artifact@v4
         with:
