@@ -21,7 +21,7 @@ function askPin(wrong){
   });
 }
 /* switch or create a learner on this device */
-async function setProfile(name,pin){
+async function setProfile(name,pin,key){
   const slug=slugOf(name); if(!slug)return false;
   const first=!WHO;
   if(!first&&WHO.slug!==slug){clearTimeout(syncTimer);if(dirty.size){try{await pushRemote();}catch(e){}}}
@@ -30,17 +30,21 @@ async function setProfile(name,pin){
   if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
   else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
   queue=[];dirty=new Set();applySettings();
-  if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
+  if(key)setKey(key);
+  if(!SYNC&&getKey())await initPlatform();               // first time the key is known: connects and pulls
+  else if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
+  else if(SYNC==='web'){syncState='off';renderSync();}
   route();return true;
 }
 function profileForm(fresh){
   return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Thy" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
     <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
-    <p class="pf-n">Dùng tên và PIN này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+    ${getKey()?'':`<label class="pf-l">Mật khẩu nhóm (để đồng bộ giữa các máy)<input type="password" id="pfK" autocomplete="current-password" placeholder="Mật khẩu chung của nhóm"></label>`}
+    <p class="pf-n">Dùng đúng tên, PIN và mật khẩu nhóm này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
 }
 function switchProfile(){
   const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
-  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}m.close();await setProfile(n,p);toast('Chào '+n+'!');};
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}const k=$('#pfK',m.el);m.close();await setProfile(n,p,k&&k.value.trim());toast('Chào '+n+'!');};
 }
 
 /* ---------- Bạn học view ---------- */

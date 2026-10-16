@@ -1840,10 +1840,32 @@ function refreshAIBits(){$$('.need-ai').forEach(el=>el.hidden=!AI);$$('.no-ai').
 
 /* ---- sync ---- */
 function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
+/* Merge two copies of the progress (this device and the server) instead of letting the newer one win:
+   a fresh device must never wipe real progress. Per item, keep what shows more learning. */
+function mergeP(a,b){
+  if(!a||!a.upd)return structuredClone(b); if(!b||!b.upd)return structuredClone(a);
+  const [nw,old]=(a.upd||0)>=(b.upd||0)?[a,b]:[b,a];
+  const m=structuredClone(nw);
+  const reviews=c=>(c.n||0)+(c.l||0);
+  m.srs=Object.assign({},old.srs||{});
+  for(const [k,c] of Object.entries(nw.srs||{})){const o=m.srs[k];m.srs[k]=!o||reviews(c)>reviews(o)||(reviews(c)===reviews(o)&&(c.due||0)>=(o.due||0))?c:o;}
+  m.day=Object.assign({},old.day||{});
+  for(const [d,x] of Object.entries(nw.day||{})){const o=m.day[d];if(!o){m.day[d]=x;continue;}const r={};for(const k of new Set([...Object.keys(o),...Object.keys(x)]))r[k]=Math.max(+o[k]||0,+x[k]||0);m.day[d]=r;}
+  m.hist=Object.assign({},old.hist||{});for(const [d,n] of Object.entries(nw.hist||{}))m.hist[d]=Math.max(m.hist[d]||0,n);
+  const uniq=(arr,key)=>{const seen=new Set();return arr.filter(x=>{const k=key(x);if(seen.has(k))return false;seen.add(k);return true;});};
+  m.scores=uniq([...(old.scores||[]),...(nw.scores||[])],x=>x.t+'|'+x.skill+'|'+(x.title||'')).sort((x,y)=>x.t-y.t).slice(-300);
+  m.custom=uniq([...(nw.custom||[]),...(old.custom||[])],x=>String(x.w).toLowerCase());
+  m.reports=uniq([...(old.reports||[]),...(nw.reports||[])],x=>x.d+'|'+x.h);
+  for(const k of ['mist','dly','cul']){if(old[k]||nw[k])m[k]=Object.assign({},old[k]||{},nw[k]||{});}
+  // placement: keep the newer test (placeV 2) if either side has it
+  if(!(m.placeV>=2)&&old.placeV>=2){m.placeV=old.placeV;m.placed=old.placed;m.placeBand=old.placeBand;}
+  m.upd=Math.max(a.upd||0,b.upd||0)+1;
+  return m;
+}
 async function pullRemote(){
   try{
     const j=await api('api/sync',{method:'GET'});
-    if(j.data&&(j.data.upd||0)>(P.upd||0)){adopt(j.data);syncState='on';return;}
+    if(j.data){const m=mergeP(P,j.data);const changed=JSON.stringify(m)!==JSON.stringify(j.data);adopt(m);syncState='on';if(changed){dirty.add('main');await pushRemote();}return;}
     syncState='on';dirty.add('main');await pushRemote();
   }catch(e){console.warn('sync pull',e);syncState=e&&e.code==='not_granted'?'off':'err';}
 }
@@ -5514,6 +5536,7 @@ VIEWS.home=el=>{
   const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;
   el.innerHTML=`<div class="view home2">
    <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
+   ${SYNC==='web'&&syncState==='off'?`<div class="vbanner">${mcSay('hmm','Tiến độ đang chỉ lưu trên máy này. Nhập mật khẩu nhóm để đồng bộ với các máy khác và hiện trên bảng Bạn học.',48)}<div class="row"><button class="btn primary sm" id="hmSync">Nhập mật khẩu nhóm</button></div></div>`:''}
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
@@ -5537,6 +5560,7 @@ VIEWS.home=el=>{
     </div>
    </div></div>`;
   $('#hmGo').onclick=()=>go(next?next.go:'study');
+  const hs=$('#hmSync',el);if(hs)hs.onclick=async()=>{if(await askPassword(false)){await pullRemote();renderSync();route();}};
   const bp=$('[data-plan]',el);if(bp)bp.onclick=e=>{e.stopPropagation();c.target=Math.min(9,c.target+0.5);plApply();touch('main');toast('Mục tiêu mới: band '+c.target.toFixed(1));VIEWS.home(el);};
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.k);
@@ -5704,7 +5728,7 @@ function uiIntro(force){
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
   const draw=()=>{box.innerHTML=steps[i]();
     const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+      const k=$('#pfK',box);await setProfile(n,p,k&&k.value.trim());m.el.classList.remove('locked');i=1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('catalis-intro',1);m.close();}};
     $$('[data-ex]',box).forEach(b=>b.onclick=()=>{plCfg().exam=b.dataset.ex;touch('main');$$('[data-ex]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
@@ -5735,7 +5759,7 @@ function askPin(wrong){
   });
 }
 /* switch or create a learner on this device */
-async function setProfile(name,pin){
+async function setProfile(name,pin,key){
   const slug=slugOf(name); if(!slug)return false;
   const first=!WHO;
   if(!first&&WHO.slug!==slug){clearTimeout(syncTimer);if(dirty.size){try{await pushRemote();}catch(e){}}}
@@ -5744,17 +5768,21 @@ async function setProfile(name,pin){
   if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
   else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
   queue=[];dirty=new Set();applySettings();
-  if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
+  if(key)setKey(key);
+  if(!SYNC&&getKey())await initPlatform();               // first time the key is known: connects and pulls
+  else if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
+  else if(SYNC==='web'){syncState='off';renderSync();}
   route();return true;
 }
 function profileForm(fresh){
   return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Thy" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
     <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
-    <p class="pf-n">Dùng tên và PIN này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+    ${getKey()?'':`<label class="pf-l">Mật khẩu nhóm (để đồng bộ giữa các máy)<input type="password" id="pfK" autocomplete="current-password" placeholder="Mật khẩu chung của nhóm"></label>`}
+    <p class="pf-n">Dùng đúng tên, PIN và mật khẩu nhóm này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
 }
 function switchProfile(){
   const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
-  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}m.close();await setProfile(n,p);toast('Chào '+n+'!');};
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}const k=$('#pfK',m.el);m.close();await setProfile(n,p,k&&k.value.trim());toast('Chào '+n+'!');};
 }
 
 /* ---------- Bạn học view ---------- */

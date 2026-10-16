@@ -180,10 +180,32 @@ function refreshAIBits(){$$('.need-ai').forEach(el=>el.hidden=!AI);$$('.no-ai').
 
 /* ---- sync ---- */
 function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
+/* Merge two copies of the progress (this device and the server) instead of letting the newer one win:
+   a fresh device must never wipe real progress. Per item, keep what shows more learning. */
+function mergeP(a,b){
+  if(!a||!a.upd)return structuredClone(b); if(!b||!b.upd)return structuredClone(a);
+  const [nw,old]=(a.upd||0)>=(b.upd||0)?[a,b]:[b,a];
+  const m=structuredClone(nw);
+  const reviews=c=>(c.n||0)+(c.l||0);
+  m.srs=Object.assign({},old.srs||{});
+  for(const [k,c] of Object.entries(nw.srs||{})){const o=m.srs[k];m.srs[k]=!o||reviews(c)>reviews(o)||(reviews(c)===reviews(o)&&(c.due||0)>=(o.due||0))?c:o;}
+  m.day=Object.assign({},old.day||{});
+  for(const [d,x] of Object.entries(nw.day||{})){const o=m.day[d];if(!o){m.day[d]=x;continue;}const r={};for(const k of new Set([...Object.keys(o),...Object.keys(x)]))r[k]=Math.max(+o[k]||0,+x[k]||0);m.day[d]=r;}
+  m.hist=Object.assign({},old.hist||{});for(const [d,n] of Object.entries(nw.hist||{}))m.hist[d]=Math.max(m.hist[d]||0,n);
+  const uniq=(arr,key)=>{const seen=new Set();return arr.filter(x=>{const k=key(x);if(seen.has(k))return false;seen.add(k);return true;});};
+  m.scores=uniq([...(old.scores||[]),...(nw.scores||[])],x=>x.t+'|'+x.skill+'|'+(x.title||'')).sort((x,y)=>x.t-y.t).slice(-300);
+  m.custom=uniq([...(nw.custom||[]),...(old.custom||[])],x=>String(x.w).toLowerCase());
+  m.reports=uniq([...(old.reports||[]),...(nw.reports||[])],x=>x.d+'|'+x.h);
+  for(const k of ['mist','dly','cul']){if(old[k]||nw[k])m[k]=Object.assign({},old[k]||{},nw[k]||{});}
+  // placement: keep the newer test (placeV 2) if either side has it
+  if(!(m.placeV>=2)&&old.placeV>=2){m.placeV=old.placeV;m.placed=old.placed;m.placeBand=old.placeBand;}
+  m.upd=Math.max(a.upd||0,b.upd||0)+1;
+  return m;
+}
 async function pullRemote(){
   try{
     const j=await api('api/sync',{method:'GET'});
-    if(j.data&&(j.data.upd||0)>(P.upd||0)){adopt(j.data);syncState='on';return;}
+    if(j.data){const m=mergeP(P,j.data);const changed=JSON.stringify(m)!==JSON.stringify(j.data);adopt(m);syncState='on';if(changed){dirty.add('main');await pushRemote();}return;}
     syncState='on';dirty.add('main');await pushRemote();
   }catch(e){console.warn('sync pull',e);syncState=e&&e.code==='not_granted'?'off':'err';}
 }

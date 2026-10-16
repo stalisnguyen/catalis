@@ -82,6 +82,7 @@ VIEWS.home=el=>{
   const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;
   el.innerHTML=`<div class="view home2">
    <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
+   ${SYNC==='web'&&syncState==='off'?`<div class="vbanner">${mcSay('hmm','Tiến độ đang chỉ lưu trên máy này. Nhập mật khẩu nhóm để đồng bộ với các máy khác và hiện trên bảng Bạn học.',48)}<div class="row"><button class="btn primary sm" id="hmSync">Nhập mật khẩu nhóm</button></div></div>`:''}
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
@@ -105,6 +106,7 @@ VIEWS.home=el=>{
     </div>
    </div></div>`;
   $('#hmGo').onclick=()=>go(next?next.go:'study');
+  const hs=$('#hmSync',el);if(hs)hs.onclick=async()=>{if(await askPassword(false)){await pullRemote();renderSync();route();}};
   const bp=$('[data-plan]',el);if(bp)bp.onclick=e=>{e.stopPropagation();c.target=Math.min(9,c.target+0.5);plApply();touch('main');toast('Mục tiêu mới: band '+c.target.toFixed(1));VIEWS.home(el);};
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.k);
@@ -272,7 +274,7 @@ function uiIntro(force){
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
   const draw=()=>{box.innerHTML=steps[i]();
     const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+      const k=$('#pfK',box);await setProfile(n,p,k&&k.value.trim());m.el.classList.remove('locked');i=1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('catalis-intro',1);m.close();}};
     $$('[data-ex]',box).forEach(b=>b.onclick=()=>{plCfg().exam=b.dataset.ex;touch('main');$$('[data-ex]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
