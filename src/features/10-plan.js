@@ -307,7 +307,7 @@ VIEWS.placement=async el=>{
     const v=PLC.v,g=PLC.g,ra=PLC.r.a,rb=PLC.r.b&&PLC.r.b.sub?PLC.r.b:null,l=PLC.l&&PLC.l.sub?PLC.l:null;
     const vb=vB(), gb=gB(), rbd=rB()||5, lb=l?PC_lBand(l.raw,l.x):null, band=PC_overall(vb,gb,rbd,lb);
     const rRaw=(ra?ra.raw:0)+(rb?rb.raw:0), rTot=5+(rb?5:0);
-    P.placeBand=band;P.placed=1;
+    P.placeBand=band;P.placed=1;P.placeV=2;
     recordScore({skill:'overall',band,title:'Bài xếp lớp',detail:{vocab:vb,grammar:gb,reading:rbd,listening:lb}});
     recordScore({skill:'reading',band:rbd,raw:rRaw,total:rTot,id:'placement',title:'Bài xếp lớp'});
     if(l)recordScore({skill:'listening',band:lb,raw:l.raw,total:5,id:'placement',title:'Bài xếp lớp'});
@@ -421,4 +421,14 @@ function plResetPlacement(){
     delete P.placeBand; delete P.placed; PLC=null; queue=[]; touch('main');
     m.close(); toast(`Đã xóa. Gỡ ${untouched.length} từ khỏi danh sách đã biết.`,3500); go('placement');
   };
+}
+
+/* ---------- one-time migration: results from the old self-report placement test (before placeV 2) are too generous.
+   Clear them once per learner, the same way as plResetPlacement, and invite a retake. Runs on every route; cheap no-op afterwards. */
+function plMigrate(){
+  if(!P.placed||P.placeV>=2)return;
+  const isPl=s=>/xếp lớp/i.test(s.title||'');
+  P.scores=(P.scores||[]).filter(s=>!isPl(s));
+  Object.entries(P.srs).forEach(([k,c])=>{if(c.pl&&c.n===2&&!c.l)delete P.srs[k];});
+  delete P.placeBand; delete P.placed; P.placeRedo=1; queue=[]; touch('main');
 }

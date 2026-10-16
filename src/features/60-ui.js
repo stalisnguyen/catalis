@@ -31,6 +31,7 @@ function uiInit(){
 let UI_PT=null;
 function uiGoGroup(k){const g=UI_GROUPS.find(x=>x.k===k);const v=UI_LAST[k]&&g.views.includes(UI_LAST[k])?UI_LAST[k]:g.views[0];go(v);}
 function uiNav(){
+  plMigrate();
   const v=UI_ALIAS[current]||current, g=uiGroupOf(current);
   if(UI_LAST[g.k]!==v&&g.views.includes(v)){UI_LAST[g.k]=v;store.set('catalis-lastv',UI_LAST);}
   let due=0;try{due=dueList(P.settings.lv).length;}catch(e){}
@@ -78,7 +79,7 @@ VIEWS.home=el=>{
   const pool=V.filter(w=>w.lv&&P.settings.lv.includes(w.lv)&&w.col&&w.col.length); const wd=pool.length?pool[(Math.floor(Date.now()/DAY)*7)%pool.length]:null;
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
   const est=estBand(); const days=c.date?Math.ceil((new Date(c.date).getTime()-today())/DAY):null;
-  const firstTime=Object.keys(P.srs).length<20&&!P.placed;
+  const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;
   el.innerHTML=`<div class="view home2">
    <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
    ${uiWeek()}
@@ -90,6 +91,7 @@ VIEWS.home=el=>{
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
      <div class="tasks">${tasks.map(t=>`<button class="task ${t.done?'done':''}" data-go="${t.go}"><span class="tk-c">${t.done?ic('check'):ic(UI_V[t.go]?UI_V[t.go][1]:'sparkles')}</span><span class="tk-t"><span><b>${esc(t.t)}</b>${t.n?` <span class="num muted small">${Math.min(t.n[0],t.n[1])}/${t.n[1]}</span>`:''}</span><span class="small muted">${esc(t.sub)}</span></span>${ic('chevron-right','tk-a')}</button>`).join('')}</div>
+     ${P.placeRedo&&!P.placed?mcSay('hmm',`Bài xếp lớp vừa được làm lại cho sát thực tế hơn, nên kết quả cũ đã được xóa. Làm <button class="lnk" data-go="placement">bài xếp lớp mới khoảng 15 phút</button> để Jack chọn lại lộ trình cho đúng.`,56):''}
      ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp khoảng 15 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">

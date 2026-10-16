@@ -2568,7 +2568,7 @@ VIEWS.placement=async el=>{
     const v=PLC.v,g=PLC.g,ra=PLC.r.a,rb=PLC.r.b&&PLC.r.b.sub?PLC.r.b:null,l=PLC.l&&PLC.l.sub?PLC.l:null;
     const vb=vB(), gb=gB(), rbd=rB()||5, lb=l?PC_lBand(l.raw,l.x):null, band=PC_overall(vb,gb,rbd,lb);
     const rRaw=(ra?ra.raw:0)+(rb?rb.raw:0), rTot=5+(rb?5:0);
-    P.placeBand=band;P.placed=1;
+    P.placeBand=band;P.placed=1;P.placeV=2;
     recordScore({skill:'overall',band,title:'Bài xếp lớp',detail:{vocab:vb,grammar:gb,reading:rbd,listening:lb}});
     recordScore({skill:'reading',band:rbd,raw:rRaw,total:rTot,id:'placement',title:'Bài xếp lớp'});
     if(l)recordScore({skill:'listening',band:lb,raw:l.raw,total:5,id:'placement',title:'Bài xếp lớp'});
@@ -2682,6 +2682,16 @@ function plResetPlacement(){
     delete P.placeBand; delete P.placed; PLC=null; queue=[]; touch('main');
     m.close(); toast(`Đã xóa. Gỡ ${untouched.length} từ khỏi danh sách đã biết.`,3500); go('placement');
   };
+}
+
+/* ---------- one-time migration: results from the old self-report placement test (before placeV 2) are too generous.
+   Clear them once per learner, the same way as plResetPlacement, and invite a retake. Runs on every route; cheap no-op afterwards. */
+function plMigrate(){
+  if(!P.placed||P.placeV>=2)return;
+  const isPl=s=>/xếp lớp/i.test(s.title||'');
+  P.scores=(P.scores||[]).filter(s=>!isPl(s));
+  Object.entries(P.srs).forEach(([k,c])=>{if(c.pl&&c.n===2&&!c.l)delete P.srs[k];});
+  delete P.placeBand; delete P.placed; P.placeRedo=1; queue=[]; touch('main');
 }
 
 /* ================= TEST ENGINE (TS_*) shared by Listening, Reading and Thi thử =================
@@ -5403,6 +5413,7 @@ function uiInit(){
 let UI_PT=null;
 function uiGoGroup(k){const g=UI_GROUPS.find(x=>x.k===k);const v=UI_LAST[k]&&g.views.includes(UI_LAST[k])?UI_LAST[k]:g.views[0];go(v);}
 function uiNav(){
+  plMigrate();
   const v=UI_ALIAS[current]||current, g=uiGroupOf(current);
   if(UI_LAST[g.k]!==v&&g.views.includes(v)){UI_LAST[g.k]=v;store.set('catalis-lastv',UI_LAST);}
   let due=0;try{due=dueList(P.settings.lv).length;}catch(e){}
@@ -5450,7 +5461,7 @@ VIEWS.home=el=>{
   const pool=V.filter(w=>w.lv&&P.settings.lv.includes(w.lv)&&w.col&&w.col.length); const wd=pool.length?pool[(Math.floor(Date.now()/DAY)*7)%pool.length]:null;
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
   const est=estBand(); const days=c.date?Math.ceil((new Date(c.date).getTime()-today())/DAY):null;
-  const firstTime=Object.keys(P.srs).length<20&&!P.placed;
+  const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;
   el.innerHTML=`<div class="view home2">
    <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
    ${uiWeek()}
@@ -5462,6 +5473,7 @@ VIEWS.home=el=>{
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
      <div class="tasks">${tasks.map(t=>`<button class="task ${t.done?'done':''}" data-go="${t.go}"><span class="tk-c">${t.done?ic('check'):ic(UI_V[t.go]?UI_V[t.go][1]:'sparkles')}</span><span class="tk-t"><span><b>${esc(t.t)}</b>${t.n?` <span class="num muted small">${Math.min(t.n[0],t.n[1])}/${t.n[1]}</span>`:''}</span><span class="small muted">${esc(t.sub)}</span></span>${ic('chevron-right','tk-a')}</button>`).join('')}</div>
+     ${P.placeRedo&&!P.placed?mcSay('hmm',`Bài xếp lớp vừa được làm lại cho sát thực tế hơn, nên kết quả cũ đã được xóa. Làm <button class="lnk" data-go="placement">bài xếp lớp mới khoảng 15 phút</button> để Jack chọn lại lộ trình cho đúng.`,56):''}
      ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp khoảng 15 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
