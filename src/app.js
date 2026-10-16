@@ -237,9 +237,22 @@ async function cloudTTS(text,rate,lang,g,tok){
   const url=await ttsURL(text,rate,lang,g); if(!url||tok!==sayToken)return !!url;
   return playURL(url);
 }
+/* pre-generated Kokoro audio for every fixed text in the app (audio/t/<h[:2]>/<h>.mp3, h = sha1(text) first 12 hex).
+   Built by tools/collect_texts.py + tools/make_text_audio.py in GitHub Actions. British voices, so used for en-GB only. */
+let TAUD=null;
+function textAudioIndex(){if(!TAUD)TAUD=fetch('audio/t/index.json').then(r=>r.ok?r.json():[]).then(a=>new Set(a)).catch(()=>new Set());return TAUD;}
+const HCACHE=new Map();
+async function textHash(t){t=String(t).trim();if(HCACHE.has(t))return HCACHE.get(t);let h='';
+  try{const b=await crypto.subtle.digest('SHA-1',new TextEncoder().encode(t));h=[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('').slice(0,12);}catch(e){}
+  HCACHE.set(t,h);return h;}
+async function textAudioURL(t){const ix=await textAudioIndex();if(!ix.size)return null;const h=await textHash(t);return h&&ix.has(h)?'audio/t/'+h.slice(0,2)+'/'+h+'.mp3':null;}
 let sayToken=0;
 function say(text,{rate,lang,voice='f'}={}){
   const rr=rate||P.settings.voiceRate, L=lang||P.settings.accent||'en-GB'; stopSay(); const tok=++sayToken;
+  if(L==='en-GB')return textAudioURL(text).then(u=>{if(tok!==sayToken)return;if(!u)return sayRest(text,rr,L,voice,tok);return playURL(u,rr/0.95).then(ok=>ok||tok!==sayToken?undefined:sayRest(text,rr,L,voice,tok));});
+  return sayRest(text,rr,L,voice,tok);
+}
+function sayRest(text,rr,L,voice,tok){
   if(ttsOn())return cloudTTS(text,rr,L,voice,tok).then(ok=>ok||tok!==sayToken?undefined:sayLocal(text,{rate:rr,lang:L,voice:voice[0]},tok));
   return sayLocal(text,{rate:rr,lang:L,voice:voice[0]},tok);
 }
@@ -278,7 +291,7 @@ async function sayLine(o){
   return say(o.t,{lang:o.lang,voice:o.voice,rate:o.rate});
 }
 function prefetchLine(o){lineAudioURL(o.pid,o.li,o.n).then(u=>{if(u){const a=new Audio();a.preload='auto';a.src=u;}else ttsPrefetch(o.t,{lang:o.lang,voice:o.voice});});}
-lineAudioIndex();
+lineAudioIndex();textAudioIndex();
 document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();const o={t:b.dataset.say,lang:b.dataset.lang||undefined,voice:b.dataset.voice||'f'};if(b.dataset.pid){o.pid=b.dataset.pid;o.li=+b.dataset.li;sayLine(o);}else say(o.t,o);}});
 
 /* speech recognition: listen({lang,onText,onEnd}) -> {stop} or null if unsupported */

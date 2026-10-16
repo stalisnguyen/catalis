@@ -1,0 +1,54 @@
+name: Word and sentence audio (Kokoro)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/**', 'tools/collect_texts.py', 'tools/make_text_audio.py', '.github/workflows/text-audio.yml']
+permissions:
+  contents: write
+concurrency:
+  group: text-audio
+  cancel-in-progress: true
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng
+      - run: pip install "kokoro>=0.9.4" "misaki[en]" lameenc
+      - run: python tools/collect_texts.py
+      - run: python tools/make_text_audio.py ${{ matrix.shard }} 24 out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: t-${{ matrix.shard }}
+          path: out
+          if-no-files-found: ignore
+  commit:
+    needs: tts
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dl
+          pattern: t-*
+          merge-multiple: true
+      - run: |
+          mkdir -p audio/t
+          if [ -d dl ]; then cp -r dl/. audio/t/; fi
+          python3 -c "import os,json;hs=sorted(f[:-4] for d,_,fs in os.walk('audio/t') for f in fs if f.endswith('.mp3'));json.dump(hs,open('audio/t/index.json','w'),separators=(',',':'));print(len(hs),'files')"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/t
+          git commit -m "Word and sentence audio generated with Kokoro" || echo "no changes"
+          git pull --rebase
+          git push
