@@ -2,13 +2,13 @@
 const UI_GROUPS=[
   {k:'today',label:'Hôm nay',icon:'house',views:['home']},
   {k:'review',label:'Ôn tập',icon:'layers',views:['study','mistakes','games']},
-  {k:'practice',label:'Luyện',icon:'target',views:['listen','read','write','speak','test']},
+  {k:'practice',label:'Luyện',icon:'target',views:['listen','read','write','speak','lab','test']},
   {k:'lookup',label:'Tra cứu',icon:'search',views:['dict','grammar','pron','daily']},
   {k:'me',label:'Tôi',icon:'user-round',views:['progress','friends','settings']},
 ];
 const UI_ALIAS={placement:'progress'};
 const UI_V={home:['Hôm nay','house'],study:['Thẻ từ','repeat'],mistakes:['Sổ lỗi sai','notebook-pen'],games:['Trò chơi','gamepad-2'],
-  listen:['Listening','headphones'],read:['Reading','book-open'],write:['Writing','pen-line'],speak:['Speaking','mic'],test:['Thi thử','clipboard-check'],
+  listen:['Listening','headphones'],read:['Reading','book-open'],write:['Writing','pen-line'],speak:['Speaking','mic'],lab:['Phòng AI','sparkles'],test:['Thi thử','clipboard-check'],
   dict:['Từ điển','book-a'],grammar:['Ngữ pháp','puzzle'],pron:['Phát âm','audio-waveform'],daily:['Mẹo mỗi ngày','lightbulb'],
   progress:['Tiến độ','trophy'],friends:['Bạn học','users'],settings:['Cài đặt','settings']};
 const uiGroupOf=v=>{v=UI_ALIAS[v]||v;return UI_GROUPS.find(g=>g.views.includes(v))||UI_GROUPS[0];};
@@ -90,7 +90,7 @@ VIEWS.home=el=>{
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
      <div class="tasks">${tasks.map(t=>`<button class="task ${t.done?'done':''}" data-go="${t.go}"><span class="tk-c">${t.done?ic('check'):ic(UI_V[t.go]?UI_V[t.go][1]:'sparkles')}</span><span class="tk-t"><span><b>${esc(t.t)}</b>${t.n?` <span class="num muted small">${Math.min(t.n[0],t.n[1])}/${t.n[1]}</span>`:''}</span><span class="small muted">${esc(t.sub)}</span></span>${ic('chevron-right','tk-a')}</button>`).join('')}</div>
-     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp 8 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
+     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp khoảng 15 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
      <button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span><span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span></span><span class="mini-l">${est==null?'Làm bài xếp lớp hoặc thi thử để biết':'Mục tiêu '+c.target.toFixed(1)+(days!=null&&days>0?`, còn ${days} ngày đến ngày thi`:'')}</span></button>
@@ -262,7 +262,7 @@ function uiIntro(force){
       <div class="hats">${[0,1,2,4,5,7].map(i=>catSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',96)}</div><h2>Bạn thi dạng nào?</h2><div class="row" style="justify-content:center">${[['academic','Academic'],['general','General Training']].map(([k,t])=>`<button class="chip big" data-ex="${k}" aria-pressed="${c.exam===k}">${t}</button>`).join('')}</div>
       <h2 style="margin-top:8px">Mỗi ngày học bao lâu?</h2><div class="row" style="justify-content:center">${[15,30,45,60].map(n=>`<button class="chip big" data-mn="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
-      <h2 style="margin-top:8px">Bắt đầu thế nào?</h2><div class="in-opts"><button class="btn" data-lv="test">Làm bài xếp lớp 8 phút (nên làm)</button><button class="btn" data-lv="new">Học từ nền tảng luôn</button></div>`;},
+      <h2 style="margin-top:8px">Bắt đầu thế nào?</h2><div class="in-opts"><button class="btn" data-lv="test">Làm bài xếp lớp khoảng 15 phút (nên làm)</button><button class="btn" data-lv="new">Học từ nền tảng luôn</button></div>`;},
   ];
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
   const draw=()=>{box.innerHTML=steps[i]();

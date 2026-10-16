@@ -1,0 +1,8 @@
+{
+  "name": "catalis",
+  "private": true,
+  "description": "Catalis - Stalis's IELTS. Static app plus Vercel functions in api/.",
+  "dependencies": {
+    "edge-tts-universal": "1.4.0"
+  }
+}

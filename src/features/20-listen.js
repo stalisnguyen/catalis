@@ -144,7 +144,11 @@ let LS_tok=0, LS_tab='parts';
 const LS_sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const LS_PAUSE='<svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="fill:currentColor;stroke:none"><rect x="6" y="5" width="4.2" height="14" rx="1.2"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2"/></svg>';
 const LS_NOTES={practice:'Nghe lại từng câu thoải mái, dừng khi cần. Nộp bài xong sẽ xem được lời thoại và nghe lại từng dòng.',exam:'Bài nghe phát một lần, không dừng được. Câu hỏi hiện sẵn trong lúc nghe, hết bài có 2 phút kiểm tra lại rồi tự nộp.'};
-const LS_spk=(p,id)=>p.speakers.find(s=>s.id===id)||p.speakers[0];
+// speaker of a line; two speakers of the same gender and accent in one part get different voices (f / f2, m / m2)
+const LS_spk=(p,id)=>{
+  if(!p._spk){const seen={};p._spk={};p.speakers.forEach(sp=>{const k=sp.accent+sp.voice;seen[k]=(seen[k]||0)+1;p._spk[sp.id]=Object.assign({},sp,{voice:seen[k]>1?sp.voice+'2':sp.voice});});}
+  return p._spk[id]||p._spk[p.speakers[0].id];
+};
 
 VIEWS.listen=async el=>{
   window.__leave=TS_clean;TS_clean();
@@ -216,6 +220,7 @@ function LS_run(el,o){
       if(multi&&x.pi!==cp&&(exam||j===i||x.pi!==seq[j-1].pi)){cp=x.pi;drawQs();}
       if(exam&&j>0&&x.pi!==seq[j-1].pi){last=j-1;for(wait=10;wait>0;wait--){upd();await LS_sleep(1000);if(my!==LS_tok)return;}wait=0;}
       last=j;upd();
+      for(let q=1;q<=2;q++){const y=seq[j+q];if(y)ttsPrefetch(y.t,{lang:y.sp.accent,voice:y.sp.voice});}
       await say(x.t,{lang:x.sp.accent,voice:x.sp.voice});
       if(my!==LS_tok)return;
       if(pauseReq){pauseReq=false;playing=false;upd();return;}

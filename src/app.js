@@ -22,7 +22,7 @@ const countWords=t=>(String(t).trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)
 
 /* ================= data ================= */
 const LVS=[1,2,3,4,5];
-const LV_NAME={1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia'};
+const LV_NAME={0:'Từ của bạn',1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia'};
 const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề',5:'band 8.5-9, từ học thuật C2 và cách nói tự nhiên'};
 const V=[]; const VI=new Map(); const LV_COUNT=[0,0,0,0,0]; const loadedLv=new Set(); const lvLoading={};
 async function loadLevel(L){
@@ -84,9 +84,10 @@ function ivLabel(k,r){
 }
 const known=k=>{const c=P.srs[k];return !!(c&&c.s===2&&c.iv>=7);};
 const seen=k=>!!P.srs[k];
-function dueList(levels){const now=Date.now();return V.filter(w=>levels.includes(w.lv)&&P.srs[w.k]&&P.srs[w.k].due<=now).sort((a,b)=>P.srs[a.k].due-P.srs[b.k].due);}
-function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.first>=t).length;}
-function newList(levels,limit){const out=[];for(const L of levels){for(const w of V){if(out.length>=limit)return out;if(w.lv===L&&!P.srs[w.k])out.push(w);}}return out;}
+// level 0 = the learner's own words (dictionary or Phòng AI imports): always included
+function dueList(levels){const now=Date.now();return V.filter(w=>(levels.includes(w.lv)||w.lv===0)&&P.srs[w.k]&&P.srs[w.k].due<=now).sort((a,b)=>P.srs[a.k].due-P.srs[b.k].due);}
+function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.first>=t&&!c.pl).length;}
+function newList(levels,limit){const out=[];for(const L of [0,...levels]){for(const w of V){if(out.length>=limit)return out;if(w.lv===L&&!P.srs[w.k])out.push(w);}}return out;}
 function streak(){let s=0,t=today();const on=k=>P.hist[k]||((P.day||{})[k]&&P.day[k].xp);if(!on(ymd(t)))t-=DAY;while(on(ymd(t))){s++;t-=DAY;}return s;}
 
 /* ================= platform: /api/ai (Groq) and /api/sync (Upstash), locked by the group password ================= */
@@ -218,22 +219,28 @@ function pickVoice(lang,g){
   return sorted.find(v=>genderOk(v)&&voiceScore(v,lang)>=40)||sorted.find(genderOk)||sorted[0];
 }
 const TTS_CACHE=new Map(); let ttsFail=0;
-async function cloudTTS(text,rate,lang,g){
-  if(!WEB||!WEB.tts||ttsFail>=3||!getKey())return false;
-  const key=lang+g+'|'+rate+'|'+text; let url=TTS_CACHE.get(key);
-  if(!url){
-    try{const r=await fetch('api/tts',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({text,rate,lang,voice:g})});
-      if(!r.ok){ttsFail++;return false;}
-      url=URL.createObjectURL(await r.blob());TTS_CACHE.set(key,url);if(TTS_CACHE.size>300){const k=TTS_CACHE.keys().next().value;URL.revokeObjectURL(TTS_CACHE.get(k));TTS_CACHE.delete(k);}
-    }catch(e){ttsFail++;return false;}
-  }
+const ttsOn=()=>!!(WEB&&WEB.tts&&getKey()&&ttsFail<3);
+// fetch (or reuse) the neural voice audio for one line; resolves to a blob URL or null
+function ttsURL(text,rate,lang,g){
+  const key=lang+g+'|'+rate+'|'+text; if(TTS_CACHE.has(key))return TTS_CACHE.get(key);
+  const pr=fetch('api/tts',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({text,rate,lang,voice:g})})
+    .then(async r=>{if(!r.ok)throw new Error('tts '+r.status);ttsFail=0;return URL.createObjectURL(await r.blob());})
+    .catch(()=>{ttsFail++;TTS_CACHE.delete(key);return null;});
+  TTS_CACHE.set(key,pr);
+  if(TTS_CACHE.size>400){const k=TTS_CACHE.keys().next().value;const old=TTS_CACHE.get(k);TTS_CACHE.delete(k);Promise.resolve(old).then(u=>u&&URL.revokeObjectURL(u));}
+  return pr;
+}
+// warm the cache for a line that will be played soon (listening scripts)
+function ttsPrefetch(text,{rate,lang,voice='f'}={}){if(ttsOn())ttsURL(text,rate||P.settings.voiceRate,lang||P.settings.accent||'en-GB',voice);}
+async function cloudTTS(text,rate,lang,g,tok){
+  const url=await ttsURL(text,rate,lang,g); if(!url||tok!==sayToken)return !!url;
   return playURL(url);
 }
 let sayToken=0;
 function say(text,{rate,lang,voice='f'}={}){
   const rr=rate||P.settings.voiceRate, L=lang||P.settings.accent||'en-GB'; stopSay(); const tok=++sayToken;
-  if(WEB&&WEB.tts&&getKey()&&ttsFail<3)return cloudTTS(text,rr,L,voice).then(ok=>ok||tok!==sayToken?undefined:sayLocal(text,{rate:rr,lang:L,voice},tok));
-  return sayLocal(text,{rate:rr,lang:L,voice},tok);
+  if(ttsOn())return cloudTTS(text,rr,L,voice,tok).then(ok=>ok||tok!==sayToken?undefined:sayLocal(text,{rate:rr,lang:L,voice:voice[0]},tok));
+  return sayLocal(text,{rate:rr,lang:L,voice:voice[0]},tok);
 }
 function sayLocal(text,{rate,lang,voice},tok){
   return new Promise(res=>{
@@ -393,7 +400,7 @@ function ipaHTML(w){return P.settings.ipa!==false&&w.ipa?`<span class="ipa">${es
 VIEWS.study=async el=>{
   el.innerHTML='<div class="view"><p class="note">Đang tải từ vựng...</p></div>';
   await Promise.all(P.settings.lv.map(loadLevel));
-  if(!queue.length||!queue.every(w=>P.settings.lv.includes(w.lv)))buildQueue();
+  if(!queue.length||!queue.every(w=>P.settings.lv.includes(w.lv)||w.lv===0))buildQueue();
   el.innerHTML=`<div class="view"><div class="spread"><h2>Thẻ từ vựng</h2>
      <div class="row"><span class="label">Mặt trước</span>${[['en','Tiếng Anh'],['vi','Nghĩa'],['au','Nghe']].map(([m,t])=>`<button class="chip" data-m="${m}" aria-pressed="${P.settings.mode===m}">${t}</button>`).join('')}</div></div>
      ${levelChips(P.settings.lv,s=>{P.settings.lv=s;if(P.plan)P.plan.auto=false;touch('main');queue=[];VIEWS.study(el);},{id:'slv'})}
@@ -472,7 +479,7 @@ VIEWS.dict=async el=>{
   $('#df').value=dfilter;
   const draw=()=>{
     const q=dq.trim().toLowerCase(); const qf=viFold(q);
-    let list=V.filter(w=>dlv.includes(w.lv));
+    let list=V.filter(w=>dlv.includes(w.lv)||w.lv===0);
     if(dtopic)list=list.filter(w=>w.topic===dtopic);
     if(dfilter==='new')list=list.filter(w=>!seen(w.k));else if(dfilter==='seen')list=list.filter(w=>seen(w.k)&&!known(w.k));else if(dfilter==='known')list=list.filter(w=>known(w.k));
     if(q){

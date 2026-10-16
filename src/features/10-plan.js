@@ -73,57 +73,264 @@ function latestBands(){
 }
 function estBand(){const b=latestBands();const o=overallBand([b.listening,b.reading,b.writing,b.speaking].filter(x=>x!=null));return o!=null&&[b.listening,b.reading,b.writing,b.speaking].filter(x=>x!=null).length>=2?o:(b.overall!=null?b.overall:o);}
 
-/* ---------- placement test: vocabulary by level + grammar, gives an estimated band ---------- */
-let PLC=null;
+/* ---------- placement test: objective and adaptive, about 15-18 minutes ----------
+   Sections: 1 vocabulary (meaning in context, adaptive by level), 2 grammar (12 items), 3 reading (2 short timed tasks
+   cut from real passages), 4 optional listening (5 items from one part, played once).
+   Scoring is strict on purpose (the old self-report version inflated bands):
+   - Vocabulary: a level is passed with >= 5/6 right (level 1: >= 4/6). A level below a tested level where the learner got
+     >= 3/6 counts as passed (easier words). Highest passed level: none 4.5, L1 5.0, L2 6.0, L3 7.0, L4 7.5, L5 8.5,
+     +0.5 if level 5 is 6/6. Adaptive path: start at level 2 (level 3 if the last placement band was >= 7), go up on >= 5/6,
+     stop on < 5/6, drop one level on < 3/6 if the test has not gone up yet.
+   - Grammar: 3 items per level 1-4. Highest level L with >= 2/3 right AND >= 2L right over levels 1..L (one lucky level
+     does not count): none 4.5, 1 5.5, 2 6.5, 3 7.5, 4 8.5; 9.0 when level 4 is 3/3.
+   - Reading: task A (non-expert passage, band upper bound <= 7, 5 items, 7 min): 0-1 5.0, 2 5.5, 3 6.0, 4 6.5, 5 7.0.
+     Task B (expert passage, band upper bound >= 9, 5 items, 7 min) only if A >= 3 or vocabulary reached level 4:
+     5 9.0, 4 8.5, 3 8.0, 2 7.5, otherwise keep A.
+   - Listening (optional): <= 1 5.0, 2 6.0, 3 7.0, 4 8.0, 5 9.0 on an expert part (test >= 7); a normal part is capped at 7.5.
+   - Overall = weighted mean (reading .40, listening .25, vocabulary .20, grammar .15; without listening reading .55 and the
+     weights renormalised to sum 1), rounded DOWN to the nearest 0.5, capped at 9. Writing and Speaking are not measured. */
+let PLC=null, PC_tm=null, PC_tok=0;
+const PC_SEC={vocab:'Từ vựng',gram:'Ngữ pháp',read:'Đọc hiểu',listen:'Nghe'};
+const PC_RK=new Set(['tfng','ynng','mcq','sentcomp','sumcomp','notecomp','shortans','matchinfo']);
+const PC_viShort=s=>String(s||'').split(';').map(x=>x.replace(/\(\s*(?:n|v|adj|adv|phr|prep|conj|idiom|phrasal verb|phr v|n phr|v phr)\.?\s*\)/gi,'').replace(/\s{2,}/g,' ').trim()).filter(Boolean).slice(0,2).join('; ');
+const PC_pos=w=>String(w.pos||'').split(/[ ,/]/)[0];
+const PC_reEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+function PC_match(w){
+  const ex=String(w.ex||''), toks=String(w.w).split(/\s+/).filter(t=>t&&!/^(sb|sth|someone|something|one's|sb's|\.\.\.)$/i.test(t));
+  if(!toks.length)return null;
+  const st=t=>{t=t.replace(/[()]/g,'');const s=t.length>5?t.slice(0,-2):t.length>3?t.slice(0,-1):t;return PC_reEsc(s)+"[\\w'-]*";};
+  const tries=[toks.map(st).join("\\s+(?:[\\w'-]+\\s+){0,2}"),st(toks[0])];
+  for(const r of tries){const m=new RegExp('\\b'+r,'i').exec(ex);if(m)return m;}
+  return null;
+}
+function PC_hl(w){const ex=String(w.ex||''),m=PC_match(w);if(!m)return esc(ex);
+  return esc(ex.slice(0,m.index))+'<mark class="pc-hl">'+esc(m[0])+'</mark>'+esc(ex.slice(m.index+m[0].length));}
+function PC_vItem(w){
+  const pos=PC_pos(w), right=PC_viShort(w.vi), seen=new Set([viFold(right)]), ds=[], pool=shuffle(V.filter(x=>x.lv===w.lv&&x!==w));
+  for(const pass of [1,2])for(const x of pool){if(ds.length>=3)break;if(pass===1&&PC_pos(x)!==pos)continue;
+    const t=PC_viShort(x.vi),f=viFold(t);if(!t||seen.has(f))continue;seen.add(f);ds.push(t);}
+  const o=shuffle([right,...ds]);return {k:w.k,o,a:o.indexOf(right)};
+}
+function PC_vBand(res){
+  let top=0;
+  for(let L=1;L<=5;L++){const c=res[L];if(c==null)continue;if(c>=(L===1?4:5))top=Math.max(top,L);else if(c>=3&&L>1&&res[L-1]==null)top=Math.max(top,L-1);}
+  return [4.5,5,6,7,7.5,8.5][top]+(res[5]===6?0.5:0);
+}
+function PC_gBand(res){let top=0,sum=0;for(let L=1;L<=4;L++){sum+=res[L]||0;if((res[L]||0)>=2&&sum>=2*L)top=L;}return top===4&&res[4]===3?9:[4.5,5.5,6.5,7.5,8.5][top];}
+function PC_rBand(a,b){let r=[5,5,5.5,6,6.5,7][a]||5;if(b!=null){const x={5:9,4:8.5,3:8,2:7.5}[b];if(x)r=x;}return r;}
+function PC_lBand(c,expert){const b=[5,5,6,7,8,9][c]||5;return expert?b:Math.min(7.5,b);}
+function PC_overall(v,g,r,l){
+  const x=l!=null?r*.4+l*.25+v*.2+g*.15:(r*.55+v*.2+g*.15)/.9; // without listening the weights sum to .9, so renormalise
+  return Math.min(9,Math.floor(x*2+1e-9)/2);
+}
+function PC_rdItems(p,S){
+  const out=[];p.groups.forEach((g,gi)=>{if(!PC_RK.has(g.kind))return;g.items.forEach((it,ii)=>{if(!S.includes(it.para))return;if(g.kind==='matchinfo'&&!S.includes(it.a))return;out.push({gi,ii});});});
+  return out;
+}
+function PC_instr(g,S){
+  const lim=(String(g.instr).match(/(?:Choose|Write)[^.]*?for each answer\./i)||['Choose NO MORE THAN TWO WORDS from the passage for each answer.'])[0];
+  return {tfng:'Do the following statements agree with the information given in the text?\nWrite TRUE, FALSE or NOT GIVEN.',
+    ynng:'Do the following statements agree with the claims of the writer?\nWrite YES, NO or NOT GIVEN.',
+    mcq:'Choose the correct letter, A, B, C or D.',
+    matchinfo:`Which paragraph contains the following information?\nChoose the correct letter, ${S[0]}-${S[S.length-1]}.`,
+    sentcomp:'Complete the sentences below.\n'+lim, sumcomp:'Complete the summary below.\n'+lim, notecomp:'Complete the notes below.\n'+lim,
+    shortans:'Answer the questions below.\n'+lim}[g.kind];
+}
+function PC_rdTask(R,expert,avoid){
+  const ok=p=>expert?TS_bandHi(p.band)>=9:TS_bandHi(p.band)<=7, cands=[];
+  R.forEach(p=>{if(!ok(p)||p.id===avoid)return;const labs=p.paras.map(x=>x[0]);
+    [2,3].forEach(w=>{for(let i=0;i+w<=labs.length;i++){const S=labs.slice(i,i+w),its=PC_rdItems(p,S);if(its.length>=5)cands.push({p,S,its});}});});
+  const mine=cands.filter(c=>c.p.type===examType()), c=pick(mine.length?mine:cands);if(!c)return null;
+  const keep=new Set(shuffle(c.its.map((_,i)=>i)).slice(0,5)), its=c.its.filter((_,i)=>keep.has(i));
+  return {pid:c.p.id,S:c.S,sel:its,A:{},left:420,sub:false,raw:0};
+}
+function PC_rdSec(R,t){
+  const p=R.find(x=>x.id===t.pid), by={};
+  t.sel.forEach(({gi,ii})=>{(by[gi]=by[gi]||[]).push(p.groups[gi].items[ii]);});
+  const groups=Object.keys(by).map(Number).sort((a,b)=>a-b).map(gi=>{const g=p.groups[gi];return {kind:g.kind,instr:PC_instr(g,t.S),opts:g.opts,items:by[gi]};});
+  return {sid:'pc'+t.pid,src:'Bài xếp lớp - Reading',groups,start:1,paras:t.S,p};
+}
+function PC_lsTask(L,expert){
+  const ps=L.filter(p=>expert?LS_isX(p.test)&&p.part>=2:(p.part===2||p.part===3)&&!LS_isX(p.test));
+  const p=pick(ps.length?ps:L.filter(x=>x.part===2||x.part===3));
+  return {pid:p.id,x:LS_isX(p.test),A:{},started:false,ended:false,sub:false,raw:0};
+}
+function PC_lsSec(L,t){
+  const p=L.find(x=>x.id===t.pid);let n=0;
+  const groups=p.groups.map(g=>{const items=[];g.items.forEach(it=>{const c=g.kind==='multi'?2:1;if(n+c<=5){items.push(it);n+=c;}});return Object.assign({},g,{items,instr:String(g.instr).replace(/^\s*Questions?\s+\d+(?:\s*-\s*\d+)?[.:]?\s*/i,'')});}).filter(g=>g.items.length);
+  return {sid:'pcl'+p.id,src:'Bài xếp lớp - Listening',groups,start:1,p};
+}
+/* right answers for a TS section, in a form the debug hook can type or click */
+function PC_rights(sec){
+  const out=[];sec.groups.forEach((g,gi)=>g.items.forEach((it,ii)=>{const k=sec.sid+'.'+gi+'.'+ii;
+    out.push({k,kind:g.kind,v:TS_GAP.has(g.kind)?String(it.a).split('|')[0]:g.kind==='multi'?it.a:g.kind==='matchinfo'?it.a:TS_TF[g.kind]?it.a:g.kind==='mcq'?it.a:String(it.a)});}));
+  return out;
+}
+
 VIEWS.placement=async el=>{
   el.innerHTML='<div class="view"><p class="note">Đang chuẩn bị bài xếp lớp...</p></div>';
-  await loadAllVocab(); const gram=await loadJSON('grammar');
-  if(!PLC){PLC={step:'intro',L:1,i:0,items:[],stats:{},gi:0,gItems:[],gOk:0};}
-  const startLv=()=>{const pool=V.filter(w=>w.lv===PLC.L&&!P.srs[w.k]);PLC.items=shuffle(pool).slice(0,12);PLC.i=0;PLC.stats[PLC.L]={yes:0,ok:0,chk:0,n:0};PLC.step='vocab';draw();};
-  const startGram=()=>{const by=L=>shuffle(gram.filter(g=>g.lv===L)).slice(0,L===1?3:L===2?3:L===3?4:4).map(g=>Object.assign({lv:L},pick(g.quiz)));PLC.gItems=[...by(1),...by(2),...by(3),...by(4)];PLC.gi=0;PLC.gOk=0;PLC.step='gram';draw();};
-  const mark=w=>{const iv=7+Math.floor(Math.random()*14);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};touch('main');};
-  const finish=()=>{
-    const vr=L=>{const s=PLC.stats[L];if(!s||!s.n)return 0;const acc=s.chk?s.ok/s.chk:1;return s.yes/s.n*acc;};
-    const vScore=vr(1)*1+vr(2)*1.2+vr(3)*1.4+vr(4)*1.6+vr(5)*1.8; // 0..7
-    const gScore=PLC.gItems.length?PLC.gOk/PLC.gItems.length:0;
-    let band=4+vScore*0.48+gScore*1.6; band=Math.max(4,Math.min(9,Math.round(band*2)/2));
-    P.placeBand=band;P.placed=1;recordScore({skill:'overall',band,title:'Bài xếp lớp',raw:PLC.gOk,total:PLC.gItems.length});
-    const c=plCfg();if(c.target<=band)c.target=Math.min(9,band+1);c.auto=true;plApply();
-    const knownLv=LVS.filter(L=>vr(L)>=0.8);
-    el.innerHTML=`<div class="view"><h2>Kết quả xếp lớp</h2><div class="panel place-res">${mascot('yay',110)}<div><span class="label">Band ước lượng</span><div class="band-big">${fmtBand(band)}</div>
-      <p class="note">Ước lượng dựa trên vốn từ và ngữ pháp, chưa tính Listening, Reading, Writing, Speaking thật. Làm một bài thi thử để có số chính xác hơn.</p></div></div>
-      <div class="panel"><h3>Lộ trình gợi ý</h3><p class="small" style="margin:0">Mục tiêu band <b>${c.target.toFixed(1)}</b>. Từ vựng học: ${P.settings.lv.map(L=>LV_NAME[L]).join(', ')}. ${knownLv.length?`Bạn nắm khá chắc nhóm ${knownLv.map(L=>LV_NAME[L]).join(', ')}.`:''}</p>
-      <div class="row">${knownLv.length?`<button class="btn" id="pcAll">Đánh dấu cả nhóm ${knownLv.map(L=>LV_NAME[L]).join(', ')} là đã biết</button>`:''}<button class="btn" id="pcPlan">Đổi lộ trình</button><button class="btn primary" id="pcGo">Bắt đầu học</button></div></div></div>`;
-    const all=$('#pcAll');if(all)all.onclick=()=>{let n=0;V.filter(w=>knownLv.includes(w.lv)&&!P.srs[w.k]).forEach(w=>{const iv=5+Math.floor(Math.random()*25);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};n++;});touch('main');all.remove();toast('Đã đánh dấu '+n+' từ. Chúng vẫn quay lại rải rác để kiểm tra.',4000);};
-    $('#pcPlan').onclick=plSettings;$('#pcGo').onclick=()=>{PLC=null;queue=[];go('home');};
-    touch('main');PLC.step='done';
+  let gram,R,LIS;
+  try{await loadAllVocab();[gram,R,LIS]=await Promise.all([loadJSON('grammar'),loadJSON('reading'),loadJSON('listening')]);}
+  catch(e){el.innerHTML='<div class="view"><p class="note">Không tải được dữ liệu. Kiểm tra mạng rồi thử lại.</p></div>';return;}
+  if(!PLC||PLC.step==='done')PLC={step:'intro',v:{L:0,items:[],i:0,res:{},n:0,up:false},g:{items:[],i:0,res:{1:0,2:0,3:0,4:0}},r:{a:null,b:null,cur:'a'},l:null,lsOn:null};
+  const stopAll=()=>{PC_tm&&PC_tm.stop();PC_tm=null;PC_tok++;stopSay();document.onkeydown=null;};
+  window.__leave=stopAll;
+  const mark=w=>{if(P.srs[w.k])return;const iv=7+Math.floor(Math.random()*14);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};};
+  const vB=()=>PC_vBand(PLC.v.res), gB=()=>PC_gBand(PLC.g.res);
+  const rB=()=>PLC.r.a&&PLC.r.a.sub?PC_rBand(PLC.r.a.raw,PLC.r.b&&PLC.r.b.sub?PLC.r.b.raw:null):null;
+  const head=()=>{
+    const s=PLC.step, cur=s==='vocab'?'vocab':s==='gram'?'gram':s==='listen'?'listen':'read', secs=['vocab','gram','read','listen'];
+    const idx=secs.indexOf(cur), nSec=PLC.lsOn?4:3, v=PLC.v;
+    const frac=cur==='vocab'?Math.min(.95,v.n/24):cur==='gram'?PLC.g.i/12:cur==='read'?(s==='lsAsk'?1:PLC.r.cur==='b'?.5+(PLC.r.b&&PLC.r.b.sub?.5:0):(PLC.r.a&&PLC.r.a.sub?.5:0)):(PLC.l&&PLC.l.sub?1:PLC.l&&PLC.l.started?.5:0);
+    const pct=Math.min(100,(idx+frac)/nSec*100);
+    return `<div class="pc-top"><div class="spread"><h2>Bài xếp lớp</h2><span class="note num">Phần ${idx+1}/${nSec} - ${PC_SEC[cur]}</span></div>
+      <div class="pc-bar" role="progressbar" aria-valuenow="${Math.round(pct)}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
+      <div class="pc-secs">${secs.map((x,i)=>`<span class="pc-sec ${i<idx?'done':i===idx?'cur':''}">${PC_SEC[x]}${x==='listen'&&PLC.lsOn==null?' (tùy chọn)':''}</span>`).join('')}</div></div>`;
+  };
+  /* ---- vocabulary ---- */
+  const vStart=L=>{
+    const v=PLC.v;v.L=L;v.i=0;v.res[L]=0;
+    const cand=V.filter(w=>w.lv===L&&w.ex&&w.vi), fresh=cand.filter(w=>!P.srs[w.k]), pool=shuffle(fresh.length>=30?fresh:cand), pickd=[];
+    for(const w of pool){if(pickd.length>=6)break;if(PC_match(w))pickd.push(w);}
+    v.items=pickd.map(PC_vItem);PLC.step='vocab';draw();
+  };
+  const vNext=()=>{const v=PLC.v,L=v.L,c=v.res[L];let nx=0;
+    if(c>=5&&L<5&&v.res[L+1]==null){nx=L+1;v.up=true;}
+    else if(c<3&&L>1&&v.res[L-1]==null&&!v.up)nx=L-1;
+    if(nx)vStart(nx);else gStart();};
+  const gStart=()=>{
+    const by=L=>shuffle(gram.filter(g=>g.lv===L&&g.quiz&&g.quiz.length)).slice(0,3).map(g=>Object.assign({lv:L,gid:g.id},pick(g.quiz)));
+    PLC.g.items=[1,2,3,4].flatMap(by);PLC.g.i=0;PLC.step='gram';draw();};
+  const rStart=k=>{const t=PC_rdTask(R,k==='b',PLC.r.a&&PLC.r.a.pid);if(!t){PLC.step='lsAsk';draw();return;}PLC.r[k]=t;PLC.r.cur=k;PLC.step='read';draw();};
+  const afterRead=()=>{const a=PLC.r.a;
+    if(PLC.r.cur==='a'&&(a.raw>=3||PLC.v.res[4]!=null))rStart('b');else{PLC.step='lsAsk';draw();}};
+  const optKeys=n=>{document.onkeydown=e=>{if(current!=='placement')return;const i=+e.key-1;const b=$$('.pc-opts .opt',el)[i];if(i>=0&&i<n&&b&&!b.disabled)b.click();};};
+  const answerUI=(right,picked,next)=>{
+    $$('.pc-opts .opt',el).forEach((b,k)=>{b.disabled=true;if(k===right)b.classList.add('right');else if(k===picked)b.classList.add('wrong');});
+    const dk=$('#pcDk',el);if(dk)dk.disabled=true;
+    setTimeout(next,picked===right?380:900);
   };
   const draw=()=>{
-    if(PLC.step==='intro'){el.innerHTML=`<div class="view"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 8 phút: phần 1 nhìn từ và chọn Biết hay Không biết, thỉnh thoảng Jack hỏi lại nghĩa để kiểm tra. Phần 2 là 14 câu ngữ pháp, khó dần tới mức band 9. Cứ trả lời thật, đừng đoán.',72)}
-      <div class="row"><button class="btn primary" id="pcStart">Bắt đầu</button><button class="btn ghost" id="pcSkip">Để sau</button></div></div>`;
-      $('#pcStart').onclick=startLv;$('#pcSkip').onclick=()=>{PLC=null;go('home');};return;}
-    if(PLC.step==='gram'){
-      const x=PLC.gItems[PLC.gi]; if(!x){finish();return;}
-      el.innerHTML=`<div class="view"><div class="spread"><h2>Xếp lớp - Ngữ pháp</h2><span class="note num">${PLC.gi+1}/${PLC.gItems.length}</span></div>
-        <div class="panel qz"><div class="qz-q en-s">${esc(x.s)}</div><div class="opts">${x.o.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div></div>
-        <button class="btn ghost sm" id="pcEnd">Dừng và xem kết quả</button></div>`;
-      $$('[data-k]',el).forEach(b=>b.onclick=()=>{if(+b.dataset.k===x.a)PLC.gOk++;PLC.gi++;draw();});
-      $('#pcEnd').onclick=finish;return;}
-    const w=PLC.items[PLC.i]; const st=PLC.stats[PLC.L];
-    if(!w){const ratio=st.n?st.yes/st.n*(st.chk?st.ok/st.chk:1):0;
-      if(ratio>=0.55&&PLC.L<5){PLC.L++;startLv();}else startGram();return;}
-    el.innerHTML=`<div class="view"><div class="spread"><h2>Xếp lớp - Từ vựng ${LV_NAME[PLC.L]}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
-      <div class="card" style="min-height:240px"><div class="big en">${esc(w.w)}</div><div class="row" style="margin-top:auto"><button class="btn" id="pcNo">Không biết <span class="kbd">1</span></button><button class="btn primary" id="pcYes">Biết <span class="kbd">2</span></button></div></div>
-      <button class="btn ghost sm" id="pcG">Bỏ qua phần từ vựng</button></div>`;
-    const no=()=>{st.n++;PLC.i++;draw();};
-    const yes=()=>{st.n++;
-      if(st.n%3===0){const o=shuffle([w,...shuffle(V.filter(x=>x.lv===w.lv&&x.vi!==w.vi)).slice(0,3)]);
-        $('.card',el).innerHTML=`<div class="big en">${esc(w.w)}</div><p class="note">Kiểm tra nhanh: nghĩa là gì?</p><div class="opts" style="width:100%">${o.map((x,k)=>`<button class="opt" data-k="${k}">${esc(x.vi)}</button>`).join('')}</div>`;
-        $$('[data-k]',el).forEach(b=>b.onclick=()=>{st.chk++;if(o[+b.dataset.k]===w){st.ok++;st.yes++;mark(w);}PLC.i++;draw();});return;}
-      st.yes++;mark(w);PLC.i++;draw();};
-    $('#pcNo').onclick=no;$('#pcYes').onclick=yes;$('#pcG').onclick=startGram;
-    window.__leave=()=>{document.onkeydown=null;};
-    document.onkeydown=e=>{if(current!=='placement'||!$('#pcYes'))return;if(e.key==='1')no();if(e.key==='2')yes();};
+    stopAll();window.scrollTo(0,0);
+    const s=PLC.step;
+    window.__pcDebug={step:s,right:null};
+    if(s==='intro'){
+      el.innerHTML=`<div class="view pc"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 15 đến 18 phút, chấm hoàn toàn khách quan: chọn nghĩa đúng của từ trong câu (khó dần theo trình độ của bạn), 12 câu ngữ pháp, rồi 1 đến 2 đoạn đọc ngắn có đồng hồ 7 phút. Cuối cùng có thể làm thêm 5 phút nghe. Không biết thì bấm "Mình không biết", đừng đoán, kết quả sẽ sát hơn.',72)}
+        <div class="panel"><h3>Cách tính điểm</h3><p class="small" style="margin:0">Band ước lượng lấy chủ yếu từ phần đọc (và nghe nếu bạn làm), cộng thêm từ vựng và ngữ pháp, rồi làm tròn xuống. Bài này không đo Writing và Speaking.</p></div>
+        <div class="row"><button class="btn primary" id="pcStart">Bắt đầu</button><button class="btn ghost" id="pcSkip">Để sau</button></div></div>`;
+      $('#pcStart',el).onclick=()=>vStart(P.placeBand>=7?3:2);$('#pcSkip',el).onclick=()=>{PLC=null;go('home');};return;}
+    if(s==='vocab'){
+      const v=PLC.v, x=v.items[v.i];if(!x){vNext();return;}
+      const w=VI.get(x.k);
+      el.innerHTML=`<div class="view pc">${head()}
+        <div class="panel pc-q"><div class="spread"><span class="pill">${esc(LV_NAME[v.L])}</span><span class="note num">Câu ${v.i+1}/6</span></div>
+          <div class="pc-w en">${esc(w.w)} <span class="small muted">${esc(w.pos)}</span></div>
+          <p class="pc-ex en-s">${PC_hl(w)}</p>
+          <p class="note">Từ được tô trong câu có nghĩa là gì?</p>
+          <div class="opts pc-opts">${x.o.map((o,k)=>`<button class="opt" data-k="${k}"><span class="kbd">${k+1}</span> ${esc(o)}</button>`).join('')}</div>
+          <button class="btn ghost sm pc-dk" id="pcDk">Mình không biết từ này</button></div></div>`;
+      window.__pcDebug.right=x.a;
+      const ans=k=>{const ok=k===x.a;v.n++;if(ok){v.res[v.L]++;mark(w);}else window.__mistake&&window.__mistake('word',w.k);touch('main');
+        answerUI(x.a,k,()=>{v.i++;draw();});};
+      $$('.pc-opts .opt',el).forEach(b=>b.onclick=()=>ans(+b.dataset.k));$('#pcDk',el).onclick=()=>ans(-1);optKeys(x.o.length);return;}
+    if(s==='gram'){
+      const g=PLC.g, x=g.items[g.i];if(!x){rStart('a');return;}
+      const parts=String(x.s).split(/_{3,}/);
+      el.innerHTML=`<div class="view pc">${head()}
+        <div class="panel pc-q"><div class="spread"><span class="note">Chọn từ đúng cho chỗ trống</span><span class="note num">Câu ${g.i+1}/${g.items.length}</span></div>
+          <p class="pc-gs en-s">${parts.map(esc).join('<span class="pc-gap">&nbsp;</span>')}</p>
+          <div class="opts pc-opts">${x.o.map((o,k)=>`<button class="opt en" data-k="${k}"><span class="kbd">${k+1}</span> ${esc(o)}</button>`).join('')}</div>
+          <button class="btn ghost sm pc-dk" id="pcDk">Mình không chắc</button></div></div>`;
+      window.__pcDebug.right=x.a;
+      const ans=k=>{const ok=k===x.a;const it={q:x.s,o:x.o,a:x.a,w:x.w,src:'Bài xếp lớp - Ngữ pháp'};
+        if(ok){g.res[x.lv]++;window.__mistOk&&window.__mistOk(it);}else window.__mistake&&window.__mistake('q',it);
+        answerUI(x.a,k,()=>{g.i++;draw();});};
+      $$('.pc-opts .opt',el).forEach(b=>b.onclick=()=>ans(+b.dataset.k));$('#pcDk',el).onclick=()=>ans(-1);optKeys(x.o.length);return;}
+    if(s==='read'){
+      const t=PLC.r[PLC.r.cur], sec=PC_rdSec(R,t), p=sec.p, x=PLC.r.cur==='b';
+      el.innerHTML=`<div class="view pc">${head()}
+        <div class="panel pc-rh"><div class="spread"><h3>Bài đọc ${x?'2 - mức khó':'1'}</h3><span class="timer-chip" id="pcTm">${ic('clock')}<span id="pcTmT">${fmtTime(t.left)}</span></span></div>
+          <p class="note">Đoạn trích ${t.S.length} đoạn từ một bài ${p.type==='general'?'General Training':'Academic'} thật${x?' mức band 8.5-9':''}. Trả lời 5 câu trong 7 phút, hết giờ bài tự nộp.</p></div>
+        <div class="pc-rd"><article class="panel pc-pass"><span class="label">Đoạn ${t.S[0]}-${t.S[t.S.length-1]}</span><h3 class="en">${esc(p.title)}</h3>
+          ${p.paras.filter(q=>t.S.includes(q[0])).map(([l,tx])=>`<p class="rd-p en-s"><b class="rd-l">${esc(l)}</b>${esc(tx)}</p>`).join('')}</article>
+          <section class="panel ts-qs pc-qs" id="pcQ">${TS_qHTML(sec,t.A)}</section></div>
+        <div id="pcAfter" class="row"><button class="btn primary" id="pcSub">Nộp phần này</button></div></div>`;
+      const q=$('#pcQ',el);
+      window.__pcDebug.right=PC_rights(sec);
+      const submit=()=>{if(t.sub)return;t.sub=true;PC_tm&&PC_tm.stop();
+        const res=TS_mark(sec,t.A);t.raw=res.filter(r=>r.ok).length;TS_log(res);touch('main');
+        TS_applyMarks(q,res);$('#pcTm',el).hidden=true;
+        $('#pcAfter',el).innerHTML=`<p class="note pc-sc">Bạn đúng <b class="num">${t.raw}/5</b> câu. Xem giải thích ở từng câu nếu muốn.</p><button class="btn primary" id="pcNext">Tiếp tục ${ic('chevron-right')}</button>`;
+        $('#pcNext',el).onclick=afterRead;};
+      if(t.sub){t.sub=false;submit();return;}
+      TS_bind(q,t.A,null);
+      $('#pcSub',el).onclick=submit;
+      PC_tm=makeTimer(t.left,l=>{t.left=l;const e=$('#pcTmT',el);if(e){e.textContent=fmtTime(l);$('#pcTm',el).classList.toggle('low',l<=60);}},()=>{toast('Hết 7 phút. Phần đọc đã được nộp.');submit();});
+      return;}
+    if(s==='lsAsk'){
+      const well=(rB()||0)>=7.5||(vB()>=7&&(rB()||0)>=7);
+      el.innerHTML=`<div class="view pc">${head()}${mcSay('ok','Xong phần đọc. Bạn có muốn làm thêm 5 phút nghe không? Bài nghe phát một lần, có 5 câu hỏi. Nếu bỏ qua, kết quả sẽ không tính Listening.',64)}
+        <div class="row"><button class="btn primary" id="pcLs">${ic('headphones')} Thêm phần nghe 5 phút</button><button class="btn" id="pcNoLs">Bỏ qua, xem kết quả</button></div></div>`;
+      $('#pcLs',el).onclick=()=>{PLC.lsOn=true;PLC.l=PC_lsTask(LIS,well);PLC.step='listen';draw();};
+      $('#pcNoLs',el).onclick=()=>{PLC.lsOn=false;finish();};return;}
+    if(s==='listen'){
+      const t=PLC.l, sec=PC_lsSec(LIS,t), p=sec.p, lines=p.lines.map(([id,tx])=>({sp:LS_spk(p,id),t:tx}));
+      el.innerHTML=`<div class="view pc">${head()}
+        <div class="panel pc-lp"><div class="spread"><h3>Nghe Part ${p.part}</h3><span class="timer-chip" id="pcTm" hidden>${ic('clock')}<span id="pcTmT"></span></span></div>
+          <p class="note">${esc(p.setting)}</p>
+          <div class="row pc-play"><button class="btn primary" id="pcPlay">${ic('play')} Phát bài nghe</button><span class="small muted" id="pcLsMeta">Bài nghe chỉ phát một lần. Đọc trước câu hỏi rồi bấm phát.</span></div>
+          <div class="pc-bar sm"><i id="pcLsFill" style="width:0"></i></div></div>
+        <section class="panel ts-qs pc-qs" id="pcQ">${TS_qHTML(sec,t.A)}</section>
+        <div id="pcAfter" class="row"><button class="btn primary" id="pcSub">Nộp phần nghe</button></div></div>`;
+      const q=$('#pcQ',el), meta=$('#pcLsMeta',el), fill=$('#pcLsFill',el), pb=$('#pcPlay',el);
+      window.__pcDebug.right=PC_rights(sec);
+      const submit=()=>{if(t.sub)return;t.sub=true;PC_tok++;stopSay();PC_tm&&PC_tm.stop();
+        const res=TS_mark(sec,t.A);t.raw=res.filter(r=>r.ok).length;TS_log(res);touch('main');
+        TS_applyMarks(q,res);$('#pcTm',el).hidden=true;pb.disabled=true;
+        $('#pcAfter',el).innerHTML=`<p class="note pc-sc">Bạn đúng <b class="num">${t.raw}/5</b> câu.</p><button class="btn primary" id="pcNext">Xem kết quả ${ic('chevron-right')}</button>`;
+        $('#pcNext',el).onclick=finish;};
+      if(t.sub){t.sub=false;submit();return;}
+      TS_bind(q,t.A,null);
+      $('#pcSub',el).onclick=submit;
+      const check=()=>{const tm=$('#pcTm',el);tm.hidden=false;
+        PC_tm=makeTimer(45,l=>{const e=$('#pcTmT',el);if(e){e.textContent=fmtTime(l);tm.classList.toggle('low',l<=15);}},()=>{toast('Hết giờ. Phần nghe đã được nộp.');submit();});};
+      if(t.started){pb.disabled=true;meta.textContent=t.ended?'Bài nghe đã phát xong. Kiểm tra lại rồi nộp.':'Bài nghe đã dừng khi bạn rời trang. Hãy nộp phần nghe.';fill.style.width='100%';if(t.ended)check();return;}
+      pb.onclick=async()=>{if(t.started)return;t.started=true;pb.disabled=true;const my=++PC_tok;
+        for(let j=0;j<lines.length;j++){const x=lines[j];meta.textContent=`Đang phát ${j+1}/${lines.length} · ${x.sp.name}`;fill.style.width=(j/lines.length*100)+'%';
+          await say(x.t,{lang:x.sp.accent,voice:x.sp.voice});if(my!==PC_tok)return;
+          const nx=lines[j+1];if(nx){await new Promise(r=>setTimeout(r,nx.sp!==x.sp?700:300));if(my!==PC_tok)return;}}
+        t.ended=true;fill.style.width='100%';meta.textContent='Bài nghe đã kết thúc. Bạn có 45 giây kiểm tra lại.';check();};
+      return;}
+  };
+  const finish=()=>{
+    stopAll();
+    const v=PLC.v,g=PLC.g,ra=PLC.r.a,rb=PLC.r.b&&PLC.r.b.sub?PLC.r.b:null,l=PLC.l&&PLC.l.sub?PLC.l:null;
+    const vb=vB(), gb=gB(), rbd=rB()||5, lb=l?PC_lBand(l.raw,l.x):null, band=PC_overall(vb,gb,rbd,lb);
+    const rRaw=(ra?ra.raw:0)+(rb?rb.raw:0), rTot=5+(rb?5:0);
+    P.placeBand=band;P.placed=1;
+    recordScore({skill:'overall',band,title:'Bài xếp lớp',detail:{vocab:vb,grammar:gb,reading:rbd,listening:lb}});
+    recordScore({skill:'reading',band:rbd,raw:rRaw,total:rTot,id:'placement',title:'Bài xếp lớp'});
+    if(l)recordScore({skill:'listening',band:lb,raw:l.raw,total:5,id:'placement',title:'Bài xếp lớp'});
+    const c=plCfg();if(c.target<=band)c.target=Math.min(9,band+1);c.auto=true;plApply();
+    award('test',1);
+    const knownLv=LVS.filter(L=>v.res[L]===6);
+    const top=Object.keys(v.res).map(Number).sort((a,b)=>b-a)[0];
+    const rows=[
+      ['Đọc hiểu',rbd,`Bài 1: ${ra?ra.raw:0}/5${rb?`, bài 2 (mức khó): ${rb.raw}/5`:''}`],
+      ['Nghe',lb,l?`${l.raw}/5 câu, ${l.x?'đề mức khó':'đề thường (tối đa 7.5)'}`:'Bạn đã bỏ qua, kết quả không tính Listening'],
+      ['Từ vựng',vb,LVS.filter(L=>v.res[L]!=null).map(L=>`${LV_NAME[L]} ${v.res[L]}/6`).join(', ')],
+      ['Ngữ pháp',gb,[1,2,3,4].map(L=>`mức ${L}: ${g.res[L]}/3`).join(', ')]];
+    el.innerHTML=`<div class="view pc"><h2>Kết quả xếp lớp</h2>
+      <div class="panel place-res">${mascot(band>=7?'yay':'ok',110)}<div><span class="label">Band ước lượng</span><div class="band-big">${fmtBand(band)}</div>
+        <p class="note">Sai số khoảng ±0.5. Chưa tính Writing và Speaking${l?'':', chưa tính Listening'}. Muốn biết chính xác hơn, hãy làm một bài thi thử đầy đủ.</p></div></div>
+      <div class="panel"><h3>Từng phần</h3><div class="pc-rows">${rows.map(([n,b,d])=>`<div class="pc-row"><span class="pc-rn">${n}</span><b class="num pc-rb">${b==null?'-':fmtBand(b)}</b><span class="small muted pc-rd2">${esc(d)}</span></div>`).join('')}</div>
+        <p class="note">Band chung lấy Đọc ${l?'40%, Nghe 25%':'55%'}, Từ vựng 20%, Ngữ pháp 15%, rồi làm tròn xuống 0.5.</p></div>
+      <div class="panel"><h3>Lộ trình gợi ý</h3><p class="small" style="margin:0">Mục tiêu band <b>${c.target.toFixed(1)}</b>. Từ vựng học: ${P.settings.lv.map(L=>LV_NAME[L]).join(', ')}.${knownLv.length?` Bạn trả lời đúng hết nhóm ${knownLv.map(L=>LV_NAME[L]).join(', ')}.`:''} Từ bạn chọn đúng đã được đánh dấu là đã biết, từ sai đã vào sổ lỗi.</p>
+        <div class="row">${knownLv.length?`<button class="btn" id="pcAll">Đánh dấu cả nhóm ${knownLv.map(L=>LV_NAME[L]).join(', ')} là đã biết</button>`:''}<button class="btn" id="pcMock">${ic('clipboard-check')} Làm bài thi thử</button><button class="btn" id="pcPlan">Đổi lộ trình</button><button class="btn primary" id="pcGo">Bắt đầu học</button></div></div></div>`;
+    window.__pcDebug={step:'done',band,vb,gb,rb:rbd,lb,top};
+    const all=$('#pcAll',el);if(all)all.onclick=()=>{let n=0;V.filter(w=>knownLv.includes(w.lv)&&!P.srs[w.k]).forEach(w=>{const iv=5+Math.floor(Math.random()*25);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};n++;});touch('main');all.remove();toast('Đã đánh dấu '+n+' từ. Chúng vẫn quay lại rải rác để kiểm tra.',4000);};
+    $('#pcPlan',el).onclick=plSettings;$('#pcMock',el).onclick=()=>{PLC=null;go('test');};$('#pcGo',el).onclick=()=>{PLC=null;queue=[];go('home');};
+    PLC.step='done';touch('main');
   };
   draw();
 };
