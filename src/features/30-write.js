@@ -177,10 +177,61 @@ function WR_helpHTML(x){
   }
   return `<details class="g wr-det"><summary>${ic('lightbulb')} Gợi ý dàn ý</summary><div class="wr-dbody">${notes}</div></details>
   <details class="g wr-det"><summary>${ic('book-a')} Cụm từ hay</summary><div class="wr-dbody"><div class="wr-phr">${phrases.map(([en,vi])=>`<div class="wr-ph"><button class="spk sm" data-say="${esc(en)}" aria-label="Nghe">${SPK}</button><div><b class="en">${esc(en)}</b><span class="note">${esc(vi)}</span></div></div>`).join('')}</div></div></details>
-  <details class="g wr-det" id="wrModelD"><summary>${ic('award')} Bài mẫu band 8</summary><div class="wr-dbody">${WR_modelHTML(x)}</div></details>`;
+  <details class="g wr-det" id="wrModelD"><summary>${ic('award')} Bài mẫu band 8 và band 9</summary><div class="wr-dbody">${WR_models(x)}</div></details>`;
 }
 function WR_modelHTML(x){
   return `<div class="row"><button class="spk" data-say="${esc(x.model||'')}" aria-label="Nghe bài mẫu">${SPK}</button><span class="note">Nghe đọc bài mẫu, ${countWords(x.model||'')} từ</span></div><div class="en-s wr-model">${WR_paras(x.model)}</div>`;
+}
+/* band 9 pack: default to band 9 for high targets or strong recent writing */
+function WR_pref9(){
+  try{const t=+plCfg().target||0, w=latestBands().writing; return t>=8.5||(w!=null&&w>=7.5);}catch(e){return false;}
+}
+const WR_hi9=()=>{try{return (+plCfg().target||0)>=8.5;}catch(e){return false;}};
+/* quoted phrases in a why9 explanation: "..." or “...”, split on ellipses */
+function WR_quotes(v){
+  const out=[]; const re=/"([^"]{3,})"|“([^”]{3,})”/g; let m;
+  while((m=re.exec(String(v||''))))String(m[1]||m[2]).split(/\s*(?:\.\.\.|…)\s*/).forEach(f=>{f=f.trim().replace(/^[,.;:]+|[,.;:]+$/g,'').trim();if(f.length>=4)out.push(f);});
+  return out;
+}
+/* essay text with why9 phrases marked (soft orange); returns paragraph html */
+function WR_hlText(text,why){
+  text=String(text||''); const rs=[];
+  (why||[]).forEach((w,k)=>WR_quotes(w&&w[1]).forEach(q=>{const f=WR_findRange(text,q);if(!f)return;const s=f[0],e=f[0]+f[1];
+    if(text.slice(s,e).includes('\n'))return; if(rs.some(r=>s<r.e&&e>r.s))return; rs.push({s,e,k});}));
+  rs.sort((a,b)=>a.s-b.s);
+  const seen=new Set(); let h='',p=0;
+  rs.forEach(r=>{h+=esc(text.slice(p,r.s));const first=!seen.has(r.k);seen.add(r.k);
+    h+=`<mark class="wr-hl9" data-w="${r.k}">${esc(text.slice(r.s,r.e))}${first?`<sup>${r.k+1}</sup>`:''}</mark>`;p=r.e;});
+  h+=esc(text.slice(p));
+  return h.split(/\n\s*\n/).map(t=>`<p>${t.trim().replace(/\n/g,'<br>')}</p>`).join('');
+}
+function WR_whyHTML(why){
+  return `<ol class="wr-why9">${(why||[]).map(([f,v],k)=>`<li data-w="${k}"><span class="wr-wn">${k+1}</span><div><b class="en">${esc(f)}</b><span>${esc(v)}</span></div></li>`).join('')}</ol>`;
+}
+function WR_model9HTML(x,o){
+  o=o||{}; const t=x.model9||x.sample9||'';
+  if(!t)return '<p class="note">Chưa có bài mẫu band 9 cho đề này.</p>';
+  return `<div class="row"><button class="spk" data-say="${esc(t)}"${o.voice?` data-voice="${o.voice}"`:''} aria-label="Nghe bài mẫu band 9">${SPK}</button><span class="note">Nghe đọc bài mẫu band 9, ${countWords(t)} từ</span></div>
+    <div class="en-s wr-model wr-m9">${WR_hlText(t,x.why9)}</div>
+    ${(x.why9||[]).length?`<div class="wr-b9s"><h4>Vì sao đạt band 9</h4><p class="note">Các cụm được tô cam trong bài ứng với từng ý dưới đây.</p>${WR_whyHTML(x.why9)}</div>`:''}
+    ${x.band8vs9?`<div class="wr-b9s"><h4>Khác gì band 8</h4><p class="wr-vs">${esc(x.band8vs9)}</p></div>`:''}`;
+}
+/* two-tab switch: [[label, html, is9], ...] */
+function WR_switch(tabs,def9){
+  const on=tabs.findIndex(t=>!!t[2]===!!def9), cur=on<0?0:on;
+  return `<div class="wr-sw">${tabs.length>1?`<div class="row wr-swt" role="tablist">${tabs.map((t,i)=>`<button type="button" class="chip" role="tab" data-swi="${i}" aria-pressed="${i===cur}">${t[0]}</button>`).join('')}</div>`:''}
+    ${tabs.map((t,i)=>`<div class="wr-swp" data-swp="${i}"${i===cur?'':' hidden'}>${t[1]}</div>`).join('')}</div>`;
+}
+if(!window.__wrSw){window.__wrSw=1;document.addEventListener('click',e=>{
+  const b=e.target.closest&&e.target.closest('[data-swi]'); if(!b)return; const sw=b.closest('.wr-sw'); if(!sw)return;
+  const i=b.dataset.swi;
+  $$(':scope>.wr-swt [data-swi]',sw).forEach(y=>y.setAttribute('aria-pressed',String(y.dataset.swi===i)));
+  $$(':scope>.wr-swp',sw).forEach(p=>p.hidden=p.dataset.swp!==i);
+});}
+function WR_models(x){
+  const tabs=[['Bài mẫu band 8',WR_modelHTML(x),false]];
+  if(x.model9)tabs.push(['Bài mẫu band 9',WR_model9HTML(x),true]);
+  return WR_switch(tabs,WR_pref9());
 }
 
 /* ---------- AI grading ---------- */
@@ -214,8 +265,10 @@ Learner's answer:
 ${String(text).slice(0,9000)}
 """
 
-Return JSON only, with this exact shape:
-{"bands":{"ta":6.5,"cc":6,"lr":6,"gra":5.5},"overall":6,"summary":"2-3 sentences in Vietnamese about the overall level and the main reason for the score","strengths":["Vietnamese, specific to this answer"],"improve":["Vietnamese, concrete and actionable, mention what to change and how"],"corrections":[{"orig":"an exact sentence or phrase copied character for character from the learner's answer","fix":"the corrected English","why":"short Vietnamese explanation"}],"better":"one improved version of the learner's weakest paragraph, in English, keeping the learner's ideas"}
+${WR_hi9()?`The learner is aiming for band 8.5-9, so be extra strict at the top of the scale. Apply the band 8 vs band 9 distinctions precisely: band 9 needs a fully developed, nuanced response, cohesion that attracts no attention, and only rare, minor "slips" in vocabulary and grammar; any repeated awkwardness, imprecise word choice, slightly mechanical linking or underdeveloped idea keeps a criterion at 8 or below. In "summary" and "improve", say explicitly (in Vietnamese) what is currently stopping each criterion from reaching 9.
+
+`:''}Return JSON only, with this exact shape:
+{"bands":{"ta":6.5,"cc":6,"lr":6,"gra":5.5},"overall":6,"summary":"2-3 sentences in Vietnamese about the overall level and the main reason for the score","strengths":["Vietnamese, specific to this answer"],"improve":["Vietnamese, concrete and actionable, mention what to change and how"],"corrections":[{"orig":"an exact sentence or phrase copied character for character from the learner's answer","fix":"the corrected English","why":"short Vietnamese explanation"}],"better":"one improved version of the learner's weakest paragraph, in English, keeping the learner's ideas${WR_hi9()?', written at genuine band 9 level':''}"}
 Rules: "ta" is the ${x._k==='t2'?'Task Response':'Task Achievement'} band. Each band is a number from 0 to 9 in steps of 0.5. Give 5 to 10 corrections, choosing the most important errors (grammar, word choice, collocation, spelling, register, linking); "orig" must appear exactly in the answer and be as short as possible while still showing the error. Give 2 to 4 strengths and 3 to 5 improvements. Vietnamese for explanations, English for corrected text. Do not use the em dash character.`;
 }
 function WR_norm(j){
@@ -275,8 +328,8 @@ function WR_resultHTML(x,text,r,opts){
   <div class="panel"><div class="spread"><h3>Bài của bạn, đã đánh dấu lỗi</h3><span class="small muted">${countWords(text)} từ</span></div>
     ${r.corrections.length?`<p class="note">Bấm vào chỗ gạch đỏ để xem cách sửa và lý do.</p>`:''}
     <div class="en-s wr-essay">${mk.html}</div>${missList}</div>
-  ${r.better?`<div class="panel"><h3>Viết lại đoạn yếu nhất</h3><div class="en-s wr-better">${WR_paras(r.better)}</div></div>`:''}
-  ${opts.model===false?'':`<details class="g wr-det" open><summary>${ic('award')} So sánh với bài mẫu band 8</summary><div class="wr-dbody">${WR_modelHTML(x)}</div></details>`}`;
+  ${r.better?`<div class="panel"><h3>Viết lại đoạn yếu nhất${WR_hi9()?' (band 9)':''}</h3><div class="en-s wr-better">${WR_paras(r.better)}</div></div>`:''}
+  ${opts.model===false?'':`<details class="g wr-det" open><summary>${ic('award')} So sánh với bài mẫu band 8 và band 9</summary><div class="wr-dbody">${WR_models(x)}</div></details>`}`;
 }
 function WR_bindResult(root){
   $$('.wr-err',root).forEach(b=>b.onclick=()=>{const f=b.nextElementSibling;const open=f.hidden;f.hidden=!open;b.setAttribute('aria-expanded',String(open));b.classList.toggle('on',open);});
@@ -353,11 +406,11 @@ function WR_open(el,id,showHist){
     out.innerHTML=`<div class="panel">${mcSay('calm','Bài đã được lưu. Hãy đọc bài mẫu và tự so sánh: bố cục, câu tổng quan, từ nối và cách dùng từ.',56)}
       <p class="note">${AI?'':'AI chấm bài cần mật khẩu nhóm (nhập ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
       <div class="grid2 wr-cmp"><div class="panel"><h3>Bài của bạn</h3><div class="en-s wr-essay">${esc(text)}</div></div>
-      <div class="panel"><h3>Bài mẫu band 8</h3>${WR_modelHTML(x)}</div></div>`;
+      <div class="panel"><h3>Bài mẫu</h3>${WR_models(x)}</div></div>`;
   };
   const run=async text=>{
     busy=true; const b=$('#wrSub',el); if(b)b.disabled=true;
-    out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Mít đang chấm bài, khoảng 20-40 giây</b><p class="note">Bạn cứ để trang này mở. Bài nháp vẫn được giữ nguyên.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
+    out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Bạn cứ để trang này mở. Bài nháp vẫn được giữ nguyên.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
     out.scrollIntoView({behavior:'smooth',block:'start'});
     try{
       const r=await WR_grade(x,text); if(!el.isConnected)return;
@@ -426,11 +479,11 @@ window.WR_exam=async(el,{onDone}={})=>{
     const out=$('#wxOut',el); window.scrollTo(0,0);
     const cont=band=>{const b=$('#wxDone',el);if(b)b.onclick=()=>{window.__leave=prevLeave||null;onDone&&onDone(band);};};
     const modelsOnly=(msg)=>{out.innerHTML=`<div class="panel">${mcSay('calm',msg,56)}</div>
-      ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu band 8</h3>${WR_modelHTML(x)}</div></div>`).join('')}
+      ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu</h3>${WR_models(x)}</div></div>`).join('')}
       <div class="row"><button class="btn primary" id="wxDone">Tiếp tục</button></div>`;cont(null);};
     if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần mật khẩu nhóm và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
     const grade=async()=>{
-      out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Mít đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
+      out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
       try{
         const rs=[];
         for(let i=0;i<2;i++){

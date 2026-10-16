@@ -1,0 +1,688 @@
+[
+ {
+  "id": "w1a01",
+  "model9": "The line graph tracks average daily water use per person in three cities, Northbridge, Ravenport and Calden, over the 25 years from 1995.\n\nThe defining feature of the period is a complete reversal of the rankings. Northbridge, initially by far the thirstiest city, ended up as the most economical, while Calden climbed from the bottom to the top. Ravenport, whose consumption grew only modestly, stayed in the middle throughout.\n\nIn 1995, a Northbridge resident used 310 litres a day, more than two and a half times the figure for Calden (120 litres), with Ravenport in between at 180. Consumption in Northbridge then fell without a single interruption, shedding between 15 and 30 litres in every five-year interval, to finish at 190 litres, almost 40% below its starting point.\n\nCalden moved in precisely the opposite direction, its figure more than doubling to 260 litres. The sharpest rise came between 2010 and 2015, when it jumped by 40 litres and overtook both of its neighbours. Ravenport's growth, in contrast, was gentle and tapered off over time: having risen by 40 litres in the first 15 years, it edged up by only 10 more to reach 230 litres in 2020. By the end of the period, therefore, a typical Calden resident was using 70 litres a day more than one in Northbridge.",
+  "why9": [
+   [
+    "Overview built on one insight",
+    "Câu \"The defining feature of the period is a complete reversal of the rankings\" gói cả ba đường vào một nhận định duy nhất, rồi giải thích ngay ai lên ai xuống. Đây là tổng quan sắc nét mà giám khảo tìm cho TA band 9."
+   ],
+   [
+    "Ratio instead of raw numbers",
+    "\"more than two and a half times the figure for Calden\" biến hai con số 310 và 120 thành một phép so sánh có ý nghĩa (310/120 = 2,58). Đây là so sánh thật sự chứ không phải liệt kê (TA, LR)."
+   ],
+   [
+    "Data compressed into a rate",
+    "\"shedding between 15 and 30 litres in every five-year interval\" tóm năm mốc năm của Northbridge vào một cụm, tránh kiểu \"295 in 2000, 270 in 2005...\" làm bài nặng số (TA)."
+   ],
+   [
+    "Cohesion through reference, not linkers",
+    "\"Calden moved in precisely the opposite direction\" nối đoạn bằng ý nghĩa (ngược chiều với Northbridge) thay vì mở bằng \"Moreover\" hay \"On the other hand\" (CC)."
+   ],
+   [
+    "Participle clause used for meaning",
+    "\"having risen by 40 litres in the first 15 years, it edged up by only 10 more\" dùng mệnh đề phân từ để đặt hai giai đoạn cạnh nhau, làm nổi bật việc tăng trưởng chậm lại (GRA)."
+   ],
+   [
+    "Precise verbs of change",
+    "\"tapered off\" và \"edged up\" mô tả đúng mức độ thay đổi nhỏ dần, chính xác hơn \"increased slightly\" lặp đi lặp lại (LR)."
+   ],
+   [
+    "Synthesising final comparison",
+    "\"a typical Calden resident was using 70 litres a day more than one in Northbridge\" khép bài bằng một phép trừ chéo (260 - 190) cho thấy hệ quả của sự đảo chiều, dùng \"one\" để tránh lặp \"resident\" (TA, LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 nêu đúng xu hướng nhưng liệt kê gần như mọi mốc năm và tổng quan chỉ nói \"tăng\" hay \"giảm\". Bài band 9 đặt ý chính là sự đảo ngược thứ hạng ngay trong tổng quan và chỉ ra Ravenport đứng giữa suốt giai đoạn. Số liệu được nén thành tỷ lệ (gấp 2,5 lần, giảm gần 40%) và tốc độ (15-30 lít mỗi 5 năm), nên bài ít số hơn mà nhiều thông tin hơn. Bài còn phát hiện chi tiết band 8 bỏ qua: Ravenport tăng chậm hẳn sau 2010 và Calden vượt cả hai thành phố trong cùng một khoảng 2010-2015."
+ },
+ {
+  "id": "w1a02",
+  "model9": "The line graph compares visitor numbers at museums, theme parks and national parks in one country at three-year intervals between 2008 and 2023.\n\nOverall, all three types of attraction ended the period busier than they began it, but their paths diverged sharply in 2020. Museums and theme parks, which had grown in tandem, suffered a dramatic collapse that year before bouncing back, whereas national parks enjoyed uninterrupted growth and briefly became the most visited attraction.\n\nMuseums were the most popular attraction in every year except 2020, with visitor numbers rising steadily from 12.4 million in 2008 to 15.2 million in 2017, while theme parks grew somewhat faster, from 8.5 million to 12.9 million. In 2020, however, museum attendance more than halved to 6.3 million, and theme parks fared even worse, retaining less than a third of their visitors at 4.1 million. Both recovered swiftly, but only theme parks surpassed their earlier peak, reaching 13.5 million in 2023, whereas museums, at 14.8 million, remained slightly below theirs.\n\nNational parks, by contrast, started from the smallest base, attracting just 5.2 million people in 2008. Growth was gradual at first but gathered pace after 2014, and the figure kept climbing even in 2020, to 9.0 million. By 2023, it stood at 10.7 million, more than double its original level.",
+  "why9": [
+   [
+    "Overview that isolates the turning point",
+    "\"their paths diverged sharply in 2020\" chỉ ra đúng thời điểm quan trọng nhất của biểu đồ, rồi câu sau giải thích hai nhóm đi theo hai hướng khác nhau. Tổng quan band 8 chỉ nói \"all three became more popular\" (TA)."
+   ],
+   [
+    "Smart grouping",
+    "\"Museums and theme parks, which had grown in tandem\" gộp hai đường có cùng hình dạng thành một nhóm, để national parks làm ngoại lệ ở đoạn sau. Cụm \"in tandem\" (song song, cùng nhịp) là collocation tự nhiên (CC, LR)."
+   ],
+   [
+    "Change expressed as proportion",
+    "\"retaining less than a third of their visitors at 4.1 million\" đúng số liệu (4,1/12,9 = 32%) và cho người đọc cảm nhận mức sụt giảm tốt hơn là chỉ đưa hai con số (TA)."
+   ],
+   [
+    "Fine distinction a band 8 misses",
+    "\"only theme parks surpassed their earlier peak ... whereas museums, at 14.8 million, remained slightly below theirs\" so sánh mức phục hồi với đỉnh cũ (13,5 > 12,9 nhưng 14,8 < 15,2). Đây là quan sát tinh mà người chấm đánh giá cao (TA)."
+   ],
+   [
+    "Accurate description of acceleration",
+    "\"Growth was gradual at first but gathered pace after 2014\" khớp với dữ liệu (chỉ tăng 0,4 và 0,5 triệu ở hai khoảng đầu, sau đó tăng 1,3 đến 1,7 triệu mỗi khoảng). \"gather pace\" là collocation tự nhiên (LR)."
+   ],
+   [
+    "Varied, idiomatic verbs",
+    "\"fared even worse\", \"bouncing back\", \"kept climbing\" thay cho các động từ quen thuộc như \"decreased\" hay \"recovered\", vẫn giữ giọng học thuật (LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 mô tả đủ ý nhưng tổng quan còn chung chung và cách gộp nhóm chưa được gọi tên. Bài band 9 nêu rõ năm 2020 là điểm rẽ nhánh, gọi tên hai nhóm (cùng nhịp và ngoại lệ) ngay trong tổng quan. Bài dùng tỷ lệ (more than halved, less than a third) thay cho chỉ báo số, và so sánh mức phục hồi năm 2023 với đỉnh trước đó, một chi tiết band 8 chỉ nhắc thoáng qua. Từ vựng mô tả xu hướng đa dạng và chính xác hơn (fared even worse, gathered pace)."
+ },
+ {
+  "id": "w1a03",
+  "model9": "The line graph shows how the share of a country's electricity supplied by coal, gas, renewables and nuclear power changed between 2000 and 2020.\n\nThe overriding trend is a near one-for-one substitution of renewables for coal: coal's share shrank by 46 percentage points while that of renewables grew by 45, turning a minor source into the dominant one. Gas and nuclear power, meanwhile, ended the period almost exactly where they began.\n\nAt the turn of the century, coal generated well over half of the country's electricity (58%), with renewables contributing a mere 7%. The decline of coal was modest at first but gathered momentum after 2004, and by 2020 its share had dwindled to just 12%. Renewables mirrored this pattern almost precisely, edging up to 13% by 2008 before surging to 38% in 2016 and 52% in 2020, by which point they supplied more than half of all power.\n\nGas played a steady supporting role. Its share rose from 30% to a peak of 38% in 2012, briefly making it the largest single source as coal fell away, before easing back to 31%, barely above its original level. Nuclear power was the only source that hardly changed at all, contributing between 4% and 5% throughout.",
+  "why9": [
+   [
+    "Overview quantifies the key relationship",
+    "\"a near one-for-one substitution of renewables for coal\" kèm phép tính \"shrank by 46 percentage points while that of renewables grew by 45\" cho thấy người viết đã nhìn ra mối quan hệ giữa hai đường, không chỉ mô tả từng đường riêng (TA)."
+   ],
+   [
+    "Correct unit for changes in percentages",
+    "\"percentage points\" được dùng đúng khi nói mức thay đổi của tỷ lệ phần trăm. Viết \"fell by 46%\" là sai bản chất số liệu (LR, TA)."
+   ],
+   [
+    "Rate of change, not just direction",
+    "\"modest at first but gathered momentum after 2004\" mô tả tốc độ giảm của than (4, rồi 7, 12, 13 điểm mỗi giai đoạn) thay vì liệt kê các mốc (TA, LR)."
+   ],
+   [
+    "Detail band 8 overlooks",
+    "\"briefly making it the largest single source as coal fell away\" chỉ ra năm 2012 khí đốt đứng đầu (38% so với 35% và 22%), một chi tiết đúng dữ liệu mà bài band 8 không nêu rõ (TA)."
+   ],
+   [
+    "Efficient reference",
+    "\"while that of renewables grew by 45\" dùng \"that of\" thay cho \"the share of\", tránh lặp và rất tự nhiên trong văn học thuật (GRA, CC)."
+   ],
+   [
+    "Precise contrastive verbs",
+    "\"dwindled\", \"surging\", \"easing back\" mỗi từ khớp với độ lớn của thay đổi: giảm dần còn ít, tăng vọt, giảm nhẹ trở lại (LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 nói than giảm và năng lượng tái tạo tăng, nhưng không lượng hóa mối quan hệ giữa hai đường. Bài band 9 chỉ ra hai con số gần như bằng nhau (-46 và +45 điểm phần trăm), biến tổng quan thành một nhận định có bằng chứng. Bài cũng phát hiện khí đốt từng đứng đầu năm 2012 và khép lại gần mức ban đầu, nên hai nguồn còn lại được gói gọn trong một câu tổng quan. Ngôn ngữ mô tả tốc độ (gathered momentum, surging) giúp bài ít số mà vẫn chính xác."
+ },
+ {
+  "id": "w1a04",
+  "model9": "The bar chart compares how many hours a week people in four age groups devote to social media, television, sport or exercise, and reading.\n\nOverall, age divides these activities neatly into two pairs: social media and sport lose ground as people get older, while television and reading gain it. Television is the main pastime for everyone over 25, and its lead becomes overwhelming among the over-65s.\n\nThe youngest group stands apart in favouring social media over television. People aged 16 to 24 spend 14 hours a week online in this way, seven times as long as the over-65s, who log just 2 hours. Sport and exercise follow the same downward path, though far less steeply, falling from 6 hours among the young to a steady 3 hours for both groups over 45.\n\nTelevision viewing, by contrast, rises with every age group, from 8 hours for 16-24-year-olds to 21 hours for those aged 65 and above, the single highest figure in the chart. Reading shows a similar progression on a smaller scale, quadrupling from 2 to 8 hours across the age range. Taken together, the four activities occupy the oldest group for 34 hours a week, compared with 26 hours for each of the two middle groups.",
+  "why9": [
+   [
+    "Grouping stated in the overview",
+    "\"age divides these activities neatly into two pairs\" cho người đọc biết ngay cấu trúc bài: hai hoạt động giảm theo tuổi, hai hoạt động tăng theo tuổi. Đoạn thân bài theo đúng cấu trúc này (TA, CC)."
+   ],
+   [
+    "Ratio comparisons",
+    "\"seven times as long as the over-65s\" (14/2) và \"quadrupling from 2 to 8 hours\" thay thế việc liệt kê từng nhóm tuổi, mà vẫn chính xác (TA)."
+   ],
+   [
+    "Comparison of rates of change",
+    "\"follow the same downward path, though far less steeply\" so sánh không chỉ chiều mà cả độ dốc của hai xu hướng (TA, LR)."
+   ],
+   [
+    "Extra insight from the data",
+    "\"Taken together, the four activities occupy the oldest group for 34 hours a week\" là phép cộng người viết tự làm (2+21+3+8), cho thấy khả năng khai thác dữ liệu vượt mức mô tả bề mặt (TA)."
+   ],
+   [
+    "Natural phrasal and idiomatic verbs",
+    "\"lose ground\", \"stands apart\", \"log just 2 hours\" là cách nói tự nhiên của người bản ngữ có học, không phải cụm học thuộc (LR)."
+   ],
+   [
+    "Correct tense for timeless data",
+    "Toàn bài dùng hiện tại đơn (\"spend\", \"rises\", \"occupy\") vì biểu đồ không có mốc thời gian, nhất quán từ đầu đến cuối (GRA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 cũng gộp nhóm đúng nhưng đoạn thân bài liệt kê số của cả bốn nhóm tuổi cho social media. Bài band 9 thay chuỗi số đó bằng một tỷ lệ (gấp bảy lần) và so sánh độ dốc của hai xu hướng giảm. Tổng quan band 9 gọi tên cấu trúc \"two pairs\" nên bài mạch lạc hơn. Bài còn có một quan sát tổng hợp mà band 8 không có: nhóm lớn tuổi nhất dành nhiều giờ nhất cho bốn hoạt động cộng lại."
+ },
+ {
+  "id": "w1a05",
+  "model9": "The bar chart compares the number of international students enrolled at universities in Canada, Germany, Japan, Australia and the Netherlands in 2012 and 2022.\n\nOverall, international enrolments rose in all five countries, almost doubling in total from 755,000 to 1.41 million, but the gains were very unevenly distributed. Canada's expansion was in a league of its own, propelling it from fourth place to first.\n\nIn 2012, Australia and Germany were the clear leaders, hosting 230,000 and 210,000 overseas students respectively. Japan and Canada occupied the middle ground with broadly similar intakes of 135,000 and 120,000, while the Netherlands trailed well behind at 60,000.\n\nOver the following decade, Canada's figure more than tripled to 410,000. Its increase of 290,000 students exceeded the gains made by Germany and Australia combined, even though both of those countries also grew substantially, to 365,000 and 330,000. As a result, Australia slipped from first to third place. The Netherlands achieved the second-highest growth rate, more than doubling its intake to 125,000, yet it remained at the bottom of the table. Japan, meanwhile, recorded the weakest growth in both absolute and relative terms, adding only 45,000 students, and dropped from third to fourth as Canada overtook it.",
+  "why9": [
+   [
+    "Overview with a computed total",
+    "\"almost doubling in total from 755,000 to 1.41 million\" là con số người viết tự cộng, tạo bối cảnh chung trước khi nói về sự chênh lệch giữa các nước (TA)."
+   ],
+   [
+    "Idiomatic emphasis",
+    "\"in a league of its own\" (vượt trội hẳn, không ai sánh được) là thành ngữ dùng tự nhiên, thay cho \"increased the most\" (LR)."
+   ],
+   [
+    "Comparison across data points",
+    "\"exceeded the gains made by Germany and Australia combined\" đúng dữ liệu (290 nghìn so với 155 + 100 = 255 nghìn), một phép so sánh chéo cho thấy quy mô vượt trội của Canada (TA)."
+   ],
+   [
+    "Distinguishing absolute and relative growth",
+    "\"the second-highest growth rate\" cho Hà Lan và \"the weakest growth in both absolute and relative terms\" cho Nhật phân biệt mức tăng tuyệt đối và tương đối. Đây là tư duy dữ liệu của band 9 (TA, LR)."
+   ],
+   [
+    "Concessive linking",
+    "\"even though both of those countries also grew substantially\" và \"yet it remained at the bottom of the table\" dùng quan hệ nhượng bộ để giữ cân bằng thông tin, không phải từ nối máy móc (CC, GRA)."
+   ],
+   [
+    "Consequences of change shown through ranking",
+    "\"slipped from first to third place\", \"dropped from third to fourth\" nói về thứ hạng, giúp người đọc thấy hệ quả của các con số (TA, LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 mô tả đúng nhưng tổng quan chưa có con số định hướng và thân bài chủ yếu nêu từng nước một. Bài band 9 thêm tổng số hai năm để cho thấy toàn cảnh, rồi dùng so sánh chéo (Canada tăng nhiều hơn Đức và Úc cộng lại). Bài phân biệt tăng tuyệt đối và tăng tương đối, nhờ đó nhận xét về Hà Lan và Nhật chính xác hơn. Cấu trúc nhượng bộ (even though, yet) giúp câu dài mà vẫn rõ ràng."
+ },
+ {
+  "id": "w1a06",
+  "model9": "The bar chart shows how many ice creams, hot drinks and umbrellas a chain of seaside cafés sold in each season of one year.\n\nOverall, sales of the two refreshment products were strongly seasonal and moved in opposite directions, with ice cream peaking in summer and hot drinks in winter. Umbrellas, sold in far smaller numbers, followed a pattern of their own, peaking in autumn.\n\nSummer was the only season in which ice cream outsold hot drinks, and it did so by a wide margin: 96,000 units against 24,000, a ratio of four to one. Outside the summer months, demand for ice cream fell away sharply, from 42,000 in spring and 30,000 in autumn to a mere 8,000 in winter, just one-twelfth of its peak.\n\nHot drinks followed the reverse trajectory. From their summer low, sales almost tripled to 68,000 in autumn and then climbed to 110,000 in winter, the highest figure for any product in any season. Umbrella sales, though only in the low thousands, were also weakest in summer, at just 1,200. They were more than five times higher in autumn, at 6,800, before easing slightly to 5,400 in winter, while spring saw a moderate 3,500.",
+  "why9": [
+   [
+    "Overview grouping by behaviour",
+    "\"moved in opposite directions, with ice cream peaking in summer and hot drinks in winter\" nêu cả hai đỉnh trong một câu, và \"followed a pattern of their own\" tách ô ra làm nhóm riêng (TA, CC)."
+   ],
+   [
+    "Comparison framed as an exception",
+    "\"Summer was the only season in which ice cream outsold hot drinks\" là phát hiện chỉ có được khi so sánh hai sản phẩm qua cả bốn mùa (42<55, 30<68, 8<110). Một câu thay cho bốn phép so sánh riêng lẻ (TA)."
+   ],
+   [
+    "Ratios and fractions",
+    "\"a ratio of four to one\", \"just one-twelfth of its peak\", \"more than five times higher\" đều khớp dữ liệu (96/24, 8/96, 6,8/1,2) và làm bài đa dạng cách biểu đạt số (TA, LR)."
+   ],
+   [
+    "Correct conversion of units",
+    "\"96,000 units\", \"1,200\", \"6,800\": đơn vị của biểu đồ là nghìn, nên 1.2 phải viết thành 1,200. Sai bước này là lỗi TA nặng."
+   ],
+   [
+    "Hedged scale description",
+    "\"though only in the low thousands\" đặt số liệu của ô vào đúng quy mô so với hai sản phẩm kia, không cần thêm câu so sánh dài (LR, CC)."
+   ],
+   [
+    "Precise verbs",
+    "\"fell away sharply\", \"followed the reverse trajectory\", \"easing slightly\" mỗi cụm khớp với mức thay đổi thực tế (LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 có tổng quan tốt nhưng thân bài mô tả kem và đồ uống nóng như hai câu chuyện riêng. Bài band 9 so sánh trực tiếp hai sản phẩm qua cả năm và rút ra nhận định \"mùa hè là mùa duy nhất kem bán chạy hơn\". Số liệu được biến thành tỷ lệ và phân số (4:1, một phần mười hai, gấp hơn năm lần), nên đoạn văn có tính phân tích hơn. Từ vựng xu hướng cũng phong phú và chính xác hơn."
+ },
+ {
+  "id": "w1a07",
+  "model9": "The pie charts compare how the average household in one country divided its spending among six categories in 1990 and 2020.\n\nOverall, the balance of household budgets shifted decisively from food towards housing, which became the largest expense. Tellingly, though, these two essentials together absorbed roughly half of all spending in both years, so what changed was their relative weight rather than their combined burden. Leisure and clothing, meanwhile, effectively swapped places in the ranking.\n\nIn 1990, food was the single biggest item, accounting for almost a third of spending (31%), with housing a clear second at 22%. Clothing took 14%, transport and other items 12% each, and leisure just 9%, the smallest share of all.\n\nBy 2020, housing had risen by 12 percentage points to 34%, double the share now devoted to food, which had fallen to 17%. Leisure was the main beneficiary elsewhere, its share climbing from 9% to 16% and lifting it from last place to third, just one point behind food. Clothing moved in the opposite direction, its share more than halving to only 6%, which made it the least significant category. Transport edged up to 15%, while the proportion spent on other items was the only one to remain unchanged, at 12%.",
+  "why9": [
+   [
+    "Insight beyond the obvious",
+    "\"these two essentials together absorbed roughly half of all spending in both years\" là phép cộng tự làm (22+31 = 53, 34+17 = 51), cho thấy thay đổi nằm ở tỷ trọng giữa hai khoản chứ không phải gánh nặng tổng. Đây là kiểu tổng quan bài band 8 không có (TA)."
+   ],
+   [
+    "Stance word used precisely",
+    "\"Tellingly\" (điều đáng chú ý, nói lên nhiều điều) báo hiệu nhận định sâu hơn mà không cần câu dài, dùng tự nhiên chứ không phô diễn (LR, CC)."
+   ],
+   [
+    "Ranking changes summarised",
+    "\"effectively swapped places in the ranking\" gói sự thay đổi của leisure (cuối lên thứ ba) và clothing (thứ ba xuống cuối) trong một cụm (TA)."
+   ],
+   [
+    "Relational comparison",
+    "\"double the share now devoted to food\" so sánh hai khoản trong cùng năm 2020 (34 = 2 x 17), thay vì báo hai con số riêng (TA)."
+   ],
+   [
+    "Percentage points used correctly",
+    "\"risen by 12 percentage points to 34%\" dùng đúng đơn vị cho mức thay đổi của tỷ lệ (LR)."
+   ],
+   [
+    "Absolute phrases for compact detail",
+    "\"its share climbing from 9% to 16% and lifting it from last place to third\" dùng cấu trúc tuyệt đối (danh từ + V-ing) để thêm thông tin mà không cần câu mới (GRA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 nêu đúng ba thay đổi lớn nhưng chỉ dừng ở mức mô tả. Bài band 9 thêm một nhận định có tính phân tích: nhà ở và thực phẩm cộng lại vẫn khoảng một nửa chi tiêu, chỉ đổi tỷ trọng cho nhau. Bài còn dùng so sánh trong cùng năm (nhà ở gấp đôi thực phẩm) và thứ hạng (leisure từ cuối lên thứ ba). Ngữ pháp đa dạng một cách có mục đích, như cấu trúc tuyệt đối \"its share climbing...\", giúp câu gọn mà giàu thông tin."
+ },
+ {
+  "id": "w1a08",
+  "model9": "The pie charts illustrate how a city disposed of its municipal waste in 2005 and 2025.\n\nOverall, the city underwent a fundamental shift away from burying its rubbish. Landfill, which handled most of the waste in 2005, became a minority option by 2025, and every alternative grew in importance, with recycling emerging as the principal method.\n\nIn 2005, almost two-thirds of all waste (64%) went to landfill, more than three times the share that was recycled (18%). Incineration with energy recovery accounted for 11%, composting for a mere 5%, and the remaining 2% was dealt with by other means.\n\nTwenty years later, the picture was transformed. The proportion sent to landfill had plummeted by 43 percentage points to 21%, roughly a third of its former level. The whole of this shortfall was absorbed by the other three main methods: recycling more than doubled to 41%, incineration doubled to 22%, and composting nearly tripled to 14%. Notably, the city was by then burning marginally more waste than it buried, while the share recycled was almost twice that sent to landfill. The small residual category was the only one to stay constant, at 2% in both years.",
+  "why9": [
+   [
+    "Overview with a clear verdict",
+    "\"underwent a fundamental shift away from burying its rubbish\" là nhận định tổng thể, câu sau giải thích bằng ba ý (landfill thành thiểu số, mọi phương án khác tăng, tái chế thành phương thức chính) mà không có con số nào (TA)."
+   ],
+   [
+    "Showing where the change went",
+    "\"The whole of this shortfall was absorbed by the other three main methods\" giải thích 43 điểm phần trăm mất đi đã chuyển sang đâu (23 + 11 + 9 = 43). Đây là cách nhóm dữ liệu theo quan hệ nhân quả trong số liệu, không phải liệt kê (TA, CC)."
+   ],
+   [
+    "Colon to introduce grouped detail",
+    "Dấu hai chấm trước \"recycling more than doubled to 41%, incineration doubled to 22%, and composting nearly tripled to 14%\" gom ba thay đổi vào một câu song song, gọn và dễ đọc (GRA, CC)."
+   ],
+   [
+    "Cross-category comparison",
+    "\"burning marginally more waste than it buried\" (22% so với 21%) và \"almost twice that sent to landfill\" (41 so với 21) so sánh chéo giữa các phương thức trong cùng năm (TA)."
+   ],
+   [
+    "Fractions and multiples",
+    "\"almost two-thirds\", \"more than three times the share\", \"roughly a third of its former level\" đúng dữ liệu (64%, 64/18, 21/64) và tránh lặp ký hiệu % (LR)."
+   ],
+   [
+    "Natural reference for repetition",
+    "\"that sent to landfill\" và \"The small residual category\" thay thế danh từ đã nêu, giữ văn trôi chảy (CC)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 đã có tổng quan tốt và dùng phân số, nhưng thân bài vẫn đi lần lượt từng phương thức. Bài band 9 chỉ ra mức giảm 43 điểm của landfill được ba phương thức kia hấp thụ gần như toàn bộ, một nhận định gắn các con số với nhau. Bài thêm hai phép so sánh chéo trong năm 2025 (đốt nhiều hơn chôn, tái chế gần gấp đôi chôn). Câu văn ngắn gọn hơn nhờ dấu hai chấm và cấu trúc song song."
+ },
+ {
+  "id": "w1a09",
+  "model9": "The table shows the number of journeys made by bus, metro and tram in four cities, Arlon, Bressen, Coraval and Dunmere, in 2023.\n\nOverall, the four networks fell into two clear tiers: Arlon and Coraval each handled more than half a billion journeys, whereas Bressen and Dunmere managed only around a third of a billion. Each city also had a distinct backbone, with no single mode of transport dominating everywhere.\n\nArlon had by far the busiest system, with 750 million journeys, nearly two-thirds of which (480 million) were made by metro, the highest figure for any mode in any city. Buses and trams played a secondary role there, carrying 210 million and 60 million passengers respectively. Coraval, the other large network at 580 million, depended instead on buses, which accounted for 320 million journeys, with the metro handling 260 million and no tram service at all.\n\nBressen and Dunmere had almost identical totals of 335 million and 330 million, but very different structures. Bressen, which lacked a metro, relied primarily on trams, whose 190 million journeys were the most of any tram network. Dunmere, by contrast, had the most balanced system of the four: its metro carried 150 million passengers, while buses and trams were close behind at 95 million and 85 million.",
+  "why9": [
+   [
+    "Overview built on tiers",
+    "\"fell into two clear tiers\" và cách diễn đạt \"more than half a billion\" / \"around a third of a billion\" khái quát cột Total mà không đưa con số cụ thể, đúng tinh thần tổng quan (TA, LR)."
+   ],
+   [
+    "Second overview point that organises the body",
+    "\"Each city also had a distinct backbone, with no single mode of transport dominating everywhere\" chuẩn bị cho thân bài, nơi mỗi thành phố được mô tả qua phương tiện chủ lực (CC)."
+   ],
+   [
+    "Proportion within a total",
+    "\"nearly two-thirds of which (480 million) were made by metro\" (480/750 = 64%) dùng mệnh đề quan hệ với \"of which\" để nêu tỷ trọng, không chỉ nêu số (GRA, TA)."
+   ],
+   [
+    "Handling zeros naturally",
+    "\"no tram service at all\" và \"which lacked a metro\" diễn đạt số 0 trong bảng bằng ngôn ngữ tự nhiên thay vì viết \"0 journeys\" (LR)."
+   ],
+   [
+    "Contrast within a similar pair",
+    "\"almost identical totals ... but very different structures\" nêu điểm giống và khác của Bressen và Dunmere trong một câu, tạo lý do cho việc gộp hai thành phố (TA, CC)."
+   ],
+   [
+    "Original analytical judgement",
+    "\"the most balanced system of the four\" là nhận định người viết rút ra (150, 95, 85 chênh nhau ít nhất), không có sẵn trong bảng (TA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 cũng gộp theo quy mô, nhưng tổng quan thứ hai (\"metro hoặc bus là phương tiện chính\") còn mơ hồ. Bài band 9 gọi tên hai tầng quy mô và ý \"mỗi thành phố có xương sống riêng\", từ đó mỗi đoạn có một ý điều khiển rõ ràng. Bài nêu tỷ trọng (gần hai phần ba) và đưa ra nhận định phân tích như \"hệ thống cân bằng nhất\". Mệnh đề quan hệ \"of which\", \"whose\" làm câu chặt chẽ mà không gượng."
+ },
+ {
+  "id": "w1a10",
+  "model9": "The table compares the proportion of men and women in four age groups who met the recommended level of physical activity in 2004 and 2024.\n\nOverall, activity rates rose across the board, yet two patterns held firm in both years: participation fell with age, and men were more active than women in every age group. What changed most was the size of that gender gap, which shrank dramatically as women's rates improved far faster than men's.\n\nIn 2004, the gap was considerable. Among 18-to-34-year-olds, just over half of men (52%) were sufficiently active, compared with only 38% of women, a difference of 14 points. Participation then declined steadily with age for both sexes, bottoming out at 14% of men and a mere 9% of women aged 75 and over.\n\nTwo decades later, every figure had increased, but women's gains, ranging from 12 to 17 percentage points, consistently outstripped those of men, which ranged from 6 to 12. As a result, the gap in each age group had narrowed to no more than four points; among young adults, for example, it was just three points, with 58% of men meeting the guidelines against 55% of women. The most striking relative improvement occurred among the oldest women, whose rate more than doubled to 21%, while that of men aged 75 and over rose to 25%.",
+  "why9": [
+   [
+    "Overview handling three variables",
+    "Tổng quan nêu đủ ba chiều của bảng: tăng theo thời gian (\"rose across the board\"), giảm theo tuổi (\"participation fell with age\") và chênh lệch giới tính (\"men were more active than women in every age group\"). Câu \"What changed most was the size of that gender gap\" là câu chẻ dùng để nhấn mạnh ý chính (TA, GRA)."
+   ],
+   [
+    "Ranges instead of listing",
+    "\"women's gains, ranging from 12 to 17 percentage points ... those of men, which ranged from 6 to 12\" tóm tám phép trừ vào một câu, đúng dữ liệu (nữ: 17, 14, 15, 12; nam: 6, 8, 12, 11) (TA)."
+   ],
+   [
+    "Quantified gap",
+    "\"narrowed to no more than four points\" đúng với cả bốn nhóm tuổi năm 2024 (3, 2, 2, 4). Đây là kiểu khái quát có kiểm chứng mà giám khảo đánh giá cao (TA)."
+   ],
+   [
+    "Absolute vs relative improvement",
+    "\"The most striking relative improvement occurred among the oldest women\" phân biệt mức tăng tương đối (9 lên 21, hơn gấp đôi) với mức tăng tuyệt đối, chính xác hơn việc nói \"tăng nhiều nhất\" (TA, LR)."
+   ],
+   [
+    "Precise collocations",
+    "\"held firm\", \"bottoming out at\", \"outstripped\" là những động từ chính xác, tự nhiên trong văn học thuật (LR)."
+   ],
+   [
+    "Exemplification without listing",
+    "\"among young adults, for example, it was just three points\" chọn một ví dụ minh họa cho khái quát vừa nêu thay vì liệt kê cả bốn nhóm (CC, TA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 có tổng quan đúng nhưng ý về khoảng cách giới tính bị đặt sau và chưa được lượng hóa. Bài band 9 đưa khoảng cách giới tính lên làm thay đổi trung tâm, sau đó chứng minh bằng hai khoảng mức tăng (12-17 điểm so với 6-12 điểm) và kết luận khoảng cách còn tối đa bốn điểm. Cách tóm số theo khoảng và chọn một ví dụ minh họa giúp bài không bị nặng số. Câu chẻ \"What changed most was...\" nhấn mạnh đúng chỗ."
+ },
+ {
+  "id": "w1a11",
+  "model9": "The diagram outlines the ten stages by which fresh tea leaves become black tea ready for sale.\n\nOverall, the process is largely linear and divides naturally into three phases: harvesting by hand in the fields, a sequence of physical and chemical transformations in the factory, and finally sorting, quality control and dispatch. The most time-consuming stage by far is withering, which takes up to 18 hours.\n\nOn the plantation, only the top two leaves and a bud are plucked from each bush. These are carried to the factory in baskets and weighed. They are then spread out on racks and exposed to warm air for 12 to 18 hours, during which time they lose around 60% of their moisture.\n\nOnce withered, the leaves are rolled by machine, a step that ruptures their cell walls and releases their natural juices. They are then left to oxidise in a humid room for one to three hours, gradually turning from green to copper brown. The oxidised leaves are dried in hot air at about 100°C for 20 minutes. Finally, the finished tea is sorted by leaf size using vibrating sieves, graded batch by batch by professional tasters, packed into foil-lined sacks or tea bags, and shipped to wholesalers and retailers.",
+  "why9": [
+   [
+    "Overview that structures the process",
+    "\"divides naturally into three phases\" gom mười bước thành ba giai đoạn có tên gọi rõ ràng, giúp người đọc nắm cấu trúc trước khi vào chi tiết. Bài band 8 chỉ nói \"consists of ten stages\" (TA, CC)."
+   ],
+   [
+    "Salient feature in the overview",
+    "\"The most time-consuming stage by far is withering, which takes up to 18 hours\" là đặc điểm nổi bật có so sánh, đúng yêu cầu \"selecting the main features\" (TA)."
+   ],
+   [
+    "Cause and effect within the process",
+    "\"a step that ruptures their cell walls and releases their natural juices\" cho thấy mỗi bước tác động lên lá thế nào, không chỉ nêu thứ tự. \"a step that...\" là cụm đồng vị rất tự nhiên (CC, GRA)."
+   ],
+   [
+    "Sequencing without mechanical linkers",
+    "\"Once withered\", \"The oxidised leaves\", \"the finished tea\" dùng chính trạng thái của lá để đánh dấu bước tiếp theo thay cho chuỗi \"First, Then, Next\" (CC, LR)."
+   ],
+   [
+    "Passive used appropriately",
+    "\"are plucked\", \"are carried\", \"are dried\" dùng bị động vì người đọc quan tâm đến lá trà chứ không phải người làm, đúng văn phong mô tả quy trình (GRA)."
+   ],
+   [
+    "Compact list of final steps",
+    "Câu cuối gom bốn bước cuối bằng chuỗi động từ song song \"sorted ... graded ... packed ... and shipped\", gọn mà không bỏ sót bước nào (GRA, TA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 mô tả đúng mười bước theo thứ tự nhưng tổng quan chỉ đếm số bước và nói phần lớn diễn ra trong nhà máy. Bài band 9 chia quy trình thành ba giai đoạn có tên và nêu bước tốn thời gian nhất, nên tổng quan có thông tin thật sự. Thân bài nối các bước bằng quan hệ nguyên nhân kết quả và trạng thái của lá (once withered, the oxidised leaves) thay vì từ nối thứ tự. Mọi thông số (12-18 giờ, 60%, 100°C, 20 phút) vẫn được giữ chính xác."
+ },
+ {
+  "id": "w1a12",
+  "model9": "The maps show how the riverside village of Ashford changed between 1995 and 2025.\n\nOverall, Ashford was transformed from a quiet farming village into a sizeable, well-connected settlement. The most dramatic changes were the residential development north of the river and a new transport hub in the south, although the historic core along Main Road survived largely intact.\n\nThe greatest change occurred north of the river, where the farmland that once covered the entire area gave way to an estate of around 200 homes. A footbridge was added to the east of the original road bridge, which was retained. Further along the east bank, the small fishing harbour was redeveloped as a marina with a café, suggesting a shift from working waterfront to leisure use.\n\nSouth of the river, change was more selective. The row of 12 houses on Main Road was left untouched, while the primary school was enlarged and acquired a sports field behind it. The most significant development, however, came on the southern edge, where the railway line, which had previously passed through without stopping, gained a station. The eastern half of the south-west forest was cleared to make room for a car park next to the new station, and a supermarket was built opposite the station.",
+  "why9": [
+   [
+    "Overview with a characterisation",
+    "\"from a quiet farming village into a sizeable, well-connected settlement\" mô tả bản chất thay đổi bằng một cụm danh từ giàu thông tin, không chỉ nói \"larger\" (TA, LR)."
+   ],
+   [
+    "Overview acknowledges continuity",
+    "\"although the historic core along Main Road survived largely intact\" cho thấy người viết cân nhắc cả cái thay đổi lẫn cái giữ nguyên, điều bài band 9 cần có với dạng bản đồ (TA)."
+   ],
+   [
+    "Spatial grouping",
+    "Đoạn 1 mở bằng \"north of the river\", đoạn 2 mở bằng \"South of the river\". Chia theo vị trí giúp người đọc hình dung bản đồ và tạo mạch lạc tự nhiên (CC)."
+   ],
+   [
+    "Hedged inference from the data",
+    "\"suggesting a shift from working waterfront to leisure use\" là suy luận nhẹ, có rào đón bằng \"suggesting\", hợp lý với dữ liệu (cảng cá thành bến du thuyền) mà không bịa thêm thông tin (TA, LR)."
+   ],
+   [
+    "Varied passive and change verbs",
+    "\"gave way to\", \"was redeveloped as\", \"was left untouched\", \"was enlarged\", \"was cleared to make room for\" đa dạng mà chính xác cho từng loại thay đổi (LR, GRA)."
+   ],
+   [
+    "Past perfect for earlier state",
+    "\"which had previously passed through without stopping\" dùng quá khứ hoàn thành để nói tình trạng trước khi có nhà ga, đúng logic thời gian (GRA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 liệt kê đủ thay đổi theo vị trí nhưng tổng quan chỉ nói \"larger, better-connected community\". Bài band 9 xác định rõ tính chất của sự thay đổi (từ làng nông nghiệp yên tĩnh thành khu dân cư lớn, giao thông thuận tiện), nêu hai cụm thay đổi lớn và cả phần được giữ nguyên ngay trong tổng quan. Thân bài có câu chủ đề cho từng khu vực (\"change was more selective\") và một suy luận có rào đón về chức năng của bến sông. Động từ chỉ thay đổi đa dạng và chính xác hơn, ít lặp \"was built\"."
+ },
+ {
+  "id": "w1g01",
+  "model9": "Dear Sir or Madam,\n\nI am writing about order number 58214, placed on your website on 3 May for a Veltra 15 laptop with 16GB of memory and a 1TB drive, for which I paid £849 including next-day delivery.\n\nThe laptop finally arrived five days later, in a box with a torn seal that had evidently been opened before. On setting it up, I found that it has only 8GB of memory, half the specification I paid for, and a scratch running across the bottom corner of the screen. The charger was also missing, so the machine has been unusable since its battery ran flat on the first evening.\n\nSince I bought the laptop specifically for a work project that begins on 20 May, I would ask you to arrange for it to be collected and replaced with the correct, new model before that date. Should that not be possible, I would expect a full refund, including the delivery charge, which I paid for a service I did not receive.\n\nI would appreciate confirmation of how you intend to resolve this within the next five working days.\n\nYours faithfully,\nDaniel Hart",
+  "why9": [
+   [
+    "Purpose and order details fused",
+    "Câu mở \"I am writing about order number 58214, placed on your website on 3 May for...\" vừa nêu mục đích vừa trả lời trọn ý 1 (mã đơn, ngày, sản phẩm, giá) trong một câu bằng cụm phân từ \"placed on\". Gọn và đầy đủ (TA, GRA)."
+   ],
+   [
+    "Evidence-based complaint",
+    "\"half the specification I paid for\" và \"a box with a torn seal that had evidently been opened before\" nêu lỗi kèm bằng chứng cụ thể, khiến lời phàn nàn khó bác bỏ (TA, LR)."
+   ],
+   [
+    "Consequence linked to the fault",
+    "\"the machine has been unusable since its battery ran flat on the first evening\" cho thấy hậu quả thật của việc thiếu sạc, thay vì chỉ liệt kê \"the charger was missing\" (TA, CC)."
+   ],
+   [
+    "Firm but courteous register",
+    "\"I would ask you to arrange for it to be collected\" và \"I would expect a full refund\" kiên quyết mà không gay gắt, đúng giọng khi viết cho quản lý chăm sóc khách hàng (TA)."
+   ],
+   [
+    "Inverted conditional",
+    "\"Should that not be possible, I would expect...\" là câu điều kiện đảo ngữ, trang trọng và rất tự nhiên trong thư khiếu nại (GRA)."
+   ],
+   [
+    "Justified demand",
+    "\"which I paid for a service I did not receive\" giải thích vì sao đòi hoàn cả phí giao hàng, cho thấy lập luận chặt chẽ (TA, CC)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 rõ ràng và đủ ba ý nhưng phần chi tiết đơn hàng còn mỏng và yêu cầu chưa gắn với một mốc cụ thể. Bài band 9 có đủ thông tin đơn hàng (giá, cấu hình), mỗi lỗi đi kèm bằng chứng hoặc hậu quả, và yêu cầu đổi máy gắn với hạn chót có lý do (dự án bắt đầu ngày 20/5). Giọng văn kiên quyết nhưng lịch sự nhờ các cấu trúc như \"I would ask you to\" và đảo ngữ \"Should that not be possible\". Câu kết đặt thời hạn trả lời cụ thể thay vì câu xã giao chung chung."
+ },
+ {
+  "id": "w1g02",
+  "model9": "Dear Sir or Madam,\n\nI would like to apply for the part-time guide position advertised on the noticeboard in your foyer last week, which caught my eye during one of my regular visits to the museum.\n\nI graduated in history from the University of Leeds three years ago, specialising in the industrial history of the north of England, so the story your main gallery tells of the town's textile mills is one I know well. For the past two years, I have volunteered at weekends at Hillcroft Castle, where I lead tours of up to twenty people, including school groups who need a very different approach from adult visitors. I have learnt to adapt my delivery to my audience and to handle unexpected questions with confidence. I also speak fluent Spanish, which could allow the museum to offer tours to the many visitors from Spain who come to the area each summer.\n\nI currently work in an office from Monday to Thursday, so I would be available every Friday and weekend, and I could take on additional shifts during school holidays, when I understand visitor numbers are highest.\n\nI enclose my CV and would welcome the opportunity to discuss my application at interview.\n\nYours faithfully,\nLaura Bennett",
+  "why9": [
+   [
+    "Natural, specific source of the advert",
+    "\"which caught my eye during one of my regular visits to the museum\" vừa trả lời ý 1 vừa cho thấy ứng viên quen thuộc với bảo tàng, một chi tiết tạo thiện cảm tự nhiên (TA)."
+   ],
+   [
+    "Experience tied to the role",
+    "\"the story your main gallery tells of the town's textile mills is one I know well\" nối chuyên môn của người viết với chính nội dung bảo tàng, không nói chung chung \"I am interested in history\" (TA, LR)."
+   ],
+   [
+    "Skill shown, not just claimed",
+    "\"including school groups who need a very different approach from adult visitors\" đưa ví dụ cụ thể chứng minh kỹ năng điều chỉnh cách trình bày, thay vì chỉ tự nhận \"I am a good speaker\" (TA)."
+   ],
+   [
+    "Benefit framed for the employer",
+    "\"which could allow the museum to offer tours to the many visitors from Spain\" biến kỹ năng ngôn ngữ thành lợi ích cho bảo tàng, đúng tư duy thư xin việc band 9 (TA, CC)."
+   ],
+   [
+    "Availability with useful detail",
+    "\"when I understand visitor numbers are highest\" cho thấy người viết hiểu nhu cầu của bảo tàng, làm ý 3 trọn vẹn hơn (TA)."
+   ],
+   [
+    "Appropriate formal close",
+    "\"I enclose my CV and would welcome the opportunity to discuss my application at interview\" trang trọng, tự tin, không khúm núm, kết bằng \"Yours faithfully\" đúng với \"Dear Sir or Madam\" (TA, LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 nêu đủ bằng cấp, kinh nghiệm và thời gian rảnh, nhưng các chi tiết còn tách rời khỏi bảo tàng cụ thể. Bài band 9 gắn mọi điểm mạnh với nhu cầu của bảo tàng: chuyên ngành khớp với phòng trưng bày, tiếng Tây Ban Nha khớp với khách du lịch, thời gian rảnh khớp với mùa đông khách. Kỹ năng được chứng minh bằng tình huống thật (dẫn đoàn học sinh) chứ không chỉ tự nhận. Giọng văn tự tin, trang trọng và tự nhiên."
+ },
+ {
+  "id": "w1g03",
+  "model9": "Dear Sir or Madam,\n\nI am writing on behalf of a number of residents of Elm Road to raise our concerns about Westfield Park, which has become an unsafe place to be after dark.\n\nThe main problem is the lighting. At least five of the lamps along the central path have been out of order since last spring, despite several reports to your helpline, leaving the area around the children's playground in near-total darkness from early evening in winter. Broken glass is now regularly left near the benches, and groups of young people gather there late at night, sometimes playing loud music until after midnight.\n\nThe effect on the neighbourhood has been considerable. Several of us who used to run or walk our dogs in the park after work now drive to another one across town, and parents have stopped letting their children play there after school. Older residents who once used the path as a short cut to the bus stop now take the long way round.\n\nWe would urge the council to repair the lighting as a matter of priority. We would also welcome more frequent litter collection and occasional evening patrols, which we believe would quickly restore residents' confidence in the park.\n\nYours faithfully,\nMichael Turner",
+  "why9": [
+   [
+    "Representative, measured register",
+    "\"I am writing on behalf of a number of residents of Elm Road to raise our concerns\" vừa nêu tư cách đại diện vừa giữ giọng trang trọng, ôn hòa phù hợp khi viết cho hội đồng địa phương (TA)."
+   ],
+   [
+    "Accountability detail",
+    "\"despite several reports to your helpline\" ngầm nhắc hội đồng đã được báo trước mà không cần buộc tội trực tiếp. Đây là cách gây áp lực lịch sự rất tinh tế (TA, LR)."
+   ],
+   [
+    "Concrete description of problems",
+    "\"in near-total darkness from early evening in winter\" và \"sometimes playing loud music until after midnight\" cụ thể, đáng tin, không phóng đại (TA)."
+   ],
+   [
+    "Effects organised by group",
+    "Đoạn 3 lần lượt nói đến người chạy bộ và dắt chó, phụ huynh, người lớn tuổi, mỗi nhóm có một hành vi thay đổi cụ thể (\"now drive to another one across town\"). Ý 2 được triển khai đầy đủ (TA, CC)."
+   ],
+   [
+    "Collective 'we' for suggestions",
+    "\"We would urge the council to...\" và \"which we believe would quickly restore residents' confidence\" dùng \"we\" để nhấn mạnh đây là ý kiến của cộng đồng, và đề xuất được giải thích bằng kết quả mong đợi (TA, GRA)."
+   ],
+   [
+    "Precise collocations",
+    "\"out of order\", \"as a matter of priority\", \"restore residents' confidence\" là collocation chuẩn của văn bản hành chính (LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 nêu vấn đề và ảnh hưởng đúng nhưng còn chung chung (\"there is also more litter\"). Bài band 9 thêm chi tiết có sức nặng: số đèn hỏng, thời gian hỏng, đã báo hội đồng nhiều lần, và mỗi nhóm cư dân có hành vi cụ thể đã thay đổi. Giọng văn đại diện cộng đồng nhất quán nhờ đại từ \"we\", và gây áp lực khéo léo bằng \"despite several reports\". Đề xuất được nêu kèm lý do về kết quả, nên thuyết phục hơn."
+ },
+ {
+  "id": "w1g04",
+  "model9": "Dear Ms Collins,\n\nI am writing to apologise for failing to attend my interview for the Marketing Assistant post, which was scheduled for 10 a.m. yesterday. I appreciate that you and your colleagues had set aside time to meet me, and I am very sorry that I was unable to warn you in advance.\n\nI left home in good time, but the train I was on broke down outside Halton and passengers were kept on board for almost three hours. There was no mobile signal in the cutting where we were stranded, so I had no means of contacting your office, and by the time I reached the city it was well past midday. I have kept the rail company's confirmation of the delay, should you wish to see it.\n\nI remain extremely keen on the position, particularly as your recent campaign for Eastfield Foods is very much the kind of work I would like to be involved in. I would therefore be most grateful if you would consider rescheduling the interview. I am free on any day next week and would be happy to attend at whatever time is most convenient for the panel.\n\nThank you for your understanding.\n\nYours sincerely,\nThomas Reed",
+  "why9": [
+   [
+    "Apology that recognises the other side",
+    "\"I appreciate that you and your colleagues had set aside time to meet me\" cho thấy người viết hiểu sự bất tiện mình gây ra, làm lời xin lỗi chân thành hơn một câu \"sorry\" đơn thuần (TA)."
+   ],
+   [
+    "Credible, detailed explanation",
+    "\"There was no mobile signal in the cutting where we were stranded\" giải thích cụ thể vì sao không thể báo trước, đúng phần câu hỏi ngầm của người đọc (TA, LR)."
+   ],
+   [
+    "Offering proof tactfully",
+    "\"I have kept the rail company's confirmation of the delay, should you wish to see it\" dùng đảo ngữ điều kiện \"should you wish\" vừa trang trọng vừa không phòng thủ quá mức (GRA, TA)."
+   ],
+   [
+    "Genuine interest backed by detail",
+    "\"your recent campaign for Eastfield Foods is very much the kind of work I would like to be involved in\" chứng tỏ người viết đã tìm hiểu công ty, mạnh hơn câu chung chung \"I remain interested\" (TA)."
+   ],
+   [
+    "Deferential request suited to the recipient",
+    "\"I would therefore be most grateful if you would consider rescheduling\" lịch sự đúng mức với người đang có quyền quyết định (TA, LR)."
+   ],
+   [
+    "Flexibility that eases the request",
+    "\"at whatever time is most convenient for the panel\" đặt sự thuận tiện của người nhận lên trước, kết hợp đúng \"Yours sincerely\" với lời chào có tên (TA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 đủ ba ý nhưng lời giải thích và lời khẳng định quan tâm còn khá chung. Bài band 9 xin lỗi có chiều sâu hơn (thừa nhận thời gian người khác đã dành ra), giải thích có chi tiết khiến người đọc tin và còn đề nghị cung cấp bằng chứng một cách tế nhị. Sự quan tâm đến vị trí được chứng minh bằng hiểu biết về một chiến dịch của công ty. Giọng văn khiêm tốn, chuyên nghiệp xuyên suốt, không đổ lỗi."
+ },
+ {
+  "id": "w1g05",
+  "model9": "Dear Mr Patel,\n\nI hope you're keeping well. I'm writing about a leak under the kitchen sink at the flat, which has got noticeably worse over the past fortnight.\n\nIt began as an occasional drip from the joint where the waste pipe meets the trap. I tried tightening it by hand, but that only slowed it down for a day or two, and water is now dripping steadily. The cupboard underneath is damp, there's a musty smell of mould, and yesterday I noticed that the laminate flooring beside the unit has started to bubble and lift.\n\nFor now, I've cleared everything out of the cupboard and put a bowl under the pipe, which I'm having to empty morning and evening. My main worry, though, is that the water may be getting under the floor, and I wouldn't want it to cause damage to the ceiling of the flat below.\n\nWould you be able to arrange for a plumber to take a look this week? I work from home on Tuesdays and Thursdays, so either day would be easy for me, but I'm also happy to leave a key with the neighbour if another day suits better.\n\nMany thanks,\nAnna Kowalski",
+  "why9": [
+   [
+    "Semi-formal tone calibrated for a landlord",
+    "\"I hope you're keeping well\" và các dạng rút gọn như \"I'm\", \"there's\" tạo giọng thân thiện nhưng vẫn tôn trọng, đúng mối quan hệ người thuê với chủ nhà (TA)."
+   ],
+   [
+    "Precise everyday vocabulary",
+    "\"the joint where the waste pipe meets the trap\", \"musty smell of mould\", \"the laminate flooring ... has started to bubble and lift\" là từ ngữ đời thường nhưng rất chính xác, giúp thợ sửa hiểu ngay vấn đề (LR)."
+   ],
+   [
+    "Showing initiative before asking",
+    "\"I tried tightening it by hand, but that only slowed it down for a day or two\" cho thấy người thuê đã tự xử lý trước, khiến lời nhờ vả hợp lý hơn (TA)."
+   ],
+   [
+    "Appealing to the landlord's interest",
+    "\"I wouldn't want it to cause damage to the ceiling of the flat below\" khéo léo nhắc rằng chậm sửa sẽ tốn kém hơn cho chính chủ nhà, mà không mang tính đe dọa (TA, CC)."
+   ],
+   [
+    "Polite request with options",
+    "\"Would you be able to arrange for a plumber to take a look this week?\" kèm phương án dự phòng \"happy to leave a key with the neighbour\" khiến yêu cầu dễ được đáp ứng (TA, GRA)."
+   ],
+   [
+    "Present continuous for ongoing inconvenience",
+    "\"which I'm having to empty morning and evening\" dùng tiếp diễn để nhấn mạnh sự bất tiện kéo dài, tự nhiên và đúng sắc thái (GRA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 có cấu trúc tốt nhưng từ vựng mô tả vấn đề còn chung (\"a small leak under the sink\"). Bài band 9 mô tả chính xác vị trí rò rỉ và hư hại bằng từ ngữ đời thường cụ thể. Giọng văn được điều chỉnh tinh tế hơn: thân thiện, có dạng rút gọn, nhưng vẫn tôn trọng. Phần ảnh hưởng nhắc khéo đến quyền lợi của chủ nhà, và yêu cầu có thêm phương án dự phòng (để chìa khóa ở hàng xóm) nên thực tế hơn."
+ },
+ {
+  "id": "w1g06",
+  "model9": "Dear Mrs Walsh,\n\nI wanted to let you know in good time that we're about to have some building work done at number 14, and I'm afraid it's likely to be noisy at times.\n\nWe're replacing our old kitchen and extending it a few metres into the garden. That means part of the rear wall, the one closest to your garden, will have to come down, and a new concrete floor will be laid, so there'll be some drilling and a cement mixer running for the first couple of weeks.\n\nThe builders are due to start on Monday 12 June, and the job should take about five weeks. They'll only be working on weekdays, from 8.30 a.m. to 5 p.m., so evenings and weekends should be as peaceful as usual.\n\nWe've asked the firm to keep their van on our drive so the road stays clear, to sweep up dust at the end of each day, and to save the noisiest work for late morning where possible. If anything does become a problem, or you'd like them to avoid a particular day, please knock on the door or ring me on 07700 900456 and I'll do my best to sort it out.\n\nThanks in advance for bearing with us.\n\nBest wishes,\nHelen Moore",
+  "why9": [
+   [
+    "Considerate, neighbourly opening",
+    "\"I wanted to let you know in good time\" và \"I'm afraid it's likely to be noisy at times\" vừa thông báo vừa xin thông cảm trước, giọng thân thiện vừa phải, đúng với một người hàng xóm không quá thân (TA)."
+   ],
+   [
+    "Work described from the neighbour's viewpoint",
+    "\"part of the rear wall, the one closest to your garden, will have to come down\" và \"drilling and a cement mixer running for the first couple of weeks\" nói rõ điều gì sẽ ảnh hưởng đến bà Walsh và trong bao lâu (TA)."
+   ],
+   [
+    "Reassurance built into the schedule",
+    "\"so evenings and weekends should be as peaceful as usual\" biến thông tin lịch làm việc thành lời trấn an, không chỉ là con số (TA, CC)."
+   ],
+   [
+    "Concrete, tailored mitigation",
+    "\"to save the noisiest work for late morning where possible\" là biện pháp cụ thể, chu đáo, cho thấy người viết thật sự nghĩ cho hàng xóm (TA)."
+   ],
+   [
+    "Open invitation to raise problems",
+    "\"or you'd like them to avoid a particular day ... I'll do my best to sort it out\" mời phản hồi một cách chân thành, dùng cụm khẩu ngữ \"sort it out\" hợp giọng bán trang trọng (LR, TA)."
+   ],
+   [
+    "Idiomatic closing",
+    "\"Thanks in advance for bearing with us\" là cách nói tự nhiên của người bản ngữ khi xin lỗi trước vì sự phiền phức (LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 rõ ràng và đủ ý nhưng phần mô tả công việc chưa cho thấy hàng xóm sẽ bị ảnh hưởng thế nào. Bài band 9 mô tả công việc từ góc nhìn của bà Walsh (bức tường gần vườn bà, tiếng khoan trong hai tuần đầu) và biến lịch làm việc thành lời trấn an. Biện pháp giảm phiền thêm một ý chu đáo (làm việc ồn nhất vào cuối buổi sáng) và lời mời góp ý cụ thể. Giọng văn thân thiện, khiêm tốn, dùng cụm tự nhiên như \"bearing with us\"."
+ },
+ {
+  "id": "w1g07",
+  "model9": "Dear Mr Lawson,\n\nI'm afraid I'll have to miss the next three Wednesday classes, on 4, 11 and 18 October, and wanted to explain why and ask how best to keep up.\n\nMy company is opening a new branch in Manchester, and I've been asked to spend most of October there helping to recruit and train the new team. I did look into travelling back each Wednesday, but with meetings running into the evening, I couldn't guarantee arriving in time.\n\nIt's a shame, as I've been enjoying the course far more than I expected. The session on structuring a presentation around a single message was a turning point for me, and I put it into practice at our quarterly review last month, where my manager commented on how much clearer my slides were. I've also found that I'm much less nervous speaking in front of a group.\n\nWould it be possible for you to email me the handouts and the homework for those weeks? If it would help, I could also record the short presentation we're due to give on the 18th and send it to you, so I don't miss out on your feedback.\n\nMany thanks, and I look forward to being back on the 25th.\n\nKind regards,\nSofia Ramirez",
+  "why9": [
+   [
+    "Purpose stated with natural economy",
+    "Câu mở \"I'm afraid I'll have to miss ... and wanted to explain why and ask how best to keep up\" nêu tin chính và báo trước cả nội dung thư trong một câu, giọng lịch sự mà gần gũi (TA, CC)."
+   ],
+   [
+    "Explanation shows effort",
+    "\"I did look into travelling back each Wednesday, but...\" dùng trợ động từ \"did\" để nhấn mạnh đã cố gắng thu xếp, khiến lý do vắng mặt đáng thông cảm hơn (GRA, TA)."
+   ],
+   [
+    "Specific, credible praise",
+    "\"The session on structuring a presentation around a single message was a turning point for me\" nêu đúng buổi học cụ thể và tác động thật, tránh lời khen chung chung dễ bị coi là xã giao (TA, LR)."
+   ],
+   [
+    "Evidence of progress",
+    "\"where my manager commented on how much clearer my slides were\" là bằng chứng khách quan cho sự tiến bộ, làm ý 2 thuyết phục (TA)."
+   ],
+   [
+    "Proactive, considerate solution",
+    "\"I could also record the short presentation we're due to give on the 18th\" đề xuất cách học bù mà không đòi hỏi thêm thời gian của giáo viên (TA, CC)."
+   ],
+   [
+    "Warm but respectful close",
+    "\"I look forward to being back on the 25th\" kết thư tự nhiên, cho thấy cam kết với khóa học, giọng bán trang trọng chuẩn xác với giáo viên (TA, LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 đã có cấu trúc tốt và ví dụ về buổi thuyết trình, nhưng lời khen và lý do vẫn khá chung. Bài band 9 nêu chính xác buổi học nào có ích, áp dụng ở đâu và ai nhận xét, nên ý 2 sống động và đáng tin. Lý do vắng mặt cho thấy đã thử thu xếp một cách cụ thể. Đề xuất học bù gắn với bài thuyết trình đúng ngày 18, và câu kết hẹn ngày quay lại tạo cảm giác có trách nhiệm."
+ },
+ {
+  "id": "w1g08",
+  "model9": "Dear Jamie,\n\nThanks so much for the invitation, and for the photos of the new flat! It looks gorgeous, especially that balcony with the sea view, and the coast walk you mentioned sounds like exactly what I need right now.\n\nSadly, though, I'm going to have to give it a miss this time. That's the weekend of my sister's wedding (I can't believe she's actually getting married!), and I've somehow ended up in charge of the music for the reception. So instead of strolling along the cliffs with you, I'll be at home putting together playlists and arguing with my uncle about whether ABBA counts as dance music. I'm gutted, honestly, as it's been almost a year since we last caught up.\n\nCould we fix another date instead? I've got a few days off in the middle of next month, so I could come down on the Friday evening and stay until Sunday, if that suits you. Or, if you fancy a change of scene, you'd be more than welcome to stay here. There's a brilliant new food market that's right up your street.\n\nLet me know what works, and give Sam a hug from me.\n\nLots of love,\nKate",
+  "why9": [
+   [
+    "Warm, specific thanks",
+    "\"especially that balcony with the sea view\" và \"sounds like exactly what I need right now\" cho thấy người viết thật sự đọc và hào hứng với lời mời, nên lời từ chối sau đó không bị lạnh lùng (TA)."
+   ],
+   [
+    "Softened refusal",
+    "\"Sadly, though, I'm going to have to give it a miss this time\" là cách từ chối khẩu ngữ, nhẹ nhàng, rất tự nhiên giữa bạn thân (LR, TA)."
+   ],
+   [
+    "Humour that adds natural detail",
+    "\"arguing with my uncle about whether ABBA counts as dance music\" là chi tiết dí dỏm làm lá thư giống người thật viết, đồng thời triển khai lý do một cách sinh động (TA, LR)."
+   ],
+   [
+    "Informal idioms used accurately",
+    "\"I'm gutted\", \"caught up\", \"fancy a change of scene\", \"right up your street\" là thành ngữ khẩu ngữ Anh dùng đúng ngữ cảnh, không bị nhồi nhét (LR)."
+   ],
+   [
+    "Concrete alternative with a second option",
+    "\"I could come down on the Friday evening and stay until Sunday, if that suits you\" kèm phương án \"you'd be more than welcome to stay here\" làm ý 3 đầy đủ và linh hoạt (TA)."
+   ],
+   [
+    "Informal punctuation and asides",
+    "Câu chen trong ngoặc \"(I can't believe she's actually getting married!)\" và dấu chấm than tạo giọng nói tự nhiên, phù hợp thư thân mật (CC, GRA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 thân mật và đủ ý nhưng còn hơi khuôn mẫu (\"sounds amazing\", \"On top of that\"). Bài band 9 có giọng nói riêng: lời cảm ơn nhắc chi tiết cụ thể, lời từ chối nhẹ nhàng, và một chi tiết hài hước làm lý do trở nên sống động. Thành ngữ khẩu ngữ Anh (gutted, right up your street) được dùng đúng chỗ và tiết chế. Đề xuất gặp lại cụ thể và có phương án thay thế, nên ba ý đều được phát triển đầy đủ."
+ },
+ {
+  "id": "w1g09",
+  "model9": "Dear Chris,\n\nI nearly fell off my chair when I read that you've finally booked your flights! It's been far too long, and I can't wait to show you the city I'm always going on about.\n\nI've already started planning, so brace yourself. On your first night, we'll head down to the night market by the river, where you can finally try the grilled rice paper and sugarcane juice I keep telling you about. If you're up for an early start the next day, we could rent bikes and ride out to the old fishing village before it gets too hot. The coastal road there is stunning. I'd also like to keep one day completely free, so we can just wander, drift between my favourite cafés and catch up properly.\n\nA few tips on packing: it'll be hot and very humid, so bring light, loose clothes and plenty of sun cream. We often get sudden downpours in the late afternoon, so throw in a compact umbrella or a thin raincoat as well. Most importantly, bring comfortable shoes, because you'll be doing far more walking than you think.\n\nSend me your flight details and I'll be waiting at arrivals.\n\nSee you very soon,\nLinh",
+  "why9": [
+   [
+    "Lively, personal opening",
+    "\"I nearly fell off my chair when I read that you've finally booked your flights!\" bày tỏ cảm xúc bằng hình ảnh cụ thể, sinh động hơn \"I was so excited\" (TA, LR)."
+   ],
+   [
+    "Informal phrasal verbs and idioms",
+    "\"going on about\", \"brace yourself\", \"up for an early start\", \"catch up properly\" là cách nói tự nhiên của người bản ngữ trong thư bạn bè (LR)."
+   ],
+   [
+    "Suggestions with sensory detail",
+    "\"the grilled rice paper and sugarcane juice\" và \"before it gets too hot\" làm mỗi hoạt động cụ thể và thực tế, cho thấy người viết hiểu rõ thành phố mình (TA)."
+   ],
+   [
+    "Advice linked to reasons",
+    "Mỗi lời khuyên đi kèm lý do: \"hot and very humid\" -> quần áo nhẹ, \"sudden downpours in the late afternoon\" -> ô hoặc áo mưa. Ý 3 được phát triển trọn vẹn (TA, CC)."
+   ],
+   [
+    "Prioritising with natural signposting",
+    "\"Most importantly, bring comfortable shoes, because you'll be doing far more walking than you think\" dùng từ nhấn mạnh thứ tự ưu tiên, kèm chút dí dỏm, thay cho chuỗi \"Don't forget\" (CC)."
+   ],
+   [
+    "Warm, practical close",
+    "\"Send me your flight details and I'll be waiting at arrivals\" khép thư bằng một hành động cụ thể, giọng ấm áp (TA)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 thân mật và đủ ý, nhưng các hoạt động và lời khuyên còn khá chung (street food, light clothes). Bài band 9 cụ thể hơn ở mọi ý: món ăn được gọi tên, hoạt động có thời điểm hợp lý, và mỗi lời khuyên gắn với lý do thời tiết. Thành ngữ và cụm động từ khẩu ngữ được dùng tự nhiên, tạo giọng nói riêng của người viết. Bài cũng sắp xếp lời khuyên theo mức độ quan trọng, nên mạch lạc mà không cần từ nối cứng."
+ },
+ {
+  "id": "w1g10",
+  "model9": "Dear Tom,\n\nI just wanted to say a proper thank you for putting me up last week. You and Maya couldn't have been more welcoming, and I know it can't have been easy having someone camped in your spare room while you were both juggling work.\n\nIt's hard to pick a favourite moment, but I think the hike up to the lake has to win. I'd never have found that path on my own, and eating our sandwiches at the top while the mist cleared off the water is something I'll remember for a long time. The evening you taught me your mushroom pasta comes a close second. I've had two attempts at it since I got home, and while it's edible, it's nowhere near as good as yours, so I suspect you left out a secret ingredient.\n\nAnyway, it's my turn to play host now. How about the two of you coming over for a long weekend in April, when the blossom along the river is at its best? My flatmate has moved out, so you'd have a room to yourselves, and I'll take a couple of days off so we can explore properly.\n\nLet me know what you think, and thanks again for everything.\n\nAll the best,\nBen",
+  "why9": [
+   [
+    "Natural, idiomatic thanks",
+    "\"say a proper thank you for putting me up\" dùng cụm động từ \"put somebody up\" (cho ai ở nhờ) rất tự nhiên trong thư thân mật (LR)."
+   ],
+   [
+    "Empathy expressed through modal perfect",
+    "\"it can't have been easy having someone camped in your spare room\" dùng \"can't have been\" để suy đoán về quá khứ, cho thấy sự thấu hiểu với chủ nhà (GRA, TA)."
+   ],
+   [
+    "Vivid, specific highlight",
+    "\"eating our sandwiches at the top while the mist cleared off the water\" là chi tiết hình ảnh cụ thể, làm ý 2 chân thành và đáng nhớ (TA, LR)."
+   ],
+   [
+    "Light humour",
+    "\"it's nowhere near as good as yours, so I suspect you left out a secret ingredient\" đùa nhẹ nhàng, vừa khen bạn vừa giữ giọng thân mật (TA, LR)."
+   ],
+   [
+    "Invitation with reason and logistics",
+    "\"How about the two of you coming over for a long weekend in April, when the blossom along the river is at its best?\" nêu thời gian, lý do chọn thời điểm, và tiếp theo là chỗ ở, ngày nghỉ, nên lời mời cụ thể và hấp dẫn (TA)."
+   ],
+   [
+    "Smooth, conversational transitions",
+    "\"Anyway, it's my turn to play host now\" chuyển ý bằng giọng nói tự nhiên, cụm \"play host\" phù hợp hơn \"invite you\" (CC, LR)."
+   ]
+  ],
+  "band8vs9": "Bài band 8 chân thành và đủ ý, nhưng kỷ niệm và lời mời còn khá đơn giản. Bài band 9 dùng ngôn ngữ thân mật chính xác hơn (put me up, play host, can't have been easy) và miêu tả kỷ niệm bằng hình ảnh cụ thể khiến người đọc như thấy lại cảnh đó. Chi tiết hài hước về món mì làm thư gần gũi. Lời mời có lý do chọn thời điểm (mùa hoa) và sắp xếp cụ thể, nên ý 3 được phát triển trọn vẹn hơn."
+ }
+]

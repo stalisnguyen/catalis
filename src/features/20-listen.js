@@ -11,6 +11,15 @@ function TS_clean(){const c=TS_cleans;TS_cleans=[];c.forEach(f=>{try{f();}catch(
 function TS_count(groups){return groups.reduce((s,g)=>s+g.items.length*(g.kind==='multi'?2:1),0);}
 function TS_answered(A){return Object.values(A).reduce((s,v)=>s+(Array.isArray(v)?v.length:(v!==''&&v!=null&&String(v).trim()?1:0)),0);}
 const TS_v=dv=>/^\d+$/.test(dv)?+dv:dv;
+/* expert (band 8.5-9) pack: derived from data */
+const TS_XPILL='<span class="pill ts-xp">Chuyên gia 8.5-9</span>';
+const TS_bandHi=b=>{const m=String(b||'').match(/\d+(?:\.\d+)?/g);return m?+m[m.length-1]:0;};
+const LS_isX=t=>+t>=7;
+const RD_isXP=p=>TS_bandHi(p.band)>=9;
+const RD_isXT=(R,type,t)=>R.some(p=>p.type===type&&p.test===t&&RD_isXP(p));
+const TS_xHead=note=>`<div class="ts-xh"><h3>Đề chuyên gia (band 8.5-9)</h3><p class="note">${note}</p></div>`;
+const LS_XNOTE='Khó hơn đề thường: người nói nhanh và tự nhiên, nhiều bẫy sửa lời và paraphrase.';
+const RD_XNOTE='Khó hơn đề thường: bài học thuật dày, bẫy NOT GIVEN và paraphrase sát nghĩa.';
 
 function TS_itemHTML(g,it,k,n,A,sec){
   const v=A[k], kind=g.kind;
@@ -110,7 +119,7 @@ function TS_resHTML({raw,total,band,label,results,buttons=''}){
   const p=raw/total, st=p>=.8?'yay':p>=.55?'ok':'hmm';
   const msg=p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
   return `<div class="panel ts-res"><div class="ts-res-top">${typeof mascot==='function'?mascot(st,80):''}
-    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div></div></div>
+    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div>${band>=8.5?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
     <p class="note">${msg} Bấm vào số câu để xem lại.</p>
     <div class="ts-dots">${results.map(r=>`<button type="button" class="ts-dot ${r.ok?'ok':''}" data-go="${r.k}" aria-label="Câu ${r.n} ${r.ok?'đúng':'sai'}">${r.n}</button>`).join('')}</div>
     ${buttons?`<div class="row">${buttons}</div>`:''}</div>`;
@@ -146,16 +155,19 @@ VIEWS.listen=async el=>{
 };
 function LS_home(el,L){
   TS_clean();window.__leave=TS_clean;
-  el.innerHTML=`<div class="view"><div class="spread"><h2>Listening</h2><span class="note">6 đề, 24 part, 240 câu</span></div>
+  el.innerHTML=`<div class="view"><div class="spread"><h2>Listening</h2><span class="note">${new Set(L.map(p=>p.test)).size} đề, ${L.length} part, ${L.reduce((s,p)=>s+TS_count(p.groups),0)} câu</span></div>
     ${subTabs('lsTabs',[['parts','Đề luyện'],['dict','Chép chính tả']],LS_tab,t=>{LS_tab=t;LS_home(el,L);})}
     <div id="lsBody" class="view"></div></div>`;
   const box=$('#lsBody',el);
   if(LS_tab==='dict'){LS_dict(box,L);return;}
   const mode=P.ls.mode||'practice', full=P.ls.full||{};
   const tests=[...new Set(L.map(p=>p.test))].sort((a,b)=>a-b);
-  box.innerHTML=TS_modeHTML(mode,LS_NOTES)+tests.map(t=>`<section class="ts-test"><div class="spread"><h3>Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('headphones')}Làm cả đề 40 câu${full[t]!=null?` <span class="ts-best">${full[t]}/40</span>`:''}</button></div>
-      <div class="ts-cards">${L.filter(p=>p.test===t).sort((a,b)=>a.part-b.part).map(p=>{const b=P.ls.best[p.id];
-        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">Part ${p.part}</span><span class="small muted num">Câu ${(p.part-1)*10+1}-${p.part*10}</span>${b!=null?`<span class="ts-best">${b}/10</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.setting)}</span></button>`;}).join('')}</div></section>`).join('');
+  const sec=t=>{const ps=L.filter(p=>p.test===t).sort((a,b)=>a.part-b.part), n=ps.reduce((s,p)=>s+TS_count(p.groups),0), x=LS_isX(t);
+    return `<section class="ts-test${x?' ts-xt':''}"><div class="spread"><h3>Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('headphones')}Làm cả đề ${n} câu${full[t]!=null?` <span class="ts-best">${full[t]}/${n}</span>`:''}</button></div>
+      <div class="ts-cards">${ps.map(p=>{const b=P.ls.best[p.id],c=TS_count(p.groups);
+        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">Part ${p.part}</span>${x?TS_XPILL:''}<span class="small muted num">Câu ${(p.part-1)*10+1}-${(p.part-1)*10+c}</span>${b!=null?`<span class="ts-best">${b}/${c}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.setting)}</span></button>`;}).join('')}</div></section>`;};
+  const xs=tests.filter(LS_isX);
+  box.innerHTML=TS_modeHTML(mode,LS_NOTES)+tests.filter(t=>!LS_isX(t)).map(sec).join('')+(xs.length?TS_xHead(LS_XNOTE)+xs.map(sec).join(''):'');
   TS_bindMode(box,P.ls,LS_NOTES);
   $$('[data-id]',box).forEach(b=>b.onclick=()=>{const p=L.find(x=>x.id===b.dataset.id);
     LS_run(el,{parts:[p],exam:(P.ls.mode||'practice')==='exam',title:`Listening Test ${p.test} Part ${p.part}`});});

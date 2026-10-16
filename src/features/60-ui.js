@@ -80,7 +80,7 @@ VIEWS.home=el=>{
   const est=estBand(); const days=c.date?Math.ceil((new Date(c.date).getTime()-today())/DAY):null;
   const firstTime=Object.keys(P.srs).length<20&&!P.placed;
   el.innerHTML=`<div class="view home2">
-   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Mít tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Mít nhé.'}</p></div></div>
+   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
@@ -90,7 +90,7 @@ VIEWS.home=el=>{
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
      <div class="tasks">${tasks.map(t=>`<button class="task ${t.done?'done':''}" data-go="${t.go}"><span class="tk-c">${t.done?ic('check'):ic(UI_V[t.go]?UI_V[t.go][1]:'sparkles')}</span><span class="tk-t"><span><b>${esc(t.t)}</b>${t.n?` <span class="num muted small">${Math.min(t.n[0],t.n[1])}/${t.n[1]}</span>`:''}</span><span class="small muted">${esc(t.sub)}</span></span>${ic('chevron-right','tk-a')}</button>`).join('')}</div>
-     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp 8 phút</button> để Mít chọn lộ trình hợp với bạn.`,56):''}
+     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp 8 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
      <button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span><span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span></span><span class="mini-l">${est==null?'Làm bài xếp lớp hoặc thi thử để biết':'Mục tiêu '+c.target.toFixed(1)+(days!=null&&days>0?`, còn ${days} ngày đến ngày thi`:'')}</span></button>
@@ -122,7 +122,7 @@ VIEWS.progress=el=>{
    <div class="ranks">${PL_RANKS.map((x,i)=>`<div class="rk ${i<=ri?'on':''}" title="${x[2]}: ${x[0]} XP">${catSVG(i<=ri?'calm':'zzz',44,i)}<span class="rk-n">${x[1]}</span><span class="small">${x[0]} XP</span></div>`).join('')}</div>
    <div class="panel"><div class="spread"><h3>Band</h3><span class="note">Mục tiêu ${c.target.toFixed(1)}, ${c.exam==='general'?'General Training':'Academic'}</span></div>
      <div class="bands">${['listening','reading','writing','speaking'].map(s=>`<div class="bd-c"><span class="small muted">${SK_NAME[s]}</span><b class="num">${fmtBand(lb[s])}</b></div>`).join('')}<div class="bd-c ov"><span class="small">Overall</span><b class="num">${fmtBand(est)}</b></div></div>
-     ${hist.length?`<details class="adv"><summary>Lịch sử điểm (${(P.scores||[]).length})</summary><div class="sc-list">${hist.map(s=>`<div class="kv"><span>${new Date(s.t).toLocaleDateString('vi-VN')} ${esc(s.title||SK_NAME[s.skill]||s.skill)}</span><b class="num">${s.raw!=null&&s.total?s.raw+'/'+s.total+', ':''}${fmtBand(s.band)}</b></div>`).join('')}</div></details>`:'<p class="note">Chưa có điểm. Làm bài xếp lớp hoặc một bài thi thử để Mít ghi lại.</p>'}
+     ${hist.length?`<details class="adv"><summary>Lịch sử điểm (${(P.scores||[]).length})</summary><div class="sc-list">${hist.map(s=>`<div class="kv"><span>${new Date(s.t).toLocaleDateString('vi-VN')} ${esc(s.title||SK_NAME[s.skill]||s.skill)}</span><b class="num">${s.raw!=null&&s.total?s.raw+'/'+s.total+', ':''}${fmtBand(s.band)}</b></div>`).join('')}</div></details>`:'<p class="note">Chưa có điểm. Làm bài xếp lớp hoặc một bài thi thử để Jack ghi lại.</p>'}
      <div class="row"><button class="btn sm" data-go="test">${ic('clipboard-check')} Thi thử</button><button class="btn sm" data-go="placement">Bài xếp lớp</button><button class="btn sm" id="pgPlan">Đổi lộ trình</button></div></div>
    <div class="stats4">
      <div class="panel st"><span class="st-i fl">${ic('flame')}</span><b class="num">${streak()}</b><span class="small muted">ngày liên tiếp</span></div>
@@ -153,7 +153,7 @@ function uiToggles(root,after){
 function uiToggleHTML(){
   const g=typeof gmData==='function'?gmData():{};
   return `${uiTg('tgIpa','Phiên âm IPA',P.settings.ipa!==false,'Hiện phiên âm trên thẻ từ')}
-   ${uiTg('tgSnd','Âm hiệu đúng sai',!g.mute,'Tiếng "ting" khi đúng, tiếng trầm khi sai')}${uiTg('tgMc','Mít',!P.settings.noMascot,'Mèo cam đi cùng bạn ở các mốc học')}
+   ${uiTg('tgSnd','Âm hiệu đúng sai',!g.mute,'Tiếng "ting" khi đúng, tiếng trầm khi sai')}${uiTg('tgMc','Jack',!P.settings.noMascot,'Mèo cam đi cùng bạn ở các mốc học')}
    <div class="tg-row static"><span><b>Giao diện</b></span><span class="row">${[['','Tự động'],['light','Sáng'],['dark','Tối']].map(([k,t])=>`<button class="chip" data-theme-set="${k}" aria-pressed="${(P.settings.theme||'')===k}">${t}</button>`).join('')}</span></div>
    <button class="tg-row" id="tgVoice2"><span><b>Giọng đọc và tốc độ</b><span class="small muted">Anh, Úc hay Mỹ, giọng nam, giọng nữ, đọc chậm hay nhanh</span></span>${ic('chevron-right')}</button>`;
 }
@@ -179,7 +179,7 @@ VIEWS.settings=el=>{
      ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>':''}
      ${WEB&&getKey()?'<button class="btn ghost sm" id="stOut" style="align-self:flex-start">Quên mật khẩu trên máy này</button>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
-   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Mít</button></div>
+   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button></div>
      <p class="note">Catalis, Stalis's IELTS. Danh sách từ: NGSL và NAWL (Browne, Culligan, Phillips; CC BY-SA 4.0). Phiên âm tham khảo ipa-dict (MIT). Đề luyện, bài mẫu do Catalis soạn riêng theo định dạng IELTS, không phải đề thi thật.</p></div>
   </div>`;
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
@@ -234,7 +234,7 @@ function uiCele(html,cls){
 }
 window.__rankUp=b=>{
   const i=PL_RANKS.indexOf(b), nx=PL_RANKS[i+1];
-  uiCele(`<div class="cele-mc">${catSVG('yay',140,i)}</div><div class="stamp">${b[1]}</div><h2>Bạn đã lên ${b[2]}!</h2><p>${UI_RANK_DESC[i]||''} Mít có phụ kiện mới rồi.</p>${nx?`<p class="small" style="opacity:.85">Mốc tiếp theo: ${nx[1]}, ${nx[0]} XP.</p>`:''}<button class="btn cele-btn" data-close>Tuyệt vời</button>`,'rank');
+  uiCele(`<div class="cele-mc">${catSVG('yay',140,i)}</div><div class="stamp">${b[1]}</div><h2>Bạn đã lên ${b[2]}!</h2><p>${UI_RANK_DESC[i]||''} Jack có phụ kiện mới rồi.</p>${nx?`<p class="small" style="opacity:.85">Mốc tiếp theo: ${nx[1]}, ${nx[0]} XP.</p>`:''}<button class="btn cele-btn" data-close>Tuyệt vời</button>`,'rank');
   uiSfx('end');setTimeout(()=>confetti({count:130}),300);uiChips();
 };
 window.__goalDone=()=>{
@@ -257,7 +257,7 @@ function uiIntro(force){
   if(!force&&store.get('catalis-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Mít</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}!</h2><p>Mình lớn lên theo danh hiệu của bạn, từ Freshman đến Professor. Mỗi lần lên hạng, mình được thêm phụ kiện mới.</p>
       <div class="hats">${[0,1,2,4,5,7].map(i=>catSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',96)}</div><h2>Bạn thi dạng nào?</h2><div class="row" style="justify-content:center">${[['academic','Academic'],['general','General Training']].map(([k,t])=>`<button class="chip big" data-ex="${k}" aria-pressed="${c.exam===k}">${t}</button>`).join('')}</div>

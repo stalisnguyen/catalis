@@ -23,11 +23,11 @@ for w, b in zip(words, base):
     if w['w'].lower() in seen: continue
     seen.add(w['w'].lower())
     by[b['lv']].append([w['w'], w['ipa'], w['pos'], w['vi'], w['ex'], w['exvi'], w['col'], w['fam'], w['em'], ''])
-for f in ('topic_a.json', 'topic_b.json'):
+for f in ('topic_a.json', 'topic_b.json', 'topic_c.json', 'topic_d.json'):
     for w in load(f):
         if w['w'].lower() in seen: continue
         seen.add(w['w'].lower())
-        by[4].append([w['w'], w['ipa'], w['pos'], w['vi'], w['ex'], w['exvi'], w['col'], w['fam'], w['em'], w['topic']])
+        by[w.get('lv', 4)].append([w['w'], w['ipa'], w['pos'], w['vi'], w['ex'], w['exvi'], w['col'], w['fam'], w['em'], w['topic']])
 for lv, rows in by.items():
     dump(f'vocab-{lv}.json', rows)
     print('vocab', lv, len(rows))
@@ -36,10 +36,28 @@ reading = [p for f in sorted(glob.glob(str(out / 'read_*.json'))) for p in json.
 dump('reading.json', reading)
 listening = [p for f in sorted(glob.glob(str(out / 'listen_*.json'))) for p in json.load(open(f, encoding='utf-8'))]
 dump('listening.json', listening)
-dump('writing.json', {'t1a': load('write_1a.json'), 't1g': load('write_1g.json'), 't2': load('write_2a.json') + load('write_2b.json')})
+# band 9 models are merged into the existing prompts: model9, why9, band8vs9
+w9 = {x['id']: x for f in ('write9_t1.json', 'write9_t2.json') for x in load(f)}
+def add9(lst):
+    for x in lst:
+        if x['id'] in w9:
+            x.update({k: w9[x['id']][k] for k in ('model9', 'why9', 'band8vs9')})
+    return lst
+writing = {'t1a': add9(load('write_1a.json')), 't1g': add9(load('write_1g.json')), 't2': add9(load('write_2a.json') + load('write_2b.json'))}
+assert all('model9' in x for k in writing for x in writing[k]), 'missing band 9 model'
+dump('writing.json', writing)
 sa, sb = load('speak_a.json'), load('speak_b.json')
-dump('speaking.json', {'p1': sa['p1'] + sb.get('p1', []), 'p2': sa['p2'] + sb['p2']})
-dump('grammar.json', load('gram_a.json') + load('gram_b.json'))
+speaking = {'p1': sa['p1'] + sb.get('p1', []), 'p2': sa['p2'] + sb['p2']}
+s9 = [load('speak9_a.json'), load('speak9_b.json')]
+p1_9 = {t['topic']: t['samples9'] for d in s9 for t in d.get('p1', [])}
+p2_9 = {c['id']: c for d in s9 for c in d.get('p2', [])}
+for t in speaking['p1']:
+    if t['topic'] in p1_9: t['samples9'] = p1_9[t['topic']]
+for c in speaking['p2']:
+    if c['id'] in p2_9: c.update({k: p2_9[c['id']][k] for k in ('sample9', 'why9', 'p3samples9')})
+assert all('sample9' in c for c in speaking['p2']) and all('samples9' in t for t in speaking['p1'])
+dump('speaking.json', speaking)
+dump('grammar.json', load('gram_a.json') + load('gram_b.json') + load('gram_c.json'))
 dump('pron.json', load('pron.json'))
 dump('daily.json', load('daily.json'))
 print('reading', len(reading), 'listening', len(listening))

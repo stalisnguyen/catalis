@@ -1,5 +1,6 @@
-/* ================= GRAMMAR (Ngữ pháp): 60 points, list + detail + practice ================= */
-const GR_LV={1:'Nền tảng, band 5',2:'Band 6-6.5',3:'Band 7+'};
+/* ================= GRAMMAR (Ngữ pháp): points by level 1-4, list + detail + practice ================= */
+const GR_LV={1:'Nền tảng, band 5',2:'Band 6-6.5',3:'Band 7+',4:'Chuyên gia, band 8.5-9'};
+const GR_LVS=G=>[1,2,3,4].filter(L=>G.some(x=>x.lv===L));
 const GR_S={lv:0,q:'',id:null};
 function grData(){P.gr=P.gr||{};P.gr.done=P.gr.done||{};return P.gr;}
 // lenient compare for "Sửa lỗi": case, spaces, curly quotes, final punctuation
@@ -23,21 +24,21 @@ function grList(el,G){
       <input type="search" id="grQ" placeholder="Tìm theo tên, tên tiếng Anh hoặc nhóm" value="${esc(GR_S.q)}" aria-label="Tìm điểm ngữ pháp">
       <button class="btn primary" id="grQuick">${ic('zap')} Ôn nhanh 10 câu</button>
     </div>
-    ${subTabs('grLv',[['0','Tất cả'],['1',GR_LV[1]],['2',GR_LV[2]],['3',GR_LV[3]]],String(GR_S.lv),k=>{GR_S.lv=+k;$$('#grLv [data-t]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===k));draw();})}
+    ${subTabs('grLv',[['0','Tất cả'],...GR_LVS(G).map(L=>[String(L),GR_LV[L]])],String(GR_S.lv),k=>{GR_S.lv=+k;$$('#grLv [data-t]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===k));draw();})}
     <div id="grBox" class="gr-groups"></div>
   </div>`;
   const draw=()=>{
     const q=viFold(GR_S.q.trim());
     const list=G.filter(x=>(!GR_S.lv||x.lv===GR_S.lv)&&(!q||viFold(x.title+' | '+x.en+' | '+x.cat).includes(q)));
     if(!list.length){$('#grBox').innerHTML='<div class="empty">Không có điểm ngữ pháp nào khớp.</div>';return;}
-    $('#grBox').innerHTML=[1,2,3].map(L=>{
+    $('#grBox').innerHTML=GR_LVS(G).map(L=>{
       const xs=list.filter(x=>x.lv===L);if(!xs.length)return '';
       const dn=xs.filter(x=>d.done[x.id]).length, all=G.filter(x=>x.lv===L);
-      return `<section class="gr-sec"><div class="spread gr-sh"><h3>${GR_LV[L]}</h3><span class="note num">${all.filter(x=>d.done[x.id]).length}/${all.length}</span></div>
+      return `<section class="gr-sec gr-l${L}"><div class="spread gr-sh"><h3>${GR_LV[L]}</h3><span class="note num">${all.filter(x=>d.done[x.id]).length}/${all.length}</span></div>
         <div class="gr-list">${xs.map(x=>`<button class="gr-row${d.done[x.id]?' done':''}" data-id="${x.id}">
           <span class="check${d.done[x.id]?' on':''}" aria-hidden="true">${d.done[x.id]?ic('check'):''}</span>
           <span class="gr-rt"><b>${esc(x.title)}</b><span class="small muted">${esc(x.en)}</span></span>
-          <span class="pill gr-cat">${esc(x.cat)}</span></button>`).join('')}</div></section>`;
+          <span class="pill gr-cat${x.lv===4?' gr-p4':''}">${esc(x.cat)}</span></button>`).join('')}</div></section>`;
     }).join('');
     $$('#grBox [data-id]').forEach(b=>b.onclick=()=>{GR_S.id=b.dataset.id;grDetail(el,G,b.dataset.id);window.scrollTo(0,0);});
   };
@@ -49,7 +50,7 @@ function grList(el,G){
 function grQuick(el,G){
   const d=grData();
   let src=G.filter(x=>d.done[x.id]), from='các điểm bạn đã nắm';
-  if(src.length<3){src=G.filter(x=>!GR_S.lv||x.lv===GR_S.lv);from=GR_S.lv?'nhóm '+GR_LV[GR_S.lv]:'toàn bộ 60 điểm';}
+  if(src.length<3){src=G.filter(x=>!GR_S.lv||x.lv===GR_S.lv);from=GR_S.lv?'nhóm '+GR_LV[GR_S.lv]:'toàn bộ '+G.length+' điểm';}
   const pool=[];src.forEach(x=>x.quiz.forEach(q=>pool.push({q:q.s,o:q.o,a:q.a,w:q.w,src:'Ngữ pháp: '+x.title})));
   const items=shuffle(pool).slice(0,10);
   el.innerHTML=`<div class="view"><div class="row"><button class="btn ghost sm" id="grBack">${ic('chevron-left')} Danh sách</button></div><div id="grQz"></div></div>`;
@@ -64,7 +65,7 @@ function grDetail(el,G,id){
   el.innerHTML=`<div class="view gr gr-d">
     <div class="spread"><button class="btn ghost sm" id="grBack">${ic('chevron-left')} Danh sách</button><span class="note num">${idx+1}/${G.length}</span></div>
     <div class="panel gr-head">
-      <div class="row gr-pills"><span class="pill">${GR_LV[x.lv]}</span><span class="pill gr-cat">${esc(x.cat)}</span>${d.done[x.id]?'<span class="pill gr-ok">Đã nắm</span>':''}</div>
+      <div class="row gr-pills"><span class="pill gr-lvp gr-lv${x.lv}">${GR_LV[x.lv]||''}</span><span class="pill gr-cat">${esc(x.cat)}</span>${d.done[x.id]?'<span class="pill gr-ok">Đã nắm</span>':''}</div>
       <h2>${esc(x.title)}</h2><div class="gr-en">${esc(x.en)}</div>
       <div class="formula gr-form">${esc(x.form)}</div>
       <p class="gr-exp">${esc(x.explain)}</p>

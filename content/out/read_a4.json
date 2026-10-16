@@ -316,7 +316,7 @@
    },
    {
     "kind": "sumcomp",
-    "instr": "Questions 11-14\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "instr": "Questions 11-13\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
     "items": [
      {
       "q": "Seagrass is declining in many regions. Excess ___ from farms and sewage leads to the growth of algae, which reduces the light reaching the plants.",
@@ -335,12 +335,6 @@
       "a": "marine heatwave|heatwave",
       "para": "D",
       "why": "Đoạn D: 'during a marine heatwave off Western Australia in 2011, large areas of meadow in Shark Bay died within weeks'."
-     },
-     {
-      "q": "In Virginia, seagrass had disappeared from the coastal bays following a ___ in the 1930s.",
-      "a": "disease outbreak|disease",
-      "para": "E",
-      "why": "Đoạn E: 'seagrass had vanished from coastal bays after a disease outbreak in the 1930s'. 'vanished' = 'disappeared', 'after' = 'following'."
      }
     ]
    }

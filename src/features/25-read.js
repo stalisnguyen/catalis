@@ -15,12 +15,16 @@ function RD_home(el,R){
   const type=RD_type||examType(), mode=P.rd.mode||'practice', full=P.rd.full||{};
   const tabs=[examType(),examType()==='academic'?'general':'academic'];
   const list=R.filter(p=>p.type===type), tests=[...new Set(list.map(p=>p.test))].sort((a,b)=>a-b);
-  el.innerHTML=`<div class="view"><div class="spread"><h2>Reading</h2><span class="note">${list.length} bài ${RD_TN[type]}</span></div>
+  const isX=t=>RD_isXT(R,type,t);
+  const sec=t=>{const ps=list.filter(p=>p.test===t).sort((a,b)=>a.section-b.section), n=ps.reduce((s,p)=>s+TS_count(p.groups),0), x=isX(t);
+    return `<section class="ts-test${x?' ts-xt':''}"><div class="spread"><h3>${type==='general'?'General Training':'Academic'} Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('book-open')}Làm cả đề ${n} câu${full[type+t]!=null?` <span class="ts-best">${full[type+t]}/${n}</span>`:''}</button></div>
+      <div class="ts-cards">${ps.map(p=>{const c=TS_count(p.groups),b=P.rd.best[p.id];
+        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">${type==='general'?'Section':'Passage'} ${p.section}</span>${x?TS_XPILL:''}<span class="small muted num">${c} câu · band ${esc(p.band)}</span>${b!=null?`<span class="ts-best">${b}/${c}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.topic)}</span></button>`;}).join('')}</div></section>`;};
+  const xs=tests.filter(isX);
+  el.innerHTML=`<div class="view"><div class="spread"><h2>Reading</h2><span class="note">${tests.length} đề, ${list.length} bài ${RD_TN[type]}</span></div>
     ${subTabs('rdTabs',tabs.map(t=>[t,RD_TN[t]+(t===examType()?' (dạng bạn thi)':'')]),type,t=>{RD_type=t;RD_home(el,R);})}
     ${TS_modeHTML(mode,RD_NOTES)}
-    ${tests.map(t=>`<section class="ts-test"><div class="spread"><h3>${type==='general'?'General Training':'Academic'} Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('book-open')}Làm cả đề 40 câu${full[type+t]!=null?` <span class="ts-best">${full[type+t]}/40</span>`:''}</button></div>
-      <div class="ts-cards">${list.filter(p=>p.test===t).sort((a,b)=>a.section-b.section).map(p=>{const n=TS_count(p.groups),b=P.rd.best[p.id];
-        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">${type==='general'?'Section':'Passage'} ${p.section}</span><span class="small muted num">${n} câu · band ${esc(p.band)}</span>${b!=null?`<span class="ts-best">${b}/${n}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.topic)}</span></button>`;}).join('')}</div></section>`).join('')}</div>`;
+    ${tests.filter(t=>!isX(t)).map(sec).join('')}${xs.length?TS_xHead(RD_XNOTE)+xs.map(sec).join(''):''}</div>`;
   TS_bindMode(el,P.rd,RD_NOTES);
   $$('[data-id]',el).forEach(b=>b.onclick=()=>{const p=R.find(x=>x.id===b.dataset.id);RD_run(el,{passages:[p],exam:(P.rd.mode||'practice')==='exam',title:RD_title(p)});});
   $$('[data-full]',el).forEach(b=>b.onclick=()=>TS_readTest(el,+b.dataset.full,type,{exam:(P.rd.mode||'practice')==='exam'}));

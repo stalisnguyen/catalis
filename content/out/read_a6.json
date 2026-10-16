@@ -1,0 +1,618 @@
+[
+ {
+  "id": "a6p1",
+  "type": "academic",
+  "test": 6,
+  "section": 1,
+  "title": "Islands on the Mainland",
+  "topic": "island biogeography and conservation theory",
+  "band": "7.5-8.5",
+  "paras": [
+   [
+    "A",
+    "Few ideas in ecology have travelled as far from their point of origin as the equilibrium theory of island biogeography. Formulated in the 1960s by Robert MacArthur and Edward O. Wilson, it was intended to answer a question that had preoccupied naturalists since the great voyages of the nineteenth century: why do some islands support so many more species than others? Their answer was disarmingly economical. The number of species on an island, they argued, reflects not the island's history so much as a dynamic balance between two opposing processes: the arrival of new species from a mainland source, and the local extinction of those already present. When the two rates are equal, species richness settles at an equilibrium, even though the identity of the species making up that total may continue to change."
+   ],
+   [
+    "B",
+    "What gave the model its explanatory reach was the way it tied each process to a simple geographical variable. Immigration, MacArthur and Wilson reasoned, should decline with an island's distance from the mainland, since fewer seeds, spores and dispersing animals survive a longer crossing. Extinction should decline with an island's area, because larger islands hold larger populations, and larger populations are less likely to be wiped out by a single disease outbreak or a run of poor breeding seasons. Small, remote islands should therefore be poorest in species, and large islands close to the coast the richest. Field data from archipelagos in the Pacific and the Caribbean appeared broadly consistent with these predictions, and the theory was quickly taken up in textbooks."
+   ],
+   [
+    "C",
+    "It was in conservation, however, that the theory found its most consequential, and most contested, application. By the 1970s ecologists had begun to observe that nature reserves on the continents were themselves becoming islands of a kind: patches of forest or grassland stranded in a sea of farmland, roads and towns. If the theory held, such reserves should be expected to lose species over time until they reached a new, lower equilibrium appropriate to their reduced size, a process some writers termed 'relaxation'. Several design principles were derived from this reasoning and were for a time presented almost as rules: reserves should be as large as possible, close to one another, and connected by corridors of habitat along which animals could move."
+   ],
+   [
+    "D",
+    "The most celebrated of these prescriptions concerned size and number. Since the theory predicts that a large area will hold more species than a small one, it seemed to follow that one large reserve was preferable to several small ones of the same combined area. This inference provoked a debate, known by its acronym SLOSS ('single large or several small'), that occupied journals for much of the following decade. Critics pointed out that the theory says nothing about which species are present, only how many, and that several small reserves scattered across different habitats might well capture a greater variety of species than one large block confined to a single habitat. They also noted that a single reserve, however large, could be devastated by one fire or epidemic, whereas a population divided among several sites would be less exposed to such a catastrophe."
+   ],
+   [
+    "E",
+    "In retrospect, many ecologists regard the SLOSS debate as having generated more heat than light, chiefly because the question was posed at a level of generality that the evidence could not resolve. The answer, it gradually became clear, depended on the species concerned: large predators that range over vast territories plainly require extensive continuous habitat, while many plants and invertebrates can persist indefinitely in modest patches. What the controversy did accomplish was to expose an assumption that had been carried, largely unexamined, from oceanic islands to terrestrial reserves."
+   ],
+   [
+    "F",
+    "That assumption concerned the nature of the surrounding 'sea'. For a beetle on a Pacific atoll, the ocean is a genuinely hostile and almost impassable barrier. The farmland, plantations and gardens surrounding a forest fragment are something else entirely. Some species cross them with ease; others use them as a source of food; others still are unable to venture even a few metres beyond the forest edge. Researchers working in this tradition refer to the land between fragments as the 'matrix', and a substantial body of field studies now suggests that the quality of the matrix can matter as much as the size or isolation of the fragments themselves. A reserve surrounded by a mosaic of hedgerows and low-intensity agriculture may behave very differently from one of identical area bordered by intensively sprayed cropland."
+   ],
+   [
+    "G",
+    "This shift in emphasis has practical consequences. If fragments are not true islands, conservation need not focus exclusively on enlarging and linking protected areas, an expensive undertaking in densely settled regions. It may be at least as effective to make working landscapes more hospitable, for example by retaining scattered trees in pasture or reducing the use of pesticides near reserve boundaries. Advocates of this so-called 'countryside' approach argue that the long-standing division between land set aside for nature and land given over to production is, ecologically speaking, a false one."
+   ],
+   [
+    "H",
+    "None of this means that the original theory has been discarded. Its central insight, that species richness reflects a balance between colonisation and loss, remains a valuable framework, and the relationship between area and species number is among the most consistently observed patterns in ecology. What has changed is the confidence with which the theory is applied. Where it was once treated as a source of design rules, it is now more commonly regarded as a null model: a baseline against which the particular features of a real landscape, such as its matrix, its history and the requirements of its inhabitants, can be measured."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-6\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "MacArthur and Wilson believed that the number of species on an island is determined chiefly by the island's past.",
+      "a": "FALSE",
+      "para": "A",
+      "why": "Đoạn A: 'reflects not the island's history so much as a dynamic balance between two opposing processes'. Hai ông cho rằng số loài phụ thuộc chủ yếu vào sự cân bằng giữa nhập cư và tuyệt chủng, không phải lịch sử của đảo, nên câu này trái với bài -> FALSE. Bẫy: chữ 'history' có xuất hiện, nhưng nằm trong cấu trúc phủ định 'not ... so much as'."
+     },
+     {
+      "q": "According to the theory, the species living on an island may be replaced by others while the total number stays the same.",
+      "a": "TRUE",
+      "para": "A",
+      "why": "Đoạn A: 'species richness settles at an equilibrium, even though the identity of the species making up that total may continue to change'. 'identity ... may continue to change' = các loài cụ thể có thể thay nhau, còn tổng số ổn định -> TRUE."
+     },
+     {
+      "q": "The theory was slow to gain acceptance among the authors of textbooks.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: 'the theory was quickly taken up in textbooks'. 'quickly taken up' ngược với 'slow to gain acceptance' -> FALSE."
+     },
+     {
+      "q": "MacArthur and Wilson were the first to describe the loss of species from reserves as 'relaxation'.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói 'a process some writers termed relaxation'. Bài không cho biết 'some writers' là ai, cũng không nói MacArthur và Wilson có đặt ra thuật ngữ này hay không -> NOT GIVEN. Bẫy: tên hai ông xuất hiện nhiều lần trong bài nên dễ suy diễn là họ."
+     },
+     {
+      "q": "Opponents of the single-large-reserve view objected that the theory ignores which particular species are found in an area.",
+      "a": "TRUE",
+      "para": "D",
+      "why": "Đoạn D: 'Critics pointed out that the theory says nothing about which species are present, only how many'. 'says nothing about which species' = 'ignores which particular species' -> TRUE."
+     },
+     {
+      "q": "Large predators received more research attention than any other group during the SLOSS debate.",
+      "a": "NOT GIVEN",
+      "para": "E",
+      "why": "Đoạn E chỉ dùng loài săn mồi lớn làm ví dụ cho việc câu trả lời 'depended on the species concerned'. Bài không so sánh mức độ được nghiên cứu giữa các nhóm loài -> NOT GIVEN. Bẫy: đoạn có nhắc 'large predators' nên dễ chọn TRUE."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 7-10\nReading Passage 1 has eight paragraphs, A-H.\nWhich paragraph contains the following information?\nWrite the correct letter, A-H.\nNB You may use any letter more than once.",
+    "items": [
+     {
+      "q": "a reason why dividing a population between sites may reduce a particular risk",
+      "a": "D",
+      "para": "D",
+      "why": "Đoạn D: một khu bảo tồn lớn 'could be devastated by one fire or epidemic, whereas a population divided among several sites would be less exposed to such a catastrophe'. Bẫy: đoạn B cũng nói về rủi ro (dịch bệnh) nhưng là so sánh quần thể lớn với nhỏ, không phải chia quần thể ra nhiều nơi."
+     },
+     {
+      "q": "a challenge to the idea that land for wildlife and land for farming should be kept separate",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: cách tiếp cận 'countryside' cho rằng 'the long-standing division between land set aside for nature and land given over to production is ... a false one'. Đây chính là phản bác việc tách đất cho thiên nhiên và đất sản xuất."
+     },
+     {
+      "q": "an example of two areas of the same size that might lose species at different rates",
+      "a": "F",
+      "para": "F",
+      "why": "Đoạn F: 'A reserve surrounded by a mosaic of hedgerows ... may behave very differently from one of identical area bordered by intensively sprayed cropland'. 'identical area' = cùng diện tích."
+     },
+     {
+      "q": "a description of how the theory is regarded by ecologists today",
+      "a": "H",
+      "para": "H",
+      "why": "Đoạn H: 'it is now more commonly regarded as a null model: a baseline...'. Đây là vị thế hiện nay của lý thuyết. Bẫy: đoạn E có 'In retrospect' nhưng nói về cuộc tranh luận SLOSS, không phải về lý thuyết."
+     }
+    ]
+   },
+   {
+    "kind": "notecomp",
+    "instr": "Questions 11-13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "The original theory: an island's area affects its rate of ___ ; its distance from the mainland affects immigration.",
+      "a": "extinction",
+      "para": "B",
+      "why": "Đoạn B: 'Extinction should decline with an island's area'. Diện tích ảnh hưởng tỉ lệ tuyệt chủng; khoảng cách ảnh hưởng nhập cư. Phải viết danh từ 'extinction'."
+     },
+     {
+      "q": "Early design rules for reserves: as large as possible, close together, and joined by ___ of habitat.",
+      "a": "corridors",
+      "para": "C",
+      "why": "Đoạn C: 'connected by corridors of habitat along which animals could move'. 'joined by' = 'connected by'. Phải viết số nhiều 'corridors'."
+     },
+     {
+      "q": "Later research: the land between fragments, called the ___ , may be as important as the size of the fragments.",
+      "a": "matrix",
+      "para": "F",
+      "why": "Đoạn F: 'refer to the land between fragments as the matrix' và 'the quality of the matrix can matter as much as the size or isolation of the fragments'."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "disarmingly economical",
+    "đơn giản, gọn gàng đến bất ngờ"
+   ],
+   [
+    "species richness",
+    "số lượng loài (độ phong phú loài)"
+   ],
+   [
+    "explanatory reach",
+    "phạm vi giải thích được, sức giải thích"
+   ],
+   [
+    "broadly consistent with",
+    "nhìn chung phù hợp với"
+   ],
+   [
+    "consequential",
+    "có hệ quả lớn, quan trọng"
+   ],
+   [
+    "prescription",
+    "chỉ dẫn, khuyến nghị (cách làm)"
+   ],
+   [
+    "generate more heat than light",
+    "gây tranh cãi nhiều nhưng không làm rõ được vấn đề"
+   ],
+   [
+    "largely unexamined",
+    "hầu như chưa được xem xét kỹ"
+   ],
+   [
+    "a mosaic of",
+    "một tổ hợp xen kẽ nhiều mảnh khác nhau"
+   ],
+   [
+    "hospitable",
+    "thuận lợi, dễ sống (cho sinh vật)"
+   ],
+   [
+    "set aside for",
+    "dành riêng cho"
+   ],
+   [
+    "null model",
+    "mô hình đối chứng, mô hình gốc để so sánh"
+   ]
+  ]
+ },
+ {
+  "id": "a6p2",
+  "type": "academic",
+  "test": 6,
+  "section": 2,
+  "title": "What Did Print Change?",
+  "topic": "historiography of the printing press",
+  "band": "8.0-9.0",
+  "paras": [
+   [
+    "A",
+    "It has long been a commonplace that the introduction of movable-type printing to Europe in the mid-fifteenth century was one of the hinges on which modern history turns. The Protestant Reformation, the rise of experimental science and the emergence of national vernacular literatures have all, at one time or another, been laid at the door of the press. Yet the more closely historians have examined the period, the less agreement there has been about what, precisely, printing changed, how quickly it did so, and whether the technology should be credited with effects that may have had quite other causes. Part of the difficulty is that the surviving evidence is itself shaped by the technology under investigation: printed books have come down to us in far greater numbers than manuscripts, and historians who work from what happens to survive may overestimate how swiftly the new medium displaced the old. The history of the press has thus become, in part, a history of arguments about the press."
+   ],
+   [
+    "B",
+    "The most ambitious claims were advanced in the second half of the twentieth century by scholars who treated printing as an agent of change in its own right. On this view, which the historian Helena Marsh has called 'the revolution thesis', the decisive novelty of print was not speed but fixity. A manuscript copied by hand accumulated errors with each transcription, so that texts tended to degrade as they circulated. Printed editions, by contrast, could be produced in hundreds of identical copies, allowing scholars in different cities to refer to the same page, compare the same tables and correct the same mistakes in subsequent editions. Knowledge, in other words, became cumulative in a way it had not been before, and the intellectual transformations of the following two centuries were, in large measure, its consequence."
+   ],
+   [
+    "C",
+    "Critics have challenged this account on several fronts. The first concerns fixity itself. Tobias Wren, whose studies of early printing houses drew on surviving proof sheets and correspondence, found that variation between copies of the same edition was far more common than the revolution thesis supposed. Corrections were frequently made while a press run was under way, so that early and late sheets differed; pirated editions reproduced and multiplied errors; and readers had little means of knowing which copy, if any, was authoritative. For Wren, the reliability that later generations attributed to print was not a property of the technology but a hard-won social achievement, secured gradually through the reputations of particular printers, the policing of guilds and, eventually, legal protections for authors and publishers."
+   ],
+   [
+    "D",
+    "A second line of criticism questions the chronology. Agnes Kovač, surveying the output of presses in central Europe, pointed out that for several decades after printing arrived, the books most commonly produced were not new works of scholarship but devotional texts, calendars and school grammars, much as had been copied by hand before. Printers were businessmen operating on narrow margins, and they tended to reproduce what was known to sell. Works by living authors, on her reading of the surviving catalogues, made up only a modest share of output for much of this period. If print eventually fostered intellectual novelty, Kovač argued, it did so only after an extended period in which it had chiefly made familiar material cheaper, and any account that collapses that interval risks attributing to the technology developments that belong to a later age."
+   ],
+   [
+    "E",
+    "Nor, it has been argued, was the manuscript world as static as the revolution thesis implied. Daniel Okafor has drawn attention to the commercial scriptoria of late medieval towns, where teams of copyists produced multiple copies of university textbooks by dividing exemplars into sections and copying them simultaneously. Such workshops, he suggests, had already created something resembling a market in standardised texts before Gutenberg's invention. Hand copying, moreover, persisted for centuries alongside print, particularly for material that was politically sensitive, intended for a restricted circle, or simply too specialised to justify the cost of setting type."
+   ],
+   [
+    "F",
+    "Defenders of the original thesis have not been without replies. They accept that early printed copies varied but insist that the variation was of a different order of magnitude from that of manuscripts, and that the possibility of standardisation mattered even where it was imperfectly realised. They concede, too, that printers were commercially cautious, but note that even the cheap reproduction of familiar works changed who could own books and how readers related to them. Many now prefer to speak of print as a necessary rather than a sufficient condition of the changes once attributed to it: an enabling technology whose effects depended on the institutions, markets and religious conflicts into which it was introduced."
+   ],
+   [
+    "G",
+    "What is perhaps most striking about this debate is how far it has moved from the question with which it began. Few historians would now ask simply whether printing caused the Reformation or the scientific revolution. The more productive questions have proved to be narrower ones: how particular printers established trust, how readers annotated and shared their copies, why some regions adopted the press rapidly and others hesitated. In this respect the historiography of print has followed a familiar trajectory, from a single bold hypothesis to a more crowded and qualified picture in which the technology appears less as a cause than as one participant among many. That outcome need not be read as a defeat for the original thesis, which, whatever its excesses, set the agenda for much of the research that has since complicated it."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 14-19\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for paragraphs B-G from the list of headings below.\nWrite the correct number, i-ix.",
+    "opts": [
+     "The claim that identical copies made knowledge build on itself",
+     "Evidence that printers deliberately introduced errors",
+     "An earlier system of production that anticipated print",
+     "A delay between the arrival of a technology and its intellectual effects",
+     "A partial defence that recasts the role of the technology",
+     "Why trustworthy texts depended on more than machinery",
+     "A shift towards more limited and specific enquiries",
+     "The speed of printing as the key to its success",
+     "How religious conflict spread the new technology"
+    ],
+    "items": [
+     {
+      "q": "Paragraph B",
+      "a": 0,
+      "para": "B",
+      "why": "Đoạn B: điểm mới quyết định là 'not speed but fixity'; các bản in giống hệt nhau giúp 'Knowledge ... became cumulative'. Khớp heading i. Bẫy: heading viii nói tốc độ là chìa khoá, nhưng bài nói rõ 'not speed'."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 5,
+      "para": "C",
+      "why": "Đoạn C: Wren cho rằng độ tin cậy của bản in 'was not a property of the technology but a hard-won social achievement' (nhờ uy tín nhà in, phường hội, luật pháp). Khớp heading vi. Bẫy: heading ii nói nhà in cố tình tạo lỗi, nhưng bài chỉ nói lỗi phát sinh do sửa giữa chừng và do bản in lậu, không nói cố ý."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 3,
+      "para": "D",
+      "why": "Đoạn D: Kovač cho rằng trong nhiều thập kỷ đầu, nhà in chủ yếu in sách quen thuộc; ảnh hưởng trí tuệ chỉ đến 'after an extended period'. Khớp heading iv (độ trễ giữa công nghệ và tác động trí tuệ)."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 2,
+      "para": "E",
+      "why": "Đoạn E: các 'commercial scriptoria' đã tạo ra 'something resembling a market in standardised texts before Gutenberg's invention'. Đây là hệ thống sản xuất có trước và báo trước máy in -> heading iii."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 4,
+      "para": "F",
+      "why": "Đoạn F: những người bảo vệ luận điểm cũ thừa nhận một phần nhưng vẫn phản bác, và chuyển sang coi máy in là 'a necessary rather than a sufficient condition'. Vừa bảo vệ vừa định nghĩa lại vai trò công nghệ -> heading v. Bẫy: heading ix nhắc xung đột tôn giáo, nhưng bài chỉ nói tác động của máy in phụ thuộc vào xung đột tôn giáo, không nói xung đột làm lan rộng công nghệ."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 6,
+      "para": "G",
+      "why": "Đoạn G: 'The more productive questions have proved to be narrower ones'. Khớp heading vii (chuyển sang các câu hỏi hẹp và cụ thể hơn)."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 20-23\nLook at the following statements and the list of historians below.\nMatch each statement with the correct historian, A-D.\nNB You may use any letter more than once.",
+    "opts": [
+     "Helena Marsh",
+     "Tobias Wren",
+     "Agnes Kovač",
+     "Daniel Okafor"
+    ],
+    "items": [
+     {
+      "q": "Commercial considerations made early printers reluctant to take risks with what they published.",
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D, Kovač: 'Printers were businessmen operating on narrow margins, and they tended to reproduce what was known to sell'. 'reluctant to take risks' là cách diễn đạt lại. Bẫy: đoạn F cũng có 'commercially cautious', nhưng đó là lời những người bảo vệ luận điểm cũ thừa nhận ý của nhóm phê bình."
+     },
+     {
+      "q": "Copies from a single print run did not always contain the same text.",
+      "a": 1,
+      "para": "C",
+      "why": "Đoạn C, Wren: 'variation between copies of the same edition was far more common than the revolution thesis supposed' và 'early and late sheets differed'."
+     },
+     {
+      "q": "Some kinds of writing continued to be reproduced by hand because printing them was not economical.",
+      "a": 3,
+      "para": "E",
+      "why": "Đoạn E, Okafor: chép tay vẫn tồn tại cho tài liệu 'too specialised to justify the cost of setting type'. Bẫy: Marsh không đưa ra quan điểm này; bà chỉ đặt tên cho 'the revolution thesis'."
+     },
+     {
+      "q": "Organisations that regulated a trade helped to make printed texts dependable.",
+      "a": 1,
+      "para": "C",
+      "why": "Đoạn C, Wren: độ tin cậy có được nhờ 'the policing of guilds'. 'Organisations that regulated a trade' = guilds (phường hội)."
+     }
+    ]
+   },
+   {
+    "kind": "shortans",
+    "instr": "Questions 24-26\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "According to supporters of the revolution thesis, what did a manuscript gather each time it was copied by hand?",
+      "a": "errors|accumulated errors",
+      "para": "B",
+      "why": "Đoạn B: 'A manuscript copied by hand accumulated errors with each transcription'. 'gather' = 'accumulated'. Đáp án: errors."
+     },
+     {
+      "q": "What kind of material did Wren use, besides correspondence, to study early printing houses?",
+      "a": "proof sheets|surviving proof sheets",
+      "para": "C",
+      "why": "Đoạn C: Wren 'drew on surviving proof sheets and correspondence'. Đáp án: proof sheets."
+     },
+     {
+      "q": "In the scriptoria Okafor describes, what did copyists divide into sections so that they could work simultaneously?",
+      "a": "exemplars",
+      "para": "E",
+      "why": "Đoạn E: 'by dividing exemplars into sections and copying them simultaneously'. Đáp án: exemplars (bản gốc dùng để chép). Bẫy: 'university textbooks' là sản phẩm làm ra, không phải thứ bị chia ra."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "a commonplace",
+    "điều ai cũng nói, quan niệm phổ biến"
+   ],
+   [
+    "lay something at the door of",
+    "quy (trách nhiệm/nguyên nhân) cho"
+   ],
+   [
+    "in its own right",
+    "tự bản thân nó, một cách độc lập"
+   ],
+   [
+    "fixity",
+    "tính cố định, ổn định (của văn bản)"
+   ],
+   [
+    "cumulative",
+    "tích luỹ dần"
+   ],
+   [
+    "hard-won",
+    "giành được một cách khó khăn"
+   ],
+   [
+    "narrow margins",
+    "biên lợi nhuận mỏng"
+   ],
+   [
+    "collapse an interval",
+    "bỏ qua, rút ngắn khoảng thời gian ở giữa"
+   ],
+   [
+    "of a different order of magnitude",
+    "ở một mức độ hoàn toàn khác"
+   ],
+   [
+    "a necessary rather than a sufficient condition",
+    "điều kiện cần chứ không phải điều kiện đủ"
+   ],
+   [
+    "trajectory",
+    "quỹ đạo, hướng phát triển"
+   ],
+   [
+    "qualified",
+    "có điều kiện, có giới hạn (không tuyệt đối)"
+   ]
+  ]
+ },
+ {
+  "id": "a6p3",
+  "type": "academic",
+  "test": 6,
+  "section": 3,
+  "title": "The Expert Brain and Its Interpreters",
+  "topic": "neuroscience of expertise",
+  "band": "8.0-9.0",
+  "paras": [
+   [
+    "A",
+    "Few findings in cognitive neuroscience have been reported with as much enthusiasm as those concerning the brains of experts. Studies of taxi drivers, chess masters, musicians and radiologists have repeatedly found that years of specialised practice are associated with measurable differences in brain structure and activity, and these results have been eagerly translated into advice about how the rest of us might acquire similar abilities. I do not wish to dispute the findings themselves, many of which are robust. My concern is rather with the inferences that have been drawn from them, which seem to me to run considerably ahead of what the evidence can support."
+   ],
+   [
+    "B",
+    "Consider first the problem of direction. When a group of experts is found to differ from a group of novices in, say, the volume of a particular region of grey matter, it is tempting to conclude that practice produced the difference. But cross-sectional comparisons of this kind cannot by themselves exclude the possibility that people who already possessed the difference were more likely to persist in the activity, perhaps because they found it easier or more rewarding from the outset. The handful of longitudinal studies that have followed individuals before and after training are more informative, and some do suggest that training induces structural change. Even here, however, those who drop out of demanding training programmes are seldom a random sample, and the brains of those who remain may tell us as much about who stays as about what staying does."
+   ],
+   [
+    "C",
+    "A second difficulty concerns what is meant by efficiency. A frequently reported finding is that experts show less overall activation than novices when performing a task in their domain, and this is routinely described as evidence that the expert brain works more economically. The interpretation is not unreasonable, but it is far from the only one available. Reduced activation might equally reflect a shift in strategy, the expert retrieving a stored solution rather than computing a fresh one, or the recruitment of a smaller but more specialised network whose contribution is simply harder to detect with current imaging methods. To call the expert brain 'efficient' is to borrow a term from engineering that carries an evaluative charge the data do not, on their own, justify."
+   ],
+   [
+    "D",
+    "None of this would matter greatly were it not for the eagerness with which such findings are carried beyond the laboratory. A familiar line of reasoning runs as follows: experts' brains differ from those of novices; the differences are produced by practice; therefore sufficient practice will make anyone an expert. Each step in this chain is weaker than it first appears, and the conclusion, in particular, does not follow even if the premises are granted. That practice is necessary for high performance tells us nothing about whether it is sufficient, still less about whether the same quantity of practice will yield the same benefit for every learner. The research psychologist Miriam Castell has suggested that much popular writing on the subject confuses a description of how experts differ with a prescription for how to become one, and I think she is right to do so."
+   ],
+   [
+    "E",
+    "It would be unfair, though, to lay the blame entirely at the door of popularisers. Researchers themselves have sometimes encouraged the more expansive readings, whether through the framing of press releases or through the understandable pressure to emphasise the practical relevance of their work to those who fund it. Nor is the problem one of dishonesty. Neuroimaging studies are expensive, samples are often small, and a striking image of a brain region 'lighting up' is far more communicable than the statistical caveats that ought to accompany it. The result is an asymmetry in which confident claims travel faster and further than the qualifications attached to them."
+   ],
+   [
+    "F",
+    "What, then, can legitimately be concluded? I would suggest that the neuroscience of expertise is most valuable not when it purports to explain why experts excel, but when it constrains the range of plausible psychological explanations. If, for example, a theory of chess skill predicts that masters rely on rapid recognition of familiar patterns rather than on deeper calculation, imaging data showing heightened activity in regions associated with object recognition lend that theory some support, and data showing the reverse would count against it. Used in this way, brain measurements become one source of evidence among several, to be weighed alongside behavioural experiments and the detailed study of how experts actually perform, rather than a privileged window onto the underlying truth."
+   ],
+   [
+    "G",
+    "There is a further, more general lesson. The appeal of neuroscientific explanation seems to rest partly on an intuition that an account framed in terms of the brain is somehow more fundamental, and therefore more authoritative, than one framed in terms of knowledge, habit or attention. Yet an explanation is not made deeper merely by being relocated to a different level of description. That a radiologist detects a tumour more quickly than a trainee is, in the first instance, a fact about what she has learned to look for; to say that this learning is realised in her visual cortex is true, but it does not by itself make the account any more complete. The brain is, after all, where all learning takes place, and pointing to it explains rather less than it may appear to."
+   ],
+   [
+    "H",
+    "I do not conclude from this that imaging research on expertise is misguided. On the contrary, it has already corrected a number of assumptions, including the once common belief that the adult brain is largely fixed in its structure. My argument is only that its findings should be received with the same discipline we would apply to any other body of evidence: with attention to how the data were gathered, to the alternative explanations they leave open, and to the distance between what was observed and what is being claimed."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "ynng",
+    "instr": "Questions 27-31\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "Much of the research comparing the brains of experts and novices has produced reliable results.",
+      "a": "YES",
+      "para": "A",
+      "why": "Đoạn A: 'I do not wish to dispute the findings themselves, many of which are robust'. 'robust' = đáng tin cậy, vững chắc. Tác giả chỉ phản đối các suy luận, không phản đối kết quả -> YES."
+     },
+     {
+      "q": "Longitudinal studies provide no more useful evidence than cross-sectional comparisons.",
+      "a": "NO",
+      "para": "B",
+      "why": "Đoạn B: 'The handful of longitudinal studies ... are more informative'. Tác giả nói nghiên cứu dọc cho nhiều thông tin hơn, trái với câu hỏi -> NO. Bẫy: tác giả vẫn nêu hạn chế của chúng ('Even here, however...') nên dễ chọn YES."
+     },
+     {
+      "q": "Researchers should stop describing expert brains as efficient until better imaging methods become available.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C: tác giả cho rằng từ 'efficient' mang sắc thái đánh giá mà dữ liệu 'do not, on their own, justify' và có nhắc 'current imaging methods'. Nhưng ông không đề xuất ngừng dùng từ này cho đến khi có phương pháp tốt hơn -> NOT GIVEN. Bẫy: đoạn có đủ các chữ 'efficient' và 'imaging methods'."
+     },
+     {
+      "q": "Miriam Castell's criticism of popular writing on expertise is justified.",
+      "a": "YES",
+      "para": "D",
+      "why": "Đoạn D: sau khi nêu ý của Castell, tác giả viết 'and I think she is right to do so'. Tác giả đồng ý -> YES."
+     },
+     {
+      "q": "Researchers who exaggerate the practical value of their findings are usually acting in bad faith.",
+      "a": "NO",
+      "para": "E",
+      "why": "Đoạn E: tác giả thừa nhận nhà nghiên cứu đôi khi khuyến khích cách hiểu rộng, nhưng khẳng định 'Nor is the problem one of dishonesty' và nói đến áp lực 'understandable'. 'bad faith' = không trung thực -> NO."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 32-35\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "What is the main purpose of paragraph C?",
+      "o": [
+       "to show that experts use less brain activity because they have learned better strategies",
+       "to argue that an observation has been given a label it does not clearly deserve",
+       "to explain why current imaging methods cannot detect specialised networks",
+       "to suggest that engineers understand efficiency better than neuroscientists"
+      ],
+      "a": 1,
+      "para": "C",
+      "why": "Đoạn C nêu phát hiện 'less overall activation' bị gọi là 'efficient', rồi đưa ra các cách giải thích khác và kết luận từ này 'carries an evaluative charge the data do not, on their own, justify'. Mục đích: cho thấy một quan sát bị gán nhãn chưa chắc xứng đáng -> B. A chỉ là một trong các khả năng tác giả nêu, không phải kết luận. C và D bóp méo chi tiết phụ."
+     },
+     {
+      "q": "In paragraph D, the writer's main objection to the 'familiar line of reasoning' is that",
+      "o": [
+       "experts' brains do not in fact differ from those of novices",
+       "practice has been shown to have no effect on the brain",
+       "establishing that something is required does not show that it is enough",
+       "learners differ too much for any general conclusion to be drawn"
+      ],
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D: 'That practice is necessary for high performance tells us nothing about whether it is sufficient'. 'required' = necessary, 'enough' = sufficient -> C. A và B trái với bài (tác giả chấp nhận các tiền đề 'even if the premises are granted'). D dùng ý 'every learner' nhưng tác giả chỉ coi đó là điều chưa được chứng minh, không nói không thể kết luận gì."
+     },
+     {
+      "q": "Why does the writer mention the example of chess in paragraph F?",
+      "o": [
+       "to illustrate how brain data can help test a psychological theory",
+       "to prove that chess masters rely on pattern recognition",
+       "to show that behavioural experiments are more reliable than imaging",
+       "to criticise theories of chess skill that ignore calculation"
+      ],
+      "a": 0,
+      "para": "F",
+      "why": "Đoạn F: dữ liệu hình ảnh não có thể 'lend that theory some support' hoặc 'count against it'. Ví dụ cờ vua minh hoạ cách dữ liệu não giúp kiểm chứng lý thuyết tâm lý -> A. B sai vì tác giả chỉ nói 'some support', không phải chứng minh. C sai vì tác giả coi đây là các nguồn bằng chứng ngang nhau ('one source of evidence among several')."
+     },
+     {
+      "q": "What point does the writer make with the example of the radiologist in paragraph G?",
+      "o": [
+       "Radiologists' skill depends mainly on the structure of the visual cortex.",
+       "Saying where learning happens in the brain does not by itself improve an explanation.",
+       "Psychological explanations are more fundamental than neurological ones.",
+       "Trainee radiologists should study how the visual cortex works."
+      ],
+      "a": 1,
+      "para": "G",
+      "why": "Đoạn G: nói việc học 'is realised in her visual cortex is true, but it does not by itself make the account any more complete'. -> B. C là bẫy: tác giả không nói giải thích tâm lý sâu hơn, chỉ nói giải thích bằng não không tự động sâu hơn ('not made deeper merely by being relocated')."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 36-40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "Studies that compare experts and novices at a single point in time, known as ___ comparisons, cannot rule out that people who already had certain brain features were more likely to keep practising.",
+      "a": "cross-sectional",
+      "para": "B",
+      "why": "Đoạn B: 'cross-sectional comparisons of this kind cannot by themselves exclude the possibility that people who already possessed the difference were more likely to persist'. 'cross-sectional' viết có gạch nối, tính là một từ."
+     },
+     {
+      "q": "Even when individuals are followed through training, those who give up are seldom a ___ sample of the group.",
+      "a": "random",
+      "para": "B",
+      "why": "Đoạn B: 'those who drop out of demanding training programmes are seldom a random sample'. 'give up' = 'drop out'."
+     },
+     {
+      "q": "Because a vivid brain image is easier to communicate than statistical ___, confident claims tend to spread further than the warnings that should accompany them.",
+      "a": "caveats",
+      "para": "E",
+      "why": "Đoạn E: 'a striking image of a brain region lighting up is far more communicable than the statistical caveats that ought to accompany it'. Bẫy: 'qualifications' cũng ở đoạn này nhưng đi với 'attached to them', không đi với 'statistical'; câu tóm tắt đã dùng 'warnings' cho ý đó."
+     },
+     {
+      "q": "The writer believes brain measurements should be weighed alongside other evidence rather than treated as a ___ view of the underlying truth.",
+      "a": "privileged",
+      "para": "F",
+      "why": "Đoạn F: 'rather than a privileged window onto the underlying truth'. 'view' thay cho 'window'. Phải giữ đúng dạng tính từ 'privileged'."
+     },
+     {
+      "q": "Imaging research has already overturned the earlier assumption that the structure of the adult brain is largely ___ .",
+      "a": "fixed",
+      "para": "H",
+      "why": "Đoạn H: 'corrected ... the once common belief that the adult brain is largely fixed in its structure'. 'overturned' = 'corrected'."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "run ahead of the evidence",
+    "đi xa hơn những gì bằng chứng cho phép"
+   ],
+   [
+    "cross-sectional",
+    "cắt ngang (nghiên cứu tại một thời điểm)"
+   ],
+   [
+    "longitudinal study",
+    "nghiên cứu theo dõi dài hạn"
+   ],
+   [
+    "from the outset",
+    "ngay từ đầu"
+   ],
+   [
+    "carry an evaluative charge",
+    "mang hàm ý đánh giá (khen/chê)"
+   ],
+   [
+    "the premises are granted",
+    "giả sử chấp nhận các tiền đề"
+   ],
+   [
+    "still less",
+    "càng không, huống chi"
+   ],
+   [
+    "expansive reading",
+    "cách hiểu rộng, suy diễn quá mức"
+   ],
+   [
+    "caveat",
+    "lời cảnh báo, điều kiện kèm theo"
+   ],
+   [
+    "purport to",
+    "tự cho là, có vẻ như là"
+   ],
+   [
+    "constrain",
+    "giới hạn, thu hẹp"
+   ],
+   [
+    "a privileged window onto",
+    "góc nhìn đặc quyền, đáng tin hơn cả vào"
+   ]
+  ]
+ }
+]

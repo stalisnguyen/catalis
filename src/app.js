@@ -21,9 +21,9 @@ const fmtTime=s=>{s=Math.max(0,Math.round(s));return String(Math.floor(s/60)).pa
 const countWords=t=>(String(t).trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)||[]).length;
 
 /* ================= data ================= */
-const LVS=[1,2,3,4];
-const LV_NAME={1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+'};
-const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề'};
+const LVS=[1,2,3,4,5];
+const LV_NAME={1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia'};
+const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề',5:'band 8.5-9, từ học thuật C2 và cách nói tự nhiên'};
 const V=[]; const VI=new Map(); const LV_COUNT=[0,0,0,0,0]; const loadedLv=new Set(); const lvLoading={};
 async function loadLevel(L){
   if(loadedLv.has(L))return;
@@ -455,7 +455,7 @@ document.addEventListener('keydown',e=>{
 });
 
 /* ================= VOCAB: dictionary ================= */
-let dq='',dlv=[1,2,3,4],dshow=80,dfilter='all',dtopic='';
+let dq='',dlv=[1,2,3,4,5],dshow=80,dfilter='all',dtopic='';
 VIEWS.dict=async el=>{
   el.innerHTML='<div class="view"><p class="note">Đang tải từ điển...</p></div>';
   await loadAllVocab();

@@ -119,3 +119,7 @@
 .sp-comp[hidden]{display:none}
 [data-mic][aria-pressed="true"]{border-color:var(--bad);color:var(--bad)}
 .sp-mock h3 .i,.sp .panel h3 .i{width:18px;height:18px;vertical-align:-3px}
+/* band 9 samples */
+.sp-sample .wr-sw{gap:8px}
+.sp-p9{background:var(--orange-soft);color:var(--orange-ink);font-size:11.5px;vertical-align:1px}
+.sp-hid .wr-m9{font-size:16.5px;line-height:1.65}

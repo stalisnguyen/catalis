@@ -1,0 +1,866 @@
+[
+ {
+  "id": "l7p1",
+  "test": 7,
+  "part": 1,
+  "title": "Hiring field recording equipment",
+  "setting": "Một nhà sản xuất phim tài liệu người Úc gọi điện cho công ty cho thuê thiết bị thu âm chuyên dụng để đặt máy, đặt cọc và hẹn giao hàng.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Tom (hire company)",
+    "voice": "m",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Ottilie",
+    "voice": "f",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon, Fieldsound Hire, Tom speaking."
+   ],
+   [
+    "B",
+    "Oh, hi, Tom. I'm calling about hiring some recording gear for a shoot next month. I sent an enquiry through your website, but I'm honestly not sure it went through."
+   ],
+   [
+    "A",
+    "Let me have a look. What name would it be under?"
+   ],
+   [
+    "B",
+    "Prendergast. Ottilie Prendergast."
+   ],
+   [
+    "A",
+    "Right, I've got a Pendergast here, P-E-N-D-E-R-G-A-S-T, from last Tuesday. Would that be you?"
+   ],
+   [
+    "B",
+    "That'll be me, but you've lost the R. It's P-R-E-N, then D-E-R, then G-A-S-T. People drop it all the time, so don't worry."
+   ],
+   [
+    "A",
+    "Sorry about that, I'll correct it now. So, what can we do for you?"
+   ],
+   [
+    "B",
+    "We're making a short documentary about seabirds on the Cornish coast, and I'd pencilled in a parabolic dish, you know, the big reflector, for picking up calls from a distance."
+   ],
+   [
+    "A",
+    "We do have those, yes. Can I ask where you'll be setting up, though?"
+   ],
+   [
+    "B",
+    "Well, that's the thing. I've since been told the best spot is a forty-minute scramble up a cliff path, and lugging a dish that size up there sounds like a nightmare."
+   ],
+   [
+    "A",
+    "It would be, frankly, and they catch the wind like a sail. For that kind of location most people go for a shotgun microphone instead. It's far more directional than you'd expect, and it fits in a backpack."
+   ],
+   [
+    "B",
+    "OK, let's go with the shotgun, then. Forget the dish. And I'll need a recorder to go with it."
+   ],
+   [
+    "A",
+    "Sure. Our most popular field recorder is the R45, but if you're after birdsong, I'd steer you towards the R54. It has lower self-noise, which matters when the sound you want is faint."
+   ],
+   [
+    "B",
+    "Sorry, which way round? Forty-five or fifty-four?"
+   ],
+   [
+    "A",
+    "Fifty-four is the one I'd recommend. The R54. It's a bit pricier, but not dramatically."
+   ],
+   [
+    "B",
+    "Fine, the R54 it is. Now, dates. I'd originally said the thirteenth of March for delivery, I think?"
+   ],
+   [
+    "A",
+    "That's what I've got, yes. Delivery on the thirteenth."
+   ],
+   [
+    "B",
+    "Could we bring it forward? Our presenter's only free earlier in the week, so the crew's now arriving on the eleventh, and we'd want everything there when they turn up."
+   ],
+   [
+    "A",
+    "The eleventh shouldn't be a problem. And you'd want it until when?"
+   ],
+   [
+    "B",
+    "The nineteenth. That's a Friday. Is there a particular time it has to be back by?"
+   ],
+   [
+    "A",
+    "It used to be five o'clock, but since the courier changed their collection round, it's midday on Fridays. So, before noon on the nineteenth."
+   ],
+   [
+    "B",
+    "Noon. Got it. I'll make sure someone's packed everything up the night before."
+   ],
+   [
+    "A",
+    "Great. Now, because this is specialist kit, we do take a refundable deposit. For the shotgun and the R54 together, that would normally be £600."
+   ],
+   [
+    "B",
+    "Ouch. Is there any flexibility on that? We hired some lights from you last year, if that helps."
+   ],
+   [
+    "A",
+    "It does, actually. Returning customers with no damage claims get twenty-five per cent off the deposit, so that brings it down to £450."
+   ],
+   [
+    "B",
+    "That's much better. Can I just put that on a credit card?"
+   ],
+   [
+    "A",
+    "I'm afraid not, not for deposits over £400. The card companies make refunds awkward. It'll need to be a bank transfer, and we release it within five working days of the kit coming back."
+   ],
+   [
+    "B",
+    "A bank transfer's fine. Our accounts team can sort that out. What about insurance? Do I have to take yours?"
+   ],
+   [
+    "A",
+    "Unless your production has its own equipment cover, yes. It's £12 a day. Sorry, no, I'm reading from the old price list. It went down to £9.50 in January."
+   ],
+   [
+    "B",
+    "Nine fifty a day. I'll check our own policy, but I suspect we'll take yours, just for peace of mind. Cliffs and salt water, you know."
+   ],
+   [
+    "A",
+    "Very wise. Now, the delivery address."
+   ],
+   [
+    "B",
+    "It's a holiday cottage near Sennen, so the postcode's probably the most useful thing. It's T-R-1-9, then 6-B-X. No, hang on, I've got the booking email here. It's P, not B. P for Peter."
+   ],
+   [
+    "A",
+    "So that's TR19 6PX."
+   ],
+   [
+    "B",
+    "That's it. The cottage is called Gull's Rest, but apparently the sat nav gets confused, so the driver should go by the postcode rather than the name."
+   ],
+   [
+    "A",
+    "Noted. Is there anything else the driver needs to know?"
+   ],
+   [
+    "B",
+    "Yes, the mobile signal's pretty patchy round there. Could they give us a ring when they're about half an hour away? Actually, no. The lane's single-track, and they'll be stuck behind tractors anyway. Make it twenty minutes."
+   ],
+   [
+    "A",
+    "Twenty minutes before arrival. I'll put that in the notes. And who should they ask for?"
+   ],
+   [
+    "B",
+    "Me, or our sound recordist, Declan. One of us will definitely be there."
+   ],
+   [
+    "A",
+    "Lovely. I'll email a confirmation within the hour, with our bank details for the deposit."
+   ],
+   [
+    "B",
+    "Brilliant. Thanks so much, Tom, you've been really helpful."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-10. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Customer name: Ottilie ___",
+      "a": "Prendergast",
+      "why": "Tom đọc sai \"Pendergast\" (thiếu R). Ottilie sửa: \"you've lost the R. It's P-R-E-N, then D-E-R, then G-A-S-T\". Bẫy: viết theo lần đánh vần đầu tiên sẽ sai."
+     },
+     {
+      "q": "Microphone type: ___ microphone",
+      "a": "shotgun",
+      "why": "Ban đầu định thuê \"parabolic dish\", nhưng vì phải leo vách đá nên đổi: \"let's go with the shotgun, then. Forget the dish.\" \"dish\" là đáp án bị loại."
+     },
+     {
+      "q": "Recorder model: ___",
+      "a": "R54",
+      "why": "Máy phổ biến là R45 nhưng Tom khuyên \"I'd steer you towards the R54\" và xác nhận lại \"Fifty-four is the one I'd recommend\". Bẫy đảo số 45/54."
+     },
+     {
+      "q": "Delivery date: ___ March",
+      "a": "11|11th|eleventh",
+      "why": "Ngày 13 là ngày cũ. Ottilie đổi sớm hơn: \"the crew's now arriving on the eleventh\", Tom: \"The eleventh shouldn't be a problem\"."
+     },
+     {
+      "q": "Return equipment before ___ on 19 March",
+      "a": "noon|midday",
+      "why": "Trước đây là 5 giờ chiều nhưng \"it's midday on Fridays. So, before noon on the nineteenth.\" \"five o'clock\" là thông tin đã cũ."
+     },
+     {
+      "q": "Deposit: £___",
+      "a": "450",
+      "why": "Mức thường là £600, khách cũ được giảm 25%: \"that brings it down to £450\". £400 chỉ là ngưỡng không nhận thẻ tín dụng."
+     },
+     {
+      "q": "Deposit paid by: bank ___",
+      "a": "transfer",
+      "why": "Ottilie muốn trả bằng thẻ tín dụng nhưng bị từ chối với tiền cọc trên £400: \"It'll need to be a bank transfer\"."
+     },
+     {
+      "q": "Insurance cost: £___ per day",
+      "a": "9.50",
+      "why": "Tom nói £12 rồi tự sửa: \"I'm reading from the old price list. It went down to £9.50 in January.\""
+     },
+     {
+      "q": "Postcode: ___",
+      "a": "TR19 6PX",
+      "why": "Ottilie đọc \"6-B-X\" rồi sửa \"It's P, not B. P for Peter\"; Tom đọc lại \"TR19 6PX\". Tên nhà Gull's Rest không dùng được vì định vị bị nhầm."
+     },
+     {
+      "q": "Driver must phone ___ minutes before arrival",
+      "a": "20|twenty",
+      "why": "Ban đầu \"half an hour\" (30 phút) rồi đổi ý: \"Actually, no... Make it twenty minutes.\" Tom xác nhận \"Twenty minutes before arrival\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l7p2",
+  "test": 7,
+  "part": 2,
+  "title": "Orientation at Harrowby Mill",
+  "setting": "Một hướng dẫn viên giới thiệu lịch sử, quá trình trùng tu và vị trí các tiện ích trong khu di sản nhà máy cũ Harrowby Mill cho đoàn khách tham quan.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Guide",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Morning, everyone, and welcome to Harrowby Mill. I'm Dana, I'm one of the volunteer guides, and before you head off on your own, I'll give you a bit of background and, more usefully, tell you where everything is, because the site's grown a lot."
+   ],
+   [
+    "A",
+    "So, first, the obvious question people ask: what did this place actually make? Most visitors assume it was a corn mill, I mean, there's a water wheel, so you'd think flour, right? But when it opened in 1791, it was spinning flax for linen thread."
+   ],
+   [
+    "A",
+    "It only switched to paper in the 1880s, once the linen trade had collapsed, and that's the period most of the machinery you'll see dates from. So, flax first, paper later, and, as far as we can tell, never grain at all."
+   ],
+   [
+    "A",
+    "Now, some of you will have read that the restoration's running about two years behind schedule. People tend to assume that's money, but actually the lottery grant came through in full, and on time."
+   ],
+   [
+    "A",
+    "And yes, we did find a colony of bats in the roof, which made the local paper, but that held things up by a few weeks, nothing more. The real sticking point is people."
+   ],
+   [
+    "A",
+    "There are hardly any millwrights left who know how to rebuild a wooden gear train, and we've had to wait our turn for the two we found."
+   ],
+   [
+    "A",
+    "OK, so, finding your way around. You're standing in the main courtyard right now, with the clock tower behind me."
+   ],
+   [
+    "A",
+    "The ticket office is just under the tower, and that's also where our first-aid point is, so if anyone so much as twists an ankle, head there."
+   ],
+   [
+    "A",
+    "The café. If you've been here before, you'll remember it in the old counting house, that's the low brick building on your left."
+   ],
+   [
+    "A",
+    "It moved last spring, and it's now up in the former drying loft, at the top of the main mill, where the paper used to be hung. Take the lift, it's quite a climb otherwise."
+   ],
+   [
+    "A",
+    "Bike hire. Our leaflet still says it's next to the visitor car park, and it was, until the council resurfaced it. It's now been moved down beside the weir, which is actually handier, because the towpath starts right there."
+   ],
+   [
+    "A",
+    "The children's workshop, this week it's paper marbling, is in the walled yard behind the forge."
+   ],
+   [
+    "A",
+    "Normally, if it rained, we'd shift it into the basement of the counting house, but that's being re-floored, so the plan is to stay put under the awnings whatever the weather does."
+   ],
+   [
+    "A",
+    "And speaking of that basement, it's not entirely closed. The far end, the bit that's already finished, is where we've hung the new exhibition of photographs of the mill workers, mostly women and children, from about 1900. It's quite moving, honestly. Do take a look."
+   ],
+   [
+    "A",
+    "Picnics. You're very welcome to bring your own food. A lot of people try to set up beside the old water wheel because it's so photogenic, but you'll get soaked, the spray carries a surprisingly long way."
+   ],
+   [
+    "A",
+    "The picnic area is across the canal, at the far end of the footbridge, and there are benches and bins there."
+   ],
+   [
+    "A",
+    "Right, just a couple of requests before I let you go. Dogs are fine anywhere outside, and in the café, as long as they're on a lead. And you can bring food in, as I said."
+   ],
+   [
+    "A",
+    "In the loom gallery, please don't use flash. Some of those dyed linen samples are over two hundred years old, and the colours fade incredibly quickly under bright light. Ordinary photos without the flash are absolutely fine."
+   ],
+   [
+    "A",
+    "And outside, I know it's tempting, but please don't climb onto the sluice gates, or even lean over them to get a picture of the wheel. They're original, and they're not built to take anyone's weight."
+   ],
+   [
+    "A",
+    "Oh, and the ducks. For years we asked people not to feed them at all, but the wildlife trust's told us that's unnecessary. Just bring seed rather than bread, and there's a dispenser by the shop if you've forgotten."
+   ],
+   [
+    "A",
+    "And one last thing, the loom demonstration. It's at half eleven, not eleven as it says on your ticket, because our weaver's train is running late. That's about it. Enjoy your visit, and come and find me if you've got questions."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-12. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "When the mill first opened, it produced",
+      "o": [
+       "flour.",
+       "linen thread.",
+       "paper."
+      ],
+      "a": 1,
+      "why": "\"when it opened in 1791, it was spinning flax for linen thread\". Bột mì (flour) là điều khách hay đoán sai; giấy chỉ có từ những năm 1880."
+     },
+     {
+      "q": "According to the guide, the restoration has been delayed mainly because",
+      "o": [
+       "the grant was paid later than expected.",
+       "protected animals were found in the building.",
+       "there is a shortage of people with the right skills."
+      ],
+      "a": 2,
+      "why": "Tiền tài trợ đến đủ và đúng hạn; đàn dơi chỉ làm chậm vài tuần. Nguyên nhân chính: \"The real sticking point is people. There are hardly any millwrights left\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 13-18. Where is each of the following located? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 13-18.",
+    "opts": [
+     "under the clock tower",
+     "in the old counting house",
+     "in the former drying loft",
+     "next to the visitor car park",
+     "beside the weir",
+     "in the walled yard behind the forge",
+     "in the basement of the counting house",
+     "at the far end of the footbridge"
+    ],
+    "items": [
+     {
+      "q": "first-aid point",
+      "a": 0,
+      "why": "\"The ticket office is just under the tower, and that's also where our first-aid point is\"."
+     },
+     {
+      "q": "café",
+      "a": 2,
+      "why": "Quán cà phê từng ở counting house nhưng \"It moved last spring, and it's now up in the former drying loft\". Bẫy: vị trí cũ."
+     },
+     {
+      "q": "bike hire",
+      "a": 4,
+      "why": "Tờ rơi ghi cạnh bãi đỗ xe nhưng đã chuyển: \"It's now been moved down beside the weir\"."
+     },
+     {
+      "q": "children's workshop",
+      "a": 5,
+      "why": "\"is in the walled yard behind the forge\". Tầng hầm counting house đang lát lại sàn nên dù mưa vẫn ở lại đó (\"stay put under the awnings\")."
+     },
+     {
+      "q": "photography exhibition",
+      "a": 6,
+      "why": "Tầng hầm không đóng hoàn toàn: phần đã xong là nơi \"we've hung the new exhibition of photographs of the mill workers\"."
+     },
+     {
+      "q": "picnic area",
+      "a": 7,
+      "why": "Khách hay ngồi cạnh bánh xe nước nhưng bị ướt; \"The picnic area is across the canal, at the far end of the footbridge\"."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 19-20. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO things are visitors asked NOT to do?",
+      "o": [
+       "take dogs into the café",
+       "take photographs in the loom gallery",
+       "feed bread to the ducks",
+       "bring their own food onto the site",
+       "lean over the sluice gates"
+      ],
+      "a": [
+       2,
+       4
+      ],
+      "why": "\"Just bring seed rather than bread\" (không cho vịt ăn bánh mì) và \"please don't climb onto the sluice gates, or even lean over them\". Các lựa chọn còn lại đều được phép: chó vào quán cà phê nếu có dây dắt, chụp ảnh trong loom gallery được nếu không dùng đèn flash (\"Ordinary photos without the flash are absolutely fine\"), và được mang đồ ăn vào. Bẫy C: trước kia cấm cho vịt ăn hoàn toàn, giờ chỉ cấm bánh mì."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l7p3",
+  "test": 7,
+  "part": 3,
+  "title": "Designing a study on phone notifications",
+  "setting": "Ba sinh viên ngành tâm lý học và giảng viên hướng dẫn tranh luận về cách thiết kế nghiên cứu xem thông báo điện thoại ảnh hưởng thế nào đến việc ôn thi.",
+  "speakers": [
+   {
+    "id": "T",
+    "name": "Dr Wren (tutor)",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "I",
+    "name": "Isla",
+    "voice": "f",
+    "accent": "en-AU"
+   },
+   {
+    "id": "K",
+    "name": "Kofi",
+    "voice": "m",
+    "accent": "en-US"
+   },
+   {
+    "id": "M",
+    "name": "Marcus",
+    "voice": "m",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "T",
+    "Right, so you've sent me a one-page outline on notifications and revision. Before we get into the detail, tell me where you've got to, because I sense from the email that you're not all on the same page."
+   ],
+   [
+    "I",
+    "That's fair. The question's settled, I think: whether incoming notifications, even ones you don't open, reduce how much students retain when they're revising. Where we've stalled is how to actually test it."
+   ],
+   [
+    "K",
+    "I'd still argue for a lab study. You bring people in, give them a passage to learn, have phones buzz at fixed intervals for half the group, and then test recall. It's clean. You know exactly what caused what."
+   ],
+   [
+    "M",
+    "Clean, sure, but it's a bit artificial, isn't it? Nobody revises for twenty minutes in a cubicle with a researcher next door. The moment people know they're being watched, they behave like model students."
+   ],
+   [
+    "K",
+    "OK, but every lab study has that problem, and we'd be comparing two groups who are both being watched, so it cancels out."
+   ],
+   [
+    "I",
+    "Does it, though? I mean, I'm not sure it does. If the people whose phones buzz are being observed, they might make a bigger effort to ignore them than they would at home. So the effect could shrink in the lab, not just shift."
+   ],
+   [
+    "T",
+    "That's a sharp point, Isla. It's not simply noise that affects both groups equally. It interacts with the very thing you're manipulating. Kofi, does that change your mind?"
+   ],
+   [
+    "K",
+    "Partly. I'd still rather have a small effect I can trust than a big one I can't explain. But yes, I take the point that the lab might understate it."
+   ],
+   [
+    "M",
+    "Which is why I keep coming back to a diary study. Students log their revision sessions for two weeks, and an app records every notification automatically, so we're not relying on memory."
+   ],
+   [
+    "T",
+    "And how would you measure retention?"
+   ],
+   [
+    "M",
+    "Well, originally I thought we'd just ask them to rate how much they'd taken in. But, sorry, I've gone off that. Self-ratings are hopeless, people who feel distracted mark themselves down regardless. So, a short quiz at the end of each session, on whatever they'd been revising."
+   ],
+   [
+    "I",
+    "But then the quizzes aren't comparable. One person's revising organic chemistry, someone else is doing French verbs. You can't line those scores up."
+   ],
+   [
+    "M",
+    "You can if you compare each person with themselves, sessions with lots of notifications against sessions with few."
+   ],
+   [
+    "T",
+    "Within-subject comparison. That does handle Isla's objection rather neatly, actually. What it doesn't handle is direction of cause. Sorry, go on, Kofi, you were about to say that."
+   ],
+   [
+    "K",
+    "Yeah, exactly that. Maybe on days people are already struggling with the material, they're more likely to leave their phone on, or check it. So the notifications might be a symptom rather than the cause."
+   ],
+   [
+    "I",
+    "Which is why I suggested combining them. A short lab phase to establish whether there's an effect at all, and then the diary to see whether it holds up in real life."
+   ],
+   [
+    "T",
+    "In principle I like that, but be realistic. You've got one term. Two data collection phases, two ethics applications, two lots of analysis. I've seen groups try that and end up with two half-finished studies."
+   ],
+   [
+    "I",
+    "Hmm. So you'd say pick one?"
+   ],
+   [
+    "T",
+    "I'd say pick one design and do it properly, and use the limitations section to say what the other would add. Examiners respect a modest study that knows its own weaknesses."
+   ],
+   [
+    "M",
+    "Then I suppose the diary study's out. The app alone would take weeks to set up, and I don't think the department would even let us collect notification data from people's phones."
+   ],
+   [
+    "K",
+    "So we're back to the lab. Good."
+   ],
+   [
+    "I",
+    "Fine, but can we at least make it less sterile? Use the library's group study rooms rather than the testing cubicles, and let people bring their own revision material instead of our passage."
+   ],
+   [
+    "K",
+    "No, if everyone brings their own material, we're back to scores we can't compare. I'm happy with the study rooms, but the passage has to be the same for everyone."
+   ],
+   [
+    "T",
+    "I'd agree with Kofi there. Keep the material fixed. What you can do is choose a passage that resembles real coursework rather than something dry and invented."
+   ],
+   [
+    "M",
+    "What about the phones themselves? I'd assumed we'd use a lab phone, but if it's not their own phone, the notifications don't mean anything to them. Nobody cares about a stranger's message."
+   ],
+   [
+    "K",
+    "I'll grant you that one. Their own phones, then, but we'd need a way to trigger notifications."
+   ],
+   [
+    "I",
+    "A messaging group they join for the session. We post at set times. It's simple and nobody has to install anything."
+   ],
+   [
+    "T",
+    "That's workable. Just make sure the consent form says exactly what will be sent, and when. Right, I think you've got a design. Isla, can you rewrite the outline by Friday?"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-24. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "What problem with the laboratory design does Isla identify?",
+      "o": [
+       "The two groups would not be equally aware of being observed.",
+       "Being observed might reduce the very effect the study is measuring.",
+       "Participants would behave unnaturally whichever group they were in."
+      ],
+      "a": 1,
+      "why": "Isla: \"they might make a bigger effort to ignore them... So the effect could shrink in the lab, not just shift.\" C là ý của Marcus và Kofi cho rằng nó triệt tiêu nhau; A sai vì Isla không nói hai nhóm nhận thức khác nhau về việc bị quan sát mà nói việc bị quan sát tác động lên chính biến số."
+     },
+     {
+      "q": "Why does Marcus decide against using self-ratings of learning?",
+      "o": [
+       "Students' feelings of distraction would bias the scores.",
+       "Students would not remember how much they had learned.",
+       "Students would rate different subjects in different ways."
+      ],
+      "a": 0,
+      "why": "\"people who feel distracted mark themselves down regardless\". B là bẫy: app ghi thông báo để \"not relying on memory\", không liên quan đến self-rating. C là phản bác của Isla nhắm vào bài quiz, không phải self-rating."
+     },
+     {
+      "q": "What weakness of the diary study do Kofi and the tutor agree on?",
+      "o": [
+       "The quiz scores could not be compared across students.",
+       "It could not show whether notifications cause poorer learning.",
+       "It would rely too heavily on students' honesty."
+      ],
+      "a": 1,
+      "why": "Tutor: \"What it doesn't handle is direction of cause\", Kofi: \"the notifications might be a symptom rather than the cause\". A đã được giải quyết bằng so sánh trong cùng một người."
+     },
+     {
+      "q": "What is the tutor's main objection to combining the two designs?",
+      "o": [
+       "The results of the two phases might contradict each other.",
+       "Examiners prefer studies that use a single method.",
+       "The students do not have enough time to complete both well."
+      ],
+      "a": 2,
+      "why": "\"be realistic. You've got one term... end up with two half-finished studies.\" B là bẫy dùng từ \"Examiners\": cô chỉ nói giám khảo đánh giá cao nghiên cứu khiêm tốn biết điểm yếu của mình."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 25-30. Who expresses each of the following opinions? Choose the correct letter, A, B or C. You may use any letter more than once.",
+    "opts": [
+     "Isla",
+     "Kofi",
+     "Marcus"
+    ],
+    "items": [
+     {
+      "q": "A reliable small finding is preferable to a larger unexplained one.",
+      "a": 1,
+      "why": "Kofi: \"I'd still rather have a small effect I can trust than a big one I can't explain.\""
+     },
+     {
+      "q": "Official approval for one kind of data collection is unlikely.",
+      "a": 2,
+      "why": "Marcus: \"I don't think the department would even let us collect notification data from people's phones.\""
+     },
+     {
+      "q": "The study setting should feel less clinical.",
+      "a": 0,
+      "why": "Isla: \"can we at least make it less sterile? Use the library's group study rooms\". Kofi chỉ đồng ý phần phòng học, không phải người đề xuất."
+     },
+     {
+      "q": "All participants must study identical material.",
+      "a": 1,
+      "why": "Kofi: \"the passage has to be the same for everyone\". Tutor đồng ý nhưng không có trong lựa chọn; Isla lại muốn cho mang tài liệu riêng."
+     },
+     {
+      "q": "Notifications only have an effect if they seem personally relevant.",
+      "a": 2,
+      "why": "Marcus: \"if it's not their own phone, the notifications don't mean anything to them. Nobody cares about a stranger's message.\" Kofi chỉ chấp nhận (\"I'll grant you that one\")."
+     },
+     {
+      "q": "The method of sending notifications should be easy to set up.",
+      "a": 0,
+      "why": "Isla đề xuất nhóm nhắn tin: \"It's simple and nobody has to install anything.\" Kofi chỉ nêu nhu cầu \"a way to trigger notifications\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l7p4",
+  "test": 7,
+  "part": 4,
+  "title": "The acoustics of historic concert halls",
+  "setting": "Bài giảng đại học về âm học của các phòng hòa nhạc lịch sử: thời gian vang, hình dáng hộp giày, vật liệu, khán giả và ảnh hưởng ngược lại lên cách sáng tác.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning."
+   ],
+   [
+    "A",
+    "Today I want to look at why a handful of concert halls built in the late nineteenth century are still, more or less by consensus, regarded as the finest acoustic spaces in the world, and why, for a long time, nobody could quite explain it."
+   ],
+   [
+    "A",
+    "The obvious starting point is reverberation time, that's the time it takes for a sound to decay by sixty decibels once the source stops."
+   ],
+   [
+    "A",
+    "For orchestral music, the figure most acousticians aim for in a full hall is around two seconds. Much less and the sound feels dry; much more and the detail blurs."
+   ],
+   [
+    "A",
+    "Now, the curious thing is that the great halls were designed with almost no theory at all."
+   ],
+   [
+    "A",
+    "Wallace Sabine's formula relating reverberation to volume and absorption only appeared around 1900, so the architects of the earlier halls were working largely by imitation."
+   ],
+   [
+    "A",
+    "They copied rooms that sounded good, and, frankly, they got lucky."
+   ],
+   [
+    "A",
+    "What they copied, above all, was a shape: the so-called shoebox, a long, narrow, high rectangle. And the reason it works isn't really the length, it's the narrowness."
+   ],
+   [
+    "A",
+    "Sound from the stage strikes the side walls early and arrives at the listener's ears from the side."
+   ],
+   [
+    "A",
+    "And those lateral reflections, as we call them, are what produce a sense of envelopment, the feeling of being surrounded by the music rather than looking at it through a window."
+   ],
+   [
+    "A",
+    "Our brains read tiny differences between what the two ears receive as a sign that the sound is coming from all around us."
+   ],
+   [
+    "A",
+    "Compare that with the fan-shaped halls that became fashionable in the mid-twentieth century."
+   ],
+   [
+    "A",
+    "They were wonderful for sightlines, and they let you seat far more people, but the side walls splay away from the stage, so the early reflections tend to come from the front instead, and the sound, well, it feels distant, however loud it is."
+   ],
+   [
+    "A",
+    "The second ingredient is surface. Those halls are covered in what an architect at the time would have called ornament: plaster mouldings, coffered ceilings, statues in niches, rows of balcony fronts. We used to think of this as decoration. Acoustically, it's anything but."
+   ],
+   [
+    "A",
+    "All that relief breaks up reflected sound and scatters it in many directions, which is what we call diffusion. Without it, a flat wall acts like a mirror and you get harsh, distinct echoes. With it, the reflected energy arrives as a smooth, continuous wash."
+   ],
+   [
+    "A",
+    "Materials matter too, though not in the way people sometimes assume. There's a popular idea that wood makes a hall resonate like a violin. It doesn't, really. What matters is mass."
+   ],
+   [
+    "A",
+    "The best halls have thick plaster laid directly onto masonry, which reflects low frequencies instead of absorbing them, so the bass stays warm."
+   ],
+   [
+    "A",
+    "Thin wooden panelling with an air gap behind it, by contrast, actually soaks up the bass. So the much-admired wood in some modern halls is, acoustically speaking, often just a veneer glued onto concrete."
+   ],
+   [
+    "A",
+    "The third element, and it's one designers consistently underestimated, is the audience. A seated person absorbs a great deal of sound, so a hall that sounds glorious at a rehearsal can sound noticeably dead on the night."
+   ],
+   [
+    "A",
+    "That's why modern seats are upholstered to absorb roughly what a person would, so that the acoustic barely changes whether a seat's taken or not."
+   ],
+   [
+    "A",
+    "And it's also, incidentally, why the size of the older halls is so modest. Most hold fewer than two thousand people. Push much beyond that and you have to make the room wider, and once you widen it, you lose those lateral reflections I mentioned."
+   ],
+   [
+    "A",
+    "Which brings me to a point that's sometimes overlooked: the influence ran both ways. Composers wrote for the rooms they knew. In the very resonant churches of earlier centuries, harmonies had to change slowly, or successive chords would smear into one another."
+   ],
+   [
+    "A",
+    "Whereas the drier eighteenth-century court rooms suited quick, intricate passages."
+   ],
+   [
+    "A",
+    "Some historians go further and argue that the lush, sustained orchestral writing of the late Romantic period was, in effect, composed for the shoebox."
+   ],
+   [
+    "A",
+    "I'd put it a bit more cautiously, but the correspondence is hard to dismiss."
+   ],
+   [
+    "A",
+    "Finally, measurement. For decades, acousticians tested halls by firing a starting pistol on stage and recording the decay. Nowadays we use a sine sweep, a tone that rises steadily through the whole frequency range, which gives a far cleaner result even with background noise."
+   ],
+   [
+    "A",
+    "But I'd stress that the numbers have never been the whole story."
+   ],
+   [
+    "A",
+    "In the end, the reputation of a hall rests on the judgement of the musicians who play in it, and they will tell you that what they value most is being able to hear one another on stage."
+   ],
+   [
+    "A",
+    "We'll pick that up next week."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Reverberation: ideal time for orchestral music in a full hall is about two ___",
+      "a": "seconds",
+      "why": "\"the figure most acousticians aim for in a full hall is around two seconds\". Không nhầm với \"sixty decibels\" (mức suy giảm dùng để định nghĩa)."
+     },
+     {
+      "q": "Early halls: designed mainly through ___ of successful rooms, not theory",
+      "a": "imitation",
+      "why": "\"the architects of the earlier halls were working largely by imitation\". Cần đúng dạng danh từ \"imitation\", không phải \"copying\" hay \"imitate\"."
+     },
+     {
+      "q": "Shoebox shape: the key feature is its ___, not its length",
+      "a": "narrowness",
+      "why": "\"the reason it works isn't really the length, it's the narrowness\". Phải viết danh từ \"narrowness\", viết \"narrow\" là sai ngữ pháp sau \"its\"."
+     },
+     {
+      "q": "Lateral reflections give listeners a sense of ___",
+      "a": "envelopment",
+      "why": "\"those lateral reflections... produce a sense of envelopment\". Ghi chú dùng lại đúng cụm \"a sense of\", nên cần đúng danh từ \"envelopment\", không phải \"enveloped\"."
+     },
+     {
+      "q": "Fan-shaped halls: better ___, but sound seems distant",
+      "a": "sightlines",
+      "why": "\"They were wonderful for sightlines\". Lợi thế còn lại là chứa nhiều người hơn nhưng không vừa một từ trong chỗ trống."
+     },
+     {
+      "q": "Ornament scatters sound, producing ___",
+      "a": "diffusion",
+      "why": "\"scatters it in many directions, which is what we call diffusion\". Nếu không có thì là \"echoes\" (đáp án ngược nghĩa)."
+     },
+     {
+      "q": "Thick plaster on masonry: what matters is its ___, which keeps the bass warm",
+      "a": "mass",
+      "why": "Giảng viên bác bỏ quan niệm gỗ làm phòng cộng hưởng: \"It doesn't, really. What matters is mass.\" \"wood\" là bẫy."
+     },
+     {
+      "q": "Modern seats are ___ so the sound is similar whether empty or full",
+      "a": "upholstered",
+      "why": "\"modern seats are upholstered to absorb roughly what a person would\". Cần dạng phân từ \"upholstered\"."
+     },
+     {
+      "q": "Resonant churches: ___ had to change slowly, or successive chords merged",
+      "a": "harmonies",
+      "why": "\"harmonies had to change slowly, or successive chords would smear into one another\". \"chords\" là bẫy: nó nằm trong vế hậu quả. Ghi đúng dạng số nhiều \"harmonies\"."
+     },
+     {
+      "q": "Modern measurement: a sine ___ replaced the starting pistol",
+      "a": "sweep",
+      "why": "\"Nowadays we use a sine sweep\". \"pistol\" là phương pháp cũ đã bị thay thế."
+     }
+    ]
+   }
+  ]
+ }
+]

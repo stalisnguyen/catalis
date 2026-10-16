@@ -18,6 +18,10 @@ def walk(x, where="root"):
     elif isinstance(x, dict): [walk(v, f"{where}.{k}") for k, v in x.items()]
 walk(D)
 
+import os
+_ex = os.path.join(os.path.dirname(os.path.abspath(__file__)), "existing_words.txt")
+EXIST = set(open(_ex, encoding="utf-8").read().split("\n")) if kind == "topicvocab" and os.path.exists(_ex) else set()
+
 def need(o, keys, where):
     for k in keys:
         if k not in o or o[k] in ("", None, []): err.append(f"{where}: missing {k}")
@@ -144,9 +148,29 @@ elif kind == "topicvocab":
     for i, v in enumerate(D):
         w = f"item {v.get('w', i)}"
         need(v, ["w", "ipa", "pos", "vi", "ex", "exvi", "col", "topic"], w)
+        if EXIST and v.get("w", "").lower() in EXIST: err.append(f"{w}: already in the app word list")
         if v.get("w", "").lower() in seen: err.append(f"{w}: duplicate")
         seen.add(v.get("w", "").lower())
         if not str(v.get("ipa", "")).startswith("/"): err.append(f"{w}: ipa in slashes")
+elif kind == "writing9":
+    # array of {id, model9, why9:[[feature, Vietnamese explanation quoting the essay]] x5-7, band8vs9}
+    for i, x in enumerate(D):
+        w = f"writing9 {x.get('id', i)}"
+        need(x, ["id", "model9", "why9", "band8vs9"], w)
+        n = words(x.get("model9", ""))
+        lo, hi = (150, 230) if str(x.get("id","")).startswith("w1") else (280, 360)
+        if not lo <= n <= hi: err.append(f"{w}: model9 {n} words, expected {lo}-{hi}")
+        if not 5 <= len(x.get("why9", [])) <= 8: err.append(f"{w}: why9 needs 5-8 items")
+elif kind == "speaking9":
+    # {p1:[{topic, samples9:[[q, a]] x2}], p2:[{id, sample9, why9:[[feature, vi]] x4-6, p3samples9:[[q,a]] x2}]}
+    need(D, ["p1", "p2"], "root")
+    for t in D.get("p1", []):
+        need(t, ["topic", "samples9"], f"p1 {t.get('topic')}")
+    for c in D.get("p2", []):
+        w = f"p2 {c.get('id')}"
+        need(c, ["id", "sample9", "why9", "p3samples9"], w)
+        n = words(c.get("sample9", ""))
+        if not 260 <= n <= 360: err.append(f"{w}: sample9 {n} words, expected 260-360")
 else:
     err.append("unknown kind")
 

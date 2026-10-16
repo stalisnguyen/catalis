@@ -1,0 +1,611 @@
+[
+ {
+  "id": "g3p1",
+  "type": "general",
+  "test": 3,
+  "section": 1,
+  "title": "Home Contents Cover and the Wenbury Riverside Festival",
+  "topic": "Insurance terms and a local festival programme",
+  "band": "7.5-9.0",
+  "paras": [
+   [
+    "A",
+    "Harwell Home Contents Cover: policy summary. What is covered. This policy protects the contents of your home against loss or damage caused by fire, flood, storm, theft and escape of water. 'Contents' means household goods and personal belongings that you own or are legally responsible for and that are kept inside the home. Items kept in a garage or garden shed are covered up to £1,500 in total, but theft from any outbuilding is covered only where there are visible signs of forced entry."
+   ],
+   [
+    "B",
+    "Valuables. No single item is covered for more than £2,000 unless it is named on your schedule. Jewellery, watches and cameras worth over £1,000 must be listed individually, and in the event of a claim you must be able to supply either a receipt or a professional valuation dated within the last three years."
+   ],
+   [
+    "C",
+    "Excess and claims. The standard excess (the part of any claim you pay yourself) is £150, rising to £350 for claims involving escape of water, such as a burst pipe or a leaking washing machine. Theft must be reported to the police within 48 hours and to us within seven days. Claims notified more than 30 days after the incident will be declined, except where you can show that you were in hospital or outside the country during that period."
+   ],
+   [
+    "D",
+    "Other conditions. If your home is left unoccupied for more than 45 consecutive days, cover for theft and escape of water is suspended until you return. Accidental damage, such as spilling paint on a carpet, is not included as standard; it may be added at any point during the policy year, but cover does not begin until 14 days after it is added. The belongings of lodgers are not covered, although those of family members who live with you permanently are."
+   ],
+   [
+    "E",
+    "Wenbury Riverside Festival: programme notes. Lantern Parade (Friday, 7 pm). The parade sets off from the Old Bridge and ends in the Market Square. Free, no booking needed; children under 12 must be accompanied by an adult. In high winds, the parade will be replaced by an indoor lantern display in the Corn Exchange. A decision will be posted on the festival website by 4 pm on the day."
+   ],
+   [
+    "F",
+    "Storytelling Tent (Saturday and Sunday, 10 am-4 pm). Free, but each session is limited to 40 places. Tickets are issued at the information point on the day and cannot be reserved beforehand. Sessions are aimed at children aged five to nine, and adults may attend only with a child, with one exception: Sunday's final session at 3 pm is for over-18s only."
+   ],
+   [
+    "G",
+    "Riverside Food Market (Saturday only, 11 am-6 pm). Entry costs £3, which is returned as a voucher that can be spent at any stall. Under-16s enter free. Please note that cash is not accepted at the entrance, although most traders inside will take it."
+   ],
+   [
+    "H",
+    "Open-air Concert (Saturday, 8 pm, Abbey Meadow). Tickets cost £18 if bought before the festival and £22 on the gate. Festival Pass holders are admitted at no extra charge but must collect a wristband from the box office by 6 pm on Saturday. The concert will go ahead in rain. Folding chairs are not permitted; rugs are welcome. Only if a lightning warning is issued will the event be cancelled, in which case refunds will be made within 30 days."
+   ],
+   [
+    "I",
+    "Charity Boat Races (Sunday, from 10 am). Spectators are welcome free of charge along the towpath. Teams of four must register by the Wednesday before the festival; after this, a new team can join only if a registered team withdraws. Rowers must be at least 14, and those aged 14 or 15 must bring a consent form signed by a parent or guardian."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Read the policy summary, sections A-D. Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "A bicycle stolen from a locked garage is covered even if the thief left no sign of how they got in.",
+      "a": "FALSE",
+      "para": "A",
+      "why": "Đoạn A: \"theft from any outbuilding is covered only where there are visible signs of forced entry\". Garage là outbuilding, nên nếu không có dấu vết phá khóa thì không được bồi thường. Bẫy: chữ \"locked\" làm người đọc nghĩ là đủ điều kiện, nhưng văn bản không nói khóa là đủ."
+     },
+     {
+      "q": "A watch worth £1,200 has to be named separately on the schedule.",
+      "a": "TRUE",
+      "para": "B",
+      "why": "Đoạn B: \"Jewellery, watches and cameras worth over £1,000 must be listed individually\". £1,200 lớn hơn £1,000. Bẫy: con số £2,000 ở câu trước là mức tối đa cho một món chưa liệt kê, không phải ngưỡng bắt buộc liệt kê đồng hồ."
+     },
+     {
+      "q": "A professional valuation of a ring carried out four years ago would support a claim.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: valuation phải \"dated within the last three years\". Bốn năm là quá hạn, nên mâu thuẫn với văn bản."
+     },
+     {
+      "q": "Policyholders pay more of the cost themselves when water leaks from an appliance than when goods are stolen.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: excess chuẩn là £150, \"rising to £350 for claims involving escape of water, such as ... a leaking washing machine\". Excess là phần tự trả, nên rò nước từ máy giặt thì tự trả nhiều hơn so với mất trộm (£150). Câu hỏi diễn đạt lại \"excess\" thành \"pay more of the cost themselves\"."
+     },
+     {
+      "q": "A claim made five weeks after an incident may still be accepted in certain circumstances.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: quá 30 ngày thì bị từ chối \"except where you can show that you were in hospital or outside the country\". Năm tuần là hơn 30 ngày, nhưng vẫn có ngoại lệ, nên \"may still be accepted in certain circumstances\" là đúng."
+     },
+     {
+      "q": "Someone who adds accidental damage cover on 1 June is protected if they spill paint on their carpet on 8 June.",
+      "a": "FALSE",
+      "para": "D",
+      "why": "Đoạn D: \"cover does not begin until 14 days after it is added\". Từ 1/6 đến 8/6 mới 7 ngày, chưa có hiệu lực. Bẫy: văn bản nói có thể thêm \"at any point\", dễ làm người đọc nghĩ là có hiệu lực ngay."
+     },
+     {
+      "q": "Policyholders who cancel within 14 days of buying the policy receive a full refund.",
+      "a": "NOT GIVEN",
+      "para": "D",
+      "why": "Văn bản không nói gì về việc hủy hợp đồng hay hoàn tiền. Con số 14 ngày ở đoạn D chỉ là thời gian chờ để bảo hiểm thiệt hại do tai nạn có hiệu lực. Đây là bẫy NOT GIVEN dùng lại một con số có trong bài."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Look at the five festival events, E-I. For which event are the following statements true? Write the correct letter, E-I. You may use any letter more than once.",
+    "items": [
+     {
+      "q": "A different arrangement will replace the event if the weather is unsuitable.",
+      "a": "E",
+      "para": "E",
+      "why": "Đoạn E: \"In high winds, the parade will be replaced by an indoor lantern display\". Bẫy: đoạn H cũng nói về thời tiết, nhưng concert \"will go ahead in rain\" và chỉ bị hủy khi có cảnh báo sét, không có phương án thay thế."
+     },
+     {
+      "q": "The admission charge can be used to buy something at the event.",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: \"Entry costs £3, which is returned as a voucher that can be spent at any stall.\" Tiền vào cửa được đổi thành phiếu mua hàng."
+     },
+     {
+      "q": "Buying a ticket in advance is cheaper than paying on arrival.",
+      "a": "H",
+      "para": "H",
+      "why": "Đoạn H: \"£18 if bought before the festival and £22 on the gate\". Bẫy: đoạn F cũng nói về vé nhưng vé miễn phí và \"cannot be reserved beforehand\"."
+     },
+     {
+      "q": "Late applicants can take part only if someone else drops out.",
+      "a": "I",
+      "para": "I",
+      "why": "Đoạn I: sau hạn đăng ký, \"a new team can join only if a registered team withdraws\". \"Drops out\" = \"withdraws\"."
+     },
+     {
+      "q": "One part of the event is closed to children.",
+      "a": "F",
+      "para": "F",
+      "why": "Đoạn F: \"Sunday's final session at 3 pm is for over-18s only\". Bẫy: đoạn E có quy định về trẻ dưới 12 tuổi nhưng chỉ yêu cầu có người lớn đi kèm, không cấm trẻ em."
+     },
+     {
+      "q": "Some participants need written permission from an adult.",
+      "a": "I",
+      "para": "I",
+      "why": "Đoạn I: người chèo 14 hoặc 15 tuổi \"must bring a consent form signed by a parent or guardian\". Bẫy: đoạn E chỉ yêu cầu trẻ em có người lớn đi cùng, không phải giấy đồng ý có chữ ký."
+     },
+     {
+      "q": "People who have already paid for access must take an extra step before a certain time.",
+      "a": "H",
+      "para": "H",
+      "why": "Đoạn H: \"Festival Pass holders ... must collect a wristband from the box office by 6 pm on Saturday.\" Người đã có Festival Pass (đã trả tiền) phải đi lấy vòng tay trước 6 giờ tối. Bẫy: đoạn E có mốc 4 pm nhưng đó là giờ ban tổ chức thông báo, người tham gia không phải làm gì."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "escape of water",
+    "rò rỉ nước (thuật ngữ bảo hiểm)"
+   ],
+   [
+    "outbuilding",
+    "công trình phụ (nhà kho, gara)"
+   ],
+   [
+    "forced entry",
+    "đột nhập bằng cách phá cửa, phá khóa"
+   ],
+   [
+    "excess",
+    "khoản tự chi trả trong mỗi lần bồi thường"
+   ],
+   [
+    "schedule",
+    "bảng danh mục đính kèm hợp đồng bảo hiểm"
+   ],
+   [
+    "valuation",
+    "giấy định giá"
+   ],
+   [
+    "be declined",
+    "bị từ chối"
+   ],
+   [
+    "unoccupied",
+    "bỏ trống, không có người ở"
+   ],
+   [
+    "be suspended",
+    "bị tạm ngưng"
+   ],
+   [
+    "lodger",
+    "người thuê trọ ở chung nhà"
+   ],
+   [
+    "withdraw",
+    "rút lui, rút tên"
+   ],
+   [
+    "consent form",
+    "giấy đồng ý"
+   ]
+  ]
+ },
+ {
+  "id": "g3p2",
+  "type": "general",
+  "test": 3,
+  "section": 2,
+  "title": "Flexible Working and Professional Development at Ashcombe Logistics",
+  "topic": "Workplace policies",
+  "band": "7.5-9.0",
+  "paras": [
+   [
+    "A",
+    "Flexible Working Policy. Eligibility. Any employee who has completed 26 weeks of continuous service may submit a formal request to change their hours, times or place of work. Agency workers and contractors fall outside this policy. Only one formal request may be made in any twelve-month period, although a request that is withdrawn before a decision is reached does not count towards this limit."
+   ],
+   [
+    "B",
+    "Making a request. Requests must be submitted in writing to your line manager, setting out the change you are seeking, the date from which you would like it to take effect and how you believe any impact on your team could be managed. You are not required to give a reason for your request. However, requests connected with caring responsibilities or a medical condition will be given priority where several requests within the same team cannot all be granted."
+   ],
+   [
+    "C",
+    "Decisions. Your manager will meet you within 21 days of receiving the request and must notify you of the outcome in writing within two months. A request may be refused only on one of the business grounds listed in Appendix 2, such as an inability to reorganise work among existing staff. Where a request is approved, the change will normally apply for a three-month trial period, after which either party may ask for it to be reviewed. If no review is requested, the arrangement becomes permanent."
+   ],
+   [
+    "D",
+    "Remote working. Staff whose roles can be carried out away from the office may work from home for up to three days a week. Employees in warehouse, driving and reception roles are excluded because their duties require them to be on site. Everyone working remotely must attend the office on Tuesdays, the company's team day, unless they have their manager's written agreement to an alternative day."
+   ],
+   [
+    "E",
+    "Appeals. If your request is refused, you may appeal to the HR Business Partner for your division within 14 days of receiving the written decision. Appeals are considered by a manager who was not involved in the original decision."
+   ],
+   [
+    "F",
+    "Professional Development Scheme. Funding. Permanent employees may apply for funding towards courses and qualifications that are relevant to their current role or to a role they could reasonably move into within the company. The scheme meets the full cost of approved courses up to £2,500 per year; above this figure, the company pays half of any additional cost, up to an overall annual limit of £4,000 per employee. Fixed-term staff with contracts of at least twelve months may apply for short courses costing no more than £500."
+   ],
+   [
+    "G",
+    "Study leave. Employees on approved courses receive up to five days of paid study leave per year to attend examinations and to prepare for them. Time spent attending evening or weekend classes is not paid, and cannot be taken as time off in lieu."
+   ],
+   [
+    "H",
+    "Repayment. Anyone who resigns within twelve months of finishing a funded course must repay the full cost to the company; this falls to 50% for those who leave between twelve and twenty-four months after completion. Repayment is not required where an employee is made redundant, or where they fail a course despite having attended all sessions."
+   ],
+   [
+    "I",
+    "How to apply. Applications are made through the Learning Portal and must be supported by your line manager before they reach the Learning Team. Applications for courses that begin in September must be received by 30 June; those for courses starting at other times of year should arrive at least eight weeks before the start date."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Read the Flexible Working Policy, sections A-E. Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "An employee who withdrew a request in March may make another formal request in May of the same year.",
+      "a": "TRUE",
+      "para": "A",
+      "why": "Đoạn A: mỗi 12 tháng chỉ được một yêu cầu, \"although a request that is withdrawn before a decision is reached does not count towards this limit\". Yêu cầu đã rút không tính, nên vẫn được nộp yêu cầu mới. Bẫy: người đọc chỉ nhớ quy tắc \"one request in any twelve-month period\" sẽ chọn FALSE."
+     },
+     {
+      "q": "Staff must explain why they want to change their working pattern.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: \"You are not required to give a reason for your request.\" Bẫy: câu tiếp theo nói yêu cầu liên quan đến chăm sóc người thân hay bệnh tật được ưu tiên, dễ khiến người đọc nghĩ phải nêu lý do."
+     },
+     {
+      "q": "Managers are obliged to grant any request made for medical reasons.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B chỉ nói yêu cầu vì lý do sức khỏe \"will be given priority where several requests within the same team cannot all be granted\". Được ưu tiên khi phải chọn giữa nhiều yêu cầu, chứ không phải bắt buộc chấp thuận. Đoạn C còn nói yêu cầu có thể bị từ chối vì lý do kinh doanh, nên câu này mâu thuẫn với văn bản."
+     },
+     {
+      "q": "An approved change continues indefinitely unless someone asks for it to be looked at again after the trial.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: \"If no review is requested, the arrangement becomes permanent.\" \"Continues indefinitely\" là cách diễn đạt khác của \"becomes permanent\"."
+     },
+     {
+      "q": "A receptionist may work from home one day a week with the manager's agreement.",
+      "a": "FALSE",
+      "para": "D",
+      "why": "Đoạn D: nhân viên lễ tân \"are excluded because their duties require them to be on site\". Bẫy: cụm \"manager's written agreement\" trong đoạn chỉ áp dụng cho việc đổi ngày lên văn phòng, không phải cho lễ tân làm ở nhà."
+     },
+     {
+      "q": "The HR Business Partner personally decides the outcome of each appeal.",
+      "a": "NOT GIVEN",
+      "para": "E",
+      "why": "Đoạn E chỉ nói đơn kháng nghị được gửi tới HR Business Partner và được xem xét bởi \"a manager who was not involved in the original decision\". Văn bản không cho biết HR Business Partner có phải là người quyết định hay không, cũng không nói người đó là manager hay không, nên không đủ thông tin."
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+    "items": [
+     {
+      "q": "Staff on contracts that are fixed-term must have a contract lasting at least ___ to apply for funding.",
+      "a": "twelve months|12 months",
+      "para": "F",
+      "why": "Đoạn F: \"Fixed-term staff with contracts of at least twelve months may apply for short courses\". Bẫy: con số £500 là giới hạn chi phí khóa học, không phải điều kiện về thời hạn hợp đồng."
+     },
+     {
+      "q": "Paid study leave can be used both to sit and to prepare for ___.",
+      "a": "examinations",
+      "para": "G",
+      "why": "Đoạn G: \"paid study leave ... to attend examinations and to prepare for them\". \"Sit\" một kỳ thi = dự thi."
+     },
+     {
+      "q": "No pay is given for time spent at classes held in the evening or at the ___.",
+      "a": "weekend|weekends",
+      "para": "G",
+      "why": "Đoạn G: \"Time spent attending evening or weekend classes is not paid\". Bẫy: câu trước nói về \"paid study leave\", nhưng ngày nghỉ có lương chỉ dùng cho thi và ôn thi, không dùng cho lớp học buổi tối hay cuối tuần."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Choose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "An employee takes an approved course costing £3,500. How much will the company pay?",
+      "o": [
+       "£2,500",
+       "£3,000",
+       "£3,500",
+       "£4,000"
+      ],
+      "a": 1,
+      "para": "F",
+      "why": "Đoạn F: công ty trả toàn bộ đến £2,500, phần vượt thì trả một nửa. Phần vượt là £1,000, công ty trả £500, tổng cộng £3,000 (vẫn dưới mức trần £4,000). Bẫy: £4,000 là mức trần năm, £2,500 là mức trả đủ."
+     },
+     {
+      "q": "In which situation would an employee NOT have to repay any course fees?",
+      "o": [
+       "They resign eighteen months after completing the course.",
+       "They are made redundant six months after completing the course.",
+       "They fail the course after missing several sessions.",
+       "They resign eleven months after completing the course."
+      ],
+      "a": 1,
+      "para": "H",
+      "why": "Đoạn H: \"Repayment is not required where an employee is made redundant\". A: nghỉ sau 18 tháng vẫn phải trả 50%. C: trượt nhưng không đi học đầy đủ thì không được miễn (điều kiện là \"despite having attended all sessions\"). D: nghỉ việc trong vòng 12 tháng sau khi học xong thì phải trả toàn bộ."
+     },
+     {
+      "q": "An application for a course starting on 1 November must reach the company by",
+      "o": [
+       "30 June.",
+       "1 September.",
+       "6 September.",
+       "1 October."
+      ],
+      "a": 2,
+      "para": "I",
+      "why": "Đoạn I: khóa học không bắt đầu vào tháng Chín phải nộp \"at least eight weeks before the start date\". Tám tuần trước ngày 1/11 là ngày 6/9. Bẫy: 30/6 chỉ áp dụng cho khóa bắt đầu tháng Chín."
+     },
+     {
+      "q": "Before an application reaches the Learning Team, it must be",
+      "o": [
+       "approved by HR.",
+       "endorsed by the applicant's manager.",
+       "submitted on paper.",
+       "accompanied by a course receipt."
+      ],
+      "a": 1,
+      "para": "I",
+      "why": "Đoạn I: đơn \"must be supported by your line manager before they reach the Learning Team\". \"Endorsed\" = \"supported\". Bẫy: HR xuất hiện ở phần kháng nghị (đoạn E), không liên quan đến đơn xin tài trợ."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "continuous service",
+    "thời gian làm việc liên tục"
+   ],
+   [
+    "take effect",
+    "có hiệu lực"
+   ],
+   [
+    "caring responsibilities",
+    "trách nhiệm chăm sóc người thân"
+   ],
+   [
+    "business grounds",
+    "lý do kinh doanh"
+   ],
+   [
+    "trial period",
+    "giai đoạn thử nghiệm"
+   ],
+   [
+    "on site",
+    "có mặt tại nơi làm việc"
+   ],
+   [
+    "fixed-term",
+    "có thời hạn cố định (hợp đồng)"
+   ],
+   [
+    "time off in lieu",
+    "nghỉ bù"
+   ],
+   [
+    "be made redundant",
+    "bị cắt giảm biên chế"
+   ],
+   [
+    "line manager",
+    "quản lý trực tiếp"
+   ],
+   [
+    "endorse",
+    "xác nhận, ủng hộ"
+   ]
+  ]
+ },
+ {
+  "id": "g3p3",
+  "type": "general",
+  "test": 3,
+  "section": 3,
+  "title": "The Unmaking and Remaking of Repair",
+  "topic": "Consumer culture and the revival of repair",
+  "band": "7.5-9.0",
+  "paras": [
+   [
+    "A",
+    "For most of human history, repairing a broken object was not a hobby, a political statement or a lifestyle choice; it was simply what one did. A cracked pot was riveted, a torn coat was patched, and a clock that had stopped was taken to someone who understood its mechanism. The value of an object lay partly in its capacity to be kept going, and the skills required to keep it going were distributed widely across households and neighbourhoods. What is striking, looking back, is not that people mended things, but how rapidly, over the second half of the twentieth century, the expectation that they would do so evaporated in much of the industrialised world."
+   ],
+   [
+    "B",
+    "The usual explanation is economic, and it is not wrong so much as incomplete. As manufacturing costs fell and wages rose, the arithmetic of repair shifted decisively: an hour of a technician's time came to cost more than a new toaster, and replacement became the rational choice. Yet the historian Miriam Okafor has argued that price alone cannot account for the speed of the change. In her account, the decisive factor was design. Products were increasingly assembled with glue rather than screws, sealed in casings that could not be opened without being damaged, and built from components that were never sold separately. Repair did not merely become uneconomic; it became, in a physical sense, impossible, and the knowledge that had once sustained it lost the objects on which it could be practised."
+   ],
+   [
+    "C",
+    "This loss was cumulative. A skill that is not exercised is not passed on, and a generation that has never seen a radio opened is unlikely to suspect that it could be. Okafor describes this as a kind of 'mechanical illiteracy', in which consumers come to experience the inside of everyday objects as not merely unfamiliar but forbidden. Warning labels, warranties voided by the removal of a single screw and the sheer density of modern electronics have all reinforced the impression that ordinary people have no business tampering with the things they own. Whether this outcome was deliberately engineered or emerged as a by-product of other priorities, such as making devices thinner and cheaper to assemble, remains a matter of dispute."
+   ],
+   [
+    "D",
+    "Over the past fifteen years, however, a counter-movement has gathered pace. Volunteer-run repair cafés, in which people bring broken appliances, clothes and bicycles to be fixed alongside them by skilled volunteers, have spread from a handful of European towns to thousands of locations worldwide. Many began as occasional events in community halls or libraries, and their informal atmosphere is part of their appeal: visitors queue with a kettle or a lamp, talk to strangers while they wait, and are expected to hold the screwdriver themselves rather than hand the object over and come back to collect it later. Their organisers are generally careful to describe their purpose as educational rather than charitable: the aim is not to provide a free service but to return a measure of competence and confidence to the visitor. Records kept by one network suggest that around two-thirds of items brought in leave in working order, though such figures are self-reported and the items that people choose to bring are unlikely to be a representative sample of what is thrown away."
+   ],
+   [
+    "E",
+    "Alongside this grassroots activity, legislators in several jurisdictions have begun to intervene. So-called right-to-repair measures typically oblige manufacturers to make spare parts available for a fixed number of years after a model is withdrawn from sale, and to supply repair manuals to independent workshops. Supporters see such rules as overdue corrections to a market that had drifted too far towards disposability. Critics, including some engineers, counter that design for repairability can involve genuine trade-offs: a phone that can be opened easily may be harder to make waterproof, and a modular appliance may use more material than a sealed one. The economist Daniel Reyes has cautioned that if these costs are ignored, regulation may produce products that are easier to fix but break more often."
+   ],
+   [
+    "F",
+    "It would be naive, then, to treat repair as an unqualified good. Not every object deserves to be kept alive indefinitely; an old refrigerator may consume so much more electricity than a modern one that replacing it is the more responsible choice. Nor is it obvious that most consumers, given the option, will choose to mend rather than replace. Surveys consistently find that people express strong support for repairable products, but purchasing data tell a less flattering story, suggesting that convenience and novelty continue to outweigh stated principles at the point of sale."
+   ],
+   [
+    "G",
+    "What the revival of repair does seem to offer, however, is something that the purely economic debate tends to overlook. To open an object and understand, even roughly, how it works is to alter one's relationship with it, and perhaps with the material world more generally. People who have repaired a lamp or a jacket frequently report that they look after their other possessions differently afterwards. If that change in disposition proves durable, its effects may ultimately matter more than the number of toasters rescued from landfill. The question is less whether repair can compete with replacement on price than whether a society can afford to forget how its own things are made."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "The reading passage has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below.",
+    "opts": [
+     "Laws that require manufacturers to keep repair possible, and their hidden costs",
+     "How everyday mending disappeared within a few decades",
+     "A benefit of repair that cost comparisons fail to capture",
+     "Why repaired products tend to be more reliable",
+     "How products were made impossible to open, not just expensive to fix",
+     "Community workshops that aim to teach rather than simply to fix",
+     "The gap between what consumers say and what they buy, and other limits",
+     "How lost knowledge made people feel excluded from their own possessions",
+     "The proven environmental advantages of repair",
+     "A deliberate plan by manufacturers to discourage repair"
+    ],
+    "items": [
+     {
+      "q": "Paragraph A",
+      "a": 1,
+      "para": "A",
+      "why": "Đoạn A nói việc sửa đồ từng là điều hiển nhiên, rồi kết lại bằng ý chính: kỳ vọng đó \"evaporated\" rất nhanh trong nửa sau thế kỷ 20. Tiêu đề \"How everyday mending disappeared within a few decades\" nói đúng ý \"biến mất trong vài thập kỷ\"."
+     },
+     {
+      "q": "Paragraph B",
+      "a": 4,
+      "para": "B",
+      "why": "Đoạn B thừa nhận lý do kinh tế nhưng ý trọng tâm là của Okafor: \"the decisive factor was design\", đồ dùng bị dán keo, bịt kín, nên sửa trở thành \"in a physical sense, impossible\". Tiêu đề \"How products were made impossible to open, not just expensive to fix\" (không thể mở, chứ không chỉ là đắt) khớp đúng. Bẫy: đoạn có nói về giá, nhưng tác giả nói lý do kinh tế \"incomplete\"."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 7,
+      "para": "C",
+      "why": "Đoạn C nói kỹ năng không được dùng thì mất đi, và người tiêu dùng cảm thấy bên trong đồ vật là \"forbidden\", \"no business tampering with the things they own\". Tiêu đề \"How lost knowledge made people feel excluded from their own possessions\" khớp. Bẫy: tiêu đề \"A deliberate plan by manufacturers to discourage repair\" (kế hoạch cố ý của nhà sản xuất) sai vì đoạn nói việc này có cố ý hay không \"remains a matter of dispute\"."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 5,
+      "para": "D",
+      "why": "Đoạn D nói về repair café, mục đích \"educational rather than charitable\", trả lại năng lực cho người đến sửa. Tiêu đề \"Community workshops that aim to teach rather than simply to fix\" khớp. Bẫy: con số hai phần ba đồ được sửa xong không phải ý chính, và tác giả còn nghi ngờ số liệu đó."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 0,
+      "para": "E",
+      "why": "Đoạn E nói về luật right-to-repair bắt buộc cung cấp linh kiện và tài liệu, rồi nêu các đánh đổi (khó chống nước, tốn vật liệu). Tiêu đề \"Laws that require manufacturers to keep repair possible, and their hidden costs\" bao quát cả hai ý. Bẫy: tiêu đề \"Why repaired products tend to be more reliable\" nói đồ đã sửa bền hơn, trong khi Reyes cảnh báo điều ngược lại."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 6,
+      "para": "F",
+      "why": "Đoạn F nói sửa chữa không phải lúc nào cũng tốt (tủ lạnh cũ tốn điện) và người tiêu dùng nói một đằng, mua một nẻo (\"purchasing data tell a less flattering story\"). Tiêu đề \"The gap between what consumers say and what they buy, and other limits\" khớp. Bẫy: tiêu đề \"The proven environmental advantages of repair\" nói lợi ích môi trường đã được chứng minh, trái với ví dụ tủ lạnh."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 2,
+      "para": "G",
+      "why": "Đoạn G nói sửa chữa mang lại thứ mà \"the purely economic debate tends to overlook\": thay đổi cách con người đối xử với đồ vật. Tiêu đề \"A benefit of repair that cost comparisons fail to capture\" khớp (lợi ích mà so sánh chi phí bỏ qua)."
+     }
+    ]
+   },
+   {
+    "kind": "ynng",
+    "instr": "Do the following statements agree with the views of the writer in the reading passage? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, NOT GIVEN if it is impossible to say what the writer thinks about this.",
+    "items": [
+     {
+      "q": "Falling prices of new goods are sufficient on their own to explain the decline of repair.",
+      "a": "NO",
+      "para": "B",
+      "why": "Đoạn B: lời giải thích kinh tế \"is not wrong so much as incomplete\". Tác giả cho rằng giá cả chưa đủ để giải thích, nên câu này trái với quan điểm tác giả. Bẫy: tác giả có đồng ý giá là một yếu tố (\"not wrong\"), nhưng \"sufficient on their own\" thì sai."
+     },
+     {
+      "q": "The success rate reported by repair cafés should be treated with some caution.",
+      "a": "YES",
+      "para": "D",
+      "why": "Đoạn D: \"such figures are self-reported and the items that people choose to bring are unlikely to be a representative sample\". Tác giả ngầm cho rằng con số hai phần ba cần được xem xét thận trọng."
+     },
+     {
+      "q": "Right-to-repair laws have already reduced the amount of electronic waste produced.",
+      "a": "NOT GIVEN",
+      "para": "E",
+      "why": "Đoạn E nói về nội dung luật và tranh luận ủng hộ/phản đối, nhưng không có thông tin hay quan điểm nào của tác giả về việc luật đã làm giảm rác thải điện tử hay chưa."
+     },
+     {
+      "q": "Keeping an old appliance in use is always the more environmentally responsible option.",
+      "a": "NO",
+      "para": "F",
+      "why": "Đoạn F: \"Not every object deserves to be kept alive indefinitely; an old refrigerator may consume so much more electricity than a modern one that replacing it is the more responsible choice.\" Tác giả phủ nhận chữ \"always\"."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "According to Okafor, products became hard to repair because they were held together with ___ instead of screws.",
+      "a": "glue",
+      "para": "B",
+      "why": "Đoạn B: \"Products were increasingly assembled with glue rather than screws\". \"Instead of\" = \"rather than\"."
+     },
+     {
+      "q": "Engineers point out that a phone which opens easily may be more difficult to make ___.",
+      "a": "waterproof",
+      "para": "E",
+      "why": "Đoạn E: \"a phone that can be opened easily may be harder to make waterproof\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "evaporate",
+    "tan biến, biến mất dần"
+   ],
+   [
+    "account for",
+    "giải thích cho (một hiện tượng)"
+   ],
+   [
+    "by-product",
+    "sản phẩm phụ, hệ quả ngoài ý muốn"
+   ],
+   [
+    "gather pace",
+    "tăng tốc, lan rộng nhanh"
+   ],
+   [
+    "representative sample",
+    "mẫu mang tính đại diện"
+   ],
+   [
+    "jurisdiction",
+    "khu vực tài phán (nơi một bộ luật có hiệu lực)"
+   ],
+   [
+    "trade-off",
+    "sự đánh đổi"
+   ],
+   [
+    "disposability",
+    "tính dùng xong vứt bỏ"
+   ],
+   [
+    "unqualified good",
+    "điều tốt tuyệt đối, không có giới hạn"
+   ],
+   [
+    "at the point of sale",
+    "tại thời điểm mua hàng"
+   ],
+   [
+    "disposition",
+    "thói quen, khuynh hướng"
+   ],
+   [
+    "durable",
+    "bền vững, lâu dài"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,610 @@
+[
+ {
+  "id": "a5p1",
+  "type": "academic",
+  "test": 5,
+  "section": 1,
+  "title": "Measuring Without a Yardstick: Thermometry and the Problem of Circularity",
+  "topic": "philosophy of science / measurement",
+  "band": "7.5-8.5",
+  "paras": [
+   [
+    "A",
+    "Few instruments seem as innocent as the thermometer. We glance at it, read off a number and assume that the number reports a fact about the world. Yet the history of thermometry raises a question that is far from innocent. To know that a thermometer measures temperature accurately, one would need to compare its readings with the true temperature; but the only way of finding out the true temperature is to use a thermometer. Philosophers of science have come to regard this as a paradigm case of what is sometimes called the problem of nomic measurement: the difficulty of establishing a measuring procedure when the law connecting the observable reading to the quantity of interest can itself be tested only by measuring that quantity."
+   ],
+   [
+    "B",
+    "The earliest instruments sidestepped the difficulty rather than solving it. The thermoscopes of the early seventeenth century, typically a glass bulb attached to a tube whose open end stood in a vessel of water, registered changes in warmth as the water rose or fell in the tube. They could show that one room was warmer than another, but they carried no scale, and so offered an ordering of hot and cold rather than a quantity. Nor were their readings stable: because the tube was open, the water level responded to fluctuations in atmospheric pressure as well as to heat, so that a change in the weather could masquerade as a change in temperature. Sealing the instrument removed this particular confusion, but it did nothing to settle what the numbers on a scale, once added, actually meant."
+   ],
+   [
+    "C",
+    "The obvious strategy was to anchor the scale to phenomena that occur at a fixed temperature, and the freezing and boiling of water were the natural candidates. The strategy, however, quietly presupposes what it sets out to establish, since the assumption that these phenomena are constant could only be checked with a reliable thermometer. Nor did nature cooperate. Eighteenth-century investigators found that water would sometimes rise well above its customary boiling point before erupting violently, and that the degree of this superheating seemed to depend on how much air the water contained and on the material and cleanliness of the vessel. The eventual solution was to take as the fixed point not the boiling water itself but the steam above it, whose temperature proved far less sensitive to such circumstances. The choice was less a discovery than a decision, albeit one informed by careful observation of which phenomenon behaved most stably."
+   ],
+   [
+    "D",
+    "Fixed points, moreover, solve only half the problem. Once two points have been marked and the interval divided into equal degrees, one has implicitly assumed that the thermometric fluid expands uniformly as it is heated, so that equal increases in volume correspond to equal increases in temperature. Instruments filled with mercury and with alcohol could be made to agree at both fixed points, yet between them they diverged, sometimes by several degrees. At least one of the two fluids, then, must expand irregularly; but to determine which, one would have to compare each against the true temperature, and the circle closes once again."
+   ],
+   [
+    "E",
+    "The most influential way out of this impasse was, paradoxically, to stop asking which instrument was correct. Nineteenth-century experimenters began to judge a type of thermometer by whether instruments of that type, constructed by different makers from different batches of material, agreed with one another. By this test of comparability, mercury thermometers performed disappointingly, because the glass that held the mercury varied in its own expansion from one batch to the next. Thermometers that used air as their working substance, by contrast, gave strikingly consistent results. It is worth stressing what this criterion did not show. Agreement among air thermometers demonstrated that they were reproducible, not that they tracked temperature itself; a whole family of instruments could, in principle, share a common error. Comparability was a pragmatic standard, adopted precisely because a more ambitious one was unavailable."
+   ],
+   [
+    "F",
+    "A theoretical escape seemed to appear in the middle of the nineteenth century, when an absolute scale of temperature was defined in terms of the efficiency of an idealised heat engine, with no reference to the properties of any particular substance. No such engine can be built, however, so in practice the absolute scale had to be realised by means of gas thermometers, corrected for the ways in which real gases depart from ideal behaviour, and those corrections were calculated from theory that had itself been tested with thermometers. Some philosophers have nonetheless argued that the circle is better described as a spiral. On this account, sometimes labelled epistemic iteration, each stage begins from standards that are accepted provisionally and then uses them to detect and correct their own shortcomings, so that later standards improve on the earlier ones that made them possible."
+   ],
+   [
+    "G",
+    "The iterative picture has not gone unchallenged. Critics point out that a sequence of mutual corrections might converge, with great precision, on an error that is self-consistent but nonetheless an error: coherence among our instruments, they insist, is not the same thing as correspondence to the world. Defenders reply that the spiral is not sealed off from that world. Successive standards are constrained by a variety of physical phenomena that have no obvious reason to conspire, and when methods built on quite different principles, such as the expansion of a gas and the speed of sound in it, converge on the same values, an undetected shared error becomes increasingly hard to believe in."
+   ],
+   [
+    "H",
+    "The questions are not merely historical. In 2019 the kelvin was redefined by fixing the numerical value of a constant of nature, so that the unit no longer rests on a property of water. The change is sometimes presented as the moment at which temperature finally acquired a secure foundation. A reader of the history might draw a more modest conclusion: that the foundations of measurement are not discovered beneath our practices but built up within them, through a long negotiation between theory, instrument and judgement."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-6\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "Seventeenth-century thermoscopes could rank things as warmer or cooler without expressing how much warmer or cooler they were.",
+      "a": "TRUE",
+      "para": "B",
+      "why": "Đoạn B: thermoscope 'could show that one room was warmer than another, but they carried no scale, and so offered an ordering of hot and cold rather than a quantity'. 'Rank' = 'ordering', 'without expressing how much' = 'rather than a quantity'. Câu này khớp hoàn toàn dù không trùng từ."
+     },
+     {
+      "q": "Sealing the thermoscope clarified what the figures on a temperature scale represented.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: 'Sealing the instrument removed this particular confusion, but it did nothing to settle what the numbers on a scale, once added, actually meant.' Bẫy: việc bịt kín có giải quyết được MỘT vấn đề (ảnh hưởng của áp suất khí quyển), nhưng bài nói rõ nó KHÔNG làm rõ ý nghĩa của các con số. Vậy câu này trái với bài."
+     },
+     {
+      "q": "Superheating was found to occur more readily in metal containers than in glass ones.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói mức độ superheating 'seemed to depend on ... the material and cleanliness of the vessel'. Bài có nhắc chất liệu bình chứa nhưng không so sánh kim loại với thủy tinh. Bẫy là bài nói rất gần chủ đề này, nhưng thông tin so sánh cụ thể không có, nên NOT GIVEN."
+     },
+     {
+      "q": "Mercury and alcohol thermometers that matched at both fixed points also matched at temperatures in between.",
+      "a": "FALSE",
+      "para": "D",
+      "why": "Đoạn D: hai loại 'could be made to agree at both fixed points, yet between them they diverged, sometimes by several degrees'. Chúng khớp ở hai điểm cố định nhưng lệch nhau ở khoảng giữa, nên câu này sai."
+     },
+     {
+      "q": "The comparability test showed that air thermometers reflected the real temperature more faithfully than mercury ones.",
+      "a": "FALSE",
+      "para": "E",
+      "why": "Đoạn E: 'Agreement among air thermometers demonstrated that they were reproducible, not that they tracked temperature itself'. Bài nói rõ phép thử chỉ chứng minh tính lặp lại được (các nhiệt kế khớp nhau), KHÔNG chứng minh chúng đo đúng nhiệt độ thật. Bẫy: nhiệt kế không khí đúng là cho kết quả tốt hơn, nhưng tốt hơn về độ nhất quán chứ không phải độ chính xác."
+     },
+     {
+      "q": "The inconsistency of mercury thermometers was traced to the container rather than to the liquid itself.",
+      "a": "TRUE",
+      "para": "E",
+      "why": "Đoạn E: nhiệt kế thủy ngân kém 'because the glass that held the mercury varied in its own expansion from one batch to the next'. Nguyên nhân là ống thủy tinh (container), không phải thủy ngân, nên TRUE."
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 7-10\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "Using the freezing and boiling of water as reference points took for granted that these phenomena were ___.",
+      "a": "constant",
+      "para": "C",
+      "why": "Đoạn C: 'the assumption that these phenomena are constant could only be checked with a reliable thermometer'. 'Took for granted' = 'assumption'. Đáp án: constant."
+     },
+     {
+      "q": "Dividing the interval between fixed points into equal degrees presupposed that the fluid ___ uniformly as its temperature rose.",
+      "a": "expands",
+      "para": "D",
+      "why": "Đoạn D: 'one has implicitly assumed that the thermometric fluid expands uniformly as it is heated'. Câu cần động từ chia theo chủ ngữ số ít 'the fluid', nên phải viết đúng dạng 'expands', không phải 'expansion' hay 'expand'."
+     },
+     {
+      "q": "The absolute scale was defined in terms of the ___ of an engine that existed only in theory.",
+      "a": "efficiency",
+      "para": "F",
+      "why": "Đoạn F: 'an absolute scale of temperature was defined in terms of the efficiency of an idealised heat engine'. 'Existed only in theory' = 'idealised' và 'No such engine can be built'. Đáp án: efficiency."
+     },
+     {
+      "q": "Critics of the iterative view warn that repeated corrections could produce an error that is precise and ___.",
+      "a": "self-consistent",
+      "para": "G",
+      "why": "Đoạn G: 'might converge, with great precision, on an error that is self-consistent but nonetheless an error'. 'Self-consistent' có gạch nối nên tính là một từ. Không chọn 'coherence' vì chỗ trống cần tính từ."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 11-13\nReading Passage 1 has eight paragraphs, A-H.\nWhich paragraph contains the following information?\nWrite the correct letter, A-H.",
+    "items": [
+     {
+      "q": "an example of a non-thermal influence being mistaken for a thermal one",
+      "a": "B",
+      "para": "B",
+      "why": "Đoạn B: 'a change in the weather could masquerade as a change in temperature'. Áp suất khí quyển (không phải nhiệt) bị nhầm thành thay đổi nhiệt độ."
+     },
+     {
+      "q": "a reference to a recent change in the official basis of a unit",
+      "a": "H",
+      "para": "H",
+      "why": "Đoạn H: 'In 2019 the kelvin ... was redefined by fixing the numerical value of a constant of nature'. Đây là thay đổi gần đây về cơ sở định nghĩa chính thức của đơn vị kelvin."
+     },
+     {
+      "q": "a response to the objection that agreement among instruments does not guarantee accuracy",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G nêu phản bác 'coherence among our instruments ... is not the same thing as correspondence to the world', rồi 'Defenders reply that the spiral is not sealed off from that world'. Đây là lời đáp lại phản bác đó. Bẫy: đoạn E cũng nói sự khớp nhau không chứng minh độ chính xác, nhưng E không có lời đáp lại phản bác."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "sidestep a difficulty",
+    "né tránh một khó khăn thay vì giải quyết nó"
+   ],
+   [
+    "masquerade as",
+    "đội lốt, giả làm cái gì"
+   ],
+   [
+    "presuppose",
+    "mặc nhiên cho rằng, lấy làm tiền đề"
+   ],
+   [
+    "anchor something to",
+    "neo, gắn cái gì vào một mốc"
+   ],
+   [
+    "impasse",
+    "thế bế tắc"
+   ],
+   [
+    "pragmatic standard",
+    "tiêu chuẩn mang tính thực dụng"
+   ],
+   [
+    "provisionally",
+    "một cách tạm thời, chờ kiểm chứng thêm"
+   ],
+   [
+    "converge on",
+    "hội tụ về, cùng đi đến"
+   ],
+   [
+    "conspire",
+    "(sự việc) cùng xảy ra như thể có sắp đặt"
+   ],
+   [
+    "paradigm case",
+    "trường hợp điển hình nhất"
+   ],
+   [
+    "in principle",
+    "về lý thuyết"
+   ]
+  ]
+ },
+ {
+  "id": "a5p2",
+  "type": "academic",
+  "test": 5,
+  "section": 2,
+  "title": "Does Language Shape Thought? The Long Afterlife of Linguistic Relativity",
+  "topic": "linguistics / cognitive science",
+  "band": "8.0-9.0",
+  "paras": [
+   [
+    "A",
+    "Few ideas in the study of language have been declared dead as often, or revived as persistently, as the claim that the language we speak shapes the way we think. In its popular form, usually attributed to the American linguist Benjamin Lee Whorf, the hypothesis holds that speakers of different languages inhabit, in some measure, different mental worlds. For much of the twentieth century the idea enjoyed a reputation out of all proportion to the evidence offered for it; for several decades after that, it was treated by many cognitive scientists as an embarrassment, a romantic notion that serious researchers had outgrown. Its current status is harder to summarise, partly because the question itself has been quietly reformulated."
+   ],
+   [
+    "B",
+    "Whorf's own arguments rested largely on comparisons between the grammar of English and that of Hopi, a language of the American Southwest, which he claimed lacked words and grammatical forms referring to time as a quantity that could be counted or divided. From this he inferred that Hopi speakers conceived of time quite differently from Europeans. Later fieldwork cast serious doubt on the linguistic premise, documenting a range of temporal expressions in Hopi that Whorf had overlooked or misdescribed. Yet even had his description been accurate, the inference would have been fragile, for it moved directly from differences in language to differences in thought without any independent measure of the latter. The circularity is easy to miss: if the only evidence that two groups think differently is that they speak differently, the claim that language shapes thought has not been tested at all."
+   ],
+   [
+    "C",
+    "It was this methodological weakness, rather than any single refutation, that pushed the hypothesis to the margins. From the 1960s onwards, influential research on colour suggested that the way languages divide up the spectrum is far from arbitrary: languages with only a few basic colour words appeared to select them from a predictable set, and speakers of such languages seemed to pick out the same best examples of a colour as speakers of languages with many more terms. To many, these findings implied that perception was anchored in human physiology rather than in vocabulary. At the same time, the rise of theories that treated the capacity for language as a largely universal endowment encouraged the view that beneath surface differences, all human minds operate in fundamentally similar ways."
+   ],
+   [
+    "D",
+    "The revival, when it came, owed less to new theory than to new methods. Instead of inferring thought from language, researchers began to devise non-linguistic tasks, such as sorting objects, remembering arrangements or judging whether two colour patches were identical, and to compare the performance of speakers of different languages on them. Ingrid Halvorsen, whose work on spatial reasoning helped to define this approach, has argued that the crucial step was to stop asking whether language determines thought and to ask instead where, when and how much it makes a difference. Her studies of communities whose languages describe location in terms of fixed directions, roughly equivalent to north and south, rather than left and right, found that their members tended to reconstruct a scene according to compass bearings even when no words were required."
+   ],
+   [
+    "E",
+    "Not everyone is persuaded that such results reveal anything deep. Tomás Arredondo, a psycholinguist who has spent much of his career replicating relativity experiments, accepts that many of the effects are genuine but argues that they are frequently produced by the participants quietly putting the task into words to themselves. When this inner speech is blocked, for example by asking participants to repeat a string of digits while they perform the task, several well-known effects shrink markedly or disappear. For Arredondo, this suggests that language functions less as a lens that permanently alters perception than as a tool that people pick up when it helps. Others have pointed out that groups compared in such studies typically differ in culture, environment and schooling as well as in language, so that attributing their differences to language alone may be premature."
+   ],
+   [
+    "F",
+    "Supporters of a moderate relativity have responded by narrowing their claims rather than abandoning them. Priya Ramanathan, who studies colour discrimination, observes that the fact that an effect depends on language being active at the moment of the task does not make it trivial, since in everyday life language is seldom switched off. She has also stressed that her findings concern speed and ease, not possibility: speakers whose language divides a region of the spectrum into two named categories tell shades across that boundary apart slightly faster than those whose language does not, yet both groups are perfectly capable of seeing the difference. Kenji Morimoto, meanwhile, has argued that the most durable effects may lie not in perception at all but in what people habitually attend to and remember, such as whether an event was intentional, when grammar obliges speakers to mark it."
+   ],
+   [
+    "G",
+    "What emerges from these exchanges is a hypothesis that has been reduced in scope while gaining in credibility. Hardly anyone now defends the claim that a language confines its speakers to thoughts it can express, and few would deny that languages can nudge attention and memory in particular directions. The disagreement lies in the territory between these positions: whether the effects are lasting or momentary, central to cognition or peripheral, and whether they stem from language as such or from the cultural practices it accompanies. It would be too strong to say the debate has been settled; it would be fairer to say it has at last been posed in a form that evidence can address."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 14-19\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for paragraphs B-G from the list of headings below.\nWrite the correct number, i-ix.",
+    "opts": [
+     "A hypothesis that has risen and fallen in academic esteem",
+     "A flawed argument even on its own terms",
+     "Evidence that a language changes what its speakers are able to perceive",
+     "Findings that seemed to point towards a shared human mind",
+     "A change in research design and in the question being asked",
+     "Doubts about whether the effects reveal a lasting influence",
+     "A defence that concedes the limits of the effects",
+     "A narrower claim that is more widely accepted",
+     "Why colour research has been abandoned"
+    ],
+    "items": [
+     {
+      "q": "Paragraph B",
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B chỉ ra lập luận của Whorf yếu ngay cả khi giả sử mô tả ngôn ngữ của ông đúng: 'even had his description been accurate, the inference would have been fragile' vì suy luận vòng tròn. Heading ii ('flawed even on its own terms'). Bẫy: đoạn có nói fieldwork bác bỏ tiền đề, nhưng ý chính là lỗi phương pháp."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 3,
+      "para": "C",
+      "why": "Đoạn C: cách chia phổ màu 'far from arbitrary', nhận thức 'anchored in human physiology', và 'all human minds operate in fundamentally similar ways'. Heading iv. Bẫy: heading ix có nhắc colour research nhưng bài không nói nghiên cứu màu bị bỏ."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 4,
+      "para": "D",
+      "why": "Đoạn D: 'The revival ... owed less to new theory than to new methods' (đổi cách thiết kế nghiên cứu) và Halvorsen đề nghị 'stop asking whether language determines thought and to ask instead where, when and how much'. Cả phương pháp lẫn câu hỏi đều đổi, nên heading v."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 5,
+      "para": "E",
+      "why": "Đoạn E: Arredondo chấp nhận hiệu ứng có thật nhưng cho rằng chúng do 'inner speech' và biến mất khi bị chặn; ngôn ngữ 'less as a lens that permanently alters perception than as a tool'. Đây là nghi ngờ về ảnh hưởng lâu dài, heading vi."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 6,
+      "para": "F",
+      "why": "Đoạn F: người ủng hộ 'narrowing their claims rather than abandoning them'; Ramanathan thừa nhận kết quả chỉ về 'speed and ease, not possibility'. Đây là lời bảo vệ có chấp nhận giới hạn, heading vii. Bẫy: heading iii (ngôn ngữ thay đổi khả năng nhận thức) ngược với 'both groups are perfectly capable of seeing the difference'."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 7,
+      "para": "G",
+      "why": "Đoạn G: 'a hypothesis that has been reduced in scope while gaining in credibility'. 'Narrower' = 'reduced in scope', 'more widely accepted' = 'gaining in credibility'. Heading viii. Bẫy: heading i (lên xuống về uy tín) hợp với đoạn A hơn, vì G nói về hiện trạng chứ không kể lại lịch sử thăng trầm."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 20-23\nLook at the following statements (Questions 20-23) and the list of researchers below.\nMatch each statement with the correct researcher, A, B, C or D.\nYou may use any letter more than once.",
+    "opts": [
+     "Ingrid Halvorsen",
+     "Tomás Arredondo",
+     "Priya Ramanathan",
+     "Kenji Morimoto"
+    ],
+    "items": [
+     {
+      "q": "An effect that appears only while language is in use may still matter, because that is the normal condition of daily life.",
+      "a": 2,
+      "para": "F",
+      "why": "Đoạn F, Ramanathan: 'the fact that an effect depends on language being active at the moment of the task does not make it trivial, since in everyday life language is seldom switched off'. Bẫy: Arredondo (E) là người nêu chuyện hiệu ứng phụ thuộc vào inner speech, nhưng ông dùng điều đó để hạ thấp ý nghĩa của hiệu ứng."
+     },
+     {
+      "q": "Some experimental results can be largely eliminated by occupying the part of the mind that silently verbalises.",
+      "a": 1,
+      "para": "E",
+      "why": "Đoạn E, Arredondo: 'When this inner speech is blocked, for example by asking participants to repeat a string of digits ... several well-known effects shrink markedly or disappear'. 'Silently verbalises' = 'putting the task into words to themselves'."
+     },
+     {
+      "q": "Grammatical requirements may have their strongest influence on what is noticed and recalled.",
+      "a": 3,
+      "para": "F",
+      "why": "Đoạn F, Morimoto: 'the most durable effects may lie not in perception at all but in what people habitually attend to and remember ... when grammar obliges speakers to mark it'. 'Noticed and recalled' = 'attend to and remember'."
+     },
+     {
+      "q": "Researchers should investigate the degree and circumstances of linguistic influence rather than whether it is decisive.",
+      "a": 0,
+      "para": "D",
+      "why": "Đoạn D, Halvorsen: 'stop asking whether language determines thought and to ask instead where, when and how much it makes a difference'. 'Degree' = 'how much', 'circumstances' = 'where, when', 'decisive' = 'determines'."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 24-26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "Whorf concluded that Hopi speakers thought about time differently, but subsequent ___ showed that Hopi had more ways of expressing time than he had recognised.",
+      "a": "fieldwork",
+      "para": "B",
+      "why": "Đoạn B: 'Later fieldwork cast serious doubt on the linguistic premise, documenting a range of temporal expressions in Hopi that Whorf had overlooked'. Đáp án: fieldwork."
+     },
+     {
+      "q": "Critics also note that the communities compared usually differ in culture, surroundings and ___, not only in language.",
+      "a": "schooling",
+      "para": "E",
+      "why": "Đoạn E: 'groups compared in such studies typically differ in culture, environment and schooling as well as in language'. 'Surroundings' = 'environment', từ còn thiếu là schooling."
+     },
+     {
+      "q": "According to Ramanathan, language affects how quickly people tell certain shades apart, not whether speakers are ___ of perceiving the difference at all.",
+      "a": "capable",
+      "para": "F",
+      "why": "Đoạn F: 'her findings concern speed and ease, not possibility ... both groups are perfectly capable of seeing the difference'. Cấu trúc 'are ___ of' cần tính từ đi với 'of', nên đáp án là 'capable'. Bẫy: 'possibility' cùng ý nhưng là danh từ, không hợp ngữ pháp với 'of perceiving'."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "out of all proportion to",
+    "hoàn toàn không tương xứng với"
+   ],
+   [
+    "cast doubt on",
+    "làm dấy lên nghi ngờ về"
+   ],
+   [
+    "premise",
+    "tiền đề"
+   ],
+   [
+    "push something to the margins",
+    "đẩy cái gì ra bên lề"
+   ],
+   [
+    "endowment",
+    "năng lực bẩm sinh, thiên phú"
+   ],
+   [
+    "replicate",
+    "lặp lại (thí nghiệm) để kiểm chứng"
+   ],
+   [
+    "premature",
+    "quá sớm, vội vàng"
+   ],
+   [
+    "narrow one's claims",
+    "thu hẹp phạm vi tuyên bố"
+   ],
+   [
+    "nudge",
+    "tác động nhẹ, đẩy nhẹ theo hướng nào"
+   ],
+   [
+    "reduced in scope",
+    "bị thu hẹp phạm vi"
+   ],
+   [
+    "pose a question",
+    "đặt ra một câu hỏi"
+   ]
+  ]
+ },
+ {
+  "id": "a5p3",
+  "type": "academic",
+  "test": 5,
+  "section": 3,
+  "title": "Binding the Future Self: The Promise and Limits of Commitment Devices",
+  "topic": "behavioural economics",
+  "band": "8.0-9.0",
+  "paras": [
+   [
+    "A",
+    "In the most famous scene of the Odyssey, Ulysses orders his crew to tie him to the mast so that he can hear the song of the Sirens without steering his ship onto the rocks. Economists have adopted the episode as the emblem of what they call a commitment device: an arrangement by which a person deliberately restricts their own future options, or makes some of those options more costly, in order to protect a long-term goal from a short-term impulse. The idea sits awkwardly with the traditional model of economic choice, in which a rational agent can only be made worse off by having fewer alternatives. Why would anyone pay, in money or in freedom, to remove choices they could simply decline to make?"
+   ],
+   [
+    "B",
+    "The standard answer in behavioural economics appeals to what is known as present bias. People, it is argued, do not discount the future at a steady rate; they place disproportionate weight on the immediate moment, so that a reward available now looms far larger than the same reward available tomorrow, while the difference between two distant dates barely registers. One consequence is a systematic gap between plans and actions. On Sunday evening, a week of early nights and healthy lunches seems plainly preferable; by Wednesday, the person who must actually forgo the late film or the pastry sees matters differently. A commitment device is a way of letting the Sunday self overrule the Wednesday self."
+   ],
+   [
+    "C",
+    "The empirical literature contains some striking demonstrations. In one widely cited type of study, savers are offered accounts from which they cannot withdraw money before a date or a target of their own choosing, and which pay no more interest than an ordinary account. A substantial minority accept, and those who do tend to accumulate more than comparable savers without such restrictions. Similar designs have been applied to exercise, smoking and study habits, typically by asking participants to deposit a sum that they forfeit if they fail to meet a goal. Online services now allow anyone to do the same, sometimes directing forfeited stakes to a cause the user dislikes, on the reasoning that the prospect of funding one's opponents is especially motivating."
+   ],
+   [
+    "D",
+    "It is tempting to read such results as a vindication of the whole programme, and enthusiasts have not always resisted the temptation. Yet the most telling finding in this literature may be the one that receives the least attention: in study after study, the great majority of people offered a commitment device decline it. One interpretation, favoured by the more optimistic, is that most people are naive about their own present bias and therefore fail to see the need for protection. This may be true of some. But it is at least as plausible that many people are accurately weighing the value of flexibility. The future is uncertain; an illness, a family emergency or simply a better opportunity may make yesterday's plan a poor guide to today's interests, and a device rigid enough to defeat temptation will usually be rigid enough to defeat good sense as well."
+   ],
+   [
+    "E",
+    "Nor is the evidence on those who do take up commitment uniformly encouraging. A recurrent pattern is that a proportion of participants choose stakes or deadlines that prove too demanding, fail to meet them, and end up worse off than if they had never committed at all. The people most attracted to strict commitment, moreover, appear to be disproportionately those who already struggle with self-control, which is to say precisely those whose predictions about their future behaviour are least reliable. Such individuals may be sophisticated enough to recognise that they have a problem but not sophisticated enough to gauge its size. A tool designed to correct one bias, in short, can be undermined by another."
+   ],
+   [
+    "F",
+    "These complications matter more as commitment devices move from the laboratory into institutional design. Several governments and employers have enrolled people automatically in pension schemes from which they may opt out, and some have experimented with plans in which employees commit in advance to direct a share of future pay rises into savings. Such schemes have generally been judged successful on their own terms, increasing participation and contributions. They are not, strictly speaking, commitment devices in Ulysses' sense, since nothing prevents the individual from reversing the choice; their power lies in inertia rather than in constraint. The distinction is not a pedantic one. A default that can be undone at little cost preserves the flexibility whose value the voluntary studies reveal, while a binding commitment imposed or strongly encouraged by an institution transfers the risk of error from the designer to the person bound."
+   ],
+   [
+    "G",
+    "Defenders of the paternalistic use of such tools, sometimes called libertarian paternalists, argue that because some default must exist, it may as well be one that serves people's considered interests. The argument has force when the default is genuinely easy to reverse. It has much less when the reversal is made deliberately laborious, as with subscription services that may be joined with a single click but cancelled only by telephone during office hours. The vocabulary of commitment can thus lend a flattering gloss to arrangements whose real beneficiary is the provider. Distinguishing a device that helps people keep their own promises from one that profits from their inattention is not always easy, but it is the distinction on which the legitimacy of the whole approach depends."
+   ],
+   [
+    "H",
+    "None of this means that the Ulysses story has been misapplied, only that it has usually been retold without its most instructive detail. Ulysses did not bind himself in ignorance: he knew the precise nature of the danger, its location and its duration, and he instructed his crew to ignore his pleas only for as long as the ship was within earshot of the Sirens. Few of the temptations of ordinary life are so well charted. The lesson of the episode may be less that we should bind ourselves than that we should do so only when we understand the threat about as well as he did."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "ynng",
+    "instr": "Questions 27-31\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "The low uptake of commitment devices has been given less weight than it deserves.",
+      "a": "YES",
+      "para": "D",
+      "why": "Đoạn D: 'the most telling finding in this literature may be the one that receives the least attention: ... the great majority of people offered a commitment device decline it'. Tác giả cho rằng phát hiện quan trọng nhất lại ít được chú ý nhất, tức là bị đánh giá thấp. YES."
+     },
+     {
+      "q": "Most people who reject commitment devices do so because they underestimate their own present bias.",
+      "a": "NO",
+      "para": "D",
+      "why": "Đoạn D: cách giải thích 'naive about their own present bias' chỉ là của 'the more optimistic'; tác giả nói 'This may be true of some. But it is at least as plausible that many people are accurately weighing the value of flexibility.' Tác giả không đồng ý rằng PHẦN LỚN từ chối vì ngây thơ, nên NO. Bẫy: tác giả có thừa nhận 'true of some' nên dễ chọn NOT GIVEN."
+     },
+     {
+      "q": "Using forfeited money to fund a disliked cause is more effective than donating it to charity.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ mô tả lý lẽ của các dịch vụ online: 'the prospect of funding one's opponents is especially motivating'. Đây là lập luận của dịch vụ, không phải nhận định của tác giả, và bài không so sánh với việc quyên góp cho từ thiện. NOT GIVEN."
+     },
+     {
+      "q": "Automatic pension enrolment has failed to achieve the goals it was designed for.",
+      "a": "NO",
+      "para": "F",
+      "why": "Đoạn F: 'Such schemes have generally been judged successful on their own terms, increasing participation and contributions.' Trái với câu hỏi, nên NO. Bẫy: tác giả có phê phán cách gọi chúng là commitment device, nhưng không phủ nhận hiệu quả."
+     },
+     {
+      "q": "The distinction between a reversible default and a binding commitment is of little practical importance.",
+      "a": "NO",
+      "para": "F",
+      "why": "Đoạn F: 'The distinction is not a pedantic one', sau đó tác giả giải thích hậu quả thực tế: default giữ được sự linh hoạt, còn cam kết ràng buộc 'transfers the risk of error ... to the person bound'. Tác giả coi sự phân biệt này quan trọng, nên NO."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 32-35\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to the writer, commitment devices pose a puzzle for traditional economics because",
+      "o": [
+       "rational agents are assumed to prefer immediate rewards.",
+       "a restriction on choice should never leave a rational agent better off.",
+       "people rarely pay money to avoid temptation.",
+       "the long-term goals of individuals are difficult to observe."
+      ],
+      "a": 1,
+      "para": "A",
+      "why": "Đoạn A: trong mô hình truyền thống 'a rational agent can only be made worse off by having fewer alternatives'. Nghĩa là bớt lựa chọn không bao giờ làm họ tốt hơn, đáp án B. Bẫy A: ưu tiên phần thưởng trước mắt là present bias của kinh tế học hành vi, không phải giả định của mô hình truyền thống."
+     },
+     {
+      "q": "What does the writer suggest about people who are most drawn to strict commitment?",
+      "o": [
+       "They are unaware that they have difficulty with self-control.",
+       "They tend to set goals that are too modest to be useful.",
+       "Their awareness of a weakness is not matched by an accurate sense of its extent.",
+       "They are less influenced by present bias than other people."
+      ],
+      "a": 2,
+      "para": "E",
+      "why": "Đoạn E: 'sophisticated enough to recognise that they have a problem but not sophisticated enough to gauge its size'. Biết mình có vấn đề nhưng không đo được mức độ, đáp án C. Bẫy A ngược lại vì họ có nhận ra vấn đề; bẫy B ngược vì họ chọn mục tiêu 'too demanding'."
+     },
+     {
+      "q": "The writer mentions subscription services in paragraph G in order to",
+      "o": [
+       "show that libertarian paternalism is always self-serving.",
+       "illustrate how the language of commitment may disguise a commercial motive.",
+       "argue that defaults should be abolished altogether.",
+       "give an example of a default that is easy to reverse."
+      ],
+      "a": 1,
+      "para": "G",
+      "why": "Đoạn G: sau ví dụ dịch vụ thuê bao, tác giả viết 'The vocabulary of commitment can thus lend a flattering gloss to arrangements whose real beneficiary is the provider'. Đáp án B. Bẫy A: tác giả thừa nhận lập luận 'has force when the default is genuinely easy to reverse', nên không nói 'always'. Bẫy D: ví dụ này là trường hợp KHÓ hủy."
+     },
+     {
+      "q": "What is the writer's main point in the final paragraph?",
+      "o": [
+       "The story of Ulysses is a misleading model for economic behaviour.",
+       "People should commit themselves only to goals of short duration.",
+       "Self-binding is advisable chiefly when the temptation is well understood.",
+       "Most everyday temptations are more dangerous than they appear."
+      ],
+      "a": 2,
+      "para": "H",
+      "why": "Đoạn H: 'we should do so only when we understand the threat about as well as he did'. Đáp án C. Bẫy A: tác giả nói rõ 'None of this means that the Ulysses story has been misapplied'. Bẫy B: thời gian ngắn chỉ là một chi tiết của câu chuyện, không phải kết luận chính. Bẫy D: bài nói cám dỗ đời thường khó nắm bắt ('so well charted'), không nói chúng nguy hiểm hơn."
+     }
+    ]
+   },
+   {
+    "kind": "notecomp",
+    "instr": "Questions 36-40\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "Present bias: the current moment receives ___ weight compared with later ones",
+      "a": "disproportionate",
+      "para": "B",
+      "why": "Đoạn B: 'they place disproportionate weight on the immediate moment'. Đáp án: disproportionate."
+     },
+     {
+      "q": "Savings studies: restricted accounts offer no extra ___, yet a sizeable minority still choose them",
+      "a": "interest",
+      "para": "C",
+      "why": "Đoạn C: các tài khoản bị khóa 'pay no more interest than an ordinary account', và 'A substantial minority accept'. Đáp án: interest."
+     },
+     {
+      "q": "Main case for declining commitment: the value of ___ when circumstances change",
+      "a": "flexibility",
+      "para": "D",
+      "why": "Đoạn D: 'many people are accurately weighing the value of flexibility. The future is uncertain'. Đáp án: flexibility."
+     },
+     {
+      "q": "Some committed participants choose stakes or ___ that they cannot meet",
+      "a": "deadlines",
+      "para": "E",
+      "why": "Đoạn E: 'a proportion of participants choose stakes or deadlines that prove too demanding, fail to meet them'. Đáp án: deadlines (số nhiều, đúng dạng trong bài)."
+     },
+     {
+      "q": "Pension defaults work through ___ rather than through constraint",
+      "a": "inertia",
+      "para": "F",
+      "why": "Đoạn F: 'their power lies in inertia rather than in constraint'. Đáp án: inertia. Bẫy: không chọn 'default' vì đó là chính công cụ, không phải cơ chế tạo ra tác dụng."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "commitment device",
+    "công cụ tự ràng buộc, cam kết trước để chống lại cám dỗ"
+   ],
+   [
+    "present bias",
+    "thiên lệch hiện tại, xu hướng coi trọng quá mức cái trước mắt"
+   ],
+   [
+    "forgo",
+    "từ bỏ, nhịn (một thứ mình muốn)"
+   ],
+   [
+    "forfeit",
+    "mất (tiền đặt cọc) do vi phạm điều kiện"
+   ],
+   [
+    "vindication",
+    "sự chứng minh là đúng"
+   ],
+   [
+    "uptake",
+    "tỉ lệ người chấp nhận, sử dụng"
+   ],
+   [
+    "gauge",
+    "ước lượng, đánh giá mức độ"
+   ],
+   [
+    "opt out",
+    "chọn không tham gia"
+   ],
+   [
+    "inertia",
+    "sức ì"
+   ],
+   [
+    "pedantic",
+    "bắt bẻ chi li, câu nệ"
+   ],
+   [
+    "lend a flattering gloss to",
+    "tô vẽ cho cái gì vẻ ngoài đẹp đẽ"
+   ],
+   [
+    "within earshot",
+    "trong tầm nghe thấy"
+   ]
+  ]
+ }
+]

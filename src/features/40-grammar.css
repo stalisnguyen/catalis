@@ -150,3 +150,8 @@ details[open]>summary .pr-chev{transform:rotate(90deg)}
 .gm-mc2.ok{border-color:var(--ok);background:var(--ok-soft);color:var(--ok-ink);opacity:.75}
 .gm-mc2.bad{border-color:var(--bad);background:var(--bad-soft);animation:shake .3s linear}
 @media (prefers-reduced-motion:reduce){.gm-mc2.bad{animation:none}}
+/* level 4: expert band 8.5-9 (orange tokens) */
+.gr-lv4,.gr-row .gr-p4,.gr-pills .gr-lv4{background:var(--orange-soft);color:var(--orange-ink)}
+.gr-l4 .gr-sh h3{color:var(--orange-ink)}
+.gr-l4 .gr-row:hover{border-color:var(--orange)}
+#grLv [data-t="4"][aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}

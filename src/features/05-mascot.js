@@ -1,5 +1,5 @@
-/* ================= MASCOT: Mít, mèo cam =================
-   Catalis mascot: Mít, a ginger kitten. catSVG(state, size, rank)
+/* ================= MASCOT: Jack (Mít), mèo cam =================
+   Catalis mascot: Jack (Vietnamese nickname Mít, jackfruit), a ginger kitten. catSVG(state, size, rank)
    state: calm | hi | idea | yay | ok | hmm | zzz ; rank 0..7 (Freshman -> Professor) picks accessories. */
 const CC={fur:'#F2A33A',dark:'#D97F1E',stripe:'#C96F12',belly:'#FFF3DC',ear:'#FFB4A8',nose:'#E5707A',eye:'#1C2333',navy:'#22346E',gold:'#F5B82E',red:'#C8372F'};
 function catAcc(r){
@@ -25,7 +25,7 @@ function catSVG(state,size,rank){
   const extra=state==='idea'?`<g transform="translate(150 14)"><circle cx="14" cy="16" r="12" fill="${CC.gold}"/><rect x="9" y="26" width="10" height="8" rx="2" fill="#9AA3A0"/></g>`
     :zzz?`<g font-family="sans-serif" font-weight="800" fill="${CC.navy}"><text x="142" y="44" font-size="18">z</text><text x="156" y="30" font-size="13">z</text></g>`
     :yay?`<circle cx="32" cy="44" r="4" fill="${CC.red}"/><rect x="160" y="34" width="8" height="5" fill="${CC.gold}" transform="rotate(30 164 36)"/><circle cx="168" cy="74" r="3.5" fill="#2C5FC4"/>`:'';
-  return `<svg class="mascot cat-${state}" viewBox="0 0 200 200" width="${size}" height="${size}" role="img" aria-label="Mít">
+  return `<svg class="mascot cat-${state}" viewBox="0 0 200 200" width="${size}" height="${size}" role="img" aria-label="Jack">
   <path d="M140 168c26 0 40-16 36-36-2-10-12-12-14-4 6 4 4 22-16 24z" fill="${CC.fur}"/><path d="M168 134l8-4M171 146l9 0" stroke="${CC.stripe}" stroke-width="4" stroke-linecap="round"/>
   <ellipse cx="100" cy="190" rx="44" ry="6" fill="#000" opacity=".08"/>
   <ellipse cx="82" cy="182" rx="14" ry="9" fill="${CC.fur}"/><ellipse cx="118" cy="182" rx="14" ry="9" fill="${CC.fur}"/>

@@ -1,7 +1,7 @@
 /* ================= PLAN: XP, ranks, daily plan, band records, placement, mistakes, daily tip, reports ================= */
 const PL_W={review:1,new:3,listen:1.5,read:1.5,write:25,speak:4,grammar:8,pron:2,test:30,game:1,daily:5,dict:2};
 const PL_RANKS=[[0,'Freshman','Tân sinh viên'],[300,'Sophomore','Sinh viên năm hai'],[1000,'Junior','Sinh viên năm ba'],[2500,'Senior','Sinh viên năm cuối'],[5000,'Bachelor','Cử nhân'],[9000,'Master','Thạc sĩ'],[15000,'PhD','Tiến sĩ'],[25000,'Professor','Giáo sư']];
-const TARGETS=[5,5.5,6,6.5,7,7.5,8];
+const TARGETS=[5,5.5,6,6.5,7,7.5,8,8.5,9];
 function plDay(k){P.day=P.day||{};k=k||ymd(Date.now());return P.day[k]=P.day[k]||{xp:0};}
 function plXPTotal(){return Object.values(P.day||{}).reduce((a,d)=>a+(d.xp||0),0);}
 function plRank(xp){let r=PL_RANKS[0],nx=PL_RANKS[1];for(let i=0;i<PL_RANKS.length;i++){if(xp>=PL_RANKS[i][0]){r=PL_RANKS[i];nx=PL_RANKS[i+1]||null;}}return {r,nx};}
@@ -18,7 +18,7 @@ window.__award=award;
 function plCfg(){P.plan=P.plan||{target:6.5,minutes:30,exam:'academic',start:today(),auto:true};return P.plan;}
 function plGoalXP(){return Math.round(plCfg().minutes*3.5);}
 function plNewPerDay(){const m=plCfg().minutes;return m>=90?30:m>=60?22:m>=45?16:m>=30?12:8;}
-function plLevels(t){return t<=5?[1]:t<=6?[1,2]:t<=7?[1,2,3]:[1,2,3,4];}
+function plLevels(t){return t<=5?[1]:t<=6?[1,2]:t<=7?[1,2,3]:t<=8?[1,2,3,4]:[3,4,5];}
 function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=plLevels(c.target);P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
@@ -80,15 +80,15 @@ VIEWS.placement=async el=>{
   await loadAllVocab(); const gram=await loadJSON('grammar');
   if(!PLC){PLC={step:'intro',L:1,i:0,items:[],stats:{},gi:0,gItems:[],gOk:0};}
   const startLv=()=>{const pool=V.filter(w=>w.lv===PLC.L&&!P.srs[w.k]);PLC.items=shuffle(pool).slice(0,12);PLC.i=0;PLC.stats[PLC.L]={yes:0,ok:0,chk:0,n:0};PLC.step='vocab';draw();};
-  const startGram=()=>{const by=L=>shuffle(gram.filter(g=>g.lv===L)).slice(0,L===1?3:L===2?4:5).map(g=>Object.assign({lv:L},pick(g.quiz)));PLC.gItems=[...by(1),...by(2),...by(3)];PLC.gi=0;PLC.gOk=0;PLC.step='gram';draw();};
+  const startGram=()=>{const by=L=>shuffle(gram.filter(g=>g.lv===L)).slice(0,L===1?3:L===2?3:L===3?4:4).map(g=>Object.assign({lv:L},pick(g.quiz)));PLC.gItems=[...by(1),...by(2),...by(3),...by(4)];PLC.gi=0;PLC.gOk=0;PLC.step='gram';draw();};
   const mark=w=>{const iv=7+Math.floor(Math.random()*14);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};touch('main');};
   const finish=()=>{
     const vr=L=>{const s=PLC.stats[L];if(!s||!s.n)return 0;const acc=s.chk?s.ok/s.chk:1;return s.yes/s.n*acc;};
-    const vScore=vr(1)*1+vr(2)*1.2+vr(3)*1.4+vr(4)*1.6; // 0..5.2
+    const vScore=vr(1)*1+vr(2)*1.2+vr(3)*1.4+vr(4)*1.6+vr(5)*1.8; // 0..7
     const gScore=PLC.gItems.length?PLC.gOk/PLC.gItems.length:0;
-    let band=4+vScore*0.55+gScore*1.6; band=Math.max(4,Math.min(8,Math.round(band*2)/2));
+    let band=4+vScore*0.48+gScore*1.6; band=Math.max(4,Math.min(9,Math.round(band*2)/2));
     P.placeBand=band;P.placed=1;recordScore({skill:'overall',band,title:'Bài xếp lớp',raw:PLC.gOk,total:PLC.gItems.length});
-    const c=plCfg();if(c.target<=band)c.target=Math.min(8,band+1);c.auto=true;plApply();
+    const c=plCfg();if(c.target<=band)c.target=Math.min(9,band+1);c.auto=true;plApply();
     const knownLv=LVS.filter(L=>vr(L)>=0.8);
     el.innerHTML=`<div class="view"><h2>Kết quả xếp lớp</h2><div class="panel place-res">${mascot('yay',110)}<div><span class="label">Band ước lượng</span><div class="band-big">${fmtBand(band)}</div>
       <p class="note">Ước lượng dựa trên vốn từ và ngữ pháp, chưa tính Listening, Reading, Writing, Speaking thật. Làm một bài thi thử để có số chính xác hơn.</p></div></div>
@@ -99,7 +99,7 @@ VIEWS.placement=async el=>{
     touch('main');PLC.step='done';
   };
   const draw=()=>{
-    if(PLC.step==='intro'){el.innerHTML=`<div class="view"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 8 phút: phần 1 nhìn từ và chọn Biết hay Không biết, thỉnh thoảng Mít hỏi lại nghĩa để kiểm tra. Phần 2 là 12 câu ngữ pháp. Cứ trả lời thật, đừng đoán.',72)}
+    if(PLC.step==='intro'){el.innerHTML=`<div class="view"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 8 phút: phần 1 nhìn từ và chọn Biết hay Không biết, thỉnh thoảng Jack hỏi lại nghĩa để kiểm tra. Phần 2 là 14 câu ngữ pháp, khó dần tới mức band 9. Cứ trả lời thật, đừng đoán.',72)}
       <div class="row"><button class="btn primary" id="pcStart">Bắt đầu</button><button class="btn ghost" id="pcSkip">Để sau</button></div></div>`;
       $('#pcStart').onclick=startLv;$('#pcSkip').onclick=()=>{PLC=null;go('home');};return;}
     if(PLC.step==='gram'){
@@ -111,7 +111,7 @@ VIEWS.placement=async el=>{
       $('#pcEnd').onclick=finish;return;}
     const w=PLC.items[PLC.i]; const st=PLC.stats[PLC.L];
     if(!w){const ratio=st.n?st.yes/st.n*(st.chk?st.ok/st.chk:1):0;
-      if(ratio>=0.55&&PLC.L<4){PLC.L++;startLv();}else startGram();return;}
+      if(ratio>=0.55&&PLC.L<5){PLC.L++;startLv();}else startGram();return;}
     el.innerHTML=`<div class="view"><div class="spread"><h2>Xếp lớp - Từ vựng ${LV_NAME[PLC.L]}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
       <div class="card" style="min-height:240px"><div class="big en">${esc(w.w)}</div><div class="row" style="margin-top:auto"><button class="btn" id="pcNo">Không biết <span class="kbd">1</span></button><button class="btn primary" id="pcYes">Biết <span class="kbd">2</span></button></div></div>
       <button class="btn ghost sm" id="pcG">Bỏ qua phần từ vựng</button></div>`;

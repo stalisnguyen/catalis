@@ -1,0 +1,1650 @@
+[
+ {
+  "id": "g61",
+  "lv": 4,
+  "cat": "Đảo ngữ",
+  "title": "Đảo ngữ sau Only, Not until, Little, At no point: đảo ở đâu cho đúng",
+  "en": "Negative inversion after only, not until and little",
+  "form": "Only + trạng ngữ/mệnh đề phụ + trợ động từ + S + V | Not until + thời điểm/mệnh đề + trợ động từ + S + V | Little/At no point/On no account + trợ động từ + S + V",
+  "explain": "Ở band 8 người học đã biết đảo ngữ, nhưng hay đảo sai vị trí. Với 'Only when/Only after/Not until + mệnh đề', mệnh đề phụ giữ nguyên trật tự, còn mệnh đề chính mới đảo. Nếu 'only' bổ nghĩa cho chủ ngữ (Only the director knew) thì không đảo. 'Little' theo nghĩa 'hoàn toàn không' thường đi với động từ nhận thức như know, realise, suspect, imagine. Đảo ngữ nhấn mạnh sự trái kỳ vọng, nên chỉ dùng khi nội dung thật sự đáng nhấn.",
+  "ex": [
+   [
+    "Only when the data were re-analysed did the error become apparent.",
+    "Chỉ khi dữ liệu được phân tích lại thì sai sót mới lộ ra."
+   ],
+   [
+    "Not until the late 1990s was the link between sleep and memory taken seriously.",
+    "Mãi đến cuối thập niên 1990, mối liên hệ giữa giấc ngủ và trí nhớ mới được xem xét nghiêm túc."
+   ],
+   [
+    "Little did the committee realise how contentious the proposal would prove.",
+    "Ủy ban hoàn toàn không ngờ đề xuất lại gây tranh cãi đến vậy."
+   ],
+   [
+    "At no point was the public consulted on the redesign.",
+    "Công chúng chưa từng được hỏi ý kiến về việc thiết kế lại, dù chỉ một lần."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Only when did the data were re-analysed the error became apparent.",
+    "Only when the data were re-analysed did the error become apparent.",
+    "Mệnh đề sau 'Only when' giữ trật tự bình thường; phần đảo nằm ở mệnh đề chính."
+   ],
+   [
+    "Not until 2010 the government did introduce the tax.",
+    "Not until 2010 did the government introduce the tax.",
+    "Trợ động từ phải đứng trước chủ ngữ, không phải sau."
+   ],
+   [
+    "Only the manager did know the password.",
+    "Only the manager knew the password.",
+    "'Only' bổ nghĩa cho chủ ngữ nên câu không đảo."
+   ]
+  ],
+  "ielts": "Ở band 8, đảo ngữ đúng đã được ghi nhận là cấu trúc phức. Band 9 khác ở chỗ đảo ngữ xuất hiện đúng lúc: khi muốn nhấn một điều bất ngờ hoặc một thời điểm then chốt, và câu vẫn đọc tự nhiên. Rủi ro: dùng 3-4 câu đảo ngữ trong một bài viết hoặc dùng trong Speaking Part 1 sẽ nghe như học thuộc, giám khảo có thể coi là gượng ép và không cộng điểm. Một câu đặt đúng chỗ có giá trị hơn nhiều câu rải khắp bài.",
+  "quiz": [
+   {
+    "s": "Only after the merger had been completed ___ the scale of the debt.",
+    "o": [
+     "did investors discover",
+     "investors discovered",
+     "investors did discover",
+     "had investors discovered"
+    ],
+    "a": 0,
+    "w": "Sau 'Only after + mệnh đề', mệnh đề chính đảo: did investors discover. 'had investors discovered' đảo đúng nhưng sai thì vì việc phát hiện xảy ra sau vụ sáp nhập."
+   },
+   {
+    "s": "Not until she read the minutes ___ that her proposal had been rejected.",
+    "o": [
+     "she realised",
+     "she did realise",
+     "did she realise",
+     "realised she"
+    ],
+    "a": 2,
+    "w": "Not until + mệnh đề: đảo ở mệnh đề chính, did she realise."
+   },
+   {
+    "s": "Only the head of department ___ access to the raw scores, so nobody else could have leaked them.",
+    "o": [
+     "had",
+     "had they",
+     "did they have",
+     "they had"
+    ],
+    "a": 0,
+    "w": "'Only' bổ nghĩa cho chủ ngữ 'the head of department', nên không đảo."
+   },
+   {
+    "s": "Little ___ that the experiment would overturn decades of theory.",
+    "o": [
+     "they suspected",
+     "did they suspect",
+     "they did suspect",
+     "suspected they"
+    ],
+    "a": 1,
+    "w": "Little (nghĩa 'hoàn toàn không') đứng đầu câu bắt buộc đảo: did they suspect."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Not until the 1970s scientists began to take climate models seriously.",
+    "a": "Not until the 1970s did scientists begin to take climate models seriously.",
+    "w": "Thiếu đảo ngữ sau 'Not until'; trợ động từ did đứng trước chủ ngữ, động từ về nguyên mẫu."
+   },
+   {
+    "s": "Only if did the council raise funding would the project survive.",
+    "a": "Only if the council raised funding would the project survive.",
+    "w": "Mệnh đề sau 'Only if' không đảo; chỉ mệnh đề chính 'would the project survive' đảo."
+   }
+  ]
+ },
+ {
+  "id": "g62",
+  "lv": 4,
+  "cat": "Câu điều kiện",
+  "title": "Đảo ngữ điều kiện nâng cao: phủ định, Were to, Were it not for, Had it not been for",
+  "en": "Advanced conditional inversion",
+  "form": "Had + S + (not) + V3, S + would have V3 | Should + S + V, mệnh lệnh/will | Were + S + to V, S + would V | Were it not for + N (hiện tại) / Had it not been for + N (quá khứ)",
+  "explain": "Bỏ 'if' và đưa had/should/were lên trước chủ ngữ. Ở dạng phủ định, 'not' đứng sau chủ ngữ và không rút gọn: Had I not known, không phải Hadn't I known. 'Were it not for' nói về tình huống hiện tại, 'Had it not been for' nói về quá khứ; hai cấu trúc này đều có nghĩa 'nếu không nhờ/nếu không vì'. 'Should' diễn tả khả năng thấp và rất hay gặp trong văn bản trang trọng, mệnh đề chính thường là câu mệnh lệnh hoặc will. Không đảo với did hay could để tạo điều kiện.",
+  "ex": [
+   [
+    "Had the warning been heeded, the collapse might have been averted.",
+    "Nếu lời cảnh báo được lắng nghe, sự sụp đổ có lẽ đã được ngăn chặn."
+   ],
+   [
+    "Should you require further information, please contact the admissions office.",
+    "Nếu bạn cần thêm thông tin, vui lòng liên hệ phòng tuyển sinh."
+   ],
+   [
+    "Were it not for public subsidies, most rural bus routes would close.",
+    "Nếu không có trợ cấp công, phần lớn tuyến xe buýt nông thôn sẽ đóng cửa."
+   ],
+   [
+    "Were the government to raise the minimum wage, small firms would feel the effects first.",
+    "Nếu chính phủ tăng lương tối thiểu, các doanh nghiệp nhỏ sẽ chịu tác động đầu tiên."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Hadn't I missed the train, I would have been on time.",
+    "Had I not missed the train, I would have been on time.",
+    "Đảo ngữ điều kiện không dùng dạng rút gọn phủ định; 'not' đứng sau chủ ngữ."
+   ],
+   [
+    "Were it not for the scholarship, I would not have studied abroad.",
+    "Had it not been for the scholarship, I would not have studied abroad.",
+    "Sự việc đã xảy ra trong quá khứ nên dùng 'Had it not been for'."
+   ],
+   [
+    "Did I know the answer, I would tell you.",
+    "If I knew the answer, I would tell you.",
+    "Không đảo với 'did' để tạo câu điều kiện; dùng if, hoặc 'Were I to know' nếu muốn trang trọng."
+   ]
+  ],
+  "ielts": "Band 8 đã dùng được 'Had I known'. Band 9 thể hiện ở việc kiểm soát cả dạng phủ định, phân biệt thời gian giữa 'Were it not for' và 'Had it not been for', và chọn 'Should' cho đúng giọng trang trọng (thư Task 1 General, đề xuất chính sách). Rủi ro: đảo ngữ điều kiện trong Speaking thường nghe cứng; câu 'If I'd known...' tự nhiên hơn. Trong bài viết, một câu đảo ngữ ở phần đề xuất là đủ.",
+  "quiz": [
+   {
+    "s": "___ for the volunteers, the festival could not have gone ahead last year.",
+    "o": [
+     "Had it not been",
+     "Were it not",
+     "If it had been",
+     "Hadn't it been"
+    ],
+    "a": 0,
+    "w": "Sự việc năm ngoái nên dùng 'Had it not been for'; 'Hadn't it been' sai vì không rút gọn."
+   },
+   {
+    "s": "___ any problems arise during the trial, participants should contact the research team immediately.",
+    "o": [
+     "Were",
+     "Had",
+     "Should",
+     "Would"
+    ],
+    "a": 2,
+    "w": "'Should + S + V nguyên mẫu' cho khả năng thấp, đi với mệnh lệnh/khuyến nghị."
+   },
+   {
+    "s": "___ the policy to be withdrawn tomorrow, thousands of families would lose support.",
+    "o": [
+     "Should",
+     "Were",
+     "Had",
+     "If"
+    ],
+    "a": 1,
+    "w": "Cấu trúc 'Were + S + to V' cho giả định tương lai; 'Should the policy to be' và 'If the policy to be' sai."
+   },
+   {
+    "s": "___ the minister not resigned, the scandal would have been forgotten within weeks.",
+    "o": [
+     "Had",
+     "Should",
+     "Were",
+     "If"
+    ],
+    "a": 0,
+    "w": "Chỉ 'Had' tạo được đảo ngữ điều kiện loại 3 với 'not' đứng sau chủ ngữ. 'If the minister not resigned' thiếu trợ động từ; Should/Were không hợp với quá khứ hoàn thành."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Hadn't the report been leaked, nobody would have known.",
+    "a": "Had the report not been leaked, nobody would have known.",
+    "w": "Không dùng 'Hadn't' khi đảo ngữ điều kiện."
+   },
+   {
+    "s": "Were it not for the 2008 crisis, the bank would not have collapsed.",
+    "a": "Had it not been for the 2008 crisis, the bank would not have collapsed.",
+    "w": "Sự kiện trong quá khứ, kết quả trong quá khứ: dùng 'Had it not been for'."
+   }
+  ]
+ },
+ {
+  "id": "g63",
+  "lv": 4,
+  "cat": "Nhấn mạnh",
+  "title": "Câu chẻ nâng cao: What ... did was, All ... is, câu chẻ đảo và câu chẻ tương phản",
+  "en": "Advanced cleft and pseudo-cleft sentences",
+  "form": "It + be + X + that/who ... | What + S + did + was + (to) V | All (that) + S + V + is/was ... | That is what/why ... (câu chẻ đảo) | It is not X but Y that ...",
+  "explain": "Câu chẻ tách một thành phần ra để đặt tiêu điểm. 'What + S + did + was + V' nhấn mạnh hành động; 'All + S + V + is' mang nghĩa 'điều duy nhất', thường hàm ý ít hơn mong đợi. 'That is what/why...' đặt ý đã nhắc ở câu trước làm điểm nối và rất tự nhiên khi nói. Với It-cleft chỉ thời gian hay nơi chốn, dùng 'that', không dùng 'when/where'. Động từ trong mệnh đề 'that/who' hòa hợp với danh từ được nhấn, không phải với 'it'.",
+  "ex": [
+   [
+    "It was not the cost but the timing that the board objected to.",
+    "Điều hội đồng phản đối không phải chi phí mà là thời điểm."
+   ],
+   [
+    "What the study actually shows is a correlation, not a cause.",
+    "Điều nghiên cứu thực sự cho thấy là một mối tương quan, không phải nguyên nhân."
+   ],
+   [
+    "All the reforms have achieved is a shift of the burden onto local councils.",
+    "Tất cả những gì cải cách đạt được chỉ là đẩy gánh nặng sang chính quyền địa phương."
+   ],
+   [
+    "What the regulator did was freeze all new licences.",
+    "Việc cơ quan quản lý làm là đóng băng toàn bộ giấy phép mới."
+   ]
+  ],
+  "mistakes": [
+   [
+    "It was in 1998 when the treaty was signed.",
+    "It was in 1998 that the treaty was signed.",
+    "It-cleft dùng 'that' kể cả khi nhấn thời gian."
+   ],
+   [
+    "The reason why prices rose is because demand surged.",
+    "The reason why prices rose is that demand surged.",
+    "'The reason ... is because' bị lặp nghĩa và bị coi là không chuẩn trong văn viết học thuật."
+   ],
+   [
+    "What the council did it was cut the budget.",
+    "What the council did was cut the budget.",
+    "Không thêm 'it' sau mệnh đề What; mệnh đề What đã là chủ ngữ."
+   ]
+  ],
+  "ielts": "Câu chẻ giúp điều khiển tiêu điểm: bạn chọn được chỗ người đọc cần chú ý, đặc biệt khi bác bỏ một ý (It is not X but Y that...). Đây là dấu hiệu của band 9 vì cấu trúc phục vụ lập luận chứ không để trang trí. Rủi ro: mở nhiều đoạn bằng 'What I want to say is...' sẽ thành công thức, làm câu dài vô ích. Trong Speaking, 'The thing is...' và 'That's why...' tự nhiên hơn các câu chẻ dài.",
+  "quiz": [
+   {
+    "s": "It was only after the third trial ___ the researchers noticed the pattern.",
+    "o": [
+     "that",
+     "when",
+     "which",
+     "then"
+    ],
+    "a": 0,
+    "w": "It-cleft luôn dùng 'that', kể cả khi tiêu điểm là thời gian."
+   },
+   {
+    "s": "What the government ought to do ___ invest in early-years education.",
+    "o": [
+     "it is",
+     "are",
+     "is",
+     "is that"
+    ],
+    "a": 2,
+    "w": "Mệnh đề What làm chủ ngữ số ít: is + (to) V. Không thêm 'it', không thêm 'that'."
+   },
+   {
+    "s": "___ I'm suggesting is that we delay the launch, not cancel it.",
+    "o": [
+     "That",
+     "All",
+     "Which",
+     "It"
+    ],
+    "a": 1,
+    "w": "'All I'm suggesting is...' = điều duy nhất tôi đề xuất là; giảm nhẹ yêu cầu. 'That/Which/It' không làm chủ ngữ cho cấu trúc này."
+   },
+   {
+    "s": "The reason the scheme failed ___ it was never properly funded.",
+    "o": [
+     "is because",
+     "is why",
+     "was due to",
+     "is that"
+    ],
+    "a": 3,
+    "w": "'The reason ... is that' là dạng chuẩn; 'is because' bị lặp nghĩa, 'was due to' cần danh từ chứ không phải mệnh đề."
+   }
+  ],
+  "fix": [
+   {
+    "s": "It is the teachers who knows the students best.",
+    "a": "It is the teachers who know the students best.",
+    "w": "Động từ hòa hợp với 'the teachers' (số nhiều), không với 'it'."
+   },
+   {
+    "s": "What made the policy effective it was the clear communication.",
+    "a": "What made the policy effective was the clear communication.",
+    "w": "Bỏ 'it' thừa sau mệnh đề What."
+   }
+  ]
+ },
+ {
+  "id": "g64",
+  "lv": 4,
+  "cat": "Văn phong học thuật",
+  "title": "Danh từ hóa nâng cao: giới từ đi kèm và giới hạn của mật độ thông tin",
+  "en": "Advanced nominalisation and academic density",
+  "form": "V/adj -> N + giới từ đúng (increase in, demand for, impact on, reluctance to) | the + N + of X + by Y | N + has the effect of + V-ing | tránh chuỗi danh từ chồng nhau",
+  "explain": "Danh từ hóa đóng gói một hành động thành một cụm danh từ để câu đặc hơn và khách quan hơn. Cái khó ở band 9 không phải là biết đổi động từ sang danh từ, mà là: dùng đúng giới từ đi sau danh từ, chọn động từ đi kèm hợp (pose a threat, carry out an assessment, lead to a decline), và biết dừng lại. Khi một câu có ba bốn danh từ hóa nối nhau bằng 'of', người đọc phải giải mã, lúc đó dùng động từ sẽ rõ hơn.",
+  "ex": [
+   [
+    "The rapid expansion of higher education has led to a steady devaluation of degrees.",
+    "Sự mở rộng nhanh của giáo dục đại học đã dẫn đến việc bằng cấp mất giá dần."
+   ],
+   [
+    "Their reluctance to adopt the technology reflects a deeper distrust of automation.",
+    "Sự ngần ngại áp dụng công nghệ phản ánh một sự nghi ngờ sâu hơn đối với tự động hóa."
+   ],
+   [
+    "A failure to act now would carry considerable long-term costs.",
+    "Việc không hành động ngay bây giờ sẽ kéo theo chi phí dài hạn đáng kể."
+   ],
+   [
+    "The withdrawal of subsidies by central government left councils with little room for manoeuvre.",
+    "Việc chính phủ trung ương rút trợ cấp khiến chính quyền địa phương gần như không còn đường xoay xở."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The increase of house prices has priced young people out of the market.",
+    "The increase in house prices has priced young people out of the market.",
+    "'Increase/rise/decline in' + lĩnh vực thay đổi; 'of' chỉ dùng cho mức thay đổi (an increase of 10%)."
+   ],
+   [
+    "There is a growing demand of skilled nurses.",
+    "There is a growing demand for skilled nurses.",
+    "Danh từ demand đi với 'for'."
+   ],
+   [
+    "The implementation of the reduction of emissions is a requirement for the achievement of targets.",
+    "Emissions must be reduced if the targets are to be met.",
+    "Chuỗi danh từ hóa chồng lên nhau làm câu khó đọc; band 9 biết khi nào quay về động từ."
+   ]
+  ],
+  "ielts": "Danh từ hóa đúng chỗ giúp câu Task 2 gọn và có giọng học thuật, đây là một phần của 'wide range of structures'. Ở band 9, giám khảo để ý độ chính xác của giới từ và collocation đi kèm (have an impact on, place emphasis on). Rủi ro lớn: lạm dụng làm câu nặng nề, mơ hồ ai làm gì, và ảnh hưởng tiêu chí Coherence. Hãy giữ một câu có tối đa hai danh từ hóa chính.",
+  "quiz": [
+   {
+    "s": "There has been a marked decline ___ public trust in the media.",
+    "o": [
+     "of",
+     "in",
+     "for",
+     "on"
+    ],
+    "a": 1,
+    "w": "Decline in + lĩnh vực suy giảm."
+   },
+   {
+    "s": "The new policy has had a significant impact ___ rural livelihoods.",
+    "o": [
+     "to",
+     "for",
+     "on",
+     "at"
+    ],
+    "a": 2,
+    "w": "Impact on: tác động lên."
+   },
+   {
+    "s": "Stricter regulation would have the effect of ___ competition.",
+    "o": [
+     "reduce",
+     "to reduce",
+     "reduction",
+     "reducing"
+    ],
+    "a": 3,
+    "w": "'have the effect of' + V-ing."
+   },
+   {
+    "s": "Her ___ of the proposal surprised colleagues who had expected her support.",
+    "o": [
+     "rejection",
+     "rejecting",
+     "reject",
+     "rejectment"
+    ],
+    "a": 0,
+    "w": "Sau tính từ sở hữu 'her' và trước 'of' cần danh từ: rejection. 'Rejecting of' không chuẩn."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The lack of investment into public transport has worsened congestion.",
+    "a": "The lack of investment in public transport has worsened congestion.",
+    "w": "Investment in + lĩnh vực."
+   },
+   {
+    "s": "The cause for the decline is still debated.",
+    "a": "The cause of the decline is still debated.",
+    "w": "'Cause of' một sự việc; 'cause for' dùng với cảm xúc (cause for concern)."
+   }
+  ]
+ },
+ {
+  "id": "g65",
+  "lv": 4,
+  "cat": "Văn phong học thuật",
+  "title": "Rào đón và tăng cường: điều chỉnh mức độ chắc chắn cho khớp bằng chứng",
+  "en": "Hedging and boosting with calibrated certainty",
+  "form": "Rào đón: may/might/could, tend to, appear to, is likely to, arguably, suggest, indicate | Tăng cường: clearly, undoubtedly, demonstrably, almost certainly, is bound to, show | Nguyên tắc: mức chắc chắn = mức bằng chứng",
+  "explain": "Band 7-8 thường biết rào đón, nhưng rào đón đều tay cho mọi câu. Band 9 hiệu chỉnh: mạnh tay khi bằng chứng mạnh (almost certainly, clearly), dè dặt khi bằng chứng yếu (may, appears to). Chỉ cần một dấu rào đón cho mỗi mệnh đề; xếp chồng 'may possibly perhaps' làm câu yếu và rối. Động từ tường thuật cũng mang mức độ: prove/show mạnh hơn indicate/suggest.",
+  "ex": [
+   [
+    "The evidence suggests that the policy is likely to have only a modest effect.",
+    "Bằng chứng cho thấy chính sách có khả năng chỉ tạo tác động khiêm tốn."
+   ],
+   [
+    "This is almost certainly an underestimate, given that many cases go unreported.",
+    "Con số này gần như chắc chắn thấp hơn thực tế, vì nhiều trường hợp không được báo cáo."
+   ],
+   [
+    "Remote work arguably benefits employers as much as employees.",
+    "Có thể nói làm việc từ xa có lợi cho chủ doanh nghiệp không kém gì người lao động."
+   ],
+   [
+    "Older adults tend to be more sceptical of digital banking, although this gap appears to be narrowing.",
+    "Người lớn tuổi thường hoài nghi ngân hàng số hơn, dù khoảng cách này dường như đang thu hẹp."
+   ]
+  ],
+  "mistakes": [
+   [
+    "This may possibly perhaps lead to higher costs.",
+    "This may lead to higher costs.",
+    "Một dấu rào đón là đủ; chồng nhiều từ làm câu yếu và lủng củng."
+   ],
+   [
+    "Obviously, social media definitely causes depression in teenagers.",
+    "Heavy social media use appears to be associated with higher rates of depression among teenagers.",
+    "Khẳng định nhân quả quá mạnh khi bằng chứng chỉ cho thấy tương quan."
+   ],
+   [
+    "It is likely that prices might rise.",
+    "Prices are likely to rise.",
+    "'likely' và 'might' cùng rào đón, lặp ý."
+   ]
+  ],
+  "ielts": "Tiêu chí GRA ở band 9 không chỉ là đúng ngữ pháp mà là dùng cấu trúc để truyền đạt chính xác ý. Modal và trạng từ được hiệu chỉnh làm lập luận đáng tin hơn và ảnh hưởng tốt cả Task Response. Rủi ro: rào đón mọi câu làm bài như không có quan điểm; tăng cường mọi câu (obviously, definitely) làm bài thiếu cân nhắc. Hãy giữ quan điểm chính rõ ràng, chỉ rào đón các bằng chứng và dự đoán.",
+  "quiz": [
+   {
+    "s": "Given that only 40 people were surveyed, the findings ___ be treated with caution.",
+    "o": [
+     "will",
+     "need not",
+     "could possibly",
+     "should"
+    ],
+    "a": 3,
+    "w": "Đây là khuyến nghị dựa trên mẫu nhỏ: should. 'will' là dự đoán chứ không phải khuyến nghị, 'need not' ngược nghĩa, 'could possibly' chồng hai dấu rào đón và quá yếu cho một lời khuyên về phương pháp."
+   },
+   {
+    "s": "Every study in the review found the same effect, so the link is ___ robust.",
+    "o": [
+     "perhaps",
+     "arguably",
+     "demonstrably",
+     "supposedly"
+    ],
+    "a": 2,
+    "w": "Bằng chứng nhất quán từ mọi nghiên cứu cho phép tăng cường: demonstrably. 'supposedly' lại hàm ý nghi ngờ."
+   },
+   {
+    "s": "Although the data are incomplete, they ___ that the decline began earlier than previously thought.",
+    "o": [
+     "prove",
+     "indicate",
+     "confirm",
+     "establish"
+    ],
+    "a": 1,
+    "w": "Dữ liệu chưa đủ nên chỉ 'indicate'; prove/confirm/establish quá mạnh."
+   },
+   {
+    "s": "The tax ___ to deter casual smokers, though the evidence is mixed.",
+    "o": [
+     "is certain",
+     "is bound",
+     "appears",
+     "will"
+    ],
+    "a": 2,
+    "w": "Bằng chứng 'mixed' nên cần rào đón: appears to. 'is certain/is bound' mâu thuẫn với vế sau; 'will to' sai ngữ pháp."
+   }
+  ],
+  "fix": [
+   {
+    "s": "This could perhaps possibly explain the gap.",
+    "a": "This could explain the gap.",
+    "w": "Bỏ các từ rào đón chồng lên nhau."
+   },
+   {
+    "s": "The results prove that bilingual children are smarter.",
+    "a": "The results suggest that bilingual children may have an advantage in certain cognitive tasks.",
+    "w": "Kết quả một nghiên cứu không 'prove'; đồng thời thu hẹp phạm vi khẳng định."
+   }
+  ]
+ },
+ {
+  "id": "g66",
+  "lv": 4,
+  "cat": "Thức giả định",
+  "title": "Thức giả định nâng cao: phủ định, bị động, insist hai nghĩa và 'should' kiểu Anh",
+  "en": "The mandative subjunctive in depth",
+  "form": "It is essential/vital/imperative that + S + (not) + V nguyên mẫu | recommend/insist/demand/propose that + S + (not) + V nguyên mẫu | dạng bị động: that + S + be + V3 | tiếng Anh Anh: that + S + should + V",
+  "explain": "Sau các động từ, tính từ và danh từ chỉ yêu cầu, đề xuất, mệnh lệnh (recommend, insist, essential, recommendation that...), động từ trong mệnh đề that giữ nguyên mẫu với mọi ngôi. Phủ định đặt 'not' trước động từ, không dùng do: that he not be. Bị động: that it be reviewed. Tiếng Anh Anh hay dùng 'should + V' thay thế, cũng đúng. Lưu ý 'insist' có hai nghĩa: insist + giả định là 'đòi', insist + mệnh đề thường là 'khẳng định một sự thật'.",
+  "ex": [
+   [
+    "It is essential that every participant be informed of their right to withdraw.",
+    "Điều thiết yếu là mọi người tham gia phải được thông báo về quyền rút lui."
+   ],
+   [
+    "The inquiry recommended that the scheme not be extended.",
+    "Cuộc điều tra khuyến nghị không gia hạn chương trình."
+   ],
+   [
+    "She insisted that the figures be checked independently.",
+    "Cô ấy đòi số liệu phải được kiểm tra độc lập."
+   ],
+   [
+    "The union's demand that wages should rise in line with inflation was rejected.",
+    "Yêu cầu của công đoàn rằng lương phải tăng theo lạm phát đã bị bác bỏ."
+   ]
+  ],
+  "mistakes": [
+   [
+    "It is vital that he doesn't be late.",
+    "It is vital that he not be late.",
+    "Phủ định giả định là 'not + V', không dùng doesn't; hoặc viết 'should not be late'."
+   ],
+   [
+    "We suggest him to apply early.",
+    "We suggest that he apply early.",
+    "'Suggest' không đi với 'sb to V'; dùng mệnh đề that với động từ nguyên mẫu hoặc 'suggest applying'."
+   ],
+   [
+    "The board demanded that the CEO to resign.",
+    "The board demanded that the CEO resign.",
+    "Sau that dùng động từ nguyên mẫu không 'to'."
+   ]
+  ],
+  "ielts": "Thức giả định là dấu hiệu văn phong trang trọng, đặc biệt hữu ích khi đưa ra khuyến nghị ở Task 2 hoặc thư trang trọng. Band 9 thể hiện ở các dạng ít gặp: phủ định và bị động, cùng việc không nhầm hai nghĩa của 'insist'. Rủi ro thấp vì cấu trúc này không gây nặng câu, nhưng dùng sai một lần (doesn't be, to resign) sẽ bị tính là lỗi ở cấu trúc phức, ảnh hưởng tỷ lệ câu không lỗi.",
+  "quiz": [
+   {
+    "s": "The panel recommended that the funding ___ until the audit is complete.",
+    "o": [
+     "be suspended",
+     "is suspended",
+     "will be suspended",
+     "suspends"
+    ],
+    "a": 0,
+    "w": "Recommend that + giả định bị động: be suspended."
+   },
+   {
+    "s": "It is imperative that the patient ___ eat anything before surgery.",
+    "o": [
+     "doesn't",
+     "won't",
+     "not",
+     "didn't"
+    ],
+    "a": 2,
+    "w": "Phủ định giả định: not + V nguyên mẫu."
+   },
+   {
+    "s": "The witness insisted that she ___ at home all evening, contradicting the police account.",
+    "o": [
+     "be",
+     "had been",
+     "should be",
+     "were to be"
+    ],
+    "a": 1,
+    "w": "Ở đây insist = khẳng định một sự thật đã xảy ra, nên dùng thì bình thường (had been), không dùng giả định."
+   },
+   {
+    "s": "There were calls from MPs that the minister ___.",
+    "o": [
+     "resigns",
+     "resigned",
+     "to resign",
+     "resign"
+    ],
+    "a": 3,
+    "w": "Danh từ 'calls' (yêu cầu) + that + giả định: resign."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The doctor suggested me to reduce my salt intake.",
+    "a": "The doctor suggested that I reduce my salt intake.",
+    "w": "Suggest không đi với 'me to V'."
+   },
+   {
+    "s": "It is crucial that the data are not be shared.",
+    "a": "It is crucial that the data not be shared.",
+    "w": "Giả định phủ định: not + be, không có 'are'."
+   }
+  ]
+ },
+ {
+  "id": "g67",
+  "lv": 4,
+  "cat": "Câu phức",
+  "title": "Cấu trúc tuyệt đối, phân từ hoàn thành và lỗi phân từ treo",
+  "en": "Participle clauses, absolute constructions and dangling participles",
+  "form": "Having + V3, S + V (cùng chủ ngữ) | N + V-ing/V3/being, S + V (cấu trúc tuyệt đối, khác chủ ngữ) | With + N + V-ing/V3/adj, ... | V3 (nghĩa bị động), S + V",
+  "explain": "Mệnh đề phân từ thông thường phải có cùng chủ ngữ với mệnh đề chính; nếu không, ta có lỗi phân từ treo (dangling participle), lỗi rất hay gặp ở người viết khá. Khi hai vế có chủ ngữ khác nhau, dùng cấu trúc tuyệt đối: đặt danh từ riêng trước phân từ (The budget having been approved, ...) hoặc dùng 'With + N + V-ing'. 'Having + V3' nhấn hành động xảy ra trước. Một số cụm tuyệt đối cố định: all things considered, weather permitting, that said.",
+  "ex": [
+   [
+    "The budget having been approved, work on the bridge began in March.",
+    "Ngân sách đã được duyệt, việc xây cầu bắt đầu vào tháng Ba."
+   ],
+   [
+    "With interest rates rising, many first-time buyers have put their plans on hold.",
+    "Khi lãi suất tăng, nhiều người mua nhà lần đầu đã tạm gác kế hoạch."
+   ],
+   [
+    "Her argument rests on two assumptions, neither of them supported by evidence.",
+    "Lập luận của cô ấy dựa trên hai giả định, không giả định nào có bằng chứng."
+   ],
+   [
+    "Having worked in three countries, she was well placed to compare their systems.",
+    "Từng làm việc ở ba nước, cô ấy có vị thế tốt để so sánh các hệ thống."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Having analysed the data, the conclusion was clear.",
+    "Having analysed the data, the team reached a clear conclusion.",
+    "Phân từ treo: 'the conclusion' không thể phân tích dữ liệu. Chủ ngữ chính phải là người thực hiện."
+   ],
+   [
+    "Being a coastal city, flooding is a major concern in Da Nang.",
+    "Being a coastal city, Da Nang faces frequent flooding.",
+    "Chủ ngữ của 'being a coastal city' phải là Da Nang, không phải flooding."
+   ],
+   [
+    "With the population ages, demand for care is rising.",
+    "With the population ageing, demand for care is rising.",
+    "Sau 'With + N' dùng phân từ, không dùng động từ chia."
+   ]
+  ],
+  "ielts": "Cấu trúc tuyệt đối và phân từ hoàn thành giúp nén hai ý vào một câu mà vẫn rõ quan hệ thời gian hoặc nguyên nhân, đúng kiểu 'flexible use' của band 9. Nhưng phân từ treo là lỗi giám khảo dễ thấy và nó xuất hiện đúng trong những câu bạn muốn khoe. Rủi ro khi lạm dụng: mở mọi câu bằng V-ing làm nhịp văn đơn điệu; cấu trúc tuyệt đối với 'being' (The weather being...) nghe rất cổ trong Speaking.",
+  "quiz": [
+   {
+    "s": "___ the main findings, the report then turns to their policy implications.",
+    "o": [
+     "Having outlined",
+     "Outlined",
+     "Having been outlined",
+     "To outline"
+    ],
+    "a": 0,
+    "w": "Chủ ngữ 'the report' thực hiện hành động trình bày trước, nên dùng Having outlined (chủ động)."
+   },
+   {
+    "s": "With so many graduates ___ for so few positions, employers can afford to be selective.",
+    "o": [
+     "compete",
+     "competed",
+     "competing",
+     "to compete"
+    ],
+    "a": 2,
+    "w": "With + N + V-ing (hành động đang diễn ra)."
+   },
+   {
+    "s": "The survey ___ in only two cities, its results cannot be generalised.",
+    "o": [
+     "was conducted",
+     "having been conducted",
+     "conducted",
+     "has conducted"
+    ],
+    "a": 1,
+    "w": "Hai vế có chủ ngữ khác nhau và không có liên từ, nên vế đầu phải là cấu trúc tuyệt đối: The survey having been conducted. Dùng động từ chia sẽ thành câu dính liền."
+   },
+   {
+    "s": "___ by the lack of progress, the investors withdrew their support.",
+    "o": [
+     "Frustrating",
+     "Having frustrated",
+     "Being frustrating",
+     "Frustrated"
+    ],
+    "a": 3,
+    "w": "Nhà đầu tư bị làm cho thất vọng: phân từ bị động Frustrated."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Walking into the lecture hall, the projector was already on.",
+    "a": "Walking into the lecture hall, I saw that the projector was already on.",
+    "w": "Phân từ treo: máy chiếu không đi vào giảng đường."
+   },
+   {
+    "s": "All things considering, the reform was a success.",
+    "a": "All things considered, the reform was a success.",
+    "w": "Cụm tuyệt đối cố định là 'all things considered'."
+   }
+  ]
+ },
+ {
+  "id": "g68",
+  "lv": 4,
+  "cat": "Trật tự thông tin",
+  "title": "Đưa thành phần lên đầu câu và nguyên tắc end-weight",
+  "en": "Fronting, inversion and end-weight for information flow",
+  "form": "Thông tin cũ trước, thông tin mới sau | Tính từ/cụm giới từ đưa lên đầu + V + chủ ngữ dài (Particularly striking is ..., Among the reasons were ...) | It is + adj + that-clause thay chủ ngữ dài | Such + be + N + that ... | find/consider + it + adj + to V/that",
+  "explain": "Tiếng Anh có xu hướng đặt thông tin đã biết ở đầu câu và đặt thành phần dài, mới ở cuối (end-weight). Khi chủ ngữ là một mệnh đề dài, đưa nó ra cuối và dùng 'it' giả. Khi muốn nối với câu trước, có thể đưa tính từ hoặc cụm giới từ lên đầu và đảo động từ lên trước chủ ngữ; động từ vẫn phải hòa hợp với chủ ngữ thật đứng sau. Với find/consider/make, nếu tân ngữ là mệnh đề hoặc to V, bắt buộc có 'it'.",
+  "ex": [
+   [
+    "Particularly striking is the gap between urban and rural life expectancy.",
+    "Đặc biệt đáng chú ý là khoảng cách tuổi thọ giữa thành thị và nông thôn."
+   ],
+   [
+    "Among the reasons cited were cost, distance and a lack of trust.",
+    "Trong số các lý do được nêu có chi phí, khoảng cách và sự thiếu tin tưởng."
+   ],
+   [
+    "It is hardly surprising that a policy designed without consultation met with resistance.",
+    "Không có gì lạ khi một chính sách được thiết kế mà không tham vấn lại gặp phản đối."
+   ],
+   [
+    "Such was the demand that the website crashed within minutes.",
+    "Nhu cầu lớn đến mức trang web sập chỉ sau vài phút."
+   ]
+  ],
+  "mistakes": [
+   [
+    "That the government failed to anticipate the scale of migration from rural provinces is clear.",
+    "It is clear that the government failed to anticipate the scale of migration from rural provinces.",
+    "Chủ ngữ là mệnh đề dài làm câu mất cân đối; dùng 'it' giả và đưa mệnh đề ra cuối."
+   ],
+   [
+    "Particularly worrying the rise in youth debt is.",
+    "Particularly worrying is the rise in youth debt.",
+    "Khi đưa tính từ lên đầu, đảo động từ lên trước chủ ngữ dài."
+   ],
+   [
+    "I find difficult to accept that patients wait eight hours.",
+    "I find it difficult to accept that patients wait eight hours.",
+    "Find + it + adj + to V/that: không bỏ 'it'."
+   ]
+  ],
+  "ielts": "Band 8 viết câu đúng; band 9 viết câu mà thông tin chảy tự nhiên từ câu trước sang câu sau. Fronting giúp liên kết mà không cần từ nối máy móc, nên cải thiện cả Coherence. Rủi ro: đảo tính từ lên đầu quá nhiều nghe như văn báo chí phô diễn; lỗi hòa hợp chủ vị rất dễ xảy ra vì chủ ngữ thật đứng sau động từ.",
+  "quiz": [
+   {
+    "s": "Of greater concern ___ the long-term effects on children's development.",
+    "o": [
+     "is",
+     "are",
+     "being",
+     "it is"
+    ],
+    "a": 1,
+    "w": "Chủ ngữ thật là 'the long-term effects' (số nhiều) nên dùng are."
+   },
+   {
+    "s": "Such ___ the scale of the damage that the bridge had to be rebuilt.",
+    "o": [
+     "were",
+     "is",
+     "had been",
+     "was"
+    ],
+    "a": 3,
+    "w": "Chủ ngữ 'the scale' số ít, câu ở quá khứ: was."
+   },
+   {
+    "s": "I consider ___ unacceptable that patients wait eight hours.",
+    "o": [
+     "it",
+     "this",
+     "that",
+     "Ø (không có gì)"
+    ],
+    "a": 0,
+    "w": "Tân ngữ giả 'it' bắt buộc khi tân ngữ thật là mệnh đề that."
+   },
+   {
+    "s": "At the heart of the debate ___ a simple question: who pays?",
+    "o": [
+     "lie",
+     "lying",
+     "lies",
+     "it lies"
+    ],
+    "a": 2,
+    "w": "Cụm giới từ lên đầu, đảo động từ; chủ ngữ 'a simple question' số ít: lies."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Equally important are the question of funding.",
+    "a": "Equally important is the question of funding.",
+    "w": "Chủ ngữ thật 'the question' số ít."
+   },
+   {
+    "s": "That so few women hold senior posts despite decades of equal-opportunity legislation is surprising.",
+    "a": "It is surprising that so few women hold senior posts despite decades of equal-opportunity legislation.",
+    "w": "Đưa mệnh đề dài ra cuối theo nguyên tắc end-weight."
+   }
+  ]
+ },
+ {
+  "id": "g69",
+  "lv": 4,
+  "cat": "Liên kết",
+  "title": "Tỉnh lược và thay thế: so, not, do so, one, ones và trợ động từ đứng một mình",
+  "en": "Ellipsis and substitution",
+  "form": "think/hope/suppose/expect/afraid + so/not | if so / if not | do so (thay cụm động từ, trang trọng) | one/ones (thay danh từ đếm được) | trợ động từ đứng một mình: others have not; I'd like to",
+  "explain": "Người bản ngữ ít khi lặp lại cả cụm từ; họ thay bằng so/not/do so/one hoặc lược bỏ phần đã rõ. Tiếng Việt cho phép bỏ trợ động từ, nên người học hay bỏ sót trợ động từ hoặc lặp lại động từ chính. Với 'hope' dạng phủ định là 'I hope not', không phải 'I don't hope so'. 'Do so' dùng cho văn viết trang trọng; khi nói thường dùng 'do that' hoặc chỉ trợ động từ. 'One/ones' chỉ thay danh từ đếm được.",
+  "ex": [
+   [
+    "Some critics argue the reform went too far; others, that it did not go far enough.",
+    "Một số nhà phê bình cho rằng cải cách đi quá xa; số khác thì cho rằng chưa đủ."
+   ],
+   [
+    "Applicants may withdraw at any stage, but few choose to do so.",
+    "Ứng viên có thể rút lui ở bất kỳ giai đoạn nào, nhưng ít người làm vậy."
+   ],
+   [
+    "Is the decline permanent? Most analysts think not.",
+    "Sự suy giảm có kéo dài vĩnh viễn không? Phần lớn nhà phân tích cho là không."
+   ],
+   [
+    "The initial estimates were conservative; the revised ones are far higher.",
+    "Ước tính ban đầu khá dè dặt; các ước tính điều chỉnh cao hơn nhiều."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Will it rain tomorrow? I don't hope so.",
+    "Will it rain tomorrow? I hope not.",
+    "'Hope' phủ định bằng 'not' đứng sau."
+   ],
+   [
+    "Some governments have banned single-use plastics, but others haven't banned.",
+    "Some governments have banned single-use plastics, but others haven't.",
+    "Dừng ở trợ động từ; 'banned' không có tân ngữ nghe cụt và sai."
+   ],
+   [
+    "Older laptops are much heavier than new one.",
+    "Older laptops are much heavier than new ones.",
+    "'Ones' thay cho danh từ số nhiều."
+   ]
+  ],
+  "ielts": "Tỉnh lược và thay thế là công cụ liên kết tinh tế: giám khảo band 9 tìm 'cohesion that attracts no attention'. Trong Speaking, câu như 'I'd like to, but...' hay 'I suppose so' làm bạn nghe như người bản ngữ hơn mọi cấu trúc phức. Rủi ro: lược quá nhiều trong văn viết làm người đọc không rõ phần bị lược là gì; dùng 'do so' khi nói nghe sách vở.",
+  "quiz": [
+   {
+    "s": "Will the trend continue? I suspect ___, but the data are thin.",
+    "o": [
+     "so",
+     "it",
+     "that",
+     "yes"
+    ],
+    "a": 0,
+    "w": "Suspect + so: thay cả mệnh đề 'the trend will continue'."
+   },
+   {
+    "s": "Further funding cuts are expected; if ___, several theatres will close.",
+    "o": [
+     "it",
+     "yes",
+     "so",
+     "such"
+    ],
+    "a": 2,
+    "w": "'If so' = nếu điều đó xảy ra."
+   },
+   {
+    "s": "Most universities offer online courses, but the better ___ are rarely free.",
+    "o": [
+     "one",
+     "ones",
+     "those ones",
+     "them"
+    ],
+    "a": 1,
+    "w": "Thay 'online courses' số nhiều có tính từ đi trước: the better ones."
+   },
+   {
+    "s": "Is the damage irreversible? Scientists hope ___.",
+    "o": [
+     "no",
+     "don't",
+     "so not",
+     "not"
+    ],
+    "a": 3,
+    "w": "Hope + not: hy vọng là không."
+   }
+  ],
+  "fix": [
+   {
+    "s": "I'd like to join the project, but I'm not sure I can do.",
+    "a": "I'd like to join the project, but I'm not sure I can.",
+    "w": "Dừng ở 'can'; thêm 'do' là thừa."
+   },
+   {
+    "s": "A: Is the museum open on Mondays? B: I don't think it.",
+    "a": "A: Is the museum open on Mondays? B: I don't think so.",
+    "w": "Dùng 'so' để thay mệnh đề sau think."
+   }
+  ]
+ },
+ {
+  "id": "g70",
+  "lv": 4,
+  "cat": "Mệnh đề quan hệ",
+  "title": "Mệnh đề quan hệ nâng cao: giới từ + which/whom, whereby, of which, in which case",
+  "en": "Advanced relative structures",
+  "form": "N + giới từ + which/whom (the extent to which, on which) | số lượng + of + which/whom (most of which, none of whom) | N + whereby (= theo đó, nhờ đó) | ..., in which case + mệnh đề | the + so sánh nhất + of which",
+  "explain": "Ở văn viết trang trọng, giới từ thường được đặt trước which/whom thay vì cuối mệnh đề. Một số cụm cố định cần thuộc: the extent to which, the degree to which, the means by which, the basis on which. 'Whereby' dùng cho cơ chế, hệ thống, thỏa thuận. Khi nối hai mệnh đề bằng 'most of/some of/none of', phải dùng which/whom, không dùng them, nếu không câu thành hai mệnh đề độc lập nối bằng dấu phẩy. 'In which case' = nếu điều vừa nói xảy ra thì.",
+  "ex": [
+   [
+    "The extent to which social media shapes political opinion remains contested.",
+    "Mức độ mạng xã hội định hình quan điểm chính trị vẫn còn gây tranh cãi."
+   ],
+   [
+    "Employers introduced a scheme whereby staff could buy extra holiday.",
+    "Các công ty đưa ra một chương trình mà theo đó nhân viên có thể mua thêm ngày nghỉ."
+   ],
+   [
+    "Several remedies were proposed, none of which addressed the root cause.",
+    "Nhiều giải pháp được đề xuất, không giải pháp nào xử lý tận gốc."
+   ],
+   [
+    "The vote may be postponed, in which case the bill will lapse.",
+    "Cuộc bỏ phiếu có thể bị hoãn, khi đó dự luật sẽ hết hiệu lực."
+   ]
+  ],
+  "mistakes": [
+   [
+    "There are many factors, the most important of them is cost.",
+    "There are many factors, the most important of which is cost.",
+    "Dùng 'them' tạo hai mệnh đề độc lập nối bằng dấu phẩy; cần 'which'."
+   ],
+   [
+    "It is difficult to measure the degree which automation affects wages.",
+    "It is difficult to measure the degree to which automation affects wages.",
+    "Cụm cố định 'the degree to which'."
+   ],
+   [
+    "The talks may fail, in this case prices will rise.",
+    "The talks may fail, in which case prices will rise.",
+    "'In this case' mở một câu mới nên không thể đứng sau dấu phẩy; 'in which case' là liên từ quan hệ."
+   ]
+  ],
+  "ielts": "Các cấu trúc này nén quan hệ logic vào một câu mà không cần từ nối rời, nên câu vừa chặt vừa học thuật. Lỗi 'most of them' sau dấu phẩy là lỗi câu dính liền (comma splice) mà band 8 vẫn mắc và là thứ ngăn bài lên 9. Rủi ro: dùng 'whereby' cho mọi quan hệ (sai nghĩa) hoặc dồn hai ba mệnh đề quan hệ lồng nhau trong một câu làm câu khó theo dõi.",
+  "quiz": [
+   {
+    "s": "This is the principle ___ the entire legal system rests.",
+    "o": [
+     "which",
+     "on which",
+     "that",
+     "where"
+    ],
+    "a": 1,
+    "w": "Rest on something: giới từ 'on' đưa lên trước which."
+   },
+   {
+    "s": "The committee interviewed twelve candidates, three of ___ were later shortlisted.",
+    "o": [
+     "them",
+     "who",
+     "whom",
+     "which"
+    ],
+    "a": 2,
+    "w": "Sau giới từ, chỉ người: whom. 'them' tạo lỗi câu dính liền."
+   },
+   {
+    "s": "The agreement introduced a mechanism ___ disputes could be settled without going to court.",
+    "o": [
+     "whereby",
+     "which",
+     "whose",
+     "whereas"
+    ],
+    "a": 0,
+    "w": "Whereby = theo đó/nhờ đó, dùng cho cơ chế."
+   },
+   {
+    "s": "Turnout may fall below 30 per cent, ___ the result will not be binding.",
+    "o": [
+     "in that case",
+     "which case",
+     "in case",
+     "in which case"
+    ],
+    "a": 3,
+    "w": "'In which case' nối mệnh đề sau dấu phẩy; 'in case' nghĩa là 'phòng khi'."
+   }
+  ],
+  "fix": [
+   {
+    "s": "There are several explanations, most of them are economic.",
+    "a": "There are several explanations, most of which are economic.",
+    "w": "Sau dấu phẩy cần 'which' để tránh câu dính liền."
+   },
+   {
+    "s": "This is the basis which the decision was made on which.",
+    "a": "This is the basis on which the decision was made.",
+    "w": "Giới từ chỉ xuất hiện một lần, đặt trước which."
+   }
+  ]
+ },
+ {
+  "id": "g71",
+  "lv": 4,
+  "cat": "Liên từ",
+  "title": "Nhượng bộ ngoài although: albeit, much as, granted that, be that as it may, adj + as",
+  "en": "Concession beyond although",
+  "form": "mệnh đề, albeit + adj/adv/cụm giới từ | Much as + S + V, S + V | Granted (that) + mệnh đề, ... | Be that as it may, ... (câu mới) | Adj/Adv + as/though + S + V, S + V",
+  "explain": "Ngoài although và despite, tiếng Anh trang trọng có nhiều cách nhượng bộ với sắc thái riêng. 'Albeit' đi với cụm từ, không đi với mệnh đề đầy đủ. 'Much as' dùng với động từ cảm xúc (like, admire, sympathise, respect). 'Granted that' thừa nhận một điểm của đối phương trước khi phản bác. 'Be that as it may' mở đầu câu mới, nghĩa là 'dù vậy đi nữa'. Cấu trúc 'Adj + as + S + be' nhấn mạnh mức độ. Như mọi liên từ nhượng bộ, không thêm 'but' ở vế sau.",
+  "ex": [
+   [
+    "The reform improved access, albeit at considerable cost.",
+    "Cải cách đã mở rộng khả năng tiếp cận, dù với chi phí đáng kể."
+   ],
+   [
+    "Much as I admire her work, I cannot accept her conclusions.",
+    "Dù tôi rất ngưỡng mộ công trình của cô ấy, tôi không thể chấp nhận kết luận."
+   ],
+   [
+    "Granted that the scheme has flaws, it is still better than the alternative.",
+    "Cứ cho là chương trình có điểm yếu, nó vẫn tốt hơn phương án còn lại."
+   ],
+   [
+    "Compelling as the argument is, it rests on a flawed premise.",
+    "Lập luận dù thuyết phục đến đâu cũng dựa trên một tiền đề sai."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Albeit it is expensive, the scheme works.",
+    "The scheme works, albeit at a high cost.",
+    "Albeit đi với cụm từ và thường đứng sau mệnh đề chính, không mở đầu bằng mệnh đề đầy đủ."
+   ],
+   [
+    "Much as I respect him, but I disagree with his decision.",
+    "Much as I respect him, I disagree with his decision.",
+    "Thói quen 'tuy... nhưng' của tiếng Việt; tiếng Anh không dùng but sau liên từ nhượng bộ."
+   ],
+   [
+    "Although tired as she was, she finished the report.",
+    "Tired as she was, she finished the report.",
+    "Cấu trúc 'adj + as + S + be' đã mang nghĩa nhượng bộ, không thêm although."
+   ]
+  ],
+  "ielts": "Band 9 cần 'wide range' cả ở các quan hệ logic: một bài chỉ dùng although/however cho mọi ý nhượng bộ sẽ bị đánh giá lặp. Các cấu trúc này giúp thừa nhận phản biện một cách tinh tế, rất hợp với dạng bài discuss both views. Rủi ro: 'albeit' và 'be that as it may' nghe rất trang trọng, dùng nhiều trong Speaking sẽ lạc giọng; dùng sai ngữ pháp albeit + mệnh đề là lỗi dễ thấy.",
+  "quiz": [
+   {
+    "s": "The economy grew last year, ___ more slowly than forecast.",
+    "o": [
+     "albeit",
+     "although it",
+     "much as",
+     "despite"
+    ],
+    "a": 0,
+    "w": "Albeit + cụm trạng từ. 'although it more slowly' thiếu động từ."
+   },
+   {
+    "s": "___ I sympathise with the protesters, I cannot condone the violence.",
+    "o": [
+     "Despite",
+     "Much as",
+     "Albeit",
+     "Even"
+    ],
+    "a": 1,
+    "w": "Much as + động từ cảm xúc."
+   },
+   {
+    "s": "Persuasive ___ her case is, it overlooks the cost to taxpayers.",
+    "o": [
+     "although",
+     "so",
+     "as",
+     "even"
+    ],
+    "a": 2,
+    "w": "Adj + as + S + be: Persuasive as her case is."
+   },
+   {
+    "s": "The plan has its critics. ___, it remains the only option on the table.",
+    "o": [
+     "Albeit",
+     "Much as",
+     "Granted that",
+     "Be that as it may"
+    ],
+    "a": 3,
+    "w": "Mở đầu câu mới và đứng một mình: Be that as it may."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Although the policy was popular, but it was abandoned.",
+    "a": "Although the policy was popular, it was abandoned.",
+    "w": "Bỏ 'but'."
+   },
+   {
+    "s": "Albeit the results were promising, further trials are needed.",
+    "a": "Although the results were promising, further trials are needed.",
+    "w": "Albeit không đi với mệnh đề đầy đủ."
+   }
+  ]
+ },
+ {
+  "id": "g72",
+  "lv": 4,
+  "cat": "Văn phong học thuật",
+  "title": "Động từ tường thuật thể hiện lập trường: contend, concede, posit, refute, allege",
+  "en": "Reporting verbs with precise stance",
+  "form": "contend/maintain/assert + that | concede/acknowledge + that (thừa nhận điều bất lợi) | posit/postulate + N/that | refute + N (bác bỏ có chứng minh) | dispute/reject + N/the claim that | allege + that | dismiss + N + as + adj/N",
+  "explain": "Mỗi động từ tường thuật gửi một tín hiệu về lập trường của người viết. 'Refute' nghĩa là chứng minh là sai, nên khi dùng, người viết ngầm đồng ý với người bác bỏ; nếu chỉ không đồng ý, dùng dispute hoặc reject. 'Concede' là thừa nhận điều đi ngược với lập trường của chính mình. 'Claim' và 'allege' gợi ý người viết chưa tin hẳn. 'Posit' dùng khi một lý thuyết đặt ra một giả thiết làm nền.",
+  "ex": [
+   [
+    "Proponents contend that the tax will change behaviour; sceptics dismiss it as a revenue grab.",
+    "Phe ủng hộ khẳng định thuế sẽ thay đổi hành vi; phe hoài nghi gạt đi, coi đó là cách tận thu."
+   ],
+   [
+    "Even its supporters concede that the scheme has been poorly administered.",
+    "Ngay cả người ủng hộ cũng thừa nhận chương trình được quản lý kém."
+   ],
+   [
+    "The theory posits a single underlying cause for all three phenomena.",
+    "Lý thuyết giả định một nguyên nhân gốc chung cho cả ba hiện tượng."
+   ],
+   [
+    "Subsequent experiments refuted the hypothesis outright.",
+    "Các thí nghiệm sau đó đã bác bỏ hoàn toàn giả thuyết."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Some people refute that technology isolates us.",
+    "Some people dispute the claim that technology isolates us.",
+    "Refute = chứng minh sai và hiếm khi đi với mệnh đề that; nếu chỉ phản đối thì dùng dispute/reject."
+   ],
+   [
+    "Critics concede that the policy is a disaster.",
+    "Critics contend that the policy is a disaster.",
+    "Concede là thừa nhận điều bất lợi cho mình; phe phê bình chê chính sách thì không phải 'thừa nhận'."
+   ],
+   [
+    "Smith claims that water boils at 100 degrees Celsius at sea level.",
+    "Smith notes that water boils at 100 degrees Celsius at sea level.",
+    "'Claim' gợi ý nghi ngờ, không hợp với một sự thật đã được xác lập."
+   ]
+  ],
+  "ielts": "Ở band 9, độ chính xác từ vựng và ngữ pháp gắn chặt: động từ tường thuật đúng sắc thái cùng mẫu câu đúng (dismiss X as Y, refute + N) cho thấy kiểm soát cả hai. Đây là cách thể hiện quan điểm ngầm, rất hữu ích ở dạng bài discuss both views. Rủi ro: thay 'say' bằng các động từ hiếm chỉ để đa dạng sẽ dễ sai nghĩa; refute và concede là hai từ bị dùng sai nhiều nhất.",
+  "quiz": [
+   {
+    "s": "Although she supports the reform, the minister ___ that it will initially raise costs.",
+    "o": [
+     "contends",
+     "concedes",
+     "refutes",
+     "alleges"
+    ],
+    "a": 1,
+    "w": "Thừa nhận một điểm bất lợi cho lập trường của mình: concedes."
+   },
+   {
+    "s": "The model ___ that consumers act rationally, an assumption many economists now question.",
+    "o": [
+     "refutes",
+     "concedes",
+     "posits",
+     "denies"
+    ],
+    "a": 2,
+    "w": "Mô hình đặt ra một giả định làm nền: posits."
+   },
+   {
+    "s": "Using new archival evidence, Patel convincingly ___ the long-held view that the revolt was spontaneous.",
+    "o": [
+     "refutes",
+     "claims",
+     "posits",
+     "concedes"
+    ],
+    "a": 0,
+    "w": "Có bằng chứng và 'convincingly', tức chứng minh là sai: refutes."
+   },
+   {
+    "s": "The lawsuit ___ that the company knowingly sold faulty products; the company denies this.",
+    "o": [
+     "refutes",
+     "concedes",
+     "proves",
+     "alleges"
+    ],
+    "a": 3,
+    "w": "Cáo buộc chưa được chứng minh: alleges."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Many people refute that money brings happiness.",
+    "a": "Many people dispute the idea that money brings happiness.",
+    "w": "Chỉ phản đối chứ không chứng minh: dispute."
+   },
+   {
+    "s": "The author concedes that her method is superior to earlier ones.",
+    "a": "The author contends that her method is superior to earlier ones.",
+    "w": "Khẳng định ưu điểm của mình là contend/maintain, không phải concede."
+   }
+  ]
+ },
+ {
+  "id": "g73",
+  "lv": 4,
+  "cat": "Câu điều kiện",
+  "title": "Điều kiện ngầm và điều kiện hỗn hợp nâng cao: otherwise, but for, without, supposing",
+  "en": "Mixed and implied conditionals",
+  "form": "Otherwise/or (else) + would (have) V | But for/Without + N, S + would (have) V | If + had V3 (quá khứ), S + would V (hiện tại) | If + V2 (đặc điểm hiện tại), S + would have V3 (quá khứ) | Supposing/Assuming (that) + mệnh đề, ...",
+  "explain": "Nhiều câu điều kiện không có 'if'. 'Otherwise', 'but for', 'without', 'in the absence of' chứa điều kiện ngầm, nên mệnh đề chính vẫn phải chia theo thì giả định (would/would have). Câu hỗn hợp có hai chiều: quá khứ dẫn đến hiện tại (If he had trained, he would be fit now), và đặc điểm hiện tại lý giải quá khứ (If she weren't so careful, she would have missed it). 'Supposing' và 'assuming' dùng để đặt giả thiết khi thảo luận.",
+  "ex": [
+   [
+    "Without early intervention, the outbreak would have spread far more widely.",
+    "Nếu không can thiệp sớm, dịch đã lan rộng hơn nhiều."
+   ],
+   [
+    "The scheme is heavily subsidised; otherwise few families could afford it.",
+    "Chương trình được trợ giá nhiều; nếu không, ít gia đình đủ khả năng chi trả."
+   ],
+   [
+    "If the dam had been built, the valley would be under water today.",
+    "Nếu con đập đã được xây, thung lũng giờ đã chìm dưới nước."
+   ],
+   [
+    "If she weren't so meticulous, she would have overlooked the error.",
+    "Nếu cô ấy không tỉ mỉ đến vậy, cô ấy đã bỏ sót lỗi."
+   ]
+  ],
+  "mistakes": [
+   [
+    "But for the subsidy, the project will fail.",
+    "But for the subsidy, the project would fail.",
+    "But for mang nghĩa giả định nên mệnh đề chính dùng would."
+   ],
+   [
+    "I was ill; otherwise I would come.",
+    "I was ill; otherwise I would have come.",
+    "Sự việc trong quá khứ: otherwise + would have V3."
+   ],
+   [
+    "If he didn't miss the deadline, he would be on the shortlist now.",
+    "If he hadn't missed the deadline, he would be on the shortlist now.",
+    "Nguyên nhân ở quá khứ nên dùng had V3, kết quả ở hiện tại dùng would V."
+   ]
+  ],
+  "ielts": "Điều kiện ngầm cho thấy bạn hiểu bản chất giả định của câu chứ không chỉ thuộc bốn loại câu điều kiện. Đây là cấu trúc band 9 vì nó tự nhiên, ngắn và rất hay dùng khi phân tích nguyên nhân kết quả trong Task 2 và Part 3. Rủi ro: chia sai thì ở mệnh đề chính sau otherwise/but for là lỗi phổ biến, và câu hỗn hợp quá dài dễ làm người nghe mất dấu.",
+  "quiz": [
+   {
+    "s": "The bridge was inspected in time; otherwise it ___.",
+    "o": [
+     "would collapse",
+     "would have collapsed",
+     "will collapse",
+     "had collapsed"
+    ],
+    "a": 1,
+    "w": "Tình huống quá khứ không xảy ra: would have collapsed."
+   },
+   {
+    "s": "If I had taken that job in Singapore, I ___ in Asia now.",
+    "o": [
+     "would have lived",
+     "will live",
+     "would be living",
+     "had lived"
+    ],
+    "a": 2,
+    "w": "Quá khứ dẫn đến hiện tại (now): would be living."
+   },
+   {
+    "s": "___ the generous donation, the shelter would have closed last winter.",
+    "o": [
+     "But for",
+     "Unless",
+     "Provided",
+     "Otherwise"
+    ],
+    "a": 0,
+    "w": "But for + N = nếu không nhờ."
+   },
+   {
+    "s": "He ___ the exam if he weren't so careless; he lost marks on simple slips.",
+    "o": [
+     "would pass",
+     "will have passed",
+     "had passed",
+     "would have passed"
+    ],
+    "a": 3,
+    "w": "Tính cách hiện tại (weren't so careless) lý giải kết quả quá khứ: would have passed."
+   }
+  ],
+  "fix": [
+   {
+    "s": "But for his help, I will not have finished on time.",
+    "a": "But for his help, I would not have finished on time.",
+    "w": "But for + would have V3 cho quá khứ."
+   },
+   {
+    "s": "If the city invested in flood defences years ago, it would not be facing this crisis now.",
+    "a": "If the city had invested in flood defences years ago, it would not be facing this crisis now.",
+    "w": "Hành động quá khứ (years ago) phải là had V3."
+   }
+  ]
+ },
+ {
+  "id": "g74",
+  "lv": 4,
+  "cat": "Mạo từ",
+  "title": "Mạo từ nâng cao với danh từ trừu tượng: Ø, a, the theo nghĩa chung và nghĩa cụ thể",
+  "en": "Advanced article use with abstract nouns",
+  "form": "Ø + danh từ trừu tượng nghĩa chung (Inflation, Education, Nature) | the + danh từ trừu tượng được xác định (the inflation of the 1970s) | a + tính từ + danh từ trừu tượng (a deep distrust, a thorough understanding of) | the + danh từ đếm được số ít chỉ cả loại (the smartphone, the printing press)",
+  "explain": "Danh từ trừu tượng dùng theo nghĩa chung không có mạo từ: Poverty affects health. Khi được xác định bằng cụm phía sau chỉ một trường hợp cụ thể, dùng the: the poverty of the 1930s. Nhiều danh từ trừu tượng nhận 'a' khi có tính từ hoặc 'of' phía sau để chỉ một mức độ, một dạng: a good knowledge of, a growing awareness, a deep respect for. 'The' cũng dùng cho danh từ số ít chỉ cả một phát minh hoặc loại (the smartphone). 'Society' và 'nature' theo nghĩa chung không có the.",
+  "ex": [
+   [
+    "Inflation hits those on fixed incomes hardest.",
+    "Lạm phát tác động mạnh nhất đến người có thu nhập cố định."
+   ],
+   [
+    "The inflation of the late 1970s reshaped economic policy for a generation.",
+    "Đợt lạm phát cuối thập niên 1970 định hình lại chính sách kinh tế cho cả một thế hệ."
+   ],
+   [
+    "The job requires a thorough understanding of data protection law.",
+    "Công việc đòi hỏi hiểu biết sâu về luật bảo vệ dữ liệu."
+   ],
+   [
+    "There is a growing awareness that wellbeing cannot be measured by income alone.",
+    "Ngày càng có nhiều người nhận thức rằng hạnh phúc không thể đo chỉ bằng thu nhập."
+   ]
+  ],
+  "mistakes": [
+   [
+    "In the modern society, people have less free time.",
+    "In modern society, people have less free time.",
+    "'Society' theo nghĩa chung không có the."
+   ],
+   [
+    "Applicants need good understanding of statistics.",
+    "Applicants need a good understanding of statistics.",
+    "Understanding có tính từ và 'of' đi kèm thường nhận 'a'."
+   ],
+   [
+    "The nature is under growing pressure from tourism.",
+    "Nature is under growing pressure from tourism.",
+    "'Nature' (thiên nhiên) không có mạo từ."
+   ]
+  ],
+  "ielts": "Mạo từ là nơi người học tiếng Việt mất điểm Accuracy dai dẳng nhất, kể cả ở band 8, vì tiếng Việt không có hệ thống tương đương. Band 9 yêu cầu gần như không lỗi, nên làm đúng các trường hợp trừu tượng này tạo khác biệt thực sự. Không có rủi ro lạm dụng ở đây; rủi ro là sửa quá tay, thêm 'the' vào mọi danh từ trừu tượng vì sợ thiếu.",
+  "quiz": [
+   {
+    "s": "___ unemployment is often highest among the least skilled.",
+    "o": [
+     "The",
+     "An",
+     "A",
+     "Ø (không mạo từ)"
+    ],
+    "a": 3,
+    "w": "Nghĩa chung, không xác định: không mạo từ."
+   },
+   {
+    "s": "The role demands ___ detailed knowledge of EU trade rules.",
+    "o": [
+     "the",
+     "a",
+     "Ø (không mạo từ)",
+     "an"
+    ],
+    "a": 1,
+    "w": "'a + tính từ + knowledge of' chỉ một mức hiểu biết."
+   },
+   {
+    "s": "___ smartphone has transformed the way people navigate cities.",
+    "o": [
+     "A",
+     "Ø (không mạo từ)",
+     "The",
+     "Some"
+    ],
+    "a": 2,
+    "w": "The + danh từ số ít chỉ cả một phát minh."
+   },
+   {
+    "s": "Many economists see ___ poverty as a cause rather than a consequence of poor health.",
+    "o": [
+     "Ø (không mạo từ)",
+     "a",
+     "the",
+     "an"
+    ],
+    "a": 0,
+    "w": "Poverty theo nghĩa chung: không mạo từ."
+   }
+  ],
+  "fix": [
+   {
+    "s": "People are becoming more aware of the importance of the nature.",
+    "a": "People are becoming more aware of the importance of nature.",
+    "w": "Bỏ the trước nature."
+   },
+   {
+    "s": "In the today's society, the loneliness is a growing problem.",
+    "a": "In today's society, loneliness is a growing problem.",
+    "w": "Không dùng the cùng sở hữu cách 'today's'; loneliness nghĩa chung không có mạo từ."
+   }
+  ]
+ },
+ {
+  "id": "g75",
+  "lv": 4,
+  "cat": "Câu phức",
+  "title": "Song song nâng cao: correlative, so sánh 'that of' và câu dài cân đối",
+  "en": "Parallelism and balance in long sentences",
+  "form": "not only + X + but also + X (cùng loại) | both/either/neither + X + and/or/nor + X | than/as + that of/those of | danh sách: N, N and N hoặc to V, V and V | rather than + V nguyên mẫu (sau to V) | lặp lại giới từ hoặc 'that' để giữ rõ ràng",
+  "explain": "Trong câu dài, các thành phần cùng vai trò phải cùng dạng ngữ pháp. Với cặp liên từ (not only... but also, both... and, either... or), vị trí của vế đầu quyết định vế sau: nếu 'not only' đứng trước động từ thì 'but also' cũng phải đứng trước động từ. Khi so sánh, phải so hai thứ cùng loại: khí hậu miền Bắc với khí hậu (that of) miền Nam. Lặp lại giới từ hoặc 'that' trong câu dài giúp người đọc nhận ra cấu trúc song song.",
+  "ex": [
+   [
+    "The reform was intended not only to cut costs but also to improve the quality of care.",
+    "Cải cách nhằm không chỉ cắt giảm chi phí mà còn nâng cao chất lượng chăm sóc."
+   ],
+   [
+    "What matters is not how much we spend but how wisely we spend it.",
+    "Điều quan trọng không phải là chi bao nhiêu mà là chi khôn ngoan đến đâu."
+   ],
+   [
+    "The climate of the north is far harsher than that of the south.",
+    "Khí hậu miền Bắc khắc nghiệt hơn nhiều so với khí hậu miền Nam."
+   ],
+   [
+    "Participants were asked whether they had used the service, how often they had used it and what they would change about it.",
+    "Người tham gia được hỏi họ đã dùng dịch vụ chưa, dùng thường xuyên đến đâu và muốn thay đổi gì."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The policy not only failed to reduce crime but also it increased costs.",
+    "The policy not only failed to reduce crime but also increased costs.",
+    "'Not only' đứng trước động từ thì 'but also' cũng đứng trước động từ, không thêm chủ ngữ."
+   ],
+   [
+    "The aim is to reduce waste, cutting costs and the improvement of efficiency.",
+    "The aim is to reduce waste, cut costs and improve efficiency.",
+    "Ba thành phần trong danh sách phải cùng dạng."
+   ],
+   [
+    "Life in cities is more stressful than the countryside.",
+    "Life in cities is more stressful than life in the countryside.",
+    "So sánh 'cuộc sống' với 'cuộc sống', không phải với 'nông thôn'."
+   ]
+  ],
+  "ielts": "Cấu trúc song song làm câu dài vẫn dễ đọc, điều kiện để câu phức được tính là 'flexible' chứ không phải 'rối'. Ở band 9, câu dài nhất của bạn phải là câu cân đối nhất. Rủi ro: chạy theo nhịp ba (tricolon) cho mọi danh sách nghe như diễn văn, và các câu quá dài với nhiều lớp song song làm giảm độ rõ ràng.",
+  "quiz": [
+   {
+    "s": "The scheme aims to attract investors, create jobs and ___ local suppliers.",
+    "o": [
+     "supporting",
+     "support",
+     "the support of",
+     "to supporting"
+    ],
+    "a": 1,
+    "w": "Danh sách to V: attract, create, support."
+   },
+   {
+    "s": "The new curriculum is criticised both for its narrowness and ___.",
+    "o": [
+     "because it is rigid",
+     "rigid",
+     "for its rigidity",
+     "being rigid"
+    ],
+    "a": 2,
+    "w": "Both for X and for Y: cùng dạng giới từ + danh từ."
+   },
+   {
+    "s": "The cost of housing in Hanoi is now higher than ___ in many regional capitals.",
+    "o": [
+     "it",
+     "those",
+     "this",
+     "that"
+    ],
+    "a": 3,
+    "w": "Thay 'the cost of housing' (số ít): that."
+   },
+   {
+    "s": "She chose to resign rather than ___ the decision.",
+    "o": [
+     "accept",
+     "to accepting",
+     "accepted",
+     "accepts"
+    ],
+    "a": 0,
+    "w": "Sau 'chose to resign', 'rather than' đi với động từ nguyên mẫu để song song."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The new system is faster, cheaper and it is more reliable.",
+    "a": "The new system is faster, cheaper and more reliable.",
+    "w": "Ba tính từ song song, bỏ 'it is'."
+   },
+   {
+    "s": "Not only the plan was expensive but also impractical.",
+    "a": "The plan was not only expensive but also impractical.",
+    "w": "'Not only' đặt trước tính từ để song song với 'but also impractical'. Nếu muốn đặt đầu câu thì phải đảo: Not only was the plan expensive, but it was also impractical."
+   }
+  ]
+ },
+ {
+  "id": "g76",
+  "lv": 4,
+  "cat": "Văn phong",
+  "title": "Chuyển văn phong: ngữ pháp nói band 9 khác ngữ pháp viết band 9",
+  "en": "Register shifts between spoken and written band 9",
+  "form": "Nói: rút gọn (it's, I'd), từ đệm diễn ngôn (the thing is, mind you, I mean), tỉnh lược, would chỉ thói quen quá khứ, ngôn ngữ ước lượng (sort of, or so) | Viết: không rút gọn, danh từ hóa, bị động khách quan, 'people/one' thay 'you', rào đón bằng động từ và trạng từ",
+  "explain": "Band 9 không có nghĩa là trang trọng nhất có thể; nó nghĩa là đúng văn phong. Speaking band 9 nghe như người bản ngữ có học thức nói chuyện tự nhiên: câu ngắn dài xen kẽ, có từ đệm, có tỉnh lược, không có những cụm học thuộc kiểu 'it is undeniable that'. Writing band 9 thì ngược lại: không rút gọn, không 'you' chung chung, không từ lóng, dùng danh từ hóa và bị động có chừng mực. Cùng một ý, hai kỹ năng cần hai dạng ngữ pháp khác nhau.",
+  "ex": [
+   [
+    "(Nói) The thing is, most people don't actually read the terms; they just tick the box.",
+    "Vấn đề là đa số người ta không thực sự đọc điều khoản; họ chỉ đánh dấu cho xong."
+   ],
+   [
+    "(Viết) Most users accept terms and conditions without reading them.",
+    "Phần lớn người dùng chấp nhận điều khoản mà không đọc."
+   ],
+   [
+    "(Nói) It's not so much the cost that puts me off, it's the hassle.",
+    "Cái làm tôi ngại không hẳn là giá mà là sự phiền phức."
+   ],
+   [
+    "(Viết) The principal deterrent is not cost but inconvenience.",
+    "Rào cản chính không phải chi phí mà là sự bất tiện."
+   ]
+  ],
+  "mistakes": [
+   [
+    "(Nói) In my humble perspective, it is undeniable that the aforementioned trend is detrimental.",
+    "(Nói) Honestly, I'd say it's doing more harm than good.",
+    "Cụm học thuộc và từ quá trang trọng làm câu nói không tự nhiên; giám khảo coi đó là 'memorised language'."
+   ],
+   [
+    "(Viết) Nowadays, you can't find a decent job without a degree, right?",
+    "(Viết) It is increasingly difficult to secure skilled employment without a degree.",
+    "Văn viết không dùng rút gọn, 'you' chung chung hay câu hỏi đuôi."
+   ],
+   [
+    "(Viết) So, the government should do something about it.",
+    "(Viết) Governments should therefore take steps to address the problem.",
+    "'So' đầu câu và 'do something about it' mang giọng nói; văn viết cần cụ thể và trang trọng hơn."
+   ]
+  ],
+  "ielts": "Giám khảo Speaking chấm GRA dựa trên câu nói tự nhiên: dùng 'would' kể thói quen, câu chẻ ngắn ('What I like about it is...'), tỉnh lược ('I'd love to') là dấu hiệu band 9. Trong Writing, độ chính xác và giọng học thuật quyết định. Rủi ro lớn nhất ở người học giỏi là mang ngữ pháp viết vào phần nói (nghe như đọc bài) hoặc mang giọng nói vào bài viết (bị coi là không phù hợp văn phong). Không có cấu trúc nào là 'band 9' nếu sai văn phong.",
+  "quiz": [
+   {
+    "s": "(Viết) ___ most commuters would switch to rail if fares fell.",
+    "o": [
+     "I mean,",
+     "Basically,",
+     "Survey data suggest that",
+     "You know,"
+    ],
+    "a": 2,
+    "w": "Văn viết cần nêu cơ sở và tránh từ đệm khẩu ngữ."
+   },
+   {
+    "s": "(Nói, Part 3) 'Do you think robots will replace teachers?' 'Not entirely, ___. Kids need someone who actually notices when they're struggling.'",
+    "o": [
+     "I wouldn't have thought so",
+     "it is not deemed probable",
+     "one would posit",
+     "it is undeniable that"
+    ],
+    "a": 0,
+    "w": "'I wouldn't have thought so' rút gọn tự nhiên khi nói; các lựa chọn khác quá trang trọng hoặc sai ngữ pháp ở vị trí này."
+   },
+   {
+    "s": "(Viết) Governments ___ do more to curb plastic waste.",
+    "o": [
+     "gotta",
+     "had better to",
+     "should of",
+     "ought to"
+    ],
+    "a": 3,
+    "w": "'Ought to' phù hợp văn viết; 'gotta' là khẩu ngữ, 'had better to' và 'should of' sai."
+   },
+   {
+    "s": "(Nói) 'How has your hometown changed?' 'Oh, massively. When I was a kid we ___ play out in the street till it got dark.'",
+    "o": [
+     "were used to",
+     "would",
+     "used",
+     "are used to"
+    ],
+    "a": 1,
+    "w": "'Would + V' kể thói quen trong quá khứ, rất tự nhiên khi kể chuyện. 'used' thiếu 'to', 'were used to' cần V-ing."
+   }
+  ],
+  "fix": [
+   {
+    "s": "(Viết) Lots of folks reckon the internet is kinda bad for kids.",
+    "a": "(Viết) Many people believe that the internet can be harmful to children.",
+    "w": "Thay từ khẩu ngữ (lots of folks, reckon, kinda) bằng văn phong viết."
+   },
+   {
+    "s": "(Nói) In my opinion, it is evident that the aforementioned phenomenon is attributable to urbanisation.",
+    "a": "(Nói) I think it's mostly down to urbanisation, really. People have moved to the cities for work.",
+    "w": "Câu nói nên ngắn, tự nhiên, có rút gọn; câu gốc nghe như đọc bài viết."
+   }
+  ]
+ }
+]

@@ -1,6 +1,6 @@
 <!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#22346E"><link rel="icon" href="/icons/icon-192.png"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Catalis"><title>Catalis - Stalis's IELTS</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Catalis (Stalis's IELTS): luyện IELTS Academic và General Training cho người Việt cùng mèo cam Mít. Từ vựng lặp lại ngắt quãng, Listening, Reading, Writing, Speaking, ngữ pháp, phát âm, thi thử.">
+<meta name="description" content="Catalis (Stalis's IELTS): luyện IELTS Academic và General Training cho người Việt cùng mèo cam Jack. Từ vựng lặp lại ngắt quãng, Listening, Reading, Writing, Speaking, ngữ pháp, phát âm, thi thử.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <style>
@@ -1018,6 +1018,15 @@ details .ls-trb{padding:4px 14px 12px}
 .ts-fbands{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:560px){.ts-fbands{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+/* expert pack */
+.pill.ts-xp{background:var(--orange-soft);color:var(--orange-ink)}
+.ts-xh{display:flex;flex-direction:column;gap:2px;margin-top:10px;padding-top:14px;border-top:1.5px solid var(--line)}
+.ts-xh h3{margin:0}
+.ts-top{color:var(--ok);font-weight:600;max-width:34ch;line-height:1.4}
+.btn.ts-xb{border-color:var(--orange-soft);background:var(--orange-soft);color:var(--orange-ink)}
+.chip.ts-xc[aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}
+.ts-pick-l{display:flex;flex-direction:column;gap:6px}
+
 /* ===== Writing (30-write.js) ===== */
 .wr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
 .wr-card{text-align:left;align-items:flex-start;gap:8px;cursor:pointer;border:1.5px solid transparent;font:inherit;color:inherit}
@@ -1148,6 +1157,23 @@ details .ls-trb{padding:4px 14px 12px}
 .wr-steps .chip{display:inline-flex;align-items:center;gap:6px}
 .wr-xres{gap:14px}
 
+/* band 8 / band 9 model switch (also used by Speaking) */
+.wr-sw{display:flex;flex-direction:column;gap:10px;min-width:0}
+.wr-swt{gap:6px}
+.wr-swp{display:flex;flex-direction:column;gap:10px;min-width:0}
+.wr-swp[hidden]{display:none}
+.wr-hl9{background:var(--orange-soft);color:inherit;border-radius:4px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.wr-hl9 sup{font-family:var(--f-body);font-size:10px;font-weight:800;color:var(--orange-ink);margin-left:2px}
+.wr-b9s{display:flex;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:10px}
+.wr-b9s h4{margin:0;font-size:15px}
+.wr-why9{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.wr-why9 li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;align-items:start}
+.wr-why9 li>div{display:flex;flex-direction:column;gap:2px;min-width:0;overflow-wrap:anywhere}
+.wr-why9 b{font-size:15px}
+.wr-why9 span:not(.wr-wn){font-size:14px;line-height:1.55;color:var(--ink)}
+.wr-wn{width:22px;height:22px;border-radius:6px;background:var(--orange-soft);color:var(--orange-ink);display:grid;place-items:center;font-size:12px;font-weight:800}
+.wr-vs{margin:0;line-height:1.6}
+
 /* ===== Speaking (sp-) ===== */
 .sp{min-width:0}
 .sp .en{font-family:var(--f-en)}
@@ -1269,6 +1295,10 @@ details .ls-trb{padding:4px 14px 12px}
 .sp-comp[hidden]{display:none}
 [data-mic][aria-pressed="true"]{border-color:var(--bad);color:var(--bad)}
 .sp-mock h3 .i,.sp .panel h3 .i{width:18px;height:18px;vertical-align:-3px}
+/* band 9 samples */
+.sp-sample .wr-sw{gap:8px}
+.sp-p9{background:var(--orange-soft);color:var(--orange-ink);font-size:11.5px;vertical-align:1px}
+.sp-hid .wr-m9{font-size:16.5px;line-height:1.65}
 
 /* ===== grammar (.gr-), pronunciation (.pr-), games (.gm-) ===== */
 /* grammar list */
@@ -1422,6 +1452,11 @@ details[open]>summary .pr-chev{transform:rotate(90deg)}
 .gm-mc2.ok{border-color:var(--ok);background:var(--ok-soft);color:var(--ok-ink);opacity:.75}
 .gm-mc2.bad{border-color:var(--bad);background:var(--bad-soft);animation:shake .3s linear}
 @media (prefers-reduced-motion:reduce){.gm-mc2.bad{animation:none}}
+/* level 4: expert band 8.5-9 (orange tokens) */
+.gr-lv4,.gr-row .gr-p4,.gr-pills .gr-lv4{background:var(--orange-soft);color:var(--orange-ink)}
+.gr-l4 .gr-sh h3{color:var(--orange-ink)}
+.gr-l4 .gr-row:hover{border-color:var(--orange)}
+#grLv [data-t="4"][aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}
 
 </style>
 </head><body>
@@ -1467,9 +1502,9 @@ const fmtTime=s=>{s=Math.max(0,Math.round(s));return String(Math.floor(s/60)).pa
 const countWords=t=>(String(t).trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)||[]).length;
 
 /* ================= data ================= */
-const LVS=[1,2,3,4];
-const LV_NAME={1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+'};
-const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề'};
+const LVS=[1,2,3,4,5];
+const LV_NAME={1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia'};
+const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề',5:'band 8.5-9, từ học thuật C2 và cách nói tự nhiên'};
 const V=[]; const VI=new Map(); const LV_COUNT=[0,0,0,0,0]; const loadedLv=new Set(); const lvLoading={};
 async function loadLevel(L){
   if(loadedLv.has(L))return;
@@ -1901,7 +1936,7 @@ document.addEventListener('keydown',e=>{
 });
 
 /* ================= VOCAB: dictionary ================= */
-let dq='',dlv=[1,2,3,4],dshow=80,dfilter='all',dtopic='';
+let dq='',dlv=[1,2,3,4,5],dshow=80,dfilter='all',dtopic='';
 VIEWS.dict=async el=>{
   el.innerHTML='<div class="view"><p class="note">Đang tải từ điển...</p></div>';
   await loadAllVocab();
@@ -1988,8 +2023,8 @@ Không dùng markdown đậm, không dùng dấu gạch ngang dài. Văn bản t
   };
 }
 
-/* ================= MASCOT: Mít, mèo cam =================
-   Catalis mascot: Mít, a ginger kitten. catSVG(state, size, rank)
+/* ================= MASCOT: Jack (Mít), mèo cam =================
+   Catalis mascot: Jack (Vietnamese nickname Mít, jackfruit), a ginger kitten. catSVG(state, size, rank)
    state: calm | hi | idea | yay | ok | hmm | zzz ; rank 0..7 (Freshman -> Professor) picks accessories. */
 const CC={fur:'#F2A33A',dark:'#D97F1E',stripe:'#C96F12',belly:'#FFF3DC',ear:'#FFB4A8',nose:'#E5707A',eye:'#1C2333',navy:'#22346E',gold:'#F5B82E',red:'#C8372F'};
 function catAcc(r){
@@ -2015,7 +2050,7 @@ function catSVG(state,size,rank){
   const extra=state==='idea'?`<g transform="translate(150 14)"><circle cx="14" cy="16" r="12" fill="${CC.gold}"/><rect x="9" y="26" width="10" height="8" rx="2" fill="#9AA3A0"/></g>`
     :zzz?`<g font-family="sans-serif" font-weight="800" fill="${CC.navy}"><text x="142" y="44" font-size="18">z</text><text x="156" y="30" font-size="13">z</text></g>`
     :yay?`<circle cx="32" cy="44" r="4" fill="${CC.red}"/><rect x="160" y="34" width="8" height="5" fill="${CC.gold}" transform="rotate(30 164 36)"/><circle cx="168" cy="74" r="3.5" fill="#2C5FC4"/>`:'';
-  return `<svg class="mascot cat-${state}" viewBox="0 0 200 200" width="${size}" height="${size}" role="img" aria-label="Mít">
+  return `<svg class="mascot cat-${state}" viewBox="0 0 200 200" width="${size}" height="${size}" role="img" aria-label="Jack">
   <path d="M140 168c26 0 40-16 36-36-2-10-12-12-14-4 6 4 4 22-16 24z" fill="${CC.fur}"/><path d="M168 134l8-4M171 146l9 0" stroke="${CC.stripe}" stroke-width="4" stroke-linecap="round"/>
   <ellipse cx="100" cy="190" rx="44" ry="6" fill="#000" opacity=".08"/>
   <ellipse cx="82" cy="182" rx="14" ry="9" fill="${CC.fur}"/><ellipse cx="118" cy="182" rx="14" ry="9" fill="${CC.fur}"/>
@@ -2043,7 +2078,7 @@ function mcSay(state,text,size){if(P.settings&&P.settings.noMascot)return `<p cl
 /* ================= PLAN: XP, ranks, daily plan, band records, placement, mistakes, daily tip, reports ================= */
 const PL_W={review:1,new:3,listen:1.5,read:1.5,write:25,speak:4,grammar:8,pron:2,test:30,game:1,daily:5,dict:2};
 const PL_RANKS=[[0,'Freshman','Tân sinh viên'],[300,'Sophomore','Sinh viên năm hai'],[1000,'Junior','Sinh viên năm ba'],[2500,'Senior','Sinh viên năm cuối'],[5000,'Bachelor','Cử nhân'],[9000,'Master','Thạc sĩ'],[15000,'PhD','Tiến sĩ'],[25000,'Professor','Giáo sư']];
-const TARGETS=[5,5.5,6,6.5,7,7.5,8];
+const TARGETS=[5,5.5,6,6.5,7,7.5,8,8.5,9];
 function plDay(k){P.day=P.day||{};k=k||ymd(Date.now());return P.day[k]=P.day[k]||{xp:0};}
 function plXPTotal(){return Object.values(P.day||{}).reduce((a,d)=>a+(d.xp||0),0);}
 function plRank(xp){let r=PL_RANKS[0],nx=PL_RANKS[1];for(let i=0;i<PL_RANKS.length;i++){if(xp>=PL_RANKS[i][0]){r=PL_RANKS[i];nx=PL_RANKS[i+1]||null;}}return {r,nx};}
@@ -2060,7 +2095,7 @@ window.__award=award;
 function plCfg(){P.plan=P.plan||{target:6.5,minutes:30,exam:'academic',start:today(),auto:true};return P.plan;}
 function plGoalXP(){return Math.round(plCfg().minutes*3.5);}
 function plNewPerDay(){const m=plCfg().minutes;return m>=90?30:m>=60?22:m>=45?16:m>=30?12:8;}
-function plLevels(t){return t<=5?[1]:t<=6?[1,2]:t<=7?[1,2,3]:[1,2,3,4];}
+function plLevels(t){return t<=5?[1]:t<=6?[1,2]:t<=7?[1,2,3]:t<=8?[1,2,3,4]:[3,4,5];}
 function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=plLevels(c.target);P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
@@ -2122,15 +2157,15 @@ VIEWS.placement=async el=>{
   await loadAllVocab(); const gram=await loadJSON('grammar');
   if(!PLC){PLC={step:'intro',L:1,i:0,items:[],stats:{},gi:0,gItems:[],gOk:0};}
   const startLv=()=>{const pool=V.filter(w=>w.lv===PLC.L&&!P.srs[w.k]);PLC.items=shuffle(pool).slice(0,12);PLC.i=0;PLC.stats[PLC.L]={yes:0,ok:0,chk:0,n:0};PLC.step='vocab';draw();};
-  const startGram=()=>{const by=L=>shuffle(gram.filter(g=>g.lv===L)).slice(0,L===1?3:L===2?4:5).map(g=>Object.assign({lv:L},pick(g.quiz)));PLC.gItems=[...by(1),...by(2),...by(3)];PLC.gi=0;PLC.gOk=0;PLC.step='gram';draw();};
+  const startGram=()=>{const by=L=>shuffle(gram.filter(g=>g.lv===L)).slice(0,L===1?3:L===2?3:L===3?4:4).map(g=>Object.assign({lv:L},pick(g.quiz)));PLC.gItems=[...by(1),...by(2),...by(3),...by(4)];PLC.gi=0;PLC.gOk=0;PLC.step='gram';draw();};
   const mark=w=>{const iv=7+Math.floor(Math.random()*14);P.srs[w.k]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};touch('main');};
   const finish=()=>{
     const vr=L=>{const s=PLC.stats[L];if(!s||!s.n)return 0;const acc=s.chk?s.ok/s.chk:1;return s.yes/s.n*acc;};
-    const vScore=vr(1)*1+vr(2)*1.2+vr(3)*1.4+vr(4)*1.6; // 0..5.2
+    const vScore=vr(1)*1+vr(2)*1.2+vr(3)*1.4+vr(4)*1.6+vr(5)*1.8; // 0..7
     const gScore=PLC.gItems.length?PLC.gOk/PLC.gItems.length:0;
-    let band=4+vScore*0.55+gScore*1.6; band=Math.max(4,Math.min(8,Math.round(band*2)/2));
+    let band=4+vScore*0.48+gScore*1.6; band=Math.max(4,Math.min(9,Math.round(band*2)/2));
     P.placeBand=band;P.placed=1;recordScore({skill:'overall',band,title:'Bài xếp lớp',raw:PLC.gOk,total:PLC.gItems.length});
-    const c=plCfg();if(c.target<=band)c.target=Math.min(8,band+1);c.auto=true;plApply();
+    const c=plCfg();if(c.target<=band)c.target=Math.min(9,band+1);c.auto=true;plApply();
     const knownLv=LVS.filter(L=>vr(L)>=0.8);
     el.innerHTML=`<div class="view"><h2>Kết quả xếp lớp</h2><div class="panel place-res">${mascot('yay',110)}<div><span class="label">Band ước lượng</span><div class="band-big">${fmtBand(band)}</div>
       <p class="note">Ước lượng dựa trên vốn từ và ngữ pháp, chưa tính Listening, Reading, Writing, Speaking thật. Làm một bài thi thử để có số chính xác hơn.</p></div></div>
@@ -2141,7 +2176,7 @@ VIEWS.placement=async el=>{
     touch('main');PLC.step='done';
   };
   const draw=()=>{
-    if(PLC.step==='intro'){el.innerHTML=`<div class="view"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 8 phút: phần 1 nhìn từ và chọn Biết hay Không biết, thỉnh thoảng Mít hỏi lại nghĩa để kiểm tra. Phần 2 là 12 câu ngữ pháp. Cứ trả lời thật, đừng đoán.',72)}
+    if(PLC.step==='intro'){el.innerHTML=`<div class="view"><h2>Bài xếp lớp</h2>${mcSay('idea','Khoảng 8 phút: phần 1 nhìn từ và chọn Biết hay Không biết, thỉnh thoảng Jack hỏi lại nghĩa để kiểm tra. Phần 2 là 14 câu ngữ pháp, khó dần tới mức band 9. Cứ trả lời thật, đừng đoán.',72)}
       <div class="row"><button class="btn primary" id="pcStart">Bắt đầu</button><button class="btn ghost" id="pcSkip">Để sau</button></div></div>`;
       $('#pcStart').onclick=startLv;$('#pcSkip').onclick=()=>{PLC=null;go('home');};return;}
     if(PLC.step==='gram'){
@@ -2153,7 +2188,7 @@ VIEWS.placement=async el=>{
       $('#pcEnd').onclick=finish;return;}
     const w=PLC.items[PLC.i]; const st=PLC.stats[PLC.L];
     if(!w){const ratio=st.n?st.yes/st.n*(st.chk?st.ok/st.chk:1):0;
-      if(ratio>=0.55&&PLC.L<4){PLC.L++;startLv();}else startGram();return;}
+      if(ratio>=0.55&&PLC.L<5){PLC.L++;startLv();}else startGram();return;}
     el.innerHTML=`<div class="view"><div class="spread"><h2>Xếp lớp - Từ vựng ${LV_NAME[PLC.L]}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
       <div class="card" style="min-height:240px"><div class="big en">${esc(w.w)}</div><div class="row" style="margin-top:auto"><button class="btn" id="pcNo">Không biết <span class="kbd">1</span></button><button class="btn primary" id="pcYes">Biết <span class="kbd">2</span></button></div></div>
       <button class="btn ghost sm" id="pcG">Bỏ qua phần từ vựng</button></div>`;
@@ -2254,6 +2289,15 @@ function TS_clean(){const c=TS_cleans;TS_cleans=[];c.forEach(f=>{try{f();}catch(
 function TS_count(groups){return groups.reduce((s,g)=>s+g.items.length*(g.kind==='multi'?2:1),0);}
 function TS_answered(A){return Object.values(A).reduce((s,v)=>s+(Array.isArray(v)?v.length:(v!==''&&v!=null&&String(v).trim()?1:0)),0);}
 const TS_v=dv=>/^\d+$/.test(dv)?+dv:dv;
+/* expert (band 8.5-9) pack: derived from data */
+const TS_XPILL='<span class="pill ts-xp">Chuyên gia 8.5-9</span>';
+const TS_bandHi=b=>{const m=String(b||'').match(/\d+(?:\.\d+)?/g);return m?+m[m.length-1]:0;};
+const LS_isX=t=>+t>=7;
+const RD_isXP=p=>TS_bandHi(p.band)>=9;
+const RD_isXT=(R,type,t)=>R.some(p=>p.type===type&&p.test===t&&RD_isXP(p));
+const TS_xHead=note=>`<div class="ts-xh"><h3>Đề chuyên gia (band 8.5-9)</h3><p class="note">${note}</p></div>`;
+const LS_XNOTE='Khó hơn đề thường: người nói nhanh và tự nhiên, nhiều bẫy sửa lời và paraphrase.';
+const RD_XNOTE='Khó hơn đề thường: bài học thuật dày, bẫy NOT GIVEN và paraphrase sát nghĩa.';
 
 function TS_itemHTML(g,it,k,n,A,sec){
   const v=A[k], kind=g.kind;
@@ -2353,7 +2397,7 @@ function TS_resHTML({raw,total,band,label,results,buttons=''}){
   const p=raw/total, st=p>=.8?'yay':p>=.55?'ok':'hmm';
   const msg=p>=.8?'Rất tốt. Xem lại vài câu sai rồi thử đề khó hơn.':p>=.55?'Khá ổn. Đọc kỹ phần giải thích các câu sai bên dưới.':'Chưa sao, xem giải thích từng câu sai rồi làm lại sau vài ngày.';
   return `<div class="panel ts-res"><div class="ts-res-top">${typeof mascot==='function'?mascot(st,80):''}
-    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div></div></div>
+    <div class="ts-res-n"><span class="label">${esc(label)}</span><div class="ts-score num">${raw}<span>/${total}</span></div><div class="ts-bandl">Band ước tính <b class="num">${fmtBand(band)}</b></div>${band>=8.5?'<span class="small ts-top">Mức này đủ cho yêu cầu 8.5+ của các chương trình khó nhất.</span>':''}</div></div>
     <p class="note">${msg} Bấm vào số câu để xem lại.</p>
     <div class="ts-dots">${results.map(r=>`<button type="button" class="ts-dot ${r.ok?'ok':''}" data-go="${r.k}" aria-label="Câu ${r.n} ${r.ok?'đúng':'sai'}">${r.n}</button>`).join('')}</div>
     ${buttons?`<div class="row">${buttons}</div>`:''}</div>`;
@@ -2389,16 +2433,19 @@ VIEWS.listen=async el=>{
 };
 function LS_home(el,L){
   TS_clean();window.__leave=TS_clean;
-  el.innerHTML=`<div class="view"><div class="spread"><h2>Listening</h2><span class="note">6 đề, 24 part, 240 câu</span></div>
+  el.innerHTML=`<div class="view"><div class="spread"><h2>Listening</h2><span class="note">${new Set(L.map(p=>p.test)).size} đề, ${L.length} part, ${L.reduce((s,p)=>s+TS_count(p.groups),0)} câu</span></div>
     ${subTabs('lsTabs',[['parts','Đề luyện'],['dict','Chép chính tả']],LS_tab,t=>{LS_tab=t;LS_home(el,L);})}
     <div id="lsBody" class="view"></div></div>`;
   const box=$('#lsBody',el);
   if(LS_tab==='dict'){LS_dict(box,L);return;}
   const mode=P.ls.mode||'practice', full=P.ls.full||{};
   const tests=[...new Set(L.map(p=>p.test))].sort((a,b)=>a-b);
-  box.innerHTML=TS_modeHTML(mode,LS_NOTES)+tests.map(t=>`<section class="ts-test"><div class="spread"><h3>Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('headphones')}Làm cả đề 40 câu${full[t]!=null?` <span class="ts-best">${full[t]}/40</span>`:''}</button></div>
-      <div class="ts-cards">${L.filter(p=>p.test===t).sort((a,b)=>a.part-b.part).map(p=>{const b=P.ls.best[p.id];
-        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">Part ${p.part}</span><span class="small muted num">Câu ${(p.part-1)*10+1}-${p.part*10}</span>${b!=null?`<span class="ts-best">${b}/10</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.setting)}</span></button>`;}).join('')}</div></section>`).join('');
+  const sec=t=>{const ps=L.filter(p=>p.test===t).sort((a,b)=>a.part-b.part), n=ps.reduce((s,p)=>s+TS_count(p.groups),0), x=LS_isX(t);
+    return `<section class="ts-test${x?' ts-xt':''}"><div class="spread"><h3>Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('headphones')}Làm cả đề ${n} câu${full[t]!=null?` <span class="ts-best">${full[t]}/${n}</span>`:''}</button></div>
+      <div class="ts-cards">${ps.map(p=>{const b=P.ls.best[p.id],c=TS_count(p.groups);
+        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">Part ${p.part}</span>${x?TS_XPILL:''}<span class="small muted num">Câu ${(p.part-1)*10+1}-${(p.part-1)*10+c}</span>${b!=null?`<span class="ts-best">${b}/${c}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.setting)}</span></button>`;}).join('')}</div></section>`;};
+  const xs=tests.filter(LS_isX);
+  box.innerHTML=TS_modeHTML(mode,LS_NOTES)+tests.filter(t=>!LS_isX(t)).map(sec).join('')+(xs.length?TS_xHead(LS_XNOTE)+xs.map(sec).join(''):'');
   TS_bindMode(box,P.ls,LS_NOTES);
   $$('[data-id]',box).forEach(b=>b.onclick=()=>{const p=L.find(x=>x.id===b.dataset.id);
     LS_run(el,{parts:[p],exam:(P.ls.mode||'practice')==='exam',title:`Listening Test ${p.test} Part ${p.part}`});});
@@ -2577,12 +2624,16 @@ function RD_home(el,R){
   const type=RD_type||examType(), mode=P.rd.mode||'practice', full=P.rd.full||{};
   const tabs=[examType(),examType()==='academic'?'general':'academic'];
   const list=R.filter(p=>p.type===type), tests=[...new Set(list.map(p=>p.test))].sort((a,b)=>a-b);
-  el.innerHTML=`<div class="view"><div class="spread"><h2>Reading</h2><span class="note">${list.length} bài ${RD_TN[type]}</span></div>
+  const isX=t=>RD_isXT(R,type,t);
+  const sec=t=>{const ps=list.filter(p=>p.test===t).sort((a,b)=>a.section-b.section), n=ps.reduce((s,p)=>s+TS_count(p.groups),0), x=isX(t);
+    return `<section class="ts-test${x?' ts-xt':''}"><div class="spread"><h3>${type==='general'?'General Training':'Academic'} Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('book-open')}Làm cả đề ${n} câu${full[type+t]!=null?` <span class="ts-best">${full[type+t]}/${n}</span>`:''}</button></div>
+      <div class="ts-cards">${ps.map(p=>{const c=TS_count(p.groups),b=P.rd.best[p.id];
+        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">${type==='general'?'Section':'Passage'} ${p.section}</span>${x?TS_XPILL:''}<span class="small muted num">${c} câu · band ${esc(p.band)}</span>${b!=null?`<span class="ts-best">${b}/${c}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.topic)}</span></button>`;}).join('')}</div></section>`;};
+  const xs=tests.filter(isX);
+  el.innerHTML=`<div class="view"><div class="spread"><h2>Reading</h2><span class="note">${tests.length} đề, ${list.length} bài ${RD_TN[type]}</span></div>
     ${subTabs('rdTabs',tabs.map(t=>[t,RD_TN[t]+(t===examType()?' (dạng bạn thi)':'')]),type,t=>{RD_type=t;RD_home(el,R);})}
     ${TS_modeHTML(mode,RD_NOTES)}
-    ${tests.map(t=>`<section class="ts-test"><div class="spread"><h3>${type==='general'?'General Training':'Academic'} Test ${t}</h3><button class="btn sm" data-full="${t}">${ic('book-open')}Làm cả đề 40 câu${full[type+t]!=null?` <span class="ts-best">${full[type+t]}/40</span>`:''}</button></div>
-      <div class="ts-cards">${list.filter(p=>p.test===t).sort((a,b)=>a.section-b.section).map(p=>{const n=TS_count(p.groups),b=P.rd.best[p.id];
-        return `<button class="ts-card" data-id="${p.id}"><span class="ts-card-h"><span class="pill">${type==='general'?'Section':'Passage'} ${p.section}</span><span class="small muted num">${n} câu · band ${esc(p.band)}</span>${b!=null?`<span class="ts-best">${b}/${n}</span>`:''}</span><span class="t">${esc(p.title)}</span><span class="s">${esc(p.topic)}</span></button>`;}).join('')}</div></section>`).join('')}</div>`;
+    ${tests.filter(t=>!isX(t)).map(sec).join('')}${xs.length?TS_xHead(RD_XNOTE)+xs.map(sec).join(''):''}</div>`;
   TS_bindMode(el,P.rd,RD_NOTES);
   $$('[data-id]',el).forEach(b=>b.onclick=()=>{const p=R.find(x=>x.id===b.dataset.id);RD_run(el,{passages:[p],exam:(P.rd.mode||'practice')==='exam',title:RD_title(p)});});
   $$('[data-full]',el).forEach(b=>b.onclick=()=>TS_readTest(el,+b.dataset.full,type,{exam:(P.rd.mode||'practice')==='exam'}));
@@ -2882,10 +2933,61 @@ function WR_helpHTML(x){
   }
   return `<details class="g wr-det"><summary>${ic('lightbulb')} Gợi ý dàn ý</summary><div class="wr-dbody">${notes}</div></details>
   <details class="g wr-det"><summary>${ic('book-a')} Cụm từ hay</summary><div class="wr-dbody"><div class="wr-phr">${phrases.map(([en,vi])=>`<div class="wr-ph"><button class="spk sm" data-say="${esc(en)}" aria-label="Nghe">${SPK}</button><div><b class="en">${esc(en)}</b><span class="note">${esc(vi)}</span></div></div>`).join('')}</div></div></details>
-  <details class="g wr-det" id="wrModelD"><summary>${ic('award')} Bài mẫu band 8</summary><div class="wr-dbody">${WR_modelHTML(x)}</div></details>`;
+  <details class="g wr-det" id="wrModelD"><summary>${ic('award')} Bài mẫu band 8 và band 9</summary><div class="wr-dbody">${WR_models(x)}</div></details>`;
 }
 function WR_modelHTML(x){
   return `<div class="row"><button class="spk" data-say="${esc(x.model||'')}" aria-label="Nghe bài mẫu">${SPK}</button><span class="note">Nghe đọc bài mẫu, ${countWords(x.model||'')} từ</span></div><div class="en-s wr-model">${WR_paras(x.model)}</div>`;
+}
+/* band 9 pack: default to band 9 for high targets or strong recent writing */
+function WR_pref9(){
+  try{const t=+plCfg().target||0, w=latestBands().writing; return t>=8.5||(w!=null&&w>=7.5);}catch(e){return false;}
+}
+const WR_hi9=()=>{try{return (+plCfg().target||0)>=8.5;}catch(e){return false;}};
+/* quoted phrases in a why9 explanation: "..." or “...”, split on ellipses */
+function WR_quotes(v){
+  const out=[]; const re=/"([^"]{3,})"|“([^”]{3,})”/g; let m;
+  while((m=re.exec(String(v||''))))String(m[1]||m[2]).split(/\s*(?:\.\.\.|…)\s*/).forEach(f=>{f=f.trim().replace(/^[,.;:]+|[,.;:]+$/g,'').trim();if(f.length>=4)out.push(f);});
+  return out;
+}
+/* essay text with why9 phrases marked (soft orange); returns paragraph html */
+function WR_hlText(text,why){
+  text=String(text||''); const rs=[];
+  (why||[]).forEach((w,k)=>WR_quotes(w&&w[1]).forEach(q=>{const f=WR_findRange(text,q);if(!f)return;const s=f[0],e=f[0]+f[1];
+    if(text.slice(s,e).includes('\n'))return; if(rs.some(r=>s<r.e&&e>r.s))return; rs.push({s,e,k});}));
+  rs.sort((a,b)=>a.s-b.s);
+  const seen=new Set(); let h='',p=0;
+  rs.forEach(r=>{h+=esc(text.slice(p,r.s));const first=!seen.has(r.k);seen.add(r.k);
+    h+=`<mark class="wr-hl9" data-w="${r.k}">${esc(text.slice(r.s,r.e))}${first?`<sup>${r.k+1}</sup>`:''}</mark>`;p=r.e;});
+  h+=esc(text.slice(p));
+  return h.split(/\n\s*\n/).map(t=>`<p>${t.trim().replace(/\n/g,'<br>')}</p>`).join('');
+}
+function WR_whyHTML(why){
+  return `<ol class="wr-why9">${(why||[]).map(([f,v],k)=>`<li data-w="${k}"><span class="wr-wn">${k+1}</span><div><b class="en">${esc(f)}</b><span>${esc(v)}</span></div></li>`).join('')}</ol>`;
+}
+function WR_model9HTML(x,o){
+  o=o||{}; const t=x.model9||x.sample9||'';
+  if(!t)return '<p class="note">Chưa có bài mẫu band 9 cho đề này.</p>';
+  return `<div class="row"><button class="spk" data-say="${esc(t)}"${o.voice?` data-voice="${o.voice}"`:''} aria-label="Nghe bài mẫu band 9">${SPK}</button><span class="note">Nghe đọc bài mẫu band 9, ${countWords(t)} từ</span></div>
+    <div class="en-s wr-model wr-m9">${WR_hlText(t,x.why9)}</div>
+    ${(x.why9||[]).length?`<div class="wr-b9s"><h4>Vì sao đạt band 9</h4><p class="note">Các cụm được tô cam trong bài ứng với từng ý dưới đây.</p>${WR_whyHTML(x.why9)}</div>`:''}
+    ${x.band8vs9?`<div class="wr-b9s"><h4>Khác gì band 8</h4><p class="wr-vs">${esc(x.band8vs9)}</p></div>`:''}`;
+}
+/* two-tab switch: [[label, html, is9], ...] */
+function WR_switch(tabs,def9){
+  const on=tabs.findIndex(t=>!!t[2]===!!def9), cur=on<0?0:on;
+  return `<div class="wr-sw">${tabs.length>1?`<div class="row wr-swt" role="tablist">${tabs.map((t,i)=>`<button type="button" class="chip" role="tab" data-swi="${i}" aria-pressed="${i===cur}">${t[0]}</button>`).join('')}</div>`:''}
+    ${tabs.map((t,i)=>`<div class="wr-swp" data-swp="${i}"${i===cur?'':' hidden'}>${t[1]}</div>`).join('')}</div>`;
+}
+if(!window.__wrSw){window.__wrSw=1;document.addEventListener('click',e=>{
+  const b=e.target.closest&&e.target.closest('[data-swi]'); if(!b)return; const sw=b.closest('.wr-sw'); if(!sw)return;
+  const i=b.dataset.swi;
+  $$(':scope>.wr-swt [data-swi]',sw).forEach(y=>y.setAttribute('aria-pressed',String(y.dataset.swi===i)));
+  $$(':scope>.wr-swp',sw).forEach(p=>p.hidden=p.dataset.swp!==i);
+});}
+function WR_models(x){
+  const tabs=[['Bài mẫu band 8',WR_modelHTML(x),false]];
+  if(x.model9)tabs.push(['Bài mẫu band 9',WR_model9HTML(x),true]);
+  return WR_switch(tabs,WR_pref9());
 }
 
 /* ---------- AI grading ---------- */
@@ -2919,8 +3021,10 @@ Learner's answer:
 ${String(text).slice(0,9000)}
 """
 
-Return JSON only, with this exact shape:
-{"bands":{"ta":6.5,"cc":6,"lr":6,"gra":5.5},"overall":6,"summary":"2-3 sentences in Vietnamese about the overall level and the main reason for the score","strengths":["Vietnamese, specific to this answer"],"improve":["Vietnamese, concrete and actionable, mention what to change and how"],"corrections":[{"orig":"an exact sentence or phrase copied character for character from the learner's answer","fix":"the corrected English","why":"short Vietnamese explanation"}],"better":"one improved version of the learner's weakest paragraph, in English, keeping the learner's ideas"}
+${WR_hi9()?`The learner is aiming for band 8.5-9, so be extra strict at the top of the scale. Apply the band 8 vs band 9 distinctions precisely: band 9 needs a fully developed, nuanced response, cohesion that attracts no attention, and only rare, minor "slips" in vocabulary and grammar; any repeated awkwardness, imprecise word choice, slightly mechanical linking or underdeveloped idea keeps a criterion at 8 or below. In "summary" and "improve", say explicitly (in Vietnamese) what is currently stopping each criterion from reaching 9.
+
+`:''}Return JSON only, with this exact shape:
+{"bands":{"ta":6.5,"cc":6,"lr":6,"gra":5.5},"overall":6,"summary":"2-3 sentences in Vietnamese about the overall level and the main reason for the score","strengths":["Vietnamese, specific to this answer"],"improve":["Vietnamese, concrete and actionable, mention what to change and how"],"corrections":[{"orig":"an exact sentence or phrase copied character for character from the learner's answer","fix":"the corrected English","why":"short Vietnamese explanation"}],"better":"one improved version of the learner's weakest paragraph, in English, keeping the learner's ideas${WR_hi9()?', written at genuine band 9 level':''}"}
 Rules: "ta" is the ${x._k==='t2'?'Task Response':'Task Achievement'} band. Each band is a number from 0 to 9 in steps of 0.5. Give 5 to 10 corrections, choosing the most important errors (grammar, word choice, collocation, spelling, register, linking); "orig" must appear exactly in the answer and be as short as possible while still showing the error. Give 2 to 4 strengths and 3 to 5 improvements. Vietnamese for explanations, English for corrected text. Do not use the em dash character.`;
 }
 function WR_norm(j){
@@ -2980,8 +3084,8 @@ function WR_resultHTML(x,text,r,opts){
   <div class="panel"><div class="spread"><h3>Bài của bạn, đã đánh dấu lỗi</h3><span class="small muted">${countWords(text)} từ</span></div>
     ${r.corrections.length?`<p class="note">Bấm vào chỗ gạch đỏ để xem cách sửa và lý do.</p>`:''}
     <div class="en-s wr-essay">${mk.html}</div>${missList}</div>
-  ${r.better?`<div class="panel"><h3>Viết lại đoạn yếu nhất</h3><div class="en-s wr-better">${WR_paras(r.better)}</div></div>`:''}
-  ${opts.model===false?'':`<details class="g wr-det" open><summary>${ic('award')} So sánh với bài mẫu band 8</summary><div class="wr-dbody">${WR_modelHTML(x)}</div></details>`}`;
+  ${r.better?`<div class="panel"><h3>Viết lại đoạn yếu nhất${WR_hi9()?' (band 9)':''}</h3><div class="en-s wr-better">${WR_paras(r.better)}</div></div>`:''}
+  ${opts.model===false?'':`<details class="g wr-det" open><summary>${ic('award')} So sánh với bài mẫu band 8 và band 9</summary><div class="wr-dbody">${WR_models(x)}</div></details>`}`;
 }
 function WR_bindResult(root){
   $$('.wr-err',root).forEach(b=>b.onclick=()=>{const f=b.nextElementSibling;const open=f.hidden;f.hidden=!open;b.setAttribute('aria-expanded',String(open));b.classList.toggle('on',open);});
@@ -3058,11 +3162,11 @@ function WR_open(el,id,showHist){
     out.innerHTML=`<div class="panel">${mcSay('calm','Bài đã được lưu. Hãy đọc bài mẫu và tự so sánh: bố cục, câu tổng quan, từ nối và cách dùng từ.',56)}
       <p class="note">${AI?'':'AI chấm bài cần mật khẩu nhóm (nhập ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
       <div class="grid2 wr-cmp"><div class="panel"><h3>Bài của bạn</h3><div class="en-s wr-essay">${esc(text)}</div></div>
-      <div class="panel"><h3>Bài mẫu band 8</h3>${WR_modelHTML(x)}</div></div>`;
+      <div class="panel"><h3>Bài mẫu</h3>${WR_models(x)}</div></div>`;
   };
   const run=async text=>{
     busy=true; const b=$('#wrSub',el); if(b)b.disabled=true;
-    out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Mít đang chấm bài, khoảng 20-40 giây</b><p class="note">Bạn cứ để trang này mở. Bài nháp vẫn được giữ nguyên.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
+    out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Bạn cứ để trang này mở. Bài nháp vẫn được giữ nguyên.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
     out.scrollIntoView({behavior:'smooth',block:'start'});
     try{
       const r=await WR_grade(x,text); if(!el.isConnected)return;
@@ -3131,11 +3235,11 @@ window.WR_exam=async(el,{onDone}={})=>{
     const out=$('#wxOut',el); window.scrollTo(0,0);
     const cont=band=>{const b=$('#wxDone',el);if(b)b.onclick=()=>{window.__leave=prevLeave||null;onDone&&onDone(band);};};
     const modelsOnly=(msg)=>{out.innerHTML=`<div class="panel">${mcSay('calm',msg,56)}</div>
-      ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu band 8</h3>${WR_modelHTML(x)}</div></div>`).join('')}
+      ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu</h3>${WR_models(x)}</div></div>`).join('')}
       <div class="row"><button class="btn primary" id="wxDone">Tiếp tục</button></div>`;cont(null);};
     if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần mật khẩu nhóm và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
     const grade=async()=>{
-      out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Mít đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
+      out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
       try{
         const rs=[];
         for(let i=0;i<2;i++){
@@ -3174,6 +3278,8 @@ const SP_NOSR='Trình duyệt này không nhận giọng nói, hãy dùng Chrome
 const SP_ms=()=>window.__spFast?50:1000;
 const SP_c=s=>String(s==null?'':s).replace(/\s*[\u2014\u2013]\s*/g,', ').replace(/\u2192/g,'->').replace(/\u2190/g,'<-').replace(/\u2194/g,'<->');
 const SP_hasSR=()=>!!(window.SpeechRecognition||window.webkitSpeechRecognition);
+const SP_hi9=()=>{try{return (+plCfg().target||0)>=8.5;}catch(e){return false;}};
+const SP_upB=()=>SP_hi9()?'band 9':'band 8';
 
 function SP_every(fn){let id=setInterval(fn,SP_ms());const t={stop(){if(id)clearInterval(id);id=null;SP_live.delete(t.stop);}};SP_live.add(t.stop);return t;}
 function SP_stopAll(){stopSay();[...SP_live].forEach(f=>{try{f();}catch(e){}});SP_live.clear();}
@@ -3296,17 +3402,19 @@ function SP_gradePrompt(desc,block){
 Task: ${desc}
 
 IMPORTANT: the candidate's answers below are a speech-to-text transcript (or typed by the learner). Punctuation, capital letters and some words may be wrong because of the recogniser, so do not punish punctuation, and if a word looks like a recognition error, judge what they most likely said. Judge Pronunciation only cautiously from indirect clues (missing word endings like -s/-ed, words the recogniser clearly misheard), and say in the summary that pronunciation is estimated from the transcript. A very short answer limits Fluency and Coherence.
-
+${SP_hi9()?`
+The candidate is aiming for band 8.5-9, so be extra strict at the top of the scale and apply the band 8 vs band 9 distinctions precisely: band 9 needs speech that is fluent with only rare, content-related hesitation, fully coherent and appropriately extended topic development, precise and idiomatic vocabulary used naturally, and consistently accurate complex grammar apart from native-like slips. In "summary" and "improve", say explicitly (in Vietnamese) what is currently stopping each criterion from reaching 9.
+`:''}
 ${block}
 
 Return JSON exactly in this shape:
-{"bands":{"fc":6,"lr":6,"gra":5.5,"pr":6},"overall":6,"summary":"2-3 sentences in Vietnamese","good":["1-3 strengths in Vietnamese"],"improve":["2-4 concrete tips in Vietnamese, each saying exactly what to do next time"],"fixes":[{"orig":"exact phrase the candidate said","fix":"better natural English","why":"short reason in Vietnamese"}],"upgrade":"a band 8 version of the candidate's answer in natural spoken British English, keeping their ideas and roughly their length or a little longer"}
+{"bands":{"fc":6,"lr":6,"gra":5.5,"pr":6},"overall":6,"summary":"2-3 sentences in Vietnamese","good":["1-3 strengths in Vietnamese"],"improve":["2-4 concrete tips in Vietnamese, each saying exactly what to do next time"],"fixes":[{"orig":"exact phrase the candidate said","fix":"better natural English","why":"short reason in Vietnamese"}],"upgrade":"a ${SP_upB()} version of the candidate's answer in natural spoken British English, keeping their ideas and roughly their length or a little longer"}
 Give 2-5 fixes from the candidate's own words. Vietnamese text must be natural and plain. Do not use the em dash character anywhere.`;
 }
 function SP_block(qs,answers){return qs.map((q,i)=>`Examiner: ${q}\nCandidate (transcript): ${answers[i]||'(no answer)'}`).join('\n\n').slice(0,40000);}
 function SP_feedback(box,{part,qs,answers,secs,record,id,title,att,desc,block,onBand}){
   const run=async()=>{
-    box.innerHTML=`<div class="sp-wait">${mcSay('idea','Mít đang nghe lại câu trả lời...',56)}</div>`;
+    box.innerHTML=`<div class="sp-wait">${mcSay('idea','Jack đang nghe lại câu trả lời...',56)}</div>`;
     const d=desc||`${part||'Speaking'} answer.${secs?` The candidate spoke for about ${Math.round(secs)} seconds.`:''}`;
     try{
       const j=await askJSON(SP_gradePrompt(d,block||SP_block(qs,answers)));
@@ -3338,7 +3446,7 @@ function SP_fbHTML(j,bands,ov){
     ${list(j.good)?`<div><h3>Điểm tốt</h3><ul class="sp-ul ok">${list(j.good)}</ul></div>`:''}
     ${list(j.improve)?`<div><h3>Cần cải thiện</h3><ul class="sp-ul">${list(j.improve)}</ul></div>`:''}
     ${fixes.length?`<div><h3>Sửa câu</h3><div class="sp-fixes">${fixes.map(f=>`<div class="sp-fix"><div class="en-s"><s>${esc(SP_c(f.orig))}</s></div><div class="en-s sp-fixok">${ic('check')} ${esc(SP_c(f.fix))}</div>${f.why?`<div class="note">${esc(SP_c(f.why))}</div>`:''}</div>`).join('')}</div></div>`:''}
-    ${up?`<div><h3>Câu trả lời nâng cấp (band 8)</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(up)}" data-voice="f" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(up)}</div></div></div>`:''}
+    ${up?`<div><h3>Câu trả lời nâng cấp (${SP_upB()})</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(up)}" data-voice="f" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(up)}</div></div></div>`:''}
   </div>`;
 }
 
@@ -3379,7 +3487,7 @@ function SP_home(el){
     const draw=()=>{
       const list=D.p2.map((c,i)=>[c,i]).filter(([c])=>SP_p2f==='all'||c.topic===SP_p2f);
       box.innerHTML=`<div class="panel"><div class="spread"><h3>${p2?'Chọn cue card':'Câu hỏi thảo luận Part 3 theo chủ đề'}</h3>${p2?`<button class="btn primary sm" data-rand>${ic('repeat')} Ngẫu nhiên</button>`:''}</div>
-        <p class="note">${p2?'Thẻ giống hệt đề thi: 1 phút chuẩn bị, 2 phút nói. Sau đó xem từ vựng, bài mẫu band 8 và sang Part 3.':'Mỗi cue card có 5 câu hỏi Part 3. Trả lời từng câu, khoảng 40-60 giây, rồi xem câu mẫu.'}</p>
+        <p class="note">${p2?'Thẻ giống hệt đề thi: 1 phút chuẩn bị, 2 phút nói. Sau đó xem từ vựng, bài mẫu band 8, band 9 và sang Part 3.':'Mỗi cue card có 5 câu hỏi Part 3. Trả lời từng câu, khoảng 40-60 giây, rồi xem câu mẫu.'}</p>
         <div class="row">${[['all','Tất cả'],...Object.entries(SP_TOP)].map(([k,t])=>`<button class="chip" data-f="${k}" aria-pressed="${SP_p2f===k}">${t}</button>`).join('')}</div>
         <div class="sp-cards">${list.map(([c,i])=>`<button class="sp-cl" data-c="${i}"><span class="pill">${SP_TOP[c.topic]||esc(c.topic)}</span><span class="en sp-clt">${esc(p2?c.card:c.card.replace(/^Describe /,'').replace(/\.$/,''))}</span>${p2?'':`<span class="note en">${esc(c.p3[0])}</span>`}${SP_doneId(c.id,p2?'Part 2':'Part 3')?`<span class="sp-tick" title="Đã luyện">${ic('check')}</span>`:''}</button>`).join('')}</div></div>`;
       $$('[data-f]',box).forEach(b=>b.onclick=()=>{SP_p2f=b.dataset.f;draw();});
@@ -3413,13 +3521,23 @@ function SP_head(el,back,label,title,step){
     <div class="spread"><h2 class="${/[A-Za-z]/.test(title)&&!/[À-ỹ]/.test(title)?'en':''}">${esc(title)}</h2>${step?`<span class="note num">${step}</span>`:''}</div>`;
 }
 function SP_dots(n,i){return `<div class="sp-steps" aria-hidden="true">${Array.from({length:n},(_,k)=>`<i class="${k<i?'d':k===i?'c':''}"></i>`).join('')}</div>`;}
-function SP_sampleHTML(q,samples,label){
-  const s=(samples||[]).find(x=>enFold(x[0])===enFold(q)); if(!s)return '';
-  return `<div class="panel sp-sample"><h3>${label||'Câu trả lời mẫu'}</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(s[1])}" data-voice="f" aria-label="Nghe câu mẫu">${SPK}</button><div class="en-s">${esc(s[1])}</div></div></div>`;
+function SP_sampleHTML(q,samples,label,samples9){
+  const f=a=>(a||[]).find(x=>enFold(x[0])===enFold(q));
+  const s=f(samples), s9=f(samples9); if(!s&&!s9)return '';
+  const one=(t,v)=>`<div class="ex sp-ex"><button class="spk" data-say="${esc(t)}" data-voice="${v}" aria-label="Nghe câu mẫu">${SPK}</button><div class="en-s">${esc(t)}</div></div>`;
+  const tabs=[]; if(s)tabs.push(['Câu mẫu',one(s[1],'f'),false]); if(s9)tabs.push(['Band 9',one(s9[1],'m'),true]);
+  return `<div class="panel sp-sample"><h3>${label||'Câu trả lời mẫu'}${!s&&s9?' <span class="pill sp-p9">Band 9</span>':''}</h3>${tabs.length>1?WR_switch(tabs,SP_hi9()):tabs[0][1]}</div>`;
+}
+/* Part 2 model talks: band 8 sample + band 9 sample9 with why9 */
+function SP_p2models(c,voice){
+  const v=voice==='m'?'f':'m';
+  const tabs=[['Bài mẫu band 8',`<div class="ex sp-ex"><button class="spk" data-say="${esc(c.sample)}" data-voice="${v}" aria-label="Nghe bài mẫu">${SPK}</button><div class="en-s">${esc(c.sample)}</div></div>`,false]];
+  if(c.sample9)tabs.push(['Bài mẫu band 9',WR_model9HTML(c,{voice:v}),true]);
+  return WR_switch(tabs,SP_hi9());
 }
 
 /* ---------- Part 1 and Part 3 practice (one question at a time) ---------- */
-function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
+function SP_series(el,{label,title,qs,samples,samples9,hint,part,id,back,voice,extra}){
   SP_stopAll(); SP_hook();
   let i=0; const ans=[];
   const draw=()=>{
@@ -3432,7 +3550,7 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
       onDone:r=>{
         ans[i]=r;
         const last=i===qs.length-1;
-        $('#spAfter',el).innerHTML=`${SP_sampleHTML(qs[i],samples)}<div class="row"><button class="btn primary" data-next>${last?'Xem tổng kết':'Câu tiếp'} ${ic('chevron-right')}</button></div>`;
+        $('#spAfter',el).innerHTML=`${SP_sampleHTML(qs[i],samples,'',samples9)}<div class="row"><button class="btn primary" data-next>${last?'Xem tổng kết':'Câu tiếp'} ${ic('chevron-right')}</button></div>`;
         $('[data-next]',el).onclick=()=>{ans[i]={q:qs[i],text:r.text,secs:r.secs};if(last)summary();else{i++;draw();}};
       }});
   };
@@ -3441,7 +3559,7 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
     const done=ans.filter(a=>a&&a.text);
     el.innerHTML=`<div class="view sp">${SP_head(el,back,label,title,'Tổng kết')}
       <div class="panel">${mcSay(done.length===qs.length?'yay':'ok',done.length?`Xong ${done.length}/${qs.length} câu. Đọc lại câu trả lời của bạn và so với câu mẫu nhé.`:'Bạn chưa trả lời câu nào. Thử lại nhé.',56)}</div>
-      <div class="panel"><h3>Câu trả lời của bạn</h3><div class="sp-sumlist">${qs.map((q,k)=>`<div class="sp-sq"><div class="en sp-sqq">${esc(q)}</div><div class="en-s">${ans[k]&&ans[k].text?esc(ans[k].text):'<span class="note">(chưa trả lời)</span>'}</div>${SP_sampleHTML(q,samples,'Câu mẫu').replace('panel sp-sample','sp-sample sm')}</div>`).join('')}</div>
+      <div class="panel"><h3>Câu trả lời của bạn</h3><div class="sp-sumlist">${qs.map((q,k)=>`<div class="sp-sq"><div class="en sp-sqq">${esc(q)}</div><div class="en-s">${ans[k]&&ans[k].text?esc(ans[k].text):'<span class="note">(chưa trả lời)</span>'}</div>${SP_sampleHTML(q,samples,'Câu mẫu',samples9).replace('panel sp-sample','sp-sample sm')}</div>`).join('')}</div>
         <div class="row">${done.length?`<button class="btn sm need-ai" data-ai>${ic('sparkles')} Nhận xét cả lượt bằng AI</button>`:''}<button class="btn sm" data-again>${ic('rotate-ccw')} Làm lại</button>${extra?extra.html:''}</div>
         <div class="sp-ai"></div></div></div>`;
     refreshAIBits();
@@ -3455,13 +3573,13 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
 }
 function SP_p1(el,ti){
   const t=SP_D.p1[ti];
-  SP_series(el,{label:'Part 1',title:t.topic,qs:t.qs.slice(0,5),samples:t.samples,part:'Part 1',back:'Chủ đề khác',voice:pick(['m','f']),
+  SP_series(el,{label:'Part 1',title:t.topic,qs:t.qs.slice(0,5),samples:t.samples,samples9:t.samples9,part:'Part 1',back:'Chủ đề khác',voice:pick(['m','f']),
     hint:'Trả lời 2-3 câu, khoảng 20-30 giây: nói ý chính, thêm một lý do hoặc ví dụ.',
     extra:{html:`<button class="btn sm" data-other>Chủ đề khác</button>`,bind:el=>{$('[data-other]',el).onclick=()=>{SP_tab='p1';SP_home(el);};}}});
 }
 function SP_p3(el,ci){
   const c=SP_D.p2[ci];
-  SP_series(el,{label:'Part 3',title:c.card.replace(/^Describe /,'').replace(/\.$/,'').replace(/^./,m=>m.toUpperCase()),qs:c.p3,samples:c.p3samples,part:'Part 3',id:c.id,back:'Danh sách',voice:pick(['m','f']),
+  SP_series(el,{label:'Part 3',title:c.card.replace(/^Describe /,'').replace(/\.$/,'').replace(/^./,m=>m.toUpperCase()),qs:c.p3,samples:c.p3samples,samples9:c.p3samples9,part:'Part 3',id:c.id,back:'Danh sách',voice:pick(['m','f']),
     hint:'Part 3 cần trả lời dài hơn, khoảng 40-60 giây: nêu quan điểm, giải thích lý do, thêm ví dụ hoặc so sánh.',
     extra:{html:`<button class="btn sm" data-other>Chủ đề khác</button>`,bind:el=>{$('[data-other]',el).onclick=()=>{SP_tab='p3';SP_home(el);};}}});
 }
@@ -3509,8 +3627,8 @@ function SP_p2(el,ci){
   SP_p2run($('#spRun',el),c,{voice,onReset:()=>{$('#spAfter',el).innerHTML='';},onDone:()=>{
     const a=$('#spAfter',el);
     a.innerHTML=`<div class="panel"><h3>Từ vựng hay cho đề này</h3><div class="sp-vocab">${c.vocab.map(([en,vi])=>`<div class="sp-v"><button class="spk sm" data-say="${esc(en)}" aria-label="Nghe">${SPK}</button><div><b class="en">${esc(en)}</b><span class="note">${esc(vi)}</span></div></div>`).join('')}</div></div>
-      <div class="panel"><div class="spread"><h3>Bài mẫu band 8</h3><button class="btn sm" data-show>Xem bài mẫu</button></div><div class="sp-hid" hidden>
-        <div class="ex sp-ex"><button class="spk" data-say="${esc(c.sample)}" data-voice="${voice==='m'?'f':'m'}" aria-label="Nghe bài mẫu">${SPK}</button><div class="en-s">${esc(c.sample)}</div></div>
+      <div class="panel"><div class="spread"><h3>Bài mẫu band 8 và band 9</h3><button class="btn sm" data-show>Xem bài mẫu</button></div><div class="sp-hid" hidden>
+        ${SP_p2models(c,voice)}
         <p class="note">Để ý cách bài mẫu đi lần lượt qua từng gợi ý trên thẻ và kết bằng phần "explain" dài nhất.</p></div></div>
       <div class="row"><button class="btn primary" data-p3>Sang Part 3 ${ic('chevron-right')}</button><button class="btn" data-other>${ic('repeat')} Cue card khác</button></div>`;
     $('[data-show]',a).onclick=e=>{const h=$('.sp-hid',a);h.hidden=!h.hidden;e.currentTarget.textContent=h.hidden?'Xem bài mẫu':'Ẩn bài mẫu';};
@@ -3552,7 +3670,7 @@ function SP_chat(el){
     C.busy=true; drawComp(); typing(true);
     C.msgs.push({role:'user',content:userContent});
     let text='';
-    try{const r=await ask(C.msgs);text=SP_c(r&&r.text||'').trim();}catch(e){text='';if(!C.warned){C.warned=1;toast(aiError(e)+' Mít dùng câu hỏi có sẵn.',4000);}}
+    try{const r=await ask(C.msgs);text=SP_c(r&&r.text||'').trim();}catch(e){text='';if(!C.warned){C.warned=1;toast(aiError(e)+' Jack dùng câu hỏi có sẵn.',4000);}}
     if(!document.body.contains(log))return;
     if(!text)text=fallbackQ();
     C.msgs.push({role:'assistant',content:text});
@@ -3631,7 +3749,7 @@ function SP_chat(el){
     res.innerHTML=`<div class="panel"><h3>Kết quả buổi phỏng vấn</h3><div class="sp-ai"></div><div class="row"><button class="btn" data-new>${ic('repeat')} Phỏng vấn lại</button></div></div>`;
     $('[data-new]',res).onclick=()=>SP_chat(el);
     SP_feedback($('.sp-ai',res),{record:true,id:'mock-ai',title:'Speaking: phỏng vấn giám khảo AI',block,
-      desc:`A full IELTS Speaking mock interview (Part 1 on "${t1.topic}", Part 2 cue card "${card.card}", Part 3 discussion). The test may have been ended early; assess what is there. For "upgrade", rewrite the candidate's Part 2 long turn (or their longest answer) at band 8.`});
+      desc:`A full IELTS Speaking mock interview (Part 1 on "${t1.topic}", Part 2 cue card "${card.card}", Part 3 discussion). The test may have been ended early; assess what is there. For "upgrade", rewrite the candidate's Part 2 long turn (or their longest answer) at ${SP_upB()}.`});
     res.scrollIntoView&&res.scrollIntoView({block:'start',behavior:'smooth'});
   }
   drawComp();
@@ -3681,9 +3799,9 @@ async function SP_exam(el,{onDone,back}={}){
     SP_stopAll(); i=steps.length;
     const answered=out.filter(x=>x.text);
     const samples=`<div class="panel"><h3>Câu mẫu để so sánh</h3>
-      ${q1.map(q=>SP_sampleHTML(q,t1.samples,'Part 1: '+esc(q))).join('')}
-      <div class="panel sp-sample"><h3>Part 2: bài mẫu band 8</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(card.sample)}" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(card.sample)}</div></div></div>
-      ${q3.map(q=>SP_sampleHTML(q,card.p3samples,'Part 3: '+esc(q))).join('')}</div>`;
+      ${q1.map(q=>SP_sampleHTML(q,t1.samples,'Part 1: '+esc(q),t1.samples9)).join('')}
+      <div class="panel sp-sample"><h3>Part 2: bài mẫu</h3>${SP_p2models(card,voice)}</div>
+      ${q3.map(q=>SP_sampleHTML(q,card.p3samples,'Part 3: '+esc(q),card.p3samples9)).join('')}</div>`;
     const yours=`<details class="sp-det panel"><summary>Xem lại câu trả lời của bạn (${answered.length}/${out.length})</summary><div class="sp-sumlist">${out.map(x=>`<div class="sp-sq"><span class="pill">${x.part}</span><div class="en sp-sqq">${esc(x.q.split('\n')[0])}</div><div class="en-s">${x.text?esc(x.text):'<span class="note">(chưa trả lời)</span>'}</div></div>`).join('')}</div></details>`;
     el.innerHTML=shell(`<div class="panel"><h3>Kết quả</h3><div class="sp-ai"></div></div>${yours}${samples}
       <div class="row"><button class="btn" data-again>${ic('repeat')} Thi đề khác</button></div>`,'Kết quả');
@@ -3693,7 +3811,7 @@ async function SP_exam(el,{onDone,back}={}){
     if(!AI){box.innerHTML=mcSay('ok','Bạn đã làm xong bài thi. Chưa bật trợ lý AI nên chưa chấm band được. Nghe lại câu mẫu và so với câu trả lời của bạn nhé.',56);fin(null);return;}
     const block=out.map(x=>`[${x.part}]${x.secs?` (${Math.round(x.secs)}s)`:''}\nExaminer: ${x.q.replace(/\n/g,' ')}\nCandidate (transcript): ${x.text||'(no answer)'}`).join('\n\n');
     SP_feedback(box,{record:true,id:'exam-'+card.id,title:'Thi thử Speaking: '+t1.topic+' + '+card.card,block,
-      desc:`A full IELTS Speaking test: Part 1 (${q1.length} questions on "${t1.topic}"), Part 2 long turn (cue card "${card.card}", 1 minute preparation, up to 2 minutes), Part 3 (${q3.length} discussion questions). Give one set of band scores for the whole test. For "upgrade", rewrite the candidate's Part 2 long turn at band 8.`,
+      desc:`A full IELTS Speaking test: Part 1 (${q1.length} questions on "${t1.topic}"), Part 2 long turn (cue card "${card.card}", 1 minute preparation, up to 2 minutes), Part 3 (${q3.length} discussion questions). Give one set of band scores for the whole test. For "upgrade", rewrite the candidate's Part 2 long turn at ${SP_upB()}.`,
       onBand:b=>{confetti&&b>=6.5&&confetti();fin(b);}});
     // if grading fails, the retry button stays; let the caller continue anyway
     const skip=document.createElement('div');skip.className='row';skip.innerHTML='<button class="btn ghost sm" data-skip>Bỏ qua chấm điểm</button>';
@@ -3703,8 +3821,9 @@ async function SP_exam(el,{onDone,back}={}){
 }
 window.SP_exam=(el,opts)=>SP_exam(el,opts||{});
 
-/* ================= GRAMMAR (Ngữ pháp): 60 points, list + detail + practice ================= */
-const GR_LV={1:'Nền tảng, band 5',2:'Band 6-6.5',3:'Band 7+'};
+/* ================= GRAMMAR (Ngữ pháp): points by level 1-4, list + detail + practice ================= */
+const GR_LV={1:'Nền tảng, band 5',2:'Band 6-6.5',3:'Band 7+',4:'Chuyên gia, band 8.5-9'};
+const GR_LVS=G=>[1,2,3,4].filter(L=>G.some(x=>x.lv===L));
 const GR_S={lv:0,q:'',id:null};
 function grData(){P.gr=P.gr||{};P.gr.done=P.gr.done||{};return P.gr;}
 // lenient compare for "Sửa lỗi": case, spaces, curly quotes, final punctuation
@@ -3728,21 +3847,21 @@ function grList(el,G){
       <input type="search" id="grQ" placeholder="Tìm theo tên, tên tiếng Anh hoặc nhóm" value="${esc(GR_S.q)}" aria-label="Tìm điểm ngữ pháp">
       <button class="btn primary" id="grQuick">${ic('zap')} Ôn nhanh 10 câu</button>
     </div>
-    ${subTabs('grLv',[['0','Tất cả'],['1',GR_LV[1]],['2',GR_LV[2]],['3',GR_LV[3]]],String(GR_S.lv),k=>{GR_S.lv=+k;$$('#grLv [data-t]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===k));draw();})}
+    ${subTabs('grLv',[['0','Tất cả'],...GR_LVS(G).map(L=>[String(L),GR_LV[L]])],String(GR_S.lv),k=>{GR_S.lv=+k;$$('#grLv [data-t]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===k));draw();})}
     <div id="grBox" class="gr-groups"></div>
   </div>`;
   const draw=()=>{
     const q=viFold(GR_S.q.trim());
     const list=G.filter(x=>(!GR_S.lv||x.lv===GR_S.lv)&&(!q||viFold(x.title+' | '+x.en+' | '+x.cat).includes(q)));
     if(!list.length){$('#grBox').innerHTML='<div class="empty">Không có điểm ngữ pháp nào khớp.</div>';return;}
-    $('#grBox').innerHTML=[1,2,3].map(L=>{
+    $('#grBox').innerHTML=GR_LVS(G).map(L=>{
       const xs=list.filter(x=>x.lv===L);if(!xs.length)return '';
       const dn=xs.filter(x=>d.done[x.id]).length, all=G.filter(x=>x.lv===L);
-      return `<section class="gr-sec"><div class="spread gr-sh"><h3>${GR_LV[L]}</h3><span class="note num">${all.filter(x=>d.done[x.id]).length}/${all.length}</span></div>
+      return `<section class="gr-sec gr-l${L}"><div class="spread gr-sh"><h3>${GR_LV[L]}</h3><span class="note num">${all.filter(x=>d.done[x.id]).length}/${all.length}</span></div>
         <div class="gr-list">${xs.map(x=>`<button class="gr-row${d.done[x.id]?' done':''}" data-id="${x.id}">
           <span class="check${d.done[x.id]?' on':''}" aria-hidden="true">${d.done[x.id]?ic('check'):''}</span>
           <span class="gr-rt"><b>${esc(x.title)}</b><span class="small muted">${esc(x.en)}</span></span>
-          <span class="pill gr-cat">${esc(x.cat)}</span></button>`).join('')}</div></section>`;
+          <span class="pill gr-cat${x.lv===4?' gr-p4':''}">${esc(x.cat)}</span></button>`).join('')}</div></section>`;
     }).join('');
     $$('#grBox [data-id]').forEach(b=>b.onclick=()=>{GR_S.id=b.dataset.id;grDetail(el,G,b.dataset.id);window.scrollTo(0,0);});
   };
@@ -3754,7 +3873,7 @@ function grList(el,G){
 function grQuick(el,G){
   const d=grData();
   let src=G.filter(x=>d.done[x.id]), from='các điểm bạn đã nắm';
-  if(src.length<3){src=G.filter(x=>!GR_S.lv||x.lv===GR_S.lv);from=GR_S.lv?'nhóm '+GR_LV[GR_S.lv]:'toàn bộ 60 điểm';}
+  if(src.length<3){src=G.filter(x=>!GR_S.lv||x.lv===GR_S.lv);from=GR_S.lv?'nhóm '+GR_LV[GR_S.lv]:'toàn bộ '+G.length+' điểm';}
   const pool=[];src.forEach(x=>x.quiz.forEach(q=>pool.push({q:q.s,o:q.o,a:q.a,w:q.w,src:'Ngữ pháp: '+x.title})));
   const items=shuffle(pool).slice(0,10);
   el.innerHTML=`<div class="view"><div class="row"><button class="btn ghost sm" id="grBack">${ic('chevron-left')} Danh sách</button></div><div id="grQz"></div></div>`;
@@ -3769,7 +3888,7 @@ function grDetail(el,G,id){
   el.innerHTML=`<div class="view gr gr-d">
     <div class="spread"><button class="btn ghost sm" id="grBack">${ic('chevron-left')} Danh sách</button><span class="note num">${idx+1}/${G.length}</span></div>
     <div class="panel gr-head">
-      <div class="row gr-pills"><span class="pill">${GR_LV[x.lv]}</span><span class="pill gr-cat">${esc(x.cat)}</span>${d.done[x.id]?'<span class="pill gr-ok">Đã nắm</span>':''}</div>
+      <div class="row gr-pills"><span class="pill gr-lvp gr-lv${x.lv}">${GR_LV[x.lv]||''}</span><span class="pill gr-cat">${esc(x.cat)}</span>${d.done[x.id]?'<span class="pill gr-ok">Đã nắm</span>':''}</div>
       <h2>${esc(x.title)}</h2><div class="gr-en">${esc(x.en)}</div>
       <div class="formula gr-form">${esc(x.form)}</div>
       <p class="gr-exp">${esc(x.explain)}</p>
@@ -3999,33 +4118,52 @@ function prSpeak(box,D){
 /* ================= THI THỬ (TS_ views) ================= */
 const TS_SK=[['listening','Listening','headphones','khoảng 30 phút, 40 câu'],['reading','Reading','book-open','60 phút, 40 câu'],['writing','Writing','pen-line','60 phút, Task 1 và Task 2'],['speaking','Speaking','mic','11 đến 14 phút, 3 phần']];
 let TS_M=null;
-const TS_rdN=(n,type)=>{const c=type==='general'?2:4;return ((n-1)%c)+1;};
+/* test lists from data: {lsN, lsX, rdN, rdX} (normal and expert test numbers) */
+async function TS_lists(type){
+  const [L,R]=await Promise.all([loadJSON('listening'),loadJSON('reading')]);
+  const lt=[...new Set(L.map(p=>p.test))].sort((a,b)=>a-b);
+  const rt=[...new Set(R.filter(p=>p.type===type).map(p=>p.test))].sort((a,b)=>a-b);
+  return {lsN:lt.filter(t=>!LS_isX(t)),lsX:lt.filter(LS_isX),rdN:rt.filter(t=>!RD_isXT(R,type,t)),rdX:rt.filter(t=>RD_isXT(R,type,t))};
+}
+/* a mock = {ls, rd, x, label}: normal mock N uses Reading N when it is a normal test, else cycles; expert mock i pairs expert tests */
+function TS_mockOf(T,key){
+  const x=String(key)[0]==='x', i=parseInt(String(key).replace('x',''),10)||1;
+  const ls=x?T.lsX:T.lsN, rd=x?T.rdX:T.rdN;
+  const l=ls.includes(i)&&!x?i:ls[(i-1)%Math.max(1,ls.length)];
+  const r=!x&&rd.includes(i)?i:rd.length?rd[(i-1)%rd.length]:null;
+  return {key:String(key),ls:l,rd:r,x,label:x?(ls.length>1?'đề chuyên gia '+i:'đề chuyên gia'):'đề '+i};
+}
 
 VIEWS.test=el=>{
   window.__leave=TS_clean;TS_clean();
   if(TS_M&&TS_M.step<4){TS_break(el);return;}
   TS_home(el);
 };
-function TS_home(el){
+async function TS_home(el){
   TS_clean();window.__leave=TS_clean;
   const type=examType(), hasW=typeof window.WR_exam==='function', hasS=typeof window.SP_exam==='function';
-  const nRd=type==='general'?2:4;
-  P.ts=P.ts||{};const last=P.ts.n||1;
+  let T;try{T=await TS_lists(type);}catch(e){el.innerHTML='<div class="view"><p class="note">Không tải được đề thi. Kiểm tra mạng rồi thử lại.</p></div>';return;}
+  const keys=T.lsN.map(String).concat(T.lsX.length&&T.rdX.length?T.lsX.map((_,i)=>'x'+(i+1)):[]);
+  P.ts=P.ts||{};const last=keys.includes(String(P.ts.n))?String(P.ts.n):keys[0];
+  const xLab=i=>T.lsX.length>1?'Chuyên gia '+i:'Đề chuyên gia';
+  const tName=type==='general'?'General Training':'Academic';
+  const tb=(attr,t,x)=>`<button class="btn sm${x?' ts-xb':''}" data-${attr}="${t}"${x?' title="Đề chuyên gia band 8.5-9"':''}>Đề ${t}${x?' (chuyên gia)':''}</button>`;
   const hist=(P.scores||[]).filter(s=>s.skill==='overall'||(s.total>=40)||((s.skill==='writing'||s.skill==='speaking')&&/thi/i.test(s.title||''))).slice(-20).reverse();
   const skn={listening:'Listening',reading:'Reading',writing:'Writing',speaking:'Speaking',overall:'Overall'};
   el.innerHTML=`<div class="view"><div class="spread"><h2>Thi thử</h2><span class="note">Dạng ${type==='general'?'General Training':'Academic'}</span></div>
     <div class="panel ts-mock">
       <div class="ts-mock-h">${typeof mascot==='function'?mascot('idea',64):''}<div><h3>Đề thi thử đầy đủ</h3><p class="note">Làm lần lượt bốn kỹ năng như ngày thi thật, có giờ cho từng phần. Giữa các phần được nghỉ, phần nào chưa muốn làm thì bỏ qua. Cuối cùng app tính band Overall.</p></div></div>
       <div class="ts-steps">${TS_SK.map(([k,t,i,d],x)=>`<div class="ts-step"><span class="ts-step-n">${x+1}</span>${ic(i)}<div><b>${t}</b><div class="small muted">${d}${k==='writing'&&!hasW||k==='speaking'&&!hasS?' · chưa có, sẽ bỏ qua':''}</div></div></div>`).join('')}</div>
-      <label class="label">Chọn đề</label>
-      <div class="row" id="tsPick">${[1,2,3,4,5,6].map(n=>`<button class="chip" data-n="${n}" aria-pressed="${n===last}">Đề ${n}</button>`).join('')}</div>
+      <div class="ts-pick-l" id="tsPick"><label class="label">Chọn đề</label>
+      <div class="row">${keys.filter(k=>k[0]!=='x').map(k=>`<button class="chip" data-n="${k}" aria-pressed="${k===last}">Đề ${k}</button>`).join('')}</div>
+      ${keys.some(k=>k[0]==='x')?`<label class="label">Đề chuyên gia (band 8.5-9)</label><div class="row">${keys.filter(k=>k[0]==='x').map(k=>`<button class="chip ts-xc" data-n="${k}" aria-pressed="${k===last}">${xLab(+k.slice(1))}</button>`).join('')}</div>`:''}</div>
       <p class="note" id="tsPickN"></p>
       <div class="row"><button class="btn primary" id="tsStart">${ic('play')}Bắt đầu thi thử</button></div>
     </div>
     <div class="panel"><h3>Thi từng kỹ năng</h3><p class="note">Làm riêng một bài đủ 40 câu theo giờ thật, kết quả được lưu vào tiến độ band.</p>
       <div class="ts-one">
-        <div class="ts-one-r"><span class="ts-one-t">${ic('headphones')}Listening</span><div class="row">${[1,2,3,4,5,6].map(n=>`<button class="btn sm" data-ls="${n}">Đề ${n}</button>`).join('')}</div></div>
-        <div class="ts-one-r"><span class="ts-one-t">${ic('book-open')}Reading ${type==='general'?'GT':'Academic'}</span><div class="row">${Array.from({length:nRd},(_,i)=>`<button class="btn sm" data-rd="${i+1}">Đề ${i+1}</button>`).join('')}</div></div>
+        <div class="ts-one-r"><span class="ts-one-t">${ic('headphones')}Listening</span><div class="row">${T.lsN.map(t=>tb('ls',t)).join('')}${T.lsX.map(t=>tb('ls',t,1)).join('')}</div></div>
+        <div class="ts-one-r"><span class="ts-one-t">${ic('book-open')}Reading ${type==='general'?'GT':'Academic'}</span><div class="row">${T.rdN.map(t=>tb('rd',t)).join('')}${T.rdX.map(t=>tb('rd',t,1)).join('')}</div></div>
         ${hasW?`<div class="ts-one-r"><span class="ts-one-t">${ic('pen-line')}Writing</span><div class="row"><button class="btn sm" id="tsW">Task 1 + Task 2, 60 phút</button></div></div>`:''}
         ${hasS?`<div class="ts-one-r"><span class="ts-one-t">${ic('mic')}Speaking</span><div class="row"><button class="btn sm" id="tsS">Part 1, 2, 3</button></div></div>`:''}
       </div></div>
@@ -4035,9 +4173,9 @@ function TS_home(el){
       <details class="g"><summary><span class="t">Bảng quy đổi điểm sang band (Listening và Reading)</span>${ic('chevron-right')}</summary><div class="ts-conv">${TS_convTable()}</div></details>
     </div></div>`;
   let n=last;
-  const pn=()=>{$('#tsPickN',el).textContent=`Đề ${n}: Listening Test ${n}, Reading ${type==='general'?'General Training':'Academic'} Test ${TS_rdN(n,type)}${hasW?', Writing':''}${hasS?', Speaking':''}.`;};pn();
-  $$('#tsPick [data-n]',el).forEach(b=>b.onclick=()=>{n=+b.dataset.n;$$('#tsPick [data-n]',el).forEach(x=>x.setAttribute('aria-pressed',x===b));pn();});
-  $('#tsStart',el).onclick=()=>{P.ts.n=n;touch('main');TS_M={n,type,step:0,bands:{},skipped:{},t:Date.now()};TS_break(el);};
+  const pn=()=>{const m=TS_mockOf(T,n);$('#tsPickN',el).textContent=`${m.x?xLab(+n.slice(1)):'Đề '+n}: Listening Test ${m.ls}, Reading ${tName} Test ${m.rd}${hasW?', Writing':''}${hasS?', Speaking':''}.${m.x?' Nghe nói nhanh, nhiều bẫy, bài đọc dày, dành cho mục tiêu 8.5-9.':''}`;};pn();
+  $$('#tsPick [data-n]',el).forEach(b=>b.onclick=()=>{n=b.dataset.n;$$('#tsPick [data-n]',el).forEach(x=>x.setAttribute('aria-pressed',x===b));pn();});
+  $('#tsStart',el).onclick=()=>{P.ts.n=n;touch('main');const m=TS_mockOf(T,n);TS_M={n,ls:m.ls,rd:m.rd,x:m.x,label:m.label,type,step:0,bands:{},skipped:{},t:Date.now()};TS_break(el);};
   const back=()=>TS_home(el);
   $$('[data-ls]',el).forEach(b=>b.onclick=()=>TS_listenTest(el,+b.dataset.ls,{exam:true,onExit:back,onDone:back,nextLabel:'Về Thi thử'}));
   $$('[data-rd]',el).forEach(b=>b.onclick=()=>TS_readTest(el,+b.dataset.rd,type,{exam:true,onExit:back,onDone:back,nextLabel:'Về Thi thử'}));
@@ -4057,7 +4195,7 @@ function TS_break(el){
   while(M.step<4&&!TS_has(TS_SK[M.step][0])){M.skipped[TS_SK[M.step][0]]=1;M.step++;}
   if(M.step>=4){TS_final(el);return;}
   const [k,t,i,d]=TS_SK[M.step];
-  el.innerHTML=`<div class="view"><div class="spread"><h2>Thi thử đề ${M.n}</h2><button class="btn ghost sm" id="tsQuit">Dừng thi thử</button></div>
+  el.innerHTML=`<div class="view"><div class="spread"><h2>Thi thử ${esc(TS_mLabel(M))} ${M.x?TS_XPILL:''}</h2><button class="btn ghost sm" id="tsQuit">Dừng thi thử</button></div>
     <div class="ts-prog">${TS_SK.map(([kk,tt],x)=>`<div class="ts-pg ${x<M.step?'done':x===M.step?'cur':''}"><i></i><span>${tt}</span><b class="num">${x<M.step?(M.skipped[kk]?'bỏ qua':fmtBand(M.bands[kk])):''}</b></div>`).join('')}</div>
     <div class="panel ts-brk">${typeof mascot==='function'?mascot(M.step?'ok':'hi',96):''}
       <span class="label">Phần ${M.step+1}/4</span><h3 class="ts-brk-t">${ic(i)} ${t}</h3><p class="note">${d}.</p>
@@ -4068,12 +4206,13 @@ function TS_break(el){
   const next=band=>{if(band!=null&&!isNaN(band))M.bands[k]=band;else M.skipped[k]=1;M.step++;TS_break(el);};
   const back=()=>TS_break(el);
   $('#tsGo',el).onclick=()=>{
-    if(k==='listening')TS_listenTest(el,M.n,{exam:true,mock:true,onExit:back,nextLabel:'Sang phần Reading',onDone:(r,tt)=>next(bandOf('listening',r,tt))});
-    else if(k==='reading')TS_readTest(el,TS_rdN(M.n,M.type),M.type,{exam:true,mock:true,onExit:back,nextLabel:'Sang phần tiếp theo',onDone:(r,tt)=>next(bandOf('reading',r,tt,M.type))});
+    if(k==='listening')TS_listenTest(el,M.ls||+M.n,{exam:true,mock:true,onExit:back,nextLabel:'Sang phần Reading',onDone:(r,tt)=>next(bandOf('listening',r,tt))});
+    else if(k==='reading')TS_readTest(el,M.rd||1,M.type,{exam:true,mock:true,onExit:back,nextLabel:'Sang phần tiếp theo',onDone:(r,tt)=>next(bandOf('reading',r,tt,M.type))});
     else{const f=k==='writing'?window.WR_exam:window.SP_exam;
       try{f(el,{mock:true,onDone:b=>next(b),onExit:back,back});}catch(e){console.error(e);toast('Không mở được phần '+t+'.');}}
   };
 }
+const TS_mLabel=M=>M.label||('đề '+M.n);
 function TS_tip(k,M){
   if(k==='listening')return 'Đeo tai nghe, ngồi chỗ yên tĩnh. Bài nghe phát một lần, giữa các part có 10 giây đọc trước câu hỏi. Hết bài có 2 phút kiểm tra lại.';
   if(k==='reading')return `Ba ${M.type==='general'?'section':'passage'}, 40 câu trong 60 phút. Nên dành khoảng 20 phút mỗi bài, câu khó thì đoán rồi đi tiếp.`;
@@ -4085,11 +4224,11 @@ function TS_final(el){
   const M=TS_M;TS_M=null;
   const bs=TS_SK.map(([k])=>M.bands[k]).filter(b=>b!=null);
   const ov=overallBand(bs), target=plCfg().target;
-  if(ov!=null){recordScore({skill:'overall',band:ov,title:'Thi thử đề '+M.n,detail:M.bands});}
+  if(ov!=null){recordScore({skill:'overall',band:ov,title:'Thi thử '+TS_mLabel(M),detail:M.bands});}
   if(bs.length)award('test',1);
   touch('main');
   const hit=ov!=null&&ov>=target;
-  el.innerHTML=`<div class="view"><h2>Kết quả thi thử đề ${M.n}</h2>
+  el.innerHTML=`<div class="view"><h2>Kết quả thi thử ${esc(TS_mLabel(M))}</h2>
     <div class="panel ts-fin">${typeof mascot==='function'?mascot(ov==null?'zzz':hit?'yay':ov>=target-1?'ok':'hmm',110):''}
       <div class="ts-fin-o"><span class="label">Overall</span><div class="ts-fin-b num">${fmtBand(ov)}</div><span class="small muted">Mục tiêu ${fmtBand(target)}</span></div></div>
     <div class="bands ts-fbands">${TS_SK.map(([k,t])=>`<div class="bd-c"><span class="small muted">${t}</span><b class="num">${M.bands[k]!=null?fmtBand(M.bands[k]):'-'}</b>${M.skipped[k]?'<span class="small muted">bỏ qua</span>':''}</div>`).join('')}</div>
@@ -4421,7 +4560,7 @@ VIEWS.home=el=>{
   const est=estBand(); const days=c.date?Math.ceil((new Date(c.date).getTime()-today())/DAY):null;
   const firstTime=Object.keys(P.srs).length<20&&!P.placed;
   el.innerHTML=`<div class="view home2">
-   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Mít tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Mít nhé.'}</p></div></div>
+   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
@@ -4431,7 +4570,7 @@ VIEWS.home=el=>{
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
      <div class="tasks">${tasks.map(t=>`<button class="task ${t.done?'done':''}" data-go="${t.go}"><span class="tk-c">${t.done?ic('check'):ic(UI_V[t.go]?UI_V[t.go][1]:'sparkles')}</span><span class="tk-t"><span><b>${esc(t.t)}</b>${t.n?` <span class="num muted small">${Math.min(t.n[0],t.n[1])}/${t.n[1]}</span>`:''}</span><span class="small muted">${esc(t.sub)}</span></span>${ic('chevron-right','tk-a')}</button>`).join('')}</div>
-     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp 8 phút</button> để Mít chọn lộ trình hợp với bạn.`,56):''}
+     ${firstTime?mcSay('idea',`Chưa biết mình đang ở band nào? Làm <button class="lnk" data-go="placement">bài xếp lớp 8 phút</button> để Jack chọn lộ trình hợp với bạn.`,56):''}
     </div>
     <div class="hm-side">
      <button class="mini band-mini" data-go="progress"><span class="label">Band ước lượng</span><span class="bm-row"><span class="mini-n num">${fmtBand(est)}</span><span class="bm-arrow">-></span><span class="bm-t num">${c.target.toFixed(1)}</span></span><span class="mini-l">${est==null?'Làm bài xếp lớp hoặc thi thử để biết':'Mục tiêu '+c.target.toFixed(1)+(days!=null&&days>0?`, còn ${days} ngày đến ngày thi`:'')}</span></button>
@@ -4463,7 +4602,7 @@ VIEWS.progress=el=>{
    <div class="ranks">${PL_RANKS.map((x,i)=>`<div class="rk ${i<=ri?'on':''}" title="${x[2]}: ${x[0]} XP">${catSVG(i<=ri?'calm':'zzz',44,i)}<span class="rk-n">${x[1]}</span><span class="small">${x[0]} XP</span></div>`).join('')}</div>
    <div class="panel"><div class="spread"><h3>Band</h3><span class="note">Mục tiêu ${c.target.toFixed(1)}, ${c.exam==='general'?'General Training':'Academic'}</span></div>
      <div class="bands">${['listening','reading','writing','speaking'].map(s=>`<div class="bd-c"><span class="small muted">${SK_NAME[s]}</span><b class="num">${fmtBand(lb[s])}</b></div>`).join('')}<div class="bd-c ov"><span class="small">Overall</span><b class="num">${fmtBand(est)}</b></div></div>
-     ${hist.length?`<details class="adv"><summary>Lịch sử điểm (${(P.scores||[]).length})</summary><div class="sc-list">${hist.map(s=>`<div class="kv"><span>${new Date(s.t).toLocaleDateString('vi-VN')} ${esc(s.title||SK_NAME[s.skill]||s.skill)}</span><b class="num">${s.raw!=null&&s.total?s.raw+'/'+s.total+', ':''}${fmtBand(s.band)}</b></div>`).join('')}</div></details>`:'<p class="note">Chưa có điểm. Làm bài xếp lớp hoặc một bài thi thử để Mít ghi lại.</p>'}
+     ${hist.length?`<details class="adv"><summary>Lịch sử điểm (${(P.scores||[]).length})</summary><div class="sc-list">${hist.map(s=>`<div class="kv"><span>${new Date(s.t).toLocaleDateString('vi-VN')} ${esc(s.title||SK_NAME[s.skill]||s.skill)}</span><b class="num">${s.raw!=null&&s.total?s.raw+'/'+s.total+', ':''}${fmtBand(s.band)}</b></div>`).join('')}</div></details>`:'<p class="note">Chưa có điểm. Làm bài xếp lớp hoặc một bài thi thử để Jack ghi lại.</p>'}
      <div class="row"><button class="btn sm" data-go="test">${ic('clipboard-check')} Thi thử</button><button class="btn sm" data-go="placement">Bài xếp lớp</button><button class="btn sm" id="pgPlan">Đổi lộ trình</button></div></div>
    <div class="stats4">
      <div class="panel st"><span class="st-i fl">${ic('flame')}</span><b class="num">${streak()}</b><span class="small muted">ngày liên tiếp</span></div>
@@ -4494,7 +4633,7 @@ function uiToggles(root,after){
 function uiToggleHTML(){
   const g=typeof gmData==='function'?gmData():{};
   return `${uiTg('tgIpa','Phiên âm IPA',P.settings.ipa!==false,'Hiện phiên âm trên thẻ từ')}
-   ${uiTg('tgSnd','Âm hiệu đúng sai',!g.mute,'Tiếng "ting" khi đúng, tiếng trầm khi sai')}${uiTg('tgMc','Mít',!P.settings.noMascot,'Mèo cam đi cùng bạn ở các mốc học')}
+   ${uiTg('tgSnd','Âm hiệu đúng sai',!g.mute,'Tiếng "ting" khi đúng, tiếng trầm khi sai')}${uiTg('tgMc','Jack',!P.settings.noMascot,'Mèo cam đi cùng bạn ở các mốc học')}
    <div class="tg-row static"><span><b>Giao diện</b></span><span class="row">${[['','Tự động'],['light','Sáng'],['dark','Tối']].map(([k,t])=>`<button class="chip" data-theme-set="${k}" aria-pressed="${(P.settings.theme||'')===k}">${t}</button>`).join('')}</span></div>
    <button class="tg-row" id="tgVoice2"><span><b>Giọng đọc và tốc độ</b><span class="small muted">Anh, Úc hay Mỹ, giọng nam, giọng nữ, đọc chậm hay nhanh</span></span>${ic('chevron-right')}</button>`;
 }
@@ -4520,7 +4659,7 @@ VIEWS.settings=el=>{
      ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>':''}
      ${WEB&&getKey()?'<button class="btn ghost sm" id="stOut" style="align-self:flex-start">Quên mật khẩu trên máy này</button>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
-   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Mít</button></div>
+   <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button></div>
      <p class="note">Catalis, Stalis's IELTS. Danh sách từ: NGSL và NAWL (Browne, Culligan, Phillips; CC BY-SA 4.0). Phiên âm tham khảo ipa-dict (MIT). Đề luyện, bài mẫu do Catalis soạn riêng theo định dạng IELTS, không phải đề thi thật.</p></div>
   </div>`;
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
@@ -4575,7 +4714,7 @@ function uiCele(html,cls){
 }
 window.__rankUp=b=>{
   const i=PL_RANKS.indexOf(b), nx=PL_RANKS[i+1];
-  uiCele(`<div class="cele-mc">${catSVG('yay',140,i)}</div><div class="stamp">${b[1]}</div><h2>Bạn đã lên ${b[2]}!</h2><p>${UI_RANK_DESC[i]||''} Mít có phụ kiện mới rồi.</p>${nx?`<p class="small" style="opacity:.85">Mốc tiếp theo: ${nx[1]}, ${nx[0]} XP.</p>`:''}<button class="btn cele-btn" data-close>Tuyệt vời</button>`,'rank');
+  uiCele(`<div class="cele-mc">${catSVG('yay',140,i)}</div><div class="stamp">${b[1]}</div><h2>Bạn đã lên ${b[2]}!</h2><p>${UI_RANK_DESC[i]||''} Jack có phụ kiện mới rồi.</p>${nx?`<p class="small" style="opacity:.85">Mốc tiếp theo: ${nx[1]}, ${nx[0]} XP.</p>`:''}<button class="btn cele-btn" data-close>Tuyệt vời</button>`,'rank');
   uiSfx('end');setTimeout(()=>confetti({count:130}),300);uiChips();
 };
 window.__goalDone=()=>{
@@ -4598,7 +4737,7 @@ function uiIntro(force){
   if(!force&&store.get('catalis-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Mít</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}!</h2><p>Mình lớn lên theo danh hiệu của bạn, từ Freshman đến Professor. Mỗi lần lên hạng, mình được thêm phụ kiện mới.</p>
       <div class="hats">${[0,1,2,4,5,7].map(i=>catSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',96)}</div><h2>Bạn thi dạng nào?</h2><div class="row" style="justify-content:center">${[['academic','Academic'],['general','General Training']].map(([k,t])=>`<button class="chip big" data-ex="${k}" aria-pressed="${c.exam===k}">${t}</button>`).join('')}</div>
@@ -4677,7 +4816,7 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')?location.origin:'https://catalis.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Mít hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học cần đồng bộ trên máy chủ. Khi máy chủ bật đồng bộ, cả nhóm sẽ thấy nhau ở đây.',64)}${invite}</div>`;bindInv();return;}

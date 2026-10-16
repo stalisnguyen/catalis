@@ -1,0 +1,994 @@
+[
+ {
+  "id": "l8p1",
+  "test": 8,
+  "part": 1,
+  "title": "Joining a community orchestra",
+  "setting": "Một người chơi đàn gọi điện cho thư ký dàn nhạc cộng đồng để hỏi về việc gia nhập, phí thành viên và buổi thử giọng.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Clare (membership secretary)",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Rhys",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Hello, Westbridge Community Orchestra, Clare speaking."
+   ],
+   [
+    "B",
+    "Oh, hi, Clare. Um, I got this number off a poster in the library. I'm, well, I'm interested in joining, if you're taking new people at the moment?"
+   ],
+   [
+    "A",
+    "We are, yes, though it depends a bit on the section, to be honest. What do you play?"
+   ],
+   [
+    "B",
+    "So I started on violin as a kid, and I do still play it, but I've been doing a lot more viola for the last few years. I sort of drifted over."
+   ],
+   [
+    "A",
+    "Right. Well, I'll be frank with you, the violins are rather oversubscribed at the moment. There's a waiting list as long as your arm."
+   ],
+   [
+    "B",
+    "Ah. And the violas?"
+   ],
+   [
+    "A",
+    "Violas we're crying out for. We lost two at the end of last season, one moved away and the other, well, retired, I suppose you'd call it."
+   ],
+   [
+    "B",
+    "Then let's go with viola. That's where I'd rather be anyway, if I'm honest."
+   ],
+   [
+    "A",
+    "Lovely. Let me just open up a form. Can I take your name?"
+   ],
+   [
+    "B",
+    "Sure, it's Rhys, R-H-Y-S, and the surname's Aylward."
+   ],
+   [
+    "A",
+    "And is that A-I-L...?"
+   ],
+   [
+    "B",
+    "No, everyone does that. It's A-Y-L, then W-A-R-D."
+   ],
+   [
+    "A",
+    "A-Y-L-W-A-R-D. Got it, thanks. Now, have you had a chance to look at the membership options on our website?"
+   ],
+   [
+    "B",
+    "I had a quick glance, but I'm not sure I took it all in. There were three, weren't there?"
+   ],
+   [
+    "A",
+    "That's right. Full membership means you play in all four concerts and come to every rehearsal. Associate is for people who can only commit to a couple of concerts a year. And then supporter, which is non-playing."
+   ],
+   [
+    "B",
+    "Hmm. I travel for work quite a bit, so every single rehearsal might be pushing it. I mean, I'd love to say full, but I'd probably just end up letting people down."
+   ],
+   [
+    "A",
+    "Plenty of our players are in the same boat, so don't worry."
+   ],
+   [
+    "B",
+    "Yeah, I'll be realistic and go for associate. I can always upgrade later, can't I?"
+   ],
+   [
+    "A",
+    "You can, at any point in the season. So the associate fee is £95 for the year."
+   ],
+   [
+    "B",
+    "Oh, I thought the website said £110."
+   ],
+   [
+    "A",
+    "That was last year's figure, I'm afraid the site's a bit behind. The committee brought it down in September. Full is £140, just for comparison."
+   ],
+   [
+    "B",
+    "Well, that's a pleasant surprise. And, sorry, the poster mentioned an audition. How formal is that? I haven't done one since uni."
+   ],
+   [
+    "A",
+    "Oh, it's very relaxed. You play a short piece of your own choice, five minutes or so, and then there's a bit of sight-reading. We used to ask for scales as well, but we dropped those a couple of years ago."
+   ],
+   [
+    "B",
+    "Thank goodness. Scales were always my weak spot. Sight-reading I can cope with."
+   ],
+   [
+    "A",
+    "Now, the string auditions are on Wednesday the twelfth, and I've got a slot at 7:15."
+   ],
+   [
+    "B",
+    "7:15... the thing is, I'm not back from Leeds until about seven that day. It'd be really tight."
+   ],
+   [
+    "A",
+    "Hang on, let me have a look. Ah, actually, the conductor's asked to run a bit later anyway, so there's a slot at 8:15. Would that suit you better?"
+   ],
+   [
+    "B",
+    "Much better, yes. Put me down for that one."
+   ],
+   [
+    "A",
+    "Done. And it won't be in the main hall, because that's being rewired. It'll be in the Garden Room, round the back of St Anne's. Follow the signs from the car park."
+   ],
+   [
+    "B",
+    "OK. And do I need to bring anything apart from the viola?"
+   ],
+   [
+    "A",
+    "Do bring your own music stand, if you've got one. We've got plenty of chairs, obviously, but stands have a habit of walking off."
+   ],
+   [
+    "B",
+    "Ha, fair enough. What about copies of my piece for the panel?"
+   ],
+   [
+    "A",
+    "No, they won't need those. Now, assuming all goes well, rehearsals are on Thursday evenings, from seven till half past nine."
+   ],
+   [
+    "B",
+    "Thursdays? I'm sure the poster said Tuesdays."
+   ],
+   [
+    "A",
+    "It did, and that's a poster we really need to take down. We moved to Thursdays in the summer when the hall changed its bookings."
+   ],
+   [
+    "B",
+    "Right. And parking, is there anywhere nearby? I'll have the viola and a stand, so I don't really fancy a long walk."
+   ],
+   [
+    "A",
+    "There's the supermarket on the corner, but they charge after six, so most of us use the leisure centre on Kemp Street. It's free in the evenings and it's only a couple of minutes away."
+   ],
+   [
+    "B",
+    "Brilliant. Last thing, is there any chance of getting hold of the music early? I'm a slow learner."
+   ],
+   [
+    "A",
+    "Not from me, I'm afraid. Our librarian looks after all the parts, so I'll pass your details on and she'll email you the viola parts once you're in."
+   ],
+   [
+    "B",
+    "That's great. Thanks so much, Clare, you've been really helpful."
+   ],
+   [
+    "A",
+    "My pleasure, Rhys. See you on the twelfth."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-10. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Name: Rhys ___",
+      "a": "Aylward",
+      "why": "Clare đoán \"A-I-L...\" nhưng Rhys sửa: \"No, everyone does that. It's A-Y-L, then W-A-R-D\". Bẫy là cách viết A-I-L."
+     },
+     {
+      "q": "Section he will join: ___",
+      "a": "viola",
+      "why": "Anh chơi được cả violin nhưng nhóm violin đang thừa người (\"oversubscribed\"), nên chọn: \"Then let's go with viola\"."
+     },
+     {
+      "q": "Membership type: ___",
+      "a": "associate",
+      "why": "Anh muốn chọn full nhưng sợ không đi tập đủ: \"I'll be realistic and go for associate\". Full và supporter là bẫy."
+     },
+     {
+      "q": "Annual fee: £___",
+      "a": "95|ninety-five",
+      "why": "£110 là giá năm ngoái trên website, £140 là giá full. Giá hiện tại: \"the associate fee is £95 for the year\"."
+     },
+     {
+      "q": "Audition: own piece (about five minutes) plus ___",
+      "a": "sight-reading|sight reading",
+      "why": "\"a short piece of your own choice... and then there's a bit of sight-reading\". Scales đã bị bỏ (\"we dropped those\")."
+     },
+     {
+      "q": "Audition time: ___ pm on Wednesday 12th",
+      "a": "8:15|8.15|quarter past eight",
+      "why": "Giờ ban đầu 7:15 không hợp vì anh về muộn; Clare đổi sang \"there's a slot at 8:15\" và anh đồng ý."
+     },
+     {
+      "q": "Location: the ___ Room, St Anne's",
+      "a": "Garden",
+      "why": "Main hall đang sửa điện (\"being rewired\"), nên thử ở \"the Garden Room, round the back of St Anne's\"."
+     },
+     {
+      "q": "Bring: own music ___",
+      "a": "stand",
+      "why": "\"Do bring your own music stand\". Ghế thì có sẵn, bản nhạc cho ban giám khảo thì không cần."
+     },
+     {
+      "q": "Rehearsals: ___ evenings, 7-9.30 pm",
+      "a": "Thursday|Thursdays",
+      "why": "Poster ghi Tuesdays nhưng đã cũ: \"We moved to Thursdays in the summer\"."
+     },
+     {
+      "q": "Parking: free at the ___ centre on Kemp Street",
+      "a": "leisure",
+      "why": "Siêu thị thu phí sau 6 giờ nên mọi người dùng \"the leisure centre on Kemp Street. It's free in the evenings\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l8p2",
+  "test": 8,
+  "part": 2,
+  "title": "Changes to the city cycle scheme",
+  "setting": "Trên chương trình radio địa phương, một cán bộ giao thông giải thích những thay đổi của hệ thống xe đạp công cộng trong thành phố.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Presenter",
+    "voice": "m",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Dana Kowalski (transport officer)",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "And joining me now is Dana Kowalski from the council's transport team, who's here to talk us through the changes to the Pedal Point bike scheme. Dana, over to you."
+   ],
+   [
+    "B",
+    "Thanks. So, the scheme's been running for six years now, and, well, it's fair to say it's been showing its age."
+   ],
+   [
+    "B",
+    "People often assume the big problem was theft, and yes, we lose a few bikes, but honestly that's never been more than a minor irritation."
+   ],
+   [
+    "B",
+    "The real headache has been distribution. Every weekday morning, the stations in the centre fill up by half past eight and the ones out in the suburbs are bare, and then the whole thing flips in the evening."
+   ],
+   [
+    "B",
+    "Our vans simply can't move bikes around fast enough."
+   ],
+   [
+    "B",
+    "So that, more than anything, is what this overhaul is designed to fix. Now, the change most people will notice first is the e-bikes. We're adding three hundred of them from March."
+   ],
+   [
+    "B",
+    "There was a proposal to let everyone ride them for free for the first month, just to get people hooked, I suppose."
+   ],
+   [
+    "B",
+    "We looked at it hard, but the numbers didn't add up. What we've gone with instead is charging for e-bikes by the minute rather than a flat fee per ride."
+   ],
+   [
+    "B",
+    "So a short hop costs very little, but nobody's tempted to hang on to one all afternoon while it sits outside a café."
+   ],
+   [
+    "B",
+    "Now, some docking stations will be closing, which I know won't be popular with everyone. There was a lot of talk about removing the ones on steep hills, since nobody wants to push a bike up Castle Brow."
+   ],
+   [
+    "B",
+    "But with e-bikes, hills become much less of an issue, so those are staying. The ones going are the stations that see barely a handful of users a day. We'll put that money into bigger stations where demand actually is."
+   ],
+   [
+    "B",
+    "What about people who've already paid for an annual pass? The price for new members goes up to £85 in April."
+   ],
+   [
+    "B",
+    "If you're an existing member, though, you'll keep paying the old rate, and that holds until your current pass comes up for renewal. After that, it's the new price, I'm afraid."
+   ],
+   [
+    "B",
+    "We did consider refunding the difference to people who'd signed up recently, but, frankly, the admin would've cost more than the refunds."
+   ],
+   [
+    "B",
+    "The app's had a complete rebuild, too. I'll be honest, the old one was, um, not much loved."
+   ],
+   [
+    "B",
+    "The live map showing how many bikes are at each station isn't new, it's been there from day one, but it'll now update every thirty seconds instead of every five minutes."
+   ],
+   [
+    "B",
+    "What's genuinely new is that you can hold a bike for up to fifteen minutes before you get to the station, so you're not walking there only to find someone's beaten you to it."
+   ],
+   [
+    "B",
+    "And if you find a bike with a flat tyre or dodgy brakes, you can now flag it straight from the app with a photo, rather than ringing our helpline."
+   ],
+   [
+    "B",
+    "That means the bike gets locked out of use until a mechanic's had a look at it."
+   ],
+   [
+    "B",
+    "People have been asking for a route planner that avoids hills, and group bookings for families. Both are on the list, but realistically, not before next year."
+   ],
+   [
+    "B",
+    "Then there's pricing. The student discount stays exactly as it is, so nothing changes there. But two groups who've never qualified before will now get half-price annual passes."
+   ],
+   [
+    "B",
+    "First, anyone receiving unemployment support, because we know that getting to interviews can be a real expense. And second, night-shift workers at the city's hospitals, who often finish when there are no buses running at all."
+   ],
+   [
+    "B",
+    "We did look at extending the discount to everyone over sixty-five, but they already travel free on the buses, so the case was weaker."
+   ],
+   [
+    "B",
+    "One more thing which has caused a bit of a stir. From May, bikes can't be docked or unlocked in the old town between ten at night and six in the morning."
+   ],
+   [
+    "B",
+    "Some residents had complained about noise, and I understand that, but that's not actually what drove the decision."
+   ],
+   [
+    "B",
+    "The streets there are very narrow and poorly lit, and we've had a worrying number of near misses between bikes and people on foot after dark. Keeping riders out at those hours is about protecting pedestrians, plain and simple."
+   ],
+   [
+    "B",
+    "And finally, we'll be adding around twenty new stations later in the year, and we want local people to tell us where."
+   ],
+   [
+    "B",
+    "We're not running public meetings this time, attendance was dismal last round. Instead, there's an interactive map on the council website where you can drop a pin on the spot you'd like a station."
+   ],
+   [
+    "B",
+    "If enough people pin the same area, it goes on the shortlist. So please, do have a go before the end of February."
+   ],
+   [
+    "A",
+    "Dana Kowalski, thank you very much."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-14. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "According to Dana, the main reason for changing the scheme is that",
+      "o": [
+       "too many bikes have been stolen.",
+       "bikes are not in the right places at the right times.",
+       "the vans used by the scheme are too old."
+      ],
+      "a": 1,
+      "why": "Theft chỉ là \"a minor irritation\". Vấn đề thật là \"distribution\": sáng thì trung tâm đầy, ngoại ô trống. Vans có được nhắc nhưng chỉ là không kịp chở xe, không phải cũ."
+     },
+     {
+      "q": "How will people pay for the new e-bikes?",
+      "o": [
+       "They will be free for the first month.",
+       "There will be a fixed charge for each journey.",
+       "The cost will depend on how long they are used."
+      ],
+      "a": 2,
+      "why": "Ý tưởng miễn phí tháng đầu bị bác (\"the numbers didn't add up\"); \"charging... by the minute rather than a flat fee per ride\" = phụ thuộc thời gian dùng."
+     },
+     {
+      "q": "Which docking stations will be closed?",
+      "o": [
+       "the ones on steep hills",
+       "the ones that are rarely used",
+       "the ones that are too small"
+      ],
+      "a": 1,
+      "why": "Trạm trên đồi được giữ lại vì có e-bike. Trạm bị đóng là \"the stations that see barely a handful of users a day\". Trạm lớn hơn là nơi sẽ đầu tư thêm, không phải lý do đóng."
+     },
+     {
+      "q": "What will happen to existing annual pass holders?",
+      "o": [
+       "They will pay the old price until their pass needs renewing.",
+       "They will receive a partial refund.",
+       "They will pay the new price from April."
+      ],
+      "a": 0,
+      "why": "\"you'll keep paying the old rate, and that holds until your current pass comes up for renewal\". Hoàn tiền đã được cân nhắc nhưng bỏ; giá mới từ tháng 4 chỉ áp dụng cho thành viên mới."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 15-18. Choose TWO letters, A-E, for each question.",
+    "items": [
+     {
+      "q": "Questions 15-16. Which TWO features are new in the app?",
+      "o": [
+       "seeing how many bikes are at each station",
+       "reserving a bike in advance",
+       "planning routes that avoid hills",
+       "reporting a faulty bike",
+       "booking several bikes for a group"
+      ],
+      "a": [
+       1,
+       3
+      ],
+      "why": "Bản đồ số xe đã có từ đầu (\"isn't new\"). Mới: giữ xe 15 phút (\"hold a bike for up to fifteen minutes\") và báo lỗi xe kèm ảnh (\"flag it straight from the app\"). Route planner và group booking phải đợi năm sau."
+     },
+     {
+      "q": "Questions 17-18. Which TWO groups will become eligible for a discount?",
+      "o": [
+       "students",
+       "people over sixty-five",
+       "people who are looking for work",
+       "hospital employees who work at night",
+       "people living in the old town"
+      ],
+      "a": [
+       2,
+       3
+      ],
+      "why": "Sinh viên đã có giảm giá từ trước (\"stays exactly as it is\"); người trên 65 bị loại vì đã đi bus miễn phí. Hai nhóm mới: \"anyone receiving unemployment support\" (đi phỏng vấn = tìm việc) và \"night-shift workers at the city's hospitals\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 19-20. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Why will bikes not be available in the old town at night?",
+      "o": [
+       "to reduce noise for residents",
+       "to improve safety for people walking",
+       "because the streets there have no lighting"
+      ],
+      "a": 1,
+      "why": "Tiếng ồn có bị phàn nàn nhưng \"that's not actually what drove the decision\". Lý do: \"about protecting pedestrians\". Đường \"poorly lit\" (thiếu sáng) chứ không phải không có đèn."
+     },
+     {
+      "q": "Dana wants listeners to help choose new station locations by",
+      "o": [
+       "attending a public meeting.",
+       "marking places on an online map.",
+       "contacting their local councillor."
+      ],
+      "a": 1,
+      "why": "Không họp công khai lần này (\"attendance was dismal\"); thay vào đó \"drop a pin on the spot you'd like a station\" trên bản đồ trên website."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l8p3",
+  "test": 8,
+  "part": 3,
+  "title": "Feedback on a dissertation chapter",
+  "setting": "Hai sinh viên năm cuối và giảng viên hướng dẫn thảo luận nhận xét về chương tổng quan tài liệu trong luận văn của một bạn, chủ đề vì sao người dùng bỏ ứng dụng theo dõi sức khỏe.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Dr Hallam (supervisor)",
+    "voice": "m",
+    "accent": "en-AU"
+   },
+   {
+    "id": "B",
+    "name": "Priya",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "C",
+    "name": "Owen",
+    "voice": "m",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Right, Priya, I've gone through your literature review, and Owen's had a read as well, as you asked. Shall we start with the overall shape before we get into the detail?"
+   ],
+   [
+    "B",
+    "Please. I'll be honest, I've got a feeling you're going to say it's too long."
+   ],
+   [
+    "A",
+    "Length is the least of it, actually. You're within the limit. What struck me is that it reads as a sequence of summaries. Smith found this, then Jones found that. Each paragraph is one source."
+   ],
+   [
+    "C",
+    "I kind of noticed that too, although I wasn't sure it was a problem. I mean, it was really easy to follow."
+   ],
+   [
+    "A",
+    "Easy to follow, yes. But a reader comes away knowing what each author said, not what the field as a whole thinks, or where it disagrees with itself."
+   ],
+   [
+    "B",
+    "So you'd rather I grouped it by theme. Motivation, design, social features, that kind of thing."
+   ],
+   [
+    "A",
+    "That's the obvious way in, and I think it would serve you well."
+   ],
+   [
+    "C",
+    "Although, couldn't she keep it chronological? The field sort of evolves, doesn't it, from step counters to all the clever stuff now."
+   ],
+   [
+    "A",
+    "It does, but then the story becomes the technology rather than the users. I'm not sure that's the story Priya wants to tell."
+   ],
+   [
+    "B",
+    "No, it isn't. It's about why people give up, not about the gadgets. Themes it is."
+   ],
+   [
+    "B",
+    "OK. What about the number of sources? I was worried I'd leaned too heavily on the older studies."
+   ],
+   [
+    "C",
+    "I wouldn't lose sleep over that. Half the classic work on habit formation is from the nineties, and nobody's overturned it."
+   ],
+   [
+    "A",
+    "I'd go along with Owen there, up to a point. The older work's fine as a foundation. But wearables have changed so much since 2018 that anything on device design really does need to be current."
+   ],
+   [
+    "B",
+    "That's fair. Can we go through the sections one by one? Starting with the definitions section."
+   ],
+   [
+    "A",
+    "Mm. You use 'abandonment', 'disengagement' and 'churn' as if they mean the same thing. Your whole study hinges on that concept, so pin it down. Which one are you measuring?"
+   ],
+   [
+    "B",
+    "Abandonment, really. Not opening the app for thirty days."
+   ],
+   [
+    "C",
+    "Thirty days seems a bit arbitrary, though, doesn't it? Why not two weeks?"
+   ],
+   [
+    "B",
+    "Because most of the previous studies use thirty, so I can compare like with like."
+   ],
+   [
+    "A",
+    "Then say so, up front, and justify the thirty days."
+   ],
+   [
+    "C",
+    "Can I jump in on the history section? The bit about pedometers in the 1960s. It's interesting, but..."
+   ],
+   [
+    "B",
+    "But what? Go on."
+   ],
+   [
+    "C",
+    "Well, I read it twice and I still couldn't see what it was doing for your argument."
+   ],
+   [
+    "A",
+    "I had a similar reaction, if I'm honest. It's nicely written, but you could lose it and nobody would notice."
+   ],
+   [
+    "B",
+    "Ouch. OK, it goes. What about the section on gamification? I spent ages on that."
+   ],
+   [
+    "A",
+    "And it shows. That's where you actually weigh studies against each other and say which you find more convincing. I'd point to it as a model for the rest of the chapter."
+   ],
+   [
+    "C",
+    "Yeah, I thought that was the best bit by a mile."
+   ],
+   [
+    "B",
+    "That's a relief. And the section on privacy concerns?"
+   ],
+   [
+    "A",
+    "You make a strong claim there, that privacy worries are the main reason people quit. That may well be true, but you've got, what, one survey behind it?"
+   ],
+   [
+    "B",
+    "Two, actually, but one's tiny."
+   ],
+   [
+    "A",
+    "Then either find more support or soften the claim. As it stands, an examiner will pounce on it."
+   ],
+   [
+    "C",
+    "Could she not just drop the privacy angle altogether? It's sort of a different dissertation."
+   ],
+   [
+    "B",
+    "No, I'd rather keep it. A lot of my participants actually brought it up."
+   ],
+   [
+    "A",
+    "I'm with Priya on that. It's relevant, it just needs to be better grounded."
+   ],
+   [
+    "B",
+    "OK. Last one, the section on social features, the leaderboards and sharing."
+   ],
+   [
+    "A",
+    "That's solid as a review. But you finish it by describing what your own interviews found. That's results, not literature. It belongs in chapter four."
+   ],
+   [
+    "B",
+    "Oh, I see. I suppose I got carried away."
+   ],
+   [
+    "C",
+    "Happens to all of us. I did exactly the same in my first draft."
+   ],
+   [
+    "B",
+    "So, in terms of priorities, should I restructure first, or deal with the individual sections?"
+   ],
+   [
+    "A",
+    "Restructure first. Once it's organised by theme, some of the section-level problems will sort themselves out, and you'll see where the gaps are."
+   ],
+   [
+    "C",
+    "I'd have gone the other way, personally. Fix the small stuff while it's fresh, then reorganise."
+   ],
+   [
+    "A",
+    "You can, but you'll end up rewriting paragraphs twice. I'd really advise against it."
+   ],
+   [
+    "B",
+    "No, that makes sense. Big picture first. And the deadline for the revised version?"
+   ],
+   [
+    "A",
+    "Officially the end of the month. But if you can get it to me a week before, I'll have time to give you proper comments rather than a quick skim."
+   ],
+   [
+    "B",
+    "I'll aim for that, then. Thanks, both of you. This has been really useful, even the painful bits."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-25. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "What does Dr Hallam see as the main problem with the chapter overall?",
+      "o": [
+       "It exceeds the word limit.",
+       "It discusses each source separately.",
+       "It is difficult for the reader to follow."
+      ],
+      "a": 1,
+      "why": "\"Length is the least of it... You're within the limit\". Vấn đề: \"Each paragraph is one source\" (tóm tắt từng nguồn riêng lẻ). Owen lại khen là \"really easy to follow\", nên C sai."
+     },
+     {
+      "q": "What is Owen's initial opinion of the chapter's structure?",
+      "o": [
+       "He was uncertain whether it was a weakness.",
+       "He thought it should be organised by theme.",
+       "He felt it made the chapter too long."
+      ],
+      "a": 0,
+      "why": "\"I kind of noticed that too, although I wasn't sure it was a problem\" = không chắc đó có phải điểm yếu. Ý chia theo chủ đề là của Priya."
+     },
+     {
+      "q": "What is Dr Hallam's view of Priya's use of older studies?",
+      "o": [
+       "She should replace most of them with recent research.",
+       "They are acceptable for some topics but not others.",
+       "They have been contradicted by later work."
+      ],
+      "a": 1,
+      "why": "Hallam chỉ đồng ý với Owen \"up to a point\": nghiên cứu cũ ổn làm nền tảng, nhưng phần về thiết kế thiết bị \"really does need to be current\" = chấp nhận được với một số chủ đề, không phải tất cả. A sai vì ông không bảo thay phần lớn; C là ý Owen bác bỏ (\"nobody's overturned it\")."
+     },
+     {
+      "q": "How does Priya respond to Owen's suggestion about privacy?",
+      "o": [
+       "She rejects it because of her own data.",
+       "She accepts it reluctantly.",
+       "She says she will discuss it with her participants."
+      ],
+      "a": 0,
+      "why": "Owen gợi ý bỏ phần privacy; Priya: \"No, I'd rather keep it. A lot of my participants actually brought it up\" = từ chối dựa trên dữ liệu của chính mình."
+     },
+     {
+      "q": "Why does Dr Hallam want the revised chapter a week early?",
+      "o": [
+       "The official deadline may be brought forward.",
+       "He will be away at the end of the month.",
+       "He wants to be able to give detailed feedback."
+      ],
+      "a": 2,
+      "why": "\"I'll have time to give you proper comments rather than a quick skim\" = nhận xét chi tiết. Không nhắc đến việc vắng mặt hay đổi hạn."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 26-30. What is the speakers' view of each section of Priya's chapter? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 26-30.",
+    "opts": [
+     "It should be removed.",
+     "It needs a clearer focus on one term.",
+     "It is the strongest part of the chapter.",
+     "Its main claim needs more evidence.",
+     "Part of it belongs in another chapter.",
+     "It relies too much on one author.",
+     "It should be expanded."
+    ],
+    "items": [
+     {
+      "q": "definitions",
+      "a": 1,
+      "why": "Priya dùng lẫn \"abandonment, disengagement, churn\"; Hallam: \"pin it down. Which one are you measuring?\" = cần làm rõ một thuật ngữ."
+     },
+     {
+      "q": "history of pedometers",
+      "a": 0,
+      "why": "\"you could lose it and nobody would notice\" và Priya: \"OK, it goes\" = bỏ đi. Hallam khen \"nicely written\" nhưng đó là bẫy."
+     },
+     {
+      "q": "gamification",
+      "a": 2,
+      "why": "\"I'd point to it as a model for the rest of the chapter\" và Owen: \"the best bit by a mile\". Priya nói mất nhiều thời gian nhưng không ai đề nghị mở rộng (G)."
+     },
+     {
+      "q": "privacy concerns",
+      "a": 3,
+      "why": "\"you've got, what, one survey behind it?... either find more support or soften the claim\" = luận điểm chính cần thêm bằng chứng. Owen gợi ý bỏ (A) nhưng bị bác."
+     },
+     {
+      "q": "social features",
+      "a": 4,
+      "why": "\"you finish it by describing what your own interviews found. That's results... It belongs in chapter four\" = một phần nên chuyển sang chương khác."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l8p4",
+  "test": 8,
+  "part": 4,
+  "title": "How deep-sea organisms cope with pressure",
+  "setting": "Bài giảng sinh học biển về cách sinh vật biển sâu thích nghi với áp suất cực lớn ở cấp độ màng tế bào, protein và cơ thể.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "f",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning. Last week we looked at temperature and light in the deep ocean. Today I want to turn to what is, arguably, the most unforgiving variable of all down there, and that's hydrostatic pressure."
+   ],
+   [
+    "A",
+    "Pressure increases by roughly one atmosphere for every ten metres of depth, so at the bottom of the deepest trenches, organisms are living under something like a thousand atmospheres."
+   ],
+   [
+    "A",
+    "Now, a common misconception is that the danger is being crushed. It isn't, at least not for animals without air spaces, because water and tissue are almost incompressible. The real problem is far subtler, and it happens at the molecular level."
+   ],
+   [
+    "A",
+    "The underlying principle is that high pressure favours whatever arrangement of molecules takes up the least volume. Any biological process that involves an increase in volume, even a tiny one, is going to be inhibited."
+   ],
+   [
+    "A",
+    "And it turns out that a great many of life's essential processes do exactly that. So let's look at three levels: membranes, proteins, and finally the body as a whole."
+   ],
+   [
+    "A",
+    "Starting with membranes. The lipid molecules in a cell membrane need to be able to move around fairly freely for the membrane to work, for transporting substances in and out, for example. Pressure squeezes these lipids together and makes the membrane more rigid."
+   ],
+   [
+    "A",
+    "In fact, the effect is very similar to cooling. Every thousand metres of depth has roughly the same stiffening effect as a drop of a couple of degrees in temperature."
+   ],
+   [
+    "A",
+    "And, of course, the deep sea is also cold, so the two effects add up."
+   ],
+   [
+    "A",
+    "The solution is one we also see in organisms adapted to cold. Deep-sea species incorporate more unsaturated fatty acids into their membranes. These have kinks in their chains, which stop the molecules packing tightly together, and that keeps the membrane fluid."
+   ],
+   [
+    "A",
+    "More recent work, notably by a group I'll call the Ferreira lab, suggests that membrane shape, specifically its curvature, matters just as much as fluidity, which is something the textbooks haven't quite caught up with yet."
+   ],
+   [
+    "A",
+    "Right, the second level, proteins. A protein only works if it's folded into the correct shape, and many of them also have to bind to other molecules or assemble into larger structures."
+   ],
+   [
+    "A",
+    "Pressure interferes with all of this, partly because water molecules get forced into the protein's interior and distort its structure. Enzymes from shallow-water fish can lose much of their activity at deep-sea pressures."
+   ],
+   [
+    "A",
+    "There are two broad strategies here. One is to change the protein itself, small substitutions in the amino acid sequence that make it less sensitive. But that's a slow, gene-by-gene business."
+   ],
+   [
+    "A",
+    "The other strategy, and this is the one I find genuinely elegant, is to change the environment inside the cell. Deep-sea fish accumulate a small molecule called TMAO, that's trimethylamine N-oxide, which acts as what's known as a piezolyte, or pressure counteractant."
+   ],
+   [
+    "A",
+    "It's thought to work by organising the surrounding water so that it's less likely to invade the protein, effectively stabilising the folded shape. And crucially, it helps all the proteins at once rather than one at a time."
+   ],
+   [
+    "A",
+    "What's striking is that TMAO levels in fish muscle rise steadily with depth. Fish from the surface have relatively little; fish from seven or eight kilometres down have several times as much."
+   ],
+   [
+    "A",
+    "Incidentally, TMAO is what breaks down into the fishy smell of fish that's past its best."
+   ],
+   [
+    "A",
+    "This has led to quite a provocative hypothesis. As TMAO builds up, the fish's internal fluids become more concentrated than the surrounding seawater."
+   ],
+   [
+    "A",
+    "At around eight thousand, sorry, eight thousand two hundred metres, the model predicts they'd become so concentrated that water would start flooding into the tissues."
+   ],
+   [
+    "A",
+    "To prevent that, the fish would need to get rid of salt, but there's no known mechanism for it."
+   ],
+   [
+    "A",
+    "And, interestingly, no fish has ever been recorded much deeper than about eight thousand three hundred metres, although invertebrates such as amphipods live at the very bottom."
+   ],
+   [
+    "A",
+    "So this may explain why fish have a depth limit. I should say, though, the hypothesis is not universally accepted. Some researchers argue that food supply is the more important factor, and that the evidence so far is largely correlational."
+   ],
+   [
+    "A",
+    "Finally, the whole body. The general rule is that gas is a liability. Many shallow-water fish control their buoyancy with a gas-filled swim bladder, but at depth, maintaining a gas volume against that pressure is extremely costly."
+   ],
+   [
+    "A",
+    "So most deep-sea fish have either reduced the swim bladder or lost it altogether, and they rely instead on lipids, which are less dense than water, stored in the liver or in the tissues."
+   ],
+   [
+    "A",
+    "Bodies also tend to be watery and loosely built. The snailfish that live in trenches have soft, almost gelatinous tissue and their skeletons are only partly hardened."
+   ],
+   [
+    "A",
+    "Their skulls, for instance, have gaps in them. Rigid structure is simply not much of an advantage down there."
+   ],
+   [
+    "A",
+    "And this brings me to a practical problem for researchers. When you haul these animals to the surface, the sudden decompression can damage proteins and membranes, so what you study in the lab may not reflect how the animal really functions."
+   ],
+   [
+    "A",
+    "That's why there's been a push for pressure-retaining samplers, which bring specimens up while keeping them at their original pressure. They're expensive, and frankly temperamental, but they're transforming the field."
+   ],
+   [
+    "A",
+    "Right, next week we'll look at feeding strategies, which is where the food supply argument comes back in."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Key principle: high pressure favours molecular arrangements with the smallest ___",
+      "a": "volume",
+      "why": "\"high pressure favours whatever arrangement of molecules takes up the least volume\". Bẫy: nhiều người sẽ ghi \"crushed\" nhưng giảng viên nói nguy hiểm thật không phải bị nghiền."
+     },
+     {
+      "q": "Membranes: pressure makes them more ___ (similar effect to cooling)",
+      "a": "rigid",
+      "why": "\"Pressure squeezes these lipids together and makes the membrane more rigid\". Từ \"stiffening\" xuất hiện ngay sau nhưng không khớp ngữ pháp sau \"more\"."
+     },
+     {
+      "q": "Adaptation: more unsaturated fatty acids, whose ___ prevent tight packing",
+      "a": "kinks",
+      "why": "\"These have kinks in their chains, which stop the molecules packing tightly together\". \"Chains\" là bẫy vì có trong câu nhưng không phải thứ ngăn đóng gói."
+     },
+     {
+      "q": "Recent research: membrane ___ may be as important as fluidity",
+      "a": "curvature|shape",
+      "why": "\"membrane shape, specifically its curvature, matters just as much as fluidity\"."
+     },
+     {
+      "q": "Proteins: ___ is forced into the protein, distorting its structure",
+      "a": "water",
+      "why": "\"water molecules get forced into the protein's interior and distort its structure\"."
+     },
+     {
+      "q": "Strategy 1: changes to the amino acid ___ (slow process)",
+      "a": "sequence",
+      "why": "\"small substitutions in the amino acid sequence\", \"a slow, gene-by-gene business\"."
+     },
+     {
+      "q": "Strategy 2: TMAO, which protects all proteins at the same time; concentration in muscle increases with ___",
+      "a": "depth",
+      "why": "\"TMAO levels in fish muscle rise steadily with depth\"."
+     },
+     {
+      "q": "Hypothesis: below about 8,200 m, fish would need to get rid of ___, but no mechanism for this is known",
+      "a": "salt",
+      "why": "\"the fish would need to get rid of salt, but there's no known mechanism for it\". Bẫy: water là thứ tràn vào mô, không phải thứ cần thải ra; TMAO thì đang được tích lũy."
+     },
+     {
+      "q": "Some researchers believe ___ supply better explains the depth limit",
+      "a": "food",
+      "why": "\"Some researchers argue that food supply is the more important factor\"."
+     },
+     {
+      "q": "Whole body: buoyancy from ___ instead of a swim bladder",
+      "a": "lipids|lipid",
+      "why": "\"they rely instead on lipids, which are less dense than water\". Gas/swim bladder là thứ bị bỏ, liver chỉ là nơi dự trữ."
+     }
+    ]
+   }
+  ]
+ }
+]

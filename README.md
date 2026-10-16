@@ -1,11 +1,11 @@
 # Catalis - Stalis's IELTS
 
-App luyện IELTS (Academic và General Training, band 4.5 - 8) cho cả nhóm, cùng mèo cam Mít. Cùng khung với Stalong (repo `stalisnguyen/hanyu`).
+App luyện IELTS (Academic và General Training, band 4.5 - 9) cho cả nhóm, cùng mèo cam Jack (Mít). Cùng khung với Stalong (repo `stalisnguyen/hanyu`).
 
 ## Cấu trúc
 - `src/shell.html`, `src/app.css`, `src/app.js` (lõi: dữ liệu, tiến độ, đồng bộ, giọng đọc, thẻ từ, từ điển)
 - `src/features/*.js|css`: các module (xem `src/features/README.md`)
-  - `05-mascot` Mít, `10-plan` XP, danh hiệu, lộ trình, xếp lớp, sổ lỗi, mẹo mỗi ngày
+  - `05-mascot` Jack (Mít), `10-plan` XP, danh hiệu, lộ trình, xếp lớp, sổ lỗi, mẹo mỗi ngày
   - `20-listen`, `25-read`, `30-write`, `35-speak`, `50-test` (thi thử)
   - `40-grammar`, `45-pron`, `55-games`, `60-ui`, `65-friends`
 - `build.py` -> `index.html`. Chạy `python3 build.py` sau mỗi lần sửa `src/`.

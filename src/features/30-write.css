@@ -127,3 +127,20 @@
 .wr-cmp .wr-essay{font-size:16px}
 .wr-steps .chip{display:inline-flex;align-items:center;gap:6px}
 .wr-xres{gap:14px}
+
+/* band 8 / band 9 model switch (also used by Speaking) */
+.wr-sw{display:flex;flex-direction:column;gap:10px;min-width:0}
+.wr-swt{gap:6px}
+.wr-swp{display:flex;flex-direction:column;gap:10px;min-width:0}
+.wr-swp[hidden]{display:none}
+.wr-hl9{background:var(--orange-soft);color:inherit;border-radius:4px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.wr-hl9 sup{font-family:var(--f-body);font-size:10px;font-weight:800;color:var(--orange-ink);margin-left:2px}
+.wr-b9s{display:flex;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:10px}
+.wr-b9s h4{margin:0;font-size:15px}
+.wr-why9{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.wr-why9 li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;align-items:start}
+.wr-why9 li>div{display:flex;flex-direction:column;gap:2px;min-width:0;overflow-wrap:anywhere}
+.wr-why9 b{font-size:15px}
+.wr-why9 span:not(.wr-wn){font-size:14px;line-height:1.55;color:var(--ink)}
+.wr-wn{width:22px;height:22px;border-radius:6px;background:var(--orange-soft);color:var(--orange-ink);display:grid;place-items:center;font-size:12px;font-weight:800}
+.wr-vs{margin:0;line-height:1.6}

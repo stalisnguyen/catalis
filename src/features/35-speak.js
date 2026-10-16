@@ -11,6 +11,8 @@ const SP_NOSR='Trình duyệt này không nhận giọng nói, hãy dùng Chrome
 const SP_ms=()=>window.__spFast?50:1000;
 const SP_c=s=>String(s==null?'':s).replace(/\s*[\u2014\u2013]\s*/g,', ').replace(/\u2192/g,'->').replace(/\u2190/g,'<-').replace(/\u2194/g,'<->');
 const SP_hasSR=()=>!!(window.SpeechRecognition||window.webkitSpeechRecognition);
+const SP_hi9=()=>{try{return (+plCfg().target||0)>=8.5;}catch(e){return false;}};
+const SP_upB=()=>SP_hi9()?'band 9':'band 8';
 
 function SP_every(fn){let id=setInterval(fn,SP_ms());const t={stop(){if(id)clearInterval(id);id=null;SP_live.delete(t.stop);}};SP_live.add(t.stop);return t;}
 function SP_stopAll(){stopSay();[...SP_live].forEach(f=>{try{f();}catch(e){}});SP_live.clear();}
@@ -133,17 +135,19 @@ function SP_gradePrompt(desc,block){
 Task: ${desc}
 
 IMPORTANT: the candidate's answers below are a speech-to-text transcript (or typed by the learner). Punctuation, capital letters and some words may be wrong because of the recogniser, so do not punish punctuation, and if a word looks like a recognition error, judge what they most likely said. Judge Pronunciation only cautiously from indirect clues (missing word endings like -s/-ed, words the recogniser clearly misheard), and say in the summary that pronunciation is estimated from the transcript. A very short answer limits Fluency and Coherence.
-
+${SP_hi9()?`
+The candidate is aiming for band 8.5-9, so be extra strict at the top of the scale and apply the band 8 vs band 9 distinctions precisely: band 9 needs speech that is fluent with only rare, content-related hesitation, fully coherent and appropriately extended topic development, precise and idiomatic vocabulary used naturally, and consistently accurate complex grammar apart from native-like slips. In "summary" and "improve", say explicitly (in Vietnamese) what is currently stopping each criterion from reaching 9.
+`:''}
 ${block}
 
 Return JSON exactly in this shape:
-{"bands":{"fc":6,"lr":6,"gra":5.5,"pr":6},"overall":6,"summary":"2-3 sentences in Vietnamese","good":["1-3 strengths in Vietnamese"],"improve":["2-4 concrete tips in Vietnamese, each saying exactly what to do next time"],"fixes":[{"orig":"exact phrase the candidate said","fix":"better natural English","why":"short reason in Vietnamese"}],"upgrade":"a band 8 version of the candidate's answer in natural spoken British English, keeping their ideas and roughly their length or a little longer"}
+{"bands":{"fc":6,"lr":6,"gra":5.5,"pr":6},"overall":6,"summary":"2-3 sentences in Vietnamese","good":["1-3 strengths in Vietnamese"],"improve":["2-4 concrete tips in Vietnamese, each saying exactly what to do next time"],"fixes":[{"orig":"exact phrase the candidate said","fix":"better natural English","why":"short reason in Vietnamese"}],"upgrade":"a ${SP_upB()} version of the candidate's answer in natural spoken British English, keeping their ideas and roughly their length or a little longer"}
 Give 2-5 fixes from the candidate's own words. Vietnamese text must be natural and plain. Do not use the em dash character anywhere.`;
 }
 function SP_block(qs,answers){return qs.map((q,i)=>`Examiner: ${q}\nCandidate (transcript): ${answers[i]||'(no answer)'}`).join('\n\n').slice(0,40000);}
 function SP_feedback(box,{part,qs,answers,secs,record,id,title,att,desc,block,onBand}){
   const run=async()=>{
-    box.innerHTML=`<div class="sp-wait">${mcSay('idea','Mít đang nghe lại câu trả lời...',56)}</div>`;
+    box.innerHTML=`<div class="sp-wait">${mcSay('idea','Jack đang nghe lại câu trả lời...',56)}</div>`;
     const d=desc||`${part||'Speaking'} answer.${secs?` The candidate spoke for about ${Math.round(secs)} seconds.`:''}`;
     try{
       const j=await askJSON(SP_gradePrompt(d,block||SP_block(qs,answers)));
@@ -175,7 +179,7 @@ function SP_fbHTML(j,bands,ov){
     ${list(j.good)?`<div><h3>Điểm tốt</h3><ul class="sp-ul ok">${list(j.good)}</ul></div>`:''}
     ${list(j.improve)?`<div><h3>Cần cải thiện</h3><ul class="sp-ul">${list(j.improve)}</ul></div>`:''}
     ${fixes.length?`<div><h3>Sửa câu</h3><div class="sp-fixes">${fixes.map(f=>`<div class="sp-fix"><div class="en-s"><s>${esc(SP_c(f.orig))}</s></div><div class="en-s sp-fixok">${ic('check')} ${esc(SP_c(f.fix))}</div>${f.why?`<div class="note">${esc(SP_c(f.why))}</div>`:''}</div>`).join('')}</div></div>`:''}
-    ${up?`<div><h3>Câu trả lời nâng cấp (band 8)</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(up)}" data-voice="f" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(up)}</div></div></div>`:''}
+    ${up?`<div><h3>Câu trả lời nâng cấp (${SP_upB()})</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(up)}" data-voice="f" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(up)}</div></div></div>`:''}
   </div>`;
 }
 
@@ -216,7 +220,7 @@ function SP_home(el){
     const draw=()=>{
       const list=D.p2.map((c,i)=>[c,i]).filter(([c])=>SP_p2f==='all'||c.topic===SP_p2f);
       box.innerHTML=`<div class="panel"><div class="spread"><h3>${p2?'Chọn cue card':'Câu hỏi thảo luận Part 3 theo chủ đề'}</h3>${p2?`<button class="btn primary sm" data-rand>${ic('repeat')} Ngẫu nhiên</button>`:''}</div>
-        <p class="note">${p2?'Thẻ giống hệt đề thi: 1 phút chuẩn bị, 2 phút nói. Sau đó xem từ vựng, bài mẫu band 8 và sang Part 3.':'Mỗi cue card có 5 câu hỏi Part 3. Trả lời từng câu, khoảng 40-60 giây, rồi xem câu mẫu.'}</p>
+        <p class="note">${p2?'Thẻ giống hệt đề thi: 1 phút chuẩn bị, 2 phút nói. Sau đó xem từ vựng, bài mẫu band 8, band 9 và sang Part 3.':'Mỗi cue card có 5 câu hỏi Part 3. Trả lời từng câu, khoảng 40-60 giây, rồi xem câu mẫu.'}</p>
         <div class="row">${[['all','Tất cả'],...Object.entries(SP_TOP)].map(([k,t])=>`<button class="chip" data-f="${k}" aria-pressed="${SP_p2f===k}">${t}</button>`).join('')}</div>
         <div class="sp-cards">${list.map(([c,i])=>`<button class="sp-cl" data-c="${i}"><span class="pill">${SP_TOP[c.topic]||esc(c.topic)}</span><span class="en sp-clt">${esc(p2?c.card:c.card.replace(/^Describe /,'').replace(/\.$/,''))}</span>${p2?'':`<span class="note en">${esc(c.p3[0])}</span>`}${SP_doneId(c.id,p2?'Part 2':'Part 3')?`<span class="sp-tick" title="Đã luyện">${ic('check')}</span>`:''}</button>`).join('')}</div></div>`;
       $$('[data-f]',box).forEach(b=>b.onclick=()=>{SP_p2f=b.dataset.f;draw();});
@@ -250,13 +254,23 @@ function SP_head(el,back,label,title,step){
     <div class="spread"><h2 class="${/[A-Za-z]/.test(title)&&!/[À-ỹ]/.test(title)?'en':''}">${esc(title)}</h2>${step?`<span class="note num">${step}</span>`:''}</div>`;
 }
 function SP_dots(n,i){return `<div class="sp-steps" aria-hidden="true">${Array.from({length:n},(_,k)=>`<i class="${k<i?'d':k===i?'c':''}"></i>`).join('')}</div>`;}
-function SP_sampleHTML(q,samples,label){
-  const s=(samples||[]).find(x=>enFold(x[0])===enFold(q)); if(!s)return '';
-  return `<div class="panel sp-sample"><h3>${label||'Câu trả lời mẫu'}</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(s[1])}" data-voice="f" aria-label="Nghe câu mẫu">${SPK}</button><div class="en-s">${esc(s[1])}</div></div></div>`;
+function SP_sampleHTML(q,samples,label,samples9){
+  const f=a=>(a||[]).find(x=>enFold(x[0])===enFold(q));
+  const s=f(samples), s9=f(samples9); if(!s&&!s9)return '';
+  const one=(t,v)=>`<div class="ex sp-ex"><button class="spk" data-say="${esc(t)}" data-voice="${v}" aria-label="Nghe câu mẫu">${SPK}</button><div class="en-s">${esc(t)}</div></div>`;
+  const tabs=[]; if(s)tabs.push(['Câu mẫu',one(s[1],'f'),false]); if(s9)tabs.push(['Band 9',one(s9[1],'m'),true]);
+  return `<div class="panel sp-sample"><h3>${label||'Câu trả lời mẫu'}${!s&&s9?' <span class="pill sp-p9">Band 9</span>':''}</h3>${tabs.length>1?WR_switch(tabs,SP_hi9()):tabs[0][1]}</div>`;
+}
+/* Part 2 model talks: band 8 sample + band 9 sample9 with why9 */
+function SP_p2models(c,voice){
+  const v=voice==='m'?'f':'m';
+  const tabs=[['Bài mẫu band 8',`<div class="ex sp-ex"><button class="spk" data-say="${esc(c.sample)}" data-voice="${v}" aria-label="Nghe bài mẫu">${SPK}</button><div class="en-s">${esc(c.sample)}</div></div>`,false]];
+  if(c.sample9)tabs.push(['Bài mẫu band 9',WR_model9HTML(c,{voice:v}),true]);
+  return WR_switch(tabs,SP_hi9());
 }
 
 /* ---------- Part 1 and Part 3 practice (one question at a time) ---------- */
-function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
+function SP_series(el,{label,title,qs,samples,samples9,hint,part,id,back,voice,extra}){
   SP_stopAll(); SP_hook();
   let i=0; const ans=[];
   const draw=()=>{
@@ -269,7 +283,7 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
       onDone:r=>{
         ans[i]=r;
         const last=i===qs.length-1;
-        $('#spAfter',el).innerHTML=`${SP_sampleHTML(qs[i],samples)}<div class="row"><button class="btn primary" data-next>${last?'Xem tổng kết':'Câu tiếp'} ${ic('chevron-right')}</button></div>`;
+        $('#spAfter',el).innerHTML=`${SP_sampleHTML(qs[i],samples,'',samples9)}<div class="row"><button class="btn primary" data-next>${last?'Xem tổng kết':'Câu tiếp'} ${ic('chevron-right')}</button></div>`;
         $('[data-next]',el).onclick=()=>{ans[i]={q:qs[i],text:r.text,secs:r.secs};if(last)summary();else{i++;draw();}};
       }});
   };
@@ -278,7 +292,7 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
     const done=ans.filter(a=>a&&a.text);
     el.innerHTML=`<div class="view sp">${SP_head(el,back,label,title,'Tổng kết')}
       <div class="panel">${mcSay(done.length===qs.length?'yay':'ok',done.length?`Xong ${done.length}/${qs.length} câu. Đọc lại câu trả lời của bạn và so với câu mẫu nhé.`:'Bạn chưa trả lời câu nào. Thử lại nhé.',56)}</div>
-      <div class="panel"><h3>Câu trả lời của bạn</h3><div class="sp-sumlist">${qs.map((q,k)=>`<div class="sp-sq"><div class="en sp-sqq">${esc(q)}</div><div class="en-s">${ans[k]&&ans[k].text?esc(ans[k].text):'<span class="note">(chưa trả lời)</span>'}</div>${SP_sampleHTML(q,samples,'Câu mẫu').replace('panel sp-sample','sp-sample sm')}</div>`).join('')}</div>
+      <div class="panel"><h3>Câu trả lời của bạn</h3><div class="sp-sumlist">${qs.map((q,k)=>`<div class="sp-sq"><div class="en sp-sqq">${esc(q)}</div><div class="en-s">${ans[k]&&ans[k].text?esc(ans[k].text):'<span class="note">(chưa trả lời)</span>'}</div>${SP_sampleHTML(q,samples,'Câu mẫu',samples9).replace('panel sp-sample','sp-sample sm')}</div>`).join('')}</div>
         <div class="row">${done.length?`<button class="btn sm need-ai" data-ai>${ic('sparkles')} Nhận xét cả lượt bằng AI</button>`:''}<button class="btn sm" data-again>${ic('rotate-ccw')} Làm lại</button>${extra?extra.html:''}</div>
         <div class="sp-ai"></div></div></div>`;
     refreshAIBits();
@@ -292,13 +306,13 @@ function SP_series(el,{label,title,qs,samples,hint,part,id,back,voice,extra}){
 }
 function SP_p1(el,ti){
   const t=SP_D.p1[ti];
-  SP_series(el,{label:'Part 1',title:t.topic,qs:t.qs.slice(0,5),samples:t.samples,part:'Part 1',back:'Chủ đề khác',voice:pick(['m','f']),
+  SP_series(el,{label:'Part 1',title:t.topic,qs:t.qs.slice(0,5),samples:t.samples,samples9:t.samples9,part:'Part 1',back:'Chủ đề khác',voice:pick(['m','f']),
     hint:'Trả lời 2-3 câu, khoảng 20-30 giây: nói ý chính, thêm một lý do hoặc ví dụ.',
     extra:{html:`<button class="btn sm" data-other>Chủ đề khác</button>`,bind:el=>{$('[data-other]',el).onclick=()=>{SP_tab='p1';SP_home(el);};}}});
 }
 function SP_p3(el,ci){
   const c=SP_D.p2[ci];
-  SP_series(el,{label:'Part 3',title:c.card.replace(/^Describe /,'').replace(/\.$/,'').replace(/^./,m=>m.toUpperCase()),qs:c.p3,samples:c.p3samples,part:'Part 3',id:c.id,back:'Danh sách',voice:pick(['m','f']),
+  SP_series(el,{label:'Part 3',title:c.card.replace(/^Describe /,'').replace(/\.$/,'').replace(/^./,m=>m.toUpperCase()),qs:c.p3,samples:c.p3samples,samples9:c.p3samples9,part:'Part 3',id:c.id,back:'Danh sách',voice:pick(['m','f']),
     hint:'Part 3 cần trả lời dài hơn, khoảng 40-60 giây: nêu quan điểm, giải thích lý do, thêm ví dụ hoặc so sánh.',
     extra:{html:`<button class="btn sm" data-other>Chủ đề khác</button>`,bind:el=>{$('[data-other]',el).onclick=()=>{SP_tab='p3';SP_home(el);};}}});
 }
@@ -346,8 +360,8 @@ function SP_p2(el,ci){
   SP_p2run($('#spRun',el),c,{voice,onReset:()=>{$('#spAfter',el).innerHTML='';},onDone:()=>{
     const a=$('#spAfter',el);
     a.innerHTML=`<div class="panel"><h3>Từ vựng hay cho đề này</h3><div class="sp-vocab">${c.vocab.map(([en,vi])=>`<div class="sp-v"><button class="spk sm" data-say="${esc(en)}" aria-label="Nghe">${SPK}</button><div><b class="en">${esc(en)}</b><span class="note">${esc(vi)}</span></div></div>`).join('')}</div></div>
-      <div class="panel"><div class="spread"><h3>Bài mẫu band 8</h3><button class="btn sm" data-show>Xem bài mẫu</button></div><div class="sp-hid" hidden>
-        <div class="ex sp-ex"><button class="spk" data-say="${esc(c.sample)}" data-voice="${voice==='m'?'f':'m'}" aria-label="Nghe bài mẫu">${SPK}</button><div class="en-s">${esc(c.sample)}</div></div>
+      <div class="panel"><div class="spread"><h3>Bài mẫu band 8 và band 9</h3><button class="btn sm" data-show>Xem bài mẫu</button></div><div class="sp-hid" hidden>
+        ${SP_p2models(c,voice)}
         <p class="note">Để ý cách bài mẫu đi lần lượt qua từng gợi ý trên thẻ và kết bằng phần "explain" dài nhất.</p></div></div>
       <div class="row"><button class="btn primary" data-p3>Sang Part 3 ${ic('chevron-right')}</button><button class="btn" data-other>${ic('repeat')} Cue card khác</button></div>`;
     $('[data-show]',a).onclick=e=>{const h=$('.sp-hid',a);h.hidden=!h.hidden;e.currentTarget.textContent=h.hidden?'Xem bài mẫu':'Ẩn bài mẫu';};
@@ -389,7 +403,7 @@ function SP_chat(el){
     C.busy=true; drawComp(); typing(true);
     C.msgs.push({role:'user',content:userContent});
     let text='';
-    try{const r=await ask(C.msgs);text=SP_c(r&&r.text||'').trim();}catch(e){text='';if(!C.warned){C.warned=1;toast(aiError(e)+' Mít dùng câu hỏi có sẵn.',4000);}}
+    try{const r=await ask(C.msgs);text=SP_c(r&&r.text||'').trim();}catch(e){text='';if(!C.warned){C.warned=1;toast(aiError(e)+' Jack dùng câu hỏi có sẵn.',4000);}}
     if(!document.body.contains(log))return;
     if(!text)text=fallbackQ();
     C.msgs.push({role:'assistant',content:text});
@@ -468,7 +482,7 @@ function SP_chat(el){
     res.innerHTML=`<div class="panel"><h3>Kết quả buổi phỏng vấn</h3><div class="sp-ai"></div><div class="row"><button class="btn" data-new>${ic('repeat')} Phỏng vấn lại</button></div></div>`;
     $('[data-new]',res).onclick=()=>SP_chat(el);
     SP_feedback($('.sp-ai',res),{record:true,id:'mock-ai',title:'Speaking: phỏng vấn giám khảo AI',block,
-      desc:`A full IELTS Speaking mock interview (Part 1 on "${t1.topic}", Part 2 cue card "${card.card}", Part 3 discussion). The test may have been ended early; assess what is there. For "upgrade", rewrite the candidate's Part 2 long turn (or their longest answer) at band 8.`});
+      desc:`A full IELTS Speaking mock interview (Part 1 on "${t1.topic}", Part 2 cue card "${card.card}", Part 3 discussion). The test may have been ended early; assess what is there. For "upgrade", rewrite the candidate's Part 2 long turn (or their longest answer) at ${SP_upB()}.`});
     res.scrollIntoView&&res.scrollIntoView({block:'start',behavior:'smooth'});
   }
   drawComp();
@@ -518,9 +532,9 @@ async function SP_exam(el,{onDone,back}={}){
     SP_stopAll(); i=steps.length;
     const answered=out.filter(x=>x.text);
     const samples=`<div class="panel"><h3>Câu mẫu để so sánh</h3>
-      ${q1.map(q=>SP_sampleHTML(q,t1.samples,'Part 1: '+esc(q))).join('')}
-      <div class="panel sp-sample"><h3>Part 2: bài mẫu band 8</h3><div class="ex sp-ex"><button class="spk" data-say="${esc(card.sample)}" aria-label="Nghe">${SPK}</button><div class="en-s">${esc(card.sample)}</div></div></div>
-      ${q3.map(q=>SP_sampleHTML(q,card.p3samples,'Part 3: '+esc(q))).join('')}</div>`;
+      ${q1.map(q=>SP_sampleHTML(q,t1.samples,'Part 1: '+esc(q),t1.samples9)).join('')}
+      <div class="panel sp-sample"><h3>Part 2: bài mẫu</h3>${SP_p2models(card,voice)}</div>
+      ${q3.map(q=>SP_sampleHTML(q,card.p3samples,'Part 3: '+esc(q),card.p3samples9)).join('')}</div>`;
     const yours=`<details class="sp-det panel"><summary>Xem lại câu trả lời của bạn (${answered.length}/${out.length})</summary><div class="sp-sumlist">${out.map(x=>`<div class="sp-sq"><span class="pill">${x.part}</span><div class="en sp-sqq">${esc(x.q.split('\n')[0])}</div><div class="en-s">${x.text?esc(x.text):'<span class="note">(chưa trả lời)</span>'}</div></div>`).join('')}</div></details>`;
     el.innerHTML=shell(`<div class="panel"><h3>Kết quả</h3><div class="sp-ai"></div></div>${yours}${samples}
       <div class="row"><button class="btn" data-again>${ic('repeat')} Thi đề khác</button></div>`,'Kết quả');
@@ -530,7 +544,7 @@ async function SP_exam(el,{onDone,back}={}){
     if(!AI){box.innerHTML=mcSay('ok','Bạn đã làm xong bài thi. Chưa bật trợ lý AI nên chưa chấm band được. Nghe lại câu mẫu và so với câu trả lời của bạn nhé.',56);fin(null);return;}
     const block=out.map(x=>`[${x.part}]${x.secs?` (${Math.round(x.secs)}s)`:''}\nExaminer: ${x.q.replace(/\n/g,' ')}\nCandidate (transcript): ${x.text||'(no answer)'}`).join('\n\n');
     SP_feedback(box,{record:true,id:'exam-'+card.id,title:'Thi thử Speaking: '+t1.topic+' + '+card.card,block,
-      desc:`A full IELTS Speaking test: Part 1 (${q1.length} questions on "${t1.topic}"), Part 2 long turn (cue card "${card.card}", 1 minute preparation, up to 2 minutes), Part 3 (${q3.length} discussion questions). Give one set of band scores for the whole test. For "upgrade", rewrite the candidate's Part 2 long turn at band 8.`,
+      desc:`A full IELTS Speaking test: Part 1 (${q1.length} questions on "${t1.topic}"), Part 2 long turn (cue card "${card.card}", 1 minute preparation, up to 2 minutes), Part 3 (${q3.length} discussion questions). Give one set of band scores for the whole test. For "upgrade", rewrite the candidate's Part 2 long turn at ${SP_upB()}.`,
       onBand:b=>{confetti&&b>=6.5&&confetti();fin(b);}});
     // if grading fails, the retry button stays; let the caller continue anyway
     const skip=document.createElement('div');skip.className='row';skip.innerHTML='<button class="btn ghost sm" data-skip>Bỏ qua chấm điểm</button>';

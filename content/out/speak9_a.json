@@ -1,0 +1,1180 @@
+{
+ "p1": [
+  {
+   "topic": "Hometown",
+   "samples9": [
+    [
+     "Has your hometown changed much since you were a child?",
+     "Almost beyond recognition, to be honest. When I was a kid it was basically a sleepy coastal town where everyone knew everyone, and now there's a ring road, a couple of shopping malls and a lot of new housing. I'm glad people have better jobs, but I do miss the old market, which got knocked down to make way for a car park."
+    ],
+    [
+     "Would you like to live there in the future?",
+     "Probably not for good, no. I love going back for a week or so, but my career's very much tied to the city now, and I think I'd get restless fairly quickly. That said, I can picture myself retiring there one day, maybe somewhere near the sea where life moves at a gentler pace."
+    ]
+   ]
+  },
+  {
+   "topic": "Work or study",
+   "samples9": [
+    [
+     "What do you find most challenging about it?",
+     "Honestly, it's the constant context-switching. I might go from a budget meeting straight into a call about a product launch, and it takes a real effort to shift gears without dropping the ball on something. I've got better at it by blocking out time for deep work, but it's still the part that wears me out most."
+    ],
+    [
+     "What would you like to change about your work or studies?",
+     "I'd like to cut down on meetings, frankly. A lot of them could be a two-line message, and they eat into the time I'd rather spend actually building things. If I had my way, we'd have one solid planning session a week and leave people alone for the rest of it."
+    ]
+   ]
+  },
+  {
+   "topic": "Home and accommodation",
+   "samples9": [
+    [
+     "Which room do you spend the most time in?",
+     "It's the living room, hands down. It doubles as my office during the day, so I'm at the desk by the window from about nine onwards, and then in the evening it turns back into the place where I flop on the sofa with a book. It gets lovely afternoon light, which probably explains why I never leave it."
+    ],
+    [
+     "What makes a home comfortable for you?",
+     "For me it's less about furniture and more about light and quiet. If a place gets decent natural light and I can't hear the neighbours' television, I'm halfway there. Beyond that, I need a few things that actually mean something to me, like photos or books, otherwise it just feels like a hotel room."
+    ]
+   ]
+  },
+  {
+   "topic": "Daily routine",
+   "samples9": [
+    [
+     "Which part of the day do you like most?",
+     "I'd say the early morning, before anyone else is up. I make a coffee, sit on the balcony and just let my mind wander for twenty minutes or so. It's the only part of the day nobody's asking anything of me, and I find it sets the tone for everything that follows."
+    ],
+    [
+     "Has your routine changed in recent years?",
+     "Quite a lot, actually. A few years ago I was commuting an hour each way and my whole day revolved around traffic. Since I started working mostly from home I've got that time back, so I exercise in the morning now, which I'd never have managed before. It's made a surprisingly big difference to my mood."
+    ]
+   ]
+  },
+  {
+   "topic": "Food",
+   "samples9": [
+    [
+     "Is there any food you dislike?",
+     "Not much, I'm fairly adventurous, but I've never been able to get on with bitter melon. My grandmother swore by it and used to make it into a soup, and I'd sit there pushing it round the bowl. I've tried it again as an adult, thinking my taste might've matured, but no, still can't stand it."
+    ],
+    [
+     "Do you prefer eating at home or eating out?",
+     "It depends on the day, really. During the week I'd much rather cook something simple at home because I know what's going into it. But at weekends I love eating out, partly for the food and partly because it's a chance to catch up with friends without anyone having to do the washing-up."
+    ]
+   ]
+  },
+  {
+   "topic": "Weather",
+   "samples9": [
+    [
+     "What kind of weather do you like best?",
+     "I'm a big fan of those cool, slightly overcast mornings we sometimes get in December. It's never properly cold where I live, so when the temperature dips a bit, it feels like a treat. I can walk around without breaking into a sweat, which, believe me, is a rare luxury for most of the year."
+    ],
+    [
+     "Does the weather affect your mood?",
+     "Definitely, more than I'd like to admit. A week of heavy, humid weather in the rainy season tends to make me sluggish and a bit short-tempered. Whereas a clear, breezy day instantly lifts my spirits. I've learnt not to make big decisions when it's been pouring for days on end."
+    ]
+   ]
+  },
+  {
+   "topic": "Music",
+   "samples9": [
+    [
+     "When do you usually listen to music?",
+     "Mostly when I'm doing something that doesn't need my full attention, like cooking, cleaning or going for a run. When I'm working, I tend to stick to instrumental stuff because lyrics pull me away from what I'm writing. And on long drives it's non-stop, usually old songs I can sing along to, badly."
+    ],
+    [
+     "Has your taste in music changed over the years?",
+     "Quite a bit, yeah. As a teenager I was into fairly loud rock, partly, I think, because it felt rebellious. These days I gravitate towards jazz and acoustic music, things that sit in the background without demanding too much of me. I suppose my taste has mellowed along with everything else."
+    ]
+   ]
+  },
+  {
+   "topic": "Reading",
+   "samples9": [
+    [
+     "Do you prefer paper books or e-books?",
+     "I'm a bit torn, to be honest. For novels I much prefer paper. There's something about physically turning the pages that helps me get lost in a story. But for anything work-related I use an e-reader, because I can highlight passages and search them later, which saves me a lot of time."
+    ],
+    [
+     "Do you think people read less nowadays?",
+     "I'm not convinced they do, actually. People probably read fewer books, but we're reading constantly, articles, messages, threads, newsletters. The real change, I'd argue, is in the kind of reading. It's become much more fragmented, and I think a lot of us have lost the patience for long, sustained reading, me included."
+    ]
+   ]
+  },
+  {
+   "topic": "Sport",
+   "samples9": [
+    [
+     "Did you do much sport at school?",
+     "Not as much as I should have. I was the kid who'd volunteer to keep score just to avoid running laps. The one exception was badminton, which I genuinely enjoyed and was reasonably good at. Looking back, I wish the school had offered more variety, because I might've found something that clicked earlier."
+    ],
+    [
+     "Would you like to try a new sport?",
+     "I'd love to give bouldering a go. A friend of mine got into it last year and she says it's as much a puzzle as a workout, which really appeals to me. The only thing holding me back is that I'm not great with heights, but apparently you don't climb that high, so I'm running out of excuses."
+    ]
+   ]
+  },
+  {
+   "topic": "Shopping",
+   "samples9": [
+    [
+     "Do you prefer shopping online or in shops?",
+     "For most things, online, simply because it saves time and I can compare prices in a couple of minutes. But clothes and shoes are a different story. I've been burnt too many times by things that looked great on a model and fitted me terribly, so for those I'd rather go to an actual shop."
+    ],
+    [
+     "Do you ever buy things you don't need?",
+     "Oh, guilty as charged. Usually it's something I convince myself will make my life more organised, a fancy notebook or some kitchen gadget, and then it sits in a drawer. I've started making myself wait forty-eight hours before buying anything non-essential, and nine times out of ten the urge just passes."
+    ]
+   ]
+  },
+  {
+   "topic": "Friends",
+   "samples9": [
+    [
+     "Do you prefer having a few close friends or lots of friends?",
+     "Definitely a few close ones. I've got maybe four people I could call at two in the morning and they'd pick up, and that matters far more to me than a big social circle. I do enjoy meeting new people, but I find large groups a bit draining after a while."
+    ],
+    [
+     "Is it easy to make new friends as an adult?",
+     "It's harder, I think, mainly because you lose the built-in structure of school or university, where you're thrown together with the same people every day. As an adult you have to make a deliberate effort. Most of my newer friends I've met through a running club, which gives you that regular contact without it feeling forced."
+    ]
+   ]
+  },
+  {
+   "topic": "Holidays",
+   "samples9": [
+    [
+     "What was your best holiday?",
+     "Probably a trip to the north of Vietnam a couple of years ago. We did a loop through the mountains on motorbikes, staying in tiny guesthouses, and the scenery was just breathtaking, these terraced rice fields stretching as far as you could see. It wasn't remotely luxurious, but I've never felt so switched off from work."
+    ],
+    [
+     "Do you like to plan your holidays in detail?",
+     "Only up to a point. I'll book flights and somewhere to stay for the first night, and maybe make a list of things I'd like to see, but I deliberately leave plenty of slack. Some of my best memories come from just wandering around and stumbling on something I'd never have found in a guidebook."
+    ]
+   ]
+  },
+  {
+   "topic": "Transport",
+   "samples9": [
+    [
+     "What is public transport like where you live?",
+     "It's improving, but it's still got a long way to go. We've finally got a metro line up and running, which is a big step, but it only covers a fraction of the city. The buses are cheap but they get stuck in the same traffic as everyone else, so most people still rely on motorbikes."
+    ],
+    [
+     "Have you ever had a bad experience on public transport?",
+     "Nothing dramatic, thankfully, but I did once get on an overnight bus that broke down in the middle of nowhere at about three in the morning. We were stranded on the roadside for nearly four hours waiting for a replacement. Funnily enough, I ended up chatting to the people around me, and it turned into quite a memorable night."
+    ]
+   ]
+  },
+  {
+   "topic": "Technology and phones",
+   "samples9": [
+    [
+     "Could you live without your phone for a week?",
+     "Practically, yes, but I'd find it pretty unnerving at first. I did a digital detox on a retreat once and for the first day or two I kept reaching for my pocket out of sheer habit. By the end, though, I felt noticeably calmer. The tricky part would be work, since so much of it runs through my phone."
+    ],
+    [
+     "What was your first phone like?",
+     "It was a chunky little thing with a monochrome screen and those rubbery buttons. I think I got it when I was about fourteen. All it could really do was make calls, send texts and play that snake game, which I spent far too many hours on. Compared to now, it seems almost prehistoric."
+    ]
+   ]
+  },
+  {
+   "topic": "Photography",
+   "samples9": [
+    [
+     "What do you usually take photos of?",
+     "Mostly food and streets, I'd say. I like capturing the little details of everyday life, an old man reading a newspaper outside a café, or the way the light hits a market stall late in the afternoon. I'm not very good at landscapes, oddly enough. They never look as impressive on screen as they did in person."
+    ],
+    [
+     "Do you like having your photo taken?",
+     "Not particularly, no. I tend to freeze up the moment someone points a camera at me, and I end up with this rather stiff, awkward smile. I'm much happier behind the camera. Candid shots are a different matter, though. Some of my favourite photos of myself were taken when I didn't know anyone was looking."
+    ]
+   ]
+  },
+  {
+   "topic": "Films",
+   "samples9": [
+    [
+     "What kind of films do you enjoy?",
+     "I'm quite partial to slow-burning thrillers, the kind where tension builds gradually rather than relying on explosions. I also have a soft spot for well-made documentaries, especially ones about people who've done something unusual with their lives. What I can't really get into are big superhero franchises. They tend to blur into one after a while."
+    ],
+    [
+     "Do you prefer watching films at home or at the cinema?",
+     "For most films, home, because I can pause it and nobody's rustling sweet wrappers behind me. But if it's something visually spectacular, I think it's worth going to the cinema. A big screen and proper sound can completely change the experience, and there's something special about reacting to a scene with a room full of strangers."
+    ]
+   ]
+  },
+  {
+   "topic": "Art",
+   "samples9": [
+    [
+     "Did you enjoy art lessons at school?",
+     "I did, though more for the atmosphere than the art itself. It was the one lesson where we were allowed to chat and nobody was being tested on anything. I wasn't especially talented, my drawings were fairly wobbly, but I remember it as a nice break from the pressure of exams."
+    ],
+    [
+     "Is there any art in your home?",
+     "A little, yes. There's a watercolour of a fishing village that a friend painted for me, which hangs in the hallway, and a couple of framed prints I picked up while travelling. Nothing valuable, but each one has a story behind it, and I think that's what makes a place feel like home."
+    ]
+   ]
+  },
+  {
+   "topic": "Nature",
+   "samples9": [
+    [
+     "Are there any parks or natural areas near where you live?",
+     "Not as many as I'd like. There's one decent park about fifteen minutes' walk from my flat, and it's lovely early in the morning when people are doing tai chi under the trees. But on the whole the city's quite short of green space, so at weekends I sometimes head out to the outskirts just to breathe."
+    ],
+    [
+     "Do you prefer the mountains or the sea?",
+     "The sea, without a doubt. I grew up by the coast, so the sound of waves is sort of hardwired into me. Mountains are spectacular, and I've enjoyed every hiking trip I've done, but I find the sea more calming. You can just sit and watch it for hours without needing to do anything."
+    ]
+   ]
+  },
+  {
+   "topic": "Birthdays",
+   "samples9": [
+    [
+     "How do you usually celebrate your birthday?",
+     "These days, pretty low-key. I'll usually have dinner with a few close friends at a restaurant we like, and my family will call in the morning. I used to make more of a fuss in my twenties, big parties and so on, but now I'd honestly rather have a long conversation with people I care about."
+    ],
+    [
+     "Do you prefer to give or receive birthday gifts?",
+     "Giving, definitely. I really enjoy the whole process of figuring out what someone would love, especially when it's something they've mentioned in passing and forgotten about. Receiving gifts makes me slightly self-conscious, actually. I never quite know what face to make while I'm unwrapping it."
+    ]
+   ]
+  },
+  {
+   "topic": "Clothes",
+   "samples9": [
+    [
+     "Do you spend much money on clothes?",
+     "Less than I used to. A few years ago I'd buy cheap things on impulse and wear them twice, which was a complete waste. Now I'd rather spend a bit more on fewer pieces that last and that I actually like. My wardrobe's smaller, but I wear almost everything in it."
+    ],
+    [
+     "Have you ever worn traditional clothes?",
+     "Yes, I've worn an áo dài a few times, mostly for weddings and Lunar New Year. It's our traditional long dress, and it's surprisingly elegant. It does take some getting used to, though, because it's quite fitted, so you can't exactly sprawl on the sofa in it, but I always feel rather proud wearing one."
+    ]
+   ]
+  },
+  {
+   "topic": "Colours",
+   "samples9": [
+    [
+     "Are there any colours you dislike?",
+     "Not really dislike, but I've never been keen on very bright neon shades, especially that lurid lime green. On a sign or a running shoe it's fine, but in a room or on clothes I find it a bit aggressive on the eyes. I'm generally drawn to more muted, earthy tones."
+    ],
+    [
+     "Do colours affect how you feel?",
+     "I think they do, though probably more subtly than people claim. I definitely work better in a room with soft, neutral colours than one painted bright red, which I find a bit agitating. And grey, rainy days with everything washed out can make me feel flat. So yes, but it's one factor among many."
+    ]
+   ]
+  },
+  {
+   "topic": "Noise",
+   "samples9": [
+    [
+     "What kinds of noise do you dislike?",
+     "Construction drilling is the worst, especially when it starts at seven on a Saturday morning, which seems to be every Saturday in my neighbourhood. I also find other people's phone calls on speaker in public places really grating. It's not the volume so much as the fact that you can't tune it out."
+    ],
+    [
+     "Do you prefer studying in silence or with some background noise?",
+     "A bit of background noise, oddly enough. Complete silence makes me hyper-aware of every little sound, like the fridge humming or a clock ticking. So I'll often work in a café or put on a recording of rain. That gentle murmur somehow helps me focus, as long as there's no one talking right next to me."
+    ]
+   ]
+  },
+  {
+   "topic": "Keys",
+   "samples9": [
+    [
+     "Have you ever lost your keys?",
+     "More than once, unfortunately. The worst time, I'd locked myself out of my flat late at night after a long flight, with my phone almost dead. I ended up sitting on the stairs for an hour waiting for a locksmith, who charged me an arm and a leg. Since then I've been a lot more careful."
+    ],
+    [
+     "Do you think we will still use keys in the future?",
+     "Fewer, I'd imagine. My building already uses a keycard, and a lot of new flats have keypads or open with your phone. That said, I think traditional keys will hang on for a while yet, partly because they don't run out of battery, and partly because people trust something they can actually hold."
+    ]
+   ]
+  },
+  {
+   "topic": "Sleep",
+   "samples9": [
+    [
+     "How many hours do you usually sleep?",
+     "About seven hours on a good night, which seems to be my sweet spot. If I get less than six, I'm noticeably slower the next day and I reach for coffee far too often. I've been trying to keep a more regular bedtime lately, and it's made a real difference, even at weekends."
+    ],
+    [
+     "What do you do if you can't sleep?",
+     "I've learnt not to lie there fighting it, because that just makes it worse. I'll get up, put on a dim light and read something fairly dull, nothing on a screen, until I start feeling drowsy. Sometimes writing down whatever's on my mind helps too, so it's out of my head and onto paper."
+    ]
+   ]
+  },
+  {
+   "topic": "Time management",
+   "samples9": [
+    [
+     "Are you good at managing your time?",
+     "Better than I used to be, but I wouldn't call myself a natural. I've had to build systems to compensate, like planning my week on a Sunday evening and blocking out time for important work. When I stick to that, I'm pretty efficient. When I don't, the day just gets swallowed by small tasks."
+    ],
+    [
+     "Do you ever put things off until the last minute?",
+     "Occasionally, I'll admit. It's usually with things that are boring rather than difficult, like paperwork or admin. I've found the trick is to break them into tiny steps, so that starting feels almost too easy to avoid. Once I've begun, I usually wonder why I put it off for so long."
+    ]
+   ]
+  },
+  {
+   "topic": "Social media",
+   "samples9": [
+    [
+     "Do you post a lot on social media?",
+     "Hardly ever, actually. I'm much more of a lurker. I'll scroll through and read what friends are up to, but I only post now and then, maybe a few photos after a trip. I suppose I've never been entirely comfortable broadcasting my life to people I barely know."
+    ],
+    [
+     "Have you ever tried to stop using social media?",
+     "Yes, twice. The first time I lasted about three days before I caved, which was a bit embarrassing. The second time I was more realistic. I just deleted the apps from my phone so I could only check them on my laptop, and that worked far better, because it added just enough friction to break the habit."
+    ]
+   ]
+  },
+  {
+   "topic": "Cooking",
+   "samples9": [
+    [
+     "What dish can you cook well?",
+     "I make a pretty decent bún bò, which is a spicy beef noodle soup from central Vietnam. It's quite fiddly because the broth takes hours and you need to get the balance of lemongrass and chilli just right. It took me a fair few attempts, but now friends actually ask me to make it."
+    ],
+    [
+     "Would you like to take a cooking class?",
+     "I'd love to, actually, especially something like a bread-making course. Baking's never really been part of our food culture, so I've never learnt the basics properly. I think having someone show you the technique in person would save me a lot of failed loaves and wasted flour."
+    ]
+   ]
+  },
+  {
+   "topic": "Languages",
+   "samples9": [
+    [
+     "What is the most difficult part of learning a new language?",
+     "For me it's speaking spontaneously. Reading and grammar can be studied, but holding a real conversation means thinking on your feet, and you can't always fall back on a textbook phrase. With English it took me years before I stopped translating in my head, and that was when things really started to flow."
+    ],
+    [
+     "Would you like to learn another language?",
+     "Yes, I've actually started on Chinese, though I'm very much a beginner. It's fascinating but humbling, especially the tones and the characters. Part of the appeal is practical, there's a lot of business between our countries, but I also just enjoy the challenge of something that doesn't resemble any language I already know."
+    ]
+   ]
+  },
+  {
+   "topic": "Museums",
+   "samples9": [
+    [
+     "Have you visited any museums recently?",
+     "Yes, a few weeks ago I went to a small museum about the history of the city. It was surprisingly good, lots of old photos and maps showing how the neighbourhoods have changed. I went in thinking I'd stay half an hour and ended up being there most of the afternoon."
+    ],
+    [
+     "What kind of museums do you find most interesting?",
+     "I really like the ones focused on everyday life, how ordinary people lived, worked and ate in a particular period. Grand collections of paintings are impressive, but I connect more with things like old kitchen utensils or letters. They make history feel personal rather than something that only happened to kings and generals."
+    ]
+   ]
+  },
+  {
+   "topic": "Gifts",
+   "samples9": [
+    [
+     "What is the best gift you have ever received?",
+     "Probably a handwritten letter my sister gave me when I moved to the city for university. She was only about twelve, and she'd written down all these funny memories of us growing up. It cost nothing, but I still have it in a drawer, and whenever I'm feeling a bit low I'll dig it out and read it."
+    ],
+    [
+     "Is it difficult to choose gifts for people?",
+     "It can be, especially with people who already have everything they need. I find it much easier when I've really paid attention to someone, so I keep a little note on my phone whenever a friend mentions something they'd like. Without that, I'd probably end up buying another scented candle."
+    ]
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "id": "s2_01",
+   "sample9": "I'd like to talk about a woman called Hạnh, who was my first manager when I joined a small marketing agency straight out of university. I was twenty-one, fairly cocky, and convinced I already knew how the world worked, so I suppose I was ripe for a lesson.\n\nWe worked together for about two years. She wasn't the kind of boss who gave long speeches; she was quite reserved, actually, and you only really noticed her influence in hindsight.\n\nWhat she taught me, in a nutshell, was how to take criticism without taking it personally. About three months in, I handed her a campaign proposal I was enormously proud of. She read it, put it down and said, very calmly, \"This is well written, but it's about you, not the customer.\" I was mortified. I think I sulked for the rest of the afternoon. But the next morning she sat down with me and went through it line by line, and by the end I could see exactly what she meant. I'd been trying to sound clever rather than trying to be useful.\n\nThe reason this mattered so much is that it changed the way I hear feedback. Before that, I treated every comment as a verdict on me as a person, which made me defensive and, frankly, quite hard to work with. What Hạnh showed me was that criticism of the work is actually a kind of investment in you, because nobody bothers to correct someone they've given up on.\n\nI've carried that with me ever since. These days, when someone pulls apart something I've written, my first instinct is curiosity rather than hurt, or at least, that's what I aim for. And now that I manage people myself, I try to give feedback the way she did: honestly, specifically and with the follow-up that makes it worth hearing.",
+   "why9": [
+    [
+     "Câu mở có ngữ cảnh cá nhân",
+     "Câu \"fairly cocky, and convinced I already knew how the world worked\" tự giới thiệu bản thân lúc trẻ một cách hài hước, tạo nền cho bài học phía sau. FC: câu chuyện có mạch cảm xúc rõ, không đọc thuộc từng gạch đầu dòng."
+    ],
+    [
+     "Thành ngữ đúng chỗ",
+     "\"ripe for a lesson\", \"in a nutshell\", \"in hindsight\": mỗi thành ngữ chỉ dùng một lần và khớp nghĩa. LR band 9 là dùng idiom tự nhiên, ít mà trúng, không nhồi."
+    ],
+    [
+     "Câu tường thuật trực tiếp",
+     "Trích lại câu nói \"This is well written, but it's about you, not the customer.\" làm câu chuyện sống động. FC: kể chuyện có điểm nhấn thay vì tóm tắt chung chung."
+    ],
+    [
+     "Cấu trúc tương phản",
+     "\"trying to sound clever rather than trying to be useful\" và \"curiosity rather than hurt\": cặp đối lập rõ nghĩa. GRA: dùng cấu trúc song song để làm rõ ý, không phải để khoe."
+    ],
+    [
+     "Câu phức có lập luận",
+     "\"nobody bothers to correct someone they've given up on\": mệnh đề quan hệ rút gọn, kết thúc bằng giới từ rất tự nhiên trong văn nói. GRA: phức mà vẫn trôi chảy."
+    ],
+    [
+     "Nhấn trọng âm để đối lập",
+     "Khi nói \"about YOU, not the CUSTOMER\" hãy nhấn mạnh hai từ in hoa và ngắt nhẹ trước \"not\". P: người học nên bắt chước cách nhấn đối lập này để người nghe bắt được ý chính."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Who do you think has more influence on children, parents or teachers?",
+     "I think it shifts with age. In the early years parents are overwhelmingly the bigger influence, simply because children absorb their habits, values and even their attitudes to learning at home. Once kids start school, though, teachers often shape how they see their own abilities, and a single encouraging teacher can redirect someone's whole sense of what they're capable of. So I'd say parents lay the foundations, while teachers can either reinforce or quietly rebuild them. Where the two pull in opposite directions, I suspect home usually wins out in the long run."
+    ],
+    [
+     "Do people learn more from their own mistakes or from other people's advice?",
+     "Ideally from both, but I'd argue mistakes leave a deeper mark. When you get something wrong yourself, there's an emotional cost attached, embarrassment or lost money, and that tends to make the lesson stick in a way advice rarely does. The downside is that some mistakes are far too expensive to learn from first-hand, financial or health decisions, for example. That's where advice earns its keep. So the sensible approach is probably to take other people's advice on the high-stakes things and allow yourself to learn the hard way when the consequences are manageable."
+    ]
+   ]
+  },
+  {
+   "id": "s2_02",
+   "sample9": "The person I'd like to describe is my great-uncle, Ông Tư, who's eighty-three and still lives in the same wooden house in the countryside where he was born. He's my grandmother's younger brother, so he's technically family, but he's also become something of a friend.\n\nI don't see him nearly as often as I'd like, maybe three or four times a year, usually around Tết, and whenever I've got a long weekend free. The journey takes about five hours, but I've never once regretted making it.\n\nAs for what he's like, the first thing that strikes you is how unhurried he is. He gets up before dawn, tends his fruit trees, reads the newspaper cover to cover, and in the afternoon he'll sit on the porch and talk to whoever happens to walk past. He's lived through war, poverty and losing his wife quite young, and yet there isn't a trace of bitterness in him. If anything, he's one of the most light-hearted people I know. He has this habit of answering serious questions with a joke first and then, once you've stopped laughing, saying something genuinely profound.\n\nWhy do I admire him? I think it's his contentment. He's never had much money, and by most modern standards his life would look very small, but he seems more at peace than almost anyone I know in the city. Last time I visited, I was complaining about work, and he listened for a long time and then just said, \"You're running very fast. Do you know where to?\" It sounds like something off a fridge magnet, but coming from him, it really hit home.\n\nI suppose he reminds me that a good life isn't necessarily a busy or impressive one, and that's a lesson I'm still trying to put into practice.",
+   "why9": [
+    [
+     "Mô tả qua hành động cụ thể",
+     "Thay vì nói \"he is relaxed\", người nói liệt kê \"tends his fruit trees, reads the newspaper cover to cover\". FC và LR: chi tiết cụ thể làm tính cách hiện ra tự nhiên, đây là điểm khác giữa band 8 và 9."
+    ],
+    [
+     "Cấu trúc nhượng bộ",
+     "\"and yet there isn't a trace of bitterness in him\": \"and yet\" nối hai ý trái ngược rất mượt. GRA: dùng cấu trúc nhượng bộ để thể hiện thái độ, không cần \"Although\" máy móc."
+    ],
+    [
+     "Tự bình luận về câu nói của mình",
+     "\"It sounds like something off a fridge magnet, but coming from him, it really hit home.\" Người nói tự nhận câu kia hơi sáo rồi giải thích vì sao nó vẫn có ý nghĩa. FC: thể hiện suy nghĩ thật, không phải bài thuộc lòng."
+    ],
+    [
+     "Collocation chính xác",
+     "\"not a trace of bitterness\", \"genuinely profound\", \"hit home\", \"put into practice\". LR: các cụm từ đi với nhau chuẩn như người bản ngữ."
+    ],
+    [
+     "Ngắt cụm và ngữ điệu câu hỏi tu từ",
+     "\"Why do I admire him? / I think it's his contentment.\" Nên dừng ngắn sau câu hỏi, rồi hạ giọng ở \"contentment\". P: tự đặt câu hỏi rồi trả lời giúp bài nói có nhịp, người học nên bắt chước chỗ ngắt này."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "What can young people learn from older people?",
+     "Quite a lot, I think, though not always in the form of direct advice. Older people have a sense of proportion that only comes from having lived through several crises, so they're often far less rattled by setbacks that seem enormous to someone in their twenties. They also tend to remember how things were done before, which can be surprisingly useful when modern solutions fail. The catch is that young people need to be willing to listen without dismissing everything as outdated, and older people need to accept that not all of their experience translates neatly into today's world."
+    ],
+    [
+     "How will ageing populations affect society?",
+     "In fairly profound ways. The most obvious pressure is financial: fewer working-age people supporting a growing number of retirees puts a strain on pensions and healthcare. But I think the social effects are just as significant. Families will increasingly be caring for elderly relatives while raising children, which could squeeze middle-aged people quite hard. On the other hand, older people today are often healthier and more active than previous generations, so there's real potential if societies make room for them to keep working or volunteering. Whether it becomes a burden or a resource depends largely on policy."
+    ]
+   ]
+  },
+  {
+   "id": "s2_03",
+   "sample9": "I'm going to talk about my friend Minh, who I've known for roughly twenty years now, which is a slightly alarming number when I say it out loud.\n\nWe met on the first day of secondary school. I was the new kid, having just moved from another town, and I'd been seated next to him purely because our names came one after the other on the register. I remember he lent me a pen without being asked, because I'd clearly forgotten mine, and that was more or less that.\n\nThese days we live in different cities, so most of what we do together happens over the phone, long, rambling calls that start with something trivial and end up covering everything from work to family to whatever book one of us is reading. When we do manage to meet up, we tend to fall back into our old routine: a cheap street-food dinner, followed by a walk with no particular destination. We've never really been the kind of friends who need an activity to fill the time.\n\nSo why has it lasted? I've thought about this quite a bit, and I think there are two reasons. The first is that we've never tried to change each other. We disagree about a fair amount, politics, money, even what counts as a good film, but neither of us feels the need to win. The second is that we've both been there at genuinely bad moments. When my father was ill a few years ago, Minh drove four hours just to sit in a hospital corridor with me, and he barely said anything. He didn't need to.\n\nI think friendships like that survive because they're built on showing up rather than on having things in common. Interests change over the years; reliability doesn't.",
+   "why9": [
+    [
+     "Hài hước nhẹ và tự nhiên",
+     "\"which is a slightly alarming number when I say it out loud\": câu bình luận cá nhân ngay từ đầu giúp bài nói nghe như trò chuyện thật. FC: giọng tự nhiên, không phải đang trả bài."
+    ],
+    [
+     "Mệnh đề phân từ",
+     "\"having just moved from another town\" và \"followed by a walk with no particular destination\". GRA: dùng mệnh đề rút gọn để nén thông tin mà vẫn rõ."
+    ],
+    [
+     "Tự đặt khung cho câu trả lời",
+     "\"I think there are two reasons. The first is... The second is...\" FC: tổ chức ý rõ ràng mà không dùng linker máy móc như \"Firstly, Secondly, In conclusion\"."
+    ],
+    [
+     "Câu ngắn tạo hiệu ứng",
+     "\"He didn't need to.\" sau một câu dài. FC và GRA: thay đổi độ dài câu để nhấn cảm xúc, dấu hiệu của người nói tự tin."
+    ],
+    [
+     "Câu kết đối xứng",
+     "\"Interests change over the years; reliability doesn't.\" LR: câu kết gọn, có ý nghĩa khái quát, tránh câu kết sáo rỗng."
+    ],
+    [
+     "Nhấn trọng âm tương phản",
+     "Trong \"built on SHOWING UP rather than on HAVING things in COMMON\", nhấn hai vế đối lập. P: hạ giọng ở \"doesn't\" cuối bài để báo hiệu kết thúc, người học nên luyện ngữ điệu xuống này."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Is it possible to have a real friendship online?",
+     "I think it is, though it tends to look different. Some of the most supportive communities I've seen exist entirely online, people dealing with the same illness, say, who end up knowing each other remarkably well. Shared vulnerability can create real closeness. That said, online friendships are easier to drift out of, because there's no shared physical routine holding them together, and you miss out on the practical side of friendship, someone actually turning up when you need help. So I'd say they can be real, but they're often more fragile unless at some point they cross over into the offline world."
+    ],
+    [
+     "Do people have fewer close friends today than in the past?",
+     "Possibly, although I'm wary of assuming the past was some golden age. People certainly have more contacts than ever, but there's evidence that many feel lonelier, which suggests the quality of connection has suffered. Part of it is practical: people move cities for work, and long hours leave little time to maintain relationships. Social media may also give an illusion of closeness, so people invest less in face-to-face contact. On the other hand, technology makes it far easier to stay in touch with close friends at a distance, which simply wasn't possible a generation ago."
+    ]
+   ]
+  },
+  {
+   "id": "s2_04",
+   "sample9": "The place I'd like to describe is a small bookshop café tucked down an alley in District 3, which I only found by accident a couple of years ago when I took a wrong turn looking for somewhere else entirely.\n\nFrom the street you'd hardly notice it, just a narrow doorway with a hand-painted sign. But once you're inside, it opens up into this surprisingly spacious old French-style house, with high ceilings, creaky wooden floors and bookshelves lining every wall. There's a little courtyard at the back with a frangipani tree in the middle, and that's where I always try to sit.\n\nI go there most Saturday mornings, unless something unavoidable comes up. What I do there is, admittedly, not very exciting. I order an iced coffee, pick a book off the shelves, often something I'd never buy, and just read for two or three hours. Occasionally I'll bring a notebook and write, but usually I make a point of not doing anything productive at all.\n\nAs for why it's so relaxing, I think it comes down to a few things. The most obvious is the quiet. Ho Chi Minh City is relentless, the traffic and the horns never really stop, and that courtyard is one of the very few places where you can actually hear birds. But it's also the fact that nobody's in a hurry. The staff don't hover around waiting for you to leave, and people seem to understand, without anything being said, that it's a place for keeping to yourself.\n\nAnd perhaps more than anything, it's become a kind of ritual. After a draining week, just knowing that Saturday morning is waiting for me helps me get through Friday. I suppose it's less about the place itself than about what it gives me permission to do, which is absolutely nothing.",
+   "why9": [
+    [
+     "Mô tả không gian theo trình tự",
+     "\"From the street... But once you're inside... There's a little courtyard at the back\". FC: dẫn người nghe đi từ ngoài vào trong như một cảnh quay, mạch lạc mà không cần từ nối máy móc."
+    ],
+    [
+     "Từ vựng mô tả chính xác",
+     "\"tucked down an alley\", \"creaky wooden floors\", \"hover around\", \"relentless\". LR: động từ và tính từ cụ thể thay cho \"nice\", \"beautiful\", \"busy\"."
+    ],
+    [
+     "Thừa nhận và tự giễu",
+     "\"What I do there is, admittedly, not very exciting.\" Trạng từ chèn giữa câu thể hiện thái độ. GRA và FC: người nói kiểm soát giọng điệu, nghe rất tự nhiên."
+    ],
+    [
+     "Cấu trúc nhấn mạnh",
+     "\"it's less about the place itself than about what it gives me permission to do\". GRA: cấu trúc so sánh \"less about X than about Y\" giúp diễn đạt ý tinh tế."
+    ],
+    [
+     "Ngắt cụm và nhấn từ cuối",
+     "Câu cuối \"which is / absolutely NOTHING\": dừng ngắn trước \"absolutely nothing\" rồi nhấn mạnh. P: kỹ thuật dừng trước ý bất ngờ, người học nên tập để tạo điểm nhấn."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do people in cities often feel stressed?",
+     "There's a combination of factors. Part of it is simply sensory overload: constant noise, crowds and traffic keep your nervous system on alert even when you're not consciously aware of it. Then there's the pace of urban working life, long commutes and long hours, which leaves little time to recover. Cost of living plays a role too, since housing in big cities eats up a large share of people's income. And, ironically, despite being surrounded by people, many city dwellers feel quite isolated, which removes one of the most effective buffers against stress, having people close by to lean on."
+    ],
+    [
+     "Do you think people today know how to relax?",
+     "I think many people have forgotten how, or at least they confuse relaxing with distracting themselves. Scrolling through a phone for an hour feels like rest, but it often leaves you more drained, because your brain is still processing a stream of information. Genuine relaxation, sitting quietly, walking without headphones, tends to feel almost uncomfortable at first because we're so used to stimulation. That said, there's growing awareness of this, with more people taking up things like meditation or gardening. So I'd say the knowledge is there, but the habits haven't quite caught up."
+    ]
+   ]
+  },
+  {
+   "id": "s2_05",
+   "sample9": "The building I find most interesting is the old Central Post Office in Ho Chi Minh City. It sits right in the heart of District 1, opposite the cathedral, so it's very much on the tourist trail, but I've been there dozens of times and I still notice something new.\n\nIt was built by the French in the late nineteenth century, and from the outside it's quite striking: a long, symmetrical facade painted a warm ochre yellow, with tall arched windows and a big clock right above the entrance. Inside, though, is where it really comes into its own. There's this enormous vaulted ceiling held up by green-painted iron arches, which apparently show the influence of the engineering style of that era, and the floor is covered in patterned tiles that have been worn smooth by over a century of footsteps. On the walls there are two huge old maps, one of the city and one of the southern region, as they were drawn at the time.\n\nWhat's lovely is that it's still a working post office. You can buy stamps, send parcels and so on, although these days, to be fair, it's mainly tourists buying postcards, and there are souvenir stalls along the sides.\n\nThe reason I find it fascinating is that it's a building with layers. On one level it's a beautiful piece of architecture, but it's also a reminder of a complicated colonial past, and of how a city takes something imposed on it and gradually makes it its own. I've seen elderly locals sit on the wooden benches just to escape the heat, chatting away as if it's their living room.\n\nSo for me it isn't just a landmark. It's a kind of conversation between the city's past and its present, and that's something a brand-new glass tower, however impressive, simply can't offer.",
+   "why9": [
+    [
+     "Từ vựng kiến trúc chuyên biệt",
+     "\"symmetrical facade\", \"arched windows\", \"vaulted ceiling\", \"iron arches\". LR: từ chuyên ngành dùng đúng, giúp mô tả chính xác thay vì \"big and old\"."
+    ],
+    [
+     "Rào đón thông tin",
+     "\"which apparently show the influence of the engineering style of that era\". LR: \"apparently\" cho thấy người nói không khẳng định chắc chắn một chi tiết lịch sử, đúng cách hedging của người dùng ngôn ngữ thành thạo."
+    ],
+    [
+     "Bị động tự nhiên",
+     "\"It was built by the French\", \"have been worn smooth by over a century of footsteps\". GRA: bị động hoàn thành kết hợp tính từ kết quả \"worn smooth\", rất khó với người học."
+    ],
+    [
+     "Ý tưởng có chiều sâu",
+     "\"a building with layers\" và \"how a city takes something imposed on it and gradually makes it its own\". FC: phát triển lý do vượt ra ngoài vẻ đẹp bề ngoài, đây là điều phân biệt band 9."
+    ],
+    [
+     "Nhượng bộ trong câu kết",
+     "\"however impressive\" chèn giữa câu. GRA: cấu trúc rút gọn của \"however impressive it may be\" dùng rất gọn."
+    ],
+    [
+     "Nhấn \"working\" để đối lập",
+     "\"it's still a WORKING post office\": nhấn từ \"working\" để phân biệt với bảo tàng. P: nhấn vào từ mang thông tin mới, người học nên tập thay vì nhấn đều mọi từ."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Should old buildings be preserved or replaced with modern ones?",
+     "I don't think it has to be one or the other. Buildings with real historical or architectural significance should be protected, because once they're gone they're gone, and they give a city its character. But preserving everything isn't realistic, especially in fast-growing cities that desperately need housing. The more interesting approach, I'd say, is adaptive reuse, keeping the shell of an old building and giving it a new function, a warehouse becoming a library, for instance. That way you keep the link with the past without freezing the city in time."
+    ],
+    [
+     "How does architecture affect people's quality of life?",
+     "More than people often realise. Good architecture isn't just about looks; it shapes how we feel and behave. Buildings with plenty of natural light and ventilation tend to make people healthier and more productive, while cramped, dark housing has been linked to stress. Public spaces matter too. A well-designed square or a building with a welcoming ground floor encourages people to linger and interact, whereas blank walls and car parks push them away. So architecture affects quality of life at a community level as well, not just for the individuals living inside."
+    ]
+   ]
+  },
+  {
+   "id": "s2_06",
+   "sample9": "I'd like to talk about the flower market on Nguyễn Huệ walking street, which I went to on the evening before Lunar New Year about three years ago. I'd lived in the city for a while by then, but I'd always avoided it at that time of year, precisely because I knew what it'd be like. That year, though, a friend visiting from abroad was desperate to see it, so I gave in.\n\nThe reason it gets so crowded is that it's essentially the city's biggest Tết tradition. For about a week, the whole street is transformed into this elaborate display of flowers, giant sculptures of the zodiac animal and lanterns, and on the last couple of nights before the new year, it feels as if half the city turns up at once, families in their best clothes, couples taking photos, kids on their parents' shoulders. And since it's free and right in the centre, there's really nothing to keep anyone away.\n\nHow did I feel? Honestly, it was a bit of a rollercoaster. For the first twenty minutes I was mildly panicking. We were shuffling forward inch by inch, someone's elbow was permanently in my ribs, and it was so hot I could feel my shirt sticking to my back. I remember thinking, \"This was a terrible idea.\"\n\nBut then something shifted. We stopped trying to get anywhere in particular and just went with the flow, and I started noticing things: an old couple in matching áo dài posing very seriously for a photo, a little girl absolutely mesmerised by a giant golden dragon. There was this collective sense of anticipation, everyone sort of buzzing with the excitement of a fresh start.\n\nSo by the end I was genuinely glad I'd gone. I still wouldn't choose to go every year, but it reminded me that crowds aren't just an inconvenience. Sometimes they're the whole point.",
+   "why9": [
+    [
+     "Đưa lý do cá nhân vào bối cảnh",
+     "\"I'd always avoided it at that time of year, precisely because I knew what it'd be like... so I gave in.\" FC: câu chuyện có xung đột nhỏ ngay từ đầu, khiến người nghe muốn nghe tiếp."
+    ],
+    [
+     "Thì quá khứ hoàn thành và tường thuật",
+     "\"I'd lived in the city for a while by then\", \"glad I'd gone\". GRA: dùng thì chính xác để sắp xếp thời gian câu chuyện."
+    ],
+    [
+     "Thành ngữ cảm xúc",
+     "\"a bit of a rollercoaster\", \"went with the flow\", \"inch by inch\". LR: thành ngữ phổ biến, dùng đúng ngữ cảnh, không gượng."
+    ],
+    [
+     "Chuyển biến cảm xúc rõ ràng",
+     "\"But then something shifted.\" Câu ngắn làm bước ngoặt. FC: cấu trúc câu chuyện có mở, biến chuyển và kết, trả lời trọn vẹn câu hỏi \"how you felt\"."
+    ],
+    [
+     "Câu kết đảo nghĩa",
+     "\"crowds aren't just an inconvenience. Sometimes they're the whole point.\" LR và FC: kết luận bất ngờ, có quan điểm riêng."
+    ],
+    [
+     "Ngữ điệu trích lời nghĩ",
+     "Khi nói \"This was a terrible idea\", đổi giọng như đang nghĩ thầm, hơi chậm và hạ giọng. P: thay đổi giọng khi trích dẫn giúp bài nói sinh động, người học nên bắt chước."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "What problems does overcrowding cause in cities?",
+     "The most visible problem is pressure on infrastructure: congested roads, overstretched public transport and housing that simply can't keep up with demand, which pushes rents up and forces poorer residents into substandard accommodation. There are environmental costs as well, such as air pollution and a lack of green space. But I'd argue the less obvious problems are just as serious. Overcrowding can wear down people's patience and sense of community, because everyone is competing for space. That said, density isn't inherently bad; well-planned dense cities can actually be more efficient. The problem is usually crowding without the planning to support it."
+    ],
+    [
+     "Do you think social media makes some places too popular?",
+     "Undoubtedly, in some cases. A single viral photo can turn a quiet village or a hidden beach into a pilgrimage site almost overnight, and local infrastructure often can't cope. You see people queuing for an hour just to recreate the same shot, which rather defeats the purpose of travelling. On the other hand, social media can also spread tourism more widely, drawing visitors to lesser-known places that genuinely need the income. So the platforms themselves aren't the villain. The issue is how quickly attention concentrates, and whether local authorities can manage it."
+    ]
+   ]
+  },
+  {
+   "id": "s2_07",
+   "sample9": "The object I'd like to talk about is a rather battered old fountain pen that belonged to my grandfather. It's nothing special to look at, dark green, with the gold plating worn away near the clip, and one side slightly dented where I think he must have dropped it at some point.\n\nI got it about eight years ago, shortly after he passed away. When the family was sorting through his things, my grandmother handed it to me and said he'd wanted me to have it, because I was the one who always used to sit beside him while he wrote. He was a schoolteacher and kept a diary all his life, and as a child I'd watch him write in this beautiful, looping script that I could never quite copy.\n\nAs for how often I use it, I'll be honest, not every day. It's a bit temperamental: the ink sometimes leaks, and it doesn't take kindly to being rushed. But I use it whenever I write something that matters, birthday cards, letters, and, funnily enough, the first draft of anything I'm nervous about, like a difficult email or a speech.\n\nThe reason it's so important to me goes beyond the sentimental link, although that's obviously part of it. I think it's what the pen represents. My grandfather was a deliberate person; he thought before he spoke and he took care over small things. Writing with his pen forces me to slow down in the same way, because you simply can't scrawl with a fountain pen. You have to think about each word.\n\nSo in a sense it's a tool for thinking as much as for writing. And whenever I pick it up, I get this small reminder of who he was, and, I suppose, of the kind of person I'd quite like to be.",
+   "why9": [
+    [
+     "Mô tả vật thể sống động",
+     "\"rather battered\", \"gold plating worn away near the clip\", \"slightly dented\". LR: từ mô tả tình trạng cụ thể, giúp người nghe hình dung ngay."
+    ],
+    [
+     "Suy đoán về quá khứ",
+     "\"where I think he must have dropped it at some point\". GRA: động từ khuyết thiếu hoàn thành \"must have + V3\" để suy đoán, dùng đúng và tự nhiên."
+    ],
+    [
+     "Nhân hoá vật dụng",
+     "\"a bit temperamental\", \"doesn't take kindly to being rushed\". LR: cách nói hài hước như mô tả một con người, cho thấy vốn từ linh hoạt."
+    ],
+    [
+     "Phát triển lý do nhiều tầng",
+     "\"goes beyond the sentimental link, although that's obviously part of it\": thừa nhận lý do hiển nhiên rồi đi sâu hơn. FC: lập luận có chiều sâu, đặc trưng band 9."
+    ],
+    [
+     "Câu kết tự soi chiếu",
+     "\"of the kind of person I'd quite like to be\". FC: kết thúc gắn vật với giá trị cá nhân, không cần \"That's all\"."
+    ],
+    [
+     "Nhấn trọng âm đối lập",
+     "\"a tool for THINKING as much as for WRITING\". P: nhấn hai danh động từ đối lập và ngắt nhẹ sau \"So in a sense\". Người học nên luyện nhấn từ mang nghĩa đối lập."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do people keep things that have no practical use?",
+     "Largely because objects hold memories in a way that's very hard to replace. A chipped mug or a child's drawing has no practical value, but it connects us to a person, a period of our life or a feeling, and getting rid of it can feel like losing part of that. There's also an element of identity: the things we keep tell a story about who we are and where we've come from. Of course, it can tip over into clutter, and plenty of people hang on to things out of guilt rather than genuine attachment. But in moderation, I think it's a perfectly healthy human impulse."
+    ],
+    [
+     "Is it better to buy cheap things or more expensive, durable things?",
+     "In the long run, I'd generally say durable things, because cheap items often have to be replaced so frequently that they end up costing more, not to mention the environmental impact of everything we throw away. A good pair of shoes or a well-made appliance can last a decade. That said, it's a privilege to be able to think that way. If you're on a tight budget, you can't always afford the higher upfront cost, even if it's the smarter choice. And for things you'll only use occasionally, or that go out of date quickly, like some electronics, spending more doesn't always make sense."
+    ]
+   ]
+  },
+  {
+   "id": "s2_08",
+   "sample9": "The piece of technology I'd like to talk about is a noise-cancelling headset, which might sound like a slightly odd choice, but it's genuinely transformed the way I work.\n\nI started using it about three years ago, around the time my company moved to hybrid working. Before that, I'd always assumed they were an indulgence for frequent flyers. But my flat is on a busy street, and between the motorbikes, the karaoke next door and the construction site down the road, I was finding it almost impossible to concentrate. A colleague lent me hers for a day, and the difference was so striking that I ordered a pair that evening.\n\nHow do I use it? Mostly in two ways. The obvious one is for calls. The microphone filters out background noise remarkably well, so people on the other end don't hear the chaos around me. But the less obvious one, and honestly the more valuable, is as a way of signalling to myself that it's time to focus. When I put them on, even without any music, the world sort of recedes, and my brain seems to get the message that this is deep-work time.\n\nWhy is it so useful? Well, I think it's because it solves a problem that's easy to underestimate. Noise isn't just irritating; it constantly chips away at your attention, and you don't notice how tired it's making you until it stops. Having a bit of control over my acoustic environment means I finish the day noticeably less drained.\n\nI should add that I try not to wear them all the time, because there's a risk of shutting yourself off completely, and I'd hate to miss someone at the door. But as a tool for protecting concentration, I'd say it's probably the best money I've spent in years.",
+   "why9": [
+    [
+     "Dự đoán phản ứng người nghe",
+     "\"which might sound like a slightly odd choice, but...\" FC: chủ động nói trước điều người nghe có thể nghĩ, tạo cảm giác hội thoại thật."
+    ],
+    [
+     "Liệt kê chi tiết sống động",
+     "\"between the motorbikes, the karaoke next door and the construction site down the road\". LR: liệt kê cụ thể thay vì nói chung \"it was noisy\"."
+    ],
+    [
+     "Phân biệt lớp nghĩa",
+     "\"The obvious one... But the less obvious one, and honestly the more valuable...\" FC: tổ chức câu trả lời theo hai cấp độ, từ hiển nhiên đến sâu sắc."
+    ],
+    [
+     "Collocation và cụm động từ",
+     "\"chips away at your attention\", \"the world sort of recedes\", \"filters out background noise\". LR: cụm động từ chính xác về nghĩa và rất bản ngữ."
+    ],
+    [
+     "Tự cân bằng quan điểm",
+     "\"I should add that I try not to wear them all the time\". FC và GRA: thêm giới hạn cho ý kiến của mình, thể hiện tư duy cân bằng."
+    ],
+    [
+     "Nhấn \"just\" và \"constantly\"",
+     "\"Noise isn't JUST irritating; it CONSTANTLY chips away...\" P: nhấn trạng từ để mở rộng ý. Người học nên tập nhấn từ mang trọng tâm lập luận thay vì danh từ."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Do you think people depend too much on technology?",
+     "In some respects, yes. Very few of us could navigate an unfamiliar city or remember more than a handful of phone numbers without our phones, and when systems go down, whole businesses grind to a halt. But dependence isn't necessarily a problem in itself. We depend on electricity and running water too, and nobody sees that as a weakness. The real concern is when technology replaces skills or habits we still need, like the ability to concentrate for long periods or to tolerate boredom. So I'd say the question isn't how much we rely on it, but what we're giving up in return."
+    ],
+    [
+     "How do older and younger people use technology differently?",
+     "The most obvious difference is fluency. Younger people tend to experiment and pick things up intuitively, whereas many older people prefer to learn one way of doing something and stick to it. But I think the purposes differ as well. Older people often use technology quite deliberately, to keep in touch with family or manage their health, while younger users are more likely to use it for entertainment and self-expression. Interestingly, older users are sometimes more cautious about privacy and scams, which is arguably a healthier instinct. So it's not simply a case of young people being better at it."
+    ]
+   ]
+  },
+  {
+   "id": "s2_09",
+   "sample9": "I'd like to talk about a gift I gave my mother for her sixtieth birthday last year, which was a small book of her own recipes.\n\nThe idea came about almost by accident. My mum is a wonderful cook, but she's never written anything down. She cooks entirely by instinct, \"a bit of this, a handful of that\", and whenever my sister or I asked how to make one of her dishes, the answer was always \"just come over and watch\". It occurred to me that once she's no longer around, all of that knowledge would simply vanish.\n\nSo, over about four months, I visited her most weekends and asked her to make one dish each time, while I followed her around the kitchen with a notebook and a set of measuring spoons, trying to pin down exactly what she meant by \"a bit\". It drove her slightly mad, I think. Then I typed everything up, added photos of the finished dishes and a few old family pictures, and had it printed and bound at a small print shop.\n\nAs for why I chose it, I'd been racking my brains for weeks. She always insists she doesn't need anything, and she's not remotely interested in jewellery or gadgets. What I realised was that the most meaningful thing I could give her wasn't an object but a sign that what she'd been doing for us all those years mattered.\n\nWhy did she like it so much? When she opened it, she didn't say anything for quite a while; she just turned the pages very slowly. Then she said, \"I didn't know you were paying attention.\" I think that was it, really. It wasn't the book itself so much as the realisation that her cooking, which she'd always seen as just an everyday chore, was something we treasured.",
+   "why9": [
+    [
+     "Trích dẫn lời nói thường ngày",
+     "\"a bit of this, a handful of that\", \"just come over and watch\". FC: đưa giọng nói của nhân vật vào giúp câu chuyện chân thực, đây là dấu hiệu kể chuyện tự nhiên."
+    ],
+    [
+     "Thành ngữ đúng ngữ cảnh",
+     "\"racking my brains\", \"drove her slightly mad\", \"pin down\". LR: thành ngữ quen thuộc, được làm mềm bằng \"slightly\" cho phù hợp sắc thái."
+    ],
+    [
+     "Câu chẻ nhấn mạnh",
+     "\"What I realised was that the most meaningful thing... wasn't an object but a sign...\" GRA: câu chẻ với \"What\" và cấu trúc \"not X but Y\" nhấn mạnh ý chính rất mượt."
+    ],
+    [
+     "Bị động với \"have something done\"",
+     "\"had it printed and bound at a small print shop\". GRA: cấu trúc nhờ người khác làm, dùng chính xác và tự nhiên."
+    ],
+    [
+     "Kết bằng cảm xúc thay vì khẳng định",
+     "\"It wasn't the book itself so much as the realisation that...\" FC và LR: \"not so much X as Y\" diễn đạt sắc thái tinh tế."
+    ],
+    [
+     "Ngắt nghỉ để tạo kịch tính",
+     "\"she didn't say anything for quite a while; / she just turned the pages / very slowly.\" P: nói chậm lại và ngắt theo cụm ở đoạn cảm xúc. Người học nên bắt chước nhịp chậm này để tạo hiệu ứng."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do people give gifts?",
+     "On the surface it's about marking an occasion, but I think the deeper function is social. A gift is a way of saying 'I've been thinking about you' without having to put it into words, which many people find awkward. In some cultures gifts also carry an element of obligation and reciprocity, they maintain relationships and show respect, particularly in business or towards elders. And there's a selfish side too, in a good way: giving something that delights someone is genuinely pleasurable. So it's partly communication, partly social glue, and partly for our own satisfaction."
+    ],
+    [
+     "Do you think people spend too much money on gifts nowadays?",
+     "In many cases, I'd say so. Commercial pressure has turned occasions like Christmas or Valentine's Day into a kind of spending competition, and social media makes it worse, because gifts are now often displayed publicly. A lot of people end up buying things out of obligation, sometimes on credit, and much of it is never really used. That said, it's hard to generalise, because for some families a big celebration is a rare chance to show generosity. I think the healthier trend is towards experiences or handmade gifts, which tend to be valued more and cost less."
+    ]
+   ]
+  },
+  {
+   "id": "s2_10",
+   "sample9": "The event I'd like to talk about is my grandparents' fiftieth wedding anniversary, which we celebrated about four years ago at their home in a small coastal town in central Vietnam.\n\nIt was a bigger deal than it might sound, partly because golden anniversaries aren't something families like mine traditionally make a fuss about. It was actually my cousins and I who came up with the idea. My grandparents were initially rather reluctant; my grandmother kept saying it was a waste of money. But in the end they agreed, on the condition that it was kept simple.\n\nIn practice, \"simple\" turned into about sixty people. Relatives travelled from all over the country, a couple even flew in from abroad, and we set up long tables in the courtyard. The food was cooked by my aunts, who'd been at it since dawn. The highlight, though, came after dinner. Each of the grandchildren had collected a story about our grandparents from someone who'd known them when they were young, and we read them out one by one. Some were hilarious, like the time my grandfather tried to impress her by cycling past her house with no hands and ended up in a ditch. Others were quite moving, particularly about how they'd got through the war years.\n\nWhy was it so important to me? I think because it was the first time I'd really seen my grandparents as people with their own story, rather than just as grandparents. Watching my grandfather, who's normally quite stern, quietly wipe his eyes while listening was something I'll never forget.\n\nIt was also, sadly, the last time the whole family was together, because my grandmother passed away the following year. So in hindsight, I'm immensely grateful that we pushed for it, even when they said it wasn't necessary.",
+   "why9": [
+    [
+     "Câu chẻ với \"It was... who...\"",
+     "\"It was actually my cousins and I who came up with the idea.\" GRA: câu chẻ nhấn mạnh chủ thể, dùng tự nhiên trong văn nói."
+    ],
+    [
+     "Mỉa mai nhẹ nhàng",
+     "\"In practice, 'simple' turned into about sixty people.\" FC và LR: dùng lại từ của bà một cách hài hước, cho thấy kiểm soát giọng điệu."
+    ],
+    [
+     "Giai thoại cụ thể",
+     "\"tried to impress her by cycling past her house with no hands and ended up in a ditch\". FC: chi tiết cụ thể, hài hước làm câu chuyện đáng nhớ, giám khảo đánh giá cao khả năng kể chuyện như vậy."
+    ],
+    [
+     "Đa dạng thì",
+     "\"who'd been at it since dawn\", \"how they'd got through the war years\", \"who's normally quite stern\". GRA: chuyển giữa quá khứ hoàn thành và hiện tại đơn chính xác theo thời gian thực tế."
+    ],
+    [
+     "Tổng kết bằng nhìn lại",
+     "\"So in hindsight, I'm immensely grateful that we pushed for it\". LR: \"in hindsight\", \"immensely grateful\", \"pushed for\" là collocation chuẩn, kết thúc có chiều sâu."
+    ],
+    [
+     "Thay đổi tốc độ nói theo cảm xúc",
+     "Đoạn giai thoại nói nhanh, vui; đoạn \"quietly wipe his eyes\" chậm và nhẹ hơn. P: điều chỉnh tốc độ và âm lượng theo nội dung, người học nên tập đọc to đoạn này với hai nhịp khác nhau."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Are family celebrations less important than in the past?",
+     "In some ways, yes, mainly because of practical changes. Families are more scattered than they used to be, with people working in different cities or abroad, so it's simply harder to get everyone together. Younger people may also feel that some rituals are more about obligation than enjoyment. But I don't think the underlying importance has declined. If anything, because families see each other less often, the occasions when they do gather can feel more significant. Tết is a good example: millions of people still travel huge distances to be home for it, which suggests the attachment is still very strong."
+    ],
+    [
+     "Do you think traditional celebrations will survive in the future?",
+     "I think the core ones will, although probably in a modified form. Celebrations survive when they keep meeting a real need, and the need to gather, remember and mark the passing of time isn't going anywhere. What tends to change is the detail: rituals get shorter, more relaxed, and sometimes blended with modern elements, such as video calls for relatives abroad. Some of the more elaborate or costly customs may well fade, particularly in cities. But I'd be surprised if the major festivals disappeared, because they're so closely tied to people's sense of identity."
+    ]
+   ]
+  },
+  {
+   "id": "s2_11",
+   "sample9": "The wedding I'd like to describe is my university friend Lan's, which took place last spring in her hometown in the Mekong Delta.\n\nIt was held in two parts, which is quite common in Vietnam. The first was a small engagement ceremony at her family's home in the morning, with only close relatives, and the second was a big reception in the evening at a restaurant by the river, with something like three hundred guests. I was lucky enough to be invited to both, mainly because I'd been helping her with some of the planning.\n\nThe morning ceremony was what really stayed with me. The groom's family arrived in a procession carrying lacquered trays covered in red cloth, filled with traditional gifts, betel leaves, fruit, cakes and so on. Then the two families sat facing each other and the elders exchanged quite formal speeches. Lan and her husband lit incense at the family altar to introduce themselves to her ancestors, which was surprisingly emotional to watch. In contrast, the evening reception was a lot louder: a master of ceremonies, a live band, endless toasts, and a fair amount of rather questionable karaoke from the groom's uncles.\n\nHow did I feel about it? Mostly very happy for her, obviously, because I knew how much they'd been through to get there; they'd been in a long-distance relationship for years. But I also found it quite thought-provoking. The morning felt deeply rooted in tradition, almost timeless, whereas the evening was very much a modern party. Seeing the two side by side made me realise how weddings here are a kind of negotiation between the old and the new.\n\nIf I'm honest, I much preferred the quieter morning. There was something about watching two families formally agree to become one that felt far more meaningful than all the speeches and the music.",
+   "why9": [
+    [
+     "Giải thích văn hoá cho người nghe nước ngoài",
+     "\"which is quite common in Vietnam\", \"lacquered trays covered in red cloth\". FC: tự nhiên giải thích bối cảnh mà giám khảo có thể chưa biết, thể hiện ý thức người nghe."
+    ],
+    [
+     "Từ vựng nghi lễ chính xác",
+     "\"procession\", \"elders\", \"family altar\", \"master of ceremonies\". LR: từ đúng chuyên đề, không dùng từ chung chung như \"people\" hay \"party\"."
+    ],
+    [
+     "Tương phản rõ ràng",
+     "\"In contrast, the evening reception was a lot louder\" và \"whereas the evening was very much a modern party\". FC: so sánh hai phần buổi lễ làm khung cho cả bài."
+    ],
+    [
+     "Hài hước có kiểm soát",
+     "\"a fair amount of rather questionable karaoke\". LR: \"rather questionable\" là cách nói giảm, rất Anh, tạo tiếng cười nhẹ mà không thô."
+    ],
+    [
+     "Khái quát hoá ý tưởng",
+     "\"weddings here are a kind of negotiation between the old and the new\". FC: từ trải nghiệm cá nhân rút ra nhận xét chung, giúp bài vượt mức kể lể đơn thuần."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do some couples choose small weddings?",
+     "There are a few reasons. The most obvious is cost: big weddings can be staggeringly expensive, and many young couples would rather put that money towards a home. But I think there's also a shift in values. Some couples feel that large weddings have become more about meeting family expectations or impressing people than celebrating the relationship, so a small ceremony feels more authentic. And practically, families are more spread out now, so a big gathering is harder to organise. The pandemic also played a role, I'd say, by showing people that a pared-down wedding could be just as meaningful."
+    ],
+    [
+     "What do you think makes a marriage successful?",
+     "I'd say the essentials are fairly unglamorous: good communication, a willingness to compromise and genuine respect for each other. Romance matters at the start, but long-term, what seems to make the difference is how couples handle disagreements, whether they can argue without trying to hurt each other. Shared values also help, particularly on things like money and raising children, because those are where friction tends to build. And I think it's important that both people continue to grow as individuals rather than disappearing into the relationship. Of course, luck plays a part too; external pressures can strain even very strong couples."
+    ]
+   ]
+  },
+  {
+   "id": "s2_12",
+   "sample9": "The event I'd like to describe is the final of the regional football championship a few years back, when Vietnam played against Malaysia. I watched it at a crowded outdoor café near my office with about a dozen colleagues.\n\nNow, I should say I'm not normally much of a football fan. I follow the big tournaments, but I couldn't name most of the players. That evening, though, it was impossible to avoid, because the whole city seemed to have stopped. Every café had a screen set up on the pavement, and people were wearing red shirts with a yellow star, waving flags and painting their faces.\n\nThe match itself was incredibly tense. It was the second leg, and we only needed a draw, but Malaysia were attacking relentlessly, and every time they got near the goal you could hear a collective gasp from the entire street. Then, fairly early on, Vietnam scored, and the café just erupted. People were hugging total strangers, someone knocked over a whole tray of drinks and nobody cared. For the rest of the game I hardly breathed.\n\nBut what makes it so memorable isn't really the football. It's what happened after the final whistle. Within minutes, thousands of people poured onto the streets on motorbikes, honking their horns, banging pots and pans, singing. My colleagues and I joined in, and it took me almost three hours to get home, a journey that normally takes twenty minutes. I wasn't remotely annoyed.\n\nI think I remember it because it was one of those rare moments when a huge city with so many divisions felt, briefly, completely united. It didn't matter who you were or what you did for a living; for one night, everyone was on the same side. And as someone who isn't really into sport, I found that genuinely surprising, and quite moving.",
+   "why9": [
+    [
+     "Rào đón trước khi kể",
+     "\"Now, I should say I'm not normally much of a football fan.\" FC: \"Now\" làm discourse marker tự nhiên trong văn nói, chuẩn bị cho sự tương phản ở phần sau."
+    ],
+    [
+     "Động từ mạnh, giàu hình ảnh",
+     "\"the café just erupted\", \"poured onto the streets\", \"attacking relentlessly\". LR: động từ chính xác tạo không khí, thay cho \"people were happy\"."
+    ],
+    [
+     "Phóng đại có ý thức",
+     "\"For the rest of the game I hardly breathed.\" LR: cách nói cường điệu tự nhiên của người bản ngữ."
+    ],
+    [
+     "Phân tách ý \"vì sao nhớ\"",
+     "\"what makes it so memorable isn't really the football. It's what happened after...\" GRA: câu chẻ với \"what\" để chuyển trọng tâm. FC: trả lời phần \"explain\" có chiều sâu."
+    ],
+    [
+     "Chi tiết số liệu đối lập",
+     "\"almost three hours to get home, a journey that normally takes twenty minutes\". GRA: cụm đồng vị bổ nghĩa cho cả mệnh đề, rất gọn."
+    ],
+    [
+     "Ngắt nhịp quanh \"briefly\"",
+     "\"felt, / briefly, / completely united\". P: chèn trạng từ giữa hai dấu phẩy cần ngắt rõ và hạ giọng ở \"briefly\". Người học nên luyện cách ngắt này cho các trạng từ chêm."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Do professional athletes earn too much money?",
+     "It's a difficult one. On a purely moral level, it does seem disproportionate that a footballer earns in a week what a nurse earns in years. But salaries in professional sport are driven by the market: top athletes generate enormous revenue through tickets, broadcasting and sponsorship, so in a sense they're being paid a share of the money they bring in. It's also worth remembering that careers are short and only a tiny fraction reach the top. Where I do think there's a problem is the gap between the elite and everyone else, and the way that money is distributed within the sport."
+    ],
+    [
+     "Should governments spend money on hosting major sports events?",
+     "Only with very careful planning, I'd say. The arguments in favour are well known: international prestige, tourism, and a chance to upgrade infrastructure. But the track record is mixed. Many host cities have ended up with huge debts and stadiums that sit empty afterwards, and the promised tourism boost often turns out to be temporary. On balance, I think it can be justified if the investment serves long-term needs, for example, transport links or facilities that local people will actually use. If it's mainly about national pride for a few weeks, the money would probably be better spent elsewhere."
+    ]
+   ]
+  },
+  {
+   "id": "s2_13",
+   "sample9": "I'd like to talk about a time I helped an elderly woman who'd got lost at Tân Sơn Nhất airport, about two years ago.\n\nI was waiting for a delayed flight to Hà Nội, killing time near the departure boards, when I noticed her. She was probably in her late seventies, standing quite still in the middle of the terminal, holding a printed ticket and looking around with an expression I can only describe as quietly panicked. People were streaming past her, and nobody stopped.\n\nWhen I went over and asked if she needed help, it turned out she was flying alone for the very first time, to visit her son in Đà Nẵng. He'd booked everything online and told her it would be easy, but she'd never been in an airport before and couldn't make sense of the signs, which were all in small print. She'd already missed the check-in counter once and was terrified of missing her flight.\n\nSo I sort of took her under my wing. I helped her check in, walked her through security, which she found fairly bewildering, explaining what she had to put in the trays, and then found her gate. Since my flight was delayed anyway, I sat with her until boarding started. We ended up chatting for nearly an hour; she told me all about her grandchildren and insisted on giving me a bag of dried mango from her luggage.\n\nHow did I feel? Glad, obviously, but also slightly uneasy, if I'm honest. It struck me how easily she could have been left behind, not because people were unkind, but because everyone was absorbed in their own journey. I could just as easily have walked past.\n\nIt's made me a bit more alert to that kind of thing. Helping someone often doesn't take much. It just takes noticing them in the first place.",
+   "why9": [
+    [
+     "Mô tả bằng biểu cảm",
+     "\"with an expression I can only describe as quietly panicked\". LR: cụm \"I can only describe as\" kết hợp oxymoron \"quietly panicked\" rất tinh tế, cho thấy vốn từ ở mức cao."
+    ],
+    [
+     "Cụm động từ và thành ngữ",
+     "\"killing time\", \"took her under my wing\", \"walked her through security\". LR: dùng chính xác và tự nhiên, không lạm dụng."
+    ],
+    [
+     "Mệnh đề phân từ chồng ý",
+     "\"walked her through security, which she found fairly bewildering, explaining what she had to put in the trays\". GRA: kết hợp mệnh đề quan hệ không xác định và phân từ trong một câu dài mà vẫn rõ ràng."
+    ],
+    [
+     "Cảm xúc phức tạp, trung thực",
+     "\"Glad, obviously, but also slightly uneasy, if I'm honest.\" FC: không chỉ nói \"I felt happy\" mà phân tích cảm xúc nhiều chiều, đúng điều giám khảo tìm ở band 9."
+    ],
+    [
+     "Câu kết gọn có thông điệp",
+     "\"It just takes noticing them in the first place.\" LR: \"in the first place\" dùng đúng nghĩa, câu kết ngắn và sắc."
+    ],
+    [
+     "Nhấn trọng âm vào từ khoá",
+     "\"not because people were UNKIND, but because everyone was ABSORBED in their own journey\". P: nhấn hai từ đối lập trong cấu trúc \"not because... but because\". Người học nên luyện cách nhấn này."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why are some people more willing to help others than others?",
+     "Personality plays a part, of course: some people are naturally more empathetic or more confident about stepping in. But I think circumstances matter at least as much. People who've been helped themselves at a difficult time often feel a stronger urge to give something back. Upbringing is important too; children who see their parents helping neighbours tend to absorb that as normal. And there's the situational factor. Research on the so-called bystander effect suggests that people are less likely to help when lots of others are around, because responsibility feels diluted. So it's rarely just a question of good or bad character."
+    ],
+    [
+     "Is it the government's job or individuals' job to help people in need?",
+     "I'd say it's both, but for different kinds of need. Governments are best placed to deal with large-scale, structural problems, such as poverty, unemployment and healthcare, because they have the resources and the authority to provide consistent support. Relying on individual charity for that would be patchy and unfair. But there are things no government can do well, like noticing a neighbour who's lonely or helping someone through a personal crisis. That's where individuals and communities come in. So ideally, the state provides the safety net and individuals fill the gaps that policy can't reach."
+    ]
+   ]
+  },
+  {
+   "id": "s2_14",
+   "sample9": "I'm going to talk about how I changed my mind about working from home, which happened gradually over about a year, starting in 2020.\n\nBefore the pandemic, I was quite firmly against it. I'd always believed that good work depended on being physically in the office: bumping into colleagues, overhearing conversations, being able to grab someone for a quick question. I think I also had a slightly snobbish view that people who wanted to work from home were really just trying to avoid doing much. I'd even argued against it in a team meeting when a colleague suggested trying it one day a week.\n\nThen, of course, we were all sent home, and I had no choice. For the first couple of months, I felt my suspicions were more or less confirmed. Communication was clumsy, I felt disconnected, and I missed the energy of the office.\n\nWhat changed my mind was a combination of things. The first was looking honestly at my own output. Once I'd set up a proper routine, I was getting far more done, partly because I'd got back the two hours I used to spend commuting, and partly because there were fewer interruptions. The second was watching some of my colleagues, particularly a couple with young children, who were noticeably less stressed and, frankly, doing better work than before.\n\nHow did I feel? A little embarrassed, to be honest, mainly about how dismissive I'd been in that meeting. I actually apologised to the colleague later, and she was very gracious about it. But more than anything, I felt a sense of relief at not being so rigid any more.\n\nThese days my view is much more nuanced. I think a mix of home and office works best for most people. But the bigger lesson was that I'd confused a personal preference with a universal truth, and that's something I try to watch out for.",
+   "why9": [
+    [
+     "Thì quá khứ hoàn thành kể niềm tin cũ",
+     "\"I'd always believed\", \"I'd even argued against it\". GRA: dùng quá khứ hoàn thành để tách rõ quan điểm trước và sau, đúng chức năng ngữ pháp."
+    ],
+    [
+     "Tự phê bình trung thực",
+     "\"I also had a slightly snobbish view\". LR và FC: từ \"snobbish\" chính xác, được làm mềm bằng \"slightly\", cho thấy người nói tự nhìn lại bản thân."
+    ],
+    [
+     "Liệt kê lý do có tổ chức",
+     "\"The first was... The second was...\" và \"partly because... and partly because...\" FC: cấu trúc rõ ràng, lặp cấu trúc song song tự nhiên."
+    ],
+    [
+     "Từ vựng thái độ",
+     "\"dismissive\", \"gracious\", \"rigid\", \"nuanced\". LR: tính từ mô tả thái độ chính xác, đúng trình độ C2."
+    ],
+    [
+     "Bài học khái quát",
+     "\"I'd confused a personal preference with a universal truth\". FC: kết thúc bằng nhận thức sâu, trả lời trọn phần \"explain how you felt\"."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do people find it hard to change their opinions?",
+     "Partly it's psychological. Our opinions become tied up with our sense of identity, so being wrong about something can feel like a threat to who we are, not just a factual error. There's also the well-documented tendency to notice information that confirms what we already believe and dismiss what doesn't. Social factors matter as well: if your friends or family all hold a particular view, changing your mind can risk your place in the group. And practically speaking, it takes effort. Reconsidering a position means admitting you've invested time and energy in something mistaken, which most of us would rather avoid."
+    ],
+    [
+     "Does social media make people more or less open-minded?",
+     "It can go either way, I think. In principle, social media exposes people to a far wider range of perspectives than they'd ever encounter in daily life. But the way platforms are designed tends to work against that. Algorithms show us more of what we already engage with, and outrage spreads faster than nuance, so people often end up more entrenched rather than less. The short format doesn't help either; it's hard to change anyone's mind in a few lines. Ultimately, it probably amplifies whatever tendency a person already has. Curious people find new ideas; defensive people find ammunition."
+    ]
+   ]
+  },
+  {
+   "id": "s2_15",
+   "sample9": "The mistake I'd like to talk about happened during my second year at work, when I sent an important campaign email to about forty thousand customers with the wrong discount code.\n\nI was working in marketing at the time, and we were running a weekend sale. I'd set everything up the night before, the design, the copy, the list, and I was quite pleased with myself for getting it done early. What I hadn't done was check the code itself. I'd copied it from an old campaign and forgotten to update it, so it had actually expired months before.\n\nThe email went out at eight on Saturday morning, and within about twenty minutes our customer service inbox was flooded with complaints. People were annoyed, understandably, and some of them were quite rude about it on social media. My stomach dropped. My first instinct, I'm slightly ashamed to say, was to hope someone else would notice and fix it quietly.\n\nIn the end, though, I called my manager, explained exactly what had happened and took responsibility. We sent out a correction with an apology and an extra five per cent off as a goodwill gesture. Ironically, that second email performed better than most of our campaigns that year, but at the time I was absolutely mortified, and I spent most of the weekend replaying it in my head.\n\nWhat I learnt was really twofold. The practical lesson was that I needed a proper checklist and a second pair of eyes before anything went out, which I've used ever since. But the deeper lesson was about owning mistakes. My manager told me afterwards that she was far less bothered by the error than she would have been if I'd tried to cover it up. That stuck with me. Mistakes are inevitable, but how quickly and honestly you deal with them says much more about you.",
+   "why9": [
+    [
+     "Câu tách \"What I hadn't done was...\"",
+     "\"What I hadn't done was check the code itself.\" GRA: câu chẻ kết hợp quá khứ hoàn thành, nhấn mạnh đúng chỗ sai sót."
+    ],
+    [
+     "Thú nhận cảm xúc thật",
+     "\"My first instinct, I'm slightly ashamed to say, was to hope someone else would notice\". FC: chèn mệnh đề bình luận giữa câu, cho thấy sự trung thực và kiểm soát câu phức."
+    ],
+    [
+     "Collocation công việc",
+     "\"took responsibility\", \"a goodwill gesture\", \"a second pair of eyes\", \"cover it up\". LR: cụm từ chuẩn môi trường công sở, dùng chính xác."
+    ],
+    [
+     "Câu điều kiện hỗn hợp",
+     "\"she was far less bothered by the error than she would have been if I'd tried to cover it up\". GRA: so sánh kết hợp câu điều kiện loại 3, là cấu trúc khó dùng đúng trong lời nói."
+    ],
+    [
+     "Tổ chức bài học hai lớp",
+     "\"What I learnt was really twofold. The practical lesson... But the deeper lesson...\" FC: tách bài học thực tế và bài học sâu hơn, giúp phần \"explain\" rõ ràng."
+    ],
+    [
+     "Nhấn \"how quickly and honestly\"",
+     "\"how QUICKLY and HONESTLY you deal with them\". P: nhấn hai trạng từ là trọng tâm thông điệp, hạ giọng ở cuối câu. Người học nên luyện nhấn từ mang thông điệp chính trong câu kết."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Is it important for children to be allowed to make mistakes?",
+     "Absolutely, within reason. Children who are never allowed to fail tend to become either anxious or overconfident, because they haven't learnt how to cope when things go wrong. Making small mistakes, forgetting homework, losing a game, falling out with a friend, teaches resilience and problem-solving in a way no lecture can. The key, I think, is that the stakes should be manageable and there should be an adult around to help them reflect afterwards rather than rescue them immediately. Obviously, where safety is concerned, parents need to step in. But overprotecting children often just postpones the lessons to a point where mistakes are much more costly."
+    ],
+    [
+     "Should employees be punished for mistakes at work?",
+     "Generally not, unless the mistake involves negligence or dishonesty. If employees are punished for every error, they quickly learn to hide problems rather than report them, which is far more dangerous for an organisation in the long run. Some industries, aviation being the classic example, have found that encouraging people to report mistakes openly has dramatically improved safety. That said, there needs to be accountability. Someone who repeatedly makes the same careless mistake, or ignores clear procedures, can't simply be let off. So the distinction I'd draw is between honest errors, which should be learnt from, and reckless behaviour."
+    ]
+   ]
+  },
+  {
+   "id": "s2_16",
+   "sample9": "The hobby I'd like to talk about is pottery, which I took up about six months ago, completely on a whim.\n\nIt started when a friend dragged me along to a one-off taster class at a small studio in Thủ Đức. I went mainly to keep her company, fully expecting to be bored, but within about ten minutes I was hooked. Since then I've signed up for a regular course, and I go every Sunday afternoon for three hours, and sometimes on a weekday evening if I've got a piece I'm desperate to finish.\n\nAs for why I started, I think, looking back, I was craving something that had nothing to do with a screen. My job is entirely digital; I spend all day writing, planning and staring at spreadsheets, and at the end of a week I often feel as if I haven't actually made anything you could hold. Pottery is the complete opposite. It's messy, physical and very unforgiving.\n\nAnd it really is unforgiving. The first few weeks were humbling, to put it mildly. Centring the clay on the wheel looks effortless when the teacher does it, but every time I tried, the whole thing would wobble and collapse. I think I produced about fifteen lopsided bowls before I made one that was vaguely usable.\n\nHow do I feel when I do it? Mostly, calm, but in an active way. You can't think about anything else while you're throwing a pot. If your mind drifts for even a second, your hands lose pressure and the clay goes off-centre. So it's a kind of forced concentration, which ironically feels incredibly restful.\n\nThere's also a lovely sense of accomplishment. I now drink my coffee every morning from a mug I made myself. It's slightly wonky, and the glaze isn't quite even, but I'm ridiculously proud of it.",
+   "why9": [
+    [
+     "Cụm từ chỉ sự ngẫu hứng",
+     "\"completely on a whim\", \"dragged me along\", \"within about ten minutes I was hooked\". LR: cụm từ tự nhiên mô tả cách bắt đầu sở thích."
+    ],
+    [
+     "Lặp từ có chủ đích",
+     "\"It's messy, physical and very unforgiving. / And it really is unforgiving.\" FC: lặp lại từ khoá để chuyển đoạn, kỹ thuật người bản ngữ hay dùng, khác với lặp từ do thiếu vốn từ."
+    ],
+    [
+     "Giảm nhẹ hài hước",
+     "\"humbling, to put it mildly\", \"vaguely usable\", \"slightly wonky\". LR: cách nói giảm tạo giọng tự giễu, nghe rất tự nhiên."
+    ],
+    [
+     "Giải thích nghịch lý",
+     "\"a kind of forced concentration, which ironically feels incredibly restful\". FC: giải thích vì sao tập trung lại thư giãn, cho thấy tư duy sâu."
+    ],
+    [
+     "Từ chuyên môn của sở thích",
+     "\"centring the clay\", \"throwing a pot\", \"glaze\", \"off-centre\". LR: dùng đúng thuật ngữ của nghề gốm, chứng tỏ vốn từ chuyên biệt."
+    ],
+    [
+     "Ngắt sau \"Mostly\"",
+     "\"Mostly, / calm, / but in an active way.\" P: ngắt ngắn tạo nhịp suy nghĩ, rồi nhấn \"active\". Người học nên bắt chước cách ngắt này thay vì nói liền một hơi."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Do people have less time for hobbies than in the past?",
+     "In some ways, yes, although it's not as simple as having fewer free hours. Working hours in many professions have crept up, and with smartphones, work tends to spill into evenings and weekends. But I think the bigger change is in how leisure time is used. A lot of it gets absorbed by passive entertainment, scrolling, streaming, which takes up hours without feeling like a deliberate choice. In the past, with fewer distractions, people may simply have been more likely to commit to something like a craft or a musical instrument. So it's partly time and partly attention."
+    ],
+    [
+     "Can a hobby become a good career?",
+     "It certainly can, but I'd be cautious about turning every hobby into a business. There are plenty of people who've made a living from something that started as a passion, photography, baking, video editing, and the internet has made it much easier to reach customers. The risk is that once your income depends on it, the pressure changes the activity. Deadlines, clients and the need to make money can drain the enjoyment that made it a hobby in the first place. So I'd say it works best when someone has a genuine skill, a market for it and a fairly realistic sense of what they're giving up."
+    ]
+   ]
+  },
+  {
+   "id": "s2_17",
+   "sample9": "The outdoor activity I'd like to talk about is early-morning cycling, which I've been doing fairly regularly for about three years.\n\nI mostly ride on the outskirts of the city, heading out east towards Cần Giờ, which is a mangrove area by the coast. It's about fifty kilometres each way, and once you get past the industrial zones, the roads become surprisingly quiet, with rice paddies on either side and, eventually, these dense mangrove forests stretching down to the water.\n\nI usually ride with a small group of four or five people I met through an online cycling club. We're a fairly mixed bunch, an accountant, a doctor, a university student, and in normal life we probably wouldn't have much in common. We set off at around half past four in the morning, to beat both the heat and the traffic, and stop for breakfast at a little roadside stall about halfway, which, to be honest, is half the reason some of us go.\n\nWhy do I enjoy it? A big part of it is the sense of escape. The city is relentless, and being out on an empty road while the sun's coming up gives you a sense of space you just can't get otherwise. There's also the physical side. I spend most of the week sitting at a desk, so it's satisfying to come home properly tired, in a good way.\n\nBut if I'm honest, I think the social aspect matters most. Cycling in a group creates a particular kind of companionship. You're side by side rather than face to face, which somehow makes it easier to talk about things that matter. Some of my most candid conversations in recent years have taken place on a bicycle at five in the morning.\n\nAnd there's something rather nice about having done something worthwhile before most people have even woken up.",
+   "why9": [
+    [
+     "Mô tả lộ trình cụ thể",
+     "\"once you get past the industrial zones, the roads become surprisingly quiet, with rice paddies on either side\". LR và FC: mô tả cảnh quan theo trình tự di chuyển, rất trực quan."
+    ],
+    [
+     "Mô tả nhóm người tinh tế",
+     "\"a fairly mixed bunch\" và \"in normal life we probably wouldn't have much in common\". LR: \"mixed bunch\" là cụm thân mật chuẩn; GRA: câu giả định nhẹ với \"wouldn't\"."
+    ],
+    [
+     "Chêm hài hước tự nhiên",
+     "\"which, to be honest, is half the reason some of us go\". FC: mệnh đề chêm làm bài nói có cá tính, không giống bài học thuộc."
+    ],
+    [
+     "Phân tích có tầng bậc",
+     "\"A big part of it is... There's also... But if I'm honest, I think the social aspect matters most.\" FC: sắp xếp lý do theo mức độ quan trọng, đưa lý do sâu nhất vào cuối."
+    ],
+    [
+     "Quan sát tâm lý sắc sảo",
+     "\"side by side rather than face to face, which somehow makes it easier to talk\". LR: cặp cụm từ đối xứng, ý tưởng độc đáo, đúng chất band 9."
+    ],
+    [
+     "Nhấn cặp đối lập",
+     "\"SIDE by side rather than FACE to face\": nhấn vào \"side\" và \"face\". P: nhấn từ tạo đối lập trong cụm cố định, người học nên luyện để câu có nhịp."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Do children today spend enough time outside?",
+     "Probably not, at least in many cities. There are several reasons: there's less safe public space, parents are more anxious about traffic and strangers than previous generations were, and children's schedules are often packed with lessons and homework. Screens, of course, offer an easy alternative. The concern is that unstructured outdoor play develops things that are hard to teach in a classroom, like judging risk, negotiating with other children and simply being comfortable with boredom. That said, it's not entirely the children's choice. If cities and schools provided more safe, accessible green space, I suspect many kids would happily use it."
+    ],
+    [
+     "How can cities encourage people to be more active?",
+     "Mainly by making the active option the easy option. If cycling feels dangerous, very few people will do it, so protected bike lanes make a big difference. Wide, shaded pavements, safe crossings and parks within walking distance all encourage people to move without having to think of it as exercise. Some cities also close certain roads to cars on Sundays, which turns them into temporary spaces for walking and cycling, and that seems to work well. Public campaigns have their place, but on the whole I think infrastructure matters far more than persuasion. People respond to their environment."
+    ]
+   ]
+  },
+  {
+   "id": "s2_18",
+   "sample9": "The skill I'd really like to learn is sign language, specifically Vietnamese sign language.\n\nIt's something that's been on my mind for a couple of years, ever since a deaf man started working at a café I go to regularly. He's incredibly efficient and good-humoured, but I noticed that most customers, me included, communicated with him by pointing at the menu or typing on their phones. It struck me that he was having to do all the adapting, and that felt rather unfair.\n\nAs for how I'd learn it, I've done a bit of research, and there are a couple of community organisations in the city that run evening courses, some of them taught by deaf instructors, which seems like the obvious way to go. I'd want to learn from native signers rather than from apps, because so much of sign language depends on facial expression and body movement, which you can't really pick up from a video. Ideally, I'd combine the classes with practice, maybe by volunteering at an event for the deaf community, since I gather that's how people actually become fluent.\n\nHow difficult would it be? Very, I suspect. People often assume sign language is just English or Vietnamese spelt out with your hands, but it's a fully fledged language with its own grammar, so I'd essentially be starting from scratch. I'm also not especially coordinated, so the speed of fluent signing would probably leave me floundering for a long time.\n\nWhy do I want to learn it? Partly for the practical reason that it would let me communicate with people I currently can't. But I think it's also about changing my own perspective. Learning a language that works through sight rather than sound would make me think about communication in a completely different way, and I imagine it'd make me more attentive in general, to faces, gestures and what people aren't saying out loud.",
+   "why9": [
+    [
+     "Động cơ rõ ràng từ quan sát",
+     "\"It struck me that he was having to do all the adapting, and that felt rather unfair.\" FC: lý do đến từ một tình huống thật, khiến bài nói thuyết phục và có chiều sâu."
+    ],
+    [
+     "Hedging khi nói về điều chưa chắc",
+     "\"I gather\", \"I suspect\", \"I imagine\". LR: dùng nhiều cách rào đón khác nhau, phù hợp khi nói về kế hoạch tương lai mà mình chưa trải nghiệm."
+    ],
+    [
+     "Câu điều kiện giả định",
+     "\"I'd want to learn from native signers\", \"it would let me communicate\". GRA: duy trì thì giả định nhất quán vì đề bài là kỹ năng muốn học, nhiều thí sinh hay lẫn sang thì hiện tại."
+    ],
+    [
+     "Từ vựng chính xác",
+     "\"fully fledged language\", \"starting from scratch\", \"leave me floundering\". LR: collocation và thành ngữ đúng nghĩa, không phô trương."
+    ],
+    [
+     "Lập luận mở rộng phạm vi",
+     "\"Partly for the practical reason... But I think it's also about changing my own perspective.\" FC: đi từ lý do thực tế đến lý do cá nhân sâu hơn."
+    ],
+    [
+     "Câu trả lời một từ có nhấn",
+     "\"How difficult would it be? / VERY, / I suspect.\" P: nhấn mạnh \"Very\" rồi hạ giọng ở \"I suspect\". Người học nên luyện cách trả lời ngắn gọn có nhấn sau câu tự hỏi."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Should schools teach practical life skills like cooking and managing money?",
+     "Yes, I think they should, and arguably these are some of the most neglected areas of education. A lot of young people leave school able to solve equations but with no idea how interest on a loan works or how to cook a basic meal. That gap can have real consequences, particularly with debt. The counter-argument is that the curriculum is already overcrowded and that parents should teach these things. But in practice, not every family is able to, so leaving it to the home tends to widen inequality. Even a few well-designed lessons a year could make a substantial difference."
+    ],
+    [
+     "Do you think online courses are as effective as face-to-face classes?",
+     "For some subjects and some learners, yes, and occasionally even more so. Online courses offer flexibility and let people go at their own pace, rewatching difficult parts, which suits self-motivated adults particularly well. But they tend to fall short on things that depend on interaction and feedback: practical skills, discussion-based subjects and, crucially, accountability. Completion rates for online courses are notoriously low, which suggests that many people need the structure of a class to keep going. So I'd say they're not inherently worse, but they demand more discipline, and they work best when combined with some live contact."
+    ]
+   ]
+  },
+  {
+   "id": "s2_19",
+   "sample9": "The book I'd like to talk about is \"Sapiens\" by Yuval Noah Harari, which I read about four years ago, during a long, fairly miserable rainy season when I was going out much less than usual.\n\nIt's essentially a history of the human species, from the time when there were several different kinds of humans walking the earth, right up to the present day. But it's not a history book in the conventional sense, with dates and battles. It's much more about big ideas: how humans came to dominate the planet, why we started farming, and how things like money, religion and nations came about.\n\nThe central argument, if I've understood it correctly, is that what makes humans unique is our ability to believe in shared stories, things that don't physically exist, like money or laws or companies, but which allow millions of strangers to cooperate. I remember reading that section and actually putting the book down for a while, because it completely reframed things I'd always taken for granted. The idea that a banknote only has value because we all agree it does seems obvious once someone points it out, but I'd genuinely never thought about it that way.\n\nWhy did I enjoy it? Mainly, I think, because it made me feel as if I was seeing the world from a great height. Harari has a gift for taking enormously complex subjects and making them accessible, often with a dry sense of humour.\n\nThat said, I don't agree with everything in it. Some historians have criticised it for oversimplifying, and having read more since, I can see their point. Some of his claims are presented more confidently than the evidence really allows. But I'd still say it's one of the books that changed how I think, and these days I tend to value that more than one I agree with entirely.",
+   "why9": [
+    [
+     "Tóm tắt nội dung trừu tượng",
+     "\"what makes humans unique is our ability to believe in shared stories\". LR và FC: tóm tắt ý tưởng phức tạp bằng ngôn ngữ đơn giản, chính xác, là kỹ năng then chốt ở band 9."
+    ],
+    [
+     "Rào đón khi diễn giải",
+     "\"if I've understood it correctly\". LR: hedging khiêm tốn khi nói về ý tưởng của người khác, rất tự nhiên với người dùng tiếng Anh thành thạo."
+    ],
+    [
+     "Từ vựng tư duy",
+     "\"completely reframed things I'd always taken for granted\", \"a gift for taking enormously complex subjects and making them accessible\". LR: collocation học thuật dùng đúng trong văn nói."
+    ],
+    [
+     "Phản biện cân bằng",
+     "\"That said, I don't agree with everything in it... I can see their point.\" FC: thể hiện quan điểm phê phán, không chỉ khen. Đây là điểm khác biệt rõ giữa band 8 và 9."
+    ],
+    [
+     "Mệnh đề phân từ hoàn thành",
+     "\"having read more since, I can see their point\". GRA: phân từ hoàn thành dùng chính xác trong văn nói, ít thí sinh dùng được tự nhiên."
+    ],
+    [
+     "Nhấn trong câu so sánh kết",
+     "\"I tend to value THAT more than one I AGREE with entirely\". P: nhấn từ chỉ đối tượng so sánh và hạ giọng cuối câu. Người học nên luyện ngữ điệu xuống ở câu kết bài."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Why do some people prefer reading books to watching films?",
+     "I think it's mainly about the kind of involvement each one demands. A book leaves a lot of room for imagination: you decide what the characters look and sound like, so the story feels partly your own creation. Books also give you access to a character's inner thoughts in a way film rarely can, which makes them better suited to complex, introspective stories. And reading is self-paced; you can pause, reread a line, reflect. Films, by contrast, are more immediate and often more emotionally powerful in the moment. So it's not that one is superior. They simply reward different kinds of attention."
+    ],
+    [
+     "Do you think printed books will disappear?",
+     "I doubt it, at least not in the foreseeable future. People predicted their death when e-readers first appeared, but sales of printed books have held up surprisingly well. I think that's because print offers things screens don't: no notifications, no eye strain, and the simple pleasure of owning a physical object. That said, the market will probably keep shifting. Reference books and textbooks are increasingly digital, and audiobooks are growing rapidly. So printed books might become more of a choice than a default, especially for fiction and gifts, but I can't see them disappearing."
+    ]
+   ]
+  },
+  {
+   "id": "s2_20",
+   "sample9": "The programme I'd like to talk about is a cooking documentary series called \"Chef's Table\", which is available on a streaming platform. Each episode focuses on a single chef somewhere in the world, often someone who's quite famous in culinary circles but almost unknown to the general public.\n\nWhat sets it apart from most food shows is that it isn't really about recipes. You hardly ever see step-by-step instructions. Instead, each episode tells the story of how that person came to cook the way they do: their childhood, the setbacks they faced, what they're trying to say through their food. Some of the episodes are surprisingly emotional, a chef who opened a restaurant after losing almost everything, for instance, or one who's trying to revive ingredients that her grandmother used to cook with.\n\nI don't watch it in any regular way; it's not something I binge. I tend to save an episode for a quiet evening when I want something that's absorbing but not stressful, maybe once or twice a month. And I usually watch it with my partner, which has turned out to be a bit dangerous, because at least three episodes have ended with us booking a table somewhere we can't really afford.\n\nSo why do I enjoy it? Partly, it's simply beautiful to look at. The cinematography is gorgeous, with lots of slow-motion shots and classical music, which some people find a bit pretentious, and I can see why, but I love it. More than that, though, I think it's because it's really a series about obsession and craft. Most of the chefs have devoted their entire lives to doing one thing as well as it can possibly be done, and there's something quite inspiring about that, whatever field you're in. I often finish an episode feeling slightly more motivated to take my own work seriously.",
+   "why9": [
+    [
+     "Giới thiệu nhanh và chính xác",
+     "\"Each episode focuses on a single chef... quite famous in culinary circles but almost unknown to the general public.\" LR: \"culinary circles\", \"general public\" là collocation chuẩn, giới thiệu rõ ràng trong hai câu."
+    ],
+    [
+     "Cấu trúc \"What sets it apart...\"",
+     "\"What sets it apart from most food shows is that it isn't really about recipes.\" GRA: câu chẻ với \"What\" để làm nổi bật điểm khác biệt, không bị gượng."
+    ],
+    [
+     "Ví dụ minh hoạ trong câu",
+     "\"a chef who opened a restaurant after losing almost everything, for instance\". FC: đưa ví dụ cụ thể ngay trong mạch nói, đặt \"for instance\" ở cuối rất tự nhiên."
+    ],
+    [
+     "Hài hước về hệ quả",
+     "\"at least three episodes have ended with us booking a table somewhere we can't really afford\". FC và LR: chi tiết đời thường hài hước trả lời phần \"who you watch it with\" sinh động."
+    ],
+    [
+     "Thừa nhận ý kiến trái chiều",
+     "\"which some people find a bit pretentious, and I can see why, but I love it\". FC: thừa nhận quan điểm khác rồi giữ quan điểm mình, thể hiện sự tự tin."
+    ],
+    [
+     "Nhấn \"obsession and craft\"",
+     "\"it's really a series about OBSESSION and CRAFT\". P: nhấn hai danh từ trừu tượng mang ý chính, ngắt nhẹ trước \"about\". Người học nên luyện nhấn từ khoá trong câu nêu lý do chính."
+    ]
+   ],
+   "p3samples9": [
+    [
+     "Has the internet changed the way people watch television?",
+     "Fundamentally, yes. The biggest shift is that viewing has become individual and on demand. Instead of a family sitting down at eight o'clock for whatever was scheduled, everyone watches what they want, when they want, often on their own device. That's given people far more choice, and it's made room for niche programmes that would never have survived on traditional channels. But something's been lost too. Fewer shows now become shared national experiences that everyone talks about the next day. And binge-watching has changed storytelling itself, with series designed to be consumed in long sessions rather than week by week."
+    ],
+    [
+     "Will traditional TV channels survive in the future?",
+     "In some form, I think they will, but their role is likely to shrink considerably. Younger audiences have largely moved to streaming and online video, and advertising revenue is following them. Where traditional channels still have a real advantage is live content: news, major sporting events and national occasions, where people want to watch at the same moment as everyone else. Public broadcasters may also survive because of their role in providing trusted information. So I'd expect them to become more specialised, focusing on live and local content, rather than disappearing altogether."
+    ]
+   ]
+  }
+ ]
+}

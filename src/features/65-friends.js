@@ -59,7 +59,7 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')?location.origin:'https://catalis.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Mít hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học cần đồng bộ trên máy chủ. Khi máy chủ bật đồng bộ, cả nhóm sẽ thấy nhau ở đây.',64)}${invite}</div>`;bindInv();return;}

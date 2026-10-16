@@ -191,3 +191,12 @@ details .ls-trb{padding:4px 14px 12px}
 .ts-fin-b{font-size:64px;font-weight:800;line-height:1;color:var(--accent)}
 .ts-fbands{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:560px){.ts-fbands{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* expert pack */
+.pill.ts-xp{background:var(--orange-soft);color:var(--orange-ink)}
+.ts-xh{display:flex;flex-direction:column;gap:2px;margin-top:10px;padding-top:14px;border-top:1.5px solid var(--line)}
+.ts-xh h3{margin:0}
+.ts-top{color:var(--ok);font-weight:600;max-width:34ch;line-height:1.4}
+.btn.ts-xb{border-color:var(--orange-soft);background:var(--orange-soft);color:var(--orange-ink)}
+.chip.ts-xc[aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}
+.ts-pick-l{display:flex;flex-direction:column;gap:6px}
