@@ -7,10 +7,10 @@ const SP_CRIT=[['fc','Trôi chảy và mạch lạc','Fluency and Coherence','N�
   ['gra','Ngữ pháp','Grammatical Range and Accuracy','Dùng cả câu đơn lẫn câu phức, ít lỗi.'],
   ['pr','Phát âm','Pronunciation','Dễ nghe, rõ âm cuối, đúng trọng âm, ngữ điệu tự nhiên.']];
 const SP_TOP={person:'Người',place:'Nơi chốn',object:'Đồ vật',event:'Sự kiện',experience:'Trải nghiệm',activity:'Hoạt động',media:'Sách, phim, mạng'};
-const SP_NOSR='Trình duyệt này không nhận giọng nói, hãy dùng Chrome hoặc Edge, hoặc gõ câu trả lời';
+const SP_NOSR='Máy này chưa ghi âm được (cần mật khẩu nhóm và quyền micro), hãy gõ câu trả lời';
 const SP_ms=()=>window.__spFast?50:1000;
 const SP_c=s=>String(s==null?'':s).replace(/\s*[\u2014\u2013]\s*/g,', ').replace(/\u2192/g,'->').replace(/\u2190/g,'<-').replace(/\u2194/g,'<->');
-const SP_hasSR=()=>!!(window.SpeechRecognition||window.webkitSpeechRecognition);
+const SP_hasSR=()=>canListen();
 const SP_hi9=()=>{try{return (+plCfg().target||0)>=8.5;}catch(e){return false;}};
 const SP_upB=()=>SP_hi9()?'band 9':'band 8';
 
@@ -58,26 +58,27 @@ function SP_rec(host,o){
   function start(){
     if(st.phase!=='idle')return;
     stopSay(); st.phase='live'; st.secs=0; st.text=''; st.edited=false;
-    st.lis=listen({lang:'en-GB',onText:(t,fin)=>{
+    const L=st.lis=listen({lang:'en-GB',onText:(t,fin)=>{
       if(st.phase==='live'||st.phase==='stopping'){if(!fin||t.length>=st.text.length)st.text=t;const b=$('.sp-live',body);if(b)b.textContent=st.text||'...';}
       else if(st.phase==='review'&&fin&&!st.edited&&t.length>st.text.length){st.text=t;const ta=$('.sp-tr',body);if(ta)ta.value=t;stats();save();}
     }});
     body.innerHTML=`<div class="spread"><span class="sp-on"><i class="sp-dot"></i>${st.lis?'Đang nghe bạn nói':'Đang ghi'}</span><span class="timer-chip">${timerHTML()}</span></div>
       ${o.warn?'<p class="note sp-warn" data-warn></p>':''}
-      ${st.lis?'<div class="sp-live en-s" aria-live="polite">...</div>':`<p class="note">${SP_NOSR}.</p><textarea class="sp-type en-s" rows="4" placeholder="Gõ lại những gì bạn vừa nói"></textarea>`}
+      ${st.lis?(st.lis.whisper?'<div class="sp-live note" aria-live="polite">Đang ghi âm. Nói xong bấm Xong, chữ sẽ hiện ra sau vài giây.</div>':'<div class="sp-live en-s" aria-live="polite">...</div>'):`<p class="note">${SP_NOSR}.</p><textarea class="sp-type en-s" rows="4" placeholder="Gõ lại những gì bạn vừa nói"></textarea>`}
       <div class="row"><button class="btn primary" data-stop>${ic('circle-stop')} Xong</button></div>`;
     $('[data-stop]',body).onclick=finish;
     const ty=$('.sp-type',body); if(ty)setTimeout(()=>ty.focus(),30);
     updTimer();
-    st.recP=SP_noRec?Promise.resolve(null):recorder().then(r=>{if(!r)SP_noRec=true;return r;}).catch(()=>{SP_noRec=true;return null;});
+    st.recP=L&&L.whisper?Promise.resolve({stop:()=>L.url()}):SP_noRec?Promise.resolve(null):recorder().then(r=>{if(!r)SP_noRec=true;return r;}).catch(()=>{SP_noRec=true;return null;});
     st.tick=SP_every(()=>{st.secs++;updTimer();if(o.limit&&st.secs>=o.limit){toast('Hết 2 phút.');finish();}});
   }
   async function finish(){
     if(st.phase!=='live')return; st.phase='stopping';
     if(st.tick)st.tick.stop();
     const ty=$('.sp-type',body); if(ty)st.text=ty.value.trim();
-    if(st.lis){try{st.lis.stop();}catch(e){}st.lis=null;}
     const b=$('[data-stop]',body); if(b){b.disabled=true;b.textContent='Đang lưu...';}
+    if(st.lis){const L=st.lis;st.lis=null;let p=null;try{p=L.stop();}catch(e){}
+      if(L.whisper&&p){if(b)b.textContent='Đang chuyển giọng thành chữ...';try{const t=await p;if(t)st.text=t;}catch(e){}}}
     const p=st.recP; st.recP=null;
     let r=null; try{r=p?await p:null;}catch(e){}
     try{st.url=r?await r.stop():null;}catch(e){st.url=null;}
@@ -410,7 +411,9 @@ function SP_chat(el){
     typing(false); C.busy=false; drawComp();
     await addEx(text);
   }
-  function stopMic(){if(C.lis){try{C.lis.stop();}catch(e){}C.lis=null;}const b=$('[data-mic]',comp);if(b){b.setAttribute('aria-pressed','false');b.innerHTML=`${ic('mic')} Nói`;}}
+  function stopMic(){const b=$('[data-mic]',comp);if(C.lis){const L=C.lis;C.lis=null;let p=null;try{p=L.stop();}catch(e){}
+      if(L.whisper&&p){if(b){b.disabled=true;b.innerHTML='Đang chuyển thành chữ...';}return p.then(()=>{if(b){b.disabled=false;b.setAttribute('aria-pressed','false');b.innerHTML=`${ic('mic')} Nói`;}});}}
+    if(b){b.setAttribute('aria-pressed','false');b.innerHTML=`${ic('mic')} Nói`;}return Promise.resolve();}
   SP_live.add(stopMic);
   function micOn(ta){
     if(C.lis){stopMic();return;}
@@ -428,7 +431,7 @@ function SP_chat(el){
       <button class="btn primary" data-send ${C.busy?'disabled':''}>Gửi ${ic('chevron-right')}</button></div>`;
     const ta=$('.sp-in',comp);
     $('[data-mic]',comp).onclick=()=>micOn(ta);
-    $('[data-send]',comp).onclick=()=>send(ta.value);
+    $('[data-send]',comp).onclick=async()=>{await stopMic();send(ta.value);};
     ta.onkeydown=e=>{if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();send(ta.value);}};
   }
   async function send(v){

@@ -121,7 +121,7 @@ function prSpeak(box,D){
   const src=srcs.find(s=>s[0]===PR_S.spSrc), words=[...new Set(src[2].map(w=>String(w).trim()).filter(Boolean))];
   if(PR_S.spIdx>=words.length)PR_S.spIdx=0;
   const word=words[PR_S.spIdx];
-  const hasSR=!!(window.SpeechRecognition||window.webkitSpeechRecognition);
+  const hasSR=canListen();
   box.innerHTML=`<div class="panel pr-sp">
     <label class="label" for="prSrc">Luyện theo</label>
     <select id="prSrc">${['s','m'].map(g=>`<optgroup label="${g==='s'?'Theo âm':'Theo cặp tối thiểu'}">${srcs.filter(s=>s[0][0]===g).map(s=>`<option value="${esc(s[0])}" ${s[0]===PR_S.spSrc?'selected':''}>${esc(s[1])}</option>`).join('')}</optgroup>`).join('')}</select>
@@ -129,7 +129,7 @@ function prSpeak(box,D){
     <div class="pr-target"><div class="pr-tw2 en">${esc(word)}</div><button class="spk" id="prHear" aria-label="Nghe mẫu">${SPK}</button></div>
     <div class="pr-micw"><button class="micbtn" id="prMic" aria-label="Bấm để nói" ${hasSR?'':'disabled'}><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
       <span class="note" id="prMicT">${hasSR?'Nghe mẫu, rồi bấm micro và đọc từ này':''}</span></div>
-    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Trình duyệt này không nhận giọng nói. Hãy mở Catalis bằng Chrome hoặc Edge để luyện nói.</div>'}</div>
+    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>'}</div>
     <div class="row pr-spnav"><button class="btn sm" id="prPrevW">${ic('chevron-left')} Từ trước</button><button class="btn sm" id="prNextW">Từ tiếp ${ic('chevron-right')}</button></div>
   </div>`;
   $('#prSrc').onchange=e=>{PR_S.spSrc=e.target.value;PR_S.spIdx=0;prSpeak(box,D);};
@@ -139,7 +139,7 @@ function prSpeak(box,D){
   $('#prNextW').onclick=()=>{PR_S.spIdx=(PR_S.spIdx+1)%words.length;prSpeak(box,D);};
   let rec=null;
   const mic=$('#prMic'), t=$('#prMicT');
-  const stop=()=>{if(rec){rec.stop();rec=null;}mic.classList.remove('on');};
+  const stop=()=>{if(rec){const w=rec.whisper;rec.stop();rec=null;if(w)t.textContent='Đang chuyển thành chữ...';}mic.classList.remove('on');};
   window.__prStop=stop;
   mic.onclick=()=>{
     if(rec){stop();return;}
@@ -154,7 +154,7 @@ function prSpeak(box,D){
       if(ok){award('pron',1);uiSfx('ok');}else uiSfx('bad');
       res.innerHTML=`<div class="pr-heard ${ok?'ok':'retry'}"><span class="pr-hi">${ok?ic('check'):ic('rotate-ccw')}</span><div><div>Máy nghe thấy: <b>${esc(fin||heard)}</b></div><div class="small">${ok?'Chuẩn rồi. Sang từ tiếp nhé.':'Chưa khớp với <b>'+esc(word)+'</b>. Nghe mẫu rồi thử lại.'}</div></div></div>`;
     }});
-    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Trình duyệt này không nhận giọng nói. Hãy mở Catalis bằng Chrome hoặc Edge để luyện nói.</div>';return;}
-    mic.classList.add('on');t.textContent='Đang nghe...';$('#prRes').innerHTML='';
+    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>';return;}
+    mic.classList.add('on');t.textContent=rec.whisper?'Đang ghi âm, đọc xong dừng một chút là app tự chấm':'Đang nghe...';$('#prRes').innerHTML='';
   };
 }

@@ -323,23 +323,94 @@ function prefetchLine(o){lineAudioURL(o.pid,o.li,o.n).then(u=>{if(u){const a=new
 lineAudioIndex();textAudioIndex();
 document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();const o={t:b.dataset.say,lang:b.dataset.lang||undefined,voice:b.dataset.voice||'f'};if(b.dataset.pid){o.pid=b.dataset.pid;o.li=+b.dataset.li;sayLine(o);}else say(o.t,o);}});
 
-/* speech recognition: listen({lang,onText,onEnd}) -> {stop} or null if unsupported */
+/* ================= voice input =================
+   listen({lang, onText(text, isFinal), onEnd(finalText), continuous}) -> handle or null.
+   Two engines:
+   - browser speech recognition (live words), used on desktop Chrome/Edge/Safari;
+   - record + Whisper on the server (api/stt), used on phones and browsers without recognition. Phone browsers
+     handle live recognition badly (iPhone stops it when anything else uses the mic, Android repeats or cuts words).
+   Whisper handle: {whisper:true, stop(): Promise<text>, url(): Promise<blobURL of the recording>}. */
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-function listen({lang='en-GB',onText,onEnd,continuous=true}={}){
+const IS_MOBILE=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+const CAN_REC=!!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia&&window.MediaRecorder);
+const whisperOK=()=>CAN_REC&&!!(WEB&&WEB.ai);
+const useWhisper=()=>whisperOK()&&(IS_MOBILE||!SR);
+const canListen=()=>useWhisper()||!!SR;
+function recMime(){const c=['audio/webm;codecs=opus','audio/webm','audio/mp4','audio/ogg;codecs=opus'];try{for(const t of c)if(MediaRecorder.isTypeSupported&&MediaRecorder.isTypeSupported(t))return t;}catch(e){}return '';}
+async function transcribe(blob,lang){
+  for(let i=0;i<2;i++){
+    if(!getKey()){const ok=await askPassword(false);if(!ok)return '';}
+    let r;try{r=await fetch('api/stt?lang='+(lang||'en'),{method:'POST',headers:{'content-type':blob.type||'audio/webm','x-app-key':getKey()},body:blob});}
+    catch(e){toast('Mất mạng nên chưa chuyển được giọng thành chữ.',3500);return '';}
+    if(r.status===401){setKey('');continue;}
+    if(!r.ok){toast(r.status===429?'Đã chạm giới hạn lượt chuyển giọng miễn phí, đợi một lát rồi thử lại.':r.status===413?'Bản ghi quá dài, nói ngắn hơn rồi thử lại.':'Chưa chuyển được giọng thành chữ, thử lại sau.',4000);return '';}
+    const j=await r.json().catch(()=>({}));return String(j.text||'').trim();
+  }
+  return '';
+}
+function micDenied(){toast('Trình duyệt chưa cho dùng micro. Trên điện thoại: vào Cài đặt của trình duyệt, cho phép Micro cho trang này rồi tải lại.',5000);}
+function listenWhisper({lang,onText,onEnd,continuous,maxMs=9000}){
+  let stream=null,mr=null,chunks=[],ctx=null,timer=null,stopped=false,heard=false,alive=false,quietSince=0,started=Date.now();
+  // create the audio context inside the tap (iPhone keeps it suspended otherwise); if it never reports sound we do not trust it
+  try{const AC=window.AudioContext||window.webkitAudioContext;ctx=new AC();ctx.resume&&ctx.resume();}catch(e){ctx=null;}
+  let resolveUrl;const urlP=new Promise(r=>resolveUrl=r);let textP=null;
+  const code=String(lang||'en').slice(0,2);
+  const cleanup=()=>{clearInterval(timer);try{ctx&&ctx.close();}catch(e){}if(stream)stream.getTracks().forEach(t=>t.stop());};
+  const finish=()=>{
+    if(textP)return textP;
+    textP=new Promise(async res=>{
+      stopped=true;
+      const blob=await new Promise(r=>{if(!mr||mr.state==='inactive'){r(chunks.length?new Blob(chunks,{type:(mr&&mr.mimeType)||'audio/webm'}):null);return;}
+        mr.onstop=()=>r(chunks.length?new Blob(chunks,{type:mr.mimeType||'audio/webm'}):null);try{mr.stop();}catch(e){r(null);}});
+      cleanup();
+      resolveUrl(blob?URL.createObjectURL(blob):null);
+      let t='';if(blob&&(heard||!alive))t=await transcribe(blob,code);
+      onText&&onText(t,true);onEnd&&onEnd(t);res(t);
+    });
+    return textP;
+  };
+  (async()=>{
+    try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});}
+    catch(e){micDenied();stopped=true;resolveUrl(null);textP=Promise.resolve('');onText&&onText('',true);onEnd&&onEnd('');return;}
+    if(stopped){stream.getTracks().forEach(t=>t.stop());return;}
+    const mt=recMime();try{mr=new MediaRecorder(stream,mt?{mimeType:mt,audioBitsPerSecond:48000}:{});}catch(e){mr=new MediaRecorder(stream);}
+    mr.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data);};mr.start(250);
+    // loudness watch: knows whether anything was said, and stops single answers after a pause
+    let an=null,buf=null;
+    try{if(ctx){const src=ctx.createMediaStreamSource(stream);an=ctx.createAnalyser();an.fftSize=1024;src.connect(an);buf=new Float32Array(an.fftSize);}}catch(e){an=null;}
+    timer=setInterval(()=>{const now=Date.now();let rms=0;
+      if(an){an.getFloatTimeDomainData(buf);let s=0;for(const v of buf)s+=v*v;rms=Math.sqrt(s/buf.length);}
+      if(rms>1e-4)alive=true;
+      if(rms>0.02){heard=true;quietSince=0;}else if(!quietSince)quietSince=now;
+      if(!continuous){
+        if(alive&&((heard&&quietSince&&now-quietSince>1300)||(!heard&&now-started>6000)))finish();
+        else if(!alive&&now-started>4000)finish();   // no level reading on this device: fixed 4 s for one word
+        else if(now-started>maxMs)finish();
+      }
+      else if(now-started>180000)finish();},100);
+  })();
+  return {whisper:true,stop:finish,url:()=>urlP};
+}
+function listenBrowser({lang,onText,onEnd,continuous}){
   if(!SR)return null;
   const rec=new SR(); rec.lang=lang; rec.interimResults=true; rec.continuous=continuous; rec.maxAlternatives=1;
-  let finalText='', stopped=false;
-  rec.onresult=e=>{let interim='';for(let i=e.resultIndex;i<e.results.length;i++){const r=e.results[i];if(r.isFinal)finalText+=r[0].transcript+' ';else interim+=r[0].transcript;}onText&&onText((finalText+interim).trim(),false);};
-  rec.onerror=e=>{if(e.error==='not-allowed')toast('Trình duyệt chưa cho dùng micro. Bấm biểu tượng ổ khóa trên thanh địa chỉ để cho phép.',4500);};
-  rec.onend=()=>{if(!stopped&&continuous){try{rec.start();return;}catch(e){}}onText&&onText(finalText.trim(),true);onEnd&&onEnd(finalText.trim());};
+  let finalText='', stopped=false, lastInterim='';
+  rec.onresult=e=>{let interim='';for(let i=e.resultIndex;i<e.results.length;i++){const r=e.results[i];if(r.isFinal)finalText+=r[0].transcript+' ';else interim+=r[0].transcript;}lastInterim=interim;onText&&onText((finalText+interim).trim(),false);};
+  rec.onerror=e=>{if(e.error==='not-allowed'||e.error==='service-not-allowed')micDenied();};
+  rec.onend=()=>{if(!stopped&&continuous){try{rec.start();return;}catch(e){}}const t=(finalText.trim()||lastInterim.trim());onText&&onText(t,true);onEnd&&onEnd(t);};
   try{rec.start();}catch(e){return null;}
-  return {stop(){stopped=true;try{rec.stop();}catch(e){}}};
+  return {stop(){stopped=true;try{rec.stop();}catch(e){}return Promise.resolve(finalText.trim());}};
+}
+function listen({lang='en-GB',onText,onEnd,continuous=true,maxMs}={}){
+  if(useWhisper())return listenWhisper({lang,onText,onEnd,continuous,maxMs});
+  return listenBrowser({lang,onText,onEnd,continuous});
 }
 /* audio recorder: await recorder() -> {stop():Promise<blobURL>} or null */
 async function recorder(){
-  if(!navigator.mediaDevices||!window.MediaRecorder)return null;
-  let stream; try{stream=await navigator.mediaDevices.getUserMedia({audio:true});}catch(e){toast('Không mở được micro. Kiểm tra quyền micro của trình duyệt.',4000);return null;}
-  const mr=new MediaRecorder(stream); const chunks=[]; mr.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);}; mr.start();
+  if(!CAN_REC)return null;
+  let stream; try{stream=await navigator.mediaDevices.getUserMedia({audio:true});}catch(e){micDenied();return null;}
+  const mt=recMime(); let mr; try{mr=new MediaRecorder(stream,mt?{mimeType:mt}:{});}catch(e){mr=new MediaRecorder(stream);}
+  const chunks=[]; mr.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);}; mr.start(250);
   return {stop:()=>new Promise(res=>{mr.onstop=()=>{stream.getTracks().forEach(t=>t.stop());res(chunks.length?URL.createObjectURL(new Blob(chunks,{type:mr.mimeType||'audio/webm'})):null);};try{mr.stop();}catch(e){res(null);}})};
 }
 

@@ -29,19 +29,21 @@ function LB_stopAll(){LB_stopMic();stopSay();}
 /* text box with mic: o = {ph, rows, send, extra, value, onInput, onSend, busy} */
 function LB_composer(host,o){
   host.innerHTML=`<textarea class="lb-in en-s" rows="${o.rows||3}" placeholder="${esc(o.ph||'')}" ${o.busy?'disabled':''}>${esc(o.value||'')}</textarea>
-    <div class="lb-cbar"><div class="row"><button type="button" class="btn sm" data-mic aria-pressed="false" ${o.busy?'disabled':''}>${ic('mic')} Nói</button>${SR?'':'<span class="note lb-nosr">Trình duyệt này không nhận giọng nói, hãy dùng Chrome hoặc Edge, hoặc gõ câu trả lời.</span>'}</div>
+    <div class="lb-cbar"><div class="row"><button type="button" class="btn sm" data-mic aria-pressed="false" ${o.busy?'disabled':''}>${ic('mic')} Nói</button>${canListen()?'':'<span class="note lb-nosr">Trình duyệt này không nhận giọng nói, hãy dùng Chrome hoặc Edge, hoặc gõ câu trả lời.</span>'}</div>
     <div class="row">${o.extra||''}<button type="button" class="btn primary" data-send ${o.busy?'disabled':''}>${o.send||'Gửi'}</button></div></div>`;
   const ta=$('textarea',host), mb=$('[data-mic]',host);
-  const micOff=()=>{LB_stopMic();mb.setAttribute('aria-pressed','false');mb.innerHTML=`${ic('mic')} Nói`;};
+  const micOff=()=>{const L=LB_mic.lis;LB_mic.lis=null;let p=null;if(L){try{p=L.stop();}catch(e){}}
+    if(L&&L.whisper&&p){mb.disabled=true;mb.innerHTML='Đang chuyển thành chữ...';return p.then(()=>{mb.disabled=false;mb.setAttribute('aria-pressed','false');mb.innerHTML=`${ic('mic')} Nói`;});}
+    mb.setAttribute('aria-pressed','false');mb.innerHTML=`${ic('mic')} Nói`;return Promise.resolve();};
   mb.onclick=()=>{
     if(LB_mic.lis){micOff();return;}
     stopSay(); const base=ta.value.trim()?ta.value.trim()+' ':'';
     LB_mic.lis=listen({lang:'en-GB',onText:t=>{ta.value=base+t;o.onInput&&o.onInput(ta.value);}});
-    if(!LB_mic.lis){toast('Trình duyệt này không nhận giọng nói, hãy dùng Chrome hoặc Edge, hoặc gõ câu trả lời.',4000);ta.focus();return;}
+    if(!LB_mic.lis){toast('Máy này chưa ghi âm được, hãy gõ câu trả lời.',4000);ta.focus();return;}
     mb.setAttribute('aria-pressed','true');mb.innerHTML='<i class="lb-dot"></i> Đang nghe, bấm để dừng';
   };
   ta.oninput=()=>o.onInput&&o.onInput(ta.value);
-  const send=()=>{const v=ta.value.trim();if(!v){toast('Bạn chưa nói hoặc gõ gì.');return;}micOff();o.onSend(v);};
+  const send=async()=>{await micOff();const v=ta.value.trim();if(!v){toast('Bạn chưa nói hoặc gõ gì.');return;}o.onSend(v);};
   $('[data-send]',host).onclick=send;
   ta.onkeydown=e=>{if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();send();}};
   return ta;
