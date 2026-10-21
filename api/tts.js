@@ -78,7 +78,7 @@ module.exports = async (req, res) => {
     catch (e) { return res.status(200).json({ ok: false, err: String(e.message).slice(0, 300), ms: Date.now() - t0 }); }
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
-  if (!checkKey(req)) return res.status(401).json({ error: 'auth' });
+  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
   const body = req.body || {};
   const text = String(body.text || '').slice(0, 1500);
   if (!text.trim()) return res.status(400).json({ error: 'bad_request' });
