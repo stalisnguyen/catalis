@@ -232,7 +232,7 @@
   "use": "Hợp Speaking và Writing Task 2 về chi tiêu, nợ nần. Ngược lại là \"live beyond your means\". Không nói \"live in your means\".",
   "alt": [
    "live beyond your means",
-   "cut your coat according to your cloth",
+   "live frugally",
    "spend within budget"
   ],
   "ex": "Many young people struggle to live within their means because social media pushes them to spend.",
@@ -288,19 +288,19 @@
   "em": ""
  },
  {
-  "w": "a lucrative career",
+  "w": "a sound investment",
   "deck": "col",
   "pat": "adj + n",
   "cefr": "C1",
-  "vi": "một nghề kiếm được nhiều tiền",
-  "use": "Trang trọng hơn \"a well-paid job\", hợp Writing Task 2 về chọn nghề. \"Lucrative\" chỉ dùng cho việc, hợp đồng, thị trường, không dùng cho người.",
+  "vi": "khoản đầu tư khôn ngoan, chắc chắn",
+  "use": "Hợp cả Writing và Speaking khi nói về tiền, nhà đất, giáo dục. Sound ở đây nghĩa là chắc chắn, đáng tin, không liên quan đến âm thanh.",
   "alt": [
-   "a well-paid job",
-   "a lucrative contract",
-   "a rewarding career"
+   "a wise investment",
+   "a worthwhile investment",
+   "a risky investment"
   ],
-  "ex": "Many students choose law or medicine because they see them as a lucrative career rather than a passion.",
-  "exvi": "Nhiều sinh viên chọn luật hoặc y vì xem đó là nghề kiếm nhiều tiền hơn là vì đam mê.",
+  "ex": "Many parents see private language lessons as a sound investment in their children's future careers.",
+  "exvi": "Nhiều phụ huynh xem các lớp ngoại ngữ tư nhân là khoản đầu tư khôn ngoan cho sự nghiệp tương lai của con.",
   "em": ""
  },
  {
@@ -576,20 +576,20 @@
   "em": ""
  },
  {
-  "w": "in the red",
+  "w": "tighten your belt",
   "deck": "idiom",
   "pat": "idiom",
   "cefr": "C1",
-  "vi": "đang lỗ, đang âm tiền, mắc nợ",
-  "use": "Dùng được trong Speaking và cả báo chí. Không nên cố đưa idiom vào Writing Task 2, ở đó nên viết \"in debt\" hoặc \"making a loss\".",
+  "vi": "thắt lưng buộc bụng, chi tiêu dè sẻn hơn",
+  "use": "Hợp IELTS Speaking khi nói về giá cả tăng, mất việc; báo chí cũng dùng cho chính phủ, doanh nghiệp. Không đưa vào Writing Task 2, thay bằng cut spending.",
   "alt": [
-   "in the black",
-   "in debt",
-   "overdrawn"
+   "cut back on spending",
+   "live frugally",
+   "splash out"
   ],
-  "ex": "By the end of the month my bank account is usually in the red, so I'm trying to budget better.",
-  "exvi": "Cuối tháng tài khoản ngân hàng của mình thường bị âm, nên mình đang cố quản lý chi tiêu tốt hơn.",
-  "em": "🔴"
+  "ex": "When food prices rose sharply last year, most families in my neighbourhood had to tighten their belts.",
+  "exvi": "Khi giá thực phẩm tăng mạnh năm ngoái, hầu hết các gia đình trong khu tôi phải thắt lưng buộc bụng.",
+  "em": ""
  },
  {
   "w": "live hand to mouth",
@@ -656,20 +656,20 @@
   "em": "🤑"
  },
  {
-  "w": "on a shoestring",
+  "w": "make a fast buck",
   "deck": "idiom",
   "pat": "idiom",
   "cefr": "C1",
-  "vi": "với rất ít tiền, chi tiêu tằn tiện",
-  "use": "Hợp Speaking khi nói về du lịch bụi, khởi nghiệp ít vốn. Hay gặp \"on a shoestring budget\". Không cố đưa vào Writing Task 2.",
+  "vi": "kiếm tiền nhanh, dễ (thường không chính đáng)",
+  "use": "Thân mật, mang ý chê, hợp IELTS Speaking. Cũng nói make a quick buck. Không dùng trong Writing Task 2.",
   "alt": [
-   "on a tight budget",
-   "on a budget",
-   "money is no object"
+   "make a quick buck",
+   "get rich quick",
+   "make a killing"
   ],
-  "ex": "We travelled around Southeast Asia on a shoestring, staying in hostels and eating street food.",
-  "exvi": "Tụi mình đi khắp Đông Nam Á với rất ít tiền, ở nhà trọ tập thể và ăn đồ ăn đường phố.",
-  "em": "🎒"
+  "ex": "Some landlords just want to make a fast buck, so they rent out tiny rooms to students at high prices.",
+  "exvi": "Một số chủ nhà chỉ muốn kiếm tiền nhanh nên cho sinh viên thuê những căn phòng tí hon với giá cao.",
+  "em": ""
  },
  {
   "w": "pay through the nose",
@@ -688,20 +688,20 @@
   "em": ""
  },
  {
-  "w": "a drop in the ocean",
+  "w": "burn a hole in your pocket",
   "deck": "idiom",
   "pat": "idiom",
   "cefr": "C1",
-  "vi": "muối bỏ biển, chẳng thấm vào đâu",
-  "use": "Dùng được trong Speaking, thỉnh thoảng gặp trong báo. Trong Writing Task 2 có thể diễn đạt là \"a tiny fraction of what is needed\".",
+  "vi": "có tiền là muốn tiêu ngay, tiền nóng túi",
+  "use": "Thân mật, hợp IELTS Speaking khi kể về thói quen tiêu xài. Chủ ngữ là tiền: money burns a hole in my pocket. Không dùng trong Writing Task 2.",
   "alt": [
-   "a drop in the bucket",
-   "a mere fraction",
-   "the tip of the iceberg"
+   "spend money like water",
+   "splash out",
+   "save for a rainy day"
   ],
-  "ex": "The extra funding sounds generous, but it's a drop in the ocean compared with what hospitals actually need.",
-  "exvi": "Khoản kinh phí bổ sung nghe có vẻ hào phóng nhưng chỉ như muối bỏ biển so với nhu cầu thật của bệnh viện.",
-  "em": "💧"
+  "ex": "As soon as I get paid, the money burns a hole in my pocket and I end up buying clothes online.",
+  "exvi": "Cứ nhận lương là tiền nóng túi, và rốt cuộc tôi lại mua quần áo trên mạng.",
+  "em": ""
  },
  {
   "w": "foot the bill",
@@ -728,7 +728,7 @@
   "use": "Hợp Speaking khi nói giá nhà, giá xăng tăng mạnh. Trong Writing Task 1 dùng \"soar\" hoặc \"rise sharply\" thay vì idiom này.",
   "alt": [
    "skyrocket",
-   "hit the roof",
+   "rocket",
    "soar"
   ],
   "ex": "House prices in my city have gone through the roof, so most young people still live with their parents.",

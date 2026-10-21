@@ -245,7 +245,7 @@
   "pat": "v + n",
   "cefr": "B2",
   "vi": "ra tuyên bố",
-  "use": "Trang trọng, hay gặp trong tin tức. Không nói: give out a statement khi nói về tổ chức.",
+  "use": "Trang trọng, hay gặp trong tin tức. Chủ ngữ thường là tổ chức, công ty, cơ quan nhà nước. Có thể thay issue bằng release hoặc put out.",
   "alt": [
    "release a statement",
    "make a statement",
@@ -267,8 +267,8 @@
    "retract a claim",
    "stand by a statement"
   ],
-  "ex": "The newspaper was forced to retract its statement after the minister proved the story was false.",
-  "exvi": "Tờ báo buộc phải rút lại phát ngôn sau khi vị bộ trưởng chứng minh câu chuyện là sai.",
+  "ex": "The politician retracted his statement about immigrants after it caused widespread anger online.",
+  "exvi": "Chính trị gia đó đã rút lại phát ngôn về người nhập cư sau khi nó gây phẫn nộ rộng rãi trên mạng.",
   "em": ""
  },
  {
@@ -325,7 +325,7 @@
   "pat": "adv + adj",
   "cefr": "C1",
   "vi": "thiên vị nặng nề",
-  "use": "Hợp Writing khi phê phán truyền thông. Không nói: strongly biased trong văn viết tự nhiên ít dùng hơn heavily.",
+  "use": "Hợp Writing khi phê phán truyền thông. Heavily biased và strongly biased đều đúng; heavily nhấn mạnh mức thiên vị rất rõ.",
   "alt": [
    "deeply biased",
    "one-sided",
@@ -704,20 +704,20 @@
   "em": ""
  },
  {
-  "w": "read between the lines",
+  "w": "straight from the horse's mouth",
   "deck": "idiom",
   "pat": "idiom",
-  "cefr": "B2",
-  "vi": "hiểu ý ngầm, đọc được ẩn ý",
-  "use": "Phổ biến và tự nhiên, hợp IELTS Speaking. Trong Writing Task 2 nên thay bằng interpret the underlying message.",
+  "cefr": "C1",
+  "vi": "nghe trực tiếp từ người trong cuộc, từ chính nguồn tin",
+  "use": "Thân mật, hợp IELTS Speaking khi nói về tin đồn và nguồn tin. Thường đi với hear / get sth straight from the horse's mouth. Không đưa vào Writing Task 2.",
   "alt": [
-   "read into sth",
-   "take sth at face value",
-   "hidden meaning"
+   "first-hand",
+   "from a reliable source",
+   "hear sth on the grapevine"
   ],
-  "ex": "If you read between the lines, the company's statement suggests that more job cuts are coming.",
-  "exvi": "Nếu đọc kỹ ẩn ý, tuyên bố của công ty cho thấy sẽ còn cắt giảm việc làm nữa.",
-  "em": "📖"
+  "ex": "I didn't believe the rumour until I heard it straight from the horse's mouth: the manager confirmed it herself.",
+  "exvi": "Tôi không tin tin đồn cho đến khi nghe chính người trong cuộc nói: chị quản lý đã tự xác nhận.",
+  "em": ""
  },
  {
   "w": "a storm in a teacup",
@@ -944,19 +944,19 @@
   "em": "🔔"
  },
  {
-  "w": "back up",
+  "w": "talk sb round",
   "deck": "pv",
   "pat": "phrasal verb, tách được",
-  "cefr": "B2",
-  "vi": "chứng minh, củng cố (bằng chứng); ủng hộ ai",
-  "use": "Rất hợp Writing Task 2: back up your argument with evidence. Đừng nhầm với back up dữ liệu.",
+  "cefr": "C1",
+  "vi": "thuyết phục ai đổi ý, đồng ý với mình",
+  "use": "Anh Anh, thân mật, hợp Speaking. Tân ngữ luôn đứng giữa: talk my parents round. Anh Mỹ hay nói talk sb around; trang trọng hơn là persuade sb.",
   "alt": [
-   "support",
-   "substantiate",
-   "undermine"
+   "win sb over",
+   "persuade sb",
+   "talk sb into sth"
   ],
-  "ex": "Journalists should back up their claims with evidence from at least two independent sources.",
-  "exvi": "Nhà báo nên củng cố các tuyên bố của mình bằng bằng chứng từ ít nhất hai nguồn độc lập.",
+  "ex": "My parents were against me studying art, but my teacher eventually talked them round by showing them my portfolio.",
+  "exvi": "Bố mẹ tôi phản đối việc tôi học mỹ thuật, nhưng cuối cùng thầy giáo đã thuyết phục được họ bằng cách cho xem hồ sơ tác phẩm của tôi.",
   "em": ""
  },
  {

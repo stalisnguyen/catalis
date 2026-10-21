@@ -21,7 +21,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "chuyến bay đường dài",
-  "use": "Trung tính, dùng tốt trong bài về du lịch và khí thải. Đối lập với short-haul flight. Không nói: long-distance flight trong ngữ cảnh hàng không trang trọng (vẫn hiểu được nhưng kém tự nhiên hơn).",
+  "use": "Trung tính, dùng tốt trong bài về du lịch và khí thải. Đối lập với short-haul flight. Long-distance flight cũng đúng, nhưng long-haul là cách nói chuẩn của ngành hàng không.",
   "alt": [
    "intercontinental flight",
    "short-haul flight",
@@ -181,7 +181,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "giảm ùn tắc",
-  "use": "Rất hợp Writing Task 2 về giao thông. Dùng ease, relieve, reduce; không nói: solve the congestion (nghe quá tuyệt đối) hay decrease traffic jam.",
+  "use": "Rất hợp Writing Task 2 về giao thông. Dùng ease, relieve hoặc reduce congestion. Không nói: decrease traffic jam, vì traffic jam là một vụ kẹt xe cụ thể.",
   "alt": [
    "relieve congestion",
    "reduce traffic congestion",
@@ -245,7 +245,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "áp đặt hạn chế đi lại",
-  "use": "Trang trọng, hợp Writing. Đối lập: lift/ease travel restrictions. Không nói: put travel restrictions.",
+  "use": "Trang trọng, hợp Writing. Đối lập: lift/ease travel restrictions. Cũng nói put/place restrictions on travel. Không nói: make travel restrictions.",
   "alt": [
    "lift travel restrictions",
    "ease restrictions",
@@ -277,7 +277,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "xin tị nạn",
-  "use": "Trang trọng, dùng trong Writing về di cư. Người xin tị nạn là asylum seeker. Không nói: find asylum.",
+  "use": "Trang trọng, dùng trong Writing về di cư. Người xin tị nạn là asylum seeker. Không nói: ask asylum, phải là ask for asylum.",
   "alt": [
    "claim asylum",
    "be granted asylum",
@@ -827,8 +827,8 @@
    "be content with what you have",
    "a dream of a better life"
   ],
-  "ex": "Some migrants discover that the grass is always greener on the other side until they face the cost of living.",
-  "exvi": "Một số người di cư nhận ra mình đứng núi này trông núi nọ cho tới khi đối mặt chi phí sinh hoạt.",
+  "ex": "Many migrants learn that the grass is not always greener on the other side once they face the high cost of living.",
+  "exvi": "Nhiều người di cư nhận ra nơi khác không phải lúc nào cũng tốt hơn khi phải đối mặt với chi phí sinh hoạt đắt đỏ.",
   "em": "🌿"
  },
  {
@@ -852,8 +852,8 @@
   "deck": "pv",
   "pat": "phrasal verb",
   "cefr": "B2",
-  "vi": "làm thủ tục nhận phòng (khách sạn); làm thủ tục lên máy bay",
-  "use": "Thường gặp trong Speaking. Check into + nơi chốn; nếu không có tân ngữ thì dùng check in. Đối lập: check out of.",
+  "vi": "nhận phòng (khách sạn); nhập viện, vào điều trị (bệnh viện, phòng khám)",
+  "use": "Thường gặp trong Speaking. Check into + nơi chốn (hotel, hospital); không có tân ngữ thì dùng check in. Ở sân bay nói check in for a flight, không nói check into a flight. Đối lập: check out of.",
   "alt": [
    "check in",
    "check out of",

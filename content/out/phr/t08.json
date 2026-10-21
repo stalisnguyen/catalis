@@ -5,7 +5,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "nguyên liệu thô",
-  "use": "Dùng nhiều trong Writing về sản xuất, xây dựng, tài nguyên. Luôn để số nhiều; không nói: a raw material for building khi ý là nguyên liệu nói chung.",
+  "use": "Dùng nhiều trong Writing về sản xuất, xây dựng, tài nguyên. Thường để số nhiều khi nói chung; số ít dùng khi nói một loại cụ thể: the main raw material for paper is wood.",
   "alt": [
    "natural resources",
    "building materials",
@@ -133,7 +133,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "nhà cao tầng",
-  "use": "Dùng được trong Speaking và Writing. Đối lập là low-rise. Không nói: high buildings khi muốn nói nhà nhiều tầng.",
+  "use": "Dùng được trong Speaking và Writing. Đối lập là low-rise. Nói chung chung thì tall buildings tự nhiên hơn high buildings.",
   "alt": [
    "high-rise apartment blocks",
    "low-rise housing",
@@ -149,7 +149,7 @@
   "pat": "v + n",
   "cefr": "B2",
   "vi": "tiến hành cải tạo, sửa sang (nhà cửa, công trình)",
-  "use": "Hợp Writing học thuật và Speaking trang trọng. Không nói: make renovations hay do renovations.",
+  "use": "Hợp Writing học thuật và Speaking trang trọng. Cũng nói make renovations to sth; không nói do renovations.",
   "alt": [
    "undergo renovation",
    "do up a house",
@@ -248,7 +248,7 @@
   "use": "Dùng trong Writing về quy hoạch, thường đặt đối lập với brownfield site. Mang sắc thái trung tính, học thuật.",
   "alt": [
    "brownfield site",
-   "build on green fields",
+   "the green belt",
    "undeveloped land"
   ],
   "ex": "Environmental groups argue that new homes should go on old industrial land rather than greenfield sites.",
@@ -747,8 +747,8 @@
    "nimbyism",
    "local opposition"
   ],
-  "ex": "Everyone agrees the city needs a new recycling plant, but the attitude is often not in my back yard.",
-  "exvi": "Ai cũng đồng ý thành phố cần nhà máy tái chế mới, nhưng thái độ thường là đừng đặt gần nhà tôi.",
+  "ex": "Everyone agrees the city needs a new recycling plant, but many residents take a not-in-my-back-yard attitude to it.",
+  "exvi": "Ai cũng đồng ý thành phố cần nhà máy tái chế mới, nhưng nhiều cư dân lại có thái độ miễn là đừng đặt gần nhà tôi.",
   "em": ""
  },
  {
@@ -823,7 +823,7 @@
   "vi": "làm lung lay tận gốc",
   "use": "Trang trọng hơn phần lớn idiom, có thể dùng trong Writing khi nói về biến động lớn. Không nói: shake its foundation.",
   "alt": [
-   "rock the boat",
+   "rock sth to its core",
    "turn sth upside down",
    "a seismic shift"
   ],
@@ -928,19 +928,19 @@
   "em": ""
  },
  {
-  "w": "break down",
+  "w": "wear away sth",
   "deck": "pv",
-  "pat": "phrasal verb",
+  "pat": "phrasal verb, tách được",
   "cefr": "C1",
-  "vi": "phân hủy (vật liệu); hỏng",
-  "use": "Trong chủ đề vật liệu thường dùng nghĩa phân hủy, hợp Writing về rác thải. Ngoại động từ break sth down là phân tách.",
+  "vi": "mài mòn, bào mòn dần (đá, bề mặt, công trình)",
+  "use": "Dùng được cả có tân ngữ (the sea wears away the cliffs) và không tân ngữ (the paint has worn away). Hợp Writing mô tả quá trình tự nhiên; trang trọng hơn là erode.",
   "alt": [
-   "decompose",
-   "biodegradable",
-   "break sth down"
+   "erode",
+   "wear down sth",
+   "weather"
   ],
-  "ex": "Ordinary plastic can take hundreds of years to break down, while paper packaging disappears within months.",
-  "exvi": "Nhựa thông thường có thể mất hàng trăm năm để phân hủy, trong khi bao bì giấy biến mất trong vài tháng.",
+  "ex": "Decades of acid rain have worn away the stone carvings on the front of the old cathedral.",
+  "exvi": "Hàng chục năm mưa axit đã bào mòn các hoa văn chạm đá ở mặt tiền nhà thờ cổ.",
   "em": ""
  },
  {

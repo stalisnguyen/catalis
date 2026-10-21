@@ -5,7 +5,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "công nghệ tiên tiến nhất, công nghệ mũi nhọn",
-  "use": "Dùng tốt cả trong Writing và Speaking. Có gạch nối khi đứng trước danh từ; không viết \"cutting edge technology\" mà bỏ gạch nối.",
+  "use": "Dùng tốt cả trong Writing và Speaking. Có gạch nối khi đứng trước danh từ: cutting-edge technology; khi đứng sau giới từ thì viết at the cutting edge, không gạch nối.",
   "alt": [
    "state-of-the-art technology",
    "advanced technology",
@@ -185,7 +185,7 @@
   "alt": [
    "late adopter",
    "trendsetter",
-   "early user"
+   "tech-savvy"
   ],
   "ex": "I'm not really an early adopter; I usually wait until a new phone has been out for a year.",
   "exvi": "Tôi không phải người hay dùng thử sớm; tôi thường đợi một mẫu điện thoại mới ra được một năm rồi mới mua.",
@@ -341,7 +341,7 @@
   "pat": "n + of + n",
   "cefr": "B2",
   "vi": "tốc độ thay đổi",
-  "use": "Hợp cả Writing và Speaking, hay đi với rapid, relentless, slow. Không nói \"the speed of change\" sai, nhưng \"pace\" tự nhiên hơn.",
+  "use": "Hợp cả Writing và Speaking, hay đi với rapid, relentless, slow. The speed of change không sai, nhưng the pace of change tự nhiên và phổ biến hơn.",
   "alt": [
    "the rate of change",
    "the pace of innovation",
@@ -469,7 +469,7 @@
   "pat": "phrase",
   "cefr": "C1",
   "vi": "đi đầu, ở vị trí tiên phong trong lĩnh vực gì",
-  "use": "Hợp Writing và Speaking trang trọng. Không nói \"in the forefront of\" (ít dùng); hay đi với \"be\", \"remain\", \"stay\".",
+  "use": "Hợp Writing và Speaking trang trọng, hay đi với be, remain, stay. In the forefront of cũng gặp nhưng ít hơn; at the forefront of là dạng chuẩn.",
   "alt": [
    "lead the way in sth",
    "at the cutting edge of sth",
@@ -780,7 +780,7 @@
    "familiar territory"
   ],
   "ex": "With AI writing news articles, the media industry is now in uncharted waters.",
-  "exvi": "Khi AI viết được bài báo, ngành truyền thông giờ đang ở một vùng nước chưa ai đi qua.",
+  "exvi": "Khi AI đã viết được bài báo, ngành truyền thông giờ đang bước vào một tình thế hoàn toàn mới, chưa có tiền lệ.",
   "em": "🌊"
  },
  {
@@ -848,20 +848,20 @@
   "em": "🚀"
  },
  {
-  "w": "wipe out sth",
+  "w": "kick in",
   "deck": "pv",
-  "pat": "phrasal verb, tách được",
+  "pat": "phrasal verb",
   "cefr": "B2",
-  "vi": "xóa sạch; xóa sổ, làm biến mất hoàn toàn",
-  "use": "Dùng cho dữ liệu, việc làm, cả một ngành. Hơi mạnh, hợp Speaking; Writing có thể thay bằng \"eliminate\".",
+  "vi": "bắt đầu có tác dụng, bắt đầu có hiệu lực",
+  "use": "Thân mật đến trung tính, hợp Speaking và Writing bán trang trọng. Không có tân ngữ. Chủ ngữ thường là thuốc, luật mới, thay đổi: the new rules kick in next year.",
   "alt": [
-   "eliminate sth",
-   "erase sth",
-   "destroy sth"
+   "take effect",
+   "come into force",
+   "wear off"
   ],
-  "ex": "A single virus wiped out all the data on my laptop the week before my final exams.",
-  "exvi": "Chỉ một con virus đã xóa sạch dữ liệu trong laptop của tôi đúng tuần trước kỳ thi cuối kỳ.",
-  "em": "🧽"
+  "ex": "The new data protection rules kick in next month, so every app must ask users for clear consent.",
+  "exvi": "Quy định bảo vệ dữ liệu mới bắt đầu có hiệu lực từ tháng sau, nên mọi ứng dụng phải xin sự đồng ý rõ ràng của người dùng.",
+  "em": ""
  },
  {
   "w": "back up sth",
@@ -921,7 +921,7 @@
   "alt": [
    "be replaced by sth",
    "make way for sth",
-   "give rise to sth"
+   "be superseded by sth"
   ],
   "ex": "Traditional classrooms are slowly giving way to blended learning that mixes online and face-to-face teaching.",
   "exvi": "Lớp học truyền thống đang dần nhường chỗ cho mô hình học kết hợp giữa trực tuyến và trực tiếp.",
@@ -944,20 +944,20 @@
   "em": ""
  },
  {
-  "w": "fall behind",
+  "w": "hack into sth",
   "deck": "pv",
   "pat": "phrasal verb",
   "cefr": "B2",
-  "vi": "tụt lại phía sau, không theo kịp",
-  "use": "Dùng được cả Writing và Speaking. Có tân ngữ thì dùng \"fall behind sb/sth\". Không tách được.",
+  "vi": "xâm nhập trái phép (máy tính, hệ thống, tài khoản)",
+  "use": "Dùng được cả Speaking và Writing về an ninh mạng. Không tách được: hack into the system. Danh từ chỉ người là hacker.",
   "alt": [
-   "lag behind",
-   "get left behind",
-   "keep up with sth"
+   "break into sth",
+   "gain unauthorised access to sth",
+   "a data breach"
   ],
-  "ex": "Countries that fail to invest in digital skills risk falling behind in the global economy.",
-  "exvi": "Những nước không đầu tư vào kỹ năng số có nguy cơ tụt hậu trong nền kinh tế toàn cầu.",
-  "em": "🐢"
+  "ex": "Criminals hacked into the hospital's computer system and demanded money to unlock thousands of patient records.",
+  "exvi": "Tội phạm đã xâm nhập trái phép vào hệ thống máy tính của bệnh viện và đòi tiền để mở khóa hàng nghìn hồ sơ bệnh nhân.",
+  "em": ""
  },
  {
   "w": "scale up sth",

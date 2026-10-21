@@ -213,7 +213,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "tổ chức một cuộc biểu tình",
-  "use": "Stage nghe tự nhiên và học thuật hơn make hay do. Không nói: make a protest.",
+  "use": "Stage nghe tự nhiên và học thuật hơn. Cũng nói hold a protest; không dùng make a protest hay do a protest với nghĩa tổ chức biểu tình.",
   "alt": [
    "hold a protest",
    "organise a demonstration",
@@ -331,8 +331,8 @@
    "politically charged",
    "ideologically driven"
   ],
-  "ex": "Critics argued that the decision to cut arts funding was politically motivated rather than economic.",
-  "exvi": "Những người chỉ trích cho rằng quyết định cắt giảm ngân sách nghệ thuật có động cơ chính trị chứ không phải kinh tế.",
+  "ex": "Critics argued that the decision to cut arts funding was politically motivated rather than based on economic need.",
+  "exvi": "Những người chỉ trích cho rằng quyết định cắt giảm ngân sách nghệ thuật có động cơ chính trị chứ không xuất phát từ nhu cầu kinh tế.",
   "em": ""
  },
  {
@@ -539,7 +539,7 @@
    "encroach on sb's privacy",
    "an infringement of rights"
   ],
-  "ex": "Some people believe facial recognition cameras infringe on citizens' rights to privacy in public places.",
+  "ex": "Some people believe facial recognition cameras infringe on citizens' right to privacy in public places.",
   "exvi": "Một số người cho rằng camera nhận diện khuôn mặt xâm phạm quyền riêng tư của công dân ở nơi công cộng.",
   "em": ""
  },

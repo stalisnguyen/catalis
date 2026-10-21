@@ -5,7 +5,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "hạn chót gấp, thời hạn eo hẹp",
-  "use": "Dùng được cả Writing và Speaking. Thường đi với work to / face a tight deadline. Không nói: a short deadline hay a narrow deadline.",
+  "use": "Dùng được cả Writing và Speaking. Thường đi với work to / face / meet a tight deadline. Không nói: a narrow deadline.",
   "alt": [
    "a strict deadline",
    "work to a deadline",
@@ -53,7 +53,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "khối lượng công việc nặng",
-  "use": "Dùng tốt cả hai kỹ năng. Người Việt hay nói a big workload hay many workloads; workload là danh từ không đếm được khi nói chung, dùng heavy hoặc excessive.",
+  "use": "Dùng tốt cả hai kỹ năng. Với workload, tính từ tự nhiên nhất là heavy hoặc excessive; không nói many workloads khi nói về công việc của một người.",
   "alt": [
    "an excessive workload",
    "a manageable workload",
@@ -229,7 +229,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "nộp đơn xin nghỉ việc",
-  "use": "Cách nói Anh-Anh phổ biến, hợp Speaking và Writing trung tính. Trang trọng hơn thì dùng resign. Không nói: give in my notice.",
+  "use": "Cách nói Anh-Anh phổ biến, hợp Speaking và Writing trung tính. Cũng nói give in one's notice hoặc give notice; trang trọng hơn thì dùng resign.",
   "alt": [
    "resign",
    "give notice",
@@ -245,7 +245,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "bắt đầu có lãi",
-  "use": "Hợp Writing và Speaking về kinh doanh. Thường nói về công ty mới mất thời gian mới có lãi. Không nói: get a profit hay earn profit (nên dùng make a profit).",
+  "use": "Hợp Writing và Speaking về kinh doanh. Thường nói về công ty mới phải mất thời gian mới có lãi. Không nói: do a profit; dạng thông dụng khác là make a profit.",
   "alt": [
    "make a profit",
    "break even",
@@ -373,7 +373,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "nhận lương hưu",
-  "use": "Trung tính, hợp Writing về già hóa dân số. Draw nghĩa là nhận tiền định kỳ. Không nói: take a pension hay eat a pension (dịch từ ăn lương hưu).",
+  "use": "Trung tính, hợp Writing về già hóa dân số. Draw nghĩa là nhận tiền định kỳ. Không nói: eat a pension (dịch từ ăn lương hưu); có thể thay bằng receive a pension.",
   "alt": [
    "receive a pension",
    "claim a pension",
@@ -848,19 +848,19 @@
   "em": ""
  },
  {
-  "w": "fall behind",
+  "w": "draw up sth",
   "deck": "pv",
-  "pat": "phrasal verb",
+  "pat": "phrasal verb, tách được",
   "cefr": "B2",
-  "vi": "bị chậm, tụt lại phía sau",
-  "use": "Dùng cả hai kỹ năng. Cấu trúc: fall behind with / on sth (work, payments, schedule). Không nói: fall behind of.",
+  "vi": "soạn thảo, lập (hợp đồng, kế hoạch, danh sách)",
+  "use": "Trung tính, hợp cả Writing và Speaking. Hay đi với contract, plan, list, agreement. Không nhầm với draw nghĩa là vẽ.",
   "alt": [
-   "catch up",
-   "keep up with",
-   "be behind schedule"
+   "draft sth",
+   "put together sth",
+   "work out sth"
   ],
-  "ex": "Students who work part-time for long hours often fall behind with their coursework.",
-  "exvi": "Sinh viên đi làm thêm nhiều giờ thường bị chậm bài vở trên lớp.",
+  "ex": "The lawyer has drawn up a new contract giving part-time staff the same holiday rights as full-time employees.",
+  "exvi": "Luật sư đã soạn thảo hợp đồng mới cho nhân viên bán thời gian được hưởng quyền nghỉ phép như nhân viên toàn thời gian.",
   "em": ""
  },
  {
@@ -960,20 +960,20 @@
   "em": ""
  },
  {
-  "w": "branch out",
+  "w": "head up sth",
   "deck": "pv",
-  "pat": "phrasal verb",
+  "pat": "phrasal verb, tách được",
   "cefr": "C1",
-  "vi": "mở rộng sang lĩnh vực mới",
-  "use": "Dùng cả hai kỹ năng, cho cá nhân hoặc công ty. Cấu trúc: branch out into sth.",
+  "vi": "đứng đầu, lãnh đạo (một nhóm, bộ phận, dự án)",
+  "use": "Trung tính, hay dùng ở công sở, hợp Speaking và Writing. Gần nghĩa lead nhưng tự nhiên hơn khi nói về chức vụ: She heads up the sales team.",
   "alt": [
-   "diversify",
-   "expand into",
-   "stick to one's core business"
+   "lead sth",
+   "be in charge of sth",
+   "run sth"
   ],
-  "ex": "After years of selling books, the online store branched out into electronics, clothing and groceries.",
-  "exvi": "Sau nhiều năm bán sách, cửa hàng trực tuyến đó đã mở rộng sang đồ điện tử, quần áo và thực phẩm.",
-  "em": "🌿"
+  "ex": "After only three years at the company, she was asked to head up a new team focused on online sales.",
+  "exvi": "Mới vào công ty được ba năm, cô ấy đã được giao lãnh đạo một nhóm mới chuyên về bán hàng trực tuyến.",
+  "em": ""
  },
  {
   "w": "bring sth forward",
@@ -1008,20 +1008,20 @@
   "em": ""
  },
  {
-  "w": "churn sth out",
+  "w": "farm out sth",
   "deck": "pv",
   "pat": "phrasal verb, tách được",
   "cefr": "C2",
-  "vi": "sản xuất ồ ạt (thường kém chất lượng)",
-  "use": "Mang sắc thái chê, hợp Speaking và Writing khi phê phán sản xuất hàng loạt. Dùng cho sản phẩm, bài viết, phim.",
+  "vi": "giao việc ra ngoài cho người khác làm, thuê ngoài",
+  "use": "Hơi thân mật, hay dùng trong kinh doanh. Thường đi với to: farm out work to freelancers. Trong Writing có thể thay bằng outsource.",
   "alt": [
-   "mass-produce",
-   "crank sth out",
-   "turn sth out"
+   "outsource sth",
+   "subcontract sth",
+   "do sth in-house"
   ],
-  "ex": "Some content farms churn out hundreds of low-quality articles a day just to attract advertising clicks.",
-  "exvi": "Một số trang trại nội dung sản xuất ồ ạt hàng trăm bài viết kém chất lượng mỗi ngày chỉ để câu lượt nhấp quảng cáo.",
-  "em": "🏭"
+  "ex": "Many small firms farm out their accounting and IT support to freelancers instead of hiring full-time staff.",
+  "exvi": "Nhiều công ty nhỏ thuê người làm tự do lo kế toán và hỗ trợ IT thay vì tuyển nhân viên toàn thời gian.",
+  "em": ""
  },
  {
   "w": "wind sth up",

@@ -37,7 +37,7 @@
   "pat": "n + of + n",
   "cefr": "B2",
   "vi": "một dịp may bất ngờ",
-  "use": "Hợp Speaking khi kể chuyện. Không nói: a hit of luck hay a piece of luck.",
+  "use": "Hợp Speaking khi kể chuyện. Hay đi với by a stroke of luck. Không nói: a hit of luck.",
   "alt": [
    "a stroke of good fortune",
    "a lucky break",
@@ -261,7 +261,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "tàn phá nặng nề; gây hỗn loạn cho",
-  "use": "Hợp Writing và Speaking khi nói về thiên tai, sâu bệnh. Quá khứ là wreaked, không phải wrought trong cách dùng phổ biến hiện nay.",
+  "use": "Hợp Writing và Speaking khi nói về thiên tai, sâu bệnh. Quá khứ thường dùng là wreaked; wrought havoc cũng gặp nhưng là dạng cũ hơn.",
   "alt": [
    "cause havoc",
    "play havoc with sth",
@@ -293,7 +293,7 @@
   "pat": "adj + n",
   "cefr": "C1",
   "vi": "hạn hán kéo dài",
-  "use": "Hợp Writing về khí hậu và nông nghiệp. Không nói: long drought trong văn học thuật, dùng prolonged hoặc severe.",
+  "use": "Hợp Writing về khí hậu và nông nghiệp. A long drought vẫn đúng, nhưng prolonged hoặc severe nghe học thuật hơn.",
   "alt": [
    "severe drought",
    "a long dry spell",
@@ -533,7 +533,7 @@
   "pat": "adj + n",
   "cefr": "C2",
   "vi": "hoạt động địa chấn",
-  "use": "Hợp Writing học thuật về thiên tai và quy hoạch. Seismic là từ chuyên ngành, không dùng earthquake activity.",
+  "use": "Hợp Writing học thuật về thiên tai và quy hoạch. Seismic là từ chuyên ngành, trang trọng hơn earthquake activity.",
   "alt": [
    "volcanic activity",
    "tremors",
@@ -571,7 +571,7 @@
    "carbon storage",
    "absorb carbon dioxide"
   ],
-  "ex": "Healthy oceans and forests act as a carbon sink, absorbing a large share of human emissions.",
+  "ex": "Healthy oceans and forests act as carbon sinks, absorbing a large share of human emissions.",
   "exvi": "Đại dương và rừng khỏe mạnh đóng vai trò bể hấp thụ carbon, hút một phần lớn khí thải do con người tạo ra.",
   "em": "🌲"
  },

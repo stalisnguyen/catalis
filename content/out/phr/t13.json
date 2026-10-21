@@ -37,7 +37,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "bữa cơm nhà nấu",
-  "use": "Dùng được cả Speaking và Writing khi so sánh ăn ở nhà với ăn ngoài. Không nói \"home-made meal\" cho cả bữa, \"home-made\" thường dùng cho từng món như bánh, mứt.",
+  "use": "Dùng được cả Speaking và Writing khi so sánh ăn ở nhà với ăn ngoài. Home-cooked nhấn mạnh tự nấu ở nhà; home-made hay dùng hơn cho từng món như bánh, mứt.",
   "alt": [
    "home cooking",
    "ready meal",
@@ -53,7 +53,7 @@
   "pat": "v + n",
   "cefr": "B2",
   "vi": "đi dạo xem đồ ở cửa hàng mà không mua",
-  "use": "Rất hay trong Speaking Part 1 chủ đề shopping. Động từ đi kèm là \"go\", không nói \"do window shopping\".",
+  "use": "Rất hay trong Speaking Part 1 chủ đề shopping. Nói go window shopping hoặc do some window shopping.",
   "alt": [
    "browse the shops",
    "shop around",
@@ -120,7 +120,7 @@
   "use": "Từ hiện đại, rất tự nhiên trong Speaking khi nói về giải trí cuối tuần. Trong Writing có thể dùng khi bàn về tác động của nền tảng streaming.",
   "alt": [
    "binge on sth",
-   "marathon a show",
+   "binge-worthy",
    "veg out in front of the TV"
   ],
   "ex": "Streaming platforms encourage viewers to binge-watch a series in one weekend instead of waiting for weekly episodes.",
@@ -149,7 +149,7 @@
   "pat": "adj + n",
   "cefr": "B2",
   "vi": "người kén ăn",
-  "use": "Thân mật, hợp Speaking chủ đề food. Anh-Anh hay nói \"fussy eater\"; không nói \"choosy eater\" vì nghe không tự nhiên.",
+  "use": "Thân mật, hợp Speaking chủ đề food. Anh-Anh hay nói fussy eater; picky và fussy phổ biến hơn choosy.",
   "alt": [
    "fussy eater",
    "adventurous eater",
@@ -208,19 +208,19 @@
   "em": ""
  },
  {
-  "w": "acquired taste",
+  "w": "pursue a hobby",
   "deck": "col",
-  "pat": "adj + n",
-  "cefr": "C1",
-  "vi": "thứ phải quen dần mới thích (món ăn, nhạc, phong cách)",
-  "use": "Rất hay trong Speaking khi nói về món lạ hoặc thể loại nhạc kén người nghe. Dùng với \"an\": \"sth is an acquired taste\".",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "theo đuổi một sở thích",
+  "use": "Trang trọng hơn do a hobby, hợp cả Speaking và Writing. Cũng nói pursue an interest, pursue a passion. Không nói: make a hobby.",
   "alt": [
-   "not my cup of tea",
-   "grow on sb",
-   "take some getting used to"
+   "take up a hobby",
+   "pursue an interest",
+   "have time for hobbies"
   ],
-  "ex": "Durian is definitely an acquired taste, and most foreign visitors cannot stand the smell at first.",
-  "exvi": "Sầu riêng chắc chắn là món phải quen mới thích, và đa số khách nước ngoài lúc đầu không chịu nổi mùi.",
+  "ex": "Flexible working hours give employees more time to pursue a hobby or spend time with their families.",
+  "exvi": "Giờ làm linh hoạt giúp nhân viên có thêm thời gian theo đuổi sở thích hoặc ở bên gia đình.",
   "em": ""
  },
  {
@@ -423,7 +423,7 @@
   "vi": "tự cho phép mình thưởng thức, chiều chuộng bản thân",
   "use": "Dùng cả Speaking và Writing. Thường nói về đồ ăn ngon, mua sắm, nghỉ ngơi. Không bỏ \"in\": không nói \"indulge chocolate\".",
   "alt": [
-   "treat myself",
+   "treat oneself",
    "splash out on sth",
    "spoil oneself"
   ],
@@ -583,7 +583,7 @@
   "vi": "hảo ngọt, thích đồ ngọt",
   "use": "Thành ngữ rất tự nhiên cho Speaking Part 1 chủ đề food. Chỉ dùng trong Speaking, không đưa vào Writing Task 2. Luôn có \"a\" và số ít: không nói \"have sweet teeth\".",
   "alt": [
-   "have a savoury tooth",
+   "be a chocoholic",
    "be partial to sth",
    "love sweets"
   ],
@@ -651,8 +651,8 @@
    "take one's work on holiday",
    "switch off completely"
   ],
-  "ex": "As a chef, eating at restaurants on holiday feels like a busman's holiday because I keep analysing the food.",
-  "exvi": "Là đầu bếp, đi nghỉ mà ăn nhà hàng chẳng khác gì vẫn đi làm vì tôi cứ phân tích món ăn.",
+  "ex": "For a chef like me, eating at restaurants on holiday is a busman's holiday because I keep analysing the food.",
+  "exvi": "Với đầu bếp như tôi, đi nghỉ mà ăn nhà hàng chẳng khác gì vẫn đi làm vì tôi cứ phân tích món ăn.",
   "em": ""
  },
  {

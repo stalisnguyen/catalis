@@ -373,7 +373,7 @@
   "pat": "v + n",
   "cefr": "C1",
   "vi": "thu hút trí tưởng tượng, làm say mê",
-  "use": "Có thể chèn chủ thể: capture the imagination of young readers. Hợp Speaking và Writing. Không nói: catch the imagination of (ít tự nhiên hơn).",
+  "use": "Có thể chèn chủ thể: capture the imagination of young readers. Hợp Speaking và Writing. Catch the imagination cũng đúng, nghĩa tương tự.",
   "alt": [
    "fire sb's imagination",
    "capture the public's imagination",
@@ -873,27 +873,27 @@
   "alt": [
    "water down sth",
    "play down sth",
-   "tone up sth"
+   "soften sth"
   ],
   "ex": "The studio asked the director to tone down the violence so the film could reach a younger audience.",
   "exvi": "Hãng phim yêu cầu đạo diễn giảm bớt cảnh bạo lực để phim tiếp cận được khán giả trẻ hơn.",
   "em": ""
  },
  {
-  "w": "churn out sth",
+  "w": "ham it up",
   "deck": "pv",
-  "pat": "phrasal verb, tách được",
-  "cefr": "C1",
-  "vi": "sản xuất ồ ạt, làm hàng loạt kém chất lượng",
-  "use": "Mang ý chê số lượng nhiều mà chất lượng thấp. Hợp Writing khi phê phán ngành giải trí thương mại. Ví dụ: churn out sequels.",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "diễn lố, cường điệu quá mức (thường cố ý để gây cười)",
+  "use": "Thân mật, hợp Speaking khi nhận xét diễn viên. Luôn dùng với it: ham it up. Danh từ liên quan: a ham (diễn viên diễn lố).",
   "alt": [
-   "mass-produce sth",
-   "crank out sth",
-   "a labour of love"
+   "overact",
+   "go over the top",
+   "play it straight"
   ],
-  "ex": "Some streaming platforms churn out cheap dramas every week instead of investing in quality writing.",
-  "exvi": "Một số nền tảng phát trực tuyến sản xuất ồ ạt phim rẻ tiền mỗi tuần thay vì đầu tư vào kịch bản chất lượng.",
-  "em": "🏭"
+  "ex": "The lead actor hammed it up so much that the serious drama started to feel like a comedy.",
+  "exvi": "Nam diễn viên chính diễn lố đến mức bộ phim chính kịch nghiêm túc bắt đầu giống phim hài.",
+  "em": "🎭"
  },
  {
   "w": "tear sth apart",
