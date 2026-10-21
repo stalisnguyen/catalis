@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "raw materials",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "nguyên liệu thô",
+  "use": "Dùng nhiều trong Writing về sản xuất, xây dựng, tài nguyên. Luôn để số nhiều; không nói: a raw material for building khi ý là nguyên liệu nói chung.",
+  "alt": [
+   "natural resources",
+   "building materials",
+   "extract raw materials"
+  ],
+  "ex": "Rising prices of raw materials such as steel and timber have made new housing projects far more expensive.",
+  "exvi": "Giá nguyên liệu thô như thép và gỗ tăng khiến các dự án nhà ở mới đắt đỏ hơn nhiều.",
+  "em": "🪵"
+ },
+ {
+  "w": "prime location",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "vị trí đắc địa; vị trí đẹp",
+  "use": "Dùng được cả Speaking và Writing khi nói về nhà đất, kinh doanh. Không nói: a golden location (dịch từ tiếng Việt \"vị trí vàng\").",
+  "alt": [
+   "central location",
+   "sought-after area",
+   "in a prime position"
+  ],
+  "ex": "Offices in a prime location near the metro station can charge almost double the rent of those further out.",
+  "exvi": "Văn phòng ở vị trí đắc địa gần ga metro có thể thu tiền thuê gần gấp đôi so với chỗ ở xa hơn.",
+  "em": "📍"
+ },
+ {
+  "w": "residential area",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "khu dân cư",
+  "use": "Trung tính, dùng tốt trong Writing học thuật khi bàn về quy hoạch. Hay đi với quiet, densely populated.",
+  "alt": [
+   "residential district",
+   "residential neighbourhood",
+   "commercial area"
+  ],
+  "ex": "Many residents object to building a large factory so close to a quiet residential area.",
+  "exvi": "Nhiều cư dân phản đối việc xây một nhà máy lớn quá gần một khu dân cư yên tĩnh.",
+  "em": "🏘️"
+ },
+ {
+  "w": "recycling rates",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "tỷ lệ tái chế",
+  "use": "Hay dùng trong Writing Task 1 và Task 2 về môi trường, đi với động từ boost, improve, lag behind. Không nói: recycle rate.",
+  "alt": [
+   "boost recycling rates",
+   "low recycling rates",
+   "landfill rates"
+  ],
+  "ex": "Countries that charge households for unsorted rubbish tend to have much higher recycling rates.",
+  "exvi": "Những nước thu phí hộ gia đình với rác không phân loại thường có tỷ lệ tái chế cao hơn nhiều.",
+  "em": "♻️"
+ },
+ {
+  "w": "household waste",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "rác thải sinh hoạt",
+  "use": "Dùng trong Writing về môi trường. Waste là danh từ không đếm được; không nói: household wastes khi nói chung.",
+  "alt": [
+   "domestic waste",
+   "municipal waste",
+   "food waste"
+  ],
+  "ex": "Around a third of household waste in big cities could be composted instead of being sent to landfill.",
+  "exvi": "Khoảng một phần ba rác thải sinh hoạt ở các thành phố lớn có thể được ủ phân thay vì đưa đi chôn lấp.",
+  "em": "🗑️"
+ },
+ {
+  "w": "local amenities",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "tiện ích xung quanh (trường, chợ, công viên...)",
+  "use": "Rất hợp khi mô tả khu mình sống trong Speaking Part 1 và 2. Không nói: utilities khi ý là trường học, công viên; utilities là điện, nước, gas.",
+  "alt": [
+   "public amenities",
+   "basic amenities",
+   "within walking distance of"
+  ],
+  "ex": "Young families often choose a neighbourhood based on local amenities like schools, parks and clinics.",
+  "exvi": "Các gia đình trẻ thường chọn khu ở dựa trên tiện ích xung quanh như trường học, công viên và phòng khám.",
+  "em": ""
+ },
+ {
+  "w": "cramped living conditions",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "điều kiện sống chật chội",
+  "use": "Dùng tốt trong Writing về nhà ở, đô thị hóa. Cramped mạnh và tự nhiên hơn small; hay đi với live in.",
+  "alt": [
+   "overcrowded housing",
+   "poky flat",
+   "spacious accommodation"
+  ],
+  "ex": "Migrant workers often live in cramped living conditions, sharing a single room with several colleagues.",
+  "exvi": "Lao động nhập cư thường sống trong điều kiện chật chội, ở chung một phòng với vài đồng nghiệp.",
+  "em": ""
+ },
+ {
+  "w": "property developer",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "chủ đầu tư bất động sản; công ty phát triển dự án",
+  "use": "Trung tính, dùng trong Writing và Speaking. Không nói: real estate investor khi ý là bên xây dựng dự án.",
+  "alt": [
+   "property development",
+   "housing developer",
+   "estate agent"
+  ],
+  "ex": "The council accused the property developer of ignoring its promise to include affordable flats in the scheme.",
+  "exvi": "Chính quyền địa phương cáo buộc chủ đầu tư phớt lờ lời hứa đưa căn hộ giá rẻ vào dự án.",
+  "em": "🏗️"
+ },
+ {
+  "w": "high-rise buildings",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "nhà cao tầng",
+  "use": "Dùng được trong Speaking và Writing. Đối lập là low-rise. Không nói: high buildings khi muốn nói nhà nhiều tầng.",
+  "alt": [
+   "high-rise apartment blocks",
+   "low-rise housing",
+   "skyscrapers"
+  ],
+  "ex": "As land prices rise, more families are moving into high-rise buildings on the edge of the city.",
+  "exvi": "Khi giá đất tăng, nhiều gia đình chuyển vào các tòa nhà cao tầng ở rìa thành phố.",
+  "em": "🏢"
+ },
+ {
+  "w": "carry out renovations",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tiến hành cải tạo, sửa sang (nhà cửa, công trình)",
+  "use": "Hợp Writing học thuật và Speaking trang trọng. Không nói: make renovations hay do renovations.",
+  "alt": [
+   "undergo renovation",
+   "do up a house",
+   "extensive renovations"
+  ],
+  "ex": "The school had to close for a term while builders carried out renovations to the old classrooms.",
+  "exvi": "Trường phải đóng cửa một học kỳ trong lúc thợ tiến hành cải tạo các phòng học cũ.",
+  "em": "🔨"
+ },
+ {
+  "w": "maximise natural light",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tận dụng tối đa ánh sáng tự nhiên",
+  "use": "Hay dùng khi mô tả thiết kế nhà ở trong Speaking hoặc bàn về tiết kiệm năng lượng. Không nói: take natural light.",
+  "alt": [
+   "let in natural light",
+   "a well-lit room",
+   "artificial lighting"
+  ],
+  "ex": "Large windows on the south side maximise natural light and cut the office's electricity bills considerably.",
+  "exvi": "Cửa sổ lớn ở phía nam giúp tận dụng tối đa ánh sáng tự nhiên và giảm đáng kể tiền điện của văn phòng.",
+  "em": "☀️"
+ },
+ {
+  "w": "load-bearing wall",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tường chịu lực",
+  "use": "Thuật ngữ xây dựng, dùng khi nói về sửa nhà hay an toàn công trình. Đừng nhầm với partition wall (tường ngăn).",
+  "alt": [
+   "structural wall",
+   "partition wall",
+   "knock through a wall"
+  ],
+  "ex": "The owners wanted an open kitchen but could not remove the load-bearing wall without risking the whole structure.",
+  "exvi": "Chủ nhà muốn có bếp mở nhưng không thể phá tường chịu lực mà không gây nguy hiểm cho cả kết cấu.",
+  "em": "🧱"
+ },
+ {
+  "w": "derelict building",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tòa nhà bỏ hoang, đổ nát",
+  "use": "Dùng trong Writing về tái phát triển đô thị. Derelict nhấn mạnh bị bỏ không và xuống cấp, mạnh hơn empty.",
+  "alt": [
+   "abandoned building",
+   "derelict land",
+   "run-down building"
+  ],
+  "ex": "The derelict building next to the station was finally turned into a library and community centre.",
+  "exvi": "Tòa nhà bỏ hoang cạnh nhà ga cuối cùng đã được chuyển thành thư viện và trung tâm cộng đồng.",
+  "em": "🏚️"
+ },
+ {
+  "w": "vacant lot",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "khu đất trống (trong thành phố)",
+  "use": "Hay dùng trong văn Mỹ; Anh hay nói vacant plot hoặc empty plot. Phù hợp Writing về không gian xanh, quy hoạch.",
+  "alt": [
+   "empty plot",
+   "vacant land",
+   "derelict site"
+  ],
+  "ex": "Volunteers converted a vacant lot in the city centre into a community garden for local schoolchildren.",
+  "exvi": "Tình nguyện viên biến một khu đất trống ở trung tâm thành phố thành vườn cộng đồng cho học sinh địa phương.",
+  "em": ""
+ },
+ {
+  "w": "the built environment",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "môi trường xây dựng (nhà cửa, đường sá, công trình do con người tạo ra)",
+  "use": "Cụm học thuật, rất hợp Writing Task 2 về đô thị và sức khỏe. Luôn có the; đối lập với the natural environment.",
+  "alt": [
+   "urban environment",
+   "the natural environment",
+   "the urban landscape"
+  ],
+  "ex": "Research shows that the built environment, from street design to park access, strongly affects residents' health.",
+  "exvi": "Nghiên cứu cho thấy môi trường xây dựng, từ thiết kế đường phố đến việc tiếp cận công viên, ảnh hưởng mạnh tới sức khỏe cư dân.",
+  "em": ""
+ },
+ {
+  "w": "greenfield site",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "khu đất chưa từng xây dựng (đất nông nghiệp, đất xanh)",
+  "use": "Dùng trong Writing về quy hoạch, thường đặt đối lập với brownfield site. Mang sắc thái trung tính, học thuật.",
+  "alt": [
+   "brownfield site",
+   "build on green fields",
+   "undeveloped land"
+  ],
+  "ex": "Environmental groups argue that new homes should go on old industrial land rather than greenfield sites.",
+  "exvi": "Các nhóm môi trường cho rằng nhà mới nên xây trên đất công nghiệp cũ thay vì khu đất xanh chưa khai thác.",
+  "em": "🌾"
+ },
+ {
+  "w": "retrofit existing buildings",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "cải tạo, nâng cấp các tòa nhà hiện có (cách nhiệt, tiết kiệm năng lượng)",
+  "use": "Từ học thuật, hay gặp trong bài về giảm khí thải. Retrofit sth with sth; không nói: retrofit to buildings.",
+  "alt": [
+   "retrofit homes with insulation",
+   "upgrade the housing stock",
+   "a retrofit programme"
+  ],
+  "ex": "Cutting emissions will require governments to retrofit existing buildings, not just regulate new ones.",
+  "exvi": "Muốn giảm phát thải, chính phủ phải cải tạo các tòa nhà hiện có chứ không chỉ quản lý nhà xây mới.",
+  "em": ""
+ },
+ {
+  "w": "reinforced concrete",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "bê tông cốt thép",
+  "use": "Thuật ngữ vật liệu, dùng khi mô tả công trình hoặc so sánh vật liệu xây dựng. Không đếm được, không dùng a.",
+  "alt": [
+   "precast concrete",
+   "steel frame",
+   "concrete structure"
+  ],
+  "ex": "Most modern apartment towers in Asia are built from reinforced concrete because it is cheap and fire-resistant.",
+  "exvi": "Phần lớn các tòa chung cư hiện đại ở châu Á được xây bằng bê tông cốt thép vì rẻ và chịu lửa tốt.",
+  "em": ""
+ },
+ {
+  "w": "structurally sound",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "vững chắc về kết cấu; an toàn",
+  "use": "Dùng khi nói về nhà cũ, kiểm định công trình; cũng dùng ẩn dụ cho lập luận. Trái nghĩa: structurally unsafe.",
+  "alt": [
+   "structurally unsafe",
+   "in good repair",
+   "structural damage"
+  ],
+  "ex": "Engineers confirmed that the hundred-year-old market hall was still structurally sound after the earthquake.",
+  "exvi": "Các kỹ sư xác nhận khu chợ trăm tuổi vẫn vững chắc về kết cấu sau trận động đất.",
+  "em": ""
+ },
+ {
+  "w": "purpose-built accommodation",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "chỗ ở được xây riêng cho một mục đích (ký túc xá, nhà dưỡng lão...)",
+  "use": "Hay dùng khi nói về nhà ở sinh viên, người già. Purpose-built nhấn mạnh xây mới để dùng đúng mục đích, không phải cải tạo.",
+  "alt": [
+   "purpose-built student housing",
+   "converted building",
+   "sheltered housing"
+  ],
+  "ex": "The university plans to build more purpose-built accommodation so first-year students do not face soaring private rents.",
+  "exvi": "Trường đại học dự định xây thêm ký túc xá riêng để sinh viên năm nhất không phải chịu giá thuê nhà tư nhân tăng vọt.",
+  "em": ""
+ },
+ {
+  "w": "prefabricated housing",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nhà lắp ghép, nhà tiền chế",
+  "use": "Dùng trong Writing về giải pháp thiếu nhà ở. Thân mật hay nói prefab homes.",
+  "alt": [
+   "prefab homes",
+   "modular construction",
+   "off-site construction"
+  ],
+  "ex": "Prefabricated housing can be assembled in weeks, making it a practical response to sudden population growth.",
+  "exvi": "Nhà lắp ghép có thể dựng xong trong vài tuần, là giải pháp thiết thực khi dân số tăng đột ngột.",
+  "em": ""
+ },
+ {
+  "w": "divert waste from landfill",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "giảm lượng rác đưa đi chôn lấp (chuyển sang tái chế, ủ phân...)",
+  "use": "Cụm học thuật, rất hợp Writing Task 2 về rác thải. Không nói: divert waste out of landfill.",
+  "alt": [
+   "landfill site",
+   "send waste to landfill",
+   "zero-waste target"
+  ],
+  "ex": "Deposit schemes for bottles and cans have helped several cities divert waste from landfill on a large scale.",
+  "exvi": "Chương trình đặt cọc chai lọ và lon đã giúp nhiều thành phố giảm mạnh lượng rác đưa đi chôn lấp.",
+  "em": ""
+ },
+ {
+  "w": "dwindling reserves",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "trữ lượng đang cạn dần",
+  "use": "Dùng cho dầu, khí, nước ngầm, khoáng sản. Dwindling mang ý giảm dần đều đặn, học thuật hơn decreasing.",
+  "alt": [
+   "finite resources",
+   "deplete reserves",
+   "dwindling supplies"
+  ],
+  "ex": "With dwindling reserves of sand suitable for concrete, builders are being forced to look for alternatives.",
+  "exvi": "Khi trữ lượng cát dùng làm bê tông cạn dần, các nhà thầu buộc phải tìm vật liệu thay thế.",
+  "em": ""
+ },
+ {
+  "w": "dominate the skyline",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "nổi bật, áp đảo đường chân trời thành phố",
+  "use": "Dùng khi mô tả tòa nhà, thành phố trong Speaking Part 2 hoặc Writing. Không nói: dominate the sky.",
+  "alt": [
+   "tower over the city",
+   "the city skyline",
+   "a landmark building"
+  ],
+  "ex": "A cluster of glass towers now dominates the skyline of what was once a quiet fishing town.",
+  "exvi": "Một cụm tòa tháp kính giờ đây áp đảo đường chân trời của nơi từng là một làng chài yên bình.",
+  "em": "🌆"
+ },
+ {
+  "w": "zoning laws",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "luật phân vùng quy hoạch (quy định khu nào xây gì)",
+  "use": "Thuật ngữ quy hoạch, hay gặp trong văn Mỹ; Anh hay nói planning regulations. Hợp Writing Task 2 về nhà ở.",
+  "alt": [
+   "planning regulations",
+   "relax zoning laws",
+   "land-use rules"
+  ],
+  "ex": "Critics say strict zoning laws that ban apartments in many suburbs are a major cause of high rents.",
+  "exvi": "Những người phản đối cho rằng luật phân vùng khắt khe cấm xây chung cư ở nhiều vùng ngoại ô là nguyên nhân chính khiến giá thuê cao.",
+  "em": ""
+ },
+ {
+  "w": "building regulations",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "quy chuẩn xây dựng",
+  "use": "Dùng ở số nhiều, đi với comply with, meet, breach. Anh dùng building regulations, Mỹ dùng building codes.",
+  "alt": [
+   "building codes",
+   "comply with regulations",
+   "safety standards"
+  ],
+  "ex": "After the fire, inspectors found that the block had never complied with basic building regulations on fire exits.",
+  "exvi": "Sau vụ cháy, thanh tra phát hiện tòa nhà chưa bao giờ đáp ứng quy chuẩn xây dựng cơ bản về lối thoát hiểm.",
+  "em": ""
+ },
+ {
+  "w": "walkable neighbourhood",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "khu phố đi bộ thuận tiện",
+  "use": "Từ hay gặp trong bài về đô thị và sức khỏe. Có thể dùng trong Speaking khi mô tả nơi mình muốn sống.",
+  "alt": [
+   "pedestrian-friendly streets",
+   "car-dependent suburb",
+   "within walking distance"
+  ],
+  "ex": "People who live in a walkable neighbourhood tend to exercise more without even thinking about it.",
+  "exvi": "Người sống ở khu phố dễ đi bộ thường vận động nhiều hơn mà không cần để ý.",
+  "em": "🚶"
+ },
+ {
+  "w": "open-plan layout",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "bố cục không gian mở",
+  "use": "Dùng khi mô tả nhà, văn phòng. Open-plan có gạch nối khi đứng trước danh từ.",
+  "alt": [
+   "open-plan office",
+   "spacious layout",
+   "partitioned rooms"
+  ],
+  "ex": "Some employees complain that the open-plan layout of their office makes it hard to concentrate.",
+  "exvi": "Một số nhân viên phàn nàn rằng bố cục mở của văn phòng khiến họ khó tập trung.",
+  "em": ""
+ },
+ {
+  "w": "crumbling infrastructure",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "cơ sở hạ tầng xuống cấp",
+  "use": "Mang sắc thái phê phán, hợp Writing Task 2 về chi tiêu công. Crumbling mạnh hơn old.",
+  "alt": [
+   "ageing infrastructure",
+   "infrastructure investment",
+   "fall into disrepair"
+  ],
+  "ex": "Crumbling infrastructure, from leaking pipes to unsafe bridges, costs the economy billions every year.",
+  "exvi": "Hạ tầng xuống cấp, từ đường ống rò rỉ đến cầu mất an toàn, gây thiệt hại hàng tỷ cho nền kinh tế mỗi năm.",
+  "em": ""
+ },
+ {
+  "w": "dilapidated buildings",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "các tòa nhà ọp ẹp, đổ nát",
+  "use": "Từ trang trọng, mạnh hơn run-down. Hợp Writing khi mô tả khu phố nghèo, nhà cũ.",
+  "alt": [
+   "run-down buildings",
+   "derelict building",
+   "in a state of disrepair"
+  ],
+  "ex": "Tourists love the old quarter, yet many families there still live in dilapidated buildings without proper sanitation.",
+  "exvi": "Du khách thích khu phố cổ, nhưng nhiều gia đình ở đó vẫn sống trong những ngôi nhà ọp ẹp thiếu vệ sinh.",
+  "em": ""
+ },
+ {
+  "w": "embodied carbon",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "lượng carbon phát thải trong quá trình sản xuất vật liệu và xây dựng",
+  "use": "Thuật ngữ chuyên ngành, dùng trong Writing về xây dựng bền vững. Phân biệt với operational carbon (phát thải khi sử dụng tòa nhà).",
+  "alt": [
+   "operational carbon",
+   "carbon footprint",
+   "low-carbon materials"
+  ],
+  "ex": "Demolishing an old block and building a new one releases huge amounts of embodied carbon from cement and steel.",
+  "exvi": "Phá tòa nhà cũ để xây mới thải ra lượng lớn carbon tích hợp từ xi măng và thép.",
+  "em": ""
+ },
+ {
+  "w": "the urban fabric",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "kết cấu đô thị (cách đường phố, nhà cửa, không gian gắn với nhau)",
+  "use": "Cụm học thuật, dùng khi bàn tác động của công trình mới lên thành phố. Hay đi với fit into, disrupt.",
+  "alt": [
+   "the character of a city",
+   "the urban landscape",
+   "the built environment"
+  ],
+  "ex": "Planners worry that the huge motorway will cut through the urban fabric and isolate older neighbourhoods.",
+  "exvi": "Các nhà quy hoạch lo con đường cao tốc khổng lồ sẽ cắt ngang kết cấu đô thị và cô lập các khu phố cũ.",
+  "em": ""
+ },
+ {
+  "w": "architectural merit",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "giá trị kiến trúc",
+  "use": "Trang trọng, hay gặp trong cụm of architectural merit. Hợp Writing về bảo tồn di sản.",
+  "alt": [
+   "of historic interest",
+   "architectural heritage",
+   "listed building"
+  ],
+  "ex": "Campaigners argued that the railway station had genuine architectural merit and should not be demolished.",
+  "exvi": "Những người vận động cho rằng nhà ga có giá trị kiến trúc thực sự và không nên bị phá bỏ.",
+  "em": ""
+ },
+ {
+  "w": "adaptive reuse",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "tái sử dụng công trình cũ cho mục đích mới",
+  "use": "Thuật ngữ kiến trúc, nâng band khi bàn về bảo tồn hay xây dựng bền vững. Không đếm được.",
+  "alt": [
+   "convert into",
+   "repurpose a building",
+   "urban regeneration"
+  ],
+  "ex": "The adaptive reuse of disused factories as offices and galleries has transformed the city's riverside district.",
+  "exvi": "Việc tái sử dụng các nhà máy bỏ hoang thành văn phòng và phòng tranh đã thay đổi khu ven sông của thành phố.",
+  "em": ""
+ },
+ {
+  "w": "vernacular architecture",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "kiến trúc bản địa, kiến trúc dân gian",
+  "use": "Học thuật, dùng khi nói về nhà truyền thống dùng vật liệu và kỹ thuật địa phương. Hợp Writing về văn hóa, khí hậu.",
+  "alt": [
+   "traditional architecture",
+   "local building techniques",
+   "architectural heritage"
+  ],
+  "ex": "Vernacular architecture, with thick walls and shaded courtyards, kept homes cool long before air conditioning existed.",
+  "exvi": "Kiến trúc bản địa với tường dày và sân trong có bóng mát đã giữ nhà mát mẻ từ rất lâu trước khi có điều hòa.",
+  "em": ""
+ },
+ {
+  "w": "painstakingly restored",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "C2",
+  "vi": "được trùng tu tỉ mỉ, công phu",
+  "use": "Dùng ở dạng bị động khi mô tả công trình cổ trong Speaking Part 2 hoặc Writing. Painstakingly nhấn mạnh rất tốn công.",
+  "alt": [
+   "carefully restored",
+   "lovingly restored",
+   "sympathetic restoration"
+  ],
+  "ex": "The temple was painstakingly restored over ten years using the same wood and techniques as the original.",
+  "exvi": "Ngôi đền được trùng tu tỉ mỉ suốt mười năm bằng đúng loại gỗ và kỹ thuật như bản gốc.",
+  "em": ""
+ },
+ {
+  "w": "a roof over one's head",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "chỗ nương thân, nơi để ở",
+  "use": "Thân mật đến trung tính, dùng tốt trong Speaking; có thể xuất hiện trong Writing khi nói về vô gia cư nhưng không nên lạm dụng.",
+  "alt": [
+   "somewhere to live",
+   "keep a roof over one's head",
+   "homeless"
+  ],
+  "ex": "For many low-paid workers, just keeping a roof over their heads takes most of their monthly income.",
+  "exvi": "Với nhiều lao động lương thấp, chỉ riêng việc có chỗ ở đã ngốn gần hết thu nhập hằng tháng.",
+  "em": "🏠"
+ },
+ {
+  "w": "Rome wasn't built in a day",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "việc lớn cần thời gian; không thể nóng vội",
+  "use": "Tục ngữ, chỉ hợp Speaking. Viết hoa Rome trong câu. Không nên chèn vào Writing Task 2.",
+  "alt": [
+   "good things take time",
+   "step by step",
+   "overnight success"
+  ],
+  "ex": "Learning to design whole cities takes years of study, but as my tutor says, Rome wasn't built in a day.",
+  "exvi": "Học thiết kế cả một thành phố mất nhiều năm, nhưng như thầy tôi nói, việc lớn không thể nóng vội.",
+  "em": ""
+ },
+ {
+  "w": "hit a brick wall",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "rơi vào bế tắc, không tiến triển được",
+  "use": "Thân mật, hợp Speaking. Không đưa vào Writing Task 2; thay bằng reach a deadlock.",
+  "alt": [
+   "reach a deadlock",
+   "come to a standstill",
+   "make a breakthrough"
+  ],
+  "ex": "Plans for a new bridge hit a brick wall when the two councils could not agree on funding.",
+  "exvi": "Kế hoạch xây cây cầu mới rơi vào bế tắc khi hai chính quyền địa phương không thống nhất được kinh phí.",
+  "em": "🧱"
+ },
+ {
+  "w": "go through the roof",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "tăng vọt (giá cả); nổi giận đùng đùng",
+  "use": "Thân mật, rất tự nhiên khi nói về giá nhà trong Speaking. Writing nên dùng soar hoặc rise sharply.",
+  "alt": [
+   "skyrocket",
+   "soar",
+   "hit rock bottom"
+  ],
+  "ex": "House prices in the capital have gone through the roof, so many young people are moving to smaller towns.",
+  "exvi": "Giá nhà ở thủ đô tăng vọt, nên nhiều người trẻ đang chuyển về các thị trấn nhỏ hơn.",
+  "em": "📈"
+ },
+ {
+  "w": "waste not, want not",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "không phung phí thì không thiếu thốn",
+  "use": "Tục ngữ, mang giọng người lớn tuổi, chỉ dùng trong Speaking khi nói về tiết kiệm, tái chế. Không dùng trong Writing.",
+  "alt": [
+   "make do and mend",
+   "make the most of",
+   "throwaway culture"
+  ],
+  "ex": "My grandmother reused every jar and paper bag, always reminding us: waste not, want not.",
+  "exvi": "Bà tôi tái sử dụng mọi cái lọ và túi giấy, lúc nào cũng nhắc: không phung phí thì không thiếu thốn.",
+  "em": ""
+ },
+ {
+  "w": "a blot on the landscape",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thứ làm xấu cảnh quan (công trình xấu xí)",
+  "use": "Hợp Speaking khi chê một tòa nhà; trong Writing có thể dùng một lần nếu văn cảnh phù hợp, nhưng eyesore an toàn hơn.",
+  "alt": [
+   "an eyesore",
+   "an architectural monstrosity",
+   "blend into the landscape"
+  ],
+  "ex": "Many locals see the new concrete car park as a blot on the landscape beside the historic harbour.",
+  "exvi": "Nhiều người dân xem bãi đỗ xe bê tông mới là thứ làm xấu cảnh quan bên cạnh bến cảng lịch sử.",
+  "em": ""
+ },
+ {
+  "w": "bricks and mortar",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "nhà cửa, bất động sản; cửa hàng truyền thống (đối lập với online)",
+  "use": "Dùng cả Speaking và Writing, khá trung tính. Khi đứng trước danh từ viết bricks-and-mortar (bricks-and-mortar stores).",
+  "alt": [
+   "property",
+   "bricks-and-mortar stores",
+   "online retail"
+  ],
+  "ex": "My parents believe that putting savings into bricks and mortar is safer than investing in shares.",
+  "exvi": "Bố mẹ tôi tin rằng đổ tiền tiết kiệm vào nhà đất an toàn hơn đầu tư cổ phiếu.",
+  "em": "🧱"
+ },
+ {
+  "w": "a house of cards",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thứ mong manh, dễ sụp đổ (kế hoạch, hệ thống)",
+  "use": "Dùng được trong Speaking và đôi khi Writing khi phê phán hệ thống thiếu nền tảng. Đi với collapse like a house of cards.",
+  "alt": [
+   "collapse like a house of cards",
+   "built on sand",
+   "on shaky ground"
+  ],
+  "ex": "The property boom turned out to be a house of cards built on cheap loans and wild speculation.",
+  "exvi": "Cơn sốt bất động sản hóa ra là một lâu đài cát dựng trên vốn vay rẻ và đầu cơ điên cuồng.",
+  "em": "🃏"
+ },
+ {
+  "w": "get on the property ladder",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "mua được căn nhà đầu tiên",
+  "use": "Rất hợp Speaking về nhà ở và người trẻ; có thể dùng trong Writing ở mức vừa phải. Không nói: climb on the house ladder.",
+  "alt": [
+   "first-time buyer",
+   "move up the property ladder",
+   "priced out of the market"
+  ],
+  "ex": "Without help from their parents, few graduates can get on the property ladder before their mid-thirties.",
+  "exvi": "Không có bố mẹ hỗ trợ, ít người mới tốt nghiệp mua được căn nhà đầu tiên trước tuổi ba mươi lăm.",
+  "em": "🪜"
+ },
+ {
+  "w": "paper over the cracks",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "che đậy vấn đề tạm bợ thay vì giải quyết tận gốc",
+  "use": "Dùng được trong Speaking và cả Writing khi phê phán chính sách. Không nói: cover the cracks.",
+  "alt": [
+   "a quick fix",
+   "tackle the root cause",
+   "a stopgap measure"
+  ],
+  "ex": "Repainting the school will only paper over the cracks if the leaking roof is not repaired.",
+  "exvi": "Sơn lại trường chỉ là che đậy tạm bợ nếu mái dột không được sửa.",
+  "em": ""
+ },
+ {
+  "w": "not in my back yard",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "ủng hộ dự án nhưng không muốn nó ở gần nhà mình",
+  "use": "Hay gặp dạng viết tắt NIMBY (nimbyism). Có thể dùng trong Writing về quy hoạch khi giải thích khái niệm; Speaking dùng tự nhiên.",
+  "alt": [
+   "NIMBY",
+   "nimbyism",
+   "local opposition"
+  ],
+  "ex": "Everyone agrees the city needs a new recycling plant, but the attitude is often not in my back yard.",
+  "exvi": "Ai cũng đồng ý thành phố cần nhà máy tái chế mới, nhưng thái độ thường là đừng đặt gần nhà tôi.",
+  "em": ""
+ },
+ {
+  "w": "from the ground up",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "từ con số không; từ nền móng",
+  "use": "Dùng được cả Speaking và Writing, sắc thái trung tính. Hay đi với build, design, rebuild.",
+  "alt": [
+   "from scratch",
+   "start from square one",
+   "build up"
+  ],
+  "ex": "After the flood, the village was rebuilt from the ground up with homes raised on concrete pillars.",
+  "exvi": "Sau trận lũ, ngôi làng được xây lại từ đầu với những ngôi nhà nâng cao trên cột bê tông.",
+  "em": ""
+ },
+ {
+  "w": "set in stone",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "cố định, không thể thay đổi",
+  "use": "Thường dùng ở dạng phủ định: nothing is set in stone. Hợp Speaking; Writing có thể dùng ở mức vừa phải.",
+  "alt": [
+   "written in stone",
+   "fixed",
+   "subject to change"
+  ],
+  "ex": "The design for the new library is not set in stone, so residents can still suggest changes.",
+  "exvi": "Thiết kế thư viện mới chưa cố định, nên cư dân vẫn có thể đề xuất thay đổi.",
+  "em": "🪨"
+ },
+ {
+  "w": "safe as houses",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "rất an toàn, chắc chắn",
+  "use": "Thành ngữ Anh, hơi cổ, chỉ dùng trong Speaking thân mật. Hay dùng mỉa mai khi nói đầu tư nhà đất tưởng an toàn.",
+  "alt": [
+   "as safe as can be",
+   "a safe bet",
+   "risk-free"
+  ],
+  "ex": "Investing in property used to seem as safe as houses, until prices fell sharply during the crisis.",
+  "exvi": "Đầu tư nhà đất từng có vẻ cực kỳ an toàn, cho đến khi giá giảm mạnh trong cuộc khủng hoảng.",
+  "em": ""
+ },
+ {
+  "w": "built on sand",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "không có nền tảng vững chắc, dễ sụp",
+  "use": "Dùng được trong Speaking và Writing phân tích khi phê phán kế hoạch hay nền kinh tế thiếu cơ sở.",
+  "alt": [
+   "a house of cards",
+   "on shaky foundations",
+   "rock-solid"
+  ],
+  "ex": "An economy that depends entirely on construction and land sales is built on sand.",
+  "exvi": "Một nền kinh tế phụ thuộc hoàn toàn vào xây dựng và bán đất là nền kinh tế không có nền tảng vững chắc.",
+  "em": ""
+ },
+ {
+  "w": "shake sth to its foundations",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "làm lung lay tận gốc",
+  "use": "Trang trọng hơn phần lớn idiom, có thể dùng trong Writing khi nói về biến động lớn. Không nói: shake its foundation.",
+  "alt": [
+   "rock the boat",
+   "turn sth upside down",
+   "a seismic shift"
+  ],
+  "ex": "The collapse of the bridge shook public trust in the construction industry to its foundations.",
+  "exvi": "Vụ sập cầu làm lung lay tận gốc niềm tin của công chúng vào ngành xây dựng.",
+  "em": ""
+ },
+ {
+  "w": "knock down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "phá dỡ (nhà, tường)",
+  "use": "Thân mật đến trung tính, Speaking dùng tự nhiên; Writing trang trọng dùng demolish. Nói được: knock it down.",
+  "alt": [
+   "pull down sth",
+   "tear down sth",
+   "demolish"
+  ],
+  "ex": "The council plans to knock down the old cinema and build affordable flats in its place.",
+  "exvi": "Chính quyền định phá dỡ rạp chiếu phim cũ và xây căn hộ giá rẻ ở đó.",
+  "em": "🏚️"
+ },
+ {
+  "w": "do up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "sửa sang, tân trang (nhà cửa)",
+  "use": "Thân mật, Anh-Anh, hợp Speaking. Writing dùng renovate. Nói được: do the flat up.",
+  "alt": [
+   "renovate",
+   "spruce up sth",
+   "fix up sth"
+  ],
+  "ex": "We bought a run-down cottage and spent two years doing it up ourselves at weekends.",
+  "exvi": "Chúng tôi mua một căn nhà nhỏ xuống cấp và mất hai năm tự sửa sang vào cuối tuần.",
+  "em": "🔨"
+ },
+ {
+  "w": "use up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "dùng hết, cạn kiệt",
+  "use": "Trung tính, dùng được cả Speaking và Writing đơn giản về tài nguyên. Writing học thuật có thể thay bằng deplete.",
+  "alt": [
+   "run out of sth",
+   "deplete",
+   "exhaust supplies"
+  ],
+  "ex": "If we keep using up sand at this rate, some regions will face serious shortages within decades.",
+  "exvi": "Nếu cứ dùng cát với tốc độ này, một số vùng sẽ thiếu hụt nghiêm trọng trong vài thập kỷ tới.",
+  "em": ""
+ },
+ {
+  "w": "put up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "dựng lên, xây (nhà, tường, hàng rào)",
+  "use": "Thân mật, Speaking. Đừng nhầm với put up with (chịu đựng). Writing có thể dùng erect hoặc construct.",
+  "alt": [
+   "erect",
+   "build",
+   "put up a fence"
+  ],
+  "ex": "Developers put up hundreds of identical houses in just two years, but forgot to build a single school.",
+  "exvi": "Các chủ đầu tư dựng lên hàng trăm căn nhà giống hệt nhau chỉ trong hai năm nhưng không xây nổi một trường học.",
+  "em": ""
+ },
+ {
+  "w": "spring up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "mọc lên nhanh chóng (nhà cửa, cửa hàng)",
+  "use": "Nội động từ, không có tân ngữ. Hợp Writing và Speaking khi mô tả đô thị hóa nhanh.",
+  "alt": [
+   "mushroom",
+   "crop up",
+   "pop up"
+  ],
+  "ex": "Coffee shops and co-working spaces have sprung up all over the district since the metro line opened.",
+  "exvi": "Quán cà phê và không gian làm việc chung mọc lên khắp quận kể từ khi tuyến metro hoạt động.",
+  "em": "🌱"
+ },
+ {
+  "w": "board up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "đóng ván bịt kín (cửa sổ, cửa ra vào)",
+  "use": "Hay dùng ở dạng bị động hoặc tính từ boarded-up để tả khu phố suy tàn. Hợp Writing mô tả.",
+  "alt": [
+   "boarded-up shops",
+   "brick up sth",
+   "derelict building"
+  ],
+  "ex": "Half the shops on the high street have been boarded up since the new shopping centre opened.",
+  "exvi": "Một nửa cửa hàng trên phố chính đã bị đóng ván bịt kín từ khi trung tâm thương mại mới mở.",
+  "em": ""
+ },
+ {
+  "w": "break down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "phân hủy (vật liệu); hỏng",
+  "use": "Trong chủ đề vật liệu thường dùng nghĩa phân hủy, hợp Writing về rác thải. Ngoại động từ break sth down là phân tách.",
+  "alt": [
+   "decompose",
+   "biodegradable",
+   "break sth down"
+  ],
+  "ex": "Ordinary plastic can take hundreds of years to break down, while paper packaging disappears within months.",
+  "exvi": "Nhựa thông thường có thể mất hàng trăm năm để phân hủy, trong khi bao bì giấy biến mất trong vài tháng.",
+  "em": ""
+ },
+ {
+  "w": "buy up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "gom mua (càng nhiều càng tốt)",
+  "use": "Mang sắc thái phê phán khi nói về đầu cơ đất. Dùng được cả Speaking và Writing.",
+  "alt": [
+   "snap up sth",
+   "buy out sb",
+   "land grab"
+  ],
+  "ex": "Foreign investors have been buying up flats in the city centre and leaving many of them empty.",
+  "exvi": "Nhà đầu tư nước ngoài gom mua căn hộ ở trung tâm và để trống rất nhiều căn.",
+  "em": ""
+ },
+ {
+  "w": "cave in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "sập xuống (mái, trần, đường hầm); nhượng bộ",
+  "use": "Nội động từ. Nghĩa vật lý hợp Speaking và Writing mô tả tai nạn; nghĩa nhượng bộ đi với cave in to sth.",
+  "alt": [
+   "collapse",
+   "fall in",
+   "give way"
+  ],
+  "ex": "Heavy rain caused the roof of the abandoned warehouse to cave in overnight.",
+  "exvi": "Mưa lớn khiến mái nhà kho bỏ hoang sập xuống chỉ sau một đêm.",
+  "em": ""
+ },
+ {
+  "w": "prop up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "chống đỡ (công trình); vực dậy, trợ giúp (kinh tế, công ty)",
+  "use": "Nghĩa đen dùng cho tường, mái; nghĩa bóng hay gặp trong Writing về trợ cấp, kinh tế.",
+  "alt": [
+   "shore up sth",
+   "support",
+   "bail out sth"
+  ],
+  "ex": "Builders used steel beams to prop up the crumbling walls while the foundations were repaired.",
+  "exvi": "Thợ xây dùng dầm thép chống đỡ những bức tường sắp đổ trong lúc sửa móng.",
+  "em": ""
+ },
+ {
+  "w": "fence off sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "rào lại, ngăn khu vực bằng hàng rào",
+  "use": "Trung tính, hay dùng ở bị động với khu đất, công trường. Hợp Writing mô tả và Speaking.",
+  "alt": [
+   "cordon off sth",
+   "wall off sth",
+   "seal off sth"
+  ],
+  "ex": "The park has been fenced off for months while workers dig a new underground station beneath it.",
+  "exvi": "Công viên bị rào lại nhiều tháng trong lúc công nhân đào ga tàu điện ngầm mới bên dưới.",
+  "em": "🚧"
+ },
+ {
+  "w": "hem in sb/sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "bao vây, bó hẹp (không có chỗ mở rộng)",
+  "use": "Thường dùng ở bị động: be hemmed in by. Hợp Writing mô tả địa lý đô thị.",
+  "alt": [
+   "box in sb/sth",
+   "surround",
+   "constrained by"
+  ],
+  "ex": "Hemmed in by mountains and the sea, the city has no choice but to build upwards.",
+  "exvi": "Bị núi và biển bao quanh, thành phố không còn cách nào ngoài xây theo chiều cao.",
+  "em": ""
+ },
+ {
+  "w": "churn out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "sản xuất ồ ạt (thường kém chất lượng)",
+  "use": "Mang sắc thái chê, dùng được trong Speaking và Writing phê phán. Không dùng cho sản phẩm được làm tỉ mỉ.",
+  "alt": [
+   "mass-produce",
+   "turn out sth",
+   "crank out sth"
+  ],
+  "ex": "Factories churn out cheap furniture that is designed to be thrown away after a few years.",
+  "exvi": "Các nhà máy sản xuất ồ ạt đồ nội thất rẻ tiền được thiết kế để vứt đi sau vài năm.",
+  "em": ""
+ },
+ {
+  "w": "pave over sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "phủ bê tông, lát kín (đất xanh, vườn)",
+  "use": "Mang sắc thái phê phán khi nói về mất không gian xanh. Hợp Writing về đô thị hóa và lũ lụt.",
+  "alt": [
+   "concrete over sth",
+   "build on green land",
+   "green spaces"
+  ],
+  "ex": "When front gardens are paved over for parking, rainwater cannot soak away and streets flood more easily.",
+  "exvi": "Khi vườn trước nhà bị lát kín để đỗ xe, nước mưa không thấm được và đường phố dễ ngập hơn.",
+  "em": ""
+ }
+]
