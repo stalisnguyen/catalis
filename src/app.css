@@ -763,3 +763,7 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 .fr-r b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .fr-r.me b{color:var(--accent)}
 .fr-mc svg{display:block}
+
+/* phrase decks: phrases are longer than single words */
+.card .big.ph{font-size:clamp(30px,7.5vw,48px);letter-spacing:0;margin-top:36px}
+.card:has(.big.ph) .corner{max-width:calc(100% - 110px);flex-wrap:wrap}

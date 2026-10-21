@@ -542,7 +542,7 @@ VIEWS.study=async el=>{
 function info(){const n=queue.filter(w=>!P.srs[w.k]).length;const s=$('#sessInfo');if(s)s.innerHTML=`Còn <b>${queue.length}</b> thẻ (${n} từ mới). Đã ôn <b>${sessDone}</b>.`;}
 function nextCard(keep){if(!keep||!qcur)qcur=queue[0]||null;revealed=false;drawCard();info();}
 function wordBack(w){
-  return `${w.em?`<div class="emo">${w.em}</div>`:''}<div class="big en">${esc(w.w)}</div><div class="row" style="justify-content:center;gap:8px">${ipaHTML(w)}<span class="pill">${esc(w.pos)}</span></div>
+  return `${w.em?`<div class="emo">${w.em}</div>`:''}<div class="big en${PHR_LV(w.lv)?' ph':''}">${esc(w.w)}</div><div class="row" style="justify-content:center;gap:8px">${ipaHTML(w)}<span class="pill">${esc(w.pos)}</span></div>
     <div class="mean">${esc(w.vi)}</div>
     ${w.col&&w.col.length?`${PHR_LV(w.lv)?'<div class="small muted">Cụm liên quan</div>':''}<div class="cols">${w.col.map(c=>`<span class="cl-chip">${esc(c)}</span>`).join('')}</div>`:''}
     ${w.fam?`<div class="small muted">${PHR_LV(w.lv)?'Cách dùng':'Họ từ'}: ${esc(w.fam)}</div>`:''}
@@ -563,7 +563,7 @@ function drawCard(){
   const m=P.settings.mode, isNew=!P.srs[w.k];
   const front = m==='vi'?`${w.em?`<div class="emo">${w.em}</div>`:''}<div class="prompt-vi">${esc(w.vi)}</div><div class="small muted">${esc(w.pos)}</div>`
     : m==='au'?`<button class="btn primary" data-say="${esc(w.w)}">${ic('volume-2')} Nghe lại</button>`
-    : `<div class="big en">${esc(w.w)}</div>${ipaHTML(w)}`;
+    : `<div class="big en${PHR_LV(w.lv)?' ph':''}">${esc(w.w)}</div>${ipaHTML(w)}`;
   box.innerHTML=`<div class="card ${revealed?'back-in':'tap'}"><div class="corner"><span class="pill">${LV_NAME[w.lv]}</span>${w.topic?`<span class="pill">${esc(w.topic)}</span>`:''}${isNew?'<span class="pill ai">Mới</span>':''}</div>
     <div class="corner-r"><button class="spk" data-say="${esc(w.w)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết">${ic('book-open')}</button></div>
     ${revealed?wordBack(w):front}
@@ -658,7 +658,7 @@ function openWord(k){
    ${c?`<div class="small muted">${known(w.k)?'Đã thuộc':'Đang học'}, ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</div>`:''}
    <div style="font-size:19px;font-weight:600">${esc(w.vi)}</div>
    ${w.col&&w.col.length?`<div><span class="label">${PHR_LV(w.lv)?'Cụm liên quan':'Collocation'}</span><div class="cols">${w.col.map(x=>`<button class="cl-chip" data-say="${esc(x)}">${esc(x)}</button>`).join('')}</div></div>`:''}
-   ${w.fam?`<div class="small"><span class="label">${PHR_LV(w.lv)?'Cách dùng':'Họ từ'}</span>${esc(w.fam)}</div>`:''}
+   ${w.fam?`<div class="small"><span class="label">${PHR_LV(w.lv)?'Cách dùng':'Họ từ'}</span> ${esc(w.fam)}</div>`:''}
    ${w.ex?`<div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="en-s">${hiWord(w.ex,w.w)}</div><div class="muted small">${esc(w.exvi)}</div></div></div>`:''}
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào thẻ ôn</button>'}<button class="btn sm need-ai" id="wdMore">${ic('sparkles')} AI giải thích thêm</button><button class="btn ghost sm" id="wdRep">Báo lỗi</button></div>
    <div id="wdAiOut"></div>`);
