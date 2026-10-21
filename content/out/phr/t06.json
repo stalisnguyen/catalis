@@ -1,68 +1,1058 @@
 [
-{"w":"run the risk of sth","deck":"col","pat":"v + n","cefr":"B2","vi":"có nguy cơ bị; chấp nhận rủi ro là","use":"Dùng được cả Writing và Speaking, theo sau là danh từ hoặc V-ing. Không nói: run a risk to lose, phải là run the risk of losing.","alt":["take the risk of","risk doing sth","be at risk of sth"],"ex":"Students who rely on a single source run the risk of misunderstanding complex scientific issues.","exvi":"Những sinh viên chỉ dựa vào một nguồn duy nhất có nguy cơ hiểu sai các vấn đề khoa học phức tạp.","em":"⚠️"},
-{"w":"stand a good chance of sth","deck":"col","pat":"v + n","cefr":"B2","vi":"có khả năng cao sẽ","use":"Hợp Speaking và Writing trung tính, theo sau là V-ing hoặc danh từ. Người học hay nói have a good chance to win; stand a good chance of winning tự nhiên hơn.","alt":["stand little chance of sth","have every chance of sth","be in with a chance"],"ex":"Graduates with practical experience stand a good chance of finding work in the renewable energy sector.","exvi":"Sinh viên tốt nghiệp có kinh nghiệm thực tế có khả năng cao tìm được việc trong ngành năng lượng tái tạo.","em":""},
-{"w":"a stroke of luck","deck":"col","pat":"n + of + n","cefr":"B2","vi":"một dịp may bất ngờ","use":"Hợp Speaking khi kể chuyện. Không nói: a hit of luck hay a piece of luck.","alt":["a stroke of good fortune","a lucky break","a stroke of bad luck"],"ex":"By a stroke of luck, the storm changed direction just before it reached the coastal villages.","exvi":"Thật may mắn, cơn bão đổi hướng ngay trước khi tiến vào các làng ven biển.","em":"🍀"},
-{"w":"combat climate change","deck":"col","pat":"v + n","cefr":"B2","vi":"chống biến đổi khí hậu","use":"Rất hợp Writing Task 2 chủ đề môi trường. Người học hay viết fight with climate change; combat, tackle hoặc fight climate change đều không cần with.","alt":["tackle climate change","fight climate change","address climate change"],"ex":"Governments must work together and invest in clean technology if they genuinely want to combat climate change.","exvi":"Các chính phủ phải hợp tác và đầu tư vào công nghệ sạch nếu thực sự muốn chống biến đổi khí hậu.","em":"🌍"},
-{"w":"natural habitat","deck":"col","pat":"adj + n","cefr":"B2","vi":"môi trường sống tự nhiên","use":"Dùng tốt trong Writing về động vật hoang dã và sở thú. Không nói: natural living environment khi nói về loài vật.","alt":["native habitat","habitat loss","in the wild"],"ex":"Many people argue that animals kept in zoos cannot behave as they would in their natural habitat.","exvi":"Nhiều người cho rằng động vật bị nuôi trong sở thú không thể cư xử như trong môi trường sống tự nhiên của chúng.","em":"🌳"},
-{"w":"torrential rain","deck":"col","pat":"adj + n","cefr":"B2","vi":"mưa như trút nước; mưa xối xả","use":"Hợp Speaking khi tả thời tiết và Writing khi nói về lũ lụt. Không nói: strong rain, phải là heavy rain hoặc torrential rain.","alt":["heavy rain","pouring rain","a downpour"],"ex":"Days of torrential rain caused rivers to burst their banks across the central provinces of Vietnam.","exvi":"Nhiều ngày mưa xối xả khiến sông tràn bờ khắp các tỉnh miền Trung Việt Nam.","em":"🌧️"},
-{"w":"flash flood","deck":"col","pat":"n + n","cefr":"B2","vi":"lũ quét","use":"Dùng được trong Writing và Speaking khi nói về thiên tai. Thường đi với hit, strike hoặc be swept away by.","alt":["flash flooding","a landslide","a flood warning"],"ex":"A flash flood swept through the mountain village at night, giving residents almost no time to escape.","exvi":"Một trận lũ quét tràn qua ngôi làng miền núi vào ban đêm, khiến người dân gần như không kịp chạy thoát.","em":"🌊"},
-{"w":"conservation efforts","deck":"col","pat":"n + n","cefr":"B2","vi":"các nỗ lực bảo tồn","use":"Hợp Writing học thuật, thường dùng số nhiều. Hay đi với step up, support hoặc thanks to.","alt":["conservation programmes","wildlife conservation","protection measures"],"ex":"Thanks to local conservation efforts, the number of sea turtles nesting on the island has doubled.","exvi":"Nhờ các nỗ lực bảo tồn của địa phương, số rùa biển làm tổ trên đảo đã tăng gấp đôi.","em":"🐢"},
-{"w":"in the wild","deck":"col","pat":"phrase","cefr":"B2","vi":"ngoài tự nhiên; trong môi trường hoang dã","use":"Dùng được cả Speaking lẫn Writing. Nhớ có the: in the wild, không nói in wild.","alt":["in captivity","in their natural habitat","in nature"],"ex":"Fewer than four thousand tigers are thought to survive in the wild today.","exvi":"Người ta cho rằng ngày nay chỉ còn chưa tới bốn nghìn con hổ sống ngoài tự nhiên.","em":"🐅"},
-{"w":"highly unlikely","deck":"col","pat":"adv + adj","cefr":"B2","vi":"rất khó xảy ra","use":"Hợp Writing để nói giảm nhẹ một khả năng. Người học hay viết very unlikely; highly unlikely nghe học thuật hơn. Thường dùng it is highly unlikely that.","alt":["extremely unlikely","highly likely","a remote possibility"],"ex":"It is highly unlikely that global temperatures will stop rising unless emissions fall sharply.","exvi":"Rất khó có chuyện nhiệt độ toàn cầu ngừng tăng nếu lượng khí thải không giảm mạnh.","em":""},
-{"w":"vulnerable to sth","deck":"col","pat":"adj + prep","cefr":"B2","vi":"dễ bị tổn thương bởi; dễ bị ảnh hưởng bởi","use":"Rất hay dùng trong Writing về thiên tai và xã hội. Không nói: vulnerable with, phải dùng to.","alt":["susceptible to sth","prone to sth","exposed to sth"],"ex":"Low-lying coastal cities are particularly vulnerable to storms and rising sea levels.","exvi":"Các thành phố ven biển nằm ở vùng trũng đặc biệt dễ bị ảnh hưởng bởi bão và mực nước biển dâng.","em":""},
-{"w":"take a calculated risk","deck":"col","pat":"v + n","cefr":"C1","vi":"chấp nhận một rủi ro đã cân nhắc kỹ","use":"Hợp cả Speaking và Writing khi nói về kinh doanh, sự nghiệp. Không nói: make a risk, động từ đi với risk là take.","alt":["take a gamble","take a risk","a high-risk strategy"],"ex":"She took a calculated risk by leaving a stable job to launch her own green energy start-up.","exvi":"Cô ấy đã chấp nhận một rủi ro có cân nhắc khi rời bỏ công việc ổn định để mở công ty khởi nghiệp năng lượng xanh.","em":"🎲"},
-{"w":"beat the odds","deck":"col","pat":"v + n","cefr":"C1","vi":"vượt qua mọi khả năng thất bại; thành công dù cơ hội rất thấp","use":"Hợp Speaking khi kể chuyện thành công. Odds luôn ở số nhiều, không nói beat the odd.","alt":["defy the odds","against all odds","the odds are stacked against sb"],"ex":"The small community beat the odds and rebuilt its school within a year of the earthquake.","exvi":"Cộng đồng nhỏ ấy đã vượt qua mọi khó khăn và xây lại ngôi trường chỉ trong một năm sau trận động đất.","em":""},
-{"w":"a remote possibility","deck":"col","pat":"adj + n","cefr":"C1","vi":"khả năng rất nhỏ","use":"Hợp Writing học thuật để nói một việc ít có khả năng xảy ra. Không nói: a far possibility.","alt":["a distinct possibility","a slim chance","highly unlikely"],"ex":"A major volcanic eruption in the region is a remote possibility, but planners still prepare for it.","exvi":"Một vụ phun trào núi lửa lớn trong khu vực là khả năng rất nhỏ, nhưng các nhà quy hoạch vẫn chuẩn bị cho nó.","em":""},
-{"w":"mitigate the impact of sth","deck":"col","pat":"v + n","cefr":"C1","vi":"giảm nhẹ tác động của","use":"Rất hợp Writing Task 2 phần giải pháp. Mitigate là ngoại động từ, không nói mitigate against the impact trong văn học thuật.","alt":["reduce the impact of sth","lessen the effects of sth","alleviate sth"],"ex":"Planting mangroves along the coast can mitigate the impact of storm surges on nearby villages.","exvi":"Trồng rừng ngập mặn dọc bờ biển có thể giảm nhẹ tác động của nước dâng do bão lên các làng gần đó.","em":""},
-{"w":"curb emissions","deck":"col","pat":"v + n","cefr":"C1","vi":"hạn chế lượng khí thải","use":"Hợp Writing học thuật và báo chí. Người học hay viết decrease emissions; curb hoặc cut emissions tự nhiên hơn.","alt":["cut emissions","reduce emissions","slash emissions"],"ex":"Many cities have introduced congestion charges in an attempt to curb emissions from private cars.","exvi":"Nhiều thành phố đã áp dụng phí ùn tắc nhằm hạn chế khí thải từ xe ô tô cá nhân.","em":"🏭"},
-{"w":"wreak havoc on sth","deck":"col","pat":"v + n","cefr":"C1","vi":"tàn phá nặng nề; gây hỗn loạn cho","use":"Hợp Writing và Speaking khi nói về thiên tai, sâu bệnh. Quá khứ là wreaked, không phải wrought trong cách dùng phổ biến hiện nay.","alt":["cause havoc","play havoc with sth","cause widespread damage"],"ex":"The typhoon wreaked havoc on rice crops, leaving thousands of farmers without an income.","exvi":"Cơn bão đã tàn phá nặng nề các cánh đồng lúa, khiến hàng nghìn nông dân mất nguồn thu nhập.","em":"🌪️"},
-{"w":"dwindling populations","deck":"col","pat":"adj + n","cefr":"C1","vi":"số lượng cá thể ngày càng giảm","use":"Hợp Writing về động vật hoang dã. Dwindling chỉ sự giảm dần, mạnh hơn decreasing một chút và nghe học thuật hơn.","alt":["declining numbers","shrinking populations","dwindling resources"],"ex":"Scientists are worried about the dwindling populations of bees, which are vital for pollinating crops.","exvi":"Các nhà khoa học lo ngại về số lượng ong ngày càng giảm, loài rất quan trọng cho việc thụ phấn cây trồng.","em":"🐝"},
-{"w":"prolonged drought","deck":"col","pat":"adj + n","cefr":"C1","vi":"hạn hán kéo dài","use":"Hợp Writing về khí hậu và nông nghiệp. Không nói: long drought trong văn học thuật, dùng prolonged hoặc severe.","alt":["severe drought","a long dry spell","water shortages"],"ex":"A prolonged drought in the Mekong Delta has pushed salt water further inland, damaging farmland.","exvi":"Đợt hạn hán kéo dài ở đồng bằng sông Cửu Long đã đẩy nước mặn vào sâu trong đất liền, gây hại cho đất nông nghiệp.","em":"☀️"},
-{"w":"bear the brunt of sth","deck":"col","pat":"v + n","cefr":"C1","vi":"hứng chịu nặng nề nhất","use":"Hợp Writing khi nói nhóm nào chịu thiệt nhiều nhất. Không nói: carry the brunt; động từ cố định là bear.","alt":["take the brunt of sth","be hardest hit","suffer the most"],"ex":"Poorer countries often bear the brunt of climate change despite producing the least pollution.","exvi":"Các nước nghèo thường hứng chịu nặng nề nhất hậu quả của biến đổi khí hậu dù gây ô nhiễm ít nhất.","em":""},
-{"w":"irreversible damage","deck":"col","pat":"adj + n","cefr":"C1","vi":"thiệt hại không thể khắc phục","use":"Hợp Writing về môi trường và sức khỏe. Hay đi với cause hoặc do irreversible damage to sth.","alt":["permanent damage","lasting damage","long-term harm"],"ex":"Experts warn that overfishing could cause irreversible damage to coral reefs within a few decades.","exvi":"Các chuyên gia cảnh báo việc đánh bắt quá mức có thể gây thiệt hại không thể khắc phục cho rạn san hô trong vài thập kỷ.","em":""},
-{"w":"reach a tipping point","deck":"col","pat":"v + n","cefr":"C1","vi":"chạm tới ngưỡng không thể quay lại","use":"Hợp Writing về khí hậu và xã hội, chỉ thời điểm thay đổi lớn không đảo ngược được. Có thể nói reach hoặc pass a tipping point.","alt":["pass the point of no return","a turning point","cross a threshold"],"ex":"Some scientists fear the Amazon rainforest could reach a tipping point and gradually turn into grassland.","exvi":"Một số nhà khoa học lo rằng rừng mưa Amazon có thể chạm ngưỡng không thể quay lại và dần biến thành đồng cỏ.","em":""},
-{"w":"biodiversity loss","deck":"col","pat":"n + n","cefr":"C1","vi":"suy giảm đa dạng sinh học","use":"Hợp Writing học thuật. Biodiversity là danh từ không đếm được, không nói biodiversities.","alt":["species loss","habitat destruction","loss of biodiversity"],"ex":"Intensive farming and urban expansion are two of the main drivers of biodiversity loss worldwide.","exvi":"Canh tác thâm canh và mở rộng đô thị là hai nguyên nhân chính gây suy giảm đa dạng sinh học trên thế giới.","em":""},
-{"w":"prone to flooding","deck":"col","pat":"adj + prep","cefr":"C1","vi":"dễ bị ngập lụt","use":"Hợp Writing và Speaking khi nói về nơi ở, quy hoạch. Prone to đi với danh từ hoặc V-ing, không nói prone to flood (động từ).","alt":["flood-prone","vulnerable to flooding","at risk of flooding"],"ex":"Parts of Ho Chi Minh City are prone to flooding whenever heavy rain coincides with high tide.","exvi":"Một số khu vực ở TP. Hồ Chí Minh dễ bị ngập mỗi khi mưa lớn trùng với triều cường.","em":"🌊"},
-{"w":"fragile ecosystem","deck":"col","pat":"adj + n","cefr":"C1","vi":"hệ sinh thái mong manh","use":"Hợp Writing về du lịch và môi trường. Fragile ở đây nghĩa là dễ bị phá vỡ, không dùng weak ecosystem.","alt":["delicate ecosystem","ecological balance","vulnerable habitat"],"ex":"Mass tourism can put enormous pressure on the fragile ecosystem of small islands.","exvi":"Du lịch đại trà có thể gây áp lực rất lớn lên hệ sinh thái mong manh của các hòn đảo nhỏ.","em":"🏝️"},
-{"w":"erratic weather patterns","deck":"col","pat":"adj + n","cefr":"C1","vi":"thời tiết thất thường","use":"Hợp Writing về khí hậu và nông nghiệp. Người học hay viết abnormal weather; erratic hoặc unpredictable tự nhiên hơn.","alt":["unpredictable weather","changing weather patterns","freak weather"],"ex":"Erratic weather patterns make it increasingly difficult for farmers to decide when to plant their crops.","exvi":"Thời tiết thất thường khiến nông dân ngày càng khó quyết định khi nào nên gieo trồng.","em":"🌦️"},
-{"w":"a margin of error","deck":"col","pat":"n + of + n","cefr":"C1","vi":"biên độ sai số","use":"Hợp Writing khi bàn về số liệu, khảo sát, dự báo. Thường đi với a small/wide margin of error hoặc leave no margin for error.","alt":["room for error","a degree of uncertainty","an error margin"],"ex":"Weather forecasts for more than a week ahead come with a large margin of error.","exvi":"Dự báo thời tiết cho hơn một tuần tới thường có biên độ sai số lớn.","em":""},
-{"w":"harness solar power","deck":"col","pat":"v + n","cefr":"C1","vi":"khai thác năng lượng mặt trời","use":"Hợp Writing về năng lượng. Harness nghĩa là tận dụng một nguồn tự nhiên, thay được cho use.","alt":["harness wind power","generate solar energy","tap into renewable energy"],"ex":"Countries near the equator are well placed to harness solar power on a large scale.","exvi":"Các nước gần xích đạo có lợi thế lớn để khai thác năng lượng mặt trời trên quy mô lớn.","em":"🔆"},
-{"w":"coastal erosion","deck":"col","pat":"adj + n","cefr":"C1","vi":"xói lở bờ biển","use":"Hợp Writing về khí hậu và quy hoạch ven biển. Hay đi với accelerate, prevent hoặc be threatened by.","alt":["soil erosion","riverbank erosion","rising sea levels"],"ex":"Coastal erosion has already forced some families in central Vietnam to move their homes further inland.","exvi":"Xói lở bờ biển đã buộc một số gia đình ở miền Trung phải dời nhà sâu vào đất liền.","em":""},
-{"w":"statistically significant","deck":"col","pat":"adv + adj","cefr":"C2","vi":"có ý nghĩa thống kê","use":"Chỉ dùng trong Writing học thuật khi bàn về nghiên cứu, số liệu. Không dùng để nói chung chung là quan trọng.","alt":["a significant difference","statistically insignificant","a strong correlation"],"ex":"The study found a statistically significant link between air pollution and childhood asthma.","exvi":"Nghiên cứu cho thấy mối liên hệ có ý nghĩa thống kê giữa ô nhiễm không khí và bệnh hen ở trẻ em.","em":"📊"},
-{"w":"the law of averages","deck":"col","pat":"n + of + n","cefr":"C2","vi":"quy luật xác suất (cứ thử nhiều thì sẽ có lúc trúng)","use":"Hợp Speaking, nghe tự nhiên khi nói về may rủi. Hiểu đúng: đây là cách nói đời thường, không phải định luật toán học chính xác.","alt":["the odds are","in all probability","sooner or later"],"ex":"If you apply for enough jobs, the law of averages says that one of them will eventually say yes.","exvi":"Nếu bạn nộp đủ nhiều đơn, theo quy luật xác suất thì sớm muộn cũng có nơi nhận.","em":""},
-{"w":"an act of God","deck":"col","pat":"n + of + n","cefr":"C2","vi":"thiên tai bất khả kháng","use":"Hay gặp trong hợp đồng và bảo hiểm. Dùng trong Writing khi bàn về trách nhiệm trước thiên tai; luôn viết hoa God.","alt":["force majeure","a natural disaster","beyond anyone's control"],"ex":"Some insurance policies refuse to pay for damage caused by floods, calling them an act of God.","exvi":"Một số hợp đồng bảo hiểm từ chối chi trả thiệt hại do lũ lụt vì coi đó là thiên tai bất khả kháng.","em":""},
-{"w":"pristine wilderness","deck":"col","pat":"adj + n","cefr":"C2","vi":"vùng hoang dã còn nguyên sơ","use":"Hợp Writing và Speaking về du lịch và bảo tồn. Pristine nghĩa là chưa bị con người tác động.","alt":["untouched wilderness","unspoilt countryside","pristine beaches"],"ex":"Antarctica remains one of the last areas of pristine wilderness left on the planet.","exvi":"Nam Cực vẫn là một trong những vùng hoang dã nguyên sơ cuối cùng còn lại trên hành tinh.","em":"🏔️"},
-{"w":"teeming with sth","deck":"col","pat":"adj + prep","cefr":"C2","vi":"đầy ắp; nhung nhúc","use":"Hợp Speaking và Writing miêu tả. Thường nói teeming with life, wildlife, fish. Không nói teeming of.","alt":["full of sth","crawling with sth","abundant in sth"],"ex":"Thirty years ago, the river was teeming with fish, but now it is almost lifeless.","exvi":"Ba mươi năm trước con sông này đầy ắp cá, nhưng giờ gần như không còn sự sống.","em":"🐟"},
-{"w":"endemic species","deck":"col","pat":"adj + n","cefr":"C2","vi":"loài đặc hữu","use":"Hợp Writing học thuật về sinh học và bảo tồn. Endemic species là loài chỉ có ở một vùng, khác với native species là loài bản địa nói chung.","alt":["native species","invasive species","indigenous plants"],"ex":"Madagascar is home to hundreds of endemic species that cannot be found anywhere else on Earth.","exvi":"Madagascar là nơi sinh sống của hàng trăm loài đặc hữu không thể tìm thấy ở bất kỳ nơi nào khác trên Trái Đất.","em":""},
-{"w":"the precautionary principle","deck":"col","pat":"adj + n","cefr":"C2","vi":"nguyên tắc phòng ngừa","use":"Hợp Writing Task 2 về khoa học, môi trường và công nghệ mới: khi chưa chắc chắn về rủi ro thì nên thận trọng trước.","alt":["err on the side of caution","preventive measures","risk assessment"],"ex":"Under the precautionary principle, new pesticides should be tested thoroughly before they are approved for use.","exvi":"Theo nguyên tắc phòng ngừa, thuốc trừ sâu mới cần được thử nghiệm kỹ trước khi được phép sử dụng.","em":""},
-{"w":"a blessing in disguise","deck":"idiom","pat":"idiom","cefr":"B2","vi":"trong cái rủi có cái may","use":"Hợp IELTS Speaking khi kể chuyện. Không nên đưa thành ngữ vào Writing Task 2.","alt":["every cloud has a silver lining","a stroke of luck","a mixed blessing"],"ex":"Losing that job turned out to be a blessing in disguise because it pushed me to study abroad.","exvi":"Mất công việc đó hóa ra là trong cái rủi có cái may vì nó thúc đẩy tôi đi du học.","em":""},
-{"w":"a long shot","deck":"idiom","pat":"idiom","cefr":"B2","vi":"việc rất ít hy vọng thành công","use":"Hợp IELTS Speaking, giọng thân mật. Không dùng trong Writing Task 2. Hay gặp: it's a long shot, but...","alt":["a remote possibility","not a hope","a slim chance"],"ex":"Getting a scholarship to Harvard is a long shot, but I am going to apply anyway.","exvi":"Giành học bổng Harvard là chuyện rất ít hy vọng, nhưng dù sao tôi vẫn sẽ nộp đơn.","em":"🎯"},
-{"w":"push your luck","deck":"idiom","pat":"idiom","cefr":"B2","vi":"được đằng chân lân đằng đầu; liều quá trớn","use":"Hợp IELTS Speaking, giọng thân mật. Không dùng trong Writing Task 2. Hay gặp ở dạng don't push your luck.","alt":["tempt fate","play with fire","quit while you're ahead"],"ex":"I got a discount on my first order, but asking for free delivery as well would be pushing my luck.","exvi":"Tôi đã được giảm giá đơn đầu tiên, giờ còn đòi miễn phí giao hàng thì đúng là được đằng chân lân đằng đầu.","em":""},
-{"w":"play with fire","deck":"idiom","pat":"idiom","cefr":"B2","vi":"đùa với lửa; làm việc liều lĩnh nguy hiểm","use":"Hợp IELTS Speaking. Không dùng trong Writing Task 2. Thường ở dạng tiếp diễn: you're playing with fire.","alt":["skate on thin ice","take a gamble","tempt fate"],"ex":"Investing all your savings in one cryptocurrency is playing with fire, in my opinion.","exvi":"Theo tôi, dồn toàn bộ tiền tiết kiệm vào một đồng tiền mã hóa là đang đùa với lửa.","em":"🔥"},
-{"w":"a drop in the ocean","deck":"idiom","pat":"idiom","cefr":"B2","vi":"muối bỏ biển; chẳng thấm vào đâu","use":"Hợp IELTS Speaking khi bàn về môi trường, tiền bạc. Không nên dùng trong Writing Task 2, thay bằng negligible.","alt":["a drop in the bucket","negligible","the tip of the iceberg"],"ex":"Recycling a few bottles at home is a drop in the ocean compared with industrial pollution.","exvi":"Tái chế vài cái chai ở nhà chỉ như muối bỏ biển so với ô nhiễm công nghiệp.","em":"💧"},
-{"w":"the luck of the draw","deck":"idiom","pat":"idiom","cefr":"C1","vi":"hoàn toàn do may rủi","use":"Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay nói it's (just) the luck of the draw.","alt":["pure chance","a matter of luck","as luck would have it"],"ex":"Which teacher you get in your first year is just the luck of the draw.","exvi":"Năm đầu bạn được học thầy cô nào hoàn toàn do may rủi.","em":"🎲"},
-{"w":"tempt fate","deck":"idiom","pat":"idiom","cefr":"C1","vi":"thách thức số phận; nói trước bước không qua","use":"Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay gặp: I don't want to tempt fate, but...","alt":["push your luck","touch wood","speak too soon"],"ex":"Building houses right next to an active volcano is really tempting fate.","exvi":"Xây nhà ngay sát một ngọn núi lửa đang hoạt động đúng là thách thức số phận.","em":""},
-{"w":"err on the side of caution","deck":"idiom","pat":"idiom","cefr":"C1","vi":"thà cẩn thận quá còn hơn","use":"Khá trung tính nên dùng được trong Speaking và cả Writing khi cần, nhưng đừng cố nhét. Không nói err on the caution side.","alt":["better safe than sorry","play it safe","throw caution to the wind"],"ex":"When a typhoon is forecast, authorities usually err on the side of caution and close schools.","exvi":"Khi có dự báo bão, chính quyền thường chọn thận trọng và cho học sinh nghỉ học.","em":""},
-{"w":"weather the storm","deck":"idiom","pat":"idiom","cefr":"C1","vi":"vượt qua giai đoạn khó khăn","use":"Hợp IELTS Speaking, cũng gặp trong báo chí kinh tế. Không nên dùng trong Writing Task 2. Weather ở đây là động từ.","alt":["ride out the storm","get through a crisis","keep your head above water"],"ex":"Small businesses with some savings were better able to weather the storm during the pandemic.","exvi":"Các doanh nghiệp nhỏ có chút tiền dự phòng đã vượt qua giai đoạn khó khăn của đại dịch tốt hơn.","em":"⛈️"},
-{"w":"a perfect storm","deck":"idiom","pat":"idiom","cefr":"C1","vi":"nhiều yếu tố xấu cùng lúc dẫn tới khủng hoảng","use":"Hợp IELTS Speaking và báo chí. Không nên dùng trong Writing Task 2. Không có nghĩa là cơn bão hoàn hảo theo nghĩa tích cực.","alt":["a recipe for disaster","a vicious circle","a double whammy"],"ex":"Drought, high fuel prices and a weak currency created a perfect storm for local farmers.","exvi":"Hạn hán, giá nhiên liệu cao và đồng tiền yếu đã cùng lúc đẩy nông dân địa phương vào khủng hoảng.","em":""},
-{"w":"a recipe for disaster","deck":"idiom","pat":"idiom","cefr":"C1","vi":"chắc chắn dẫn tới thảm họa","use":"Hợp IELTS Speaking. Không nên dùng trong Writing Task 2. Hay gặp: X is a recipe for disaster.","alt":["a perfect storm","asking for trouble","a recipe for success"],"ex":"Building new housing estates on flood plains without proper drainage is a recipe for disaster.","exvi":"Xây khu dân cư mới trên vùng ngập lũ mà không có hệ thống thoát nước tốt chắc chắn dẫn tới thảm họa.","em":""},
-{"w":"hedge your bets","deck":"idiom","pat":"idiom","cefr":"C1","vi":"phòng ngừa rủi ro bằng cách không dồn hết vào một lựa chọn","use":"Hợp IELTS Speaking khi nói về học tập, đầu tư, nghề nghiệp. Không nên dùng trong Writing Task 2.","alt":["don't put all your eggs in one basket","spread the risk","play it safe"],"ex":"I hedged my bets by applying to universities in three different countries.","exvi":"Tôi phòng rủi ro bằng cách nộp đơn vào các trường đại học ở ba nước khác nhau.","em":""},
-{"w":"throw caution to the wind","deck":"idiom","pat":"idiom","cefr":"C1","vi":"bất chấp rủi ro; liều một phen","use":"Hợp IELTS Speaking khi kể chuyện. Không dùng trong Writing Task 2. Có thể nói wind hoặc winds.","alt":["take the plunge","play with fire","err on the side of caution"],"ex":"After years of saving carefully, she threw caution to the wind and travelled around the world.","exvi":"Sau nhiều năm tiết kiệm cẩn thận, cô ấy bất chấp tất cả mà đi du lịch vòng quanh thế giới.","em":"🌬️"},
-{"w":"in the lap of the gods","deck":"idiom","pat":"idiom","cefr":"C2","vi":"phó mặc cho số phận; hết cách kiểm soát","use":"Hợp IELTS Speaking, mang sắc thái Anh Anh. Không dùng trong Writing Task 2.","alt":["out of our hands","the luck of the draw","beyond our control"],"ex":"I have prepared as well as I can for the exam, so now it is in the lap of the gods.","exvi":"Tôi đã ôn thi hết sức rồi, giờ thì phó mặc cho số phận.","em":""},
-{"w":"a bolt from the blue","deck":"idiom","pat":"idiom","cefr":"C2","vi":"tin sét đánh; chuyện bất ngờ hoàn toàn","use":"Hợp IELTS Speaking khi kể chuyện bất ngờ. Không dùng trong Writing Task 2.","alt":["out of the blue","a bombshell","come as a complete surprise"],"ex":"The news that the factory would close came as a bolt from the blue for the whole town.","exvi":"Tin nhà máy đóng cửa đến như sét đánh ngang tai đối với cả thị trấn.","em":"⚡"},
-{"w":"lightning never strikes twice","deck":"idiom","pat":"idiom","cefr":"C2","vi":"chuyện hiếm hoi khó xảy ra hai lần","use":"Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay dùng để trấn an, đôi khi dùng ngược để nói rằng thực ra nó vẫn xảy ra.","alt":["a one-off","once in a lifetime","the law of averages"],"ex":"People say lightning never strikes twice, yet the same region was hit by two floods in one year.","exvi":"Người ta bảo chuyện hiếm không xảy ra hai lần, vậy mà cùng một vùng bị hai trận lũ trong một năm.","em":"⚡"},
-{"w":"wipe out sth","deck":"pv","pat":"phrasal verb, tách được","cefr":"B2","vi":"xóa sổ; tiêu diệt hoàn toàn","use":"Dùng được trong Speaking và Writing về loài vật, dịch bệnh, thiên tai. Có thể nói wipe the species out hoặc wipe out the species.","alt":["die out","eradicate sth","be wiped off the map"],"ex":"An unknown fungus has wiped out entire populations of frogs in Central America.","exvi":"Một loại nấm chưa rõ đã xóa sổ toàn bộ quần thể ếch ở Trung Mỹ.","em":""},
-{"w":"dry up","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"cạn khô; cạn kiệt","use":"Dùng cho sông, hồ, giếng và cả nguồn tiền, nguồn việc. Không có tân ngữ: the river dried up.","alt":["run dry","run out","dwindle"],"ex":"During the hottest months, many of the wells in the village dry up completely.","exvi":"Vào những tháng nóng nhất, nhiều giếng trong làng cạn khô hoàn toàn.","em":"🏜️"},
-{"w":"clear up","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"tạnh; trời quang trở lại","use":"Hợp Speaking khi nói về thời tiết. Nghĩa thời tiết không có tân ngữ: the weather cleared up.","alt":["brighten up","let up","cloud over"],"ex":"The morning was grey and wet, but it cleared up in time for our afternoon hike.","exvi":"Buổi sáng âm u và ẩm ướt, nhưng trời đã quang kịp cho chuyến leo núi buổi chiều.","em":"🌤️"},
-{"w":"break out","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"bùng phát (cháy, dịch bệnh, chiến tranh)","use":"Dùng được trong Writing và Speaking. Không có tân ngữ và không dùng bị động: a fire broke out, không nói a fire was broken out.","alt":["erupt","spread","flare up"],"ex":"Wildfires break out more often now because summers in the region have become hotter and drier.","exvi":"Cháy rừng bùng phát thường xuyên hơn vì mùa hè trong vùng đã nóng và khô hơn.","em":"🔥"},
-{"w":"pay off","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"mang lại kết quả tốt; đáng công","use":"Hợp Speaking khi nói một quyết định mạo hiểm đã thành công. Nghĩa này không có tân ngữ: the risk paid off.","alt":["bear fruit","backfire","be worth it"],"ex":"The farmer's gamble on drought-resistant rice paid off when the rains failed that year.","exvi":"Canh bạc của người nông dân với giống lúa chịu hạn đã thành công khi năm đó trời không mưa.","em":""},
-{"w":"ward off sth","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"xua đuổi; phòng tránh","use":"Hợp Writing và Speaking khi nói về bệnh tật, kẻ thù, nguy hiểm. Có thể nói ward them off.","alt":["fend off sth","stave off sth","keep sth at bay"],"ex":"Some farmers grow certain flowers between their crops to ward off harmful insects naturally.","exvi":"Một số nông dân trồng vài loại hoa xen giữa cây trồng để xua đuổi côn trùng có hại một cách tự nhiên.","em":""},
-{"w":"phase out sth","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"loại bỏ dần","use":"Rất hợp Writing Task 2 phần giải pháp về năng lượng, nhựa. Thường dùng bị động: should be phased out.","alt":["phase in sth","do away with sth","gradually eliminate sth"],"ex":"Many countries have promised to phase out coal power stations by the middle of the century.","exvi":"Nhiều quốc gia đã cam kết loại bỏ dần các nhà máy nhiệt điện than vào giữa thế kỷ này.","em":""},
-{"w":"let up","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"ngớt; giảm bớt","use":"Hợp Speaking khi nói mưa, bão hoặc áp lực giảm đi. Không có tân ngữ, thường dùng phủ định: the rain didn't let up.","alt":["ease off","die down","clear up"],"ex":"The rain did not let up for three days, and several roads into the city were closed.","exvi":"Mưa không ngớt suốt ba ngày, và nhiều con đường vào thành phố bị đóng.","em":"🌧️"},
-{"w":"sweep away sth","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"cuốn trôi","use":"Dùng được trong Writing và Speaking khi tả lũ lụt, sóng thần. Thường dùng bị động: be swept away.","alt":["wash away sth","carry away sth","destroy sth"],"ex":"The tsunami swept away bridges, cars and homes within minutes of reaching the shore.","exvi":"Sóng thần đã cuốn trôi cầu, xe cộ và nhà cửa chỉ trong vài phút sau khi đổ bộ vào bờ.","em":"🌊"},
-{"w":"blow over","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"(bão) qua đi; (chuyện) lắng xuống","use":"Hợp Speaking, dùng cho cả bão lẫn tranh cãi, scandal. Không có tân ngữ.","alt":["die down","pass","let up"],"ex":"We stayed indoors and waited for the storm to blow over before driving home.","exvi":"Chúng tôi ở trong nhà chờ cơn bão qua rồi mới lái xe về.","em":""},
-{"w":"eat away at sth","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"bào mòn dần; gặm nhấm dần","use":"Hợp Writing miêu tả xói mòn, và nghĩa bóng như lo âu bào mòn ai. Luôn có at trước tân ngữ.","alt":["erode sth","wear away sth","undermine sth"],"ex":"Rising waves are slowly eating away at the cliffs, putting nearby houses at risk.","exvi":"Những con sóng ngày càng cao đang dần bào mòn vách đá, khiến những ngôi nhà gần đó gặp nguy hiểm.","em":""},
-{"w":"stave off sth","deck":"pv","pat":"phrasal verb, tách được","cefr":"C2","vi":"ngăn chặn tạm thời; đẩy lùi","use":"Hợp Writing học thuật khi nói ngăn khủng hoảng, nạn đói, tuyệt chủng. Thường chỉ trì hoãn được chứ chưa giải quyết tận gốc.","alt":["ward off sth","fend off sth","head off sth"],"ex":"Breeding programmes in zoos may help stave off the extinction of some rare species.","exvi":"Các chương trình nhân giống trong sở thú có thể giúp đẩy lùi nguy cơ tuyệt chủng của một số loài quý hiếm.","em":""},
-{"w":"chance upon sth","deck":"pv","pat":"phrasal verb","cefr":"C2","vi":"tình cờ bắt gặp","use":"Văn phong khá trang trọng, hợp khi kể chuyện trong Speaking. Cũng nói chance on sth.","alt":["come across sth","stumble upon sth","happen upon sth"],"ex":"While hiking in the national park, we chanced upon a family of rare monkeys feeding in the trees.","exvi":"Khi đi bộ trong vườn quốc gia, chúng tôi tình cờ bắt gặp một đàn khỉ quý hiếm đang kiếm ăn trên cây.","em":"🐒"},
-{"w":"peter out","deck":"pv","pat":"phrasal verb","cefr":"C2","vi":"yếu dần rồi tắt hẳn","use":"Dùng cho bão, mưa, con đường, sự quan tâm. Không có tân ngữ. Người học hay nhầm với run out.","alt":["fizzle out","die down","tail off"],"ex":"The storm gradually petered out as it moved inland, causing less damage than expected.","exvi":"Cơn bão yếu dần rồi tan khi đi sâu vào đất liền, gây ít thiệt hại hơn dự kiến.","em":""}
+ {
+  "w": "run the risk of sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "có nguy cơ bị; chấp nhận rủi ro là",
+  "use": "Dùng được cả Writing và Speaking, theo sau là danh từ hoặc V-ing. Không nói: run a risk to lose, phải là run the risk of losing.",
+  "alt": [
+   "take the risk of",
+   "risk doing sth",
+   "be at risk of sth"
+  ],
+  "ex": "Students who rely on a single source run the risk of misunderstanding complex scientific issues.",
+  "exvi": "Những sinh viên chỉ dựa vào một nguồn duy nhất có nguy cơ hiểu sai các vấn đề khoa học phức tạp.",
+  "em": "⚠️"
+ },
+ {
+  "w": "stand a good chance of sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "có khả năng cao sẽ",
+  "use": "Hợp Speaking và Writing trung tính, theo sau là V-ing hoặc danh từ. Người học hay nói have a good chance to win; stand a good chance of winning tự nhiên hơn.",
+  "alt": [
+   "stand little chance of sth",
+   "have every chance of sth",
+   "be in with a chance"
+  ],
+  "ex": "Graduates with practical experience stand a good chance of finding work in the renewable energy sector.",
+  "exvi": "Sinh viên tốt nghiệp có kinh nghiệm thực tế có khả năng cao tìm được việc trong ngành năng lượng tái tạo.",
+  "em": ""
+ },
+ {
+  "w": "a stroke of luck",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "B2",
+  "vi": "một dịp may bất ngờ",
+  "use": "Hợp Speaking khi kể chuyện. Không nói: a hit of luck hay a piece of luck.",
+  "alt": [
+   "a stroke of good fortune",
+   "a lucky break",
+   "a stroke of bad luck"
+  ],
+  "ex": "By a stroke of luck, the storm changed direction just before it reached the coastal villages.",
+  "exvi": "Thật may mắn, cơn bão đổi hướng ngay trước khi tiến vào các làng ven biển.",
+  "em": "🍀"
+ },
+ {
+  "w": "combat climate change",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "chống biến đổi khí hậu",
+  "use": "Rất hợp Writing Task 2 chủ đề môi trường. Người học hay viết fight with climate change; combat, tackle hoặc fight climate change đều không cần with.",
+  "alt": [
+   "tackle climate change",
+   "fight climate change",
+   "address climate change"
+  ],
+  "ex": "Governments must work together and invest in clean technology if they genuinely want to combat climate change.",
+  "exvi": "Các chính phủ phải hợp tác và đầu tư vào công nghệ sạch nếu thực sự muốn chống biến đổi khí hậu.",
+  "em": "🌍"
+ },
+ {
+  "w": "natural habitat",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "môi trường sống tự nhiên",
+  "use": "Dùng tốt trong Writing về động vật hoang dã và sở thú. Không nói: natural living environment khi nói về loài vật.",
+  "alt": [
+   "native habitat",
+   "habitat loss",
+   "in the wild"
+  ],
+  "ex": "Many people argue that animals kept in zoos cannot behave as they would in their natural habitat.",
+  "exvi": "Nhiều người cho rằng động vật bị nuôi trong sở thú không thể cư xử như trong môi trường sống tự nhiên của chúng.",
+  "em": "🌳"
+ },
+ {
+  "w": "torrential rain",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "mưa như trút nước; mưa xối xả",
+  "use": "Hợp Speaking khi tả thời tiết và Writing khi nói về lũ lụt. Không nói: strong rain, phải là heavy rain hoặc torrential rain.",
+  "alt": [
+   "heavy rain",
+   "pouring rain",
+   "a downpour"
+  ],
+  "ex": "Days of torrential rain caused rivers to burst their banks across the central provinces of Vietnam.",
+  "exvi": "Nhiều ngày mưa xối xả khiến sông tràn bờ khắp các tỉnh miền Trung Việt Nam.",
+  "em": "🌧️"
+ },
+ {
+  "w": "flash flood",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "lũ quét",
+  "use": "Dùng được trong Writing và Speaking khi nói về thiên tai. Thường đi với hit, strike hoặc be swept away by.",
+  "alt": [
+   "flash flooding",
+   "a landslide",
+   "a flood warning"
+  ],
+  "ex": "A flash flood swept through the mountain village at night, giving residents almost no time to escape.",
+  "exvi": "Một trận lũ quét tràn qua ngôi làng miền núi vào ban đêm, khiến người dân gần như không kịp chạy thoát.",
+  "em": "🌊"
+ },
+ {
+  "w": "conservation efforts",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "các nỗ lực bảo tồn",
+  "use": "Hợp Writing học thuật, thường dùng số nhiều. Hay đi với step up, support hoặc thanks to.",
+  "alt": [
+   "conservation programmes",
+   "wildlife conservation",
+   "protection measures"
+  ],
+  "ex": "Thanks to local conservation efforts, the number of sea turtles nesting on the island has doubled.",
+  "exvi": "Nhờ các nỗ lực bảo tồn của địa phương, số rùa biển làm tổ trên đảo đã tăng gấp đôi.",
+  "em": "🐢"
+ },
+ {
+  "w": "in the wild",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "ngoài tự nhiên; trong môi trường hoang dã",
+  "use": "Dùng được cả Speaking lẫn Writing. Nhớ có the: in the wild, không nói in wild.",
+  "alt": [
+   "in captivity",
+   "in their natural habitat",
+   "in nature"
+  ],
+  "ex": "Fewer than four thousand tigers are thought to survive in the wild today.",
+  "exvi": "Người ta cho rằng ngày nay chỉ còn chưa tới bốn nghìn con hổ sống ngoài tự nhiên.",
+  "em": "🐅"
+ },
+ {
+  "w": "highly unlikely",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "rất khó xảy ra",
+  "use": "Hợp Writing để nói giảm nhẹ một khả năng. Người học hay viết very unlikely; highly unlikely nghe học thuật hơn. Thường dùng it is highly unlikely that.",
+  "alt": [
+   "extremely unlikely",
+   "highly likely",
+   "a remote possibility"
+  ],
+  "ex": "It is highly unlikely that global temperatures will stop rising unless emissions fall sharply.",
+  "exvi": "Rất khó có chuyện nhiệt độ toàn cầu ngừng tăng nếu lượng khí thải không giảm mạnh.",
+  "em": ""
+ },
+ {
+  "w": "vulnerable to sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "B2",
+  "vi": "dễ bị tổn thương bởi; dễ bị ảnh hưởng bởi",
+  "use": "Rất hay dùng trong Writing về thiên tai và xã hội. Không nói: vulnerable with, phải dùng to.",
+  "alt": [
+   "susceptible to sth",
+   "prone to sth",
+   "exposed to sth"
+  ],
+  "ex": "Low-lying coastal cities are particularly vulnerable to storms and rising sea levels.",
+  "exvi": "Các thành phố ven biển nằm ở vùng trũng đặc biệt dễ bị ảnh hưởng bởi bão và mực nước biển dâng.",
+  "em": ""
+ },
+ {
+  "w": "take a calculated risk",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "chấp nhận một rủi ro đã cân nhắc kỹ",
+  "use": "Hợp cả Speaking và Writing khi nói về kinh doanh, sự nghiệp. Không nói: make a risk, động từ đi với risk là take.",
+  "alt": [
+   "take a gamble",
+   "take a risk",
+   "a high-risk strategy"
+  ],
+  "ex": "She took a calculated risk by leaving a stable job to launch her own green energy start-up.",
+  "exvi": "Cô ấy đã chấp nhận một rủi ro có cân nhắc khi rời bỏ công việc ổn định để mở công ty khởi nghiệp năng lượng xanh.",
+  "em": "🎲"
+ },
+ {
+  "w": "beat the odds",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "vượt qua mọi khả năng thất bại; thành công dù cơ hội rất thấp",
+  "use": "Hợp Speaking khi kể chuyện thành công. Odds luôn ở số nhiều, không nói beat the odd.",
+  "alt": [
+   "defy the odds",
+   "against all odds",
+   "the odds are stacked against sb"
+  ],
+  "ex": "The small community beat the odds and rebuilt its school within a year of the earthquake.",
+  "exvi": "Cộng đồng nhỏ ấy đã vượt qua mọi khó khăn và xây lại ngôi trường chỉ trong một năm sau trận động đất.",
+  "em": ""
+ },
+ {
+  "w": "a remote possibility",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "khả năng rất nhỏ",
+  "use": "Hợp Writing học thuật để nói một việc ít có khả năng xảy ra. Không nói: a far possibility.",
+  "alt": [
+   "a distinct possibility",
+   "a slim chance",
+   "highly unlikely"
+  ],
+  "ex": "A major volcanic eruption in the region is a remote possibility, but planners still prepare for it.",
+  "exvi": "Một vụ phun trào núi lửa lớn trong khu vực là khả năng rất nhỏ, nhưng các nhà quy hoạch vẫn chuẩn bị cho nó.",
+  "em": ""
+ },
+ {
+  "w": "mitigate the impact of sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "giảm nhẹ tác động của",
+  "use": "Rất hợp Writing Task 2 phần giải pháp. Mitigate là ngoại động từ, không nói mitigate against the impact trong văn học thuật.",
+  "alt": [
+   "reduce the impact of sth",
+   "lessen the effects of sth",
+   "alleviate sth"
+  ],
+  "ex": "Planting mangroves along the coast can mitigate the impact of storm surges on nearby villages.",
+  "exvi": "Trồng rừng ngập mặn dọc bờ biển có thể giảm nhẹ tác động của nước dâng do bão lên các làng gần đó.",
+  "em": ""
+ },
+ {
+  "w": "curb emissions",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "hạn chế lượng khí thải",
+  "use": "Hợp Writing học thuật và báo chí. Người học hay viết decrease emissions; curb hoặc cut emissions tự nhiên hơn.",
+  "alt": [
+   "cut emissions",
+   "reduce emissions",
+   "slash emissions"
+  ],
+  "ex": "Many cities have introduced congestion charges in an attempt to curb emissions from private cars.",
+  "exvi": "Nhiều thành phố đã áp dụng phí ùn tắc nhằm hạn chế khí thải từ xe ô tô cá nhân.",
+  "em": "🏭"
+ },
+ {
+  "w": "wreak havoc on sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tàn phá nặng nề; gây hỗn loạn cho",
+  "use": "Hợp Writing và Speaking khi nói về thiên tai, sâu bệnh. Quá khứ là wreaked, không phải wrought trong cách dùng phổ biến hiện nay.",
+  "alt": [
+   "cause havoc",
+   "play havoc with sth",
+   "cause widespread damage"
+  ],
+  "ex": "The typhoon wreaked havoc on rice crops, leaving thousands of farmers without an income.",
+  "exvi": "Cơn bão đã tàn phá nặng nề các cánh đồng lúa, khiến hàng nghìn nông dân mất nguồn thu nhập.",
+  "em": "🌪️"
+ },
+ {
+  "w": "dwindling populations",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "số lượng cá thể ngày càng giảm",
+  "use": "Hợp Writing về động vật hoang dã. Dwindling chỉ sự giảm dần, mạnh hơn decreasing một chút và nghe học thuật hơn.",
+  "alt": [
+   "declining numbers",
+   "shrinking populations",
+   "dwindling resources"
+  ],
+  "ex": "Scientists are worried about the dwindling populations of bees, which are vital for pollinating crops.",
+  "exvi": "Các nhà khoa học lo ngại về số lượng ong ngày càng giảm, loài rất quan trọng cho việc thụ phấn cây trồng.",
+  "em": "🐝"
+ },
+ {
+  "w": "prolonged drought",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "hạn hán kéo dài",
+  "use": "Hợp Writing về khí hậu và nông nghiệp. Không nói: long drought trong văn học thuật, dùng prolonged hoặc severe.",
+  "alt": [
+   "severe drought",
+   "a long dry spell",
+   "water shortages"
+  ],
+  "ex": "A prolonged drought in the Mekong Delta has pushed salt water further inland, damaging farmland.",
+  "exvi": "Đợt hạn hán kéo dài ở đồng bằng sông Cửu Long đã đẩy nước mặn vào sâu trong đất liền, gây hại cho đất nông nghiệp.",
+  "em": "☀️"
+ },
+ {
+  "w": "bear the brunt of sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "hứng chịu nặng nề nhất",
+  "use": "Hợp Writing khi nói nhóm nào chịu thiệt nhiều nhất. Không nói: carry the brunt; động từ cố định là bear.",
+  "alt": [
+   "take the brunt of sth",
+   "be hardest hit",
+   "suffer the most"
+  ],
+  "ex": "Poorer countries often bear the brunt of climate change despite producing the least pollution.",
+  "exvi": "Các nước nghèo thường hứng chịu nặng nề nhất hậu quả của biến đổi khí hậu dù gây ô nhiễm ít nhất.",
+  "em": ""
+ },
+ {
+  "w": "irreversible damage",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "thiệt hại không thể khắc phục",
+  "use": "Hợp Writing về môi trường và sức khỏe. Hay đi với cause hoặc do irreversible damage to sth.",
+  "alt": [
+   "permanent damage",
+   "lasting damage",
+   "long-term harm"
+  ],
+  "ex": "Experts warn that overfishing could cause irreversible damage to coral reefs within a few decades.",
+  "exvi": "Các chuyên gia cảnh báo việc đánh bắt quá mức có thể gây thiệt hại không thể khắc phục cho rạn san hô trong vài thập kỷ.",
+  "em": ""
+ },
+ {
+  "w": "reach a tipping point",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "chạm tới ngưỡng không thể quay lại",
+  "use": "Hợp Writing về khí hậu và xã hội, chỉ thời điểm thay đổi lớn không đảo ngược được. Có thể nói reach hoặc pass a tipping point.",
+  "alt": [
+   "pass the point of no return",
+   "a turning point",
+   "cross a threshold"
+  ],
+  "ex": "Some scientists fear the Amazon rainforest could reach a tipping point and gradually turn into grassland.",
+  "exvi": "Một số nhà khoa học lo rằng rừng mưa Amazon có thể chạm ngưỡng không thể quay lại và dần biến thành đồng cỏ.",
+  "em": ""
+ },
+ {
+  "w": "biodiversity loss",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "suy giảm đa dạng sinh học",
+  "use": "Hợp Writing học thuật. Biodiversity là danh từ không đếm được, không nói biodiversities.",
+  "alt": [
+   "species loss",
+   "habitat destruction",
+   "loss of biodiversity"
+  ],
+  "ex": "Intensive farming and urban expansion are two of the main drivers of biodiversity loss worldwide.",
+  "exvi": "Canh tác thâm canh và mở rộng đô thị là hai nguyên nhân chính gây suy giảm đa dạng sinh học trên thế giới.",
+  "em": ""
+ },
+ {
+  "w": "prone to flooding",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C1",
+  "vi": "dễ bị ngập lụt",
+  "use": "Hợp Writing và Speaking khi nói về nơi ở, quy hoạch. Prone to đi với danh từ hoặc V-ing, không nói prone to flood (động từ).",
+  "alt": [
+   "flood-prone",
+   "vulnerable to flooding",
+   "at risk of flooding"
+  ],
+  "ex": "Parts of Ho Chi Minh City are prone to flooding whenever heavy rain coincides with high tide.",
+  "exvi": "Một số khu vực ở TP. Hồ Chí Minh dễ bị ngập mỗi khi mưa lớn trùng với triều cường.",
+  "em": "🌊"
+ },
+ {
+  "w": "fragile ecosystem",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "hệ sinh thái mong manh",
+  "use": "Hợp Writing về du lịch và môi trường. Fragile ở đây nghĩa là dễ bị phá vỡ, không dùng weak ecosystem.",
+  "alt": [
+   "delicate ecosystem",
+   "ecological balance",
+   "vulnerable habitat"
+  ],
+  "ex": "Mass tourism can put enormous pressure on the fragile ecosystem of small islands.",
+  "exvi": "Du lịch đại trà có thể gây áp lực rất lớn lên hệ sinh thái mong manh của các hòn đảo nhỏ.",
+  "em": "🏝️"
+ },
+ {
+  "w": "erratic weather patterns",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "thời tiết thất thường",
+  "use": "Hợp Writing về khí hậu và nông nghiệp. Người học hay viết abnormal weather; erratic hoặc unpredictable tự nhiên hơn.",
+  "alt": [
+   "unpredictable weather",
+   "changing weather patterns",
+   "freak weather"
+  ],
+  "ex": "Erratic weather patterns make it increasingly difficult for farmers to decide when to plant their crops.",
+  "exvi": "Thời tiết thất thường khiến nông dân ngày càng khó quyết định khi nào nên gieo trồng.",
+  "em": "🌦️"
+ },
+ {
+  "w": "a margin of error",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "biên độ sai số",
+  "use": "Hợp Writing khi bàn về số liệu, khảo sát, dự báo. Thường đi với a small/wide margin of error hoặc leave no margin for error.",
+  "alt": [
+   "room for error",
+   "a degree of uncertainty",
+   "an error margin"
+  ],
+  "ex": "Weather forecasts for more than a week ahead come with a large margin of error.",
+  "exvi": "Dự báo thời tiết cho hơn một tuần tới thường có biên độ sai số lớn.",
+  "em": ""
+ },
+ {
+  "w": "harness solar power",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "khai thác năng lượng mặt trời",
+  "use": "Hợp Writing về năng lượng. Harness nghĩa là tận dụng một nguồn tự nhiên, thay được cho use.",
+  "alt": [
+   "harness wind power",
+   "generate solar energy",
+   "tap into renewable energy"
+  ],
+  "ex": "Countries near the equator are well placed to harness solar power on a large scale.",
+  "exvi": "Các nước gần xích đạo có lợi thế lớn để khai thác năng lượng mặt trời trên quy mô lớn.",
+  "em": "🔆"
+ },
+ {
+  "w": "coastal erosion",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "xói lở bờ biển",
+  "use": "Hợp Writing về khí hậu và quy hoạch ven biển. Hay đi với accelerate, prevent hoặc be threatened by.",
+  "alt": [
+   "soil erosion",
+   "riverbank erosion",
+   "rising sea levels"
+  ],
+  "ex": "Coastal erosion has already forced some families in central Vietnam to move their homes further inland.",
+  "exvi": "Xói lở bờ biển đã buộc một số gia đình ở miền Trung phải dời nhà sâu vào đất liền.",
+  "em": ""
+ },
+ {
+  "w": "ecologically sound",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "bền vững về mặt sinh thái; không hại môi trường",
+  "use": "Hợp Writing học thuật khi đánh giá giải pháp, chính sách. Trang trọng hơn environmentally friendly.",
+  "alt": [
+   "environmentally sustainable",
+   "environmentally friendly",
+   "ecologically damaging"
+  ],
+  "ex": "Local governments should support farming methods that are both profitable and ecologically sound.",
+  "exvi": "Chính quyền địa phương nên hỗ trợ các phương pháp canh tác vừa có lãi vừa bền vững về mặt sinh thái.",
+  "em": ""
+ },
+ {
+  "w": "the law of averages",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C2",
+  "vi": "quy luật xác suất (cứ thử nhiều thì sẽ có lúc trúng)",
+  "use": "Hợp Speaking, nghe tự nhiên khi nói về may rủi. Hiểu đúng: đây là cách nói đời thường, không phải định luật toán học chính xác.",
+  "alt": [
+   "the odds are",
+   "in all probability",
+   "sooner or later"
+  ],
+  "ex": "If you apply for enough jobs, the law of averages says that one of them will eventually say yes.",
+  "exvi": "Nếu bạn nộp đủ nhiều đơn, theo quy luật xác suất thì sớm muộn cũng có nơi nhận.",
+  "em": ""
+ },
+ {
+  "w": "an act of God",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C2",
+  "vi": "thiên tai bất khả kháng",
+  "use": "Hay gặp trong hợp đồng và bảo hiểm. Dùng trong Writing khi bàn về trách nhiệm trước thiên tai; luôn viết hoa God.",
+  "alt": [
+   "force majeure",
+   "a natural disaster",
+   "beyond anyone's control"
+  ],
+  "ex": "Some insurance policies refuse to pay for damage caused by floods, calling them an act of God.",
+  "exvi": "Một số hợp đồng bảo hiểm từ chối chi trả thiệt hại do lũ lụt vì coi đó là thiên tai bất khả kháng.",
+  "em": ""
+ },
+ {
+  "w": "pristine wilderness",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "vùng hoang dã còn nguyên sơ",
+  "use": "Hợp Writing và Speaking về du lịch và bảo tồn. Pristine nghĩa là chưa bị con người tác động.",
+  "alt": [
+   "untouched wilderness",
+   "unspoilt countryside",
+   "pristine beaches"
+  ],
+  "ex": "Antarctica remains one of the last areas of pristine wilderness left on the planet.",
+  "exvi": "Nam Cực vẫn là một trong những vùng hoang dã nguyên sơ cuối cùng còn lại trên hành tinh.",
+  "em": "🏔️"
+ },
+ {
+  "w": "seismic activity",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "hoạt động địa chấn",
+  "use": "Hợp Writing học thuật về thiên tai và quy hoạch. Seismic là từ chuyên ngành, không dùng earthquake activity.",
+  "alt": [
+   "volcanic activity",
+   "tremors",
+   "an earthquake zone"
+  ],
+  "ex": "Buildings in Japan are designed to withstand the high levels of seismic activity in the region.",
+  "exvi": "Các tòa nhà ở Nhật Bản được thiết kế để chịu được mức độ hoạt động địa chấn cao trong khu vực.",
+  "em": ""
+ },
+ {
+  "w": "endemic species",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "loài đặc hữu",
+  "use": "Hợp Writing học thuật về sinh học và bảo tồn. Endemic species là loài chỉ có ở một vùng, khác với native species là loài bản địa nói chung.",
+  "alt": [
+   "native species",
+   "invasive species",
+   "indigenous plants"
+  ],
+  "ex": "Madagascar is home to hundreds of endemic species that cannot be found anywhere else on Earth.",
+  "exvi": "Madagascar là nơi sinh sống của hàng trăm loài đặc hữu không thể tìm thấy ở bất kỳ nơi nào khác trên Trái Đất.",
+  "em": ""
+ },
+ {
+  "w": "carbon sink",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C2",
+  "vi": "bể hấp thụ carbon (rừng, đại dương hút CO2)",
+  "use": "Hợp Writing học thuật về khí hậu. Thường nói act as a carbon sink.",
+  "alt": [
+   "carbon capture",
+   "carbon storage",
+   "absorb carbon dioxide"
+  ],
+  "ex": "Healthy oceans and forests act as a carbon sink, absorbing a large share of human emissions.",
+  "exvi": "Đại dương và rừng khỏe mạnh đóng vai trò bể hấp thụ carbon, hút một phần lớn khí thải do con người tạo ra.",
+  "em": "🌲"
+ },
+ {
+  "w": "every cloud has a silver lining",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "trong cái rủi có cái may",
+  "use": "Hợp IELTS Speaking khi kể chuyện xui mà hóa may. Không nên dùng trong Writing Task 2. Có thể nói gọn a silver lining.",
+  "alt": [
+   "a silver lining",
+   "look on the bright side",
+   "a stroke of luck"
+  ],
+  "ex": "The flight was cancelled, but every cloud has a silver lining: I got an extra day to explore the city.",
+  "exvi": "Chuyến bay bị hủy, nhưng trong cái rủi có cái may: tôi có thêm một ngày khám phá thành phố.",
+  "em": "🌥️"
+ },
+ {
+  "w": "the calm before the storm",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "sự yên ắng trước giông bão",
+  "use": "Hợp IELTS Speaking khi nói về giai đoạn yên bình trước một thời điểm bận rộn hay khó khăn. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "a lull",
+   "the eye of the storm",
+   "all hell breaks loose"
+  ],
+  "ex": "The quiet week before final exams always feels like the calm before the storm for students.",
+  "exvi": "Tuần yên ắng trước kỳ thi cuối kỳ luôn giống như sự yên lặng trước giông bão đối với sinh viên.",
+  "em": ""
+ },
+ {
+  "w": "push your luck",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "được đằng chân lân đằng đầu; liều quá trớn",
+  "use": "Hợp IELTS Speaking, giọng thân mật. Không dùng trong Writing Task 2. Hay gặp ở dạng don't push your luck.",
+  "alt": [
+   "tempt fate",
+   "play with fire",
+   "quit while you're ahead"
+  ],
+  "ex": "I got a discount on my first order, but asking for free delivery as well would be pushing my luck.",
+  "exvi": "Tôi đã được giảm giá đơn đầu tiên, giờ còn đòi miễn phí giao hàng thì đúng là được đằng chân lân đằng đầu.",
+  "em": ""
+ },
+ {
+  "w": "play with fire",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "đùa với lửa; làm việc liều lĩnh nguy hiểm",
+  "use": "Hợp IELTS Speaking. Không dùng trong Writing Task 2. Thường ở dạng tiếp diễn: you're playing with fire.",
+  "alt": [
+   "skate on thin ice",
+   "take a gamble",
+   "tempt fate"
+  ],
+  "ex": "Investing all your savings in one cryptocurrency is playing with fire, in my opinion.",
+  "exvi": "Theo tôi, dồn toàn bộ tiền tiết kiệm vào một đồng tiền mã hóa là đang đùa với lửa.",
+  "em": "🔥"
+ },
+ {
+  "w": "a drop in the ocean",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "muối bỏ biển; chẳng thấm vào đâu",
+  "use": "Hợp IELTS Speaking khi bàn về môi trường, tiền bạc. Không nên dùng trong Writing Task 2, thay bằng negligible.",
+  "alt": [
+   "a drop in the bucket",
+   "negligible",
+   "the tip of the iceberg"
+  ],
+  "ex": "Recycling a few bottles at home is a drop in the ocean compared with industrial pollution.",
+  "exvi": "Tái chế vài cái chai ở nhà chỉ như muối bỏ biển so với ô nhiễm công nghiệp.",
+  "em": "💧"
+ },
+ {
+  "w": "the luck of the draw",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "hoàn toàn do may rủi",
+  "use": "Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay nói it's (just) the luck of the draw.",
+  "alt": [
+   "pure chance",
+   "a matter of luck",
+   "as luck would have it"
+  ],
+  "ex": "Which teacher you get in your first year is just the luck of the draw.",
+  "exvi": "Năm đầu bạn được học thầy cô nào hoàn toàn do may rủi.",
+  "em": "🎲"
+ },
+ {
+  "w": "tempt fate",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thách thức số phận; nói trước bước không qua",
+  "use": "Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay gặp: I don't want to tempt fate, but...",
+  "alt": [
+   "push your luck",
+   "touch wood",
+   "speak too soon"
+  ],
+  "ex": "Building houses right next to an active volcano is really tempting fate.",
+  "exvi": "Xây nhà ngay sát một ngọn núi lửa đang hoạt động đúng là thách thức số phận.",
+  "em": ""
+ },
+ {
+  "w": "err on the side of caution",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thà cẩn thận quá còn hơn",
+  "use": "Khá trung tính nên dùng được trong Speaking và cả Writing khi cần, nhưng đừng cố nhét. Không nói err on the caution side.",
+  "alt": [
+   "better safe than sorry",
+   "play it safe",
+   "throw caution to the wind"
+  ],
+  "ex": "When a typhoon is forecast, authorities usually err on the side of caution and close schools.",
+  "exvi": "Khi có dự báo bão, chính quyền thường chọn thận trọng và cho học sinh nghỉ học.",
+  "em": ""
+ },
+ {
+  "w": "weather the storm",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "vượt qua giai đoạn khó khăn",
+  "use": "Hợp IELTS Speaking, cũng gặp trong báo chí kinh tế. Không nên dùng trong Writing Task 2. Weather ở đây là động từ.",
+  "alt": [
+   "ride out the storm",
+   "get through a crisis",
+   "keep your head above water"
+  ],
+  "ex": "Small businesses with some savings were better able to weather the storm during the pandemic.",
+  "exvi": "Các doanh nghiệp nhỏ có chút tiền dự phòng đã vượt qua giai đoạn khó khăn của đại dịch tốt hơn.",
+  "em": "⛈️"
+ },
+ {
+  "w": "a perfect storm",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "nhiều yếu tố xấu cùng lúc dẫn tới khủng hoảng",
+  "use": "Hợp IELTS Speaking và báo chí. Không nên dùng trong Writing Task 2. Không có nghĩa là cơn bão hoàn hảo theo nghĩa tích cực.",
+  "alt": [
+   "a recipe for disaster",
+   "a vicious circle",
+   "a double whammy"
+  ],
+  "ex": "Drought, high fuel prices and a weak currency created a perfect storm for local farmers.",
+  "exvi": "Hạn hán, giá nhiên liệu cao và đồng tiền yếu đã cùng lúc đẩy nông dân địa phương vào khủng hoảng.",
+  "em": ""
+ },
+ {
+  "w": "a recipe for disaster",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "chắc chắn dẫn tới thảm họa",
+  "use": "Hợp IELTS Speaking. Không nên dùng trong Writing Task 2. Hay gặp: X is a recipe for disaster.",
+  "alt": [
+   "a perfect storm",
+   "asking for trouble",
+   "a recipe for success"
+  ],
+  "ex": "Building new housing estates on flood plains without proper drainage is a recipe for disaster.",
+  "exvi": "Xây khu dân cư mới trên vùng ngập lũ mà không có hệ thống thoát nước tốt chắc chắn dẫn tới thảm họa.",
+  "em": ""
+ },
+ {
+  "w": "hedge your bets",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "phòng ngừa rủi ro bằng cách không dồn hết vào một lựa chọn",
+  "use": "Hợp IELTS Speaking khi nói về học tập, đầu tư, nghề nghiệp. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "don't put all your eggs in one basket",
+   "spread the risk",
+   "play it safe"
+  ],
+  "ex": "I hedged my bets by applying to universities in three different countries.",
+  "exvi": "Tôi phòng rủi ro bằng cách nộp đơn vào các trường đại học ở ba nước khác nhau.",
+  "em": ""
+ },
+ {
+  "w": "throw caution to the wind",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bất chấp rủi ro; liều một phen",
+  "use": "Hợp IELTS Speaking khi kể chuyện. Không dùng trong Writing Task 2. Có thể nói wind hoặc winds.",
+  "alt": [
+   "take the plunge",
+   "play with fire",
+   "err on the side of caution"
+  ],
+  "ex": "After years of saving carefully, she threw caution to the wind and travelled around the world.",
+  "exvi": "Sau nhiều năm tiết kiệm cẩn thận, cô ấy bất chấp tất cả mà đi du lịch vòng quanh thế giới.",
+  "em": "🌬️"
+ },
+ {
+  "w": "in the lap of the gods",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "phó mặc cho số phận; hết cách kiểm soát",
+  "use": "Hợp IELTS Speaking, mang sắc thái Anh Anh. Không dùng trong Writing Task 2.",
+  "alt": [
+   "out of our hands",
+   "the luck of the draw",
+   "beyond our control"
+  ],
+  "ex": "I have prepared as well as I can for the exam, so now it is in the lap of the gods.",
+  "exvi": "Tôi đã ôn thi hết sức rồi, giờ thì phó mặc cho số phận.",
+  "em": ""
+ },
+ {
+  "w": "a bolt from the blue",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "tin sét đánh; chuyện bất ngờ hoàn toàn",
+  "use": "Hợp IELTS Speaking khi kể chuyện bất ngờ. Không dùng trong Writing Task 2.",
+  "alt": [
+   "out of the blue",
+   "a bombshell",
+   "come as a complete surprise"
+  ],
+  "ex": "The news that the factory would close came as a bolt from the blue for the whole town.",
+  "exvi": "Tin nhà máy đóng cửa đến như sét đánh ngang tai đối với cả thị trấn.",
+  "em": "⚡"
+ },
+ {
+  "w": "lightning never strikes twice",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "chuyện hiếm hoi khó xảy ra hai lần",
+  "use": "Hợp IELTS Speaking. Không dùng trong Writing Task 2. Hay dùng để trấn an, đôi khi dùng ngược để nói rằng thực ra nó vẫn xảy ra.",
+  "alt": [
+   "a one-off",
+   "once in a lifetime",
+   "the law of averages"
+  ],
+  "ex": "People say lightning never strikes twice, yet the same region was hit by two floods in one year.",
+  "exvi": "Người ta bảo chuyện hiếm không xảy ra hai lần, vậy mà cùng một vùng bị hai trận lũ trong một năm.",
+  "em": "⚡"
+ },
+ {
+  "w": "wipe out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "xóa sổ; tiêu diệt hoàn toàn",
+  "use": "Dùng được trong Speaking và Writing về loài vật, dịch bệnh, thiên tai. Có thể nói wipe the species out hoặc wipe out the species.",
+  "alt": [
+   "die out",
+   "eradicate sth",
+   "be wiped off the map"
+  ],
+  "ex": "An unknown fungus has wiped out entire populations of frogs in Central America.",
+  "exvi": "Một loại nấm chưa rõ đã xóa sổ toàn bộ quần thể ếch ở Trung Mỹ.",
+  "em": ""
+ },
+ {
+  "w": "dry up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "cạn khô; cạn kiệt",
+  "use": "Dùng cho sông, hồ, giếng và cả nguồn tiền, nguồn việc. Không có tân ngữ: the river dried up.",
+  "alt": [
+   "run dry",
+   "run out",
+   "dwindle"
+  ],
+  "ex": "During the hottest months, many of the wells in the village dry up completely.",
+  "exvi": "Vào những tháng nóng nhất, nhiều giếng trong làng cạn khô hoàn toàn.",
+  "em": "🏜️"
+ },
+ {
+  "w": "clear up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "tạnh; trời quang trở lại",
+  "use": "Hợp Speaking khi nói về thời tiết. Nghĩa thời tiết không có tân ngữ: the weather cleared up.",
+  "alt": [
+   "brighten up",
+   "let up",
+   "cloud over"
+  ],
+  "ex": "The morning was grey and wet, but it cleared up in time for our afternoon hike.",
+  "exvi": "Buổi sáng âm u và ẩm ướt, nhưng trời đã quang kịp cho chuyến leo núi buổi chiều.",
+  "em": "🌤️"
+ },
+ {
+  "w": "break out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bùng phát (cháy, dịch bệnh, chiến tranh)",
+  "use": "Dùng được trong Writing và Speaking. Không có tân ngữ và không dùng bị động: a fire broke out, không nói a fire was broken out.",
+  "alt": [
+   "erupt",
+   "spread",
+   "flare up"
+  ],
+  "ex": "Wildfires break out more often now because summers in the region have become hotter and drier.",
+  "exvi": "Cháy rừng bùng phát thường xuyên hơn vì mùa hè trong vùng đã nóng và khô hơn.",
+  "em": "🔥"
+ },
+ {
+  "w": "pay off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "mang lại kết quả tốt; đáng công",
+  "use": "Hợp Speaking khi nói một quyết định mạo hiểm đã thành công. Nghĩa này không có tân ngữ: the risk paid off.",
+  "alt": [
+   "bear fruit",
+   "backfire",
+   "be worth it"
+  ],
+  "ex": "The farmer's gamble on drought-resistant rice paid off when the rains failed that year.",
+  "exvi": "Canh bạc của người nông dân với giống lúa chịu hạn đã thành công khi năm đó trời không mưa.",
+  "em": ""
+ },
+ {
+  "w": "ward off sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "xua đuổi; phòng tránh",
+  "use": "Hợp Writing và Speaking khi nói về bệnh tật, kẻ thù, nguy hiểm. Có thể nói ward them off.",
+  "alt": [
+   "fend off sth",
+   "stave off sth",
+   "keep sth at bay"
+  ],
+  "ex": "Some farmers grow certain flowers between their crops to ward off harmful insects naturally.",
+  "exvi": "Một số nông dân trồng vài loại hoa xen giữa cây trồng để xua đuổi côn trùng có hại một cách tự nhiên.",
+  "em": ""
+ },
+ {
+  "w": "hold off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "(mưa) chưa đến; trì hoãn",
+  "use": "Hợp Speaking khi nói về thời tiết: the rain held off. Nghĩa trì hoãn thì đi với V-ing: hold off buying.",
+  "alt": [
+   "let up",
+   "put off sth",
+   "clear up"
+  ],
+  "ex": "The organisers are hoping the rain will hold off until the outdoor graduation ceremony is over.",
+  "exvi": "Ban tổ chức đang mong mưa sẽ chưa đến cho tới khi lễ tốt nghiệp ngoài trời kết thúc.",
+  "em": "☂️"
+ },
+ {
+  "w": "let up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "ngớt; giảm bớt",
+  "use": "Hợp Speaking khi nói mưa, bão hoặc áp lực giảm đi. Không có tân ngữ, thường dùng phủ định: the rain didn't let up.",
+  "alt": [
+   "ease off",
+   "die down",
+   "clear up"
+  ],
+  "ex": "The rain did not let up for three days, and several roads into the city were closed.",
+  "exvi": "Mưa không ngớt suốt ba ngày, và nhiều con đường vào thành phố bị đóng.",
+  "em": "🌧️"
+ },
+ {
+  "w": "sweep away sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "cuốn trôi",
+  "use": "Dùng được trong Writing và Speaking khi tả lũ lụt, sóng thần. Thường dùng bị động: be swept away.",
+  "alt": [
+   "wash away sth",
+   "carry away sth",
+   "destroy sth"
+  ],
+  "ex": "The tsunami swept away bridges, cars and homes within minutes of reaching the shore.",
+  "exvi": "Sóng thần đã cuốn trôi cầu, xe cộ và nhà cửa chỉ trong vài phút sau khi đổ bộ vào bờ.",
+  "em": "🌊"
+ },
+ {
+  "w": "blow over",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "(bão) qua đi; (chuyện) lắng xuống",
+  "use": "Hợp Speaking, dùng cho cả bão lẫn tranh cãi, scandal. Không có tân ngữ.",
+  "alt": [
+   "die down",
+   "pass",
+   "let up"
+  ],
+  "ex": "We stayed indoors and waited for the storm to blow over before driving home.",
+  "exvi": "Chúng tôi ở trong nhà chờ cơn bão qua rồi mới lái xe về.",
+  "em": ""
+ },
+ {
+  "w": "eat away at sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bào mòn dần; gặm nhấm dần",
+  "use": "Hợp Writing miêu tả xói mòn, và nghĩa bóng như lo âu bào mòn ai. Luôn có at trước tân ngữ.",
+  "alt": [
+   "erode sth",
+   "wear away sth",
+   "undermine sth"
+  ],
+  "ex": "Rising waves are slowly eating away at the cliffs, putting nearby houses at risk.",
+  "exvi": "Những con sóng ngày càng cao đang dần bào mòn vách đá, khiến những ngôi nhà gần đó gặp nguy hiểm.",
+  "em": ""
+ },
+ {
+  "w": "stave off sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "ngăn chặn tạm thời; đẩy lùi",
+  "use": "Hợp Writing học thuật khi nói ngăn khủng hoảng, nạn đói, tuyệt chủng. Thường chỉ trì hoãn được chứ chưa giải quyết tận gốc.",
+  "alt": [
+   "ward off sth",
+   "fend off sth",
+   "head off sth"
+  ],
+  "ex": "Breeding programmes in zoos may help stave off the extinction of some rare species.",
+  "exvi": "Các chương trình nhân giống trong sở thú có thể giúp đẩy lùi nguy cơ tuyệt chủng của một số loài quý hiếm.",
+  "em": ""
+ },
+ {
+  "w": "chance upon sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "tình cờ bắt gặp",
+  "use": "Văn phong khá trang trọng, hợp khi kể chuyện trong Speaking. Cũng nói chance on sth.",
+  "alt": [
+   "come across sth",
+   "stumble upon sth",
+   "happen upon sth"
+  ],
+  "ex": "While hiking in the national park, we chanced upon a family of rare monkeys feeding in the trees.",
+  "exvi": "Khi đi bộ trong vườn quốc gia, chúng tôi tình cờ bắt gặp một đàn khỉ quý hiếm đang kiếm ăn trên cây.",
+  "em": "🐒"
+ },
+ {
+  "w": "peter out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "yếu dần rồi tắt hẳn",
+  "use": "Dùng cho bão, mưa, con đường, sự quan tâm. Không có tân ngữ. Người học hay nhầm với run out.",
+  "alt": [
+   "fizzle out",
+   "die down",
+   "tail off"
+  ],
+  "ex": "The storm gradually petered out as it moved inland, causing less damage than expected.",
+  "exvi": "Cơn bão yếu dần rồi tan khi đi sâu vào đất liền, gây ít thiệt hại hơn dự kiến.",
+  "em": ""
+ }
 ]
