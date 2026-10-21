@@ -112,7 +112,8 @@ function TS_applyMarks(root,results,{onPara}={}){
 /* wrong answers -> mistakes notebook, right ones -> __mistOk */
 function TS_log(results){
   results.forEach(r=>{
-    if(r.dup)return;const it=r.it,k=r.kind;let x;
+    if(r.dup)return;if(!(r.sec.p&&r.sec.p.lines))return; /* Reading is reviewed inside the passage, not in the mistakes notebook */
+    const it=r.it,k=r.kind;let x;
     if(k==='mcq')x={q:it.q,o:it.o,a:it.a};
     else if(TS_TF[k])x={q:it.q,o:TS_TF[k],a:TS_TF[k].indexOf(it.a)};
     else if(k==='multi')x={q:it.q+' (chọn 2: '+it.o.map((o,i)=>TS_LET[i]+'. '+o).join('; ')+')',a:it.a.map(i=>it.o[i]).join(' and ')};

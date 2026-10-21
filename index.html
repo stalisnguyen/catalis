@@ -2740,7 +2740,8 @@ VIEWS.placement=async el=>{
 /* ---------- mistakes notebook ----------
    window.__mistake('word', key) or window.__mistake('q', item) where item is a quiz item {q, o?, a, w}
    window.__mistOk(item) after a correct answer: 2 correct in a row removes it */
-function plMistList(){P.mist=P.mist||{};return Object.entries(P.mist).filter(([k,v])=>!v.ok||v.ok<2);}
+const mkIsRd=v=>v&&v.t==='q'&&v.x&&(v.x.ctx?v.x.ctx.t==='rd':/^(Academic|GT) Test \d+ (Passage|Section) \d+$/.test(v.x.src||''));
+function plMistList(){P.mist=P.mist||{};let rm=0;Object.keys(P.mist).forEach(k=>{if(mkIsRd(P.mist[k])){delete P.mist[k];rm++;}});if(rm)touch('main');return Object.entries(P.mist).filter(([k,v])=>!v.ok||v.ok<2);}
 const mkKey=(type,x)=>type==='word'?'w:'+x:'q:'+String(x.q||x.s||'').slice(0,80)+'|'+(Array.isArray(x.o)?x.o.join('/'):x.a);
 window.__mistake=(type,x)=>{
   P.mist=P.mist||{}; const key=mkKey(type,x);
@@ -2755,7 +2756,7 @@ VIEWS.mistakes=el=>{
   const list=plMistList().sort((a,b)=>b[1].n-a[1].n);
   const words=list.filter(([k,v])=>v.t==='word'), qs=list.filter(([k,v])=>v.t==='q');
   el.innerHTML=`<div class="view"><div class="spread"><h2>Sổ lỗi sai</h2><span class="note">${list.length} mục</span></div>
-   <p class="note">App tự ghi lại từ bạn bấm "Quên", câu sai ở Listening, Reading, ngữ pháp và trò chơi. Mỗi mục trả lời đúng 2 lần liên tiếp thì tự rời sổ.</p>
+   <p class="note">App tự ghi lại từ bạn bấm "Quên", câu sai ở Listening, ngữ pháp, phát âm và trò chơi. Câu Reading không vào sổ vì cần đọc cả bài mới làm lại được, xem lại ngay trong bài sau khi nộp. Mỗi mục trả lời đúng 2 lần liên tiếp thì tự rời sổ.</p>
    ${list.length?`<div class="row"><button class="btn primary" id="mkGo">Ôn 15 mục sai nhiều nhất</button></div>`:mcSay('ok','Chưa có lỗi nào. Câu nào bạn trả lời sai sẽ được lưu ở đây để ôn lại.',72)}
    ${words.length?`<div class="panel"><h3>Từ hay quên</h3><div class="pexs">${words.slice(0,60).map(([k,v])=>{const w=VI.get(v.x);return w?`<button class="pex" data-wd="${esc(w.k)}"><b>${esc(w.w)}</b> <span class="muted small">${esc(w.vi)}</span> <span class="pill">${v.n}</span></button>`:'';}).join('')}</div></div>`:''}
    ${qs.length?`<div class="panel"><h3>Câu hay sai</h3>${qs.slice(0,40).map(([k,v])=>`<div class="mk-q"><div>${esc(v.x.q)} <span class="pill">${v.n}</span></div>${v.x.src?`<div class="small muted">${esc(v.x.src)}</div>`:''}<div class="small">Đáp án: <b>${esc(Array.isArray(v.x.o)?v.x.o[v.x.a]:String(v.x.a).split('|')[0])}</b></div>${v.x.w?`<div class="small muted">${esc(v.x.w)}</div>`:''}</div>`).join('')}</div>`:''}</div>`;
@@ -2974,7 +2975,8 @@ function TS_applyMarks(root,results,{onPara}={}){
 /* wrong answers -> mistakes notebook, right ones -> __mistOk */
 function TS_log(results){
   results.forEach(r=>{
-    if(r.dup)return;const it=r.it,k=r.kind;let x;
+    if(r.dup)return;if(!(r.sec.p&&r.sec.p.lines))return; /* Reading is reviewed inside the passage, not in the mistakes notebook */
+    const it=r.it,k=r.kind;let x;
     if(k==='mcq')x={q:it.q,o:it.o,a:it.a};
     else if(TS_TF[k])x={q:it.q,o:TS_TF[k],a:TS_TF[k].indexOf(it.a)};
     else if(k==='multi')x={q:it.q+' (chọn 2: '+it.o.map((o,i)=>TS_LET[i]+'. '+o).join('; ')+')',a:it.a.map(i=>it.o[i]).join(' and ')};
