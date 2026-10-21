@@ -1,68 +1,1058 @@
 [
-{"w": "avid reader", "deck": "col", "pat": "adj + n", "cefr": "B2", "vi": "người mê đọc sách, đọc rất nhiều", "use": "Rất hợp Speaking Part 1 khi nói về sở thích đọc. Hay đi với \"an avid reader of sth\"; đừng nói \"a hard reader\".", "alt": ["keen reader", "bookworm", "voracious reader"], "ex": "I've been an avid reader since primary school, mostly of crime novels and travel writing.", "exvi": "Tôi mê đọc sách từ hồi tiểu học, chủ yếu là truyện trinh thám và sách du ký.", "em": "📚"},
-{"w": "comfort food", "deck": "col", "pat": "n + n", "cefr": "B2", "vi": "món ăn quen thuộc giúp mình thấy dễ chịu, an ủi", "use": "Dùng tự nhiên trong Speaking khi nói về món ăn yêu thích hoặc ăn uống lúc mệt mỏi, căng thẳng. Là danh từ không đếm được khi nói chung.", "alt": ["home cooking", "soul food", "guilty pleasure"], "ex": "After a long week at work, a bowl of my mum's chicken porridge is the ultimate comfort food.", "exvi": "Sau một tuần làm việc dài, một bát cháo gà mẹ nấu là món ăn an ủi nhất với tôi.", "em": "🍲"},
-{"w": "home-cooked meal", "deck": "col", "pat": "adj + n", "cefr": "B2", "vi": "bữa cơm nhà nấu", "use": "Dùng được cả Speaking và Writing khi so sánh ăn ở nhà với ăn ngoài. Không nói \"home-made meal\" cho cả bữa, \"home-made\" thường dùng cho từng món như bánh, mứt.", "alt": ["home cooking", "ready meal", "takeaway"], "ex": "Many young professionals rarely sit down to a home-cooked meal because they work such long hours.", "exvi": "Nhiều người trẻ đi làm hiếm khi được ngồi ăn một bữa cơm nhà nấu vì họ làm việc quá nhiều giờ.", "em": "🍛"},
-{"w": "go window shopping", "deck": "col", "pat": "v + n", "cefr": "B2", "vi": "đi dạo xem đồ ở cửa hàng mà không mua", "use": "Rất hay trong Speaking Part 1 chủ đề shopping. Động từ đi kèm là \"go\", không nói \"do window shopping\".", "alt": ["browse the shops", "shop around", "impulse buying"], "ex": "On Sunday afternoons my friends and I often go window shopping in the city centre without buying anything.", "exvi": "Chiều Chủ nhật tôi và bạn bè thường đi dạo xem đồ ở trung tâm thành phố mà chẳng mua gì.", "em": "🛍️"},
-{"w": "hectic schedule", "deck": "col", "pat": "adj + n", "cefr": "B2", "vi": "lịch trình dày đặc, bận rộn", "use": "Dùng tốt khi giải thích vì sao ít thời gian rảnh. Hay đi với \"have a hectic schedule\" hoặc \"fit sth into a hectic schedule\".", "alt": ["busy schedule", "packed schedule", "gruelling schedule"], "ex": "With such a hectic schedule at university, I can only play badminton once or twice a month.", "exvi": "Với lịch học dày đặc ở đại học, tôi chỉ chơi cầu lông được một hai lần mỗi tháng.", "em": "📅"},
-{"w": "develop a passion for sth", "deck": "col", "pat": "v + n", "cefr": "B2", "vi": "dần dần say mê điều gì", "use": "Hợp khi kể sở thích bắt đầu như thế nào. Giới từ là \"for\", không nói \"passion about\" sau danh từ (tính từ thì là \"passionate about\").", "alt": ["develop an interest in sth", "fall in love with sth", "get into sth"], "ex": "I developed a passion for photography during a school trip to the mountains when I was fifteen.", "exvi": "Tôi bắt đầu say mê nhiếp ảnh sau một chuyến đi núi cùng trường năm mười lăm tuổi.", "em": "📷"},
-{"w": "be hooked on sth", "deck": "col", "pat": "adj + prep", "cefr": "B2", "vi": "nghiện, mê tít cái gì", "use": "Thân mật, hợp Speaking khi nói về phim, game, môn thể thao. Giới từ là \"on\", không dùng \"hooked with\".", "alt": ["be addicted to sth", "be obsessed with sth", "be into sth"], "ex": "I got hooked on Korean dramas during the pandemic and still watch a few episodes every night.", "exvi": "Tôi nghiện phim Hàn từ hồi dịch và giờ tối nào vẫn xem vài tập.", "em": "🎣"},
-{"w": "binge-watch a series", "deck": "col", "pat": "v + n", "cefr": "B2", "vi": "xem liền một mạch nhiều tập phim", "use": "Từ hiện đại, rất tự nhiên trong Speaking khi nói về giải trí cuối tuần. Trong Writing có thể dùng khi bàn về tác động của nền tảng streaming.", "alt": ["binge on sth", "marathon a show", "veg out in front of the TV"], "ex": "Streaming platforms encourage viewers to binge-watch a series in one weekend instead of waiting for weekly episodes.", "exvi": "Các nền tảng streaming khuyến khích người xem cày hết một bộ phim trong một cuối tuần thay vì chờ từng tập mỗi tuần.", "em": "📺"},
-{"w": "sense of achievement", "deck": "col", "pat": "n + of + n", "cefr": "B2", "vi": "cảm giác thành tựu, tự hào vì làm được việc gì", "use": "Dùng tốt cả Speaking và Writing khi giải thích vì sao thích một hoạt động. Hay đi với \"give sb a sense of achievement\".", "alt": ["sense of accomplishment", "sense of satisfaction", "feel proud of oneself"], "ex": "Finishing my first half-marathon gave me a huge sense of achievement and boosted my confidence at work.", "exvi": "Hoàn thành giải bán marathon đầu tiên cho tôi cảm giác thành tựu lớn và giúp tôi tự tin hơn trong công việc.", "em": "🏅"},
-{"w": "picky eater", "deck": "col", "pat": "adj + n", "cefr": "B2", "vi": "người kén ăn", "use": "Thân mật, hợp Speaking chủ đề food. Anh-Anh hay nói \"fussy eater\"; không nói \"choosy eater\" vì nghe không tự nhiên.", "alt": ["fussy eater", "adventurous eater", "eat anything"], "ex": "I was a really picky eater as a child, but travelling abroad made me much more open to new dishes.", "exvi": "Hồi nhỏ tôi rất kén ăn, nhưng đi du lịch nước ngoài khiến tôi cởi mở hơn với món mới.", "em": ""},
-{"w": "thoroughly enjoy sth", "deck": "col", "pat": "adv + v", "cefr": "B2", "vi": "rất thích, tận hưởng trọn vẹn", "use": "Cách nâng cấp đơn giản cho \"really like\" trong Speaking. \"Thoroughly\" đứng trước động từ; không nói \"enjoy thoroughly it\".", "alt": ["really enjoy sth", "relish sth", "take great pleasure in sth"], "ex": "I thoroughly enjoy cooking for friends at the weekend because it helps me forget about work.", "exvi": "Tôi rất thích nấu ăn đãi bạn bè vào cuối tuần vì nó giúp tôi quên chuyện công việc.", "em": ""},
-{"w": "die-hard fan", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "fan cuồng, người hâm mộ trung thành tuyệt đối", "use": "Hợp Speaking khi nói về đội bóng, ca sĩ, bộ phim. Thường đi với \"a die-hard fan of sb/sth\".", "alt": ["loyal supporter", "fanatic", "fair-weather fan"], "ex": "My father is a die-hard fan of Manchester United and has watched almost every match since the nineties.", "exvi": "Bố tôi là fan cứng của Manchester United và đã xem gần như mọi trận đấu từ những năm chín mươi.", "em": "⚽"},
-{"w": "take a keen interest in sth", "deck": "col", "pat": "v + n", "cefr": "C1", "vi": "rất quan tâm, hứng thú với điều gì", "use": "Trang trọng hơn \"be interested in\", dùng được cả Speaking và Writing. Giới từ là \"in\"; không nói \"take a keen interest about\".", "alt": ["show an interest in sth", "be keen on sth", "lose interest in sth"], "ex": "Since moving to the coast, I have taken a keen interest in marine wildlife and local conservation projects.", "exvi": "Từ khi chuyển ra vùng biển, tôi rất quan tâm đến sinh vật biển và các dự án bảo tồn ở địa phương.", "em": ""},
-{"w": "acquired taste", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "thứ phải quen dần mới thích (món ăn, nhạc, phong cách)", "use": "Rất hay trong Speaking khi nói về món lạ hoặc thể loại nhạc kén người nghe. Dùng với \"an\": \"sth is an acquired taste\".", "alt": ["not my cup of tea", "grow on sb", "take some getting used to"], "ex": "Durian is definitely an acquired taste, and most foreign visitors cannot stand the smell at first.", "exvi": "Sầu riêng chắc chắn là món phải quen mới thích, và đa số khách nước ngoài lúc đầu không chịu nổi mùi.", "em": ""},
-{"w": "guilty pleasure", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "thú vui hơi \"tội lỗi\", thích nhưng hơi ngại thừa nhận", "use": "Rất tự nhiên trong Speaking Part 1 về TV, đồ ăn, âm nhạc. Nghe vui và thân mật, không dùng trong Writing.", "alt": ["secret indulgence", "treat myself", "comfort food"], "ex": "Reality TV shows are my guilty pleasure, although I know they are not exactly educational.", "exvi": "Các chương trình truyền hình thực tế là thú vui tội lỗi của tôi, dù tôi biết chúng chẳng mang tính giáo dục gì.", "em": "🙈"},
-{"w": "leisurely stroll", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "cuộc đi dạo thong thả", "use": "Hợp Speaking khi tả cách thư giãn hoặc đi du lịch. Đi với \"take/go for a leisurely stroll\". Chú ý \"leisurely\" là tính từ, không phải trạng từ ở đây.", "alt": ["gentle walk", "brisk walk", "wander around"], "ex": "After dinner we usually take a leisurely stroll around the lake to clear our heads.", "exvi": "Sau bữa tối chúng tôi thường đi dạo thong thả quanh hồ cho đầu óc thoải mái.", "em": "🚶"},
-{"w": "retail therapy", "deck": "col", "pat": "n + n", "cefr": "C1", "vi": "mua sắm để giải tỏa tâm trạng", "use": "Hơi đùa vui, hợp Speaking chủ đề shopping. Trong Writing có thể nhắc khi bàn về chủ nghĩa tiêu dùng nhưng nên giải thích rõ.", "alt": ["shopping spree", "impulse buying", "splash out on sth"], "ex": "When I feel stressed about exams, a bit of retail therapy at the bookshop always cheers me up.", "exvi": "Khi căng thẳng vì thi cử, đi mua sắm một chút ở hiệu sách luôn giúp tôi vui lên.", "em": "🛍️"},
-{"w": "well-earned break", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "kỳ nghỉ xứng đáng sau thời gian làm việc vất vả", "use": "Dùng tốt trong Speaking khi nói về kỳ nghỉ. Có thể thay \"break\" bằng \"rest\" hoặc \"holiday\".", "alt": ["well-deserved holiday", "much-needed break", "recharge one's batteries"], "ex": "After finishing the project, the whole team took a well-earned break on a small island in the south.", "exvi": "Sau khi xong dự án, cả nhóm đi nghỉ xứng đáng ở một hòn đảo nhỏ phía nam.", "em": "🏝️"},
-{"w": "deeply passionate about sth", "deck": "col", "pat": "adv + adj", "cefr": "C1", "vi": "vô cùng đam mê điều gì", "use": "Dùng được cả Speaking và Writing. Giới từ là \"about\"; lỗi hay gặp là \"passionate with/in\".", "alt": ["genuinely passionate about sth", "keen on sth", "lukewarm about sth"], "ex": "My cousin is deeply passionate about traditional music and plays the đàn tranh in a local group.", "exvi": "Em họ tôi vô cùng đam mê nhạc truyền thống và chơi đàn tranh trong một nhóm ở địa phương.", "em": ""},
-{"w": "satisfy a craving", "deck": "col", "pat": "v + n", "cefr": "C1", "vi": "thỏa cơn thèm", "use": "Hợp Speaking chủ đề đồ ăn vặt, đồ ngọt. Hay nói \"satisfy a craving for sth\"; không nói \"fulfil a craving\".", "alt": ["have a craving for sth", "curb a craving", "give in to temptation"], "ex": "Late at night I sometimes order bubble tea just to satisfy a craving for something sweet.", "exvi": "Đêm khuya đôi khi tôi đặt trà sữa chỉ để thỏa cơn thèm đồ ngọt.", "em": "🧋"},
-{"w": "immensely satisfying", "deck": "col", "pat": "adv + adj", "cefr": "C1", "vi": "vô cùng thỏa mãn, rất đã", "use": "Thay cho \"very satisfying\" trong Speaking khi tả cảm giác sau một hoạt động. Có thể dùng trong Writing ở mức trang trọng vừa.", "alt": ["deeply rewarding", "hugely enjoyable", "incredibly fulfilling"], "ex": "Growing my own vegetables on the balcony has been immensely satisfying, even if the harvest is small.", "exvi": "Tự trồng rau trên ban công thật sự rất thỏa mãn, dù thu hoạch chẳng được bao nhiêu.", "em": ""},
-{"w": "competitive streak", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "tính hiếu thắng, máu ganh đua", "use": "Hợp Speaking khi nói về thể thao, trò chơi. Đi với \"have a competitive streak\".", "alt": ["competitive spirit", "will to win", "sore loser"], "ex": "I have a strong competitive streak, so even a friendly game of football can get quite intense.", "exvi": "Tôi khá hiếu thắng nên ngay cả một trận bóng giao hữu cũng có thể trở nên căng thẳng.", "em": "🏆"},
-{"w": "bargain hunter", "deck": "col", "pat": "n + n", "cefr": "C1", "vi": "người chuyên săn hàng giảm giá", "use": "Hợp Speaking chủ đề shopping. Động từ đi kèm: \"hunt for bargains\", \"snap up a bargain\".", "alt": ["snap up a bargain", "shop around", "big spender"], "ex": "As a keen bargain hunter, I always compare prices on several apps before buying anything online.", "exvi": "Là người mê săn đồ giảm giá, tôi luôn so giá trên vài ứng dụng trước khi mua gì trên mạng.", "em": "🏷️"},
-{"w": "must-see attraction", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "điểm tham quan nhất định phải đến", "use": "Hợp Speaking khi giới thiệu quê hương hoặc nơi đã du lịch. \"Must-see\" cũng ghép được với \"film\", \"exhibition\".", "alt": ["top attraction", "tourist trap", "off the beaten track"], "ex": "Ha Long Bay is a must-see attraction for anyone travelling to the north of Vietnam.", "exvi": "Vịnh Hạ Long là điểm nhất định phải đến với bất kỳ ai du lịch miền Bắc Việt Nam.", "em": "📍"},
-{"w": "soak up the atmosphere", "deck": "col", "pat": "v + n", "cefr": "C1", "vi": "tận hưởng, đắm mình trong không khí nơi nào đó", "use": "Rất tự nhiên trong Speaking khi nói về du lịch, lễ hội, sự kiện thể thao. Có thể thay bằng \"soak up the sun\".", "alt": ["take in the sights", "soak up the sun", "people-watch"], "ex": "I love sitting in a pavement café in the old quarter and simply soaking up the atmosphere.", "exvi": "Tôi thích ngồi ở quán cà phê vỉa hè trong phố cổ và chỉ đơn giản là đắm mình trong không khí.", "em": "☕"},
-{"w": "fitness fanatic", "deck": "col", "pat": "n + n", "cefr": "C1", "vi": "người cuồng tập luyện thể dục", "use": "Thân mật, hợp Speaking. Có thể dùng mẫu \"a ... fanatic\" cho sở thích khác như \"a football fanatic\".", "alt": ["gym rat", "health nut", "couch potato"], "ex": "My flatmate is a real fitness fanatic who goes running at five every morning, even in the rain.", "exvi": "Bạn cùng phòng tôi là người cuồng tập luyện, sáng nào cũng chạy bộ lúc năm giờ, kể cả trời mưa.", "em": "🏋️"},
-{"w": "indulge in sth", "deck": "col", "pat": "v + prep", "cefr": "C1", "vi": "tự cho phép mình thưởng thức, chiều chuộng bản thân", "use": "Dùng cả Speaking và Writing. Thường nói về đồ ăn ngon, mua sắm, nghỉ ngơi. Không bỏ \"in\": không nói \"indulge chocolate\".", "alt": ["treat myself", "splash out on sth", "spoil oneself"], "ex": "On holiday I like to indulge in local street food rather than eating in expensive hotel restaurants.", "exvi": "Khi đi nghỉ tôi thích thưởng thức đồ ăn đường phố địa phương hơn là ăn ở nhà hàng khách sạn đắt tiền.", "em": ""},
-{"w": "lose oneself in sth", "deck": "col", "pat": "phrase", "cefr": "C1", "vi": "đắm chìm, quên hết xung quanh khi làm gì", "use": "Hợp Speaking khi nói về đọc sách, âm nhạc, vẽ. Đổi đại từ theo chủ ngữ: \"I lose myself in\", \"she loses herself in\".", "alt": ["be absorbed in sth", "lose track of time", "be engrossed in sth"], "ex": "When I paint, I completely lose myself in the work and forget about my phone for hours.", "exvi": "Khi vẽ, tôi hoàn toàn đắm chìm và quên cả điện thoại trong nhiều giờ liền.", "em": "🎨"},
-{"w": "nail-biting finish", "deck": "col", "pat": "adj + n", "cefr": "C1", "vi": "kết thúc nghẹt thở, gay cấn đến phút chót", "use": "Hợp Speaking khi kể về trận đấu hoặc bộ phim. Cũng nói \"a nail-biting match/final\".", "alt": ["thrilling finale", "close contest", "one-sided match"], "ex": "The final went to penalties, and it was such a nail-biting finish that nobody could sit down.", "exvi": "Trận chung kết phải đá luân lưu, kết thúc gay cấn đến mức không ai ngồi yên được.", "em": "😬"},
-{"w": "be partial to sth", "deck": "col", "pat": "adj + prep", "cefr": "C2", "vi": "khá thích, có phần ưa (thường là đồ ăn uống)", "use": "Cách nói nhẹ nhàng, hơi Anh-Anh, hợp Speaking để tránh lặp \"like\". Nghĩa này không phải \"thiên vị\"; đừng nhầm với \"partial\" là \"một phần\".", "alt": ["have a soft spot for sth", "be fond of sth", "have a weakness for sth"], "ex": "I'm quite partial to a strong iced coffee in the afternoon, especially when I'm studying.", "exvi": "Tôi khá ưa một ly cà phê đá đậm vào buổi chiều, nhất là khi đang học.", "em": ""},
-{"w": "eclectic taste in sth", "deck": "col", "pat": "adj + n", "cefr": "C2", "vi": "gu đa dạng, thích nhiều thể loại khác nhau", "use": "Rất ăn điểm trong Speaking khi được hỏi về âm nhạc, phim, sách. Giới từ là \"in\": \"an eclectic taste in music\".", "alt": ["wide-ranging taste", "varied taste", "narrow taste"], "ex": "I have a fairly eclectic taste in music, from classical piano to Vietnamese rap and jazz.", "exvi": "Gu âm nhạc của tôi khá đa dạng, từ piano cổ điển đến rap Việt và jazz.", "em": "🎧"},
-{"w": "whirlwind tour", "deck": "col", "pat": "n + n", "cefr": "C2", "vi": "chuyến đi chớp nhoáng, đi nhiều nơi trong thời gian ngắn", "use": "Hợp Speaking khi kể về chuyến du lịch dày lịch. Hay đi với \"a whirlwind tour of + địa danh\".", "alt": ["flying visit", "packed itinerary", "leisurely trip"], "ex": "We did a whirlwind tour of five European capitals in ten days, which was exciting but exhausting.", "exvi": "Chúng tôi đi chớp nhoáng năm thủ đô châu Âu trong mười ngày, rất vui nhưng cũng kiệt sức.", "em": "🌪️"},
-{"w": "dabble in sth", "deck": "col", "pat": "v + prep", "cefr": "C2", "vi": "làm thử, chơi tài tử, không chuyên sâu", "use": "Hợp Speaking khi nói về sở thích nghiệp dư. Giới từ \"in\"; không dùng cho việc mình làm nghiêm túc lâu dài.", "alt": ["try one's hand at sth", "dip into sth", "take up sth seriously"], "ex": "I dabble in pottery at a weekend studio, although my bowls still look rather lopsided.", "exvi": "Tôi chơi tài tử làm gốm ở một xưởng cuối tuần, dù mấy cái bát vẫn còn méo mó.", "em": "🏺"},
-{"w": "a passing interest in sth", "deck": "col", "pat": "adj + n", "cefr": "C2", "vi": "sự hứng thú thoáng qua, không sâu", "use": "Hợp Speaking khi muốn nói mình chỉ quan tâm nhẹ. Ngược lại với \"a keen interest\".", "alt": ["a fleeting interest", "a keen interest", "a lifelong passion"], "ex": "I only have a passing interest in football, but I always watch the national team in big tournaments.", "exvi": "Tôi chỉ quan tâm bóng đá qua loa, nhưng luôn xem đội tuyển quốc gia ở các giải lớn.", "em": ""},
-{"w": "an insatiable appetite for sth", "deck": "col", "pat": "adj + n", "cefr": "C2", "vi": "niềm khao khát không bao giờ thỏa", "use": "Dùng nghĩa bóng cho sở thích, kiến thức, du lịch; hợp cả Speaking và Writing. Không dùng cho việc ăn nhiều thông thường.", "alt": ["a thirst for sth", "an appetite for sth", "a voracious appetite"], "ex": "Young travellers today seem to have an insatiable appetite for new experiences and unusual destinations.", "exvi": "Giới trẻ đi du lịch ngày nay dường như có niềm khao khát không đáy với trải nghiệm mới và điểm đến lạ.", "em": ""},
-{"w": "dine al fresco", "deck": "col", "pat": "v + adv", "cefr": "C2", "vi": "ăn ngoài trời", "use": "Hơi trang trọng, hợp Speaking khi tả nhà hàng, kỳ nghỉ. \"Al fresco\" cũng làm tính từ: \"al fresco dining\".", "alt": ["eat outdoors", "al fresco dining", "have a picnic"], "ex": "In the dry season, many restaurants in Saigon let customers dine al fresco on rooftop terraces.", "exvi": "Vào mùa khô, nhiều nhà hàng ở Sài Gòn cho khách ăn ngoài trời trên sân thượng.", "em": "🍽️"},
-{"w": "have a sweet tooth", "deck": "idiom", "pat": "idiom", "cefr": "B2", "vi": "hảo ngọt, thích đồ ngọt", "use": "Thành ngữ rất tự nhiên cho Speaking Part 1 chủ đề food. Chỉ dùng trong Speaking, không đưa vào Writing Task 2. Luôn có \"a\" và số ít: không nói \"have sweet teeth\".", "alt": ["have a savoury tooth", "be partial to sth", "love sweets"], "ex": "I definitely have a sweet tooth, so I can never say no to a slice of cake after lunch.", "exvi": "Tôi đúng là hảo ngọt nên chẳng bao giờ từ chối được một miếng bánh sau bữa trưa.", "em": "🍰"},
-{"w": "whet sb's appetite", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "khơi gợi hứng thú, làm ai muốn biết thêm; làm thèm ăn", "use": "Có thể dùng trong Speaking, thỉnh thoảng cả Writing vì không quá thân mật. Chú ý chính tả \"whet\", không phải \"wet\".", "alt": ["spark sb's interest", "pique sb's curiosity", "leave sb wanting more"], "ex": "A short cooking class in Hoi An really whetted my appetite for learning more about Vietnamese cuisine.", "exvi": "Một lớp nấu ăn ngắn ở Hội An thật sự khơi gợi hứng thú tìm hiểu thêm về ẩm thực Việt của tôi.", "em": ""},
-{"w": "shop till you drop", "deck": "idiom", "pat": "idiom", "cefr": "B2", "vi": "mua sắm đến kiệt sức", "use": "Thân mật, chỉ hợp Speaking khi nói vui về mua sắm. Không dùng trong Writing Task 2.", "alt": ["go on a shopping spree", "retail therapy", "splash out on sth"], "ex": "During the year-end sales, my sister and I usually shop till we drop at the big malls.", "exvi": "Mùa giảm giá cuối năm, tôi và chị gái thường mua sắm đến rã rời ở các trung tâm thương mại lớn.", "em": "🛒"},
-{"w": "recharge one's batteries", "deck": "idiom", "pat": "idiom", "cefr": "B2", "vi": "nghỉ ngơi để lấy lại sức, \"sạc pin\"", "use": "Rất tự nhiên trong Speaking khi nói về kỳ nghỉ, thời gian rảnh. Không đưa vào Writing Task 2. Đổi đại từ: \"recharge my batteries\".", "alt": ["take a breather", "wind down", "put one's feet up"], "ex": "I spend my weekends in the countryside to recharge my batteries after a stressful week at work.", "exvi": "Tôi dành cuối tuần ở quê để sạc lại năng lượng sau một tuần làm việc căng thẳng.", "em": "🔋"},
-{"w": "a busman's holiday", "deck": "idiom", "pat": "idiom", "cefr": "C2", "vi": "kỳ nghỉ mà vẫn làm việc giống công việc thường ngày", "use": "Thành ngữ Anh-Anh, khá hiếm nên chỉ dùng trong Speaking khi thật sự đúng tình huống. Không đưa vào Writing.", "alt": ["working holiday", "take one's work on holiday", "switch off completely"], "ex": "As a chef, eating at restaurants on holiday feels like a busman's holiday because I keep analysing the food.", "exvi": "Là đầu bếp, đi nghỉ mà ăn nhà hàng chẳng khác gì vẫn đi làm vì tôi cứ phân tích món ăn.", "em": ""},
-{"w": "put one's feet up", "deck": "idiom", "pat": "idiom", "cefr": "B2", "vi": "nghỉ ngơi thư giãn, gác chân lên", "use": "Thân mật, hợp Speaking Part 1 khi nói về cách thư giãn. Không dùng trong Writing. Đổi đại từ theo chủ ngữ: \"put my feet up\".", "alt": ["kick back", "take it easy", "chill out"], "ex": "On Sunday evenings I just like to put my feet up and watch a documentary about nature.", "exvi": "Tối Chủ nhật tôi chỉ thích gác chân lên nghỉ ngơi và xem một phim tài liệu về thiên nhiên.", "em": "🛋️"},
-{"w": "let one's hair down", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "xõa, thả lỏng vui chơi thoải mái", "use": "Thân mật, hợp Speaking khi nói về tiệc tùng, lễ hội. Không đưa vào Writing Task 2. Nghĩa bóng, không liên quan đến tóc thật.", "alt": ["have a ball", "paint the town red", "unwind"], "ex": "Office parties at the end of the year are a chance for colleagues to let their hair down together.", "exvi": "Tiệc công ty cuối năm là dịp để đồng nghiệp cùng nhau xõa hết mình.", "em": "💃"},
-{"w": "have itchy feet", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "ngứa chân, muốn đi đâu đó, muốn thay đổi", "use": "Hợp Speaking chủ đề du lịch, kỳ nghỉ. Không dùng trong Writing Task 2. Hay đi với \"get itchy feet\".", "alt": ["catch the travel bug", "wanderlust", "be a homebody"], "ex": "If I stay in the same city for more than a few months, I start to get itchy feet.", "exvi": "Nếu ở một thành phố quá vài tháng là tôi bắt đầu ngứa chân muốn đi.", "em": "🧳"},
-{"w": "push the boat out", "deck": "idiom", "pat": "idiom", "cefr": "C2", "vi": "chi mạnh tay, làm hoành tráng cho dịp đặc biệt", "use": "Thành ngữ Anh-Anh, hợp Speaking khi nói về sinh nhật, lễ kỷ niệm. Không đưa vào Writing Task 2.", "alt": ["splash out on sth", "go all out", "pull out all the stops"], "ex": "For my parents' anniversary we really pushed the boat out and booked a dinner cruise on the river.", "exvi": "Nhân kỷ niệm ngày cưới của bố mẹ, chúng tôi chi mạnh tay đặt bữa tối trên du thuyền trên sông.", "em": "⛵"},
-{"w": "be spoilt for choice", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "có quá nhiều lựa chọn tốt, khó chọn", "use": "Hợp Speaking khi nói về đồ ăn, mua sắm, giải trí; trong Writing dùng được ở mức nhẹ. Anh-Mỹ viết \"spoiled\".", "alt": ["have plenty to choose from", "be torn between", "a wide range of options"], "ex": "Food lovers are spoilt for choice in Ho Chi Minh City, where street stalls open almost all night.", "exvi": "Người mê ăn uống có quá nhiều lựa chọn ở TP.HCM, nơi hàng quán vỉa hè mở gần như cả đêm.", "em": ""},
-{"w": "variety is the spice of life", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "sự đa dạng làm cuộc sống thú vị", "use": "Câu tục ngữ, hợp Speaking khi giải thích vì sao thích thử nhiều thứ. Không dùng mở bài Writing vì dễ thành sáo rỗng.", "alt": ["mix things up", "try something new", "stick to a routine"], "ex": "I try a new sport every year because, as they say, variety is the spice of life.", "exvi": "Mỗi năm tôi thử một môn thể thao mới vì như người ta nói, đa dạng mới làm cuộc sống thú vị.", "em": "🌶️"},
-{"w": "each to their own", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "mỗi người một sở thích", "use": "Hợp Speaking khi nói về sở thích khác người, giúp câu trả lời tự nhiên và lịch sự. Không dùng trong Writing Task 2.", "alt": ["to each his own", "there's no accounting for taste", "not my cup of tea"], "ex": "Some of my friends love horror films, but I find them pointless; still, each to their own.", "exvi": "Vài người bạn tôi mê phim kinh dị, còn tôi thấy chẳng có ý nghĩa gì; nhưng thôi, mỗi người một sở thích.", "em": ""},
-{"w": "be a dab hand at sth", "deck": "idiom", "pat": "idiom", "cefr": "C2", "vi": "rất khéo, rất giỏi làm việc gì", "use": "Anh-Anh, thân mật, hợp Speaking khi khen kỹ năng của ai đó (nấu ăn, làm vườn). Không đưa vào Writing.", "alt": ["be good at sth", "have a knack for sth", "be all fingers and thumbs"], "ex": "My grandmother is a dab hand at making spring rolls, and nobody in the family can match her.", "exvi": "Bà tôi cuốn chả giò rất khéo, cả nhà không ai sánh được.", "em": ""},
-{"w": "be bitten by the bug", "deck": "idiom", "pat": "idiom", "cefr": "C2", "vi": "bị cuốn vào, mê mẩn một thú vui", "use": "Thân mật, hợp Speaking khi kể sở thích bắt đầu. Hay nói cụ thể: \"be bitten by the travel/running bug\". Không dùng trong Writing.", "alt": ["catch the bug", "get into sth", "be hooked on sth"], "ex": "I joined one charity run three years ago and was immediately bitten by the running bug.", "exvi": "Ba năm trước tôi tham gia một giải chạy từ thiện và ngay lập tức mê chạy bộ.", "em": "🏃"},
-{"w": "paint the town red", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "đi chơi đêm tưng bừng, quẩy hết mình", "use": "Thân mật, chỉ hợp Speaking khi nói về ăn mừng, đi chơi đêm. Không đưa vào Writing Task 2.", "alt": ["have a night out", "let one's hair down", "have a quiet night in"], "ex": "After our final exams, the whole class went out to paint the town red in the city centre.", "exvi": "Sau kỳ thi cuối, cả lớp kéo nhau ra trung tâm đi chơi tưng bừng.", "em": "🎉"},
-{"w": "a sucker for sth", "deck": "idiom", "pat": "idiom", "cefr": "C1", "vi": "người không cưỡng lại được thứ gì, rất dễ mê", "use": "Thân mật, rất tự nhiên trong Speaking: \"I'm a sucker for...\". Không dùng trong Writing.", "alt": ["have a weakness for sth", "have a soft spot for", "can't resist sth"], "ex": "I'm a sucker for old black-and-white films, especially romantic comedies from the fifties.", "exvi": "Tôi không cưỡng lại được phim đen trắng cũ, nhất là phim hài lãng mạn thập niên năm mươi.", "em": "🎞️"},
-{"w": "get into sth", "deck": "pv", "pat": "phrasal verb", "cefr": "B2", "vi": "bắt đầu thích, bắt đầu theo một sở thích", "use": "Rất hay trong Speaking khi được hỏi \"How did you start...?\". Thân mật; trong Writing dùng \"become interested in\".", "alt": ["take up sth", "develop an interest in sth", "go off sth"], "ex": "I got into rock climbing after a friend took me to an indoor climbing centre last year.", "exvi": "Tôi bắt đầu mê leo núi sau khi một người bạn dẫn tôi đến phòng leo núi trong nhà năm ngoái.", "em": ""},
-{"w": "chill out", "deck": "pv", "pat": "phrasal verb", "cefr": "B2", "vi": "thư giãn, xả hơi", "use": "Thân mật, hợp Speaking. Không dùng trong Writing; thay bằng \"relax\" hoặc \"unwind\".", "alt": ["relax", "wind down", "kick back"], "ex": "After work I usually chill out with some music and a cup of tea on the balcony.", "exvi": "Sau giờ làm tôi thường thư giãn với chút nhạc và tách trà ngoài ban công.", "em": "😎"},
-{"w": "go off sth", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "hết thích, chán cái gì (từng thích)", "use": "Anh-Anh, thân mật, rất hữu ích trong Speaking khi nói sở thích thay đổi. Người học hay không biết nghĩa này và nhầm với \"go off\" là chuông reo hoặc đồ ăn hỏng.", "alt": ["lose interest in sth", "grow tired of sth", "get into sth"], "ex": "I used to love fast food, but I went off it completely after watching a documentary about nutrition.", "exvi": "Trước đây tôi mê đồ ăn nhanh, nhưng xem xong một phim tài liệu về dinh dưỡng thì tôi hết thích hẳn.", "em": ""},
-{"w": "eat out", "deck": "pv", "pat": "phrasal verb", "cefr": "B2", "vi": "ăn ở ngoài, đi ăn nhà hàng", "use": "Rất hay trong Speaking Part 1 chủ đề food. Không có tân ngữ; không nói \"eat out a restaurant\", mà \"eat out at a restaurant\".", "alt": ["dine out", "eat in", "get a takeaway"], "ex": "Young people in big cities eat out far more often than their parents did, partly because rent is so high.", "exvi": "Người trẻ ở thành phố lớn ăn ngoài nhiều hơn hẳn bố mẹ họ ngày xưa, một phần vì tiền thuê nhà quá cao.", "em": "🍜"},
-{"w": "pig out", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "ăn lấy ăn để, ăn thả cửa", "use": "Rất thân mật, chỉ dùng trong Speaking khi nói vui. Hay đi với \"pig out on sth\".", "alt": ["stuff oneself", "overeat", "tuck into"], "ex": "During Tet we always pig out on sticky rice cakes and candied fruit, then regret it afterwards.", "exvi": "Dịp Tết nhà tôi lúc nào cũng ăn thả cửa bánh chưng và mứt, rồi sau đó lại hối hận.", "em": "🐷"},
-{"w": "branch out", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "mở rộng sang lĩnh vực, sở thích mới", "use": "Dùng được cả Speaking và Writing. Hay đi với \"branch out into sth\".", "alt": ["diversify", "expand into sth", "stick to what you know"], "ex": "After years of only playing the guitar, I've recently branched out into singing and songwriting.", "exvi": "Sau nhiều năm chỉ chơi guitar, gần đây tôi mở rộng sang hát và sáng tác.", "em": "🌿"},
-{"w": "take to sth", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "bắt đầu thích, hợp với cái gì ngay", "use": "Hợp Speaking khi kể mình thích nghi với hoạt động mới. Nghĩa khác hẳn \"take up\" (bắt đầu làm); \"take to\" là bắt đầu thích.", "alt": ["warm to", "take to sth like a duck to water", "get into sth"], "ex": "My son took to swimming immediately and now trains at the local sports centre three times a week.", "exvi": "Con trai tôi thích bơi ngay từ đầu và giờ tập ở trung tâm thể thao địa phương ba buổi mỗi tuần.", "em": "🏊"},
-{"w": "sign up for sth", "deck": "pv", "pat": "phrasal verb", "cefr": "B2", "vi": "đăng ký tham gia (lớp, khóa học, câu lạc bộ)", "use": "Dùng cả Speaking và Writing. Giới từ \"for\" với khóa học, sự kiện; \"sign up to\" hay dùng với dịch vụ, bản tin.", "alt": ["enrol on/in sth", "join sth", "drop out of sth"], "ex": "This year I signed up for a weekend cooking course to learn how to make traditional Japanese dishes.", "exvi": "Năm nay tôi đăng ký một khóa nấu ăn cuối tuần để học làm món Nhật truyền thống.", "em": "✍️"},
-{"w": "veg out", "deck": "pv", "pat": "phrasal verb", "cefr": "C2", "vi": "nằm ườn, không làm gì cả", "use": "Rất thân mật, chỉ dùng trong Speaking. Hay đi với \"veg out in front of the TV\".", "alt": ["laze about", "lounge around", "chill out"], "ex": "Sometimes I just want to veg out on the sofa all weekend instead of going to the gym.", "exvi": "Đôi khi tôi chỉ muốn nằm ườn trên sofa cả cuối tuần thay vì đi tập gym.", "em": "🥦"},
-{"w": "lounge around", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "nằm dài, ngồi thảnh thơi chẳng làm gì", "use": "Thân mật, hợp Speaking khi tả ngày nghỉ. Anh-Anh cũng nói \"lounge about\".", "alt": ["laze about", "veg out", "hang around"], "ex": "On holiday we mostly lounged around the pool reading novels and drinking fresh coconut juice.", "exvi": "Kỳ nghỉ chúng tôi chủ yếu nằm dài bên hồ bơi đọc tiểu thuyết và uống nước dừa tươi.", "em": "🏖️"},
-{"w": "try sth out", "deck": "pv", "pat": "phrasal verb, tách được", "cefr": "B2", "vi": "dùng thử, chơi thử xem thế nào", "use": "Dùng cả Speaking và Writing. Tân ngữ là đại từ thì phải đặt giữa: \"try it out\", không nói \"try out it\".", "alt": ["give sth a try", "have a go at sth", "test sth out"], "ex": "I tried out yoga for a month to see whether it would help me sleep better.", "exvi": "Tôi tập thử yoga một tháng xem có giúp mình ngủ ngon hơn không.", "em": "🧘"},
-{"w": "while away sth", "deck": "pv", "pat": "phrasal verb, tách được", "cefr": "C2", "vi": "giết thời gian một cách thư thả", "use": "Hơi văn chương, nghe hay trong Speaking khi tả buổi chiều nhàn nhã. Hay đi với \"while away the hours/the afternoon\". Không viết thành \"wile away\".", "alt": ["kill time", "pass the time", "fritter away sth"], "ex": "As a child, I would while away the summer afternoons reading comics under the mango tree.", "exvi": "Hồi nhỏ, tôi thường thả trôi những buổi chiều hè đọc truyện tranh dưới gốc xoài.", "em": "🌤️"},
-{"w": "get away", "deck": "pv", "pat": "phrasal verb", "cefr": "B2", "vi": "đi nghỉ, đi đâu đó cho thoát khỏi thường ngày", "use": "Hợp Speaking chủ đề holiday. Danh từ là \"a getaway\". Hay nói \"get away from it all\".", "alt": ["get away from it all", "take a break", "go on holiday"], "ex": "Whenever we can get away for a few days, my family heads to Da Lat for the cool weather.", "exvi": "Hễ đi nghỉ được vài ngày là gia đình tôi lên Đà Lạt tận hưởng thời tiết mát mẻ.", "em": "🚗"},
-{"w": "head off", "deck": "pv", "pat": "phrasal verb", "cefr": "C1", "vi": "lên đường, rời đi đến đâu", "use": "Thân mật, hợp Speaking khi kể chuyến đi. Hay đi với \"head off to + nơi chốn\".", "alt": ["set off", "set out", "make for"], "ex": "Every summer my friends and I head off to the beach for a week of swimming and seafood.", "exvi": "Hè nào tôi và bạn bè cũng lên đường ra biển một tuần để bơi lội và ăn hải sản.", "em": "🎒"}
+ {
+  "w": "avid reader",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "người mê đọc sách, đọc rất nhiều",
+  "use": "Rất hợp Speaking Part 1 khi nói về sở thích đọc. Hay đi với \"an avid reader of sth\"; đừng nói \"a hard reader\".",
+  "alt": [
+   "keen reader",
+   "bookworm",
+   "voracious reader"
+  ],
+  "ex": "I've been an avid reader since primary school, mostly of crime novels and travel writing.",
+  "exvi": "Tôi mê đọc sách từ hồi tiểu học, chủ yếu là truyện trinh thám và sách du ký.",
+  "em": "📚"
+ },
+ {
+  "w": "comfort food",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "món ăn quen thuộc giúp mình thấy dễ chịu, an ủi",
+  "use": "Dùng tự nhiên trong Speaking khi nói về món ăn yêu thích hoặc ăn uống lúc mệt mỏi, căng thẳng. Là danh từ không đếm được khi nói chung.",
+  "alt": [
+   "home cooking",
+   "soul food",
+   "guilty pleasure"
+  ],
+  "ex": "After a long week at work, a bowl of my mum's chicken porridge is the ultimate comfort food.",
+  "exvi": "Sau một tuần làm việc dài, một bát cháo gà mẹ nấu là món ăn an ủi nhất với tôi.",
+  "em": "🍲"
+ },
+ {
+  "w": "home-cooked meal",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "bữa cơm nhà nấu",
+  "use": "Dùng được cả Speaking và Writing khi so sánh ăn ở nhà với ăn ngoài. Không nói \"home-made meal\" cho cả bữa, \"home-made\" thường dùng cho từng món như bánh, mứt.",
+  "alt": [
+   "home cooking",
+   "ready meal",
+   "takeaway"
+  ],
+  "ex": "Many young professionals rarely sit down to a home-cooked meal because they work such long hours.",
+  "exvi": "Nhiều người trẻ đi làm hiếm khi được ngồi ăn một bữa cơm nhà nấu vì họ làm việc quá nhiều giờ.",
+  "em": "🍛"
+ },
+ {
+  "w": "go window shopping",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "đi dạo xem đồ ở cửa hàng mà không mua",
+  "use": "Rất hay trong Speaking Part 1 chủ đề shopping. Động từ đi kèm là \"go\", không nói \"do window shopping\".",
+  "alt": [
+   "browse the shops",
+   "shop around",
+   "impulse buying"
+  ],
+  "ex": "On Sunday afternoons my friends and I often go window shopping in the city centre without buying anything.",
+  "exvi": "Chiều Chủ nhật tôi và bạn bè thường đi dạo xem đồ ở trung tâm thành phố mà chẳng mua gì.",
+  "em": "🛍️"
+ },
+ {
+  "w": "hectic schedule",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "lịch trình dày đặc, bận rộn",
+  "use": "Dùng tốt khi giải thích vì sao ít thời gian rảnh. Hay đi với \"have a hectic schedule\" hoặc \"fit sth into a hectic schedule\".",
+  "alt": [
+   "busy schedule",
+   "packed schedule",
+   "gruelling schedule"
+  ],
+  "ex": "With such a hectic schedule at university, I can only play badminton once or twice a month.",
+  "exvi": "Với lịch học dày đặc ở đại học, tôi chỉ chơi cầu lông được một hai lần mỗi tháng.",
+  "em": "📅"
+ },
+ {
+  "w": "develop a passion for sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "dần dần say mê điều gì",
+  "use": "Hợp khi kể sở thích bắt đầu như thế nào. Giới từ là \"for\", không nói \"passion about\" sau danh từ (tính từ thì là \"passionate about\").",
+  "alt": [
+   "develop an interest in sth",
+   "fall in love with sth",
+   "get into sth"
+  ],
+  "ex": "I developed a passion for photography during a school trip to the mountains when I was fifteen.",
+  "exvi": "Tôi bắt đầu say mê nhiếp ảnh sau một chuyến đi núi cùng trường năm mười lăm tuổi.",
+  "em": "📷"
+ },
+ {
+  "w": "be hooked on sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "B2",
+  "vi": "nghiện, mê tít cái gì",
+  "use": "Thân mật, hợp Speaking khi nói về phim, game, môn thể thao. Giới từ là \"on\", không dùng \"hooked with\".",
+  "alt": [
+   "be addicted to sth",
+   "be obsessed with sth",
+   "be into sth"
+  ],
+  "ex": "I got hooked on Korean dramas during the pandemic and still watch a few episodes every night.",
+  "exvi": "Tôi nghiện phim Hàn từ hồi dịch và giờ tối nào vẫn xem vài tập.",
+  "em": "🎣"
+ },
+ {
+  "w": "binge-watch a series",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "xem liền một mạch nhiều tập phim",
+  "use": "Từ hiện đại, rất tự nhiên trong Speaking khi nói về giải trí cuối tuần. Trong Writing có thể dùng khi bàn về tác động của nền tảng streaming.",
+  "alt": [
+   "binge on sth",
+   "marathon a show",
+   "veg out in front of the TV"
+  ],
+  "ex": "Streaming platforms encourage viewers to binge-watch a series in one weekend instead of waiting for weekly episodes.",
+  "exvi": "Các nền tảng streaming khuyến khích người xem cày hết một bộ phim trong một cuối tuần thay vì chờ từng tập mỗi tuần.",
+  "em": "📺"
+ },
+ {
+  "w": "sense of achievement",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "B2",
+  "vi": "cảm giác thành tựu, tự hào vì làm được việc gì",
+  "use": "Dùng tốt cả Speaking và Writing khi giải thích vì sao thích một hoạt động. Hay đi với \"give sb a sense of achievement\".",
+  "alt": [
+   "sense of accomplishment",
+   "sense of satisfaction",
+   "feel proud of oneself"
+  ],
+  "ex": "Finishing my first half-marathon gave me a huge sense of achievement and boosted my confidence at work.",
+  "exvi": "Hoàn thành giải bán marathon đầu tiên cho tôi cảm giác thành tựu lớn và giúp tôi tự tin hơn trong công việc.",
+  "em": "🏅"
+ },
+ {
+  "w": "picky eater",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "người kén ăn",
+  "use": "Thân mật, hợp Speaking chủ đề food. Anh-Anh hay nói \"fussy eater\"; không nói \"choosy eater\" vì nghe không tự nhiên.",
+  "alt": [
+   "fussy eater",
+   "adventurous eater",
+   "eat anything"
+  ],
+  "ex": "I was a really picky eater as a child, but travelling abroad made me much more open to new dishes.",
+  "exvi": "Hồi nhỏ tôi rất kén ăn, nhưng đi du lịch nước ngoài khiến tôi cởi mở hơn với món mới.",
+  "em": ""
+ },
+ {
+  "w": "thoroughly enjoy sth",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "B2",
+  "vi": "rất thích, tận hưởng trọn vẹn",
+  "use": "Cách nâng cấp đơn giản cho \"really like\" trong Speaking. \"Thoroughly\" đứng trước động từ; không nói \"enjoy thoroughly it\".",
+  "alt": [
+   "really enjoy sth",
+   "relish sth",
+   "take great pleasure in sth"
+  ],
+  "ex": "I thoroughly enjoy cooking for friends at the weekend because it helps me forget about work.",
+  "exvi": "Tôi rất thích nấu ăn đãi bạn bè vào cuối tuần vì nó giúp tôi quên chuyện công việc.",
+  "em": ""
+ },
+ {
+  "w": "die-hard fan",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "fan cuồng, người hâm mộ trung thành tuyệt đối",
+  "use": "Hợp Speaking khi nói về đội bóng, ca sĩ, bộ phim. Thường đi với \"a die-hard fan of sb/sth\".",
+  "alt": [
+   "loyal supporter",
+   "fanatic",
+   "fair-weather fan"
+  ],
+  "ex": "My father is a die-hard fan of Manchester United and has watched almost every match since the nineties.",
+  "exvi": "Bố tôi là fan cứng của Manchester United và đã xem gần như mọi trận đấu từ những năm chín mươi.",
+  "em": "⚽"
+ },
+ {
+  "w": "take a keen interest in sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "rất quan tâm, hứng thú với điều gì",
+  "use": "Trang trọng hơn \"be interested in\", dùng được cả Speaking và Writing. Giới từ là \"in\"; không nói \"take a keen interest about\".",
+  "alt": [
+   "show an interest in sth",
+   "be keen on sth",
+   "lose interest in sth"
+  ],
+  "ex": "Since moving to the coast, I have taken a keen interest in marine wildlife and local conservation projects.",
+  "exvi": "Từ khi chuyển ra vùng biển, tôi rất quan tâm đến sinh vật biển và các dự án bảo tồn ở địa phương.",
+  "em": ""
+ },
+ {
+  "w": "acquired taste",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "thứ phải quen dần mới thích (món ăn, nhạc, phong cách)",
+  "use": "Rất hay trong Speaking khi nói về món lạ hoặc thể loại nhạc kén người nghe. Dùng với \"an\": \"sth is an acquired taste\".",
+  "alt": [
+   "not my cup of tea",
+   "grow on sb",
+   "take some getting used to"
+  ],
+  "ex": "Durian is definitely an acquired taste, and most foreign visitors cannot stand the smell at first.",
+  "exvi": "Sầu riêng chắc chắn là món phải quen mới thích, và đa số khách nước ngoài lúc đầu không chịu nổi mùi.",
+  "em": ""
+ },
+ {
+  "w": "guilty pleasure",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "thú vui hơi \"tội lỗi\", thích nhưng hơi ngại thừa nhận",
+  "use": "Rất tự nhiên trong Speaking Part 1 về TV, đồ ăn, âm nhạc. Nghe vui và thân mật, không dùng trong Writing.",
+  "alt": [
+   "secret indulgence",
+   "treat myself",
+   "comfort food"
+  ],
+  "ex": "Reality TV shows are my guilty pleasure, although I know they are not exactly educational.",
+  "exvi": "Các chương trình truyền hình thực tế là thú vui tội lỗi của tôi, dù tôi biết chúng chẳng mang tính giáo dục gì.",
+  "em": "🙈"
+ },
+ {
+  "w": "leisurely stroll",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "cuộc đi dạo thong thả",
+  "use": "Hợp Speaking khi tả cách thư giãn hoặc đi du lịch. Đi với \"take/go for a leisurely stroll\". Chú ý \"leisurely\" là tính từ, không phải trạng từ ở đây.",
+  "alt": [
+   "gentle walk",
+   "brisk walk",
+   "wander around"
+  ],
+  "ex": "After dinner we usually take a leisurely stroll around the lake to clear our heads.",
+  "exvi": "Sau bữa tối chúng tôi thường đi dạo thong thả quanh hồ cho đầu óc thoải mái.",
+  "em": "🚶"
+ },
+ {
+  "w": "retail therapy",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "mua sắm để giải tỏa tâm trạng",
+  "use": "Hơi đùa vui, hợp Speaking chủ đề shopping. Trong Writing có thể nhắc khi bàn về chủ nghĩa tiêu dùng nhưng nên giải thích rõ.",
+  "alt": [
+   "shopping spree",
+   "impulse buying",
+   "splash out on sth"
+  ],
+  "ex": "When I feel stressed about exams, a bit of retail therapy at the bookshop always cheers me up.",
+  "exvi": "Khi căng thẳng vì thi cử, đi mua sắm một chút ở hiệu sách luôn giúp tôi vui lên.",
+  "em": "🛍️"
+ },
+ {
+  "w": "well-earned break",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "kỳ nghỉ xứng đáng sau thời gian làm việc vất vả",
+  "use": "Dùng tốt trong Speaking khi nói về kỳ nghỉ. Có thể thay \"break\" bằng \"rest\" hoặc \"holiday\".",
+  "alt": [
+   "well-deserved holiday",
+   "much-needed break",
+   "recharge one's batteries"
+  ],
+  "ex": "After finishing the project, the whole team took a well-earned break on a small island in the south.",
+  "exvi": "Sau khi xong dự án, cả nhóm đi nghỉ xứng đáng ở một hòn đảo nhỏ phía nam.",
+  "em": "🏝️"
+ },
+ {
+  "w": "deeply passionate about sth",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "vô cùng đam mê điều gì",
+  "use": "Dùng được cả Speaking và Writing. Giới từ là \"about\"; lỗi hay gặp là \"passionate with/in\".",
+  "alt": [
+   "genuinely passionate about sth",
+   "keen on sth",
+   "lukewarm about sth"
+  ],
+  "ex": "My cousin is deeply passionate about traditional music and plays the đàn tranh in a local group.",
+  "exvi": "Em họ tôi vô cùng đam mê nhạc truyền thống và chơi đàn tranh trong một nhóm ở địa phương.",
+  "em": ""
+ },
+ {
+  "w": "satisfy a craving",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "thỏa cơn thèm",
+  "use": "Hợp Speaking chủ đề đồ ăn vặt, đồ ngọt. Hay nói \"satisfy a craving for sth\"; không nói \"fulfil a craving\".",
+  "alt": [
+   "have a craving for sth",
+   "curb a craving",
+   "give in to temptation"
+  ],
+  "ex": "Late at night I sometimes order bubble tea just to satisfy a craving for something sweet.",
+  "exvi": "Đêm khuya đôi khi tôi đặt trà sữa chỉ để thỏa cơn thèm đồ ngọt.",
+  "em": "🧋"
+ },
+ {
+  "w": "immensely satisfying",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "vô cùng thỏa mãn, rất đã",
+  "use": "Thay cho \"very satisfying\" trong Speaking khi tả cảm giác sau một hoạt động. Có thể dùng trong Writing ở mức trang trọng vừa.",
+  "alt": [
+   "deeply rewarding",
+   "hugely enjoyable",
+   "incredibly fulfilling"
+  ],
+  "ex": "Growing my own vegetables on the balcony has been immensely satisfying, even if the harvest is small.",
+  "exvi": "Tự trồng rau trên ban công thật sự rất thỏa mãn, dù thu hoạch chẳng được bao nhiêu.",
+  "em": ""
+ },
+ {
+  "w": "competitive streak",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tính hiếu thắng, máu ganh đua",
+  "use": "Hợp Speaking khi nói về thể thao, trò chơi. Đi với \"have a competitive streak\".",
+  "alt": [
+   "competitive spirit",
+   "will to win",
+   "sore loser"
+  ],
+  "ex": "I have a strong competitive streak, so even a friendly game of football can get quite intense.",
+  "exvi": "Tôi khá hiếu thắng nên ngay cả một trận bóng giao hữu cũng có thể trở nên căng thẳng.",
+  "em": "🏆"
+ },
+ {
+  "w": "bargain hunter",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "người chuyên săn hàng giảm giá",
+  "use": "Hợp Speaking chủ đề shopping. Động từ đi kèm: \"hunt for bargains\", \"snap up a bargain\".",
+  "alt": [
+   "snap up a bargain",
+   "shop around",
+   "big spender"
+  ],
+  "ex": "As a keen bargain hunter, I always compare prices on several apps before buying anything online.",
+  "exvi": "Là người mê săn đồ giảm giá, tôi luôn so giá trên vài ứng dụng trước khi mua gì trên mạng.",
+  "em": "🏷️"
+ },
+ {
+  "w": "must-see attraction",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "điểm tham quan nhất định phải đến",
+  "use": "Hợp Speaking khi giới thiệu quê hương hoặc nơi đã du lịch. \"Must-see\" cũng ghép được với \"film\", \"exhibition\".",
+  "alt": [
+   "top attraction",
+   "tourist trap",
+   "off the beaten track"
+  ],
+  "ex": "Ha Long Bay is a must-see attraction for anyone travelling to the north of Vietnam.",
+  "exvi": "Vịnh Hạ Long là điểm nhất định phải đến với bất kỳ ai du lịch miền Bắc Việt Nam.",
+  "em": "📍"
+ },
+ {
+  "w": "soak up the atmosphere",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tận hưởng, đắm mình trong không khí nơi nào đó",
+  "use": "Rất tự nhiên trong Speaking khi nói về du lịch, lễ hội, sự kiện thể thao. Có thể thay bằng \"soak up the sun\".",
+  "alt": [
+   "take in the sights",
+   "soak up the sun",
+   "people-watch"
+  ],
+  "ex": "I love sitting in a pavement café in the old quarter and simply soaking up the atmosphere.",
+  "exvi": "Tôi thích ngồi ở quán cà phê vỉa hè trong phố cổ và chỉ đơn giản là đắm mình trong không khí.",
+  "em": "☕"
+ },
+ {
+  "w": "fitness fanatic",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "người cuồng tập luyện thể dục",
+  "use": "Thân mật, hợp Speaking. Có thể dùng mẫu \"a ... fanatic\" cho sở thích khác như \"a football fanatic\".",
+  "alt": [
+   "gym rat",
+   "health nut",
+   "couch potato"
+  ],
+  "ex": "My flatmate is a real fitness fanatic who goes running at five every morning, even in the rain.",
+  "exvi": "Bạn cùng phòng tôi là người cuồng tập luyện, sáng nào cũng chạy bộ lúc năm giờ, kể cả trời mưa.",
+  "em": "🏋️"
+ },
+ {
+  "w": "indulge in sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "tự cho phép mình thưởng thức, chiều chuộng bản thân",
+  "use": "Dùng cả Speaking và Writing. Thường nói về đồ ăn ngon, mua sắm, nghỉ ngơi. Không bỏ \"in\": không nói \"indulge chocolate\".",
+  "alt": [
+   "treat myself",
+   "splash out on sth",
+   "spoil oneself"
+  ],
+  "ex": "On holiday I like to indulge in local street food rather than eating in expensive hotel restaurants.",
+  "exvi": "Khi đi nghỉ tôi thích thưởng thức đồ ăn đường phố địa phương hơn là ăn ở nhà hàng khách sạn đắt tiền.",
+  "em": ""
+ },
+ {
+  "w": "lose oneself in sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "đắm chìm, quên hết xung quanh khi làm gì",
+  "use": "Hợp Speaking khi nói về đọc sách, âm nhạc, vẽ. Đổi đại từ theo chủ ngữ: \"I lose myself in\", \"she loses herself in\".",
+  "alt": [
+   "be absorbed in sth",
+   "lose track of time",
+   "be engrossed in sth"
+  ],
+  "ex": "When I paint, I completely lose myself in the work and forget about my phone for hours.",
+  "exvi": "Khi vẽ, tôi hoàn toàn đắm chìm và quên cả điện thoại trong nhiều giờ liền.",
+  "em": "🎨"
+ },
+ {
+  "w": "nail-biting finish",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "kết thúc nghẹt thở, gay cấn đến phút chót",
+  "use": "Hợp Speaking khi kể về trận đấu hoặc bộ phim. Cũng nói \"a nail-biting match/final\".",
+  "alt": [
+   "thrilling finale",
+   "close contest",
+   "one-sided match"
+  ],
+  "ex": "The final went to penalties, and it was such a nail-biting finish that nobody could sit down.",
+  "exvi": "Trận chung kết phải đá luân lưu, kết thúc gay cấn đến mức không ai ngồi yên được.",
+  "em": "😬"
+ },
+ {
+  "w": "be partial to sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C2",
+  "vi": "khá thích, có phần ưa (thường là đồ ăn uống)",
+  "use": "Cách nói nhẹ nhàng, hơi Anh-Anh, hợp Speaking để tránh lặp \"like\". Nghĩa này không phải \"thiên vị\"; đừng nhầm với \"partial\" là \"một phần\".",
+  "alt": [
+   "have a soft spot for sth",
+   "be fond of sth",
+   "have a weakness for sth"
+  ],
+  "ex": "I'm quite partial to a strong iced coffee in the afternoon, especially when I'm studying.",
+  "exvi": "Tôi khá ưa một ly cà phê đá đậm vào buổi chiều, nhất là khi đang học.",
+  "em": ""
+ },
+ {
+  "w": "eclectic taste in sth",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "gu đa dạng, thích nhiều thể loại khác nhau",
+  "use": "Rất ăn điểm trong Speaking khi được hỏi về âm nhạc, phim, sách. Giới từ là \"in\": \"an eclectic taste in music\".",
+  "alt": [
+   "wide-ranging taste",
+   "varied taste",
+   "narrow taste"
+  ],
+  "ex": "I have a fairly eclectic taste in music, from classical piano to Vietnamese rap and jazz.",
+  "exvi": "Gu âm nhạc của tôi khá đa dạng, từ piano cổ điển đến rap Việt và jazz.",
+  "em": "🎧"
+ },
+ {
+  "w": "whirlwind tour",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C2",
+  "vi": "chuyến đi chớp nhoáng, đi nhiều nơi trong thời gian ngắn",
+  "use": "Hợp Speaking khi kể về chuyến du lịch dày lịch. Hay đi với \"a whirlwind tour of + địa danh\".",
+  "alt": [
+   "flying visit",
+   "packed itinerary",
+   "leisurely trip"
+  ],
+  "ex": "We did a whirlwind tour of five European capitals in ten days, which was exciting but exhausting.",
+  "exvi": "Chúng tôi đi chớp nhoáng năm thủ đô châu Âu trong mười ngày, rất vui nhưng cũng kiệt sức.",
+  "em": "🌪️"
+ },
+ {
+  "w": "dabble in sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C2",
+  "vi": "làm thử, chơi tài tử, không chuyên sâu",
+  "use": "Hợp Speaking khi nói về sở thích nghiệp dư. Giới từ \"in\"; không dùng cho việc mình làm nghiêm túc lâu dài.",
+  "alt": [
+   "try one's hand at sth",
+   "dip into sth",
+   "take up sth seriously"
+  ],
+  "ex": "I dabble in pottery at a weekend studio, although my bowls still look rather lopsided.",
+  "exvi": "Tôi chơi tài tử làm gốm ở một xưởng cuối tuần, dù mấy cái bát vẫn còn méo mó.",
+  "em": "🏺"
+ },
+ {
+  "w": "a passing interest in sth",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "sự hứng thú thoáng qua, không sâu",
+  "use": "Hợp Speaking khi muốn nói mình chỉ quan tâm nhẹ. Ngược lại với \"a keen interest\".",
+  "alt": [
+   "a fleeting interest",
+   "a keen interest",
+   "a lifelong passion"
+  ],
+  "ex": "I only have a passing interest in football, but I always watch the national team in big tournaments.",
+  "exvi": "Tôi chỉ quan tâm bóng đá qua loa, nhưng luôn xem đội tuyển quốc gia ở các giải lớn.",
+  "em": ""
+ },
+ {
+  "w": "an insatiable appetite for sth",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "niềm khao khát không bao giờ thỏa",
+  "use": "Dùng nghĩa bóng cho sở thích, kiến thức, du lịch; hợp cả Speaking và Writing. Không dùng cho việc ăn nhiều thông thường.",
+  "alt": [
+   "a thirst for sth",
+   "an appetite for sth",
+   "a voracious appetite"
+  ],
+  "ex": "Young travellers today seem to have an insatiable appetite for new experiences and unusual destinations.",
+  "exvi": "Giới trẻ đi du lịch ngày nay dường như có niềm khao khát không đáy với trải nghiệm mới và điểm đến lạ.",
+  "em": ""
+ },
+ {
+  "w": "dine al fresco",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "C2",
+  "vi": "ăn ngoài trời",
+  "use": "Hơi trang trọng, hợp Speaking khi tả nhà hàng, kỳ nghỉ. \"Al fresco\" cũng làm tính từ: \"al fresco dining\".",
+  "alt": [
+   "eat outdoors",
+   "al fresco dining",
+   "have a picnic"
+  ],
+  "ex": "In the dry season, many restaurants in Saigon let customers dine al fresco on rooftop terraces.",
+  "exvi": "Vào mùa khô, nhiều nhà hàng ở Sài Gòn cho khách ăn ngoài trời trên sân thượng.",
+  "em": "🍽️"
+ },
+ {
+  "w": "have a sweet tooth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "hảo ngọt, thích đồ ngọt",
+  "use": "Thành ngữ rất tự nhiên cho Speaking Part 1 chủ đề food. Chỉ dùng trong Speaking, không đưa vào Writing Task 2. Luôn có \"a\" và số ít: không nói \"have sweet teeth\".",
+  "alt": [
+   "have a savoury tooth",
+   "be partial to sth",
+   "love sweets"
+  ],
+  "ex": "I definitely have a sweet tooth, so I can never say no to a slice of cake after lunch.",
+  "exvi": "Tôi đúng là hảo ngọt nên chẳng bao giờ từ chối được một miếng bánh sau bữa trưa.",
+  "em": "🍰"
+ },
+ {
+  "w": "whet sb's appetite",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "khơi gợi hứng thú, làm ai muốn biết thêm; làm thèm ăn",
+  "use": "Có thể dùng trong Speaking, thỉnh thoảng cả Writing vì không quá thân mật. Chú ý chính tả \"whet\", không phải \"wet\".",
+  "alt": [
+   "spark sb's interest",
+   "pique sb's curiosity",
+   "leave sb wanting more"
+  ],
+  "ex": "A short cooking class in Hoi An really whetted my appetite for learning more about Vietnamese cuisine.",
+  "exvi": "Một lớp nấu ăn ngắn ở Hội An thật sự khơi gợi hứng thú tìm hiểu thêm về ẩm thực Việt của tôi.",
+  "em": ""
+ },
+ {
+  "w": "shop till you drop",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "mua sắm đến kiệt sức",
+  "use": "Thân mật, chỉ hợp Speaking khi nói vui về mua sắm. Không dùng trong Writing Task 2.",
+  "alt": [
+   "go on a shopping spree",
+   "retail therapy",
+   "splash out on sth"
+  ],
+  "ex": "During the year-end sales, my sister and I usually shop till we drop at the big malls.",
+  "exvi": "Mùa giảm giá cuối năm, tôi và chị gái thường mua sắm đến rã rời ở các trung tâm thương mại lớn.",
+  "em": "🛒"
+ },
+ {
+  "w": "recharge one's batteries",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nghỉ ngơi để lấy lại sức, \"sạc pin\"",
+  "use": "Rất tự nhiên trong Speaking khi nói về kỳ nghỉ, thời gian rảnh. Không đưa vào Writing Task 2. Đổi đại từ: \"recharge my batteries\".",
+  "alt": [
+   "take a breather",
+   "wind down",
+   "put one's feet up"
+  ],
+  "ex": "I spend my weekends in the countryside to recharge my batteries after a stressful week at work.",
+  "exvi": "Tôi dành cuối tuần ở quê để sạc lại năng lượng sau một tuần làm việc căng thẳng.",
+  "em": "🔋"
+ },
+ {
+  "w": "a busman's holiday",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "kỳ nghỉ mà vẫn làm việc giống công việc thường ngày",
+  "use": "Thành ngữ Anh-Anh, khá hiếm nên chỉ dùng trong Speaking khi thật sự đúng tình huống. Không đưa vào Writing.",
+  "alt": [
+   "working holiday",
+   "take one's work on holiday",
+   "switch off completely"
+  ],
+  "ex": "As a chef, eating at restaurants on holiday feels like a busman's holiday because I keep analysing the food.",
+  "exvi": "Là đầu bếp, đi nghỉ mà ăn nhà hàng chẳng khác gì vẫn đi làm vì tôi cứ phân tích món ăn.",
+  "em": ""
+ },
+ {
+  "w": "put one's feet up",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nghỉ ngơi thư giãn, gác chân lên",
+  "use": "Thân mật, hợp Speaking Part 1 khi nói về cách thư giãn. Không dùng trong Writing. Đổi đại từ theo chủ ngữ: \"put my feet up\".",
+  "alt": [
+   "kick back",
+   "take it easy",
+   "chill out"
+  ],
+  "ex": "On Sunday evenings I just like to put my feet up and watch a documentary about nature.",
+  "exvi": "Tối Chủ nhật tôi chỉ thích gác chân lên nghỉ ngơi và xem một phim tài liệu về thiên nhiên.",
+  "em": "🛋️"
+ },
+ {
+  "w": "let one's hair down",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "xõa, thả lỏng vui chơi thoải mái",
+  "use": "Thân mật, hợp Speaking khi nói về tiệc tùng, lễ hội. Không đưa vào Writing Task 2. Nghĩa bóng, không liên quan đến tóc thật.",
+  "alt": [
+   "have a ball",
+   "paint the town red",
+   "unwind"
+  ],
+  "ex": "Office parties at the end of the year are a chance for colleagues to let their hair down together.",
+  "exvi": "Tiệc công ty cuối năm là dịp để đồng nghiệp cùng nhau xõa hết mình.",
+  "em": "💃"
+ },
+ {
+  "w": "have itchy feet",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "ngứa chân, muốn đi đâu đó, muốn thay đổi",
+  "use": "Hợp Speaking chủ đề du lịch, kỳ nghỉ. Không dùng trong Writing Task 2. Hay đi với \"get itchy feet\".",
+  "alt": [
+   "catch the travel bug",
+   "wanderlust",
+   "be a homebody"
+  ],
+  "ex": "If I stay in the same city for more than a few months, I start to get itchy feet.",
+  "exvi": "Nếu ở một thành phố quá vài tháng là tôi bắt đầu ngứa chân muốn đi.",
+  "em": "🧳"
+ },
+ {
+  "w": "push the boat out",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "chi mạnh tay, làm hoành tráng cho dịp đặc biệt",
+  "use": "Thành ngữ Anh-Anh, hợp Speaking khi nói về sinh nhật, lễ kỷ niệm. Không đưa vào Writing Task 2.",
+  "alt": [
+   "splash out on sth",
+   "go all out",
+   "pull out all the stops"
+  ],
+  "ex": "For my parents' anniversary we really pushed the boat out and booked a dinner cruise on the river.",
+  "exvi": "Nhân kỷ niệm ngày cưới của bố mẹ, chúng tôi chi mạnh tay đặt bữa tối trên du thuyền trên sông.",
+  "em": "⛵"
+ },
+ {
+  "w": "be spoilt for choice",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "có quá nhiều lựa chọn tốt, khó chọn",
+  "use": "Hợp Speaking khi nói về đồ ăn, mua sắm, giải trí; trong Writing dùng được ở mức nhẹ. Anh-Mỹ viết \"spoiled\".",
+  "alt": [
+   "have plenty to choose from",
+   "be torn between",
+   "a wide range of options"
+  ],
+  "ex": "Food lovers are spoilt for choice in Ho Chi Minh City, where street stalls open almost all night.",
+  "exvi": "Người mê ăn uống có quá nhiều lựa chọn ở TP.HCM, nơi hàng quán vỉa hè mở gần như cả đêm.",
+  "em": ""
+ },
+ {
+  "w": "variety is the spice of life",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "sự đa dạng làm cuộc sống thú vị",
+  "use": "Câu tục ngữ, hợp Speaking khi giải thích vì sao thích thử nhiều thứ. Không dùng mở bài Writing vì dễ thành sáo rỗng.",
+  "alt": [
+   "mix things up",
+   "try something new",
+   "stick to a routine"
+  ],
+  "ex": "I try a new sport every year because, as they say, variety is the spice of life.",
+  "exvi": "Mỗi năm tôi thử một môn thể thao mới vì như người ta nói, đa dạng mới làm cuộc sống thú vị.",
+  "em": "🌶️"
+ },
+ {
+  "w": "each to their own",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "mỗi người một sở thích",
+  "use": "Hợp Speaking khi nói về sở thích khác người, giúp câu trả lời tự nhiên và lịch sự. Không dùng trong Writing Task 2.",
+  "alt": [
+   "to each his own",
+   "there's no accounting for taste",
+   "not my cup of tea"
+  ],
+  "ex": "Some of my friends love horror films, but I find them pointless; still, each to their own.",
+  "exvi": "Vài người bạn tôi mê phim kinh dị, còn tôi thấy chẳng có ý nghĩa gì; nhưng thôi, mỗi người một sở thích.",
+  "em": ""
+ },
+ {
+  "w": "be a dab hand at sth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "rất khéo, rất giỏi làm việc gì",
+  "use": "Anh-Anh, thân mật, hợp Speaking khi khen kỹ năng của ai đó (nấu ăn, làm vườn). Không đưa vào Writing.",
+  "alt": [
+   "be good at sth",
+   "have a knack for sth",
+   "be all fingers and thumbs"
+  ],
+  "ex": "My grandmother is a dab hand at making spring rolls, and nobody in the family can match her.",
+  "exvi": "Bà tôi cuốn chả giò rất khéo, cả nhà không ai sánh được.",
+  "em": ""
+ },
+ {
+  "w": "be bitten by the bug",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "bị cuốn vào, mê mẩn một thú vui",
+  "use": "Thân mật, hợp Speaking khi kể sở thích bắt đầu. Hay nói cụ thể: \"be bitten by the travel/running bug\". Không dùng trong Writing.",
+  "alt": [
+   "catch the bug",
+   "get into sth",
+   "be hooked on sth"
+  ],
+  "ex": "I joined one charity run three years ago and was immediately bitten by the running bug.",
+  "exvi": "Ba năm trước tôi tham gia một giải chạy từ thiện và ngay lập tức mê chạy bộ.",
+  "em": "🏃"
+ },
+ {
+  "w": "paint the town red",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đi chơi đêm tưng bừng, quẩy hết mình",
+  "use": "Thân mật, chỉ hợp Speaking khi nói về ăn mừng, đi chơi đêm. Không đưa vào Writing Task 2.",
+  "alt": [
+   "have a night out",
+   "let one's hair down",
+   "have a quiet night in"
+  ],
+  "ex": "After our final exams, the whole class went out to paint the town red in the city centre.",
+  "exvi": "Sau kỳ thi cuối, cả lớp kéo nhau ra trung tâm đi chơi tưng bừng.",
+  "em": "🎉"
+ },
+ {
+  "w": "a sucker for sth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "người không cưỡng lại được thứ gì, rất dễ mê",
+  "use": "Thân mật, rất tự nhiên trong Speaking: \"I'm a sucker for...\". Không dùng trong Writing.",
+  "alt": [
+   "have a weakness for sth",
+   "have a soft spot for",
+   "can't resist sth"
+  ],
+  "ex": "I'm a sucker for old black-and-white films, especially romantic comedies from the fifties.",
+  "exvi": "Tôi không cưỡng lại được phim đen trắng cũ, nhất là phim hài lãng mạn thập niên năm mươi.",
+  "em": "🎞️"
+ },
+ {
+  "w": "get into sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bắt đầu thích, bắt đầu theo một sở thích",
+  "use": "Rất hay trong Speaking khi được hỏi \"How did you start...?\". Thân mật; trong Writing dùng \"become interested in\".",
+  "alt": [
+   "take up sth",
+   "develop an interest in sth",
+   "go off sth"
+  ],
+  "ex": "I got into rock climbing after a friend took me to an indoor climbing centre last year.",
+  "exvi": "Tôi bắt đầu mê leo núi sau khi một người bạn dẫn tôi đến phòng leo núi trong nhà năm ngoái.",
+  "em": ""
+ },
+ {
+  "w": "chill out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "thư giãn, xả hơi",
+  "use": "Thân mật, hợp Speaking. Không dùng trong Writing; thay bằng \"relax\" hoặc \"unwind\".",
+  "alt": [
+   "relax",
+   "wind down",
+   "kick back"
+  ],
+  "ex": "After work I usually chill out with some music and a cup of tea on the balcony.",
+  "exvi": "Sau giờ làm tôi thường thư giãn với chút nhạc và tách trà ngoài ban công.",
+  "em": "😎"
+ },
+ {
+  "w": "go off sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "hết thích, chán cái gì (từng thích)",
+  "use": "Anh-Anh, thân mật, rất hữu ích trong Speaking khi nói sở thích thay đổi. Người học hay không biết nghĩa này và nhầm với \"go off\" là chuông reo hoặc đồ ăn hỏng.",
+  "alt": [
+   "lose interest in sth",
+   "grow tired of sth",
+   "get into sth"
+  ],
+  "ex": "I used to love fast food, but I went off it completely after watching a documentary about nutrition.",
+  "exvi": "Trước đây tôi mê đồ ăn nhanh, nhưng xem xong một phim tài liệu về dinh dưỡng thì tôi hết thích hẳn.",
+  "em": ""
+ },
+ {
+  "w": "eat out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "ăn ở ngoài, đi ăn nhà hàng",
+  "use": "Rất hay trong Speaking Part 1 chủ đề food. Không có tân ngữ; không nói \"eat out a restaurant\", mà \"eat out at a restaurant\".",
+  "alt": [
+   "dine out",
+   "eat in",
+   "get a takeaway"
+  ],
+  "ex": "Young people in big cities eat out far more often than their parents did, partly because rent is so high.",
+  "exvi": "Người trẻ ở thành phố lớn ăn ngoài nhiều hơn hẳn bố mẹ họ ngày xưa, một phần vì tiền thuê nhà quá cao.",
+  "em": "🍜"
+ },
+ {
+  "w": "pig out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "ăn lấy ăn để, ăn thả cửa",
+  "use": "Rất thân mật, chỉ dùng trong Speaking khi nói vui. Hay đi với \"pig out on sth\".",
+  "alt": [
+   "stuff oneself",
+   "overeat",
+   "tuck into"
+  ],
+  "ex": "During Tet we always pig out on sticky rice cakes and candied fruit, then regret it afterwards.",
+  "exvi": "Dịp Tết nhà tôi lúc nào cũng ăn thả cửa bánh chưng và mứt, rồi sau đó lại hối hận.",
+  "em": "🐷"
+ },
+ {
+  "w": "branch out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "mở rộng sang lĩnh vực, sở thích mới",
+  "use": "Dùng được cả Speaking và Writing. Hay đi với \"branch out into sth\".",
+  "alt": [
+   "diversify",
+   "expand into sth",
+   "stick to what you know"
+  ],
+  "ex": "After years of only playing the guitar, I've recently branched out into singing and songwriting.",
+  "exvi": "Sau nhiều năm chỉ chơi guitar, gần đây tôi mở rộng sang hát và sáng tác.",
+  "em": "🌿"
+ },
+ {
+  "w": "take to sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bắt đầu thích, hợp với cái gì ngay",
+  "use": "Hợp Speaking khi kể mình thích nghi với hoạt động mới. Nghĩa khác hẳn \"take up\" (bắt đầu làm); \"take to\" là bắt đầu thích.",
+  "alt": [
+   "warm to",
+   "take to sth like a duck to water",
+   "get into sth"
+  ],
+  "ex": "Most children take to swimming quickly if they start lessons before the age of six.",
+  "exvi": "Đa số trẻ em thích bơi rất nhanh nếu bắt đầu học trước sáu tuổi.",
+  "em": "🏊"
+ },
+ {
+  "w": "sign up for sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "đăng ký tham gia (lớp, khóa học, câu lạc bộ)",
+  "use": "Dùng cả Speaking và Writing. Giới từ \"for\" với khóa học, sự kiện; \"sign up to\" hay dùng với dịch vụ, bản tin.",
+  "alt": [
+   "enrol on/in sth",
+   "join sth",
+   "drop out of sth"
+  ],
+  "ex": "This year I signed up for a weekend cooking course to learn how to make traditional Japanese dishes.",
+  "exvi": "Năm nay tôi đăng ký một khóa nấu ăn cuối tuần để học làm món Nhật truyền thống.",
+  "em": "✍️"
+ },
+ {
+  "w": "veg out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "nằm ườn, không làm gì cả",
+  "use": "Rất thân mật, chỉ dùng trong Speaking. Hay đi với \"veg out in front of the TV\".",
+  "alt": [
+   "laze about",
+   "lounge around",
+   "chill out"
+  ],
+  "ex": "Sometimes I just want to veg out on the sofa all weekend instead of going to the gym.",
+  "exvi": "Đôi khi tôi chỉ muốn nằm ườn trên sofa cả cuối tuần thay vì đi tập gym.",
+  "em": "🥦"
+ },
+ {
+  "w": "lounge around",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nằm dài, ngồi thảnh thơi chẳng làm gì",
+  "use": "Thân mật, hợp Speaking khi tả ngày nghỉ. Anh-Anh cũng nói \"lounge about\".",
+  "alt": [
+   "laze about",
+   "veg out",
+   "hang around"
+  ],
+  "ex": "On holiday we mostly lounged around the pool reading novels and drinking fresh coconut juice.",
+  "exvi": "Kỳ nghỉ chúng tôi chủ yếu nằm dài bên hồ bơi đọc tiểu thuyết và uống nước dừa tươi.",
+  "em": "🏖️"
+ },
+ {
+  "w": "try sth out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "dùng thử, chơi thử xem thế nào",
+  "use": "Dùng cả Speaking và Writing. Tân ngữ là đại từ thì phải đặt giữa: \"try it out\", không nói \"try out it\".",
+  "alt": [
+   "give sth a try",
+   "have a go at sth",
+   "test sth out"
+  ],
+  "ex": "I tried out yoga for a month to see whether it would help me sleep better.",
+  "exvi": "Tôi tập thử yoga một tháng xem có giúp mình ngủ ngon hơn không.",
+  "em": "🧘"
+ },
+ {
+  "w": "while away sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "giết thời gian một cách thư thả",
+  "use": "Hơi văn chương, nghe hay trong Speaking khi tả buổi chiều nhàn nhã. Hay đi với \"while away the hours/the afternoon\". Không viết thành \"wile away\".",
+  "alt": [
+   "kill time",
+   "pass the time",
+   "fritter away sth"
+  ],
+  "ex": "As a child, I would while away the summer afternoons reading comics under the mango tree.",
+  "exvi": "Hồi nhỏ, tôi thường thả trôi những buổi chiều hè đọc truyện tranh dưới gốc xoài.",
+  "em": "🌤️"
+ },
+ {
+  "w": "get away",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "đi nghỉ, đi đâu đó cho thoát khỏi thường ngày",
+  "use": "Hợp Speaking chủ đề holiday. Danh từ là \"a getaway\". Hay nói \"get away from it all\".",
+  "alt": [
+   "get away from it all",
+   "take a break",
+   "go on holiday"
+  ],
+  "ex": "Whenever we can get away for a few days, my family heads to Da Lat for the cool weather.",
+  "exvi": "Hễ đi nghỉ được vài ngày là gia đình tôi lên Đà Lạt tận hưởng thời tiết mát mẻ.",
+  "em": "🚗"
+ },
+ {
+  "w": "head off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "lên đường, rời đi đến đâu",
+  "use": "Thân mật, hợp Speaking khi kể chuyến đi. Hay đi với \"head off to + nơi chốn\".",
+  "alt": [
+   "set off",
+   "set out",
+   "make for"
+  ],
+  "ex": "Every summer my friends and I head off to the beach for a week of swimming and seafood.",
+  "exvi": "Hè nào tôi và bạn bè cũng lên đường ra biển một tuần để bơi lội và ăn hải sản.",
+  "em": "🎒"
+ }
 ]
