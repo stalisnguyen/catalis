@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "pass legislation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "thông qua luật",
+  "use": "Hợp với Writing học thuật khi bàn về vai trò của chính phủ. Không nói: make a law pass hay pass a legislation (legislation là danh từ không đếm được).",
+  "alt": [
+   "introduce legislation",
+   "pass a law",
+   "repeal legislation"
+  ],
+  "ex": "Several countries have passed legislation that limits how much sugar can be added to children's drinks.",
+  "exvi": "Một số quốc gia đã thông qua luật giới hạn lượng đường được thêm vào đồ uống cho trẻ em.",
+  "em": "📜"
+ },
+ {
+  "w": "peaceful protest",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "cuộc biểu tình ôn hòa",
+  "use": "Dùng được cả trong Writing lẫn Speaking khi nói về quyền công dân. Hay đi với hold/stage a peaceful protest.",
+  "alt": [
+   "violent protest",
+   "mass protest",
+   "peaceful demonstration"
+  ],
+  "ex": "Thousands of students joined a peaceful protest outside parliament to demand cheaper university tuition.",
+  "exvi": "Hàng nghìn sinh viên đã tham gia một cuộc biểu tình ôn hòa bên ngoài quốc hội để đòi giảm học phí đại học.",
+  "em": "🪧"
+ },
+ {
+  "w": "sign a petition",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "ký đơn kiến nghị",
+  "use": "Hợp với Speaking và Writing khi nói về cách người dân tác động đến chính sách. Không nói: write my name on a petition khi muốn nói ký tên ủng hộ.",
+  "alt": [
+   "launch a petition",
+   "start a petition",
+   "an online petition"
+  ],
+  "ex": "Over fifty thousand residents signed a petition calling for more cycle lanes in the city centre.",
+  "exvi": "Hơn năm mươi nghìn cư dân đã ký đơn kiến nghị đòi thêm làn đường dành cho xe đạp ở trung tâm thành phố.",
+  "em": "✍️"
+ },
+ {
+  "w": "tackle inequality",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "giải quyết tình trạng bất bình đẳng",
+  "use": "Rất hay dùng trong Writing Task 2 khi đề xuất giải pháp. Tackle tự nhiên hơn solve khi vấn đề lớn và lâu dài.",
+  "alt": [
+   "address inequality",
+   "reduce inequality",
+   "widen inequality"
+  ],
+  "ex": "Free school meals are one practical way governments can tackle inequality from an early age.",
+  "exvi": "Bữa ăn miễn phí ở trường là một cách thiết thực để chính phủ giải quyết bất bình đẳng ngay từ khi còn nhỏ.",
+  "em": ""
+ },
+ {
+  "w": "charitable donation",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "khoản quyên góp từ thiện",
+  "use": "Dùng trong Writing khi bàn về từ thiện và trách nhiệm xã hội. Động từ đi kèm là make a charitable donation, không nói: do a donation.",
+  "alt": [
+   "make a donation",
+   "a generous donation",
+   "donate to charity"
+  ],
+  "ex": "Some companies make large charitable donations mainly to improve their public image rather than to help.",
+  "exvi": "Một số công ty quyên góp từ thiện lớn chủ yếu để cải thiện hình ảnh trước công chúng hơn là để giúp đỡ.",
+  "em": "💝"
+ },
+ {
+  "w": "enforce the law",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "thực thi pháp luật",
+  "use": "Hợp với Writing học thuật. Phân biệt với pass a law (ban hành luật): luật có rồi nhưng cần người thực thi.",
+  "alt": [
+   "uphold the law",
+   "enforce a ban",
+   "strict enforcement"
+  ],
+  "ex": "Introducing new rules is pointless if the police lack the resources to enforce the law properly.",
+  "exvi": "Ban hành quy định mới sẽ vô ích nếu cảnh sát thiếu nguồn lực để thực thi pháp luật đúng cách.",
+  "em": "👮"
+ },
+ {
+  "w": "widespread corruption",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "tham nhũng tràn lan",
+  "use": "Dùng được trong Writing khi bàn về quản trị nhà nước. Corruption là danh từ không đếm được, không nói: a corruption.",
+  "alt": [
+   "endemic corruption",
+   "rampant corruption",
+   "tackle corruption"
+  ],
+  "ex": "Widespread corruption can discourage foreign investment and slow down a country's economic development.",
+  "exvi": "Tham nhũng tràn lan có thể làm nhà đầu tư nước ngoài nản lòng và kìm hãm sự phát triển kinh tế của một quốc gia.",
+  "em": ""
+ },
+ {
+  "w": "implement a policy",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "thực hiện chính sách",
+  "use": "Rất hợp với Writing Task 2. Không nói: do a policy hay make a policy work khi ý là triển khai.",
+  "alt": [
+   "introduce a policy",
+   "adopt a policy",
+   "abandon a policy"
+  ],
+  "ex": "The city council implemented a policy of free public transport for students during exam periods.",
+  "exvi": "Hội đồng thành phố đã thực hiện chính sách miễn phí giao thông công cộng cho học sinh trong mùa thi.",
+  "em": ""
+ },
+ {
+  "w": "socially disadvantaged",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "thiệt thòi về mặt xã hội",
+  "use": "Cách nói lịch sự, trung tính trong Writing học thuật thay cho poor. Thường đi với groups, families, backgrounds.",
+  "alt": [
+   "economically disadvantaged",
+   "underprivileged",
+   "socially excluded"
+  ],
+  "ex": "Scholarships give talented students from socially disadvantaged families a real chance to attend university.",
+  "exvi": "Học bổng mang lại cho học sinh giỏi xuất thân từ các gia đình thiệt thòi một cơ hội thực sự để vào đại học.",
+  "em": ""
+ },
+ {
+  "w": "law-abiding citizens",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "công dân tuân thủ pháp luật",
+  "use": "Hợp với Writing khi bàn về tội phạm và an ninh. Lưu ý gạch nối: law-abiding.",
+  "alt": [
+   "ordinary citizens",
+   "law-abiding members of the public",
+   "break the law"
+  ],
+  "ex": "Most law-abiding citizens support cameras in public spaces if they make the streets feel safer.",
+  "exvi": "Phần lớn công dân tuân thủ pháp luật ủng hộ việc lắp camera ở nơi công cộng nếu nó giúp đường phố an toàn hơn.",
+  "em": ""
+ },
+ {
+  "w": "take legal action against sb",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "kiện ai; khởi kiện ai",
+  "use": "Trang trọng hơn sue, dùng tốt trong Writing. Không nói: make legal action.",
+  "alt": [
+   "sue sb",
+   "file a lawsuit against sb",
+   "threaten legal action"
+  ],
+  "ex": "Residents took legal action against the factory after the river near their village became polluted.",
+  "exvi": "Người dân đã khởi kiện nhà máy sau khi con sông gần làng họ bị ô nhiễm.",
+  "em": "⚖️"
+ },
+ {
+  "w": "abuse of power",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "lạm quyền",
+  "use": "Dùng trong Writing khi nói về chính trị, công sở, truyền thông. Không nói: power abuse trong văn trang trọng.",
+  "alt": [
+   "abuse of authority",
+   "misuse of power",
+   "abuse your position"
+  ],
+  "ex": "A free press plays a vital role in exposing abuse of power by politicians and large companies.",
+  "exvi": "Báo chí tự do đóng vai trò quan trọng trong việc phanh phui hành vi lạm quyền của chính trị gia và tập đoàn lớn.",
+  "em": ""
+ },
+ {
+  "w": "human rights abuses",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "các vi phạm nhân quyền",
+  "use": "Dùng trong Writing về toàn cầu hóa, thương mại, chính trị. Human rights luôn ở dạng số nhiều khi làm bổ ngữ.",
+  "alt": [
+   "human rights violations",
+   "commit abuses",
+   "a human rights record"
+  ],
+  "ex": "Consumers increasingly avoid brands linked to human rights abuses in their overseas factories.",
+  "exvi": "Người tiêu dùng ngày càng tránh các thương hiệu dính líu đến vi phạm nhân quyền tại nhà máy ở nước ngoài.",
+  "em": ""
+ },
+ {
+  "w": "stage a protest",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tổ chức một cuộc biểu tình",
+  "use": "Stage nghe tự nhiên và học thuật hơn make hay do. Không nói: make a protest.",
+  "alt": [
+   "hold a protest",
+   "organise a demonstration",
+   "stage a walkout"
+  ],
+  "ex": "Climate activists staged a protest outside the bank to criticise its investment in fossil fuels.",
+  "exvi": "Các nhà hoạt động khí hậu đã tổ chức biểu tình trước ngân hàng để chỉ trích việc đầu tư vào nhiên liệu hóa thạch.",
+  "em": "📣"
+ },
+ {
+  "w": "close a loophole",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "bịt lỗ hổng (luật pháp)",
+  "use": "Rất hợp với Writing về thuế, kinh doanh, luật. Ngược lại là exploit a loophole (lợi dụng kẽ hở).",
+  "alt": [
+   "exploit a loophole",
+   "a legal loophole",
+   "a tax loophole"
+  ],
+  "ex": "The government promised to close a loophole that allowed tech giants to pay almost no tax.",
+  "exvi": "Chính phủ hứa sẽ bịt một lỗ hổng từng cho phép các tập đoàn công nghệ gần như không phải nộp thuế.",
+  "em": ""
+ },
+ {
+  "w": "uphold the law",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "giữ gìn, bảo vệ pháp luật",
+  "use": "Trang trọng, hợp Writing. Thường nói về vai trò của tòa án, cảnh sát. Uphold cũng đi với rights, values, a decision.",
+  "alt": [
+   "enforce the law",
+   "uphold sb's rights",
+   "uphold a decision"
+  ],
+  "ex": "Judges must uphold the law fairly, regardless of a defendant's wealth or social status.",
+  "exvi": "Thẩm phán phải bảo vệ pháp luật một cách công bằng, bất kể bị cáo giàu có hay địa vị xã hội ra sao.",
+  "em": ""
+ },
+ {
+  "w": "bring sb to justice",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "đưa ai ra trước công lý",
+  "use": "Dùng được trong Writing và Speaking khi nói về tội phạm. Không thêm the: không nói bring sb to the justice.",
+  "alt": [
+   "face justice",
+   "hold sb accountable",
+   "escape justice"
+  ],
+  "ex": "Modern DNA testing has helped bring criminals to justice decades after their crimes were committed.",
+  "exvi": "Xét nghiệm ADN hiện đại đã giúp đưa tội phạm ra trước công lý hàng chục năm sau khi chúng gây án.",
+  "em": ""
+ },
+ {
+  "w": "landmark ruling",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "phán quyết mang tính bước ngoặt",
+  "use": "Hay gặp trong báo chí và Writing về quyền con người, môi trường. Landmark cũng đi với decision, case, agreement.",
+  "alt": [
+   "landmark decision",
+   "landmark case",
+   "a court ruling"
+  ],
+  "ex": "In a landmark ruling, the court ordered the government to cut carbon emissions more quickly.",
+  "exvi": "Trong một phán quyết mang tính bước ngoặt, tòa án yêu cầu chính phủ cắt giảm khí thải carbon nhanh hơn.",
+  "em": ""
+ },
+ {
+  "w": "public outcry",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "làn sóng phản đối của dư luận",
+  "use": "Dùng trong Writing về truyền thông và chính sách. Hay đi với cause/provoke a public outcry, following a public outcry.",
+  "alt": [
+   "public backlash",
+   "provoke outrage",
+   "widespread criticism"
+  ],
+  "ex": "The plan to close rural libraries was dropped after a huge public outcry on social media.",
+  "exvi": "Kế hoạch đóng cửa thư viện nông thôn bị hủy bỏ sau làn sóng phản đối mạnh mẽ trên mạng xã hội.",
+  "em": ""
+ },
+ {
+  "w": "disproportionately affect",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "C1",
+  "vi": "ảnh hưởng nặng nề hơn hẳn (đến một nhóm)",
+  "use": "Rất học thuật, nâng band Writing khi bàn về bất bình đẳng. Lưu ý chính tả: disproportionately.",
+  "alt": [
+   "disproportionately impact",
+   "hit sb hardest",
+   "bear the brunt of sth"
+  ],
+  "ex": "Rising rents disproportionately affect young workers and low-income families living in big cities.",
+  "exvi": "Giá thuê nhà tăng ảnh hưởng nặng nề hơn hẳn đến người lao động trẻ và các gia đình thu nhập thấp ở thành phố lớn.",
+  "em": ""
+ },
+ {
+  "w": "politically motivated",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "có động cơ chính trị",
+  "use": "Dùng trong Writing và Speaking về truyền thông, luật pháp. Thường đi với decision, attack, arrest.",
+  "alt": [
+   "financially motivated",
+   "politically charged",
+   "ideologically driven"
+  ],
+  "ex": "Critics argued that the decision to cut arts funding was politically motivated rather than economic.",
+  "exvi": "Những người chỉ trích cho rằng quyết định cắt giảm ngân sách nghệ thuật có động cơ chính trị chứ không phải kinh tế.",
+  "em": ""
+ },
+ {
+  "w": "marginalised communities",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "các cộng đồng bị gạt ra lề xã hội",
+  "use": "Từ học thuật, trung tính, dùng tốt trong Writing. Chính tả Anh: marginalised; Mỹ: marginalized.",
+  "alt": [
+   "vulnerable groups",
+   "minority communities",
+   "underserved communities"
+  ],
+  "ex": "Mobile health clinics can deliver basic care to marginalised communities in remote mountain areas.",
+  "exvi": "Phòng khám lưu động có thể mang dịch vụ y tế cơ bản đến các cộng đồng bị gạt ra lề ở vùng núi xa xôi.",
+  "em": ""
+ },
+ {
+  "w": "grassroots movement",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "phong trào từ cơ sở, từ người dân",
+  "use": "Hợp Writing về hoạt động xã hội, môi trường. Nhấn mạnh phong trào do người dân tự khởi xướng, không phải từ chính phủ.",
+  "alt": [
+   "grassroots campaign",
+   "grassroots activism",
+   "a top-down approach"
+  ],
+  "ex": "What began as a small grassroots movement against plastic waste eventually changed national recycling policy.",
+  "exvi": "Điều bắt đầu từ một phong trào nhỏ của người dân chống rác thải nhựa cuối cùng đã thay đổi chính sách tái chế quốc gia.",
+  "em": "🌱"
+ },
+ {
+  "w": "seize power",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "cướp chính quyền; nắm quyền bằng vũ lực",
+  "use": "Dùng khi nói về chính biến, quân đội. Phân biệt với come to power (lên nắm quyền hợp pháp).",
+  "alt": [
+   "come to power",
+   "take power",
+   "seize control"
+  ],
+  "ex": "History shows that leaders who seize power by force rarely give it up through elections.",
+  "exvi": "Lịch sử cho thấy những lãnh đạo cướp chính quyền bằng vũ lực hiếm khi từ bỏ nó qua bầu cử.",
+  "em": ""
+ },
+ {
+  "w": "accountable to sb",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C1",
+  "vi": "chịu trách nhiệm giải trình với ai",
+  "use": "Rất hợp Writing về quản trị, doanh nghiệp. Accountable to sb for sth. Không nói: accountable with sb.",
+  "alt": [
+   "answerable to sb",
+   "held accountable for sth",
+   "responsible to sb"
+  ],
+  "ex": "Elected officials should remain accountable to voters, not to the wealthy donors who fund their campaigns.",
+  "exvi": "Quan chức dân cử phải chịu trách nhiệm trước cử tri, chứ không phải trước các nhà tài trợ giàu có cho chiến dịch của họ.",
+  "em": ""
+ },
+ {
+  "w": "deprive sb of sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "tước đoạt của ai cái gì",
+  "use": "Dùng trong Writing về quyền, giáo dục, y tế. Giới từ là of, không nói: deprive sb from sth.",
+  "alt": [
+   "deny sb sth",
+   "strip sb of sth",
+   "be deprived of sth"
+  ],
+  "ex": "Child labour deprives millions of young people of the education they need to escape poverty.",
+  "exvi": "Lao động trẻ em tước đi của hàng triệu người trẻ nền giáo dục họ cần để thoát nghèo.",
+  "em": ""
+ },
+ {
+  "w": "redistribution of wealth",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "sự phân phối lại của cải",
+  "use": "Từ học thuật, hợp Writing về thuế và bất bình đẳng. Thường đi với through taxation.",
+  "alt": [
+   "wealth redistribution",
+   "redistribute income",
+   "progressive taxation"
+  ],
+  "ex": "Supporters of higher taxes on the rich see them as a fair redistribution of wealth across society.",
+  "exvi": "Những người ủng hộ đánh thuế cao hơn với người giàu xem đó là sự phân phối lại của cải công bằng trong xã hội.",
+  "em": ""
+ },
+ {
+  "w": "lobby for sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "vận động hành lang cho điều gì",
+  "use": "Dùng trong Writing về chính sách và doanh nghiệp. Lobby against sth là vận động phản đối. Không nói: lobby to sth.",
+  "alt": [
+   "lobby against sth",
+   "campaign for sth",
+   "lobby the government"
+  ],
+  "ex": "Parents' groups have lobbied for stricter rules on advertising unhealthy snacks to young children.",
+  "exvi": "Các hội phụ huynh đã vận động cho quy định chặt chẽ hơn về quảng cáo đồ ăn vặt không lành mạnh cho trẻ nhỏ.",
+  "em": ""
+ },
+ {
+  "w": "rehabilitate offenders",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "cải tạo người phạm tội",
+  "use": "Hợp Writing Task 2 về tù giam và tội phạm. Danh từ: rehabilitation. Đối lập với punish offenders.",
+  "alt": [
+   "reintegrate offenders",
+   "punish offenders",
+   "rehabilitation programmes"
+  ],
+  "ex": "Prisons that offer job training rehabilitate offenders more effectively than those focused only on punishment.",
+  "exvi": "Các nhà tù có đào tạo nghề cải tạo người phạm tội hiệu quả hơn nhà tù chỉ tập trung vào trừng phạt.",
+  "em": ""
+ },
+ {
+  "w": "deeply entrenched",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "ăn sâu bám rễ, khó thay đổi",
+  "use": "Từ rất học thuật, nâng band Writing khi nói về định kiến, bất bình đẳng, thói quen xã hội.",
+  "alt": [
+   "firmly entrenched",
+   "deep-rooted",
+   "ingrained"
+  ],
+  "ex": "Gender stereotypes remain deeply entrenched in some industries despite decades of equality campaigns.",
+  "exvi": "Định kiến giới vẫn ăn sâu bám rễ trong một số ngành dù đã có hàng chục năm vận động bình đẳng.",
+  "em": ""
+ },
+ {
+  "w": "endemic corruption",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "tham nhũng có tính hệ thống, ăn sâu",
+  "use": "Mạnh hơn widespread corruption, chỉ tham nhũng đã thành bản chất của hệ thống. Hợp Writing học thuật.",
+  "alt": [
+   "widespread corruption",
+   "systemic corruption",
+   "rampant corruption"
+  ],
+  "ex": "Foreign aid often fails to reach the poor in countries where endemic corruption goes unchallenged.",
+  "exvi": "Viện trợ nước ngoài thường không đến được người nghèo ở những nước mà tham nhũng có hệ thống không bị ngăn chặn.",
+  "em": ""
+ },
+ {
+  "w": "wield power",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "nắm giữ và sử dụng quyền lực",
+  "use": "Trang trọng, hợp Writing. Hay đi với considerable/enormous: wield enormous power. Cũng dùng với influence.",
+  "alt": [
+   "wield influence",
+   "exercise power",
+   "hold power"
+  ],
+  "ex": "A handful of tech companies now wield enormous power over what information people see online.",
+  "exvi": "Một số ít công ty công nghệ giờ đây nắm quyền lực khổng lồ đối với thông tin mà mọi người thấy trên mạng.",
+  "em": ""
+ },
+ {
+  "w": "cling to power",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C2",
+  "vi": "bám ghế, cố níu giữ quyền lực",
+  "use": "Mang sắc thái chê, dùng khi bàn chính trị. Quá khứ: clung to power.",
+  "alt": [
+   "hold on to power",
+   "cling to office",
+   "relinquish power"
+  ],
+  "ex": "Leaders who cling to power for decades often weaken the institutions meant to limit them.",
+  "exvi": "Những lãnh đạo bám ghế hàng chục năm thường làm suy yếu chính các thể chế vốn được lập ra để giới hạn họ.",
+  "em": ""
+ },
+ {
+  "w": "infringe on sb's rights",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C2",
+  "vi": "xâm phạm quyền của ai",
+  "use": "Rất hợp Writing về giám sát, công nghệ, tự do cá nhân. Có thể nói infringe sb's rights hoặc infringe on/upon.",
+  "alt": [
+   "violate sb's rights",
+   "encroach on sb's privacy",
+   "an infringement of rights"
+  ],
+  "ex": "Some people believe facial recognition cameras infringe on citizens' rights to privacy in public places.",
+  "exvi": "Một số người cho rằng camera nhận diện khuôn mặt xâm phạm quyền riêng tư của công dân ở nơi công cộng.",
+  "em": ""
+ },
+ {
+  "w": "means-tested benefits",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "trợ cấp xét theo mức thu nhập",
+  "use": "Thuật ngữ chính sách xã hội, hợp Writing. Đối lập với universal benefits (trợ cấp cho tất cả mọi người).",
+  "alt": [
+   "universal benefits",
+   "welfare payments",
+   "state benefits"
+  ],
+  "ex": "Means-tested benefits target help at poorer households, but the paperwork can discourage people from applying.",
+  "exvi": "Trợ cấp xét theo thu nhập hướng hỗ trợ vào hộ nghèo, nhưng thủ tục giấy tờ có thể khiến người ta ngại nộp đơn.",
+  "em": ""
+ },
+ {
+  "w": "a vested interest in sth",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "lợi ích riêng gắn với việc gì",
+  "use": "Dùng trong Writing để chỉ ra động cơ của một bên. Số nhiều vested interests chỉ các nhóm lợi ích.",
+  "alt": [
+   "vested interests",
+   "a conflict of interest",
+   "have a stake in sth"
+  ],
+  "ex": "Oil companies have a vested interest in slowing down the move towards renewable energy.",
+  "exvi": "Các công ty dầu mỏ có lợi ích riêng trong việc làm chậm quá trình chuyển sang năng lượng tái tạo.",
+  "em": ""
+ },
+ {
+  "w": "turn a blind eye to sth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "làm ngơ, nhắm mắt cho qua",
+  "use": "Hợp Speaking, cũng chấp nhận được trong Writing vì khá trung tính. Không nói: close a blind eye.",
+  "alt": [
+   "look the other way",
+   "ignore sth",
+   "turn a deaf ear to sth"
+  ],
+  "ex": "Some factory owners turn a blind eye to unsafe working conditions as long as profits keep rising.",
+  "exvi": "Một số chủ nhà máy làm ngơ trước điều kiện làm việc nguy hiểm miễn là lợi nhuận vẫn tăng.",
+  "em": "🙈"
+ },
+ {
+  "w": "a slap on the wrist",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "hình phạt nhẹ hều, chỉ như phạt cho có",
+  "use": "Hợp Speaking khi chê hình phạt quá nhẹ. Trong Writing Task 2 nên thay bằng a lenient punishment.",
+  "alt": [
+   "a lenient punishment",
+   "get off lightly",
+   "a token fine"
+  ],
+  "ex": "Fining a huge company a few thousand dollars for pollution is just a slap on the wrist.",
+  "exvi": "Phạt một công ty khổng lồ vài nghìn đô vì gây ô nhiễm chỉ là phạt cho có.",
+  "em": ""
+ },
+ {
+  "w": "behind bars",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "ngồi tù, sau song sắt",
+  "use": "Phổ biến trong báo chí và Speaking. Writing học thuật nên dùng in prison hoặc imprisoned.",
+  "alt": [
+   "in prison",
+   "put sb behind bars",
+   "serve time"
+  ],
+  "ex": "Many people argue that putting non-violent offenders behind bars costs taxpayers too much money.",
+  "exvi": "Nhiều người cho rằng bỏ tù những người phạm tội không bạo lực tốn quá nhiều tiền thuế của dân.",
+  "em": "⛓️"
+ },
+ {
+  "w": "a drop in the ocean",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "muối bỏ bể, chẳng thấm vào đâu",
+  "use": "Hợp Speaking khi nói về từ thiện hoặc ngân sách quá nhỏ. Không nói: a drop in the sea. Không nên ép vào Writing Task 2.",
+  "alt": [
+   "a drop in the bucket",
+   "not make a dent in sth",
+   "a tiny fraction"
+  ],
+  "ex": "The money raised at the charity concert was a drop in the ocean compared to what the hospital needs.",
+  "exvi": "Số tiền quyên được ở buổi hòa nhạc từ thiện chỉ như muối bỏ bể so với nhu cầu của bệnh viện.",
+  "em": "💧"
+ },
+ {
+  "w": "the powers that be",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "những người nắm quyền, giới chức trách",
+  "use": "Hơi mỉa mai, hợp Speaking. Động từ chia số nhiều. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "the authorities",
+   "the establishment",
+   "those in charge"
+  ],
+  "ex": "Residents complained for years about the dangerous road, but the powers that be ignored them.",
+  "exvi": "Người dân phàn nàn nhiều năm về con đường nguy hiểm nhưng giới chức trách vẫn phớt lờ.",
+  "em": ""
+ },
+ {
+  "w": "toe the line",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "tuân theo quy định, theo đường lối chung",
+  "use": "Hợp Speaking khi nói về công việc hay chính trị. Biến thể toe the party line. Lỗi chính tả hay gặp: tow the line.",
+  "alt": [
+   "toe the party line",
+   "follow the rules",
+   "step out of line"
+  ],
+  "ex": "Junior staff who refuse to toe the line on company policy may find promotion much harder.",
+  "exvi": "Nhân viên cấp dưới không chịu tuân theo chính sách công ty có thể thấy việc thăng chức khó hơn nhiều.",
+  "em": ""
+ },
+ {
+  "w": "sweep sth under the carpet",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "ỉm đi, che giấu vấn đề",
+  "use": "Hợp Speaking khi nói về bê bối, vấn đề xã hội bị né tránh. Tiếng Mỹ dùng rug thay carpet. Không ép vào Writing Task 2.",
+  "alt": [
+   "sweep sth under the rug",
+   "cover sth up",
+   "hush sth up"
+  ],
+  "ex": "For years, the problem of bullying at the school was simply swept under the carpet by managers.",
+  "exvi": "Nhiều năm liền, vấn nạn bắt nạt ở trường bị ban quản lý ỉm đi.",
+  "em": "🧹"
+ },
+ {
+  "w": "pass the buck",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đùn đẩy trách nhiệm",
+  "use": "Hợp Speaking khi nói về quan chức, công ty né trách nhiệm. Không dùng trong Writing Task 2.",
+  "alt": [
+   "shift the blame",
+   "the buck stops here",
+   "dodge responsibility"
+  ],
+  "ex": "When the new hospital ran over budget, local and national politicians simply passed the buck.",
+  "exvi": "Khi bệnh viện mới vượt ngân sách, các chính trị gia địa phương và trung ương chỉ đùn đẩy trách nhiệm cho nhau.",
+  "em": ""
+ },
+ {
+  "w": "take the law into your own hands",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "tự xử, tự thi hành công lý",
+  "use": "Hợp Speaking, cũng có thể dùng trong Writing về tội phạm vì nghĩa rõ. Ý chê hành động ngoài pháp luật.",
+  "alt": [
+   "vigilante justice",
+   "go it alone",
+   "act outside the law"
+  ],
+  "ex": "When the police fail to respond, some angry neighbours take the law into their own hands.",
+  "exvi": "Khi cảnh sát không phản ứng, một số hàng xóm tức giận đã tự xử.",
+  "em": ""
+ },
+ {
+  "w": "fall through the cracks",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bị bỏ sót, lọt khỏi hệ thống hỗ trợ",
+  "use": "Hợp Speaking khi nói về phúc lợi, giáo dục. Tiếng Anh Anh cũng nói fall through the net. Không ép vào Writing Task 2.",
+  "alt": [
+   "fall through the net",
+   "slip through the net",
+   "be left behind"
+  ],
+  "ex": "Children with learning difficulties can easily fall through the cracks in overcrowded state schools.",
+  "exvi": "Trẻ gặp khó khăn trong học tập rất dễ bị bỏ sót ở các trường công quá tải.",
+  "em": ""
+ },
+ {
+  "w": "get off scot-free",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thoát tội mà không bị trừng phạt gì",
+  "use": "Thân mật, hợp Speaking. Scot-free không liên quan đến người Scotland. Không dùng trong Writing Task 2.",
+  "alt": [
+   "get away with it",
+   "go unpunished",
+   "escape punishment"
+  ],
+  "ex": "It seems unfair that bankers who caused the crisis got off scot-free while ordinary families lost homes.",
+  "exvi": "Thật bất công khi các chủ ngân hàng gây ra khủng hoảng thoát tội trong khi các gia đình bình thường mất nhà.",
+  "em": ""
+ },
+ {
+  "w": "pay lip service to sth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "nói suông, ủng hộ ngoài miệng",
+  "use": "Khá trang trọng nên dùng được cả Speaking lẫn Writing. Hay nói về công ty, chính phủ hứa mà không làm.",
+  "alt": [
+   "empty promises",
+   "talk the talk",
+   "be all talk"
+  ],
+  "ex": "Many brands pay lip service to sustainability while continuing to produce huge amounts of plastic packaging.",
+  "exvi": "Nhiều thương hiệu chỉ ủng hộ phát triển bền vững ngoài miệng trong khi vẫn sản xuất lượng bao bì nhựa khổng lồ.",
+  "em": ""
+ },
+ {
+  "w": "the long arm of the law",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "lưới trời lồng lộng, pháp luật vươn tới mọi nơi",
+  "use": "Hơi văn chương, hợp Speaking hoặc kể chuyện. Hay đi với escape the long arm of the law. Không dùng trong Writing Task 2.",
+  "alt": [
+   "escape justice",
+   "catch up with sb",
+   "no one is above the law"
+  ],
+  "ex": "Online fraudsters often believe they can escape the long arm of the law by working abroad.",
+  "exvi": "Kẻ lừa đảo trên mạng thường nghĩ có thể thoát lưới pháp luật bằng cách hoạt động ở nước ngoài.",
+  "em": ""
+ },
+ {
+  "w": "a political hot potato",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "vấn đề chính trị nhạy cảm, ai cũng ngại đụng",
+  "use": "Hợp Speaking khi nói về vấn đề gây tranh cãi. Có thể nói a hot potato. Không ép vào Writing Task 2.",
+  "alt": [
+   "a controversial issue",
+   "a thorny issue",
+   "a minefield"
+  ],
+  "ex": "Raising the retirement age has become a political hot potato that few parties want to discuss.",
+  "exvi": "Tăng tuổi nghỉ hưu đã thành vấn đề chính trị nhạy cảm mà ít đảng nào muốn bàn tới.",
+  "em": "🥔"
+ },
+ {
+  "w": "the letter of the law",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "câu chữ của luật (hiểu cứng nhắc)",
+  "use": "Hay đối lập với the spirit of the law. Khá trang trọng, có thể dùng trong Writing khi lập luận.",
+  "alt": [
+   "the spirit of the law",
+   "by the book",
+   "a technicality"
+  ],
+  "ex": "The company followed the letter of the law but clearly ignored its spirit by hiding the risks.",
+  "exvi": "Công ty làm đúng câu chữ của luật nhưng rõ ràng phớt lờ tinh thần của nó khi che giấu rủi ro.",
+  "em": ""
+ },
+ {
+  "w": "the thin end of the wedge",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "bước khởi đầu nhỏ dẫn tới điều tồi tệ hơn",
+  "use": "Hợp Speaking khi phản đối một chính sách nhỏ vì sợ sẽ dẫn đến hạn chế lớn hơn. Chủ yếu dùng ở Anh.",
+  "alt": [
+   "a slippery slope",
+   "open the floodgates",
+   "a dangerous precedent"
+  ],
+  "ex": "Critics see the new internet filters as the thin end of the wedge for wider censorship.",
+  "exvi": "Những người chỉ trích coi bộ lọc internet mới là bước khởi đầu cho sự kiểm duyệt rộng hơn.",
+  "em": ""
+ },
+ {
+  "w": "speak out against sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "lên tiếng phản đối điều gì",
+  "use": "Dùng được cả Speaking lẫn Writing. Không nói: speak against out. Speak out about sth là lên tiếng về một vấn đề.",
+  "alt": [
+   "speak up",
+   "condemn sth",
+   "speak out in favour of sth"
+  ],
+  "ex": "Several famous athletes have spoken out against racism in football over the past few years.",
+  "exvi": "Vài vận động viên nổi tiếng đã lên tiếng phản đối nạn phân biệt chủng tộc trong bóng đá vài năm qua.",
+  "em": "🗣️"
+ },
+ {
+  "w": "stand up for sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "đứng lên bảo vệ (quyền, người, giá trị)",
+  "use": "Hợp Speaking và Writing. Phân biệt với stand up to sb (dám chống lại ai).",
+  "alt": [
+   "stand up to sb",
+   "defend sth",
+   "fight for sth"
+  ],
+  "ex": "Young people today are more willing to stand up for their rights at work than previous generations.",
+  "exvi": "Người trẻ ngày nay sẵn sàng đứng lên bảo vệ quyền lợi ở nơi làm việc hơn các thế hệ trước.",
+  "em": ""
+ },
+ {
+  "w": "step down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "từ chức, rút khỏi vị trí",
+  "use": "Nhẹ nhàng hơn resign, dùng tốt trong cả Speaking lẫn Writing. Thường đi với as hoặc from: step down as CEO.",
+  "alt": [
+   "resign",
+   "stand down",
+   "step aside"
+  ],
+  "ex": "The minister was forced to step down after journalists revealed how public money had been wasted.",
+  "exvi": "Vị bộ trưởng buộc phải từ chức sau khi nhà báo phanh phui chuyện tiền công bị lãng phí.",
+  "em": ""
+ },
+ {
+  "w": "bring in sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "ban hành, đưa vào áp dụng (luật, quy định)",
+  "use": "Hay dùng trong Speaking thay cho introduce. Trong Writing Task 2 có thể dùng nhưng introduce trang trọng hơn. Ví dụ: bring a ban in.",
+  "alt": [
+   "introduce",
+   "phase in",
+   "scrap"
+  ],
+  "ex": "The government plans to bring in strict new rules on how social media companies handle children's data.",
+  "exvi": "Chính phủ dự định ban hành quy định mới nghiêm ngặt về cách các công ty mạng xã hội xử lý dữ liệu trẻ em.",
+  "em": ""
+ },
+ {
+  "w": "get away with sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "làm sai mà thoát tội, không bị phạt",
+  "use": "Phổ biến trong Speaking. Không tách được: không nói get it away with. Writing trang trọng có thể dùng go unpunished.",
+  "alt": [
+   "go unpunished",
+   "get off scot-free",
+   "escape punishment"
+  ],
+  "ex": "If companies can get away with polluting rivers, they have little reason to invest in cleaner technology.",
+  "exvi": "Nếu công ty có thể gây ô nhiễm sông mà không bị phạt, họ chẳng có lý do gì để đầu tư vào công nghệ sạch hơn.",
+  "em": ""
+ },
+ {
+  "w": "clamp down on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "siết chặt, trấn áp mạnh tay",
+  "use": "Gần nghĩa crack down on, dùng tốt trong Writing. Danh từ: a clampdown on sth.",
+  "alt": [
+   "crack down on sth",
+   "a clampdown",
+   "tighten controls on sth"
+  ],
+  "ex": "Authorities have clamped down on fake online reviews that mislead consumers about product quality.",
+  "exvi": "Nhà chức trách đã siết chặt xử lý các đánh giá giả trên mạng gây hiểu lầm cho người tiêu dùng về chất lượng sản phẩm.",
+  "em": ""
+ },
+ {
+  "w": "stamp out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "dập tắt, xóa bỏ hẳn (tội phạm, tệ nạn)",
+  "use": "Hợp Writing khi đề xuất giải pháp mạnh. Ví dụ: stamp corruption out. Hay đi với corruption, racism, bullying.",
+  "alt": [
+   "eradicate",
+   "wipe out",
+   "root out"
+  ],
+  "ex": "Schools need clear policies and trained staff if they truly want to stamp out bullying.",
+  "exvi": "Trường học cần chính sách rõ ràng và nhân viên được đào tạo nếu thật sự muốn dập tắt nạn bắt nạt.",
+  "em": ""
+ },
+ {
+  "w": "rise up against sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nổi dậy chống lại ai",
+  "use": "Dùng khi nói về lịch sử, cách mạng, phản kháng. Danh từ liên quan: an uprising.",
+  "alt": [
+   "revolt against sb",
+   "rebel against sb",
+   "an uprising"
+  ],
+  "ex": "History is full of examples of ordinary workers rising up against unfair taxes and poor conditions.",
+  "exvi": "Lịch sử có rất nhiều ví dụ về người lao động bình thường nổi dậy chống lại thuế bất công và điều kiện tồi tệ.",
+  "em": ""
+ },
+ {
+  "w": "do away with sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bãi bỏ, loại bỏ",
+  "use": "Dùng được cả Speaking lẫn Writing. Không tách được. Trang trọng hơn có abolish.",
+  "alt": [
+   "abolish",
+   "scrap",
+   "get rid of sth"
+  ],
+  "ex": "Some educators want to do away with school uniforms, arguing they limit students' self-expression.",
+  "exvi": "Một số nhà giáo dục muốn bãi bỏ đồng phục học sinh vì cho rằng nó hạn chế sự thể hiện bản thân.",
+  "em": ""
+ },
+ {
+  "w": "cover up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "che đậy, bưng bít (sai phạm)",
+  "use": "Hợp Speaking và Writing về truyền thông, bê bối. Danh từ: a cover-up. Ví dụ: cover the scandal up.",
+  "alt": [
+   "a cover-up",
+   "hush sth up",
+   "sweep sth under the carpet"
+  ],
+  "ex": "The company tried to cover up safety problems with its cars until a whistleblower contacted the press.",
+  "exvi": "Công ty cố bưng bít các vấn đề an toàn của xe cho đến khi một người tố giác liên hệ với báo chí.",
+  "em": ""
+ },
+ {
+  "w": "push for sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "thúc đẩy, đòi hỏi mạnh mẽ (thay đổi)",
+  "use": "Hợp Writing và Speaking khi nói về vận động chính sách. Push for sb to do sth cũng đúng.",
+  "alt": [
+   "call for sth",
+   "campaign for sth",
+   "press for sth"
+  ],
+  "ex": "Environmental groups are pushing for a ban on single-use plastics in all supermarkets.",
+  "exvi": "Các nhóm môi trường đang thúc đẩy lệnh cấm đồ nhựa dùng một lần ở tất cả siêu thị.",
+  "em": ""
+ },
+ {
+  "w": "back down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nhượng bộ, lùi bước",
+  "use": "Hay dùng khi chính phủ rút lại kế hoạch trước sức ép. Back down on/over sth. Không nói: back down sth.",
+  "alt": [
+   "give in",
+   "make a U-turn",
+   "stand firm"
+  ],
+  "ex": "The government backed down on the fuel tax increase after weeks of protests by farmers and drivers.",
+  "exvi": "Chính phủ đã nhượng bộ về việc tăng thuế nhiên liệu sau nhiều tuần biểu tình của nông dân và tài xế.",
+  "em": ""
+ },
+ {
+  "w": "whip up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "khuấy động, kích động (cảm xúc, ủng hộ)",
+  "use": "Thường mang nghĩa chê khi nói về chính trị gia, truyền thông kích động. Hay đi với support, anger, fear, hysteria.",
+  "alt": [
+   "stir up sth",
+   "fuel sth",
+   "inflame sth"
+  ],
+  "ex": "Some newspapers whip up fear about immigration to sell more copies and attract online clicks.",
+  "exvi": "Một số tờ báo khuấy động nỗi sợ về nhập cư để bán thêm báo và thu hút lượt nhấp trên mạng.",
+  "em": ""
+ },
+ {
+  "w": "rein in sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "kiềm chế, kìm hãm (quyền lực, chi tiêu)",
+  "use": "Hợp Writing khi bàn về kiểm soát tập đoàn lớn, chi tiêu công. Ví dụ: rein spending in. Chính tả: rein, không phải reign.",
+  "alt": [
+   "curb sth",
+   "keep sth in check",
+   "rein back sth"
+  ],
+  "ex": "Many voters want lawmakers to rein in the influence of big tech companies over public debate.",
+  "exvi": "Nhiều cử tri muốn các nhà lập pháp kiềm chế ảnh hưởng của các tập đoàn công nghệ lớn đối với tranh luận công khai.",
+  "em": ""
+ }
+]

@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "a tight deadline",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "hạn chót gấp, thời hạn eo hẹp",
+  "use": "Dùng được cả Writing và Speaking. Thường đi với work to / face a tight deadline. Không nói: a short deadline hay a narrow deadline.",
+  "alt": [
+   "a strict deadline",
+   "work to a deadline",
+   "an impossible deadline"
+  ],
+  "ex": "Junior designers often have to work to tight deadlines, which leaves little room for creative experimentation.",
+  "exvi": "Các nhà thiết kế mới vào nghề thường phải làm việc với hạn chót rất gấp, nên gần như không còn chỗ cho việc thử nghiệm sáng tạo.",
+  "em": "⏰"
+ },
+ {
+  "w": "career prospects",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "triển vọng nghề nghiệp, cơ hội thăng tiến",
+  "use": "Hợp với Writing học thuật khi bàn về giáo dục và việc làm. Hay đi với improve / enhance / limit sb's career prospects. Luôn để số nhiều.",
+  "alt": [
+   "job prospects",
+   "career opportunities",
+   "promotion prospects"
+  ],
+  "ex": "Many students believe that a postgraduate degree will significantly improve their career prospects in a crowded job market.",
+  "exvi": "Nhiều sinh viên tin rằng một tấm bằng sau đại học sẽ cải thiện đáng kể triển vọng nghề nghiệp của họ trong một thị trường việc làm đông đúc.",
+  "em": ""
+ },
+ {
+  "w": "take early retirement",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "nghỉ hưu sớm",
+  "use": "Dùng được trong Writing và Speaking. Không có a trước retirement. Không nói: make early retirement hay do early retirement.",
+  "alt": [
+   "retire early",
+   "opt for early retirement",
+   "be offered early retirement"
+  ],
+  "ex": "After thirty years in banking, my uncle decided to take early retirement and spend more time with his grandchildren.",
+  "exvi": "Sau ba mươi năm làm ngân hàng, chú tôi quyết định nghỉ hưu sớm để dành nhiều thời gian hơn cho các cháu.",
+  "em": ""
+ },
+ {
+  "w": "a heavy workload",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "khối lượng công việc nặng",
+  "use": "Dùng tốt cả hai kỹ năng. Người Việt hay nói a big workload hay many workloads; workload là danh từ không đếm được khi nói chung, dùng heavy hoặc excessive.",
+  "alt": [
+   "an excessive workload",
+   "a manageable workload",
+   "be overloaded with work"
+  ],
+  "ex": "Teachers with a heavy workload often struggle to give each student the individual attention they need.",
+  "exvi": "Giáo viên có khối lượng công việc nặng thường khó dành cho từng học sinh sự quan tâm riêng mà các em cần.",
+  "em": "📚"
+ },
+ {
+  "w": "a time-consuming task",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "việc tốn nhiều thời gian",
+  "use": "Dùng được trong Writing và Speaking. Nhớ có gạch nối giữa time và consuming. Không nói: a time-wasting task khi chỉ muốn nói việc mất thời gian (wasting mang nghĩa vô ích).",
+  "alt": [
+   "a laborious task",
+   "a lengthy process",
+   "eat up time"
+  ],
+  "ex": "Checking every invoice by hand used to be a time-consuming task until the company introduced accounting software.",
+  "exvi": "Kiểm tra từng hóa đơn bằng tay từng là một việc rất tốn thời gian cho đến khi công ty đưa phần mềm kế toán vào sử dụng.",
+  "em": "⏳"
+ },
+ {
+  "w": "boost productivity",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tăng năng suất",
+  "use": "Hay dùng trong Writing Task 2 về công việc và công nghệ. Có thể thay bằng increase / raise / improve productivity. Không nói: rise productivity (rise là nội động từ).",
+  "alt": [
+   "increase productivity",
+   "improve efficiency",
+   "hamper productivity"
+  ],
+  "ex": "Some firms claim that allowing staff to work from home can actually boost productivity rather than reduce it.",
+  "exvi": "Một số công ty cho rằng việc cho nhân viên làm tại nhà thực ra có thể tăng năng suất chứ không làm giảm đi.",
+  "em": "📈"
+ },
+ {
+  "w": "a demanding job",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "công việc đòi hỏi cao, vất vả",
+  "use": "Tự nhiên trong Speaking khi kể về nghề nghiệp, dùng được cả Writing. Demanding nói về áp lực và yêu cầu cao, khác với a hard job vốn chung chung hơn.",
+  "alt": [
+   "a stressful job",
+   "a challenging role",
+   "a high-pressure job"
+  ],
+  "ex": "Nursing is a demanding job that requires both physical stamina and a great deal of emotional resilience.",
+  "exvi": "Điều dưỡng là một công việc vất vả, đòi hỏi cả sức bền thể chất lẫn khả năng chịu đựng về mặt cảm xúc rất lớn.",
+  "em": ""
+ },
+ {
+  "w": "be made redundant",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "bị cắt giảm biên chế, bị cho nghỉ việc vì công ty không cần vị trí đó nữa",
+  "use": "Cách nói Anh-Anh trung tính, hợp cả Writing và Speaking. Khác với be fired (bị đuổi vì lỗi). Không nói: be redundanted.",
+  "alt": [
+   "be laid off",
+   "lose one's job",
+   "job losses"
+  ],
+  "ex": "Hundreds of factory workers were made redundant when production was moved to a cheaper location overseas.",
+  "exvi": "Hàng trăm công nhân nhà máy bị cắt giảm khi hoạt động sản xuất được chuyển ra nước ngoài, nơi chi phí rẻ hơn.",
+  "em": ""
+ },
+ {
+  "w": "go out of business",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "phá sản, đóng cửa vì làm ăn thua lỗ",
+  "use": "Dùng được trong Writing và Speaking. Chủ ngữ là công ty hoặc cửa hàng. Không nói: go out of the business.",
+  "alt": [
+   "go bankrupt",
+   "go bust",
+   "close down"
+  ],
+  "ex": "Many small bookshops have gone out of business because they simply cannot compete with online retailers.",
+  "exvi": "Nhiều hiệu sách nhỏ đã phải đóng cửa vì đơn giản là không thể cạnh tranh nổi với các nhà bán lẻ trực tuyến.",
+  "em": ""
+ },
+ {
+  "w": "highly motivated",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "có động lực rất cao, rất hăng hái",
+  "use": "Hợp cả Writing và Speaking, rất hay gặp trong tin tuyển dụng và CV. Dùng highly, không dùng very much motivated.",
+  "alt": [
+   "highly skilled",
+   "self-motivated",
+   "poorly motivated"
+  ],
+  "ex": "Employers tend to look for highly motivated graduates who can work independently without constant supervision.",
+  "exvi": "Nhà tuyển dụng thường tìm những sinh viên mới tốt nghiệp có động lực cao, có thể làm việc độc lập mà không cần giám sát liên tục.",
+  "em": ""
+ },
+ {
+  "w": "an entry-level position",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "vị trí cho người mới vào nghề, vị trí khởi điểm",
+  "use": "Trung tính, dùng được cả hai kỹ năng. Có thể thay position bằng job hoặc role. Nhớ gạch nối trong entry-level.",
+  "alt": [
+   "an entry-level job",
+   "a junior role",
+   "a graduate position"
+  ],
+  "ex": "Even an entry-level position at a major tech firm now attracts thousands of applications from recent graduates.",
+  "exvi": "Ngay cả một vị trí khởi điểm ở công ty công nghệ lớn giờ cũng thu hút hàng nghìn hồ sơ từ sinh viên mới ra trường.",
+  "em": ""
+ },
+ {
+  "w": "a looming deadline",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "hạn chót đang đến gần (gây áp lực)",
+  "use": "Hợp Speaking và Writing ở mức C1. Looming gợi cảm giác lo lắng vì hạn sắp tới. Cũng có thể dùng động từ: the deadline is looming.",
+  "alt": [
+   "an approaching deadline",
+   "a fast-approaching deadline",
+   "a tight deadline"
+  ],
+  "ex": "With a looming deadline for her thesis, she switched off her phone and worked late into the night.",
+  "exvi": "Hạn nộp luận văn đã đến gần, cô ấy tắt điện thoại và làm việc đến khuya.",
+  "em": ""
+ },
+ {
+  "w": "fill a vacancy",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tuyển người vào vị trí còn trống",
+  "use": "Dùng trong Writing về thị trường lao động. Chủ ngữ thường là công ty hoặc người được tuyển. Không nói: complete a vacancy.",
+  "alt": [
+   "advertise a vacancy",
+   "recruit for a post",
+   "a job opening"
+  ],
+  "ex": "Rural hospitals often find it extremely difficult to fill vacancies for specialist doctors and experienced nurses.",
+  "exvi": "Các bệnh viện ở nông thôn thường rất khó tuyển được người cho các vị trí bác sĩ chuyên khoa và điều dưỡng có kinh nghiệm.",
+  "em": ""
+ },
+ {
+  "w": "be passed over for promotion",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "bị bỏ qua khi xét thăng chức",
+  "use": "Hợp Speaking và Writing khi bàn về bất công nơi làm việc. Luôn ở thể bị động. Không nói: be passed for promotion.",
+  "alt": [
+   "be promoted",
+   "be overlooked for promotion",
+   "win promotion"
+  ],
+  "ex": "Some women report being passed over for promotion after returning from maternity leave, despite strong performance reviews.",
+  "exvi": "Một số phụ nữ cho biết họ bị bỏ qua khi xét thăng chức sau khi đi làm lại từ kỳ nghỉ thai sản, dù kết quả đánh giá công việc rất tốt.",
+  "em": ""
+ },
+ {
+  "w": "hand in one's notice",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "nộp đơn xin nghỉ việc",
+  "use": "Cách nói Anh-Anh phổ biến, hợp Speaking và Writing trung tính. Trang trọng hơn thì dùng resign. Không nói: give in my notice.",
+  "alt": [
+   "resign",
+   "give notice",
+   "quit one's job"
+  ],
+  "ex": "Frustrated by the lack of flexibility, he handed in his notice and started working as a freelance translator.",
+  "exvi": "Chán nản vì công việc thiếu linh hoạt, anh ấy nộp đơn nghỉ việc và bắt đầu làm dịch giả tự do.",
+  "em": ""
+ },
+ {
+  "w": "turn a profit",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "bắt đầu có lãi",
+  "use": "Hợp Writing và Speaking về kinh doanh. Thường nói về công ty mới mất thời gian mới có lãi. Không nói: get a profit hay earn profit (nên dùng make a profit).",
+  "alt": [
+   "make a profit",
+   "break even",
+   "make a loss"
+  ],
+  "ex": "Most start-ups take several years to turn a profit, so founders need enough savings to survive the early stages.",
+  "exvi": "Phần lớn công ty khởi nghiệp phải mất vài năm mới có lãi, nên người sáng lập cần đủ tiền tiết kiệm để trụ qua giai đoạn đầu.",
+  "em": "💰"
+ },
+ {
+  "w": "cut-throat competition",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "cạnh tranh khốc liệt, cạnh tranh không khoan nhượng",
+  "use": "Hợp cả hai kỹ năng, sắc thái mạnh và hơi tiêu cực. Nhớ gạch nối. Bản trung tính hơn là fierce competition.",
+  "alt": [
+   "fierce competition",
+   "intense competition",
+   "a cut-throat industry"
+  ],
+  "ex": "The cut-throat competition in the fashion industry forces many young designers to accept unpaid internships.",
+  "exvi": "Sự cạnh tranh khốc liệt trong ngành thời trang buộc nhiều nhà thiết kế trẻ phải chấp nhận thực tập không lương.",
+  "em": ""
+ },
+ {
+  "w": "a lucrative career",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự nghiệp kiếm nhiều tiền, nghề béo bở",
+  "use": "Hợp Writing học thuật thay cho a high-paid career. Lucrative cũng đi với business, contract, market.",
+  "alt": [
+   "a well-paid job",
+   "a lucrative contract",
+   "a rewarding career"
+  ],
+  "ex": "Parents often push their children towards lucrative careers in law or medicine rather than the arts.",
+  "exvi": "Cha mẹ thường hướng con cái theo những nghề kiếm nhiều tiền như luật hay y thay vì nghệ thuật.",
+  "em": ""
+ },
+ {
+  "w": "hit a target",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đạt chỉ tiêu, đạt mục tiêu đề ra",
+  "use": "Thân mật hơn achieve / meet a target, hợp Speaking. Trong Writing nên dùng meet hoặc achieve. Nói về chỉ tiêu doanh số thì hit tự nhiên hơn reach.",
+  "alt": [
+   "meet a target",
+   "miss a target",
+   "exceed a target"
+  ],
+  "ex": "Call centre staff who fail to hit their monthly targets may lose their bonuses or even their jobs.",
+  "exvi": "Nhân viên tổng đài không đạt chỉ tiêu tháng có thể mất tiền thưởng, thậm chí mất việc.",
+  "em": "🎯"
+ },
+ {
+  "w": "performance-related pay",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "lương theo hiệu quả công việc",
+  "use": "Thuật ngữ trung tính, hợp Writing Task 2 về động lực làm việc. Không đếm được, không thêm a.",
+  "alt": [
+   "a performance bonus",
+   "a fixed salary",
+   "commission"
+  ],
+  "ex": "Supporters of performance-related pay argue that it rewards effort, while critics say it encourages unhealthy rivalry.",
+  "exvi": "Người ủng hộ lương theo hiệu quả cho rằng nó thưởng cho sự nỗ lực, còn người phản đối nói nó khuyến khích sự ganh đua không lành mạnh.",
+  "em": ""
+ },
+ {
+  "w": "work unsociable hours",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "làm việc vào giờ giấc bất thường (đêm, cuối tuần)",
+  "use": "Cách nói Anh-Anh, hợp cả hai kỹ năng. Unsociable ở đây là giờ giấc khó gặp gỡ ai, không phải tính cách khó gần.",
+  "alt": [
+   "work night shifts",
+   "work long hours",
+   "work irregular hours"
+  ],
+  "ex": "Paramedics and pilots often work unsociable hours, which can put a real strain on family life.",
+  "exvi": "Nhân viên cấp cứu và phi công thường phải làm việc vào giờ giấc bất thường, điều này có thể gây áp lực lớn lên đời sống gia đình.",
+  "em": "🌙"
+ },
+ {
+  "w": "delegate responsibility",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "giao bớt trách nhiệm, ủy quyền",
+  "use": "Hợp Writing và Speaking về quản lý. Cấu trúc: delegate sth to sb. Không nói: delegate sb sth.",
+  "alt": [
+   "delegate tasks",
+   "share the workload",
+   "take on responsibility"
+  ],
+  "ex": "Good managers know how to delegate responsibility to their team instead of trying to do everything themselves.",
+  "exvi": "Người quản lý giỏi biết cách giao bớt trách nhiệm cho cả nhóm thay vì cố tự mình làm mọi thứ.",
+  "em": ""
+ },
+ {
+  "w": "land a job",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "kiếm được việc (thường là việc tốt, khó giành)",
+  "use": "Hơi thân mật, rất tự nhiên trong Speaking. Trong Writing dùng secure a job hoặc obtain employment.",
+  "alt": [
+   "secure a job",
+   "get a job",
+   "land a contract"
+  ],
+  "ex": "After months of applications, my cousin finally landed a job at an engineering firm in Singapore.",
+  "exvi": "Sau nhiều tháng nộp hồ sơ, em họ tôi cuối cùng cũng kiếm được việc ở một công ty kỹ thuật tại Singapore.",
+  "em": ""
+ },
+ {
+  "w": "draw a pension",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "nhận lương hưu",
+  "use": "Trung tính, hợp Writing về già hóa dân số. Draw nghĩa là nhận tiền định kỳ. Không nói: take a pension hay eat a pension (dịch từ ăn lương hưu).",
+  "alt": [
+   "receive a pension",
+   "claim a pension",
+   "a state pension"
+  ],
+  "ex": "As life expectancy rises, people are drawing a pension for far longer than governments originally planned.",
+  "exvi": "Khi tuổi thọ tăng, người dân nhận lương hưu trong thời gian dài hơn nhiều so với dự tính ban đầu của chính phủ.",
+  "em": ""
+ },
+ {
+  "w": "fiercely competitive",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "cạnh tranh rất gay gắt",
+  "use": "Hợp Writing học thuật, dùng cho thị trường, ngành nghề hoặc con người. Mạnh hơn very competitive.",
+  "alt": [
+   "highly competitive",
+   "cut-throat",
+   "intensely competitive"
+  ],
+  "ex": "The graduate job market has become fiercely competitive, with top firms rejecting over ninety percent of applicants.",
+  "exvi": "Thị trường việc làm cho sinh viên mới tốt nghiệp đã trở nên cạnh tranh rất gay gắt, các công ty hàng đầu từ chối hơn chín mươi phần trăm ứng viên.",
+  "em": ""
+ },
+ {
+  "w": "a proven track record",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "thành tích đã được chứng minh, bề dày kinh nghiệm thành công",
+  "use": "Hay gặp trong tuyển dụng, hợp cả hai kỹ năng. Cấu trúc: a proven track record in / of sth.",
+  "alt": [
+   "a strong track record",
+   "relevant experience",
+   "a poor track record"
+  ],
+  "ex": "Investors are far more willing to fund entrepreneurs who have a proven track record of building successful companies.",
+  "exvi": "Nhà đầu tư sẵn sàng rót vốn hơn nhiều cho những doanh nhân có thành tích đã được chứng minh trong việc xây dựng công ty thành công.",
+  "em": ""
+ },
+ {
+  "w": "office politics",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "chuyện đấu đá, bè phái nơi công sở",
+  "use": "Hợp Speaking và Writing. Động từ chia số ít hoặc số nhiều đều được. Hay đi với get involved in / play office politics.",
+  "alt": [
+   "workplace politics",
+   "a toxic work environment",
+   "power struggles"
+  ],
+  "ex": "Many employees say that office politics cause them more stress than the actual work they are paid to do.",
+  "exvi": "Nhiều nhân viên nói rằng chuyện đấu đá nơi công sở khiến họ căng thẳng hơn cả chính công việc họ được trả lương để làm.",
+  "em": ""
+ },
+ {
+  "w": "a fixed-term contract",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "hợp đồng có thời hạn",
+  "use": "Thuật ngữ trung tính, hợp Writing về việc làm bấp bênh. Đối lập là a permanent contract. Nhớ gạch nối.",
+  "alt": [
+   "a permanent contract",
+   "a temporary contract",
+   "a zero-hours contract"
+  ],
+  "ex": "Young researchers are often employed on fixed-term contracts, which makes it difficult to plan for the future.",
+  "exvi": "Các nhà nghiên cứu trẻ thường làm theo hợp đồng có thời hạn, khiến họ khó lên kế hoạch cho tương lai.",
+  "em": ""
+ },
+ {
+  "w": "negotiate a pay rise",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đàm phán tăng lương",
+  "use": "Anh-Anh dùng pay rise, Anh-Mỹ dùng raise. Hợp cả hai kỹ năng. Không nói: negotiate a salary increasing.",
+  "alt": [
+   "ask for a pay rise",
+   "get a pay rise",
+   "a pay freeze"
+  ],
+  "ex": "Research suggests that women are less likely than men to negotiate a pay rise, which widens the gender pay gap.",
+  "exvi": "Nghiên cứu cho thấy phụ nữ ít đàm phán tăng lương hơn nam giới, điều này làm khoảng cách lương giữa hai giới rộng thêm.",
+  "em": ""
+ },
+ {
+  "w": "gainful employment",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "việc làm có thu nhập ổn định",
+  "use": "Rất trang trọng, hợp Writing học thuật hoặc văn bản chính sách. Trong Speaking dùng sẽ nghe hơi cứng hoặc mang tính đùa. Không đếm được.",
+  "alt": [
+   "paid employment",
+   "a steady job",
+   "full-time employment"
+  ],
+  "ex": "Vocational programmes help young offenders find gainful employment and reduce the likelihood that they will reoffend.",
+  "exvi": "Các chương trình dạy nghề giúp người trẻ từng phạm tội tìm được việc làm có thu nhập ổn định và giảm khả năng tái phạm.",
+  "em": ""
+ },
+ {
+  "w": "a punishing schedule",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "lịch làm việc dày đặc, kiệt sức",
+  "use": "Hợp Speaking và Writing nâng cao. Punishing ở đây nghĩa là quá sức, không liên quan đến trừng phạt.",
+  "alt": [
+   "a gruelling schedule",
+   "a hectic schedule",
+   "a packed schedule"
+  ],
+  "ex": "Junior doctors often follow a punishing schedule of night shifts that leaves them exhausted and prone to mistakes.",
+  "exvi": "Bác sĩ trẻ thường phải theo lịch trực đêm dày đặc khiến họ kiệt sức và dễ mắc sai sót.",
+  "em": ""
+ },
+ {
+  "w": "phased retirement",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "nghỉ hưu theo lộ trình (giảm dần giờ làm trước khi nghỉ hẳn)",
+  "use": "Thuật ngữ khá chuyên, hợp Writing Task 2 về dân số già và thị trường lao động. Không cần a phía trước.",
+  "alt": [
+   "gradual retirement",
+   "part-time work",
+   "take early retirement"
+  ],
+  "ex": "Phased retirement allows experienced staff to pass on their knowledge while gradually reducing their working hours.",
+  "exvi": "Nghỉ hưu theo lộ trình cho phép nhân viên giàu kinh nghiệm truyền lại kiến thức trong khi giảm dần giờ làm.",
+  "em": ""
+ },
+ {
+  "w": "ruthlessly efficient",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "hiệu quả đến mức lạnh lùng, không khoan nhượng",
+  "use": "Hợp Writing và Speaking nâng cao. Có thể mang ý khen hoặc chê ngầm (hiệu quả nhưng thiếu tình người).",
+  "alt": [
+   "highly efficient",
+   "brutally efficient",
+   "streamlined"
+  ],
+  "ex": "The new warehouse is ruthlessly efficient, but workers complain that they are treated more like machines than people.",
+  "exvi": "Nhà kho mới vận hành hiệu quả đến mức lạnh lùng, nhưng công nhân than phiền rằng họ bị đối xử như máy móc hơn là con người.",
+  "em": ""
+ },
+ {
+  "w": "career trajectory",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C2",
+  "vi": "quỹ đạo, hướng phát triển của sự nghiệp",
+  "use": "Trang trọng, hợp Writing học thuật. Thay cho career path khi muốn nhấn vào hướng đi lên hay đi xuống theo thời gian.",
+  "alt": [
+   "career path",
+   "career progression",
+   "career development"
+  ],
+  "ex": "A single bad reference early on can have a surprisingly lasting effect on a person's career trajectory.",
+  "exvi": "Chỉ một lời nhận xét xấu từ sớm cũng có thể ảnh hưởng lâu dài một cách bất ngờ đến hướng phát triển sự nghiệp của một người.",
+  "em": ""
+ },
+ {
+  "w": "diversify income streams",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "đa dạng hóa nguồn thu nhập",
+  "use": "Hợp Writing và Speaking về tài chính cá nhân, kinh doanh, làm tự do. Luôn dùng streams số nhiều.",
+  "alt": [
+   "a second income",
+   "multiple income streams",
+   "a side hustle"
+  ],
+  "ex": "Many freelance musicians diversify their income streams by teaching online lessons and selling merchandise.",
+  "exvi": "Nhiều nhạc sĩ làm tự do đa dạng hóa nguồn thu nhập bằng cách dạy học trực tuyến và bán đồ lưu niệm.",
+  "em": ""
+ },
+ {
+  "w": "competing demands on one's time",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C2",
+  "vi": "nhiều việc cùng tranh giành thời gian của mình",
+  "use": "Trang trọng, hợp Writing học thuật khi bàn về cân bằng công việc và cuộc sống. Có thể nói conflicting demands.",
+  "alt": [
+   "conflicting demands",
+   "juggle commitments",
+   "pressed for time"
+  ],
+  "ex": "Working parents face competing demands on their time, from office meetings to school events and household chores.",
+  "exvi": "Những người vừa đi làm vừa nuôi con phải xoay xở với nhiều việc cùng lúc, từ họp ở công ty đến sự kiện ở trường và việc nhà.",
+  "em": ""
+ },
+ {
+  "w": "against the clock",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "chạy đua với thời gian",
+  "use": "Hợp IELTS Speaking, thường đi với work / race against the clock. Có thể dùng thỉnh thoảng trong Writing nhưng không nên cố nhét idiom vào Task 2.",
+  "alt": [
+   "race against time",
+   "pressed for time",
+   "beat the clock"
+  ],
+  "ex": "The engineers were working against the clock to repair the bridge before the holiday traffic arrived.",
+  "exvi": "Các kỹ sư phải chạy đua với thời gian để sửa cây cầu trước khi dòng xe dịp lễ đổ về.",
+  "em": "⏱️"
+ },
+ {
+  "w": "get the sack",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "bị đuổi việc",
+  "use": "Thân mật, chỉ nên dùng trong Speaking. Writing Task 2 dùng be dismissed hoặc lose one's job, không cố nhét idiom vào.",
+  "alt": [
+   "give sb the sack",
+   "be fired",
+   "be dismissed"
+  ],
+  "ex": "He got the sack after posting confidential company information on social media.",
+  "exvi": "Anh ta bị đuổi việc sau khi đăng thông tin mật của công ty lên mạng xã hội.",
+  "em": ""
+ },
+ {
+  "w": "a nine-to-five job",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "công việc hành chính giờ giấc cố định",
+  "use": "Rất tự nhiên trong Speaking khi so sánh làm công sở với làm tự do. Trong Writing có thể thay bằng a conventional office job.",
+  "alt": [
+   "an office job",
+   "a desk job",
+   "work nine to five"
+  ],
+  "ex": "I left my nine-to-five job because I wanted more control over when and where I worked.",
+  "exvi": "Tôi bỏ công việc hành chính giờ giấc cố định vì muốn tự quyết định làm lúc nào và ở đâu.",
+  "em": "🏢"
+ },
+ {
+  "w": "time is money",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "thời gian là tiền bạc",
+  "use": "Câu thành ngữ quen thuộc, hợp Speaking. Tránh mở bài Writing Task 2 bằng câu này vì giám khảo coi là sáo rỗng.",
+  "alt": [
+   "every minute counts",
+   "waste time",
+   "save time"
+  ],
+  "ex": "My manager always says time is money, so our meetings rarely last longer than fifteen minutes.",
+  "exvi": "Sếp tôi lúc nào cũng nói thời gian là tiền bạc, nên các cuộc họp của chúng tôi hiếm khi kéo dài quá mười lăm phút.",
+  "em": "💸"
+ },
+ {
+  "w": "get down to business",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "bắt tay vào việc chính",
+  "use": "Hợp Speaking, nhất là khi kể về các buổi họp hay học nhóm. Không dùng trong Writing Task 2.",
+  "alt": [
+   "get down to work",
+   "get started",
+   "cut to the chase"
+  ],
+  "ex": "After a few minutes of small talk, the team got down to business and reviewed the project budget.",
+  "exvi": "Sau vài phút chuyện phiếm, cả nhóm bắt tay vào việc chính và xem lại ngân sách dự án.",
+  "em": ""
+ },
+ {
+  "w": "the rat race",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "vòng xoáy cơm áo, cuộc đua bon chen kiếm sống",
+  "use": "Hợp Speaking khi nói về áp lực đô thị và mong muốn sống chậm. Hay đi với escape / get out of the rat race. Không cố đưa vào Writing.",
+  "alt": [
+   "the daily grind",
+   "the treadmill",
+   "escape the rat race"
+  ],
+  "ex": "More young professionals are leaving the rat race in big cities to start small farms in the countryside.",
+  "exvi": "Ngày càng nhiều người trẻ có chuyên môn rời bỏ vòng xoáy bon chen ở thành phố lớn để mở trang trại nhỏ ở nông thôn.",
+  "em": "🐀"
+ },
+ {
+  "w": "put sth on the back burner",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "tạm gác lại, để sau",
+  "use": "Hợp Speaking và cả văn viết bán trang trọng như email công việc. Writing Task 2 nên dùng postpone hoặc deprioritise.",
+  "alt": [
+   "put sth on hold",
+   "shelve",
+   "a top priority"
+  ],
+  "ex": "She put her plans for a master's degree on the back burner when she was offered a promotion.",
+  "exvi": "Cô ấy tạm gác kế hoạch học thạc sĩ khi được đề nghị thăng chức.",
+  "em": ""
+ },
+ {
+  "w": "the bottom line",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "điều cốt lõi; lợi nhuận cuối cùng",
+  "use": "Nghĩa thứ nhất (điều quan trọng nhất) hợp Speaking. Nghĩa thứ hai (lợi nhuận) gặp nhiều trong báo chí kinh doanh. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "the key point",
+   "at the end of the day",
+   "profit margin"
+  ],
+  "ex": "Companies often cut training budgets first, because they care more about the bottom line than staff development.",
+  "exvi": "Các công ty thường cắt ngân sách đào tạo trước tiên vì họ quan tâm đến lợi nhuận hơn là sự phát triển của nhân viên.",
+  "em": ""
+ },
+ {
+  "w": "cut corners",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "làm ẩu, đi tắt để tiết kiệm thời gian hoặc tiền",
+  "use": "Dùng tốt trong Speaking, có thể dùng trong Writing bán trang trọng vì đã rất phổ biến. Mang nghĩa tiêu cực.",
+  "alt": [
+   "do a sloppy job",
+   "take shortcuts",
+   "do sth by the book"
+  ],
+  "ex": "When builders are under pressure to finish quickly, they may cut corners on safety checks.",
+  "exvi": "Khi thợ xây bị ép phải hoàn thành nhanh, họ có thể làm ẩu ở khâu kiểm tra an toàn.",
+  "em": ""
+ },
+ {
+  "w": "a dog-eat-dog world",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thế giới cá lớn nuốt cá bé, cạnh tranh tàn nhẫn",
+  "use": "Hợp Speaking khi bàn về môi trường làm việc cạnh tranh. Writing Task 2 nên dùng a fiercely competitive environment.",
+  "alt": [
+   "cut-throat",
+   "survival of the fittest",
+   "the rat race"
+  ],
+  "ex": "Advertising can be a dog-eat-dog world where colleagues compete aggressively for the same clients.",
+  "exvi": "Ngành quảng cáo có thể là một thế giới cá lớn nuốt cá bé, nơi đồng nghiệp tranh giành nhau gay gắt cùng một khách hàng.",
+  "em": "🐕"
+ },
+ {
+  "w": "jump ship",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bỏ ngang để sang chỗ khác (thường là công ty đối thủ)",
+  "use": "Thân mật, hợp Speaking. Hay dùng khi nói về nhân viên nhảy việc lúc công ty gặp khó. Không dùng trong Writing Task 2.",
+  "alt": [
+   "switch jobs",
+   "defect to a rival",
+   "stay loyal"
+  ],
+  "ex": "Several senior engineers jumped ship to a rival company that offered higher salaries and better benefits.",
+  "exvi": "Vài kỹ sư cấp cao đã bỏ sang một công ty đối thủ trả lương cao hơn và phúc lợi tốt hơn.",
+  "em": "🚢"
+ },
+ {
+  "w": "at the eleventh hour",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "vào phút chót",
+  "use": "Hợp Speaking và cả văn báo chí. Có thể dùng như tính từ: an eleventh-hour deal. Không nên dùng nhiều trong Writing Task 2.",
+  "alt": [
+   "at the last minute",
+   "in the nick of time",
+   "a last-minute change"
+  ],
+  "ex": "The strike was called off at the eleventh hour after the union accepted a revised pay offer.",
+  "exvi": "Cuộc đình công được hủy vào phút chót sau khi công đoàn chấp nhận đề xuất lương đã điều chỉnh.",
+  "em": ""
+ },
+ {
+  "w": "in the red",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đang thua lỗ, đang âm tiền",
+  "use": "Hợp Speaking và văn kinh doanh. Đối lập là in the black (có lãi). Writing Task 2 nên dùng operate at a loss.",
+  "alt": [
+   "in the black",
+   "make a loss",
+   "in debt"
+  ],
+  "ex": "The airline has been in the red for three years and may need government support to survive.",
+  "exvi": "Hãng hàng không này đã thua lỗ ba năm liền và có thể cần chính phủ hỗ trợ để tồn tại.",
+  "em": "📉"
+ },
+ {
+  "w": "keep one's nose to the grindstone",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "cắm cúi làm việc chăm chỉ không ngừng",
+  "use": "Hợp Speaking khi nói về giai đoạn học hay làm cật lực. Hơi văn vẻ, đừng lạm dụng và không đưa vào Writing Task 2.",
+  "alt": [
+   "work flat out",
+   "knuckle down",
+   "slack off"
+  ],
+  "ex": "If you keep your nose to the grindstone this term, you should be ready for the exams in June.",
+  "exvi": "Nếu bạn cắm cúi học chăm chỉ trong học kỳ này thì đến tháng Sáu sẽ sẵn sàng cho kỳ thi.",
+  "em": ""
+ },
+ {
+  "w": "a golden handshake",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "khoản tiền lớn trả cho người nghỉ việc hoặc nghỉ hưu (thường là lãnh đạo)",
+  "use": "Gặp nhiều trong báo chí kinh doanh, hợp Speaking khi bàn về lãnh đạo doanh nghiệp. Không cần cố đưa vào Writing.",
+  "alt": [
+   "a severance package",
+   "a redundancy payment",
+   "a golden parachute"
+  ],
+  "ex": "Shareholders were angry when the chief executive left with a golden handshake despite the company's poor results.",
+  "exvi": "Cổ đông phẫn nộ khi tổng giám đốc ra đi với khoản tiền khủng dù công ty làm ăn kém.",
+  "em": ""
+ },
+ {
+  "w": "pass the buck",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "đùn đẩy trách nhiệm",
+  "use": "Hợp Speaking khi nói về môi trường làm việc hay chính quyền. Mang nghĩa phê phán. Không nên dùng trong Writing Task 2, thay bằng shift responsibility.",
+  "alt": [
+   "shift the blame",
+   "take responsibility",
+   "the buck stops here"
+  ],
+  "ex": "When the project failed, the managers simply passed the buck instead of admitting their own mistakes.",
+  "exvi": "Khi dự án thất bại, các quản lý chỉ đùn đẩy trách nhiệm cho nhau thay vì thừa nhận sai lầm của chính mình.",
+  "em": ""
+ },
+ {
+  "w": "lay sb off",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "cho nghỉ việc (do công ty cắt giảm, không phải lỗi người lao động)",
+  "use": "Trung tính, dùng được cả hai kỹ năng. Danh từ là layoffs. Khác với fire (đuổi vì lỗi).",
+  "alt": [
+   "make sb redundant",
+   "cut jobs",
+   "take sb on"
+  ],
+  "ex": "The car manufacturer laid off two thousand workers after demand for petrol vehicles fell sharply.",
+  "exvi": "Hãng xe hơi cho hai nghìn công nhân nghỉ việc sau khi nhu cầu xe chạy xăng giảm mạnh.",
+  "em": ""
+ },
+ {
+  "w": "fall behind",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bị chậm, tụt lại phía sau",
+  "use": "Dùng cả hai kỹ năng. Cấu trúc: fall behind with / on sth (work, payments, schedule). Không nói: fall behind of.",
+  "alt": [
+   "catch up",
+   "keep up with",
+   "be behind schedule"
+  ],
+  "ex": "Students who work part-time for long hours often fall behind with their coursework.",
+  "exvi": "Sinh viên đi làm thêm nhiều giờ thường bị chậm bài vở trên lớp.",
+  "em": ""
+ },
+ {
+  "w": "clock in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "chấm công vào ca",
+  "use": "Trung tính, hợp Speaking và Writing về chế độ làm việc. Đối lập là clock off / clock out.",
+  "alt": [
+   "clock off",
+   "clock out",
+   "start a shift"
+  ],
+  "ex": "Warehouse staff must clock in by seven, and even a few minutes late can mean lost pay.",
+  "exvi": "Nhân viên kho phải chấm công vào ca trước bảy giờ, chỉ trễ vài phút cũng có thể bị trừ lương.",
+  "em": "🕖"
+ },
+ {
+  "w": "take sth over",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "tiếp quản, mua lại (công ty); nhận lại công việc từ người khác",
+  "use": "Dùng cả hai kỹ năng. Danh từ là a takeover. Cấu trúc: take over from sb khi nói tiếp nhận vị trí.",
+  "alt": [
+   "acquire",
+   "a takeover",
+   "hand sth over"
+  ],
+  "ex": "The local bakery was taken over by a national chain, and many loyal customers stopped going there.",
+  "exvi": "Tiệm bánh địa phương bị một chuỗi toàn quốc mua lại, và nhiều khách quen đã thôi không đến nữa.",
+  "em": ""
+ },
+ {
+  "w": "step down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "từ chức, rút khỏi vị trí lãnh đạo",
+  "use": "Trung tính và lịch sự hơn resign, hợp cả hai kỹ năng. Cấu trúc: step down as / from sth.",
+  "alt": [
+   "resign",
+   "stand down",
+   "take over"
+  ],
+  "ex": "The founder stepped down as chief executive to focus on the charity work she had always cared about.",
+  "exvi": "Nhà sáng lập rút khỏi vị trí tổng giám đốc để tập trung vào công việc từ thiện mà bà luôn quan tâm.",
+  "em": ""
+ },
+ {
+  "w": "knuckle down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bắt tay vào làm việc nghiêm túc, chăm chỉ",
+  "use": "Thân mật, hợp Speaking. Cấu trúc: knuckle down to sth. Không dùng trong Writing Task 2.",
+  "alt": [
+   "buckle down",
+   "get down to work",
+   "slack off"
+  ],
+  "ex": "I wasted most of the semester, so I really need to knuckle down before the final exams.",
+  "exvi": "Tôi đã phí gần hết học kỳ, nên giờ thật sự phải nghiêm túc học hành trước kỳ thi cuối kỳ.",
+  "em": ""
+ },
+ {
+  "w": "burn out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "kiệt sức vì làm việc quá nhiều",
+  "use": "Hợp cả Speaking và Writing. Danh từ là burnout, rất hay dùng trong Task 2 về sức khỏe tinh thần nơi làm việc.",
+  "alt": [
+   "burnout",
+   "be worn out",
+   "recharge one's batteries"
+  ],
+  "ex": "Many young doctors burn out within a few years because of the stress and long shifts.",
+  "exvi": "Nhiều bác sĩ trẻ kiệt sức chỉ sau vài năm vì áp lực và những ca trực dài.",
+  "em": "🔥"
+ },
+ {
+  "w": "stand in for sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "làm thay, thế chỗ ai tạm thời",
+  "use": "Trung tính, hợp Speaking và Writing. Không nói: stand for sb (nghĩa khác: đại diện, viết tắt cho).",
+  "alt": [
+   "cover for sb",
+   "fill in for sb",
+   "replace sb"
+  ],
+  "ex": "While the head teacher is in hospital, her deputy will stand in for her at school meetings.",
+  "exvi": "Trong lúc hiệu trưởng nằm viện, cấp phó sẽ làm thay bà ở các cuộc họp của trường.",
+  "em": ""
+ },
+ {
+  "w": "branch out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "mở rộng sang lĩnh vực mới",
+  "use": "Dùng cả hai kỹ năng, cho cá nhân hoặc công ty. Cấu trúc: branch out into sth.",
+  "alt": [
+   "diversify",
+   "expand into",
+   "stick to one's core business"
+  ],
+  "ex": "After years of selling books, the online store branched out into electronics, clothing and groceries.",
+  "exvi": "Sau nhiều năm bán sách, cửa hàng trực tuyến đó đã mở rộng sang đồ điện tử, quần áo và thực phẩm.",
+  "em": "🌿"
+ },
+ {
+  "w": "bring sth forward",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "dời sớm lên (hạn, cuộc họp, sự kiện)",
+  "use": "Hợp cả hai kỹ năng. Người Việt hay nhầm với put off / push back (dời lùi lại). Bring forward là dời lên sớm hơn.",
+  "alt": [
+   "move sth up",
+   "push sth back",
+   "put sth off"
+  ],
+  "ex": "The deadline was brought forward by a week, so the whole team had to work over the weekend.",
+  "exvi": "Hạn chót bị dời sớm lên một tuần, nên cả nhóm phải làm việc cả cuối tuần.",
+  "em": ""
+ },
+ {
+  "w": "push sth back",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "lùi lại, hoãn sang thời điểm muộn hơn",
+  "use": "Thân mật hơn postpone, hợp Speaking và email công việc. Writing Task 2 nên dùng postpone hoặc delay.",
+  "alt": [
+   "postpone",
+   "put sth off",
+   "bring sth forward"
+  ],
+  "ex": "The launch of the new app was pushed back to next spring because of unexpected security problems.",
+  "exvi": "Việc ra mắt ứng dụng mới bị lùi sang mùa xuân năm sau vì những vấn đề bảo mật không lường trước.",
+  "em": ""
+ },
+ {
+  "w": "churn sth out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "sản xuất ồ ạt (thường kém chất lượng)",
+  "use": "Mang sắc thái chê, hợp Speaking và Writing khi phê phán sản xuất hàng loạt. Dùng cho sản phẩm, bài viết, phim.",
+  "alt": [
+   "mass-produce",
+   "crank sth out",
+   "turn sth out"
+  ],
+  "ex": "Some content farms churn out hundreds of low-quality articles a day just to attract advertising clicks.",
+  "exvi": "Một số trang trại nội dung sản xuất ồ ạt hàng trăm bài viết kém chất lượng mỗi ngày chỉ để câu lượt nhấp quảng cáo.",
+  "em": "🏭"
+ },
+ {
+  "w": "wind sth up",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "giải thể, đóng cửa (công ty); kết thúc (cuộc họp)",
+  "use": "Hợp văn kinh doanh và Speaking. Cũng có nghĩa thân mật là trêu chọc ai, chú ý ngữ cảnh. Khác với wind down (giảm dần).",
+  "alt": [
+   "close down",
+   "dissolve a company",
+   "wrap sth up"
+  ],
+  "ex": "The owners decided to wind up the family firm after none of their children wanted to run it.",
+  "exvi": "Các chủ sở hữu quyết định giải thể công ty gia đình sau khi không ai trong số con cái muốn điều hành nó.",
+  "em": ""
+ },
+ {
+  "w": "sign off on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "phê duyệt, ký duyệt chính thức",
+  "use": "Hay dùng trong môi trường công sở, hợp Speaking và email. Writing Task 2 nên dùng approve.",
+  "alt": [
+   "approve",
+   "give the green light",
+   "rubber-stamp"
+  ],
+  "ex": "The finance director has to sign off on any spending above ten thousand dollars.",
+  "exvi": "Giám đốc tài chính phải ký duyệt mọi khoản chi trên mười nghìn đô la.",
+  "em": "✍️"
+ }
+]

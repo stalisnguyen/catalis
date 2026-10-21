@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "a steep decline",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "sự sụt giảm mạnh, dốc đứng",
+  "use": "Rất hợp Writing Task 1 khi đường biểu đồ đi xuống gấp. Dùng \"a steep decline in sth\", không nói \"a steep decline of sales\" khi muốn chỉ lĩnh vực bị giảm.",
+  "alt": [
+   "a sharp drop",
+   "a dramatic fall",
+   "a slight dip"
+  ],
+  "ex": "The chart shows a steep decline in newspaper sales between 2005 and 2015, as readers moved online.",
+  "exvi": "Biểu đồ cho thấy doanh số báo giấy sụt giảm mạnh từ 2005 đến 2015 khi người đọc chuyển sang đọc trực tuyến.",
+  "em": "📉"
+ },
+ {
+  "w": "a marginal increase",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự tăng nhẹ, tăng không đáng kể",
+  "use": "Dùng trong Writing Task 1 để thay cho \"a small increase\", nghe học thuật hơn. \"Marginal\" ở đây là rất nhỏ, không phải \"bên lề\".",
+  "alt": [
+   "a slight rise",
+   "a negligible change",
+   "a modest increase"
+  ],
+  "ex": "There was only a marginal increase in the number of cyclists, from 12% to 13% over the decade.",
+  "exvi": "Số người đi xe đạp chỉ tăng nhẹ, từ 12% lên 13% trong vòng mười năm.",
+  "em": ""
+ },
+ {
+  "w": "fluctuate wildly",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "C1",
+  "vi": "dao động thất thường, lên xuống liên tục",
+  "use": "Hợp Writing Task 1 khi số liệu lên xuống không theo quy luật. \"Fluctuate\" là nội động từ, không nói \"the price was fluctuated\".",
+  "alt": [
+   "fluctuate slightly",
+   "fluctuate around sth",
+   "be volatile"
+  ],
+  "ex": "Coffee prices fluctuated wildly during the period, ranging from two to five dollars per kilo.",
+  "exvi": "Giá cà phê dao động thất thường trong giai đoạn này, từ hai đến năm đô la mỗi kí.",
+  "em": ""
+ },
+ {
+  "w": "rise steadily",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "B2",
+  "vi": "tăng đều, tăng ổn định",
+  "use": "Cụm cơ bản nhưng rất cần cho Writing Task 1. \"Rise\" không có tân ngữ, không nói \"rise the price\" (phải là \"raise the price\").",
+  "alt": [
+   "increase gradually",
+   "climb steadily",
+   "a steady rise"
+  ],
+  "ex": "The average household income rose steadily throughout the 1990s before falling slightly in 2001.",
+  "exvi": "Thu nhập trung bình của hộ gia đình tăng đều suốt thập niên 1990 trước khi giảm nhẹ vào năm 2001.",
+  "em": "📈"
+ },
+ {
+  "w": "a twofold increase",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự tăng gấp đôi",
+  "use": "Cách nói gọn và học thuật cho Writing Task 1, thay cho \"double\". Có thể dùng \"threefold\", \"fourfold\". Không viết \"a two-times increase\".",
+  "alt": [
+   "double",
+   "a threefold rise",
+   "increase twofold"
+  ],
+  "ex": "Online spending saw a twofold increase between 2018 and 2022, reaching almost forty billion dollars.",
+  "exvi": "Chi tiêu trực tuyến tăng gấp đôi từ 2018 đến 2022, đạt gần bốn mươi tỉ đô la.",
+  "em": ""
+ },
+ {
+  "w": "peak at sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "B2",
+  "vi": "đạt đỉnh ở mức",
+  "use": "Rất hay dùng trong Writing Task 1 để nêu điểm cao nhất. Đi với \"at\" + con số: \"peaked at 60%\". Không nói \"peaked on 60%\".",
+  "alt": [
+   "reach a peak of sth",
+   "hit a high of sth",
+   "bottom out at sth"
+  ],
+  "ex": "Unemployment peaked at 11 percent in 2010 and then fell gradually over the next five years.",
+  "exvi": "Tỉ lệ thất nghiệp đạt đỉnh 11% năm 2010, sau đó giảm dần trong năm năm tiếp theo.",
+  "em": "⛰️"
+ },
+ {
+  "w": "hit a record low",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "chạm mức thấp kỉ lục",
+  "use": "Dùng được cả Writing Task 1 lẫn Speaking khi nói về giá, lãi suất, tỉ lệ sinh. Ngược lại là \"hit a record high\".",
+  "alt": [
+   "reach an all-time low",
+   "hit a record high",
+   "sink to a new low"
+  ],
+  "ex": "Interest rates hit a record low last year, which encouraged many young couples to buy their first home.",
+  "exvi": "Lãi suất chạm mức thấp kỉ lục năm ngoái, khiến nhiều cặp vợ chồng trẻ mua căn nhà đầu tiên.",
+  "em": ""
+ },
+ {
+  "w": "a downward trend",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "xu hướng đi xuống",
+  "use": "Dùng trong Writing Task 1 để nhận xét xu hướng chung ở phần overview. Đi với \"show\" hoặc \"follow\": \"show a downward trend\".",
+  "alt": [
+   "an upward trend",
+   "a general decline",
+   "a downturn"
+  ],
+  "ex": "Overall, the birth rate in all three countries showed a downward trend over the period shown.",
+  "exvi": "Nhìn chung, tỉ lệ sinh ở cả ba nước có xu hướng đi xuống trong giai đoạn được nêu.",
+  "em": ""
+ },
+ {
+  "w": "remain virtually unchanged",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "gần như không thay đổi",
+  "use": "Hợp Writing Task 1 khi số liệu đứng yên, thay cho \"stay the same\" lặp đi lặp lại. Không nói \"remain unchange\".",
+  "alt": [
+   "remain stable",
+   "stay constant",
+   "level off"
+  ],
+  "ex": "Spending on public transport remained virtually unchanged at around 8% of the household budget.",
+  "exvi": "Chi tiêu cho giao thông công cộng gần như không thay đổi, ở mức khoảng 8% ngân sách gia đình.",
+  "em": ""
+ },
+ {
+  "w": "plummet to sth",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "lao dốc, rớt mạnh xuống mức",
+  "use": "Mạnh hơn \"fall\" nhiều, hợp Writing Task 1 khi số liệu giảm đột ngột. \"Plummet\" là nội động từ, đi với \"to\" + mức cuối hoặc \"by\" + mức giảm.",
+  "alt": [
+   "plunge to sth",
+   "slump to sth",
+   "soar to sth"
+  ],
+  "ex": "After the factory closed, the town's population plummeted to fewer than three thousand residents.",
+  "exvi": "Sau khi nhà máy đóng cửa, dân số thị trấn lao dốc xuống còn chưa tới ba nghìn người.",
+  "em": "📉"
+ },
+ {
+  "w": "the overwhelming majority",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "phần lớn áp đảo, tuyệt đại đa số",
+  "use": "Dùng tốt trong Writing Task 1 và Task 2 để nói tỉ lệ rất cao. Thường đi với \"of\": \"the overwhelming majority of students\". Không nói \"the most majority\".",
+  "alt": [
+   "the vast majority",
+   "a tiny minority",
+   "the bulk of sth"
+  ],
+  "ex": "The overwhelming majority of respondents said they paid for groceries by card rather than cash.",
+  "exvi": "Tuyệt đại đa số người được khảo sát cho biết họ trả tiền đi chợ bằng thẻ thay vì tiền mặt.",
+  "em": ""
+ },
+ {
+  "w": "grow exponentially",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "B2",
+  "vi": "tăng theo cấp số nhân, tăng vọt rất nhanh",
+  "use": "Dùng khi mức tăng ngày càng nhanh, hợp Writing và Speaking. Đừng dùng cho mức tăng đều, vì như vậy sai nghĩa.",
+  "alt": [
+   "an exponential rise",
+   "grow rapidly",
+   "snowball"
+  ],
+  "ex": "The number of people using mobile banking apps has grown exponentially since the pandemic.",
+  "exvi": "Số người dùng ứng dụng ngân hàng trên điện thoại đã tăng vọt theo cấp số nhân kể từ đại dịch.",
+  "em": "🚀"
+ },
+ {
+  "w": "a negligible amount",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "một lượng không đáng kể",
+  "use": "Dùng trong Writing học thuật khi con số quá nhỏ để quan tâm. \"Amount\" đi với danh từ không đếm được (money, time), với danh từ đếm được dùng \"number\".",
+  "alt": [
+   "a tiny fraction",
+   "a trivial sum",
+   "a substantial amount"
+  ],
+  "ex": "Renewable sources produced only a negligible amount of the country's electricity in 1990.",
+  "exvi": "Năm 1990, nguồn năng lượng tái tạo chỉ sản xuất một lượng điện không đáng kể của cả nước.",
+  "em": ""
+ },
+ {
+  "w": "a considerable sum of money",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "một khoản tiền khá lớn",
+  "use": "Trang trọng hơn \"a lot of money\", hợp cả Writing lẫn Speaking. Có thể thay \"considerable\" bằng \"substantial\" hoặc \"large\".",
+  "alt": [
+   "a substantial sum",
+   "a large amount of money",
+   "a modest sum"
+  ],
+  "ex": "The government has invested a considerable sum of money in training teachers to use new technology.",
+  "exvi": "Chính phủ đã đầu tư một khoản tiền khá lớn để đào tạo giáo viên sử dụng công nghệ mới.",
+  "em": "💰"
+ },
+ {
+  "w": "live within your means",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "sống trong khả năng tài chính, tiêu không quá số mình kiếm được",
+  "use": "Hợp Speaking và Writing Task 2 về chi tiêu, nợ nần. Ngược lại là \"live beyond your means\". Không nói \"live in your means\".",
+  "alt": [
+   "live beyond your means",
+   "cut your coat according to your cloth",
+   "spend within budget"
+  ],
+  "ex": "Many young people struggle to live within their means because social media pushes them to spend.",
+  "exvi": "Nhiều bạn trẻ khó sống trong khả năng tài chính của mình vì mạng xã hội thúc đẩy họ chi tiêu.",
+  "em": ""
+ },
+ {
+  "w": "conspicuous consumption",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "tiêu dùng phô trương, mua sắm để khoe",
+  "use": "Thuật ngữ học thuật, rất hợp Writing Task 2 về chủ nghĩa tiêu dùng. Ít dùng trong Speaking hằng ngày.",
+  "alt": [
+   "status spending",
+   "materialism",
+   "showing off wealth"
+  ],
+  "ex": "Critics argue that luxury advertising encourages conspicuous consumption among people who cannot really afford it.",
+  "exvi": "Những người phê phán cho rằng quảng cáo hàng xa xỉ khuyến khích việc tiêu dùng phô trương ở những người thật ra không đủ tiền.",
+  "em": ""
+ },
+ {
+  "w": "a financial cushion",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "khoản tiền dự phòng, tấm đệm tài chính",
+  "use": "Dùng tốt trong Speaking và Writing khi nói về tiết kiệm phòng khi khó khăn. Hay đi với \"provide\" hoặc \"have\".",
+  "alt": [
+   "a safety net",
+   "an emergency fund",
+   "savings to fall back on"
+  ],
+  "ex": "Having a financial cushion of three months' salary means you are not desperate if you lose your job.",
+  "exvi": "Có khoản dự phòng bằng ba tháng lương nghĩa là bạn không bị cùng đường nếu mất việc.",
+  "em": ""
+ },
+ {
+  "w": "a steady income",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "thu nhập ổn định",
+  "use": "Dùng nhiều trong Speaking về công việc, freelance. Không nói \"a stable salary income\" hay \"a steady salary money\".",
+  "alt": [
+   "a regular income",
+   "an irregular income",
+   "a reliable source of income"
+  ],
+  "ex": "Freelancing gives you freedom, but many people miss having a steady income at the end of each month.",
+  "exvi": "Làm tự do cho bạn sự tự do, nhưng nhiều người nhớ cảm giác có thu nhập ổn định vào cuối mỗi tháng.",
+  "em": ""
+ },
+ {
+  "w": "a lucrative career",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "một nghề kiếm được nhiều tiền",
+  "use": "Trang trọng hơn \"a well-paid job\", hợp Writing Task 2 về chọn nghề. \"Lucrative\" chỉ dùng cho việc, hợp đồng, thị trường, không dùng cho người.",
+  "alt": [
+   "a well-paid job",
+   "a lucrative contract",
+   "a rewarding career"
+  ],
+  "ex": "Many students choose law or medicine because they see them as a lucrative career rather than a passion.",
+  "exvi": "Nhiều sinh viên chọn luật hoặc y vì xem đó là nghề kiếm nhiều tiền hơn là vì đam mê.",
+  "em": ""
+ },
+ {
+  "w": "abject poverty",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "cảnh nghèo cùng cực, bần cùng",
+  "use": "Mạnh và trang trọng, hợp Writing Task 2 về bất bình đẳng. \"Abject\" gần như chỉ đi với poverty, misery, failure.",
+  "alt": [
+   "extreme poverty",
+   "grinding poverty",
+   "relative poverty"
+  ],
+  "ex": "Millions of families still live in abject poverty without access to clean water or basic healthcare.",
+  "exvi": "Hàng triệu gia đình vẫn sống trong cảnh nghèo cùng cực, không có nước sạch hay dịch vụ y tế cơ bản.",
+  "em": ""
+ },
+ {
+  "w": "accumulate wealth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tích lũy của cải",
+  "use": "Hợp Writing Task 2 về giàu nghèo, thừa kế. Trang trọng hơn \"get rich\". Không nói \"collect wealth\".",
+  "alt": [
+   "amass a fortune",
+   "build up wealth",
+   "squander a fortune"
+  ],
+  "ex": "Owning property has long been the main way ordinary families accumulate wealth over several generations.",
+  "exvi": "Sở hữu nhà đất từ lâu đã là cách chính để các gia đình bình thường tích lũy của cải qua nhiều thế hệ.",
+  "em": ""
+ },
+ {
+  "w": "a sluggish economy",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nền kinh tế trì trệ, tăng trưởng chậm",
+  "use": "Hay gặp trong báo chí và Writing Task 2. Có thể nói \"sluggish growth\", \"sluggish demand\".",
+  "alt": [
+   "a booming economy",
+   "economic stagnation",
+   "slow growth"
+  ],
+  "ex": "In a sluggish economy, graduates often accept part-time work while they search for a permanent position.",
+  "exvi": "Khi kinh tế trì trệ, sinh viên mới ra trường thường nhận việc bán thời gian trong lúc tìm việc ổn định.",
+  "em": ""
+ },
+ {
+  "w": "fuel inflation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đẩy lạm phát tăng, làm lạm phát trầm trọng hơn",
+  "use": "Hợp Writing Task 2 về kinh tế, chính sách. \"Fuel\" là động từ ở đây, nghĩa là thúc đẩy. Ngược lại: \"curb inflation\".",
+  "alt": [
+   "drive up inflation",
+   "curb inflation",
+   "stoke inflation"
+  ],
+  "ex": "Some economists warn that printing more money to pay for subsidies could fuel inflation even further.",
+  "exvi": "Một số nhà kinh tế cảnh báo việc in thêm tiền để trợ cấp có thể đẩy lạm phát tăng cao hơn nữa.",
+  "em": ""
+ },
+ {
+  "w": "runaway inflation",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "lạm phát phi mã, lạm phát mất kiểm soát",
+  "use": "Từ ngữ báo chí kinh tế, dùng trong Writing Task 2 hoặc Speaking Part 3. Mạnh hơn \"high inflation\".",
+  "alt": [
+   "hyperinflation",
+   "soaring inflation",
+   "low inflation"
+  ],
+  "ex": "Runaway inflation wiped out the savings of many pensioners, who could no longer afford basic food.",
+  "exvi": "Lạm phát phi mã đã xóa sạch tiền tiết kiệm của nhiều người hưu trí, họ không còn đủ tiền mua thức ăn cơ bản.",
+  "em": ""
+ },
+ {
+  "w": "default on a loan",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "không trả được nợ vay, vỡ nợ",
+  "use": "Thuật ngữ tài chính, hợp Writing Task 2 về nợ sinh viên, tín dụng. Phải có \"on\": \"default on a loan\", không nói \"default a loan\".",
+  "alt": [
+   "fall behind on repayments",
+   "repay a loan",
+   "default on a debt"
+  ],
+  "ex": "Graduates who cannot find work are more likely to default on their student loans.",
+  "exvi": "Sinh viên ra trường không tìm được việc dễ rơi vào cảnh không trả nổi khoản vay học phí.",
+  "em": ""
+ },
+ {
+  "w": "a hefty price tag",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "cái giá rất đắt",
+  "use": "Hợp Speaking và báo chí. \"Come with a hefty price tag\" là cách nói hay. Thân mật hơn \"high cost\" một chút.",
+  "alt": [
+   "a high cost",
+   "come at a price",
+   "a bargain"
+  ],
+  "ex": "Electric cars are cleaner, but they still come with a hefty price tag for most young families.",
+  "exvi": "Xe điện sạch hơn nhưng vẫn có giá rất đắt đối với hầu hết các gia đình trẻ.",
+  "em": "🏷️"
+ },
+ {
+  "w": "squander money",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "phung phí tiền bạc",
+  "use": "Trang trọng và mang ý chê, hợp Writing Task 2 khi nói về chi tiêu công lãng phí. Có thể nói \"squander money on sth\".",
+  "alt": [
+   "waste money",
+   "fritter away money",
+   "squander an opportunity"
+  ],
+  "ex": "Taxpayers are angry that the council squandered money on a stadium that is almost never used.",
+  "exvi": "Người nộp thuế tức giận vì chính quyền địa phương phung phí tiền vào một sân vận động gần như không bao giờ dùng đến.",
+  "em": ""
+ },
+ {
+  "w": "prohibitively expensive",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "đắt đến mức không mua nổi",
+  "use": "Hợp Writing Task 2 về nhà ở, y tế, giáo dục. Mạnh hơn \"very expensive\", nhấn mạnh giá cao làm người ta không thể tiếp cận.",
+  "alt": [
+   "exorbitantly priced",
+   "reasonably priced",
+   "beyond your budget"
+  ],
+  "ex": "For many rural families, private tutoring is prohibitively expensive, which widens the gap in exam results.",
+  "exvi": "Với nhiều gia đình nông thôn, học thêm tư nhân đắt đến mức không kham nổi, khiến khoảng cách điểm thi càng xa.",
+  "em": ""
+ },
+ {
+  "w": "financially secure",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "vững vàng về tài chính",
+  "use": "Dùng được cả Speaking lẫn Writing. Không nói \"secure financially\" ở trước danh từ, mà nói \"a financially secure family\".",
+  "alt": [
+   "financially independent",
+   "financially stable",
+   "in financial difficulty"
+  ],
+  "ex": "Most people want to be financially secure before they start a family or buy a house.",
+  "exvi": "Hầu hết mọi người muốn vững vàng về tài chính trước khi lập gia đình hay mua nhà.",
+  "em": ""
+ },
+ {
+  "w": "balance the budget",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "cân đối ngân sách, thu đủ bù chi",
+  "use": "Hợp Writing Task 2 khi nói về chính phủ hoặc gia đình. Không nói \"balance the money\".",
+  "alt": [
+   "a budget deficit",
+   "a budget surplus",
+   "cut public spending"
+  ],
+  "ex": "To balance the budget, the government decided to raise taxes rather than cut spending on schools.",
+  "exvi": "Để cân đối ngân sách, chính phủ quyết định tăng thuế thay vì cắt giảm chi tiêu cho trường học.",
+  "em": "⚖️"
+ },
+ {
+  "w": "a financial burden",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "gánh nặng tài chính",
+  "use": "Hay dùng trong Writing Task 2. Đi với \"place/put a financial burden on sb\" hoặc \"ease the financial burden\".",
+  "alt": [
+   "a heavy financial burden",
+   "ease the burden",
+   "financial strain"
+  ],
+  "ex": "Caring for elderly parents can place a heavy financial burden on young couples.",
+  "exvi": "Chăm sóc cha mẹ già có thể đặt gánh nặng tài chính lớn lên vai các cặp vợ chồng trẻ.",
+  "em": ""
+ },
+ {
+  "w": "spending power",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "sức mua, khả năng chi tiêu",
+  "use": "Thuật ngữ kinh tế, hợp Writing Task 2 và Speaking Part 3. Gần nghĩa \"purchasing power\".",
+  "alt": [
+   "purchasing power",
+   "consumer spending",
+   "disposable income"
+  ],
+  "ex": "Teenagers now have significant spending power, so many brands design their advertising specifically for them.",
+  "exvi": "Thanh thiếu niên ngày nay có sức mua đáng kể nên nhiều thương hiệu thiết kế quảng cáo riêng cho họ.",
+  "em": ""
+ },
+ {
+  "w": "by a narrow margin",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "với cách biệt sít sao, chênh lệch rất nhỏ",
+  "use": "Dùng trong Writing Task 1 khi hai số liệu gần bằng nhau. Ngược lại: \"by a wide margin\". Không nói \"with a narrow margin\".",
+  "alt": [
+   "by a wide margin",
+   "slightly ahead of",
+   "marginally higher"
+  ],
+  "ex": "In 2020, spending on rent exceeded spending on food by a narrow margin.",
+  "exvi": "Năm 2020, chi tiêu cho tiền thuê nhà chỉ nhỉnh hơn chi tiêu cho thức ăn một chút.",
+  "em": ""
+ },
+ {
+  "w": "a modest rise",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "mức tăng vừa phải, tăng nhẹ",
+  "use": "Hợp Writing Task 1, đổi cách nói cho \"a small increase\". \"Modest\" ở đây là vừa phải, không phải \"khiêm tốn\" về tính cách.",
+  "alt": [
+   "a slight increase",
+   "a marginal rise",
+   "a substantial rise"
+  ],
+  "ex": "Wages saw a modest rise of 2%, which was not enough to keep up with higher food prices.",
+  "exvi": "Tiền lương tăng nhẹ 2%, không đủ để theo kịp giá thực phẩm tăng.",
+  "em": ""
+ },
+ {
+  "w": "a gradual recovery",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "sự phục hồi từ từ",
+  "use": "Dùng trong Writing Task 1 khi số liệu đi lên lại sau một đợt giảm, và trong bài về kinh tế. Không nói \"a gradual recover\".",
+  "alt": [
+   "a sharp rebound",
+   "a slow recovery",
+   "make a full recovery"
+  ],
+  "ex": "After the crisis, tourism made a gradual recovery and returned to its previous level by 2024.",
+  "exvi": "Sau khủng hoảng, du lịch phục hồi từ từ và trở lại mức cũ vào năm 2024.",
+  "em": ""
+ },
+ {
+  "w": "a lavish lifestyle",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "lối sống xa hoa",
+  "use": "Hợp Speaking và Writing khi nói về người nổi tiếng, giàu có. Mang ý hơi chê.",
+  "alt": [
+   "a luxurious lifestyle",
+   "a frugal lifestyle",
+   "live in luxury"
+  ],
+  "ex": "Influencers often show a lavish lifestyle online that has little to do with their real income.",
+  "exvi": "Người có ảnh hưởng thường khoe lối sống xa hoa trên mạng, chẳng liên quan gì đến thu nhập thật của họ.",
+  "em": ""
+ },
+ {
+  "w": "in the red",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đang lỗ, đang âm tiền, mắc nợ",
+  "use": "Dùng được trong Speaking và cả báo chí. Không nên cố đưa idiom vào Writing Task 2, ở đó nên viết \"in debt\" hoặc \"making a loss\".",
+  "alt": [
+   "in the black",
+   "in debt",
+   "overdrawn"
+  ],
+  "ex": "By the end of the month my bank account is usually in the red, so I'm trying to budget better.",
+  "exvi": "Cuối tháng tài khoản ngân hàng của mình thường bị âm, nên mình đang cố quản lý chi tiêu tốt hơn.",
+  "em": "🔴"
+ },
+ {
+  "w": "live hand to mouth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "sống lay lắt, kiếm ngày nào ăn ngày đó",
+  "use": "Hợp Speaking Part 2 và 3 khi nói về nghèo khó. Trong Writing Task 2 nên dùng \"struggle to make ends meet\" hoặc diễn đạt trực tiếp.",
+  "alt": [
+   "live from paycheck to paycheck",
+   "scrape by",
+   "make ends meet"
+  ],
+  "ex": "When I first moved to the city, I was living hand to mouth and couldn't save anything.",
+  "exvi": "Hồi mới lên thành phố, mình sống kiểu ăn bữa nay lo bữa mai và chẳng để dành được gì.",
+  "em": ""
+ },
+ {
+  "w": "save for a rainy day",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "để dành phòng khi khó khăn",
+  "use": "Rất tự nhiên trong Speaking khi nói về thói quen tiết kiệm. Không đưa vào Writing Task 2.",
+  "alt": [
+   "put money aside",
+   "build a nest egg",
+   "a rainy-day fund"
+  ],
+  "ex": "My parents always told me to save for a rainy day, so I keep a little money aside each month.",
+  "exvi": "Bố mẹ luôn dặn mình để dành phòng khi khó khăn, nên tháng nào mình cũng cất riêng một ít tiền.",
+  "em": "☔"
+ },
+ {
+  "w": "strapped for cash",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đang kẹt tiền, thiếu tiền",
+  "use": "Thân mật, hợp Speaking. Không dùng trong Writing Task 2, thay bằng \"short of money\" hoặc \"under financial pressure\".",
+  "alt": [
+   "short of money",
+   "hard up",
+   "broke"
+  ],
+  "ex": "Most students are strapped for cash, so they look for cheap meals and second-hand textbooks.",
+  "exvi": "Hầu hết sinh viên đều kẹt tiền nên họ tìm đồ ăn rẻ và mua sách cũ.",
+  "em": ""
+ },
+ {
+  "w": "rolling in it",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "giàu nứt đố đổ vách, rủng rỉnh tiền",
+  "use": "Rất thân mật, chỉ hợp Speaking. Thường dùng đùa: \"I'm not exactly rolling in it\". Không dùng trong Writing.",
+  "alt": [
+   "loaded",
+   "made of money",
+   "broke"
+  ],
+  "ex": "People assume that all doctors are rolling in it, but many junior doctors earn quite a modest salary.",
+  "exvi": "Người ta cứ nghĩ bác sĩ ai cũng giàu nứt vách, nhưng nhiều bác sĩ trẻ lương khá khiêm tốn.",
+  "em": "🤑"
+ },
+ {
+  "w": "on a shoestring",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "với rất ít tiền, chi tiêu tằn tiện",
+  "use": "Hợp Speaking khi nói về du lịch bụi, khởi nghiệp ít vốn. Hay gặp \"on a shoestring budget\". Không cố đưa vào Writing Task 2.",
+  "alt": [
+   "on a tight budget",
+   "on a budget",
+   "money is no object"
+  ],
+  "ex": "We travelled around Southeast Asia on a shoestring, staying in hostels and eating street food.",
+  "exvi": "Tụi mình đi khắp Đông Nam Á với rất ít tiền, ở nhà trọ tập thể và ăn đồ ăn đường phố.",
+  "em": "🎒"
+ },
+ {
+  "w": "pay through the nose",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "trả giá cắt cổ, bị chặt chém",
+  "use": "Thân mật, hợp Speaking khi phàn nàn về giá. Không dùng trong Writing, thay bằng \"pay an excessive price\".",
+  "alt": [
+   "pay over the odds",
+   "cost a fortune",
+   "get a bargain"
+  ],
+  "ex": "If you book flights at the last minute during Tet, you'll pay through the nose for a ticket.",
+  "exvi": "Nếu đặt vé máy bay sát Tết, bạn sẽ phải trả giá cắt cổ cho một tấm vé.",
+  "em": ""
+ },
+ {
+  "w": "a drop in the ocean",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "muối bỏ biển, chẳng thấm vào đâu",
+  "use": "Dùng được trong Speaking, thỉnh thoảng gặp trong báo. Trong Writing Task 2 có thể diễn đạt là \"a tiny fraction of what is needed\".",
+  "alt": [
+   "a drop in the bucket",
+   "a mere fraction",
+   "the tip of the iceberg"
+  ],
+  "ex": "The extra funding sounds generous, but it's a drop in the ocean compared with what hospitals actually need.",
+  "exvi": "Khoản kinh phí bổ sung nghe có vẻ hào phóng nhưng chỉ như muối bỏ biển so với nhu cầu thật của bệnh viện.",
+  "em": "💧"
+ },
+ {
+  "w": "foot the bill",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đứng ra trả tiền, gánh chi phí",
+  "use": "Khá trung tính, dùng được trong Speaking và báo chí. Trong Writing Task 2 vẫn nên ưu tiên \"pay for\" hoặc \"bear the cost\".",
+  "alt": [
+   "pick up the bill",
+   "bear the cost",
+   "pick up the tab"
+  ],
+  "ex": "When roads are damaged by heavy trucks, it is usually ordinary taxpayers who foot the bill.",
+  "exvi": "Khi đường sá bị xe tải nặng làm hư, thường thì người nộp thuế bình thường phải gánh chi phí.",
+  "em": "🧾"
+ },
+ {
+  "w": "go through the roof",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "tăng vọt, tăng chóng mặt (giá cả)",
+  "use": "Hợp Speaking khi nói giá nhà, giá xăng tăng mạnh. Trong Writing Task 1 dùng \"soar\" hoặc \"rise sharply\" thay vì idiom này.",
+  "alt": [
+   "skyrocket",
+   "hit the roof",
+   "soar"
+  ],
+  "ex": "House prices in my city have gone through the roof, so most young people still live with their parents.",
+  "exvi": "Giá nhà ở thành phố mình tăng chóng mặt nên hầu hết người trẻ vẫn ở với bố mẹ.",
+  "em": "🚀"
+ },
+ {
+  "w": "a cash cow",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "con gà đẻ trứng vàng, nguồn hái ra tiền",
+  "use": "Dùng được trong Speaking và cả văn phong kinh doanh. Trong Writing Task 2 có thể dùng nếu nói về doanh nghiệp, nhưng đừng lạm dụng.",
+  "alt": [
+   "a money-spinner",
+   "a goldmine",
+   "a loss-maker"
+  ],
+  "ex": "For many universities, international students have become a cash cow that funds research and new buildings.",
+  "exvi": "Với nhiều trường đại học, sinh viên quốc tế đã thành nguồn hái ra tiền để chi cho nghiên cứu và xây tòa nhà mới.",
+  "em": "🐄"
+ },
+ {
+  "w": "cost a pretty penny",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "tốn khá nhiều tiền",
+  "use": "Thân mật, hợp Speaking. Nhẹ hơn \"cost an arm and a leg\". Không dùng trong Writing Task 2.",
+  "alt": [
+   "cost a fortune",
+   "cost an arm and a leg",
+   "cost next to nothing"
+  ],
+  "ex": "Studying abroad costs a pretty penny, so many students apply for scholarships or work part-time.",
+  "exvi": "Du học tốn khá nhiều tiền nên nhiều sinh viên xin học bổng hoặc đi làm thêm.",
+  "em": ""
+ },
+ {
+  "w": "hold the purse strings",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "nắm hầu bao, quyết định chuyện chi tiêu",
+  "use": "Hợp Speaking khi nói về gia đình hoặc công ty. Có biến thể \"tighten the purse strings\" (thắt chặt chi tiêu). Không cố đưa vào Writing.",
+  "alt": [
+   "tighten the purse strings",
+   "control the finances",
+   "call the shots"
+  ],
+  "ex": "In many Vietnamese families, it's the mother who holds the purse strings and decides on big purchases.",
+  "exvi": "Ở nhiều gia đình Việt, người mẹ là người nắm hầu bao và quyết định những khoản mua sắm lớn.",
+  "em": "👛"
+ },
+ {
+  "w": "a king's ransom",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "một khoản tiền khổng lồ",
+  "use": "Hơi văn chương, thường dùng phóng đại trong Speaking: \"pay a king's ransom for sth\". Không dùng trong Writing.",
+  "alt": [
+   "a fortune",
+   "a small fortune",
+   "peanuts"
+  ],
+  "ex": "Fans paid a king's ransom for concert tickets that were resold online at five times the original price.",
+  "exvi": "Người hâm mộ trả cả gia tài cho vé hòa nhạc bị bán lại trên mạng với giá gấp năm lần.",
+  "em": "👑"
+ },
+ {
+  "w": "in the lap of luxury",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "sống trong nhung lụa",
+  "use": "Hay đi với \"live\" hoặc \"grow up\". Hợp Speaking khi nói về người giàu. Không dùng trong Writing Task 2.",
+  "alt": [
+   "live like a king",
+   "the high life",
+   "live hand to mouth"
+  ],
+  "ex": "Children who grow up in the lap of luxury may struggle to understand the value of money.",
+  "exvi": "Trẻ lớn lên trong nhung lụa có thể khó hiểu được giá trị của đồng tiền.",
+  "em": ""
+ },
+ {
+  "w": "make a killing",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "kiếm bộn tiền, hốt bạc",
+  "use": "Thân mật, hợp Speaking khi nói về đầu tư, kinh doanh. Không nhầm với nghĩa đen giết người. Không dùng trong Writing.",
+  "alt": [
+   "make a fortune",
+   "rake in money",
+   "lose your shirt"
+  ],
+  "ex": "Some investors made a killing during the property boom, while late buyers lost a lot of money.",
+  "exvi": "Một số nhà đầu tư hốt bạc trong đợt sốt nhà đất, còn người mua muộn thì mất rất nhiều tiền.",
+  "em": ""
+ },
+ {
+  "w": "save up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "dành dụm, tiết kiệm (để mua gì đó)",
+  "use": "Dùng nhiều trong Speaking. Thường đi với \"for sth\" hoặc \"to do sth\": \"save up for a laptop\".",
+  "alt": [
+   "put money aside",
+   "save up for sth",
+   "splash out"
+  ],
+  "ex": "I saved up for almost a year to buy my first laptop for university.",
+  "exvi": "Mình dành dụm gần một năm để mua chiếc laptop đầu tiên cho việc học đại học.",
+  "em": "🐷"
+ },
+ {
+  "w": "pay off sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "trả hết (nợ); mang lại kết quả tốt",
+  "use": "Dùng được cả Speaking lẫn Writing. Nghĩa trả hết nợ là ngoại động từ: \"pay off a loan\" hoặc \"pay it off\". Nghĩa có kết quả không có tân ngữ: \"hard work pays off\".",
+  "alt": [
+   "clear a debt",
+   "repay sth",
+   "pay back sth"
+  ],
+  "ex": "It took my parents twenty years to pay off the mortgage on their house.",
+  "exvi": "Bố mẹ mình mất hai mươi năm mới trả hết khoản vay mua nhà.",
+  "em": ""
+ },
+ {
+  "w": "shoot up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "tăng vọt, vọt lên",
+  "use": "Hợp Speaking và có thể dùng trong Writing Task 1 bán trang trọng. Không có tân ngữ: không nói \"shoot up the price\".",
+  "alt": [
+   "soar",
+   "rocket",
+   "plummet"
+  ],
+  "ex": "Rents shot up after the new metro line opened, forcing many students to move further out.",
+  "exvi": "Giá thuê nhà vọt lên sau khi tuyến metro mới mở, khiến nhiều sinh viên phải dọn ra xa hơn.",
+  "em": "📈"
+ },
+ {
+  "w": "chip in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "góp tiền, góp phần",
+  "use": "Thân mật, hợp Speaking khi nói về góp tiền mua quà, chia tiền. Thường đi với \"with\" hoặc \"for\".",
+  "alt": [
+   "club together",
+   "contribute",
+   "split the bill"
+  ],
+  "ex": "Everyone in the office chipped in to buy a farewell present for our manager.",
+  "exvi": "Mọi người trong văn phòng góp tiền mua quà chia tay cho quản lý.",
+  "em": "🤝"
+ },
+ {
+  "w": "shell out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "móc hầu bao, chi (một khoản lớn, thường miễn cưỡng)",
+  "use": "Thân mật, hợp Speaking. Đi với \"on\" hoặc \"for\": \"shell out for a new phone\". Không dùng trong Writing Task 2.",
+  "alt": [
+   "fork out",
+   "splash out",
+   "pay up"
+  ],
+  "ex": "Parents often have to shell out hundreds of dollars on uniforms and books at the start of the school year.",
+  "exvi": "Phụ huynh thường phải móc ra hàng trăm đô cho đồng phục và sách vở vào đầu năm học.",
+  "em": ""
+ },
+ {
+  "w": "level off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "chững lại, đi ngang (sau khi tăng hoặc giảm)",
+  "use": "Rất hợp Writing Task 1. Không có tân ngữ. Gần nghĩa \"level out\", \"plateau\".",
+  "alt": [
+   "level out",
+   "plateau",
+   "stabilise"
+  ],
+  "ex": "Car sales rose rapidly until 2015 and then levelled off at around two million a year.",
+  "exvi": "Doanh số ô tô tăng nhanh đến năm 2015 rồi chững lại ở mức khoảng hai triệu chiếc mỗi năm.",
+  "em": ""
+ },
+ {
+  "w": "bottom out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "chạm đáy (rồi ngừng giảm)",
+  "use": "Hợp Writing Task 1 và tin kinh tế. Hàm ý sau đó sẽ hồi lên. Không có tân ngữ.",
+  "alt": [
+   "hit rock bottom",
+   "reach a low",
+   "pick up"
+  ],
+  "ex": "The housing market bottomed out in 2012 and began to recover the following spring.",
+  "exvi": "Thị trường nhà ở chạm đáy năm 2012 và bắt đầu hồi phục vào mùa xuân năm sau.",
+  "em": ""
+ },
+ {
+  "w": "tail off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "giảm dần, thưa dần",
+  "use": "Hợp Writing Task 1 khi số liệu giảm từ từ về cuối. Nhẹ hơn \"drop off\". Không có tân ngữ.",
+  "alt": [
+   "taper off",
+   "dwindle",
+   "drop off"
+  ],
+  "ex": "Visitor numbers tailed off towards the end of the year as the weather got colder.",
+  "exvi": "Lượng khách thưa dần vào cuối năm khi thời tiết trở lạnh.",
+  "em": ""
+ },
+ {
+  "w": "scrape by",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "sống chật vật, xoay xở cho đủ sống",
+  "use": "Hợp Speaking khi nói về khó khăn tài chính. Hay đi với \"on\": \"scrape by on a small salary\".",
+  "alt": [
+   "get by",
+   "make ends meet",
+   "live hand to mouth"
+  ],
+  "ex": "Many retired farmers scrape by on a tiny pension and whatever their children can send them.",
+  "exvi": "Nhiều nông dân về hưu sống chật vật bằng khoản lương hưu ít ỏi và số tiền con cái gửi về.",
+  "em": ""
+ },
+ {
+  "w": "rake in sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "hốt bạc, thu về (rất nhiều tiền)",
+  "use": "Thân mật, hợp Speaking và báo chí. Thường nói \"rake in profits/millions\". Không dùng trong Writing Task 2.",
+  "alt": [
+   "make a killing",
+   "earn a fortune",
+   "bring in sth"
+  ],
+  "ex": "Popular gaming streamers can rake in thousands of dollars a month from donations and sponsorships.",
+  "exvi": "Các streamer game nổi tiếng có thể hốt hàng nghìn đô mỗi tháng nhờ tiền ủng hộ và tài trợ.",
+  "em": "💸"
+ },
+ {
+  "w": "drop off",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "giảm đi, sụt (về số lượng)",
+  "use": "Hợp Writing Task 1 và Speaking. Nghĩa giảm thì không có tân ngữ. Cẩn thận vì \"drop sb off\" (thả ai xuống xe) là nghĩa khác.",
+  "alt": [
+   "fall off",
+   "tail off",
+   "pick up"
+  ],
+  "ex": "Demand for umbrellas drops off sharply in the dry season, so shops reduce their stock.",
+  "exvi": "Nhu cầu mua ô giảm mạnh vào mùa khô nên các cửa hàng giảm lượng hàng tồn.",
+  "em": ""
+ },
+ {
+  "w": "rack up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "dồn lại, tích lại (nợ, chi phí, lỗ)",
+  "use": "Dùng được trong Speaking và báo chí: \"rack up debts\", \"rack up huge losses\". Thường mang ý tiêu cực.",
+  "alt": [
+   "run up debts",
+   "accumulate sth",
+   "clock up sth"
+  ],
+  "ex": "Young people can easily rack up credit card debt by buying things they don't really need.",
+  "exvi": "Người trẻ dễ dồn nợ thẻ tín dụng vì mua những thứ không thật sự cần.",
+  "em": "💳"
+ },
+ {
+  "w": "come into sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "được thừa hưởng (tiền, tài sản)",
+  "use": "Hay dùng với \"money\", \"a fortune\", \"an inheritance\". Không tách được: không nói \"come money into\".",
+  "alt": [
+   "inherit sth",
+   "come into a fortune",
+   "be left sth"
+  ],
+  "ex": "When she came into some money from her grandmother, she used it to pay for a master's degree.",
+  "exvi": "Khi được bà để lại một khoản tiền, cô ấy dùng nó để học thạc sĩ.",
+  "em": ""
+ },
+ {
+  "w": "bail out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "cứu trợ tài chính (công ty, ngân hàng, người đang gặp khó)",
+  "use": "Hợp Writing Task 2 và Speaking Part 3 khi nói về chính phủ cứu ngân hàng. Danh từ là \"a bailout\".",
+  "alt": [
+   "rescue sth",
+   "prop up sth",
+   "a bailout"
+  ],
+  "ex": "The government spent billions to bail out the banks, which angered many ordinary taxpayers.",
+  "exvi": "Chính phủ chi hàng tỉ để cứu trợ các ngân hàng, khiến nhiều người nộp thuế bình thường bức xúc.",
+  "em": ""
+ }
+]

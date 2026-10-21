@@ -160,22 +160,6 @@
   "em": ""
  },
  {
-  "w": "editorial independence",
-  "deck": "col",
-  "pat": "adj + n",
-  "cefr": "C2",
-  "vi": "sự độc lập trong biên tập",
-  "use": "Từ chuyên về báo chí, rất hợp Writing Task 2 bàn về quyền sở hữu truyền thông.",
-  "alt": [
-   "editorial control",
-   "journalistic integrity",
-   "editorial interference"
-  ],
-  "ex": "Critics fear that billionaire owners may threaten the editorial independence of the newspapers they buy.",
-  "exvi": "Giới phê bình lo ngại các ông chủ tỷ phú có thể đe dọa sự độc lập biên tập của những tờ báo họ mua lại.",
-  "em": ""
- },
- {
   "w": "polarised debate",
   "deck": "col",
   "pat": "adj + n",
@@ -464,22 +448,6 @@
   "em": ""
  },
  {
-  "w": "user-generated content",
-  "deck": "col",
-  "pat": "adj + n",
-  "cefr": "C1",
-  "vi": "nội dung do người dùng tạo ra",
-  "use": "Hợp Writing về mạng xã hội và báo chí công dân. Danh từ không đếm được.",
-  "alt": [
-   "citizen journalism",
-   "professional content",
-   "viral content"
-  ],
-  "ex": "News websites increasingly rely on user-generated content, such as videos filmed by witnesses on their phones.",
-  "exvi": "Các trang tin ngày càng dựa vào nội dung do người dùng tạo ra, như video nhân chứng quay bằng điện thoại.",
-  "em": ""
- },
- {
   "w": "a war of words",
   "deck": "col",
   "pat": "n + of + n",
@@ -589,6 +557,22 @@
   ],
   "ex": "The company's response to the data leak was deliberately vague and did not explain what had happened.",
   "exvi": "Phản hồi của công ty về vụ rò rỉ dữ liệu cố tình mơ hồ và không giải thích chuyện gì đã xảy ra.",
+  "em": ""
+ },
+ {
+  "w": "scathing criticism",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "lời chỉ trích gay gắt, nặng nề",
+  "use": "Hợp Writing và Speaking nâng cao. Scathing cũng đi với review, attack, remarks. Mạnh hơn harsh criticism.",
+  "alt": [
+   "scathing review",
+   "harsh criticism",
+   "glowing praise"
+  ],
+  "ex": "The film received scathing criticism from reviewers for its unrealistic portrayal of journalists.",
+  "exvi": "Bộ phim nhận lời chỉ trích gay gắt từ giới phê bình vì khắc họa nhà báo thiếu thực tế.",
   "em": ""
  },
  {

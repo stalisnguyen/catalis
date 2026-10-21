@@ -1,68 +1,1058 @@
 [
-{"w":"acquire knowledge","deck":"col","pat":"v + n","cefr":"B2","vi":"tiếp thu kiến thức; có được kiến thức","use":"Hợp Writing học thuật và Speaking. Không nói: learn knowledge, vì knowledge đi với acquire, gain hoặc expand.","alt":["gain knowledge","expand your knowledge","pass on knowledge"],"ex":"Many adults acquire knowledge more effectively through online courses than through traditional classroom lectures.","exvi":"Nhiều người trưởng thành tiếp thu kiến thức hiệu quả hơn qua các khóa học trực tuyến so với bài giảng truyền thống trên lớp.","em":"📚"},
-{"w":"broaden your horizons","deck":"col","pat":"v + n","cefr":"B2","vi":"mở rộng tầm nhìn, hiểu biết","use":"Rất hay dùng khi nói về du học, du lịch, đọc sách. Dùng được cả Speaking và Writing, nhưng đừng lặp lại quá nhiều vì giám khảo gặp cụm này rất thường xuyên.","alt":["widen your horizons","broaden your outlook","open your eyes to sth"],"ex":"Studying abroad can broaden your horizons and help you understand how other societies solve everyday problems.","exvi":"Du học có thể mở rộng tầm nhìn của bạn và giúp bạn hiểu cách các xã hội khác giải quyết những vấn đề hằng ngày.","em":"🌍"},
-{"w":"a working knowledge of sth","deck":"col","pat":"phrase","cefr":"C1","vi":"kiến thức đủ dùng, đủ để làm việc với cái gì","use":"Hay gặp trong CV và bối cảnh công việc; dùng tốt trong Speaking và Writing. Nghĩa là biết đủ để dùng thực tế, không phải chuyên sâu.","alt":["a basic knowledge of sth","a thorough knowledge of sth","be familiar with sth"],"ex":"Most office jobs now require at least a working knowledge of spreadsheets and basic data analysis.","exvi":"Hầu hết công việc văn phòng hiện nay đòi hỏi ít nhất kiến thức đủ dùng về bảng tính và phân tích dữ liệu cơ bản.","em":""},
-{"w":"in-depth understanding","deck":"col","pat":"adj + n","cefr":"C1","vi":"sự hiểu biết sâu sắc, tường tận","use":"Hợp Writing học thuật. Thường đi với of: an in-depth understanding of sth. Không nói: deep-depth understanding.","alt":["a thorough understanding","a superficial understanding","a profound understanding"],"ex":"Doctors need an in-depth understanding of human biology before they are allowed to treat patients alone.","exvi":"Bác sĩ cần hiểu biết sâu sắc về sinh học con người trước khi được phép điều trị bệnh nhân một mình.","em":""},
-{"w":"have a firm grasp of sth","deck":"col","pat":"phrase","cefr":"C1","vi":"nắm vững, nắm chắc điều gì","use":"Dùng tốt cả Speaking và Writing. Có thể thay firm bằng good, solid; trái nghĩa là a poor grasp of sth.","alt":["have a good grasp of sth","have a poor grasp of sth","get to grips with sth"],"ex":"Students who have a firm grasp of basic maths find it much easier to learn statistics later.","exvi":"Học sinh nắm vững toán cơ bản sẽ thấy học thống kê sau này dễ hơn nhiều.","em":""},
-{"w":"gain insight into sth","deck":"col","pat":"v + n","cefr":"C1","vi":"hiểu sâu hơn, có cái nhìn thấu đáo về điều gì","use":"Hợp Writing học thuật. Dùng into, không dùng about hay of. Không nói: get insight about.","alt":["gain an understanding of sth","provide insight into sth","shed light on sth"],"ex":"Volunteering at a hospital helped her gain insight into the daily pressures that nurses face.","exvi":"Làm tình nguyện ở bệnh viện giúp cô ấy hiểu sâu hơn những áp lực hằng ngày mà y tá phải đối mặt.","em":"💡"},
-{"w":"retain information","deck":"col","pat":"v + n","cefr":"B2","vi":"ghi nhớ, lưu giữ thông tin","use":"Hợp cả Writing và Speaking khi bàn về cách học. Information không đếm được, không nói: retain informations.","alt":["absorb information","process information","forget information"],"ex":"Research suggests that people retain information better when they take handwritten notes instead of typing.","exvi":"Nghiên cứu cho thấy con người ghi nhớ thông tin tốt hơn khi ghi chép bằng tay thay vì gõ máy.","em":"🧠"},
-{"w":"a photographic memory","deck":"col","pat":"adj + n","cefr":"C1","vi":"trí nhớ như chụp ảnh, nhớ cực kỳ chi tiết","use":"Hợp Speaking, thường dùng hơi phóng đại kiểu: I don't have a photographic memory, so I... Không nói: a camera memory.","alt":["an excellent memory","a memory like a sieve","total recall"],"ex":"I don't have a photographic memory, so I review my vocabulary notes every evening before bed.","exvi":"Tôi không có trí nhớ siêu phàm, nên tối nào trước khi ngủ tôi cũng ôn lại sổ từ vựng.","em":"📸"},
-{"w":"a vague recollection","deck":"col","pat":"adj + n","cefr":"C1","vi":"ký ức mơ hồ, nhớ lờ mờ","use":"Hợp Speaking Part 2 khi kể chuyện cũ. Thường dùng: I have a vague recollection of + V-ing / sth.","alt":["a dim recollection","a clear recollection","vaguely remember"],"ex":"I have a vague recollection of my first day at primary school, but most details have faded.","exvi":"Tôi chỉ nhớ lờ mờ ngày đầu tiên đi học tiểu học, phần lớn chi tiết đã phai nhạt.","em":""},
-{"w":"jog sb's memory","deck":"col","pat":"v + n","cefr":"C1","vi":"gợi lại trí nhớ cho ai, giúp ai nhớ ra","use":"Hợp Speaking, giọng tự nhiên. Chủ ngữ thường là vật: a photo, a smell, a song jogs my memory.","alt":["refresh sb's memory","trigger a memory","bring back memories"],"ex":"Looking through old exam papers jogged my memory about topics I had studied years ago.","exvi":"Xem lại các đề thi cũ giúp tôi nhớ ra những chủ đề mình đã học từ nhiều năm trước.","em":""},
-{"w":"hold strong views on sth","deck":"col","pat":"phrase","cefr":"C1","vi":"có quan điểm mạnh mẽ, dứt khoát về điều gì","use":"Hợp cả Writing và Speaking. Dùng hold, không dùng have strong views cũng được nhưng hold trang trọng hơn. Không nói: keep strong views.","alt":["have firm opinions on sth","feel strongly about sth","have mixed feelings about sth"],"ex":"Many parents hold strong views on whether children should be allowed smartphones at primary school.","exvi":"Nhiều phụ huynh có quan điểm rất rõ ràng về việc có nên cho trẻ dùng điện thoại thông minh ở bậc tiểu học hay không.","em":""},
-{"w":"form an opinion","deck":"col","pat":"v + n","cefr":"B2","vi":"hình thành quan điểm, ý kiến","use":"Hợp Writing học thuật. Thường đi với of hoặc about. Không nói: make an opinion.","alt":["form a view","express an opinion","reach a judgement"],"ex":"Young people often form an opinion about political issues based on short videos rather than reliable sources.","exvi":"Người trẻ thường hình thành quan điểm về các vấn đề chính trị dựa trên video ngắn thay vì nguồn đáng tin cậy.","em":""},
-{"w":"a widely held belief","deck":"col","pat":"phrase","cefr":"C1","vi":"niềm tin phổ biến, được nhiều người cho là đúng","use":"Rất hợp mở bài Writing Task 2: It is a widely held belief that... Nhớ có held, không nói: a widely belief.","alt":["a common belief","a popular misconception","conventional wisdom"],"ex":"It is a widely held belief that university graduates always earn more than people without degrees.","exvi":"Nhiều người tin rằng người tốt nghiệp đại học luôn kiếm được nhiều tiền hơn người không có bằng.","em":""},
-{"w":"a compelling argument","deck":"col","pat":"adj + n","cefr":"C1","vi":"lập luận thuyết phục, khó bác bỏ","use":"Hợp Writing học thuật. Thường dùng: make / present a compelling argument for / against sth.","alt":["a convincing argument","a persuasive case","a weak argument"],"ex":"Environmental groups have made a compelling argument for taxing airlines more heavily on short domestic routes.","exvi":"Các tổ chức môi trường đã đưa ra lập luận thuyết phục về việc đánh thuế cao hơn với các hãng bay trên tuyến nội địa ngắn.","em":""},
-{"w":"give careful consideration to sth","deck":"col","pat":"phrase","cefr":"C1","vi":"cân nhắc kỹ lưỡng điều gì","use":"Trang trọng, hợp Writing Task 2 và thư từ. Có thể đổi thành: sth deserves careful consideration.","alt":["give serious thought to sth","take sth into consideration","weigh up sth"],"ex":"Governments should give careful consideration to the long-term effects before cutting funding for public libraries.","exvi":"Chính phủ nên cân nhắc kỹ những tác động lâu dài trước khi cắt ngân sách cho thư viện công.","em":""},
-{"w":"grasp a concept","deck":"col","pat":"v + n","cefr":"B2","vi":"nắm được, hiểu được một khái niệm","use":"Dùng tốt trong cả Speaking và Writing về giáo dục. Hay đi với: struggle to grasp, fully grasp.","alt":["understand a concept","grasp the idea","get your head around sth"],"ex":"Some pupils struggle to grasp a concept until the teacher links it to a real-life example.","exvi":"Một số học sinh khó nắm được khái niệm cho đến khi giáo viên liên hệ nó với ví dụ thực tế.","em":""},
-{"w":"a thirst for knowledge","deck":"col","pat":"phrase","cefr":"C1","vi":"khao khát hiểu biết, ham học hỏi","use":"Hợp Speaking khi mô tả người khác hoặc bản thân, và Writing về giáo dục. Dùng for, không dùng of.","alt":["a hunger for learning","intellectual curiosity","a love of learning"],"ex":"Good teachers can spark a thirst for knowledge that stays with students long after they graduate.","exvi":"Giáo viên giỏi có thể khơi dậy niềm khao khát hiểu biết theo học sinh rất lâu sau khi ra trường.","em":""},
-{"w":"commit sth to memory","deck":"col","pat":"phrase","cefr":"C2","vi":"ghi nhớ, học thuộc điều gì","use":"Khá trang trọng, hợp Writing và Speaking ở band cao. Tân ngữ đặt giữa: commit the formula to memory.","alt":["learn sth by heart","memorise sth","etch sth in your memory"],"ex":"Medical students have to commit hundreds of technical terms to memory during their first year.","exvi":"Sinh viên y phải ghi nhớ hàng trăm thuật ngữ chuyên môn trong năm học đầu tiên.","em":""},
-{"w":"master a skill","deck":"col","pat":"v + n","cefr":"B2","vi":"thành thạo một kỹ năng","use":"Dùng được cả Speaking và Writing. Master là động từ, không cần thêm get: không nói get master a skill.","alt":["acquire a skill","hone a skill","develop a skill"],"ex":"It usually takes years of regular practice to master a skill such as playing the violin.","exvi":"Thường phải mất nhiều năm luyện tập đều đặn mới thành thạo một kỹ năng như chơi vĩ cầm.","em":"🎯"},
-{"w":"a well-rounded education","deck":"col","pat":"adj + n","cefr":"C1","vi":"nền giáo dục toàn diện","use":"Hợp Writing Task 2 về chương trình học, môn nghệ thuật, thể thao. Nhớ có gạch nối: well-rounded.","alt":["a broad education","a holistic education","a narrow curriculum"],"ex":"Supporters of art and music lessons say they are essential for a well-rounded education.","exvi":"Những người ủng hộ môn mỹ thuật và âm nhạc cho rằng chúng là điều cần thiết cho một nền giáo dục toàn diện.","em":""},
-{"w":"deep-seated beliefs","deck":"col","pat":"adj + n","cefr":"C2","vi":"niềm tin ăn sâu, khó thay đổi","use":"Hợp Writing học thuật khi bàn về văn hóa, định kiến. Cũng dùng với fears, prejudices.","alt":["deeply held beliefs","firmly held beliefs","entrenched attitudes"],"ex":"Changing deep-seated beliefs about gender roles in the family can take more than one generation.","exvi":"Thay đổi những niềm tin đã ăn sâu về vai trò giới trong gia đình có thể mất hơn một thế hệ.","em":""},
-{"w":"preconceived ideas","deck":"col","pat":"adj + n","cefr":"C1","vi":"định kiến, ý nghĩ có sẵn từ trước","use":"Hợp cả Speaking và Writing, thường về du lịch, văn hóa. Hay đi với: have / challenge preconceived ideas about sth.","alt":["preconceived notions","stereotypes","an open mind"],"ex":"Travelling alone made me question many preconceived ideas I had about people from other countries.","exvi":"Đi du lịch một mình khiến tôi xem lại nhiều định kiến mình từng có về người nước khác.","em":""},
-{"w":"challenge assumptions","deck":"col","pat":"v + n","cefr":"C1","vi":"đặt câu hỏi, thách thức những giả định","use":"Hợp Writing học thuật về tư duy phản biện, khoa học. Không nói: against assumptions.","alt":["question assumptions","make assumptions","challenge the status quo"],"ex":"University seminars encourage students to challenge assumptions rather than simply accept what textbooks say.","exvi":"Các buổi thảo luận ở đại học khuyến khích sinh viên đặt câu hỏi với các giả định thay vì chấp nhận mọi điều sách giáo khoa nói.","em":""},
-{"w":"a body of knowledge","deck":"col","pat":"n + of + n","cefr":"C1","vi":"khối kiến thức, kho tri thức về một lĩnh vực","use":"Trang trọng, hợp Writing học thuật. Thường đi với growing, vast: a growing body of knowledge.","alt":["a body of research","a wealth of knowledge","a field of study"],"ex":"Traditional farmers have built up a valuable body of knowledge about local soil and weather patterns.","exvi":"Những người nông dân truyền thống đã tích lũy một kho kiến thức quý giá về đất đai và thời tiết địa phương.","em":""},
-{"w":"a train of thought","deck":"col","pat":"n + of + n","cefr":"C1","vi":"mạch suy nghĩ","use":"Hay dùng trong Speaking: Sorry, I've lost my train of thought. Đây là cách cứu vãn tự nhiên khi bí ý trong phòng thi.","alt":["lose your train of thought","a line of reasoning","lose the thread"],"ex":"Constant phone notifications break your train of thought and make deep study almost impossible.","exvi":"Thông báo điện thoại liên tục làm đứt mạch suy nghĩ và khiến việc học sâu gần như không thể.","em":""},
-{"w":"a flash of inspiration","deck":"col","pat":"n + of + n","cefr":"C1","vi":"ý tưởng chợt lóe lên, cảm hứng bất chợt","use":"Hợp Speaking khi kể về ý tưởng, sáng tạo. Cũng nói: a moment of inspiration.","alt":["a stroke of genius","a brainwave","a moment of inspiration"],"ex":"The engineer had a flash of inspiration while cycling to work and quickly sketched the new design.","exvi":"Người kỹ sư chợt nảy ra ý tưởng khi đạp xe đi làm và nhanh chóng phác thảo thiết kế mới.","em":"⚡"},
-{"w":"a lapse in concentration","deck":"col","pat":"phrase","cefr":"C2","vi":"phút lơ đễnh, mất tập trung trong chốc lát","use":"Hợp Writing về an toàn giao thông, công việc. Cũng nói: a lapse of concentration. Không nói: a lose of concentration.","alt":["a moment of carelessness","lose concentration","a momentary lapse"],"ex":"A brief lapse in concentration behind the wheel can lead to a serious road accident.","exvi":"Chỉ một phút lơ đễnh khi lái xe cũng có thể dẫn đến tai nạn giao thông nghiêm trọng.","em":""},
-{"w":"intellectually stimulating","deck":"col","pat":"adv + adj","cefr":"C1","vi":"kích thích trí tuệ, khiến đầu óc hoạt động","use":"Hợp cả Speaking và Writing khi nói về công việc, sách, trò chơi. Thay cho interesting, nghe tự nhiên và cao hơn.","alt":["mentally challenging","thought-provoking","mind-numbing"],"ex":"Older people who keep doing intellectually stimulating activities, like puzzles, tend to stay mentally sharp longer.","exvi":"Người cao tuổi duy trì các hoạt động kích thích trí tuệ như giải đố thường giữ được sự minh mẫn lâu hơn.","em":"🧩"},
-{"w":"firmly believe","deck":"col","pat":"adv + v","cefr":"B2","vi":"tin chắc, tin tưởng vững vàng","use":"Hợp Writing Task 2 khi nêu quan điểm: I firmly believe that... Không nói: strongly believe that cũng đúng, nhưng tránh hard believe.","alt":["strongly believe","genuinely believe","be convinced that"],"ex":"I firmly believe that schools should teach basic financial skills such as budgeting and saving.","exvi":"Tôi tin chắc rằng trường học nên dạy các kỹ năng tài chính cơ bản như lập ngân sách và tiết kiệm.","em":""},
-{"w":"vaguely remember","deck":"col","pat":"adv + v","cefr":"B2","vi":"nhớ mang máng, nhớ lờ mờ","use":"Rất tự nhiên trong Speaking Part 2 khi kể chuyện quá khứ. Trái nghĩa: vividly remember.","alt":["dimly remember","vividly remember","have a vague recollection"],"ex":"I vaguely remember visiting a science museum with my class when I was about seven.","exvi":"Tôi nhớ mang máng đã đi bảo tàng khoa học cùng lớp khi khoảng bảy tuổi.","em":""},
-{"w":"deeply ingrained","deck":"col","pat":"adv + adj","cefr":"C2","vi":"ăn sâu, bám rễ (thói quen, niềm tin)","use":"Hợp Writing học thuật về thói quen, văn hóa. Thường đi với habits, attitudes, culture.","alt":["deep-rooted","firmly entrenched","second nature"],"ex":"The habit of memorising answers is deeply ingrained in many exam-focused education systems.","exvi":"Thói quen học thuộc đáp án đã ăn sâu vào nhiều hệ thống giáo dục nặng về thi cử.","em":""},
-{"w":"conventional wisdom","deck":"col","pat":"adj + n","cefr":"C2","vi":"quan niệm thông thường, điều mọi người vẫn mặc định là đúng","use":"Hợp Writing học thuật, hay dùng để phản bác: Contrary to conventional wisdom, ... Không dùng mạo từ a.","alt":["received wisdom","popular belief","common knowledge"],"ex":"Contrary to conventional wisdom, short breaks during study sessions actually improve concentration and results.","exvi":"Trái với quan niệm thông thường, nghỉ ngắn trong lúc học thực ra lại giúp tăng sự tập trung và kết quả.","em":""},
-{"w":"a sweeping generalisation","deck":"col","pat":"adj + n","cefr":"C2","vi":"sự khái quát hóa vội vàng, quơ đũa cả nắm","use":"Hợp Writing Task 2 để phản bác một ý kiến cực đoan. Thường đi với make: make a sweeping generalisation.","alt":["an oversimplification","a blanket statement","a stereotype"],"ex":"Saying that all teenagers are addicted to social media is a sweeping generalisation without real evidence.","exvi":"Nói rằng mọi thiếu niên đều nghiện mạng xã hội là một sự quơ đũa cả nắm không có bằng chứng thật sự.","em":""},
-{"w":"an informed decision","deck":"col","pat":"adj + n","cefr":"B2","vi":"quyết định sáng suốt, có đủ thông tin","use":"Hợp cả Writing và Speaking. Dùng với make. Không nói: an informative decision.","alt":["a well-informed choice","an educated guess","a snap decision"],"ex":"Clear food labels help shoppers make an informed decision about what they feed their families.","exvi":"Nhãn thực phẩm rõ ràng giúp người mua đưa ra quyết định sáng suốt về những gì họ cho gia đình ăn.","em":""},
-{"w":"bear sth in mind","deck":"col","pat":"phrase","cefr":"B2","vi":"ghi nhớ, lưu ý điều gì","use":"Dùng tốt cả Speaking và Writing. Dạng hay gặp: It is worth bearing in mind that... Không nói: bear in my brain.","alt":["keep sth in mind","take sth into account","remember"],"ex":"It is worth bearing in mind that online degrees are not always recognised by every employer.","exvi":"Cần lưu ý rằng bằng cấp trực tuyến không phải lúc nào cũng được mọi nhà tuyển dụng công nhận.","em":""},
-{"w":"get the gist","deck":"col","pat":"v + n","cefr":"C1","vi":"nắm được ý chính","use":"Hợp Speaking, giọng tự nhiên. Thường đi với of: get the gist of a lecture, an article.","alt":["grasp the main idea","catch the drift","understand every word"],"ex":"When reading academic articles, I skim first to get the gist before focusing on the details.","exvi":"Khi đọc bài báo học thuật, tôi đọc lướt trước để nắm ý chính rồi mới tập trung vào chi tiết.","em":""},
-{"w":"rack your brains","deck":"idiom","pat":"idiom","cefr":"B2","vi":"vắt óc suy nghĩ","use":"Hợp Speaking, giọng thân mật. Không dùng trong Writing Task 2, và đừng cố nhét idiom vào bài viết.","alt":["think hard","cudgel your brains","draw a blank"],"ex":"I racked my brains for an answer, but I couldn't remember the date of the historical event.","exvi":"Tôi vắt óc tìm câu trả lời nhưng không thể nhớ ra ngày diễn ra sự kiện lịch sử đó.","em":"🤯"},
-{"w":"food for thought","deck":"idiom","pat":"idiom","cefr":"B2","vi":"điều đáng suy ngẫm","use":"Hợp Speaking khi nói về sách, phim, bài giảng. Dạng hay gặp: The documentary gave me food for thought. Không dùng trong Writing Task 2.","alt":["sth to think about","thought-provoking","an eye-opener"],"ex":"The documentary about plastic waste gave me a lot of food for thought about my shopping habits.","exvi":"Bộ phim tài liệu về rác thải nhựa cho tôi nhiều điều đáng suy ngẫm về thói quen mua sắm của mình.","em":"🤔"},
-{"w":"on the tip of your tongue","deck":"idiom","pat":"idiom","cefr":"B2","vi":"sắp nhớ ra, đến đầu lưỡi rồi mà chưa nói ra được","use":"Rất tự nhiên trong Speaking, dùng được khi bí một từ trong phòng thi. Không dùng trong Writing.","alt":["slip your mind","draw a blank","come back to you"],"ex":"The name of that famous scientist is on the tip of my tongue, but I just can't recall it.","exvi":"Tên nhà khoa học nổi tiếng đó đã đến đầu lưỡi rồi mà tôi vẫn không nhớ ra.","em":"👅"},
-{"w":"jump to conclusions","deck":"idiom","pat":"idiom","cefr":"B2","vi":"vội vàng kết luận","use":"Dùng được trong Speaking, và đủ trung tính để thỉnh thoảng xuất hiện trong Writing. Luôn dùng conclusions số nhiều.","alt":["rush to judgement","draw a conclusion","give sb the benefit of the doubt"],"ex":"We should not jump to conclusions about a student's ability based on one poor exam result.","exvi":"Chúng ta không nên vội kết luận về năng lực của một học sinh chỉ dựa vào một bài thi kém.","em":""},
-{"w":"learn sth by heart","deck":"idiom","pat":"idiom","cefr":"B2","vi":"học thuộc lòng","use":"Hợp Speaking khi nói về cách học. Không nói: learn by my heart. Trong Writing nên dùng memorise hoặc rote learning.","alt":["know sth by heart","memorise sth","commit sth to memory"],"ex":"As children, we had to learn long poems by heart and recite them in front of the class.","exvi":"Hồi nhỏ chúng tôi phải học thuộc lòng những bài thơ dài và đọc trước lớp.","em":""},
-{"w":"pick sb's brains","deck":"idiom","pat":"idiom","cefr":"C1","vi":"hỏi ý kiến, khai thác hiểu biết của ai","use":"Hợp Speaking, giọng thân mật, thường nói với người có chuyên môn. Không dùng trong Writing Task 2.","alt":["ask sb's advice","consult sb","tap into sb's expertise"],"ex":"Before choosing my university course, I picked my cousin's brains because she works in software engineering.","exvi":"Trước khi chọn ngành học đại học, tôi đã hỏi ý kiến chị họ vì chị làm kỹ sư phần mềm.","em":""},
-{"w":"read between the lines","deck":"idiom","pat":"idiom","cefr":"C1","vi":"hiểu được ẩn ý","use":"Hợp Speaking, nói về báo chí, giao tiếp. Không nên dùng trong Writing Task 2.","alt":["take sth at face value","pick up on sth","get the hidden meaning"],"ex":"Media literacy classes teach teenagers to read between the lines of advertisements and news headlines.","exvi":"Các lớp kỹ năng truyền thông dạy thiếu niên hiểu ẩn ý đằng sau quảng cáo và tiêu đề tin tức.","em":""},
-{"w":"put two and two together","deck":"idiom","pat":"idiom","cefr":"C1","vi":"suy ra, xâu chuỗi các dữ kiện để hiểu ra","use":"Hợp Speaking khi kể chuyện. Không dùng trong Writing. Biến thể đùa: put two and two together and make five, nghĩa là suy diễn sai.","alt":["work out","the penny dropped","jump to conclusions"],"ex":"When my colleague kept checking job websites, I put two and two together and realised she was leaving.","exvi":"Thấy đồng nghiệp liên tục xem trang tuyển dụng, tôi xâu chuỗi lại và nhận ra cô ấy sắp nghỉ việc.","em":""},
-{"w":"know sth inside out","deck":"idiom","pat":"idiom","cefr":"C1","vi":"biết rõ như lòng bàn tay, nắm cực kỳ vững","use":"Hợp Speaking khi nói về chuyên môn, nơi chốn. Không dùng trong Writing Task 2.","alt":["know sth like the back of your hand","be an expert on sth","have a working knowledge of sth"],"ex":"After teaching the same course for ten years, she knows the syllabus inside out.","exvi":"Sau mười năm dạy cùng một khóa, cô ấy nắm chương trình học như lòng bàn tay.","em":""},
-{"w":"keep an open mind","deck":"idiom","pat":"idiom","cefr":"C1","vi":"giữ tư tưởng cởi mở, không định kiến","use":"Dùng được cả Speaking và Writing vì khá trung tính. Không nói: keep an opened mind.","alt":["be open-minded","have an open mind","be narrow-minded"],"ex":"Students should keep an open mind when they hear opinions that differ from their own.","exvi":"Học sinh nên giữ thái độ cởi mở khi nghe những ý kiến khác với mình.","em":""},
-{"w":"go back to the drawing board","deck":"idiom","pat":"idiom","cefr":"C1","vi":"làm lại từ đầu, lên lại kế hoạch","use":"Hợp Speaking khi kể về dự án thất bại. Không dùng trong Writing Task 2.","alt":["start from scratch","back to square one","rethink sth"],"ex":"When the trial results were disappointing, the research team had to go back to the drawing board.","exvi":"Khi kết quả thử nghiệm đáng thất vọng, nhóm nghiên cứu phải làm lại từ đầu.","em":"📝"},
-{"w":"a mind like a sieve","deck":"idiom","pat":"idiom","cefr":"C2","vi":"trí nhớ như cái rổ, rất hay quên","use":"Hợp Speaking, giọng đùa về bản thân. Không dùng trong Writing.","alt":["a memory like a sieve","forgetful","absent-minded"],"ex":"I have a mind like a sieve, so I set phone reminders for every deadline and appointment.","exvi":"Tôi rất hay quên nên đặt nhắc nhở trên điện thoại cho mọi hạn chót và cuộc hẹn.","em":""},
-{"w":"the jury is still out","deck":"idiom","pat":"idiom","cefr":"C2","vi":"vẫn chưa có kết luận, vẫn còn tranh cãi","use":"Một trong số ít idiom có thể dùng thận trọng trong Writing, nhưng hợp Speaking hơn. Thường đi với on: the jury is still out on sth.","alt":["it remains to be seen","a matter of debate","an open question"],"ex":"The jury is still out on whether learning apps are as effective as studying with a real teacher.","exvi":"Vẫn chưa có kết luận việc ứng dụng học tập có hiệu quả bằng học với giáo viên thật hay không.","em":"⚖️"},
-{"w":"split hairs","deck":"idiom","pat":"idiom","cefr":"C2","vi":"bới lông tìm vết, câu nệ tiểu tiết","use":"Hợp Speaking khi tranh luận. Không dùng trong Writing Task 2.","alt":["nitpick","quibble","miss the big picture"],"ex":"Let's not split hairs over the exact wording; the main idea of the proposal is clear.","exvi":"Đừng câu nệ từng chữ nữa, ý chính của đề xuất đã rõ ràng rồi.","em":""},
-{"w":"can't make head nor tail of sth","deck":"idiom","pat":"idiom","cefr":"C2","vi":"chẳng hiểu đầu đuôi gì cả","use":"Hợp Speaking, giọng thân mật. Cũng nói: can't make head or tail of sth. Không dùng trong Writing.","alt":["can't get your head around sth","be completely lost","be baffled by sth"],"ex":"I couldn't make head nor tail of the instructions that came with my new laptop.","exvi":"Tôi chẳng hiểu đầu đuôi gì trong hướng dẫn đi kèm chiếc laptop mới.","em":"😵"},
-{"w":"learn the hard way","deck":"idiom","pat":"idiom","cefr":"C1","vi":"học được bài học qua trải nghiệm đắt giá","use":"Rất tự nhiên trong Speaking Part 2 và 3. Không dùng trong Writing Task 2.","alt":["learn from your mistakes","learn a lesson","trial and error"],"ex":"I learned the hard way that leaving all my revision until the night before an exam never works.","exvi":"Tôi đã rút ra bài học đắt giá rằng để dồn ôn tập đến đêm trước kỳ thi chẳng bao giờ hiệu quả.","em":""},
-{"w":"read up on sth","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"đọc tìm hiểu kỹ về điều gì","use":"Hợp Speaking. Nhớ có on. Không nói: read up about sth cũng được nhưng read up on tự nhiên hơn.","alt":["research sth","look into sth","brush up on sth"],"ex":"Before travelling to Japan, I read up on local customs so I wouldn't offend anyone.","exvi":"Trước khi đến Nhật, tôi đã đọc tìm hiểu kỹ phong tục địa phương để không làm phật lòng ai.","em":"📖"},
-{"w":"think sth through","deck":"pv","pat":"phrasal verb, tách được","cefr":"B2","vi":"suy nghĩ thấu đáo, cân nhắc kỹ mọi mặt","use":"Dùng tốt trong Speaking và Writing trung tính. Khi tân ngữ là đại từ phải tách: think it through.","alt":["think sth over","consider sth carefully","act on impulse"],"ex":"Young people should think their career choices through before taking on large student loans.","exvi":"Người trẻ nên suy nghĩ thấu đáo về lựa chọn nghề nghiệp trước khi vay khoản tiền học lớn.","em":""},
-{"w":"think sth over","deck":"pv","pat":"phrasal verb, tách được","cefr":"B2","vi":"suy nghĩ thêm, cân nhắc lại","use":"Hay dùng trong Speaking và giao tiếp công việc: Let me think it over. Khác think through ở chỗ thường là cần thời gian trước khi quyết định.","alt":["mull over sth","sleep on it","weigh up sth"],"ex":"She asked for a week to think the job offer over before giving the company her answer.","exvi":"Cô ấy xin một tuần để suy nghĩ thêm về lời mời làm việc trước khi trả lời công ty.","em":""},
-{"w":"go over sth","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"xem lại, ôn lại; kiểm tra kỹ","use":"Dùng tốt trong Speaking về việc học. Không tách được: go over it, không nói go it over.","alt":["revise sth","review sth","run through sth"],"ex":"Our teacher always goes over the key points at the end of each lesson to help us remember.","exvi":"Giáo viên của chúng tôi luôn ôn lại các ý chính cuối mỗi buổi học để giúp chúng tôi ghi nhớ.","em":""},
-{"w":"fall behind","deck":"pv","pat":"phrasal verb","cefr":"B2","vi":"bị tụt lại phía sau, học theo không kịp","use":"Dùng được cả Speaking và Writing. Thường đi với with hoặc in: fall behind with your studies, fall behind in maths.","alt":["keep up with sb","catch up on sth","lag behind"],"ex":"Students who miss several weeks of school through illness can easily fall behind with their studies.","exvi":"Học sinh nghỉ học vài tuần vì ốm có thể dễ dàng bị tụt lại trong việc học.","em":""},
-{"w":"take sth in","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"hiểu và tiếp thu, nhớ được (thông tin)","use":"Hợp Speaking. Thường dùng phủ định hoặc với too much: I couldn't take it all in.","alt":["absorb sth","digest sth","sink in"],"ex":"The lecture moved so fast that most of us couldn't take in all the new information.","exvi":"Bài giảng diễn ra quá nhanh nên phần lớn chúng tôi không tiếp thu được hết thông tin mới.","em":""},
-{"w":"puzzle over sth","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"suy nghĩ mãi, loay hoay tìm lời giải cho điều gì","use":"Hợp Speaking và văn kể chuyện. Không tách được. Gần nghĩa: ponder, nhưng puzzle over nhấn mạnh sự khó hiểu.","alt":["ponder sth","wrestle with sth","figure out sth"],"ex":"Scientists have puzzled over the strange behaviour of these birds for more than a decade.","exvi":"Các nhà khoa học đã loay hoay tìm lời giải cho hành vi kỳ lạ của loài chim này hơn một thập kỷ.","em":""},
-{"w":"piece sth together","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"chắp nối, ghép các thông tin lại để hiểu toàn cảnh","use":"Dùng được cả Speaking và Writing. Hay dùng với story, events, evidence.","alt":["put two and two together","reconstruct sth","work out sth"],"ex":"Historians are still trying to piece together what daily life was like in the ancient city.","exvi":"Các nhà sử học vẫn đang cố chắp nối để hiểu cuộc sống hằng ngày ở thành phố cổ ra sao.","em":"🧩"},
-{"w":"dwell on sth","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"nghĩ mãi, day dứt về điều gì (thường là chuyện không vui)","use":"Hợp Speaking và Writing về sức khỏe tinh thần. Không tách được. Thường dùng phủ định: don't dwell on your mistakes.","alt":["brood over sth","let sth go","move on"],"ex":"Successful learners don't dwell on their mistakes; they analyse them and try a different approach.","exvi":"Người học giỏi không day dứt mãi về lỗi sai, họ phân tích và thử cách khác.","em":""},
-{"w":"grapple with sth","deck":"pv","pat":"phrasal verb","cefr":"C1","vi":"vật lộn, cố gắng hiểu hoặc giải quyết điều gì khó","use":"Hợp Writing học thuật, rất hay đi với problem, issue, concept. Không tách được.","alt":["struggle with sth","come to grips with sth","tackle sth"],"ex":"Many first-year students grapple with the idea of managing their own time without teachers checking on them.","exvi":"Nhiều sinh viên năm nhất vật lộn với việc tự quản lý thời gian khi không còn giáo viên kiểm tra.","em":""},
-{"w":"rule sth out","deck":"pv","pat":"phrasal verb, tách được","cefr":"C1","vi":"loại trừ (một khả năng)","use":"Dùng được cả Writing và Speaking. Hay gặp: cannot be ruled out, nghĩa là vẫn có khả năng.","alt":["rule sth in","dismiss sth","eliminate sth"],"ex":"The researchers ruled out diet as a cause and focused on lack of sleep instead.","exvi":"Các nhà nghiên cứu đã loại trừ chế độ ăn là nguyên nhân và chuyển sang tập trung vào việc thiếu ngủ.","em":""},
-{"w":"swot up on sth","deck":"pv","pat":"phrasal verb","cefr":"C2","vi":"học gạo, học dồn cho kỳ thi","use":"Tiếng Anh Anh, thân mật, chỉ hợp Speaking. Không dùng trong Writing.","alt":["cram for sth","revise for sth","hit the books"],"ex":"I spent the whole weekend swotting up on grammar rules before my English placement test.","exvi":"Tôi dành cả cuối tuần học dồn các quy tắc ngữ pháp trước bài kiểm tra xếp lớp tiếng Anh.","em":""},
-{"w":"hit upon sth","deck":"pv","pat":"phrasal verb","cefr":"C2","vi":"chợt nghĩ ra, tình cờ tìm ra (ý tưởng, giải pháp)","use":"Hợp Speaking và văn kể chuyện. Cũng nói: hit on sth. Thường đi với idea, solution.","alt":["come up with sth","stumble upon sth","think of sth"],"ex":"The two students hit upon the idea of a recycling app while cleaning up their local beach.","exvi":"Hai sinh viên chợt nảy ra ý tưởng làm ứng dụng tái chế khi đang dọn rác ở bãi biển gần nhà.","em":""},
-{"w":"drum sth into sb","deck":"pv","pat":"phrasal verb, tách được","cefr":"C2","vi":"nhồi nhét, nhắc đi nhắc lại cho ai nhớ","use":"Hợp Speaking khi nói về cách cha mẹ, thầy cô dạy. Hay dùng bị động: It was drummed into us that...","alt":["instil sth in sb","hammer sth home","teach sb sth"],"ex":"The importance of road safety was drummed into us from our very first year at school.","exvi":"Tầm quan trọng của an toàn giao thông đã được nhắc đi nhắc lại với chúng tôi ngay từ năm đầu đi học.","em":"🥁"}
+ {
+  "w": "acquire knowledge",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tiếp thu kiến thức; có được kiến thức",
+  "use": "Hợp Writing học thuật và Speaking. Không nói: learn knowledge, vì knowledge đi với acquire, gain hoặc expand.",
+  "alt": [
+   "gain knowledge",
+   "expand your knowledge",
+   "pass on knowledge"
+  ],
+  "ex": "Many adults acquire knowledge more effectively through online courses than through traditional classroom lectures.",
+  "exvi": "Nhiều người trưởng thành tiếp thu kiến thức hiệu quả hơn qua các khóa học trực tuyến so với bài giảng truyền thống trên lớp.",
+  "em": "📚"
+ },
+ {
+  "w": "academic performance",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "kết quả học tập, thành tích học tập",
+  "use": "Hợp Writing Task 2 về giáo dục. Không nói: study performance hay learning result khi muốn nói thành tích chung.",
+  "alt": [
+   "academic achievement",
+   "exam results",
+   "academic attainment"
+  ],
+  "ex": "Several studies link regular sleep and a healthy breakfast to better academic performance in teenagers.",
+  "exvi": "Nhiều nghiên cứu cho thấy ngủ đều đặn và ăn sáng lành mạnh gắn với kết quả học tập tốt hơn ở thiếu niên.",
+  "em": ""
+ },
+ {
+  "w": "a working knowledge of sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "kiến thức đủ dùng, đủ để làm việc với cái gì",
+  "use": "Hay gặp trong CV và bối cảnh công việc; dùng tốt trong Speaking và Writing. Nghĩa là biết đủ để dùng thực tế, không phải chuyên sâu.",
+  "alt": [
+   "a basic knowledge of sth",
+   "a thorough knowledge of sth",
+   "be familiar with sth"
+  ],
+  "ex": "Most office jobs now require at least a working knowledge of spreadsheets and basic data analysis.",
+  "exvi": "Hầu hết công việc văn phòng hiện nay đòi hỏi ít nhất kiến thức đủ dùng về bảng tính và phân tích dữ liệu cơ bản.",
+  "em": ""
+ },
+ {
+  "w": "in-depth understanding",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự hiểu biết sâu sắc, tường tận",
+  "use": "Hợp Writing học thuật. Thường đi với of: an in-depth understanding of sth. Không nói: deep-depth understanding.",
+  "alt": [
+   "a thorough understanding",
+   "a superficial understanding",
+   "a profound understanding"
+  ],
+  "ex": "Doctors need an in-depth understanding of human biology before they are allowed to treat patients alone.",
+  "exvi": "Bác sĩ cần hiểu biết sâu sắc về sinh học con người trước khi được phép điều trị bệnh nhân một mình.",
+  "em": ""
+ },
+ {
+  "w": "have a firm grasp of sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "nắm vững, nắm chắc điều gì",
+  "use": "Dùng tốt cả Speaking và Writing. Có thể thay firm bằng good, solid; trái nghĩa là a poor grasp of sth.",
+  "alt": [
+   "have a good grasp of sth",
+   "have a poor grasp of sth",
+   "get to grips with sth"
+  ],
+  "ex": "Students who have a firm grasp of basic maths find it much easier to learn statistics later.",
+  "exvi": "Học sinh nắm vững toán cơ bản sẽ thấy học thống kê sau này dễ hơn nhiều.",
+  "em": ""
+ },
+ {
+  "w": "gain insight into sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "hiểu sâu hơn, có cái nhìn thấu đáo về điều gì",
+  "use": "Hợp Writing học thuật. Dùng into, không dùng about hay of. Không nói: get insight about.",
+  "alt": [
+   "gain an understanding of sth",
+   "provide insight into sth",
+   "shed light on sth"
+  ],
+  "ex": "Volunteering at a hospital helped her gain insight into the daily pressures that nurses face.",
+  "exvi": "Làm tình nguyện ở bệnh viện giúp cô ấy hiểu sâu hơn những áp lực hằng ngày mà y tá phải đối mặt.",
+  "em": "💡"
+ },
+ {
+  "w": "retain information",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "ghi nhớ, lưu giữ thông tin",
+  "use": "Hợp cả Writing và Speaking khi bàn về cách học. Information không đếm được, không nói: retain informations.",
+  "alt": [
+   "absorb information",
+   "process information",
+   "forget information"
+  ],
+  "ex": "Research suggests that people retain information better when they take handwritten notes instead of typing.",
+  "exvi": "Nghiên cứu cho thấy con người ghi nhớ thông tin tốt hơn khi ghi chép bằng tay thay vì gõ máy.",
+  "em": "🧠"
+ },
+ {
+  "w": "a photographic memory",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "trí nhớ như chụp ảnh, nhớ cực kỳ chi tiết",
+  "use": "Hợp Speaking, thường dùng hơi phóng đại kiểu: I don't have a photographic memory, so I... Không nói: a camera memory.",
+  "alt": [
+   "an excellent memory",
+   "a memory like a sieve",
+   "total recall"
+  ],
+  "ex": "I don't have a photographic memory, so I review my vocabulary notes every evening before bed.",
+  "exvi": "Tôi không có trí nhớ siêu phàm, nên tối nào trước khi ngủ tôi cũng ôn lại sổ từ vựng.",
+  "em": "📸"
+ },
+ {
+  "w": "a vague recollection",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "ký ức mơ hồ, nhớ lờ mờ",
+  "use": "Hợp Speaking Part 2 khi kể chuyện cũ. Thường dùng: I have a vague recollection of + V-ing / sth.",
+  "alt": [
+   "a dim recollection",
+   "a clear recollection",
+   "vaguely remember"
+  ],
+  "ex": "I have a vague recollection of my first day at primary school, but most details have faded.",
+  "exvi": "Tôi chỉ nhớ lờ mờ ngày đầu tiên đi học tiểu học, phần lớn chi tiết đã phai nhạt.",
+  "em": ""
+ },
+ {
+  "w": "jog sb's memory",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "gợi lại trí nhớ cho ai, giúp ai nhớ ra",
+  "use": "Hợp Speaking, giọng tự nhiên. Chủ ngữ thường là vật: a photo, a smell, a song jogs my memory.",
+  "alt": [
+   "refresh sb's memory",
+   "trigger a memory",
+   "bring back memories"
+  ],
+  "ex": "Looking through old exam papers jogged my memory about topics I had studied years ago.",
+  "exvi": "Xem lại các đề thi cũ giúp tôi nhớ ra những chủ đề mình đã học từ nhiều năm trước.",
+  "em": ""
+ },
+ {
+  "w": "hold strong views on sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "có quan điểm mạnh mẽ, dứt khoát về điều gì",
+  "use": "Hợp cả Writing và Speaking. Dùng hold, không dùng have strong views cũng được nhưng hold trang trọng hơn. Không nói: keep strong views.",
+  "alt": [
+   "have firm opinions on sth",
+   "feel strongly about sth",
+   "have mixed feelings about sth"
+  ],
+  "ex": "Many parents hold strong views on whether children should be allowed smartphones at primary school.",
+  "exvi": "Nhiều phụ huynh có quan điểm rất rõ ràng về việc có nên cho trẻ dùng điện thoại thông minh ở bậc tiểu học hay không.",
+  "em": ""
+ },
+ {
+  "w": "form an opinion",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "hình thành quan điểm, ý kiến",
+  "use": "Hợp Writing học thuật. Thường đi với of hoặc about. Không nói: make an opinion.",
+  "alt": [
+   "form a view",
+   "express an opinion",
+   "reach a judgement"
+  ],
+  "ex": "Young people often form an opinion about political issues based on short videos rather than reliable sources.",
+  "exvi": "Người trẻ thường hình thành quan điểm về các vấn đề chính trị dựa trên video ngắn thay vì nguồn đáng tin cậy.",
+  "em": ""
+ },
+ {
+  "w": "a widely held belief",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "niềm tin phổ biến, được nhiều người cho là đúng",
+  "use": "Rất hợp mở bài Writing Task 2: It is a widely held belief that... Nhớ có held, không nói: a widely belief.",
+  "alt": [
+   "a common belief",
+   "a popular misconception",
+   "conventional wisdom"
+  ],
+  "ex": "It is a widely held belief that university graduates always earn more than people without degrees.",
+  "exvi": "Nhiều người tin rằng người tốt nghiệp đại học luôn kiếm được nhiều tiền hơn người không có bằng.",
+  "em": ""
+ },
+ {
+  "w": "a compelling argument",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "lập luận thuyết phục, khó bác bỏ",
+  "use": "Hợp Writing học thuật. Thường dùng: make / present a compelling argument for / against sth.",
+  "alt": [
+   "a convincing argument",
+   "a persuasive case",
+   "a weak argument"
+  ],
+  "ex": "Environmental groups have made a compelling argument for taxing airlines more heavily on short domestic routes.",
+  "exvi": "Các tổ chức môi trường đã đưa ra lập luận thuyết phục về việc đánh thuế cao hơn với các hãng bay trên tuyến nội địa ngắn.",
+  "em": ""
+ },
+ {
+  "w": "give careful consideration to sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "cân nhắc kỹ lưỡng điều gì",
+  "use": "Trang trọng, hợp Writing Task 2 và thư từ. Có thể đổi thành: sth deserves careful consideration.",
+  "alt": [
+   "give serious thought to sth",
+   "take sth into consideration",
+   "weigh up sth"
+  ],
+  "ex": "Governments should give careful consideration to the long-term effects before cutting funding for public libraries.",
+  "exvi": "Chính phủ nên cân nhắc kỹ những tác động lâu dài trước khi cắt ngân sách cho thư viện công.",
+  "em": ""
+ },
+ {
+  "w": "grasp a concept",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "nắm được, hiểu được một khái niệm",
+  "use": "Dùng tốt trong cả Speaking và Writing về giáo dục. Hay đi với: struggle to grasp, fully grasp.",
+  "alt": [
+   "understand a concept",
+   "grasp the idea",
+   "get your head around sth"
+  ],
+  "ex": "Some pupils struggle to grasp a concept until the teacher links it to a real-life example.",
+  "exvi": "Một số học sinh khó nắm được khái niệm cho đến khi giáo viên liên hệ nó với ví dụ thực tế.",
+  "em": ""
+ },
+ {
+  "w": "a thirst for knowledge",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "khao khát hiểu biết, ham học hỏi",
+  "use": "Hợp Speaking khi mô tả người khác hoặc bản thân, và Writing về giáo dục. Dùng for, không dùng of.",
+  "alt": [
+   "a hunger for learning",
+   "intellectual curiosity",
+   "a love of learning"
+  ],
+  "ex": "Good teachers can spark a thirst for knowledge that stays with students long after they graduate.",
+  "exvi": "Giáo viên giỏi có thể khơi dậy niềm khao khát hiểu biết theo học sinh rất lâu sau khi ra trường.",
+  "em": ""
+ },
+ {
+  "w": "commit sth to memory",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C2",
+  "vi": "ghi nhớ, học thuộc điều gì",
+  "use": "Khá trang trọng, hợp Writing và Speaking ở band cao. Tân ngữ đặt giữa: commit the formula to memory.",
+  "alt": [
+   "learn sth by heart",
+   "memorise sth",
+   "etch sth in your memory"
+  ],
+  "ex": "Medical students have to commit hundreds of technical terms to memory during their first year.",
+  "exvi": "Sinh viên y phải ghi nhớ hàng trăm thuật ngữ chuyên môn trong năm học đầu tiên.",
+  "em": ""
+ },
+ {
+  "w": "master a skill",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "thành thạo một kỹ năng",
+  "use": "Dùng được cả Speaking và Writing. Master là động từ, không cần thêm get: không nói get master a skill.",
+  "alt": [
+   "acquire a skill",
+   "hone a skill",
+   "develop a skill"
+  ],
+  "ex": "It usually takes years of regular practice to master a skill such as playing the violin.",
+  "exvi": "Thường phải mất nhiều năm luyện tập đều đặn mới thành thạo một kỹ năng như chơi vĩ cầm.",
+  "em": "🎯"
+ },
+ {
+  "w": "a well-rounded education",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nền giáo dục toàn diện",
+  "use": "Hợp Writing Task 2 về chương trình học, môn nghệ thuật, thể thao. Nhớ có gạch nối: well-rounded.",
+  "alt": [
+   "a broad education",
+   "a holistic education",
+   "a narrow curriculum"
+  ],
+  "ex": "Supporters of art and music lessons say they are essential for a well-rounded education.",
+  "exvi": "Những người ủng hộ môn mỹ thuật và âm nhạc cho rằng chúng là điều cần thiết cho một nền giáo dục toàn diện.",
+  "em": ""
+ },
+ {
+  "w": "deep-seated beliefs",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "niềm tin ăn sâu, khó thay đổi",
+  "use": "Hợp Writing học thuật khi bàn về văn hóa, định kiến. Cũng dùng với fears, prejudices.",
+  "alt": [
+   "deeply held beliefs",
+   "firmly held beliefs",
+   "entrenched attitudes"
+  ],
+  "ex": "Changing deep-seated beliefs about gender roles in the family can take more than one generation.",
+  "exvi": "Thay đổi những niềm tin đã ăn sâu về vai trò giới trong gia đình có thể mất hơn một thế hệ.",
+  "em": ""
+ },
+ {
+  "w": "preconceived ideas",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "định kiến, ý nghĩ có sẵn từ trước",
+  "use": "Hợp cả Speaking và Writing, thường về du lịch, văn hóa. Hay đi với: have / challenge preconceived ideas about sth.",
+  "alt": [
+   "preconceived notions",
+   "stereotypes",
+   "an open mind"
+  ],
+  "ex": "Travelling alone made me question many preconceived ideas I had about people from other countries.",
+  "exvi": "Đi du lịch một mình khiến tôi xem lại nhiều định kiến mình từng có về người nước khác.",
+  "em": ""
+ },
+ {
+  "w": "challenge assumptions",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đặt câu hỏi, thách thức những giả định",
+  "use": "Hợp Writing học thuật về tư duy phản biện, khoa học. Không nói: against assumptions.",
+  "alt": [
+   "question assumptions",
+   "make assumptions",
+   "challenge the status quo"
+  ],
+  "ex": "University seminars encourage students to challenge assumptions rather than simply accept what textbooks say.",
+  "exvi": "Các buổi thảo luận ở đại học khuyến khích sinh viên đặt câu hỏi với các giả định thay vì chấp nhận mọi điều sách giáo khoa nói.",
+  "em": ""
+ },
+ {
+  "w": "a body of knowledge",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "khối kiến thức, kho tri thức về một lĩnh vực",
+  "use": "Trang trọng, hợp Writing học thuật. Thường đi với growing, vast: a growing body of knowledge.",
+  "alt": [
+   "a body of research",
+   "a wealth of knowledge",
+   "a field of study"
+  ],
+  "ex": "Traditional farmers have built up a valuable body of knowledge about local soil and weather patterns.",
+  "exvi": "Những người nông dân truyền thống đã tích lũy một kho kiến thức quý giá về đất đai và thời tiết địa phương.",
+  "em": ""
+ },
+ {
+  "w": "a train of thought",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "mạch suy nghĩ",
+  "use": "Hay dùng trong Speaking: Sorry, I've lost my train of thought. Đây là cách cứu vãn tự nhiên khi bí ý trong phòng thi.",
+  "alt": [
+   "lose your train of thought",
+   "a line of reasoning",
+   "lose the thread"
+  ],
+  "ex": "Constant phone notifications break your train of thought and make deep study almost impossible.",
+  "exvi": "Thông báo điện thoại liên tục làm đứt mạch suy nghĩ và khiến việc học sâu gần như không thể.",
+  "em": ""
+ },
+ {
+  "w": "a flash of inspiration",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "ý tưởng chợt lóe lên, cảm hứng bất chợt",
+  "use": "Hợp Speaking khi kể về ý tưởng, sáng tạo. Cũng nói: a moment of inspiration.",
+  "alt": [
+   "a stroke of genius",
+   "a brainwave",
+   "a moment of inspiration"
+  ],
+  "ex": "The engineer had a flash of inspiration while cycling to work and quickly sketched the new design.",
+  "exvi": "Người kỹ sư chợt nảy ra ý tưởng khi đạp xe đi làm và nhanh chóng phác thảo thiết kế mới.",
+  "em": "⚡"
+ },
+ {
+  "w": "a lapse in concentration",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C2",
+  "vi": "phút lơ đễnh, mất tập trung trong chốc lát",
+  "use": "Hợp Writing về an toàn giao thông, công việc. Cũng nói: a lapse of concentration. Không nói: a lose of concentration.",
+  "alt": [
+   "a moment of carelessness",
+   "lose concentration",
+   "a momentary lapse"
+  ],
+  "ex": "A brief lapse in concentration behind the wheel can lead to a serious road accident.",
+  "exvi": "Chỉ một phút lơ đễnh khi lái xe cũng có thể dẫn đến tai nạn giao thông nghiêm trọng.",
+  "em": ""
+ },
+ {
+  "w": "intellectually stimulating",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "kích thích trí tuệ, khiến đầu óc hoạt động",
+  "use": "Hợp cả Speaking và Writing khi nói về công việc, sách, trò chơi. Thay cho interesting, nghe tự nhiên và cao hơn.",
+  "alt": [
+   "mentally challenging",
+   "thought-provoking",
+   "mind-numbing"
+  ],
+  "ex": "Older people who keep doing intellectually stimulating activities, like puzzles, tend to stay mentally sharp longer.",
+  "exvi": "Người cao tuổi duy trì các hoạt động kích thích trí tuệ như giải đố thường giữ được sự minh mẫn lâu hơn.",
+  "em": "🧩"
+ },
+ {
+  "w": "firmly believe",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "B2",
+  "vi": "tin chắc, tin tưởng vững vàng",
+  "use": "Hợp Writing Task 2 khi nêu quan điểm: I firmly believe that... Không nói: strongly believe that cũng đúng, nhưng tránh hard believe.",
+  "alt": [
+   "strongly believe",
+   "genuinely believe",
+   "be convinced that"
+  ],
+  "ex": "I firmly believe that schools should teach basic financial skills such as budgeting and saving.",
+  "exvi": "Tôi tin chắc rằng trường học nên dạy các kỹ năng tài chính cơ bản như lập ngân sách và tiết kiệm.",
+  "em": ""
+ },
+ {
+  "w": "vaguely remember",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "B2",
+  "vi": "nhớ mang máng, nhớ lờ mờ",
+  "use": "Rất tự nhiên trong Speaking Part 2 khi kể chuyện quá khứ. Trái nghĩa: vividly remember.",
+  "alt": [
+   "dimly remember",
+   "vividly remember",
+   "have a vague recollection"
+  ],
+  "ex": "I vaguely remember visiting a science museum with my class when I was about seven.",
+  "exvi": "Tôi nhớ mang máng đã đi bảo tàng khoa học cùng lớp khi khoảng bảy tuổi.",
+  "em": ""
+ },
+ {
+  "w": "deeply ingrained",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "ăn sâu, bám rễ (thói quen, niềm tin)",
+  "use": "Hợp Writing học thuật về thói quen, văn hóa. Thường đi với habits, attitudes, culture.",
+  "alt": [
+   "deep-rooted",
+   "firmly entrenched",
+   "second nature"
+  ],
+  "ex": "The habit of memorising answers is deeply ingrained in many exam-focused education systems.",
+  "exvi": "Thói quen học thuộc đáp án đã ăn sâu vào nhiều hệ thống giáo dục nặng về thi cử.",
+  "em": ""
+ },
+ {
+  "w": "conventional wisdom",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "quan niệm thông thường, điều mọi người vẫn mặc định là đúng",
+  "use": "Hợp Writing học thuật, hay dùng để phản bác: Contrary to conventional wisdom, ... Không dùng mạo từ a.",
+  "alt": [
+   "received wisdom",
+   "popular belief",
+   "common knowledge"
+  ],
+  "ex": "Contrary to conventional wisdom, short breaks during study sessions actually improve concentration and results.",
+  "exvi": "Trái với quan niệm thông thường, nghỉ ngắn trong lúc học thực ra lại giúp tăng sự tập trung và kết quả.",
+  "em": ""
+ },
+ {
+  "w": "a mental block",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "bí ý, đầu óc bị tắc, không nghĩ hoặc nhớ ra được",
+  "use": "Hợp Speaking, hay đi với have a mental block about sth. Có thể dùng khi kể về áp lực thi cử.",
+  "alt": [
+   "draw a blank",
+   "writer's block",
+   "go blank"
+  ],
+  "ex": "I always had a mental block about algebra until a patient tutor explained it with real examples.",
+  "exvi": "Tôi luôn bị tắc với môn đại số cho đến khi một gia sư kiên nhẫn giải thích bằng ví dụ thực tế.",
+  "em": "🧱"
+ },
+ {
+  "w": "an informed decision",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "quyết định sáng suốt, có đủ thông tin",
+  "use": "Hợp cả Writing và Speaking. Dùng với make. Không nói: an informative decision.",
+  "alt": [
+   "a well-informed choice",
+   "an educated guess",
+   "a snap decision"
+  ],
+  "ex": "Clear food labels help shoppers make an informed decision about what they feed their families.",
+  "exvi": "Nhãn thực phẩm rõ ràng giúp người mua đưa ra quyết định sáng suốt về những gì họ cho gia đình ăn.",
+  "em": ""
+ },
+ {
+  "w": "bear sth in mind",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "B2",
+  "vi": "ghi nhớ, lưu ý điều gì",
+  "use": "Dùng tốt cả Speaking và Writing. Dạng hay gặp: It is worth bearing in mind that... Không nói: bear in my brain.",
+  "alt": [
+   "keep sth in mind",
+   "take sth into account",
+   "remember"
+  ],
+  "ex": "It is worth bearing in mind that online degrees are not always recognised by every employer.",
+  "exvi": "Cần lưu ý rằng bằng cấp trực tuyến không phải lúc nào cũng được mọi nhà tuyển dụng công nhận.",
+  "em": ""
+ },
+ {
+  "w": "get the gist",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "nắm được ý chính",
+  "use": "Hợp Speaking, giọng tự nhiên. Thường đi với of: get the gist of a lecture, an article.",
+  "alt": [
+   "grasp the main idea",
+   "catch the drift",
+   "understand every word"
+  ],
+  "ex": "When reading academic articles, I skim first to get the gist before focusing on the details.",
+  "exvi": "Khi đọc bài báo học thuật, tôi đọc lướt trước để nắm ý chính rồi mới tập trung vào chi tiết.",
+  "em": ""
+ },
+ {
+  "w": "rack your brains",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "vắt óc suy nghĩ",
+  "use": "Hợp Speaking, giọng thân mật. Không dùng trong Writing Task 2, và đừng cố nhét idiom vào bài viết.",
+  "alt": [
+   "think hard",
+   "cudgel your brains",
+   "draw a blank"
+  ],
+  "ex": "I racked my brains for an answer, but I couldn't remember the date of the historical event.",
+  "exvi": "Tôi vắt óc tìm câu trả lời nhưng không thể nhớ ra ngày diễn ra sự kiện lịch sử đó.",
+  "em": "🤯"
+ },
+ {
+  "w": "food for thought",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "điều đáng suy ngẫm",
+  "use": "Hợp Speaking khi nói về sách, phim, bài giảng. Dạng hay gặp: The documentary gave me food for thought. Không dùng trong Writing Task 2.",
+  "alt": [
+   "sth to think about",
+   "thought-provoking",
+   "an eye-opener"
+  ],
+  "ex": "The documentary about plastic waste gave me a lot of food for thought about my shopping habits.",
+  "exvi": "Bộ phim tài liệu về rác thải nhựa cho tôi nhiều điều đáng suy ngẫm về thói quen mua sắm của mình.",
+  "em": "🤔"
+ },
+ {
+  "w": "on the tip of your tongue",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "sắp nhớ ra, đến đầu lưỡi rồi mà chưa nói ra được",
+  "use": "Rất tự nhiên trong Speaking, dùng được khi bí một từ trong phòng thi. Không dùng trong Writing.",
+  "alt": [
+   "slip your mind",
+   "draw a blank",
+   "come back to you"
+  ],
+  "ex": "The name of that famous scientist is on the tip of my tongue, but I just can't recall it.",
+  "exvi": "Tên nhà khoa học nổi tiếng đó đã đến đầu lưỡi rồi mà tôi vẫn không nhớ ra.",
+  "em": "👅"
+ },
+ {
+  "w": "jump to conclusions",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "vội vàng kết luận",
+  "use": "Dùng được trong Speaking, và đủ trung tính để thỉnh thoảng xuất hiện trong Writing. Luôn dùng conclusions số nhiều.",
+  "alt": [
+   "rush to judgement",
+   "draw a conclusion",
+   "give sb the benefit of the doubt"
+  ],
+  "ex": "We should not jump to conclusions about a student's ability based on one poor exam result.",
+  "exvi": "Chúng ta không nên vội kết luận về năng lực của một học sinh chỉ dựa vào một bài thi kém.",
+  "em": ""
+ },
+ {
+  "w": "learn sth by heart",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "học thuộc lòng",
+  "use": "Hợp Speaking khi nói về cách học. Không nói: learn by my heart. Trong Writing nên dùng memorise hoặc rote learning.",
+  "alt": [
+   "know sth by heart",
+   "memorise sth",
+   "commit sth to memory"
+  ],
+  "ex": "As children, we had to learn long poems by heart and recite them in front of the class.",
+  "exvi": "Hồi nhỏ chúng tôi phải học thuộc lòng những bài thơ dài và đọc trước lớp.",
+  "em": ""
+ },
+ {
+  "w": "pick sb's brains",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "hỏi ý kiến, khai thác hiểu biết của ai",
+  "use": "Hợp Speaking, giọng thân mật, thường nói với người có chuyên môn. Không dùng trong Writing Task 2.",
+  "alt": [
+   "ask sb's advice",
+   "consult sb",
+   "tap into sb's expertise"
+  ],
+  "ex": "Before choosing my university course, I picked my cousin's brains because she works in software engineering.",
+  "exvi": "Trước khi chọn ngành học đại học, tôi đã hỏi ý kiến chị họ vì chị làm kỹ sư phần mềm.",
+  "em": ""
+ },
+ {
+  "w": "read between the lines",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "hiểu được ẩn ý",
+  "use": "Hợp Speaking, nói về báo chí, giao tiếp. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "take sth at face value",
+   "pick up on sth",
+   "get the hidden meaning"
+  ],
+  "ex": "Media literacy classes teach teenagers to read between the lines of advertisements and news headlines.",
+  "exvi": "Các lớp kỹ năng truyền thông dạy thiếu niên hiểu ẩn ý đằng sau quảng cáo và tiêu đề tin tức.",
+  "em": ""
+ },
+ {
+  "w": "put two and two together",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "suy ra, xâu chuỗi các dữ kiện để hiểu ra",
+  "use": "Hợp Speaking khi kể chuyện. Không dùng trong Writing. Biến thể đùa: put two and two together and make five, nghĩa là suy diễn sai.",
+  "alt": [
+   "work out",
+   "the penny dropped",
+   "jump to conclusions"
+  ],
+  "ex": "When my colleague kept checking job websites, I put two and two together and realised she was leaving.",
+  "exvi": "Thấy đồng nghiệp liên tục xem trang tuyển dụng, tôi xâu chuỗi lại và nhận ra cô ấy sắp nghỉ việc.",
+  "em": ""
+ },
+ {
+  "w": "know sth inside out",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "biết rõ như lòng bàn tay, nắm cực kỳ vững",
+  "use": "Hợp Speaking khi nói về chuyên môn, nơi chốn. Không dùng trong Writing Task 2.",
+  "alt": [
+   "know sth like the back of your hand",
+   "be an expert on sth",
+   "have a working knowledge of sth"
+  ],
+  "ex": "After teaching the same course for ten years, she knows the syllabus inside out.",
+  "exvi": "Sau mười năm dạy cùng một khóa, cô ấy nắm chương trình học như lòng bàn tay.",
+  "em": ""
+ },
+ {
+  "w": "keep an open mind",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "giữ tư tưởng cởi mở, không định kiến",
+  "use": "Dùng được cả Speaking và Writing vì khá trung tính. Không nói: keep an opened mind.",
+  "alt": [
+   "be open-minded",
+   "have an open mind",
+   "be narrow-minded"
+  ],
+  "ex": "Students should keep an open mind when they hear opinions that differ from their own.",
+  "exvi": "Học sinh nên giữ thái độ cởi mở khi nghe những ý kiến khác với mình.",
+  "em": ""
+ },
+ {
+  "w": "go back to the drawing board",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "làm lại từ đầu, lên lại kế hoạch",
+  "use": "Hợp Speaking khi kể về dự án thất bại. Không dùng trong Writing Task 2.",
+  "alt": [
+   "start from scratch",
+   "back to square one",
+   "rethink sth"
+  ],
+  "ex": "When the trial results were disappointing, the research team had to go back to the drawing board.",
+  "exvi": "Khi kết quả thử nghiệm đáng thất vọng, nhóm nghiên cứu phải làm lại từ đầu.",
+  "em": "📝"
+ },
+ {
+  "w": "a mind like a sieve",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "trí nhớ như cái rổ, rất hay quên",
+  "use": "Hợp Speaking, giọng đùa về bản thân. Không dùng trong Writing.",
+  "alt": [
+   "a memory like a sieve",
+   "forgetful",
+   "absent-minded"
+  ],
+  "ex": "I have a mind like a sieve, so I set phone reminders for every deadline and appointment.",
+  "exvi": "Tôi rất hay quên nên đặt nhắc nhở trên điện thoại cho mọi hạn chót và cuộc hẹn.",
+  "em": ""
+ },
+ {
+  "w": "the jury is still out",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "vẫn chưa có kết luận, vẫn còn tranh cãi",
+  "use": "Một trong số ít idiom có thể dùng thận trọng trong Writing, nhưng hợp Speaking hơn. Thường đi với on: the jury is still out on sth.",
+  "alt": [
+   "it remains to be seen",
+   "a matter of debate",
+   "an open question"
+  ],
+  "ex": "The jury is still out on whether learning apps are as effective as studying with a real teacher.",
+  "exvi": "Vẫn chưa có kết luận việc ứng dụng học tập có hiệu quả bằng học với giáo viên thật hay không.",
+  "em": "⚖️"
+ },
+ {
+  "w": "split hairs",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "bới lông tìm vết, câu nệ tiểu tiết",
+  "use": "Hợp Speaking khi tranh luận. Không dùng trong Writing Task 2.",
+  "alt": [
+   "nitpick",
+   "quibble",
+   "miss the big picture"
+  ],
+  "ex": "Let's not split hairs over the exact wording; the main idea of the proposal is clear.",
+  "exvi": "Đừng câu nệ từng chữ nữa, ý chính của đề xuất đã rõ ràng rồi.",
+  "em": ""
+ },
+ {
+  "w": "can't make head nor tail of sth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "chẳng hiểu đầu đuôi gì cả",
+  "use": "Hợp Speaking, giọng thân mật. Cũng nói: can't make head or tail of sth. Không dùng trong Writing.",
+  "alt": [
+   "can't get your head around sth",
+   "be completely lost",
+   "be baffled by sth"
+  ],
+  "ex": "I couldn't make head nor tail of the instructions that came with my new laptop.",
+  "exvi": "Tôi chẳng hiểu đầu đuôi gì trong hướng dẫn đi kèm chiếc laptop mới.",
+  "em": "😵"
+ },
+ {
+  "w": "learn the hard way",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "học được bài học qua trải nghiệm đắt giá",
+  "use": "Rất tự nhiên trong Speaking Part 2 và 3. Không dùng trong Writing Task 2.",
+  "alt": [
+   "learn from your mistakes",
+   "learn a lesson",
+   "trial and error"
+  ],
+  "ex": "I learned the hard way that leaving all my revision until the night before an exam never works.",
+  "exvi": "Tôi đã rút ra bài học đắt giá rằng để dồn ôn tập đến đêm trước kỳ thi chẳng bao giờ hiệu quả.",
+  "em": ""
+ },
+ {
+  "w": "read up on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "đọc tìm hiểu kỹ về điều gì",
+  "use": "Hợp Speaking. Nhớ có on. Không nói: read up about sth cũng được nhưng read up on tự nhiên hơn.",
+  "alt": [
+   "research sth",
+   "look into sth",
+   "brush up on sth"
+  ],
+  "ex": "Before travelling to Japan, I read up on local customs so I wouldn't offend anyone.",
+  "exvi": "Trước khi đến Nhật, tôi đã đọc tìm hiểu kỹ phong tục địa phương để không làm phật lòng ai.",
+  "em": "📖"
+ },
+ {
+  "w": "think sth through",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "suy nghĩ thấu đáo, cân nhắc kỹ mọi mặt",
+  "use": "Dùng tốt trong Speaking và Writing trung tính. Khi tân ngữ là đại từ phải tách: think it through.",
+  "alt": [
+   "think sth over",
+   "consider sth carefully",
+   "act on impulse"
+  ],
+  "ex": "Young people should think their career choices through before taking on large student loans.",
+  "exvi": "Người trẻ nên suy nghĩ thấu đáo về lựa chọn nghề nghiệp trước khi vay khoản tiền học lớn.",
+  "em": ""
+ },
+ {
+  "w": "think sth over",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "suy nghĩ thêm, cân nhắc lại",
+  "use": "Hay dùng trong Speaking và giao tiếp công việc: Let me think it over. Khác think through ở chỗ thường là cần thời gian trước khi quyết định.",
+  "alt": [
+   "mull over sth",
+   "sleep on it",
+   "weigh up sth"
+  ],
+  "ex": "She asked for a week to think the job offer over before giving the company her answer.",
+  "exvi": "Cô ấy xin một tuần để suy nghĩ thêm về lời mời làm việc trước khi trả lời công ty.",
+  "em": ""
+ },
+ {
+  "w": "go over sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "xem lại, ôn lại; kiểm tra kỹ",
+  "use": "Dùng tốt trong Speaking về việc học. Không tách được: go over it, không nói go it over.",
+  "alt": [
+   "revise sth",
+   "review sth",
+   "run through sth"
+  ],
+  "ex": "Our teacher always goes over the key points at the end of each lesson to help us remember.",
+  "exvi": "Giáo viên của chúng tôi luôn ôn lại các ý chính cuối mỗi buổi học để giúp chúng tôi ghi nhớ.",
+  "em": ""
+ },
+ {
+  "w": "fall behind",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bị tụt lại phía sau, học theo không kịp",
+  "use": "Dùng được cả Speaking và Writing. Thường đi với with hoặc in: fall behind with your studies, fall behind in maths.",
+  "alt": [
+   "keep up with sb",
+   "catch up on sth",
+   "lag behind"
+  ],
+  "ex": "Students who miss several weeks of school through illness can easily fall behind with their studies.",
+  "exvi": "Học sinh nghỉ học vài tuần vì ốm có thể dễ dàng bị tụt lại trong việc học.",
+  "em": ""
+ },
+ {
+  "w": "take sth in",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "hiểu và tiếp thu, nhớ được (thông tin)",
+  "use": "Hợp Speaking. Thường dùng phủ định hoặc với too much: I couldn't take it all in.",
+  "alt": [
+   "absorb sth",
+   "digest sth",
+   "sink in"
+  ],
+  "ex": "The lecture moved so fast that most of us couldn't take in all the new information.",
+  "exvi": "Bài giảng diễn ra quá nhanh nên phần lớn chúng tôi không tiếp thu được hết thông tin mới.",
+  "em": ""
+ },
+ {
+  "w": "puzzle over sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "suy nghĩ mãi, loay hoay tìm lời giải cho điều gì",
+  "use": "Hợp Speaking và văn kể chuyện. Không tách được. Gần nghĩa: ponder, nhưng puzzle over nhấn mạnh sự khó hiểu.",
+  "alt": [
+   "ponder sth",
+   "wrestle with sth",
+   "figure out sth"
+  ],
+  "ex": "Scientists have puzzled over the strange behaviour of these birds for more than a decade.",
+  "exvi": "Các nhà khoa học đã loay hoay tìm lời giải cho hành vi kỳ lạ của loài chim này hơn một thập kỷ.",
+  "em": ""
+ },
+ {
+  "w": "piece sth together",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "chắp nối, ghép các thông tin lại để hiểu toàn cảnh",
+  "use": "Dùng được cả Speaking và Writing. Hay dùng với story, events, evidence.",
+  "alt": [
+   "put two and two together",
+   "reconstruct sth",
+   "work out sth"
+  ],
+  "ex": "Historians are still trying to piece together what daily life was like in the ancient city.",
+  "exvi": "Các nhà sử học vẫn đang cố chắp nối để hiểu cuộc sống hằng ngày ở thành phố cổ ra sao.",
+  "em": "🧩"
+ },
+ {
+  "w": "dwell on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nghĩ mãi, day dứt về điều gì (thường là chuyện không vui)",
+  "use": "Hợp Speaking và Writing về sức khỏe tinh thần. Không tách được. Thường dùng phủ định: don't dwell on your mistakes.",
+  "alt": [
+   "brood over sth",
+   "let sth go",
+   "move on"
+  ],
+  "ex": "Successful learners don't dwell on their mistakes; they analyse them and try a different approach.",
+  "exvi": "Người học giỏi không day dứt mãi về lỗi sai, họ phân tích và thử cách khác.",
+  "em": ""
+ },
+ {
+  "w": "grapple with sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "vật lộn, cố gắng hiểu hoặc giải quyết điều gì khó",
+  "use": "Hợp Writing học thuật, rất hay đi với problem, issue, concept. Không tách được.",
+  "alt": [
+   "struggle with sth",
+   "come to grips with sth",
+   "tackle sth"
+  ],
+  "ex": "Many first-year students grapple with the idea of managing their own time without teachers checking on them.",
+  "exvi": "Nhiều sinh viên năm nhất vật lộn với việc tự quản lý thời gian khi không còn giáo viên kiểm tra.",
+  "em": ""
+ },
+ {
+  "w": "rule sth out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "loại trừ (một khả năng)",
+  "use": "Dùng được cả Writing và Speaking. Hay gặp: cannot be ruled out, nghĩa là vẫn có khả năng.",
+  "alt": [
+   "rule sth in",
+   "dismiss sth",
+   "eliminate sth"
+  ],
+  "ex": "The researchers ruled out diet as a cause and focused on lack of sleep instead.",
+  "exvi": "Các nhà nghiên cứu đã loại trừ chế độ ăn là nguyên nhân và chuyển sang tập trung vào việc thiếu ngủ.",
+  "em": ""
+ },
+ {
+  "w": "swot up on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "học gạo, học dồn cho kỳ thi",
+  "use": "Tiếng Anh Anh, thân mật, chỉ hợp Speaking. Không dùng trong Writing.",
+  "alt": [
+   "cram for sth",
+   "revise for sth",
+   "hit the books"
+  ],
+  "ex": "I spent the whole weekend swotting up on grammar rules before my English placement test.",
+  "exvi": "Tôi dành cả cuối tuần học dồn các quy tắc ngữ pháp trước bài kiểm tra xếp lớp tiếng Anh.",
+  "em": ""
+ },
+ {
+  "w": "hit upon sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "chợt nghĩ ra, tình cờ tìm ra (ý tưởng, giải pháp)",
+  "use": "Hợp Speaking và văn kể chuyện. Cũng nói: hit on sth. Thường đi với idea, solution.",
+  "alt": [
+   "come up with sth",
+   "stumble upon sth",
+   "think of sth"
+  ],
+  "ex": "The two students hit upon the idea of a recycling app while cleaning up their local beach.",
+  "exvi": "Hai sinh viên chợt nảy ra ý tưởng làm ứng dụng tái chế khi đang dọn rác ở bãi biển gần nhà.",
+  "em": ""
+ },
+ {
+  "w": "drum sth into sb",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "nhồi nhét, nhắc đi nhắc lại cho ai nhớ",
+  "use": "Hợp Speaking khi nói về cách cha mẹ, thầy cô dạy. Hay dùng bị động: It was drummed into us that...",
+  "alt": [
+   "instil sth in sb",
+   "hammer sth home",
+   "teach sb sth"
+  ],
+  "ex": "The importance of road safety was drummed into us from our very first year at school.",
+  "exvi": "Tầm quan trọng của an toàn giao thông đã được nhắc đi nhắc lại với chúng tôi ngay từ năm đầu đi học.",
+  "em": "🥁"
+ }
 ]
