@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "critically acclaimed",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "được giới phê bình đánh giá cao",
+  "use": "Dùng tốt cho cả Writing và Speaking khi nói về phim, sách, album. Thường đứng trước danh từ: a critically acclaimed novel. Không nói: critical acclaimed.",
+  "alt": [
+   "highly acclaimed",
+   "win critical acclaim",
+   "widely praised"
+  ],
+  "ex": "The critically acclaimed documentary was largely ignored by audiences until it appeared on a streaming platform.",
+  "exvi": "Bộ phim tài liệu được giới phê bình đánh giá cao này gần như bị khán giả bỏ qua cho tới khi lên một nền tảng phát trực tuyến.",
+  "em": "🏆"
+ },
+ {
+  "w": "rave reviews",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "những lời khen nồng nhiệt (của báo chí, giới phê bình)",
+  "use": "Hay đi với receive / get / earn rave reviews. Hợp Speaking và cả Writing khi lấy ví dụ. Không nói: good rave reviews, vì rave đã mang nghĩa khen hết lời.",
+  "alt": [
+   "glowing reviews",
+   "receive rave reviews",
+   "a scathing review"
+  ],
+  "ex": "Her debut novel received rave reviews, yet sales remained modest because the publisher spent little on promotion.",
+  "exvi": "Tiểu thuyết đầu tay của cô nhận được những lời khen nồng nhiệt, nhưng doanh số vẫn khiêm tốn vì nhà xuất bản chi rất ít cho quảng bá.",
+  "em": "🌟"
+ },
+ {
+  "w": "a scathing review",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "bài phê bình gay gắt, chê thậm tệ",
+  "use": "Sắc thái mạnh, dùng được trong Writing khi bàn về vai trò của giới phê bình. Có thể thay review bằng criticism hoặc attack.",
+  "alt": [
+   "scathing criticism",
+   "a damning review",
+   "rave reviews"
+  ],
+  "ex": "A single scathing review in a national newspaper can close a small theatre production within weeks.",
+  "exvi": "Chỉ một bài phê bình gay gắt trên một tờ báo quốc gia cũng có thể khiến một vở kịch nhỏ phải đóng màn trong vài tuần.",
+  "em": ""
+ },
+ {
+  "w": "a mixed reception",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự đón nhận trái chiều, người khen người chê",
+  "use": "Thường dùng với receive / get / meet with a mixed reception. Trung tính, hợp Writing. Người học hay nói mixed reviews cũng đúng, nhưng reception rộng hơn, gồm cả khán giả.",
+  "alt": [
+   "receive a mixed reception",
+   "a lukewarm response",
+   "a warm reception"
+  ],
+  "ex": "The modern sculpture in the city square met with a mixed reception from local residents and tourists.",
+  "exvi": "Bức tượng hiện đại ở quảng trường thành phố nhận được phản ứng trái chiều từ người dân địa phương và du khách.",
+  "em": ""
+ },
+ {
+  "w": "a box-office hit",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "phim ăn khách, thắng lớn phòng vé",
+  "use": "Dùng cho phim chiếu rạp. Hợp Speaking và Writing. Ngược nghĩa là a box-office flop. Không nói: a ticket-office hit.",
+  "alt": [
+   "a box-office flop",
+   "a blockbuster",
+   "box-office success"
+  ],
+  "ex": "Many box-office hits are sequels or remakes, which suggests studios are reluctant to take creative risks.",
+  "exvi": "Nhiều phim ăn khách là phần tiếp theo hoặc bản làm lại, cho thấy các hãng phim ngại chấp nhận rủi ro sáng tạo.",
+  "em": "🎬"
+ },
+ {
+  "w": "a commercial success",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "thành công về mặt thương mại, bán chạy",
+  "use": "Hay dùng để đối lập với chất lượng nghệ thuật: a commercial success but a critical failure. Rất hợp Writing Task 2 về nghệ thuật và thị trường.",
+  "alt": [
+   "a critical success",
+   "commercially successful",
+   "a commercial failure"
+  ],
+  "ex": "A film can be a huge commercial success without having any real artistic value.",
+  "exvi": "Một bộ phim có thể thành công lớn về thương mại mà không hề có giá trị nghệ thuật thực sự.",
+  "em": "💰"
+ },
+ {
+  "w": "a cult following",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "lượng người hâm mộ nhỏ nhưng cuồng nhiệt, trung thành",
+  "use": "Thường đi với have / develop / attract a cult following. Dùng tốt trong Speaking khi kể về phim, ban nhạc, sách ít người biết.",
+  "alt": [
+   "a cult classic",
+   "a loyal fan base",
+   "a niche audience"
+  ],
+  "ex": "The low-budget science fiction series was cancelled after one season but later developed a cult following online.",
+  "exvi": "Loạt phim khoa học viễn tưởng kinh phí thấp bị ngừng sau một mùa nhưng sau đó có được lượng fan cuồng nhiệt trên mạng.",
+  "em": ""
+ },
+ {
+  "w": "a niche audience",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nhóm khán giả nhỏ, chuyên biệt",
+  "use": "Hợp Writing khi bàn về nghệ thuật thể nghiệm hay tài trợ văn hoá. Đối lập với a mass audience. Phát âm niche là /niːʃ/ hoặc /nɪtʃ/.",
+  "alt": [
+   "a mass audience",
+   "a specialist audience",
+   "mass appeal"
+  ],
+  "ex": "Experimental theatre usually attracts only a niche audience, so it often depends on government grants to survive.",
+  "exvi": "Kịch thể nghiệm thường chỉ thu hút một nhóm khán giả nhỏ, nên hay phải dựa vào trợ cấp nhà nước để tồn tại.",
+  "em": ""
+ },
+ {
+  "w": "mass appeal",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sức hấp dẫn với số đông, đại chúng",
+  "use": "Hay đi với have / lack mass appeal. Hợp Writing khi so sánh nghệ thuật đại chúng và nghệ thuật hàn lâm. Đối lập với niche appeal.",
+  "alt": [
+   "broad appeal",
+   "a niche audience",
+   "popular with the masses"
+  ],
+  "ex": "Classical music often lacks mass appeal among teenagers, so orchestras now perform film soundtracks to attract them.",
+  "exvi": "Nhạc cổ điển thường kém hấp dẫn với đại chúng tuổi teen, nên các dàn nhạc giờ chơi nhạc phim để thu hút họ.",
+  "em": ""
+ },
+ {
+  "w": "aesthetic value",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "giá trị thẩm mỹ",
+  "use": "Thuật ngữ trang trọng, rất hợp Writing khi bàn về kiến trúc, nghệ thuật công cộng. Hay đặt cạnh practical value hoặc commercial value.",
+  "alt": [
+   "artistic value",
+   "aesthetic appeal",
+   "practical value"
+  ],
+  "ex": "Some people argue that public buildings should be judged on their aesthetic value as well as their function.",
+  "exvi": "Một số người cho rằng các công trình công cộng nên được đánh giá cả về giá trị thẩm mỹ lẫn công năng.",
+  "em": ""
+ },
+ {
+  "w": "cultural significance",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "ý nghĩa văn hoá, tầm quan trọng về văn hoá",
+  "use": "Dùng nhiều trong Writing về di sản. Hay đi với great / considerable / of cultural significance. Không nói: culture significance.",
+  "alt": [
+   "historical significance",
+   "of great cultural significance",
+   "cultural importance"
+  ],
+  "ex": "Old markets may look untidy, but they often have great cultural significance for the local community.",
+  "exvi": "Những khu chợ cũ có thể trông lộn xộn, nhưng thường mang ý nghĩa văn hoá lớn với cộng đồng địa phương.",
+  "em": ""
+ },
+ {
+  "w": "highly derivative",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "thiếu sáng tạo, mô phỏng quá nhiều từ tác phẩm khác",
+  "use": "Từ của giới phê bình, mang nghĩa chê. Hợp Writing khi nói về chất lượng nghệ thuật. Đối lập với original hoặc ground-breaking.",
+  "alt": [
+   "lack originality",
+   "unoriginal",
+   "formulaic"
+  ],
+  "ex": "Critics dismissed the album as highly derivative, pointing out how closely it copied bands from the nineties.",
+  "exvi": "Giới phê bình gạt bỏ album này vì quá thiếu sáng tạo, chỉ ra nó bắt chước các ban nhạc thập niên chín mươi sát đến mức nào.",
+  "em": ""
+ },
+ {
+  "w": "lack originality",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "thiếu tính độc đáo, thiếu sáng tạo",
+  "use": "Lack là động từ nên không cần of: không nói lack of originality khi dùng như động từ. Dạng danh từ thì là a lack of originality.",
+  "alt": [
+   "a lack of originality",
+   "highly derivative",
+   "show real originality"
+  ],
+  "ex": "Many television dramas lack originality because producers prefer to repeat formulas that have worked before.",
+  "exvi": "Nhiều phim truyền hình thiếu tính độc đáo vì nhà sản xuất thích lặp lại những công thức từng thành công.",
+  "em": ""
+ },
+ {
+  "w": "artistic vision",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tầm nhìn nghệ thuật, quan điểm sáng tạo riêng",
+  "use": "Hợp Writing khi bàn về sự can thiệp của nhà tài trợ hay hãng phim vào nghệ sĩ. Hay đi với compromise / realise one's artistic vision.",
+  "alt": [
+   "creative vision",
+   "artistic integrity",
+   "compromise one's vision"
+  ],
+  "ex": "The director refused to cut the final scene, insisting it was essential to her artistic vision.",
+  "exvi": "Nữ đạo diễn từ chối cắt cảnh cuối, khẳng định nó là phần thiết yếu trong tầm nhìn nghệ thuật của cô.",
+  "em": ""
+ },
+ {
+  "w": "artistic integrity",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "sự chính trực trong nghệ thuật, không chạy theo thương mại",
+  "use": "Rất hợp Writing Task 2 về tài trợ và thương mại hoá nghệ thuật. Hay đi với maintain / compromise / sacrifice artistic integrity.",
+  "alt": [
+   "artistic vision",
+   "compromise one's integrity",
+   "sell out"
+  ],
+  "ex": "Accepting money from large corporations may force artists to compromise their artistic integrity.",
+  "exvi": "Nhận tiền từ các tập đoàn lớn có thể buộc nghệ sĩ phải thoả hiệp sự chính trực nghệ thuật của mình.",
+  "em": ""
+ },
+ {
+  "w": "deliver a powerful performance",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "có màn trình diễn, diễn xuất mạnh mẽ, ấn tượng",
+  "use": "Deliver tự nhiên hơn do hoặc make khi nói về diễn xuất. Có thể thay powerful bằng stunning, moving, convincing. Không nói: make a performance.",
+  "alt": [
+   "give a stunning performance",
+   "a convincing performance",
+   "a wooden performance"
+  ],
+  "ex": "The young actor delivered a powerful performance as a refugee struggling to rebuild his life abroad.",
+  "exvi": "Nam diễn viên trẻ có màn diễn xuất mạnh mẽ trong vai một người tị nạn chật vật làm lại cuộc đời ở nước ngoài.",
+  "em": "🎭"
+ },
+ {
+  "w": "stage a production",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "dàn dựng một vở diễn",
+  "use": "Stage là động từ nghĩa là dàn dựng, hợp cả Speaking và Writing. Có thể nói stage a play, stage an opera. Không nói: make a play on stage.",
+  "alt": [
+   "put on a play",
+   "stage a play",
+   "mount a production"
+  ],
+  "ex": "The school staged a production of a classic Vietnamese play to help students appreciate traditional theatre.",
+  "exvi": "Nhà trường dàn dựng một vở kịch kinh điển của Việt Nam để giúp học sinh trân trọng sân khấu truyền thống.",
+  "em": ""
+ },
+ {
+  "w": "commission a piece",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "đặt hàng (nghệ sĩ) sáng tác một tác phẩm",
+  "use": "Commission là đặt làm có trả tiền, dùng cho tranh, tượng, nhạc. Hợp Writing khi bàn về nghệ thuật công cộng. Danh từ: a commissioned work.",
+  "alt": [
+   "commission a work of art",
+   "a commissioned sculpture",
+   "be commissioned to do sth"
+  ],
+  "ex": "The city council commissioned a piece from a local artist to celebrate the history of the harbour.",
+  "exvi": "Hội đồng thành phố đặt một nghệ sĩ địa phương sáng tác một tác phẩm để tôn vinh lịch sử bến cảng.",
+  "em": ""
+ },
+ {
+  "w": "hold an exhibition",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tổ chức một cuộc triển lãm",
+  "use": "Dùng hold hoặc stage, không dùng make an exhibition. Hợp mọi ngữ cảnh. Thêm of / on để nói chủ đề: an exhibition of Asian ceramics.",
+  "alt": [
+   "stage an exhibition",
+   "put on an exhibition",
+   "a touring exhibition"
+  ],
+  "ex": "The museum holds an exhibition of student artwork every summer to encourage young talent.",
+  "exvi": "Bảo tàng tổ chức triển lãm tác phẩm của sinh viên mỗi mùa hè để khuyến khích các tài năng trẻ.",
+  "em": "🖼️"
+ },
+ {
+  "w": "receive a standing ovation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "được khán giả đứng dậy vỗ tay tán thưởng",
+  "use": "Hợp Speaking khi kể về buổi diễn đáng nhớ. Có thể nói get / be given a standing ovation. Không nói: receive a standing clap.",
+  "alt": [
+   "get a standing ovation",
+   "thunderous applause",
+   "a five-minute standing ovation"
+  ],
+  "ex": "The orchestra received a standing ovation after performing a new symphony inspired by the Mekong Delta.",
+  "exvi": "Dàn nhạc được khán giả đứng dậy vỗ tay sau khi trình diễn bản giao hưởng mới lấy cảm hứng từ đồng bằng sông Cửu Long.",
+  "em": "👏"
+ },
+ {
+  "w": "restore sth to its former glory",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "khôi phục lại vẻ huy hoàng như xưa",
+  "use": "Rất hợp Writing về bảo tồn di sản, công trình cổ. Có thể dùng bị động: was restored to its former glory.",
+  "alt": [
+   "painstakingly restored",
+   "fall into disrepair",
+   "carry out restoration work"
+  ],
+  "ex": "After years of neglect, the colonial opera house was restored to its former glory with public funding.",
+  "exvi": "Sau nhiều năm bị bỏ bê, nhà hát thời thuộc địa đã được khôi phục vẻ huy hoàng xưa nhờ ngân sách công.",
+  "em": ""
+ },
+ {
+  "w": "a discerning audience",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "khán giả sành, có con mắt tinh tường",
+  "use": "Discerning dùng cho người biết đánh giá chất lượng. Hợp Writing trang trọng. Có thể nói discerning readers / customers.",
+  "alt": [
+   "discerning readers",
+   "a sophisticated audience",
+   "the general public"
+  ],
+  "ex": "Independent cinemas cater to a discerning audience that values foreign films over Hollywood blockbusters.",
+  "exvi": "Các rạp phim độc lập phục vụ nhóm khán giả sành, những người coi trọng phim nước ngoài hơn bom tấn Hollywood.",
+  "em": ""
+ },
+ {
+  "w": "evoke a sense of sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "gợi lên cảm giác gì",
+  "use": "Rất hợp khi miêu tả tác dụng của nhạc, tranh, kiến trúc trong cả Speaking lẫn Writing. Hay đi với nostalgia, calm, loss, wonder.",
+  "alt": [
+   "evoke memories of sth",
+   "conjure up sth",
+   "create a sense of sth"
+  ],
+  "ex": "The old photographs in the exhibition evoke a sense of nostalgia for a slower way of life.",
+  "exvi": "Những bức ảnh cũ trong triển lãm gợi lên nỗi hoài niệm về một nhịp sống chậm rãi hơn.",
+  "em": ""
+ },
+ {
+  "w": "capture the imagination",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "thu hút trí tưởng tượng, làm say mê",
+  "use": "Có thể chèn chủ thể: capture the imagination of young readers. Hợp Speaking và Writing. Catch the imagination cũng đúng, nghĩa tương tự.",
+  "alt": [
+   "fire sb's imagination",
+   "capture the public's imagination",
+   "spark sb's interest"
+  ],
+  "ex": "Fantasy novels often capture the imagination of teenagers in a way that school textbooks rarely do.",
+  "exvi": "Tiểu thuyết giả tưởng thường làm say mê thiếu niên theo cách mà sách giáo khoa hiếm khi làm được.",
+  "em": "✨"
+ },
+ {
+  "w": "a vivid depiction",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "sự khắc hoạ sống động",
+  "use": "Dùng khi nhận xét phim, tiểu thuyết, tranh. Thường đi với of: a vivid depiction of rural life. Động từ tương ứng: vividly depict.",
+  "alt": [
+   "vividly depict sth",
+   "a realistic portrayal",
+   "a faithful depiction"
+  ],
+  "ex": "The novel offers a vivid depiction of life in a fishing village during the war.",
+  "exvi": "Cuốn tiểu thuyết khắc hoạ sống động cuộc sống ở một làng chài trong thời chiến.",
+  "em": ""
+ },
+ {
+  "w": "a thought-provoking film",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "bộ phim khiến người xem suy ngẫm",
+  "use": "Thought-provoking dùng được cho film, book, exhibition, question. Tự nhiên trong Speaking Part 2. Nhớ có gạch nối.",
+  "alt": [
+   "a thought-provoking book",
+   "food for thought",
+   "a mindless film"
+  ],
+  "ex": "We watched a thought-provoking film about artificial intelligence that sparked a long debate in class.",
+  "exvi": "Chúng tôi xem một bộ phim gợi nhiều suy ngẫm về trí tuệ nhân tạo, khiến cả lớp tranh luận rất lâu.",
+  "em": "🤔"
+ },
+ {
+  "w": "visually stunning",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "đẹp mắt choáng ngợp về hình ảnh",
+  "use": "Hay dùng để khen phim, game, sân khấu, nhưng thường kèm ý chê nội dung: visually stunning but shallow. Hợp Speaking.",
+  "alt": [
+   "visually striking",
+   "breathtakingly beautiful",
+   "visually dull"
+  ],
+  "ex": "The animated film is visually stunning, but its storyline is too predictable for older viewers.",
+  "exvi": "Bộ phim hoạt hình đẹp mãn nhãn, nhưng cốt truyện quá dễ đoán với khán giả lớn tuổi.",
+  "em": ""
+ },
+ {
+  "w": "technically flawless",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "hoàn hảo về mặt kỹ thuật",
+  "use": "Hay dùng để nói một màn trình diễn đúng kỹ thuật nhưng thiếu cảm xúc. Hợp Writing khi bàn tiêu chí đánh giá chất lượng.",
+  "alt": [
+   "technically brilliant",
+   "lacking in emotion",
+   "note-perfect"
+  ],
+  "ex": "His piano playing was technically flawless, yet some judges felt it lacked genuine emotion.",
+  "exvi": "Phần chơi piano của anh hoàn hảo về kỹ thuật, nhưng vài giám khảo thấy nó thiếu cảm xúc thật.",
+  "em": ""
+ },
+ {
+  "w": "deeply moving",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "B2",
+  "vi": "vô cùng cảm động",
+  "use": "Deeply đi với moving tự nhiên hơn very. Hợp Speaking khi kể về phim, sách, bài hát. Không nhầm với moved (người bị xúc động).",
+  "alt": [
+   "profoundly moving",
+   "deeply moved",
+   "touching"
+  ],
+  "ex": "The memoir is a deeply moving account of a mother raising three children alone after the war.",
+  "exvi": "Cuốn hồi ký là câu chuyện vô cùng cảm động về một người mẹ một mình nuôi ba con sau chiến tranh.",
+  "em": "🥹"
+ },
+ {
+  "w": "a ground-breaking work",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tác phẩm mang tính đột phá, mở đường",
+  "use": "Dùng cho tác phẩm làm thay đổi một lĩnh vực. Hợp Writing. Có thể thay work bằng film, study, album.",
+  "alt": [
+   "a landmark work",
+   "pioneering",
+   "highly derivative"
+  ],
+  "ex": "The director's first film was a ground-breaking work that changed how war was portrayed on screen.",
+  "exvi": "Phim đầu tay của đạo diễn là tác phẩm đột phá, thay đổi cách chiến tranh được khắc hoạ trên màn ảnh.",
+  "em": ""
+ },
+ {
+  "w": "a creative outlet",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "cách để giải toả, thể hiện sự sáng tạo",
+  "use": "Rất hợp Speaking Part 1 khi nói về sở thích như vẽ, viết, chơi nhạc. Có thể nói provide / need a creative outlet.",
+  "alt": [
+   "an outlet for creativity",
+   "an emotional outlet",
+   "a form of self-expression"
+  ],
+  "ex": "For many office workers, painting at weekends provides a creative outlet and a break from screens.",
+  "exvi": "Với nhiều nhân viên văn phòng, vẽ tranh cuối tuần là cách giải toả sáng tạo và được nghỉ ngơi khỏi màn hình.",
+  "em": "🎨"
+ },
+ {
+  "w": "draw inspiration from sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "lấy cảm hứng từ cái gì",
+  "use": "Tự nhiên và trang trọng hơn get inspiration from. Hợp cả Speaking và Writing. Không nói: take inspiration of.",
+  "alt": [
+   "be inspired by sth",
+   "take inspiration from sth",
+   "a source of inspiration"
+  ],
+  "ex": "Many young designers draw inspiration from traditional patterns found on ethnic minority textiles.",
+  "exvi": "Nhiều nhà thiết kế trẻ lấy cảm hứng từ hoa văn truyền thống trên vải của các dân tộc thiểu số.",
+  "em": ""
+ },
+ {
+  "w": "showcase talent",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "phô diễn, giới thiệu tài năng",
+  "use": "Showcase là động từ, nghĩa là trưng bày cho người khác thấy. Hợp Writing khi bàn về lễ hội, cuộc thi nghệ thuật.",
+  "alt": [
+   "a showcase for young talent",
+   "nurture talent",
+   "display one's skills"
+  ],
+  "ex": "Local film festivals give independent directors a chance to showcase their talent to international buyers.",
+  "exvi": "Các liên hoan phim địa phương cho đạo diễn độc lập cơ hội giới thiệu tài năng với người mua quốc tế.",
+  "em": ""
+ },
+ {
+  "w": "raw talent",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tài năng thiên bẩm chưa được mài giũa",
+  "use": "Hay đặt cạnh ý cần đào tạo: raw talent is not enough. Hợp Writing về giáo dục nghệ thuật và Speaking.",
+  "alt": [
+   "natural talent",
+   "nurture talent",
+   "innate ability"
+  ],
+  "ex": "Raw talent alone rarely leads to success in music without years of disciplined practice.",
+  "exvi": "Chỉ riêng tài năng thiên bẩm hiếm khi dẫn tới thành công trong âm nhạc nếu thiếu nhiều năm luyện tập kỷ luật.",
+  "em": ""
+ },
+ {
+  "w": "open to interpretation",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C1",
+  "vi": "có thể hiểu theo nhiều cách",
+  "use": "Rất hợp khi bàn về nghệ thuật trừu tượng hay kết phim mở. Dùng được trong Writing. Có thể nói open to different interpretations.",
+  "alt": [
+   "open to different interpretations",
+   "ambiguous",
+   "a matter of interpretation"
+  ],
+  "ex": "Abstract paintings are open to interpretation, which is exactly why some viewers find them frustrating.",
+  "exvi": "Tranh trừu tượng có thể hiểu theo nhiều cách, và đó chính là lý do một số người xem thấy khó chịu.",
+  "em": ""
+ },
+ {
+  "w": "pay homage to sb",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "bày tỏ sự tôn kính, tri ân ai (qua tác phẩm)",
+  "use": "Trang trọng, hay dùng khi một tác phẩm mô phỏng hoặc nhắc tới tác phẩm cũ để tri ân. Hợp Writing. Phát âm homage là /ˈhɒmɪdʒ/.",
+  "alt": [
+   "pay tribute to sb",
+   "a homage to sth",
+   "honour sb"
+  ],
+  "ex": "The new music video pays homage to the golden age of Vietnamese cinema in the sixties.",
+  "exvi": "Video ca nhạc mới tri ân thời hoàng kim của điện ảnh Việt Nam những năm sáu mươi.",
+  "em": ""
+ },
+ {
+  "w": "steal the show",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nổi bật nhất, chiếm hết sự chú ý",
+  "use": "Phổ biến, tự nhiên trong Speaking. Có thể dùng trong Writing ít trang trọng, nhưng đừng cố nhét idiom vào Writing Task 2.",
+  "alt": [
+   "steal the limelight",
+   "upstage sb",
+   "the star of the show"
+  ],
+  "ex": "The lead singer was excellent, but the eight-year-old violinist completely stole the show.",
+  "exvi": "Ca sĩ chính hát rất hay, nhưng cậu bé chơi violin tám tuổi mới là người nổi bật nhất.",
+  "em": "⭐"
+ },
+ {
+  "w": "stand the test of time",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "trường tồn với thời gian",
+  "use": "Một trong số ít idiom dùng được cả trong Writing vì khá trung tính. Rất hợp khi nói về tác phẩm kinh điển, kiến trúc.",
+  "alt": [
+   "timeless",
+   "enduring appeal",
+   "a flash in the pan"
+  ],
+  "ex": "Few pop songs stand the test of time, while classical pieces are still performed centuries later.",
+  "exvi": "Ít bài nhạc pop trường tồn với thời gian, trong khi các tác phẩm cổ điển vẫn được biểu diễn sau nhiều thế kỷ.",
+  "em": "⏳"
+ },
+ {
+  "w": "a one-hit wonder",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nghệ sĩ chỉ nổi tiếng nhờ một bài hát, một tác phẩm",
+  "use": "Dùng chủ yếu cho ca sĩ, ban nhạc. Hợp Speaking khi bàn về danh tiếng âm nhạc. Không dùng trong Writing Task 2.",
+  "alt": [
+   "a flash in the pan",
+   "short-lived fame",
+   "stand the test of time"
+  ],
+  "ex": "The band was dismissed as a one-hit wonder, but their third album proved the critics wrong.",
+  "exvi": "Ban nhạc từng bị coi là chỉ nổi nhờ một bài, nhưng album thứ ba đã chứng minh giới phê bình sai.",
+  "em": "🎤"
+ },
+ {
+  "w": "a household name",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "cái tên ai cũng biết, nổi tiếng khắp nơi",
+  "use": "Hợp Speaking, và dùng được trong Writing vì khá trung tính. Thường đi với become a household name.",
+  "alt": [
+   "become a household name",
+   "a big name",
+   "an unknown"
+  ],
+  "ex": "Thanks to social media, the young comedian became a household name within a single year.",
+  "exvi": "Nhờ mạng xã hội, chàng diễn viên hài trẻ trở thành cái tên ai cũng biết chỉ trong một năm.",
+  "em": ""
+ },
+ {
+  "w": "an acquired taste",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thứ phải làm quen dần mới thích",
+  "use": "Dùng cho món ăn, âm nhạc, phim nghệ thuật. Tự nhiên trong Speaking. Không nói: a learned taste.",
+  "alt": [
+   "grow on sb",
+   "not to everyone's taste",
+   "an instant hit"
+  ],
+  "ex": "Jazz can be an acquired taste, but many listeners grow to love its complexity over time.",
+  "exvi": "Jazz có thể là thứ phải nghe dần mới thích, nhưng nhiều người dần mê sự phức tạp của nó.",
+  "em": ""
+ },
+ {
+  "w": "beauty is in the eye of the beholder",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "cái đẹp tuỳ vào mắt người nhìn",
+  "use": "Hợp Speaking Part 3 khi bàn về việc đánh giá nghệ thuật có chủ quan không. Trong Writing nên diễn đạt lại: aesthetic judgement is subjective.",
+  "alt": [
+   "a matter of taste",
+   "there's no accounting for taste",
+   "highly subjective"
+  ],
+  "ex": "Some call the new tower an eyesore, but beauty is in the eye of the beholder.",
+  "exvi": "Có người gọi toà tháp mới là thứ chướng mắt, nhưng cái đẹp tuỳ vào mắt người nhìn.",
+  "em": "👁️"
+ },
+ {
+  "w": "fall flat",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "thất bại, không gây được hiệu quả như mong đợi",
+  "use": "Hay dùng cho câu đùa, màn diễn, chiến dịch. Hợp Speaking, dùng được trong Writing ít trang trọng. Thì quá khứ: fell flat.",
+  "alt": [
+   "fall flat on its face",
+   "miss the mark",
+   "go down well"
+  ],
+  "ex": "Most of the jokes in the comedy fell flat because they relied on references only older viewers understood.",
+  "exvi": "Phần lớn câu đùa trong phim hài không gây cười vì dựa vào những chi tiết chỉ khán giả lớn tuổi hiểu.",
+  "em": ""
+ },
+ {
+  "w": "a hard act to follow",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "người, tác phẩm quá xuất sắc khiến người kế tiếp khó bì kịp",
+  "use": "Gốc từ sân khấu. Hợp Speaking khi nói về phần tiếp theo của phim, album thứ hai. Không dùng trong Writing Task 2.",
+  "alt": [
+   "a tough act to follow",
+   "live up to sth",
+   "set the bar high"
+  ],
+  "ex": "Her first album won several awards, so it will be a hard act to follow.",
+  "exvi": "Album đầu tay của cô đã giành nhiều giải, nên sẽ rất khó để album sau vượt qua.",
+  "em": ""
+ },
+ {
+  "w": "a labour of love",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "công việc làm vì đam mê, không vì tiền",
+  "use": "Rất hợp Speaking khi nói về dự án nghệ thuật cá nhân. Dùng được trong Writing ít trang trọng. Chính tả Anh: labour.",
+  "alt": [
+   "a passion project",
+   "do sth for the love of it",
+   "a money-spinner"
+  ],
+  "ex": "Restoring the old temple murals was a labour of love that took the volunteers nearly five years.",
+  "exvi": "Phục hồi các bức bích hoạ trong ngôi đền cổ là công việc vì đam mê, mất gần năm năm của các tình nguyện viên.",
+  "em": "❤️"
+ },
+ {
+  "w": "nothing to write home about",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bình thường, chẳng có gì đặc sắc",
+  "use": "Thân mật, chỉ hợp Speaking khi nhận xét phim, nhà hàng, triển lãm. Không đưa vào Writing Task 2.",
+  "alt": [
+   "run-of-the-mill",
+   "mediocre",
+   "nothing special"
+  ],
+  "ex": "The exhibition was well organised, but the artwork itself was nothing to write home about.",
+  "exvi": "Triển lãm được tổ chức tốt, nhưng bản thân các tác phẩm thì chẳng có gì đặc sắc.",
+  "em": ""
+ },
+ {
+  "w": "up to scratch",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đạt tiêu chuẩn, đủ tốt",
+  "use": "Hay dùng ở dạng phủ định: not up to scratch. Hợp Speaking, mang tính Anh Anh. Không dùng trong Writing Task 2.",
+  "alt": [
+   "up to standard",
+   "up to par",
+   "leave a lot to be desired"
+  ],
+  "ex": "The gallery rejected several paintings because their quality was not up to scratch.",
+  "exvi": "Phòng tranh đã từ chối vài bức vì chất lượng chưa đạt chuẩn.",
+  "em": ""
+ },
+ {
+  "w": "run-of-the-mill",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bình thường, tầm thường, chẳng có gì đặc biệt",
+  "use": "Thường đứng trước danh từ: a run-of-the-mill thriller. Hợp Speaking. Viết có gạch nối khi đứng trước danh từ.",
+  "alt": [
+   "mediocre",
+   "nothing to write home about",
+   "in a league of its own"
+  ],
+  "ex": "Most of the films at the festival were run-of-the-mill dramas, with only one truly memorable entry.",
+  "exvi": "Phần lớn phim ở liên hoan là phim chính kịch tầm thường, chỉ có một tác phẩm thực sự đáng nhớ.",
+  "em": ""
+ },
+ {
+  "w": "in a league of its own",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "vượt trội hẳn, không gì sánh bằng",
+  "use": "Dùng in a league of his / her / their own cho người. Hợp Speaking khi khen nghệ sĩ, tác phẩm. Không dùng trong Writing Task 2.",
+  "alt": [
+   "in a class of its own",
+   "head and shoulders above",
+   "run-of-the-mill"
+  ],
+  "ex": "As a live performer, the singer is in a league of her own among artists of her generation.",
+  "exvi": "Khi biểu diễn trực tiếp, nữ ca sĩ vượt trội hẳn so với các nghệ sĩ cùng thế hệ.",
+  "em": ""
+ },
+ {
+  "w": "there's no accounting for taste",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "sở thích mỗi người mỗi khác, không giải thích được",
+  "use": "Thường dùng hơi châm biếm khi không hiểu sao người khác lại thích thứ gì đó. Chỉ hợp Speaking, cẩn thận kẻo nghe thiếu tôn trọng.",
+  "alt": [
+   "each to their own",
+   "beauty is in the eye of the beholder",
+   "a matter of taste"
+  ],
+  "ex": "My brother listens to that terrible band every day, but there's no accounting for taste.",
+  "exvi": "Anh tôi ngày nào cũng nghe ban nhạc dở tệ đó, nhưng sở thích thì mỗi người mỗi khác.",
+  "em": ""
+ },
+ {
+  "w": "break the mould",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "phá vỡ khuôn mẫu, làm khác hẳn truyền thống",
+  "use": "Hợp Speaking và Writing ít trang trọng khi nói về nghệ sĩ đổi mới. Chính tả Anh Anh: mould, Anh Mỹ: mold.",
+  "alt": [
+   "ground-breaking",
+   "push the boundaries",
+   "stick to the formula"
+  ],
+  "ex": "The architect broke the mould by designing a museum almost entirely underground.",
+  "exvi": "Kiến trúc sư đã phá vỡ khuôn mẫu khi thiết kế một bảo tàng gần như hoàn toàn nằm dưới lòng đất.",
+  "em": ""
+ },
+ {
+  "w": "a flash in the pan",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "thành công chớp nhoáng rồi biến mất",
+  "use": "Hay dùng cho ca sĩ, ban nhạc chỉ nổi một bài. Hợp Speaking Part 3 khi bàn về danh tiếng ngắn ngủi trên mạng. Không dùng trong Writing Task 2.",
+  "alt": [
+   "a one-hit wonder",
+   "short-lived success",
+   "stand the test of time"
+  ],
+  "ex": "Many viral singers turn out to be a flash in the pan, forgotten within a few months.",
+  "exvi": "Nhiều ca sĩ nổi nhờ lan truyền trên mạng hoá ra chỉ thành công chớp nhoáng, bị quên sau vài tháng.",
+  "em": ""
+ },
+ {
+  "w": "live up to sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "xứng với, đáp ứng được (kỳ vọng, danh tiếng)",
+  "use": "Hay đi với expectations, the hype, a reputation. Hợp cả Speaking và Writing. Không tách được: không nói live expectations up to.",
+  "alt": [
+   "live up to expectations",
+   "fall short of sth",
+   "meet expectations"
+  ],
+  "ex": "The sequel failed to live up to the hype, and audiences quickly lost interest.",
+  "exvi": "Phần tiếp theo không xứng với sự quảng bá rầm rộ, và khán giả nhanh chóng mất hứng thú.",
+  "em": ""
+ },
+ {
+  "w": "sell out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bán hết vé; (nghệ sĩ) chạy theo thương mại, đánh mất bản sắc",
+  "use": "Nghĩa 1 rất phổ biến: the concert sold out. Nghĩa 2 mang ý chê, hợp Speaking khi bàn về nghệ sĩ và tiền. Danh từ: a sell-out show.",
+  "alt": [
+   "a sell-out tour",
+   "be sold out",
+   "go mainstream"
+  ],
+  "ex": "Tickets for the traditional water puppet show usually sell out within hours of going on sale.",
+  "exvi": "Vé buổi diễn múa rối nước truyền thống thường bán hết chỉ vài giờ sau khi mở bán.",
+  "em": "🎟️"
+ },
+ {
+  "w": "tone down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "giảm nhẹ, làm bớt gay gắt (nội dung, màu sắc)",
+  "use": "Hay dùng khi bàn về kiểm duyệt nội dung bạo lực, ngôn ngữ thô. Hợp Writing về media. Ví dụ: tone the violence down.",
+  "alt": [
+   "water down sth",
+   "play down sth",
+   "soften sth"
+  ],
+  "ex": "The studio asked the director to tone down the violence so the film could reach a younger audience.",
+  "exvi": "Hãng phim yêu cầu đạo diễn giảm bớt cảnh bạo lực để phim tiếp cận được khán giả trẻ hơn.",
+  "em": ""
+ },
+ {
+  "w": "ham it up",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "diễn lố, cường điệu quá mức (thường cố ý để gây cười)",
+  "use": "Thân mật, hợp Speaking khi nhận xét diễn viên. Luôn dùng với it: ham it up. Danh từ liên quan: a ham (diễn viên diễn lố).",
+  "alt": [
+   "overact",
+   "go over the top",
+   "play it straight"
+  ],
+  "ex": "The lead actor hammed it up so much that the serious drama started to feel like a comedy.",
+  "exvi": "Nam diễn viên chính diễn lố đến mức bộ phim chính kịch nghiêm túc bắt đầu giống phim hài.",
+  "em": "🎭"
+ },
+ {
+  "w": "tear sth apart",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "chỉ trích thậm tệ, chê không còn gì",
+  "use": "Nghĩa bóng dùng cho giới phê bình. Tân ngữ thường nằm giữa: critics tore the film apart. Hợp Speaking.",
+  "alt": [
+   "pull sth to pieces",
+   "a scathing review",
+   "praise sth to the skies"
+  ],
+  "ex": "Critics tore the remake apart, saying it destroyed everything fans loved about the original.",
+  "exvi": "Giới phê bình chê bản làm lại không còn gì, nói nó phá hỏng mọi thứ người hâm mộ yêu ở bản gốc.",
+  "em": ""
+ },
+ {
+  "w": "hand down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "truyền lại (cho thế hệ sau)",
+  "use": "Rất hợp Writing về di sản, nghề thủ công, truyền thống. Hay đi với from generation to generation. Dạng bị động phổ biến: be handed down.",
+  "alt": [
+   "pass down sth",
+   "pass on sth",
+   "fade away"
+  ],
+  "ex": "In this village, the art of silk weaving has been handed down from mother to daughter for centuries.",
+  "exvi": "Ở ngôi làng này, nghề dệt lụa đã được truyền từ mẹ sang con gái qua nhiều thế kỷ.",
+  "em": ""
+ },
+ {
+  "w": "fade away",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "phai nhạt dần, mất dần",
+  "use": "Dùng cho truyền thống, ký ức, danh tiếng. Hợp Writing về bảo tồn văn hoá. Không có tân ngữ. Nhẹ hơn die out.",
+  "alt": [
+   "die out",
+   "fade into obscurity",
+   "be revived"
+  ],
+  "ex": "Without support from young people, traditional festivals may slowly fade away in many rural areas.",
+  "exvi": "Nếu không có sự ủng hộ của người trẻ, các lễ hội truyền thống có thể dần phai nhạt ở nhiều vùng nông thôn.",
+  "em": ""
+ },
+ {
+  "w": "dumb down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "đơn giản hoá quá mức, làm giảm độ sâu cho dễ hiểu",
+  "use": "Mang ý chê. Hợp Writing về truyền thông và giáo dục. Danh từ: the dumbing down of culture. Không nhầm với simplify (trung tính).",
+  "alt": [
+   "the dumbing down of sth",
+   "oversimplify sth",
+   "water down sth"
+  ],
+  "ex": "Some argue that television has dumbed down history documentaries to keep viewers from changing channels.",
+  "exvi": "Một số người cho rằng truyền hình đã đơn giản hoá quá mức phim tài liệu lịch sử để giữ người xem không chuyển kênh.",
+  "em": ""
+ },
+ {
+  "w": "pull off sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "làm thành công một việc khó",
+  "use": "Hợp Speaking, khá thân mật. Hay dùng khi khen diễn viên đóng vai khó, buổi diễn quy mô lớn. Ví dụ: pull it off.",
+  "alt": [
+   "carry off sth",
+   "manage to do sth",
+   "fall flat"
+  ],
+  "ex": "Few actors could pull off playing both twin brothers, but he made each character completely believable.",
+  "exvi": "Ít diễn viên làm được việc đóng cả hai anh em sinh đôi, nhưng anh khiến mỗi nhân vật đều rất thuyết phục.",
+  "em": ""
+ },
+ {
+  "w": "draw on sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "dựa vào, sử dụng (kinh nghiệm, nguồn tư liệu)",
+  "use": "Hợp Writing học thuật. Hay đi với experience, folklore, sources. Không tách được: draw on her childhood, không nói draw her childhood on.",
+  "alt": [
+   "draw inspiration from sth",
+   "draw upon sth",
+   "make use of sth"
+  ],
+  "ex": "The writer draws on her childhood in the Central Highlands to create rich, believable characters.",
+  "exvi": "Nhà văn dựa vào tuổi thơ ở Tây Nguyên để xây dựng những nhân vật sống động, chân thực.",
+  "em": ""
+ },
+ {
+  "w": "stand out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "nổi bật, khác biệt hẳn",
+  "use": "Hay đi với from: stand out from the crowd / the rest. Hợp cả Speaking và Writing. Tính từ: outstanding.",
+  "alt": [
+   "stand out from the crowd",
+   "outstanding",
+   "blend in"
+  ],
+  "ex": "Among hundreds of entries, one short film continues to stand out for its honest portrayal of rural poverty.",
+  "exvi": "Trong hàng trăm tác phẩm dự thi, một phim ngắn vẫn nổi bật nhờ cách khắc hoạ chân thực cái nghèo ở nông thôn.",
+  "em": ""
+ },
+ {
+  "w": "flesh out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "bổ sung chi tiết, làm cho đầy đặn hơn (nhân vật, ý tưởng)",
+  "use": "Dùng cho nhân vật, cốt truyện, kế hoạch, ý tưởng. Hợp cả Writing. Ví dụ: flesh the characters out.",
+  "alt": [
+   "develop sth further",
+   "expand on sth",
+   "a two-dimensional character"
+  ],
+  "ex": "The series spends more time fleshing out minor characters, which makes the story feel richer than the book.",
+  "exvi": "Loạt phim dành nhiều thời gian hơn để khắc hoạ các nhân vật phụ, khiến câu chuyện đầy đặn hơn bản sách.",
+  "em": ""
+ },
+ {
+  "w": "water down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "làm loãng, làm giảm sức mạnh hay bản sắc",
+  "use": "Mang ý chê. Hợp Writing khi bàn về chuyển thể, thương mại hoá văn hoá. Dạng tính từ: a watered-down version.",
+  "alt": [
+   "a watered-down version",
+   "tone down sth",
+   "dumb down sth"
+  ],
+  "ex": "Critics complained that the Hollywood adaptation watered down the political message of the original novel.",
+  "exvi": "Giới phê bình phàn nàn bản chuyển thể Hollywood đã làm nhạt đi thông điệp chính trị của tiểu thuyết gốc.",
+  "em": ""
+ },
+ {
+  "w": "lap up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "đón nhận say mê, thích thú (đôi khi không suy xét)",
+  "use": "Thân mật, hợp Speaking. Thường có chủ ngữ là audiences, fans, the public. Đôi khi hàm ý khán giả tiếp nhận thiếu chọn lọc.",
+  "alt": [
+   "lap it up",
+   "devour sth",
+   "eat sth up"
+  ],
+  "ex": "Audiences lapped up the romantic comedy, even though critics found it shallow and predictable.",
+  "exvi": "Khán giả đón nhận bộ phim hài lãng mạn một cách say mê, dù giới phê bình thấy nó nông cạn và dễ đoán.",
+  "em": ""
+ }
+]

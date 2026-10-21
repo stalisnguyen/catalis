@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "close-knit family",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "gia đình gắn bó, khăng khít",
+  "use": "Dùng tốt cả trong Writing và Speaking khi nói về gia đình hoặc cộng đồng. Viết có gạch nối: close-knit, không viết close knit hay closed-knit.",
+  "alt": [
+   "tight-knit family",
+   "close-knit community",
+   "extended family"
+  ],
+  "ex": "Growing up in a close-knit family gave her the confidence to take risks at university.",
+  "exvi": "Lớn lên trong một gia đình gắn bó giúp cô ấy tự tin dám thử thách bản thân ở đại học.",
+  "em": "👨‍👩‍👧"
+ },
+ {
+  "w": "mutual respect",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "sự tôn trọng lẫn nhau",
+  "use": "Rất hợp Writing Task 2 về quan hệ gia đình, công sở. Hay đi với based on / built on mutual respect. Không cần thêm each other: không nói mutual respect for each other.",
+  "alt": [
+   "mutual trust",
+   "mutual understanding",
+   "a lack of mutual respect"
+  ],
+  "ex": "Healthy relationships between teachers and students are built on mutual respect rather than fear.",
+  "exvi": "Mối quan hệ lành mạnh giữa thầy và trò được xây dựng trên sự tôn trọng lẫn nhau chứ không phải nỗi sợ.",
+  "em": "🤝"
+ },
+ {
+  "w": "heated argument",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "cuộc cãi vã gay gắt",
+  "use": "Dùng được trong Speaking và Writing. Đi với have/get into a heated argument; không nói: make a heated argument.",
+  "alt": [
+   "heated debate",
+   "fierce argument",
+   "a minor disagreement"
+  ],
+  "ex": "My parents once had a heated argument about whether I should study abroad or stay at home.",
+  "exvi": "Bố mẹ tôi từng cãi nhau gay gắt về việc tôi nên đi du học hay ở lại trong nước.",
+  "em": "😠"
+ },
+ {
+  "w": "strict upbringing",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "sự nuôi dạy nghiêm khắc",
+  "use": "Hợp khi bàn về cách nuôi dạy con cái. Khi có tính từ đi kèm thường dùng a: had a strict upbringing.",
+  "alt": [
+   "traditional upbringing",
+   "a liberal upbringing",
+   "a sheltered upbringing"
+  ],
+  "ex": "Many adults who had a strict upbringing say it taught them discipline but also made them anxious.",
+  "exvi": "Nhiều người lớn được nuôi dạy nghiêm khắc nói rằng điều đó dạy họ tính kỷ luật nhưng cũng khiến họ hay lo âu.",
+  "em": ""
+ },
+ {
+  "w": "lifelong friendship",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "tình bạn trọn đời",
+  "use": "Dùng tự nhiên trong Speaking Part 2 khi kể về một người bạn. Có thể nói lifelong friend.",
+  "alt": [
+   "lasting friendship",
+   "lifelong friend",
+   "a passing acquaintance"
+  ],
+  "ex": "What started as a shared desk in primary school turned into a lifelong friendship.",
+  "exvi": "Từ việc ngồi chung bàn hồi tiểu học, chúng tôi đã trở thành bạn bè trọn đời.",
+  "em": ""
+ },
+ {
+  "w": "earn sb's trust",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "giành được lòng tin của ai",
+  "use": "Dùng cả Writing và Speaking. Lỗi hay gặp: get trust from sb nghe kém tự nhiên; nói earn/gain sb's trust.",
+  "alt": [
+   "gain sb's trust",
+   "win sb's trust",
+   "lose sb's trust"
+  ],
+  "ex": "New managers usually need several months to earn the trust of an experienced team.",
+  "exvi": "Quản lý mới thường cần vài tháng để giành được lòng tin của một đội ngũ dày dạn kinh nghiệm.",
+  "em": ""
+ },
+ {
+  "w": "resolve a conflict",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "giải quyết mâu thuẫn",
+  "use": "Phù hợp Writing học thuật. Resolve hoặc settle a conflict tự nhiên hơn solve a conflict (solve hợp với problem hơn).",
+  "alt": [
+   "settle a dispute",
+   "handle a conflict",
+   "escalate a conflict"
+  ],
+  "ex": "Schools should teach children practical ways to resolve conflicts without turning to violence.",
+  "exvi": "Trường học nên dạy trẻ những cách thực tế để giải quyết mâu thuẫn mà không dùng đến bạo lực.",
+  "em": "🕊️"
+ },
+ {
+  "w": "bond with sb",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "B2",
+  "vi": "gắn kết, trở nên thân thiết với ai",
+  "use": "Dùng nhiều trong Speaking. Bond là động từ ở đây; không nói: make bond with sb.",
+  "alt": [
+   "connect with sb",
+   "form a bond with sb",
+   "grow close to sb"
+  ],
+  "ex": "Fathers who take parental leave often bond with their babies much more quickly.",
+  "exvi": "Những ông bố nghỉ phép chăm con thường gắn kết với em bé nhanh hơn nhiều.",
+  "em": ""
+ },
+ {
+  "w": "supportive of sb",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "B2",
+  "vi": "ủng hộ, luôn hỗ trợ ai",
+  "use": "Dùng trong Writing và Speaking. Đi với of, không đi với to: supportive of my decision.",
+  "alt": [
+   "encouraging",
+   "very supportive of sth",
+   "critical of sb"
+  ],
+  "ex": "My older sister has always been supportive of my plans, even when our parents disagreed.",
+  "exvi": "Chị gái tôi luôn ủng hộ các kế hoạch của tôi, kể cả khi bố mẹ không đồng ý.",
+  "em": ""
+ },
+ {
+  "w": "unconditional love",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "tình yêu vô điều kiện",
+  "use": "Hay dùng khi nói về cha mẹ hoặc thú cưng, hợp Speaking và Writing.",
+  "alt": [
+   "unconditional support",
+   "conditional approval",
+   "parental love"
+  ],
+  "ex": "Psychologists argue that unconditional love from parents helps children develop a stable sense of self-worth.",
+  "exvi": "Các nhà tâm lý học cho rằng tình yêu vô điều kiện của cha mẹ giúp trẻ hình thành lòng tự trọng vững vàng.",
+  "em": "❤️"
+ },
+ {
+  "w": "work collaboratively",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "B2",
+  "vi": "làm việc theo hướng hợp tác, cùng phối hợp",
+  "use": "Rất hợp Writing Task 2 về giáo dục và công việc. Trang trọng hơn work together.",
+  "alt": [
+   "work as a team",
+   "collaborate closely",
+   "work independently"
+  ],
+  "ex": "Group projects train students to work collaboratively with people who have different strengths.",
+  "exvi": "Các dự án nhóm rèn cho sinh viên khả năng phối hợp với những người có thế mạnh khác nhau.",
+  "em": "👥"
+ },
+ {
+  "w": "strike up a friendship",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "bắt đầu kết bạn (thường tình cờ)",
+  "use": "Hợp Speaking khi kể chuyện quen ai đó. Cũng nói strike up a conversation. Không nói: start up a friendship.",
+  "alt": [
+   "strike up a conversation",
+   "form a friendship",
+   "hit it off with sb"
+  ],
+  "ex": "I struck up a friendship with an elderly neighbour while helping her carry shopping upstairs.",
+  "exvi": "Tôi bắt đầu thân với một bà cụ hàng xóm khi giúp bà xách đồ lên lầu.",
+  "em": ""
+ },
+ {
+  "w": "forge strong ties with sb",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tạo dựng mối quan hệ bền chặt với ai",
+  "use": "Văn phong trang trọng, hợp Writing học thuật về cộng đồng, gia đình, quốc gia.",
+  "alt": [
+   "forge a bond",
+   "build close ties",
+   "sever ties with sb"
+  ],
+  "ex": "Volunteering helps newcomers forge strong ties with their local community.",
+  "exvi": "Hoạt động tình nguyện giúp người mới đến tạo dựng mối quan hệ bền chặt với cộng đồng địa phương.",
+  "em": ""
+ },
+ {
+  "w": "strained relationship",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "mối quan hệ căng thẳng, rạn nứt",
+  "use": "Hợp Writing và Speaking. Strained nhấn mạnh sự căng, chưa đổ vỡ hẳn.",
+  "alt": [
+   "tense relationship",
+   "troubled relationship",
+   "harmonious relationship"
+  ],
+  "ex": "Long working hours can lead to a strained relationship between parents and teenage children.",
+  "exvi": "Giờ làm việc kéo dài có thể khiến quan hệ giữa cha mẹ và con tuổi teen trở nên căng thẳng.",
+  "em": ""
+ },
+ {
+  "w": "bitter dispute",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "tranh chấp gay gắt, cay đắng",
+  "use": "Hay dùng trong báo chí và Writing, nhất là chuyện thừa kế, ly hôn. Đi với over: a bitter dispute over money.",
+  "alt": [
+   "long-running dispute",
+   "bitter feud",
+   "amicable settlement"
+  ],
+  "ex": "The brothers stopped speaking after a bitter dispute over their late father's house.",
+  "exvi": "Hai anh em không nói chuyện với nhau nữa sau cuộc tranh chấp gay gắt về căn nhà của người cha quá cố.",
+  "em": ""
+ },
+ {
+  "w": "defuse tension",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "xoa dịu căng thẳng",
+  "use": "Hợp Writing và Speaking về công sở, gia đình. Viết defuse (làm dịu), không nhầm với diffuse (khuếch tán).",
+  "alt": [
+   "ease tension",
+   "defuse a situation",
+   "heighten tension"
+  ],
+  "ex": "A good team leader knows how to defuse tension with a little humour before it escalates.",
+  "exvi": "Một trưởng nhóm giỏi biết cách xoa dịu căng thẳng bằng chút hài hước trước khi nó leo thang.",
+  "em": ""
+ },
+ {
+  "w": "intergenerational conflict",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "xung đột giữa các thế hệ",
+  "use": "Rất hợp Writing Task 2 về thế hệ. Trang trọng hơn generation gap.",
+  "alt": [
+   "generational tension",
+   "generation gap",
+   "intergenerational understanding"
+  ],
+  "ex": "Rapid technological change is often blamed for growing intergenerational conflict within families.",
+  "exvi": "Sự thay đổi công nghệ nhanh chóng thường bị cho là nguyên nhân khiến xung đột thế hệ trong gia đình gia tăng.",
+  "em": ""
+ },
+ {
+  "w": "sheltered upbringing",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "được nuôi dạy quá bao bọc, ít va chạm",
+  "use": "Dùng cả Writing và Speaking. Sheltered mang ý ít trải nghiệm thực tế, hơi tiêu cực.",
+  "alt": [
+   "sheltered life",
+   "overprotective parenting",
+   "strict upbringing"
+  ],
+  "ex": "Students from a sheltered upbringing sometimes struggle when they first live independently.",
+  "exvi": "Sinh viên được nuôi dạy quá bao bọc đôi khi gặp khó khăn khi lần đầu sống tự lập.",
+  "em": ""
+ },
+ {
+  "w": "elderly dependants",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "người già cần được phụng dưỡng",
+  "use": "Trang trọng, hợp Writing về già hoá và chính sách. Anh-Anh viết dependants, Anh-Mỹ viết dependents.",
+  "alt": [
+   "elderly relatives",
+   "ageing parents",
+   "dependent children"
+  ],
+  "ex": "Workers with elderly dependants should be offered flexible hours to balance care and employment.",
+  "exvi": "Người lao động có cha mẹ già cần phụng dưỡng nên được bố trí giờ làm linh hoạt để cân bằng việc chăm sóc và công việc.",
+  "em": "👵"
+ },
+ {
+  "w": "emotionally distant",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "xa cách về mặt tình cảm, lạnh nhạt",
+  "use": "Hợp Speaking và Writing khi tả tính cách hoặc quan hệ cha mẹ con cái.",
+  "alt": [
+   "emotionally detached",
+   "cold and aloof",
+   "emotionally available"
+  ],
+  "ex": "Children of emotionally distant parents may find it harder to express their feelings as adults.",
+  "exvi": "Con cái của những bậc cha mẹ lạnh nhạt về tình cảm có thể khó bày tỏ cảm xúc hơn khi trưởng thành.",
+  "em": ""
+ },
+ {
+  "w": "fiercely loyal",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "trung thành tuyệt đối",
+  "use": "Hợp Speaking khi tả bạn bè, người thân. Thường đi với to: fiercely loyal to her friends.",
+  "alt": [
+   "deeply loyal",
+   "fiercely independent",
+   "disloyal"
+  ],
+  "ex": "My grandmother is fiercely loyal to her old friends and still visits them every week.",
+  "exvi": "Bà tôi rất mực gắn bó với bạn cũ và vẫn đến thăm họ mỗi tuần.",
+  "em": ""
+ },
+ {
+  "w": "personality clash",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "sự xung khắc tính cách",
+  "use": "Hay dùng khi nói về làm việc nhóm. Cũng nói a clash of personalities.",
+  "alt": [
+   "clash of personalities",
+   "difference of opinion",
+   "good chemistry"
+  ],
+  "ex": "The project was delayed mainly because of a personality clash between the two lead designers.",
+  "exvi": "Dự án bị chậm chủ yếu do hai nhà thiết kế chính xung khắc tính cách.",
+  "em": ""
+ },
+ {
+  "w": "team cohesion",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "sự gắn kết trong nhóm",
+  "use": "Trang trọng, hợp Writing về công việc. Đi với build/strengthen/undermine team cohesion.",
+  "alt": [
+   "team unity",
+   "team morale",
+   "social cohesion"
+  ],
+  "ex": "Remote work can weaken team cohesion unless managers create regular chances for people to connect.",
+  "exvi": "Làm việc từ xa có thể làm giảm sự gắn kết trong nhóm nếu quản lý không tạo cơ hội để mọi người kết nối thường xuyên.",
+  "em": ""
+ },
+ {
+  "w": "delegate responsibility",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "giao phó trách nhiệm",
+  "use": "Hợp Writing và Speaking về quản lý. Cấu trúc: delegate sth to sb.",
+  "alt": [
+   "delegate tasks to sb",
+   "share responsibility",
+   "micromanage"
+  ],
+  "ex": "Leaders who refuse to delegate responsibility often burn out and leave their team underused.",
+  "exvi": "Những nhà lãnh đạo không chịu giao phó trách nhiệm thường kiệt sức và khiến nhân viên không được dùng hết khả năng.",
+  "em": ""
+ },
+ {
+  "w": "reconcile with sb",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "làm lành, hoà giải với ai",
+  "use": "Trang trọng hơn make up with sb. Danh từ là reconciliation.",
+  "alt": [
+   "make up with sb",
+   "be reconciled with sb",
+   "fall out with sb"
+  ],
+  "ex": "After ten years of silence, he finally reconciled with his father shortly before the old man's illness.",
+  "exvi": "Sau mười năm không nói chuyện, anh ấy cuối cùng cũng làm lành với cha ngay trước khi ông đổ bệnh.",
+  "em": ""
+ },
+ {
+  "w": "confide in sb",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "tâm sự, giãi bày với ai",
+  "use": "Hợp Speaking. Đi với in, không đi với to: confide in my best friend.",
+  "alt": [
+   "open up to sb",
+   "share a secret with sb",
+   "keep sth to yourself"
+  ],
+  "ex": "Teenagers are more likely to confide in friends than in parents about personal problems.",
+  "exvi": "Thanh thiếu niên có xu hướng tâm sự chuyện riêng với bạn bè hơn là với cha mẹ.",
+  "em": ""
+ },
+ {
+  "w": "empathise with sb",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "C1",
+  "vi": "đồng cảm với ai",
+  "use": "Dùng cả Writing và Speaking. Anh-Mỹ viết empathize. Khác sympathise: empathise là hiểu cảm giác như chính mình trải qua.",
+  "alt": [
+   "sympathise with sb",
+   "put yourself in sb's shoes",
+   "relate to sb"
+  ],
+  "ex": "Reading fiction may help young people empathise with others whose lives differ from their own.",
+  "exvi": "Đọc tiểu thuyết có thể giúp người trẻ đồng cảm với những người có cuộc sống khác mình.",
+  "em": ""
+ },
+ {
+  "w": "resentful of sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C1",
+  "vi": "oán giận, bực bội vì điều gì",
+  "use": "Dùng được trong Writing. Hay đi với of; cũng nói resentful at hoặc resentful about.",
+  "alt": [
+   "bitter about sth",
+   "harbour resentment",
+   "grateful for sth"
+  ],
+  "ex": "Older siblings sometimes become resentful of the attention a new baby receives.",
+  "exvi": "Anh chị lớn đôi khi trở nên bực bội vì sự chú ý mà em bé mới sinh nhận được.",
+  "em": ""
+ },
+ {
+  "w": "a breakdown in communication",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "sự đổ vỡ trong giao tiếp",
+  "use": "Rất hợp Writing Task 2 khi giải thích nguyên nhân mâu thuẫn. Thường đi với in (a breakdown in communication); cũng nói a communication breakdown.",
+  "alt": [
+   "communication breakdown",
+   "a lack of communication",
+   "open communication"
+  ],
+  "ex": "Most family arguments stem from a breakdown in communication rather than genuine differences in values.",
+  "exvi": "Phần lớn cãi vã trong gia đình bắt nguồn từ sự đổ vỡ trong giao tiếp chứ không phải khác biệt thật sự về giá trị.",
+  "em": ""
+ },
+ {
+  "w": "age gracefully",
+  "deck": "col",
+  "pat": "v + adv",
+  "cefr": "C1",
+  "vi": "già đi một cách duyên dáng, an nhiên",
+  "use": "Hợp Speaking và Writing về tuổi già. Mang sắc thái tích cực, chấp nhận tuổi tác.",
+  "alt": [
+   "grow old gracefully",
+   "age well",
+   "active ageing"
+  ],
+  "ex": "Staying socially active is one of the simplest ways to age gracefully and avoid loneliness.",
+  "exvi": "Duy trì các hoạt động xã hội là một trong những cách đơn giản nhất để già đi an nhiên và tránh cô đơn.",
+  "em": "👴"
+ },
+ {
+  "w": "harbour a grudge",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "ôm hận, để bụng thù dai",
+  "use": "Trang trọng hơn hold a grudge. Đi với against sb. Anh-Mỹ viết harbor.",
+  "alt": [
+   "hold a grudge against sb",
+   "bear a grudge",
+   "let it go"
+  ],
+  "ex": "She still harbours a grudge against her cousin for a remark he made at a wedding years ago.",
+  "exvi": "Cô ấy vẫn để bụng người anh họ vì một câu nói anh ta buông ra trong đám cưới nhiều năm trước.",
+  "em": ""
+ },
+ {
+  "w": "a deep rift",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "sự rạn nứt sâu sắc",
+  "use": "Hợp Writing, dùng cho gia đình, đảng phái, xã hội. Cấu trúc: a deep rift between A and B.",
+  "alt": [
+   "a growing rift",
+   "heal the rift",
+   "a deep divide"
+  ],
+  "ex": "The inheritance created a deep rift between the siblings that never fully healed.",
+  "exvi": "Chuyện thừa kế đã tạo ra sự rạn nứt sâu sắc giữa anh chị em mà không bao giờ lành hẳn.",
+  "em": ""
+ },
+ {
+  "w": "estranged from sb",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C2",
+  "vi": "xa cách, cắt đứt quan hệ với ai (thường là người thân)",
+  "use": "Trang trọng, hay gặp trong báo chí. Cũng dùng trước danh từ: his estranged wife.",
+  "alt": [
+   "estranged wife",
+   "cut off from sb",
+   "reconciled with sb"
+  ],
+  "ex": "Many young people become estranged from their families after moving to big cities for work.",
+  "exvi": "Nhiều người trẻ dần xa cách gia đình sau khi lên thành phố lớn làm việc.",
+  "em": ""
+ },
+ {
+  "w": "cordial relations",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "quan hệ hoà nhã, lịch sự",
+  "use": "Rất trang trọng, hợp Writing. Cordial nghĩa là lịch sự, thân thiện nhưng chưa chắc thân thiết.",
+  "alt": [
+   "friendly relations",
+   "amicable relations",
+   "frosty relations"
+  ],
+  "ex": "Even after the divorce, the couple maintained cordial relations for the sake of their children.",
+  "exvi": "Ngay cả sau khi ly hôn, hai vợ chồng vẫn giữ quan hệ hoà nhã vì các con.",
+  "em": ""
+ },
+ {
+  "w": "painfully shy",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "nhút nhát đến khổ sở",
+  "use": "Hợp Speaking khi tả tính cách. Painfully nhấn mạnh mức độ đến mức gây khó khăn.",
+  "alt": [
+   "extremely shy",
+   "socially awkward",
+   "outgoing"
+  ],
+  "ex": "As a painfully shy child, I dreaded being asked to speak in front of the class.",
+  "exvi": "Hồi bé nhút nhát đến khổ sở, tôi rất sợ bị gọi lên nói trước lớp.",
+  "em": "😳"
+ },
+ {
+  "w": "abrasive manner",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "cách cư xử cộc cằn, gay gắt",
+  "use": "Dùng cả Writing và Speaking để chê cách giao tiếp. Abrasive mang nghĩa gây khó chịu cho người khác.",
+  "alt": [
+   "abrasive personality",
+   "brusque manner",
+   "tactful approach"
+  ],
+  "ex": "His abrasive manner made colleagues reluctant to share ideas, despite his technical brilliance.",
+  "exvi": "Cách cư xử gay gắt của anh ta khiến đồng nghiệp ngại chia sẻ ý tưởng, dù anh rất giỏi chuyên môn.",
+  "em": ""
+ },
+ {
+  "w": "blood is thicker than water",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "một giọt máu đào hơn ao nước lã",
+  "use": "Chỉ hợp Speaking, thường để giải thích vì sao ưu tiên người thân. Không nên chèn vào Writing Task 2.",
+  "alt": [
+   "family comes first",
+   "flesh and blood",
+   "your own flesh and blood"
+  ],
+  "ex": "In many Asian cultures, people still believe blood is thicker than water when hiring for family businesses.",
+  "exvi": "Ở nhiều nền văn hoá châu Á, người ta vẫn tin một giọt máu đào hơn ao nước lã khi tuyển người cho doanh nghiệp gia đình.",
+  "em": "🩸"
+ },
+ {
+  "w": "the apple doesn't fall far from the tree",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "con nhà tông không giống lông cũng giống cánh",
+  "use": "Hợp Speaking, giọng thân mật hoặc hài hước. Không đưa vào Writing Task 2.",
+  "alt": [
+   "like father, like son",
+   "a chip off the old block",
+   "take after sb"
+  ],
+  "ex": "She plays the violin brilliantly, just like her famous mother; the apple doesn't fall far from the tree.",
+  "exvi": "Cô ấy chơi violin rất giỏi, y như người mẹ nổi tiếng của mình; đúng là con nhà tông không giống lông cũng giống cánh.",
+  "em": "🍎"
+ },
+ {
+  "w": "a chip off the old block",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "giống bố/mẹ như đúc (tính cách, tài năng)",
+  "use": "Chỉ dùng trong Speaking thân mật, khá Anh-Anh. Không dùng trong Writing.",
+  "alt": [
+   "the spitting image of sb",
+   "take after sb",
+   "like father, like son"
+  ],
+  "ex": "He argues exactly like his father did at that age; he's a real chip off the old block.",
+  "exvi": "Cậu ấy tranh luận y hệt bố hồi bằng tuổi, đúng là giống bố như đúc.",
+  "em": ""
+ },
+ {
+  "w": "bury the hatchet",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "làm lành, gác lại hiềm khích",
+  "use": "Hợp Speaking khi kể chuyện làm hoà. Không ép vào Writing Task 2.",
+  "alt": [
+   "make peace",
+   "patch things up",
+   "let bygones be bygones"
+  ],
+  "ex": "The two neighbours finally buried the hatchet after years of arguing about the shared fence.",
+  "exvi": "Hai nhà hàng xóm cuối cùng cũng làm lành sau nhiều năm cãi nhau về bức hàng rào chung.",
+  "em": "🪓"
+ },
+ {
+  "w": "clear the air",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nói thẳng cho rõ để xoá hiểu lầm, bớt căng thẳng",
+  "use": "Dùng tự nhiên trong Speaking, cả ngữ cảnh công việc. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "talk things through",
+   "get sth off your chest",
+   "sweep sth under the carpet"
+  ],
+  "ex": "After the tense meeting, our manager invited everyone for coffee to clear the air.",
+  "exvi": "Sau cuộc họp căng thẳng, quản lý mời mọi người đi cà phê để nói chuyện cho rõ và xoá hiểu lầm.",
+  "em": ""
+ },
+ {
+  "w": "the black sheep of the family",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đứa con khác người, bị coi là tai tiếng trong nhà",
+  "use": "Hợp Speaking, nhất là khi kể về gia đình. Không dùng trong Writing Task 2.",
+  "alt": [
+   "the odd one out",
+   "the black sheep",
+   "the golden child"
+  ],
+  "ex": "My uncle became the black sheep of the family when he dropped out of medical school to become a musician.",
+  "exvi": "Chú tôi trở thành người lạc loài trong nhà khi bỏ trường y để làm nhạc sĩ.",
+  "em": "🐑"
+ },
+ {
+  "w": "at loggerheads with sb",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "bất đồng gay gắt, đối đầu với ai",
+  "use": "Ít khẩu ngữ hơn đa số idiom, có thể gặp trong báo chí; vẫn nên dùng chủ yếu khi nói, không ép vào Writing Task 2.",
+  "alt": [
+   "at odds with sb",
+   "in conflict with sb",
+   "see eye to eye"
+  ],
+  "ex": "The founders were at loggerheads over the company's direction for most of last year.",
+  "exvi": "Các nhà sáng lập đối đầu gay gắt về định hướng công ty gần như suốt năm ngoái.",
+  "em": ""
+ },
+ {
+  "w": "extend an olive branch",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "chìa cành ô liu, chủ động làm hoà",
+  "use": "Trang trọng, gặp nhiều trong báo chí; dùng tốt trong Speaking. Viết Task 2 chỉ dùng nếu thật sự hợp, không ép.",
+  "alt": [
+   "offer an olive branch",
+   "make the first move",
+   "hold out a hand"
+  ],
+  "ex": "After months of silence, she extended an olive branch by inviting her brother to her graduation.",
+  "exvi": "Sau nhiều tháng im lặng, cô ấy chủ động làm hoà bằng cách mời anh trai đến dự lễ tốt nghiệp.",
+  "em": "🫒"
+ },
+ {
+  "w": "give sb the cold shoulder",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "lạnh nhạt, phớt lờ ai",
+  "use": "Hợp Speaking thân mật. Không dùng trong Writing Task 2.",
+  "alt": [
+   "ignore sb",
+   "freeze sb out",
+   "give sb a warm welcome"
+  ],
+  "ex": "When I joined the new school, a few classmates gave me the cold shoulder for weeks.",
+  "exvi": "Khi tôi vào trường mới, vài bạn cùng lớp lạnh nhạt với tôi suốt mấy tuần.",
+  "em": "🥶"
+ },
+ {
+  "w": "walk on eggshells",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "dè dặt từng lời, sợ làm phật lòng ai",
+  "use": "Dùng tự nhiên trong Speaking khi tả không khí gia đình hay công sở căng thẳng. Không ép vào Writing.",
+  "alt": [
+   "tread carefully",
+   "tiptoe around sb",
+   "speak your mind"
+  ],
+  "ex": "Employees felt they had to walk on eggshells around the new director because of his temper.",
+  "exvi": "Nhân viên cảm thấy phải dè dặt từng lời với giám đốc mới vì ông ấy nóng tính.",
+  "em": "🥚"
+ },
+ {
+  "w": "too many cooks spoil the broth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "lắm thầy thối ma",
+  "use": "Hợp Speaking khi bàn về làm việc nhóm. Có thể rút gọn: too many cooks. Không dùng trong Writing Task 2.",
+  "alt": [
+   "too many cooks",
+   "many hands make light work",
+   "design by committee"
+  ],
+  "ex": "We had six people editing one presentation, and as they say, too many cooks spoil the broth.",
+  "exvi": "Có sáu người cùng sửa một bài thuyết trình, đúng là lắm thầy thối ma.",
+  "em": "🍲"
+ },
+ {
+  "w": "get off on the wrong foot",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "khởi đầu không suôn sẻ (trong một mối quan hệ)",
+  "use": "Dùng tự nhiên trong Speaking. Lỗi hay gặp: start on the wrong leg. Không ép vào Writing.",
+  "alt": [
+   "start off on the wrong foot",
+   "get off to a bad start",
+   "hit it off"
+  ],
+  "ex": "My roommate and I got off on the wrong foot, but we later became close friends.",
+  "exvi": "Tôi và bạn cùng phòng khởi đầu không mấy suôn sẻ, nhưng sau này lại thành bạn thân.",
+  "em": "🦶"
+ },
+ {
+  "w": "over the hill",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đã quá thời đỉnh cao, già rồi",
+  "use": "Thân mật, hay dùng đùa; nói về người khác có thể bị coi là thiếu tế nhị. Chỉ hợp Speaking.",
+  "alt": [
+   "past your prime",
+   "past it",
+   "in your prime"
+  ],
+  "ex": "Some employers wrongly assume that workers in their fifties are over the hill and unable to learn new technology.",
+  "exvi": "Một số nhà tuyển dụng lầm tưởng rằng người lao động ở tuổi năm mươi đã hết thời và không học được công nghệ mới.",
+  "em": "⛰️"
+ },
+ {
+  "w": "long in the tooth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "già, có tuổi rồi",
+  "use": "Thân mật, thường tự nói về mình một cách hài hước. Chỉ hợp Speaking.",
+  "alt": [
+   "getting on a bit",
+   "over the hill",
+   "no spring chicken"
+  ],
+  "ex": "I may be a bit long in the tooth for social media, but my grandchildren keep me updated.",
+  "exvi": "Tôi có lẽ hơi có tuổi để chơi mạng xã hội, nhưng các cháu vẫn cập nhật cho tôi.",
+  "em": ""
+ },
+ {
+  "w": "rule the roost",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "nắm quyền, làm chủ trong nhà",
+  "use": "Thân mật, hay dùng nói vui về gia đình. Chỉ hợp Speaking.",
+  "alt": [
+   "wear the trousers",
+   "call the shots",
+   "be in charge"
+  ],
+  "ex": "In my family, my grandmother still rules the roost and makes every important decision.",
+  "exvi": "Trong nhà tôi, bà vẫn là người nắm quyền và quyết mọi chuyện quan trọng.",
+  "em": "🐓"
+ },
+ {
+  "w": "like two peas in a pod",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "giống nhau như hai giọt nước",
+  "use": "Hợp Speaking khi tả anh chị em hoặc bạn thân. Không dùng trong Writing Task 2.",
+  "alt": [
+   "as alike as two peas",
+   "the spitting image of sb",
+   "chalk and cheese"
+  ],
+  "ex": "My twin cousins are like two peas in a pod, both in appearance and in their love of football.",
+  "exvi": "Hai đứa em họ sinh đôi của tôi giống nhau như hai giọt nước, cả ngoại hình lẫn niềm mê bóng đá.",
+  "em": "🫛"
+ },
+ {
+  "w": "take after sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "giống ai (thường là cha mẹ, ông bà)",
+  "use": "Hợp Speaking khi nói về gia đình. Không dùng dạng tiếp diễn và không tách: take after my mother, không nói take my mother after.",
+  "alt": [
+   "resemble sb",
+   "look like sb",
+   "a chip off the old block"
+  ],
+  "ex": "I take after my father in looks, but my patience definitely comes from my mother.",
+  "exvi": "Về ngoại hình tôi giống bố, nhưng tính kiên nhẫn chắc chắn là từ mẹ.",
+  "em": ""
+ },
+ {
+  "w": "make up with sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "làm lành với ai",
+  "use": "Thân mật, hợp Speaking. Có thể nói make up (không cần with) khi chủ ngữ là hai người: they made up.",
+  "alt": [
+   "patch things up",
+   "reconcile with sb",
+   "fall out with sb"
+  ],
+  "ex": "Young children usually make up with their friends within minutes of an argument.",
+  "exvi": "Trẻ nhỏ thường làm lành với bạn chỉ vài phút sau khi cãi nhau.",
+  "em": ""
+ },
+ {
+  "w": "let sb down",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "làm ai thất vọng",
+  "use": "Dùng nhiều trong Speaking. Khi tân ngữ là đại từ phải đặt giữa: let me down, không nói let down me.",
+  "alt": [
+   "disappoint sb",
+   "fail sb",
+   "stand by sb"
+  ],
+  "ex": "He promised to help with the move but let us down at the last minute.",
+  "exvi": "Anh ấy hứa giúp chuyển nhà nhưng lại làm chúng tôi thất vọng vào phút chót.",
+  "em": ""
+ },
+ {
+  "w": "settle down",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "ổn định cuộc sống, lập gia đình",
+  "use": "Hợp Speaking và Writing nhẹ về hôn nhân, lối sống. Khác settle in (làm quen nơi mới).",
+  "alt": [
+   "start a family",
+   "put down roots",
+   "settle in"
+  ],
+  "ex": "More young professionals now choose to travel and build careers before they settle down.",
+  "exvi": "Ngày càng nhiều người trẻ chọn đi đây đi đó và xây dựng sự nghiệp trước khi ổn định cuộc sống.",
+  "em": "🏡"
+ },
+ {
+  "w": "turn to sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "tìm đến ai để nhờ giúp, xin lời khuyên",
+  "use": "Dùng được cả Writing và Speaking. Thường đi với for: turn to sb for advice.",
+  "alt": [
+   "rely on sb",
+   "lean on sb",
+   "go to sb for help"
+  ],
+  "ex": "Students with financial worries often turn to their older siblings before asking their parents.",
+  "exvi": "Sinh viên gặp khó khăn tài chính thường tìm đến anh chị trước khi hỏi cha mẹ.",
+  "em": ""
+ },
+ {
+  "w": "stick up for sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bênh vực, đứng ra bảo vệ ai",
+  "use": "Thân mật, hợp Speaking. Trang trọng hơn thì dùng defend sb.",
+  "alt": [
+   "stand up for sb",
+   "defend sb",
+   "side with sb"
+  ],
+  "ex": "My best friend always sticks up for me when older students tease me at school.",
+  "exvi": "Bạn thân tôi luôn bênh vực tôi khi bị đàn anh trêu chọc ở trường.",
+  "em": "🛡️"
+ },
+ {
+  "w": "open up to sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "mở lòng, cởi mở chia sẻ với ai",
+  "use": "Hợp Speaking. Open up to sb là cách nói thông dụng nhất; open your heart to sb cũng đúng nhưng mang sắc thái tình cảm, văn chương hơn.",
+  "alt": [
+   "confide in sb",
+   "let your guard down",
+   "clam up"
+  ],
+  "ex": "It took months before my grandfather finally opened up to us about his time in the war.",
+  "exvi": "Phải mất nhiều tháng ông tôi mới chịu mở lòng kể với chúng tôi về thời chiến tranh.",
+  "em": ""
+ },
+ {
+  "w": "lean on sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "dựa vào ai về tinh thần",
+  "use": "Hợp Speaking khi nói về sự hỗ trợ. Nghĩa khác (gây áp lực) ít gặp trong IELTS.",
+  "alt": [
+   "rely on sb",
+   "turn to sb",
+   "a shoulder to cry on"
+  ],
+  "ex": "During exam season, I leaned on my classmates for both revision help and emotional support.",
+  "exvi": "Mùa thi, tôi dựa vào các bạn cùng lớp cả về ôn bài lẫn tinh thần.",
+  "em": ""
+ },
+ {
+  "w": "talk down to sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nói chuyện kẻ cả, coi thường ai",
+  "use": "Dùng được cả Writing và Speaking khi bàn về quan hệ thế hệ, công sở.",
+  "alt": [
+   "patronise sb",
+   "look down on sb",
+   "treat sb as an equal"
+  ],
+  "ex": "Teenagers quickly stop listening when adults talk down to them instead of explaining their reasons.",
+  "exvi": "Thanh thiếu niên nhanh chóng không nghe nữa khi người lớn nói kiểu kẻ cả thay vì giải thích lý do.",
+  "em": ""
+ },
+ {
+  "w": "single sb out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "chọn riêng ai ra (để khen hoặc chỉ trích)",
+  "use": "Dùng được trong Writing. Thường đi với for: single sb out for criticism/praise.",
+  "alt": [
+   "pick sb out",
+   "target sb",
+   "treat everyone equally"
+  ],
+  "ex": "Good coaches avoid singling out one player for blame when the whole team performs badly.",
+  "exvi": "Huấn luyện viên giỏi tránh đổ lỗi riêng cho một cầu thủ khi cả đội chơi tệ.",
+  "em": ""
+ },
+ {
+  "w": "look down on sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "coi thường, khinh ai",
+  "use": "Dùng cả Writing và Speaking. Trái nghĩa với look up to sb.",
+  "alt": [
+   "talk down to sb",
+   "despise sb",
+   "look up to sb"
+  ],
+  "ex": "Some young people look down on manual jobs, even though many of them pay well.",
+  "exvi": "Một số người trẻ coi thường công việc chân tay, dù nhiều việc trong số đó trả lương khá.",
+  "em": ""
+ },
+ {
+  "w": "stand by sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "luôn ở bên, ủng hộ ai lúc khó khăn",
+  "use": "Hợp Speaking và Writing. Đừng nhầm với stand by (chờ sẵn) không có tân ngữ.",
+  "alt": [
+   "stick by sb",
+   "support sb",
+   "let sb down"
+  ],
+  "ex": "Her family stood by her throughout her illness, taking turns to stay at the hospital.",
+  "exvi": "Gia đình luôn ở bên cô ấy suốt thời gian bệnh, thay phiên nhau ở lại bệnh viện.",
+  "em": ""
+ },
+ {
+  "w": "dote on sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C2",
+  "vi": "cưng chiều, yêu thương ai hết mực",
+  "use": "Hay dùng cho ông bà với cháu, hợp Speaking. Không nói: dote to sb.",
+  "alt": [
+   "adore sb",
+   "spoil sb",
+   "neglect sb"
+  ],
+  "ex": "My grandparents dote on their only granddaughter and buy her almost anything she wants.",
+  "exvi": "Ông bà tôi cưng chiều đứa cháu gái duy nhất và mua cho nó gần như mọi thứ nó muốn.",
+  "em": "🥰"
+ },
+ {
+  "w": "cut sb off",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "cắt đứt quan hệ, không chu cấp cho ai nữa",
+  "use": "Dùng được trong Speaking và Writing nhẹ. Nghĩa này hay đi với family; ngoài ra cut sb off còn có nghĩa ngắt lời.",
+  "alt": [
+   "disown sb",
+   "sever ties with sb",
+   "estranged from sb"
+  ],
+  "ex": "Her wealthy parents threatened to cut her off if she married someone they disapproved of.",
+  "exvi": "Cha mẹ giàu có của cô ấy dọa cắt đứt quan hệ nếu cô cưới người họ không ưng.",
+  "em": "✂️"
+ }
+]

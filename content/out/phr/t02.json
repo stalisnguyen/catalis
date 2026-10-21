@@ -1,0 +1,1058 @@
+[
+ {
+  "w": "cutting-edge technology",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "công nghệ tiên tiến nhất, công nghệ mũi nhọn",
+  "use": "Dùng tốt cả trong Writing và Speaking. Có gạch nối khi đứng trước danh từ: cutting-edge technology; khi đứng sau giới từ thì viết at the cutting edge, không gạch nối.",
+  "alt": [
+   "state-of-the-art technology",
+   "advanced technology",
+   "outdated technology"
+  ],
+  "ex": "Many hospitals now rely on cutting-edge technology to detect cancer at a much earlier stage.",
+  "exvi": "Nhiều bệnh viện hiện dựa vào công nghệ tiên tiến nhất để phát hiện ung thư ở giai đoạn sớm hơn nhiều.",
+  "em": "🔬"
+ },
+ {
+  "w": "state-of-the-art equipment",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "thiết bị hiện đại nhất",
+  "use": "Hợp với Writing khi nói về trường học, bệnh viện, nhà máy. Nhớ viết đủ gạch nối \"state-of-the-art\" khi đứng trước danh từ.",
+  "alt": [
+   "state-of-the-art facilities",
+   "modern equipment",
+   "obsolete equipment"
+  ],
+  "ex": "The new science building is fitted with state-of-the-art equipment that students can use for their own projects.",
+  "exvi": "Tòa nhà khoa học mới được trang bị thiết bị hiện đại nhất để sinh viên dùng cho các dự án riêng.",
+  "em": ""
+ },
+ {
+  "w": "render sth obsolete",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C2",
+  "vi": "khiến cái gì trở nên lỗi thời, không còn dùng được",
+  "use": "Trang trọng, rất hợp Writing Task 2. Không nói \"make sth outdate\"; có thể nói \"make sth obsolete\" nhưng \"render\" nghe học thuật hơn.",
+  "alt": [
+   "make sth obsolete",
+   "become obsolete",
+   "fall out of use"
+  ],
+  "ex": "Streaming services have largely rendered DVDs obsolete, and many rental shops have closed as a result.",
+  "exvi": "Các dịch vụ phát trực tuyến gần như đã khiến đĩa DVD trở nên lỗi thời, và nhiều cửa hàng cho thuê đã đóng cửa.",
+  "em": "📼"
+ },
+ {
+  "w": "embrace change",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "đón nhận sự thay đổi một cách tích cực",
+  "use": "Dùng được cả Writing và Speaking. Không thêm giới từ: không nói \"embrace with change\".",
+  "alt": [
+   "welcome change",
+   "resist change",
+   "adapt to change"
+  ],
+  "ex": "Companies that embrace change quickly are usually better at surviving economic crises than their rivals.",
+  "exvi": "Những công ty sẵn sàng đón nhận thay đổi nhanh thường vượt qua khủng hoảng kinh tế tốt hơn đối thủ.",
+  "em": "🤗"
+ },
+ {
+  "w": "resist change",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "chống lại, không chịu thay đổi",
+  "use": "Hợp Writing khi bàn về người lớn tuổi, tổ chức, truyền thống. Không nói \"resist to change\"; \"resist\" đi thẳng với tân ngữ.",
+  "alt": [
+   "be resistant to change",
+   "embrace change",
+   "cling to the old ways"
+  ],
+  "ex": "Older employees sometimes resist change because they fear new software will make their skills less valuable.",
+  "exvi": "Nhân viên lớn tuổi đôi khi chống lại thay đổi vì sợ phần mềm mới làm kỹ năng của họ kém giá trị đi.",
+  "em": ""
+ },
+ {
+  "w": "adapt to change",
+  "deck": "col",
+  "pat": "v + prep",
+  "cefr": "B2",
+  "vi": "thích nghi với sự thay đổi",
+  "use": "Rất phổ biến trong cả Writing và Speaking. Sau \"adapt to\" là danh từ hoặc V-ing: \"adapt to working remotely\", không nói \"adapt to work remotely\".",
+  "alt": [
+   "adjust to change",
+   "cope with change",
+   "adapt to new circumstances"
+  ],
+  "ex": "Children often adapt to change more easily than adults when families move to a new country.",
+  "exvi": "Trẻ em thường thích nghi với thay đổi dễ hơn người lớn khi gia đình chuyển sang một đất nước mới.",
+  "em": "🦎"
+ },
+ {
+  "w": "keep pace with sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "theo kịp tốc độ của cái gì",
+  "use": "Hợp Writing học thuật, hay đi với technology, demand, inflation. Không nói \"keep the pace of sth\".",
+  "alt": [
+   "keep up with sth",
+   "fall behind sth",
+   "lag behind sth"
+  ],
+  "ex": "Laws on online privacy have struggled to keep pace with the rapid growth of social media.",
+  "exvi": "Luật về quyền riêng tư trên mạng chật vật theo kịp sự phát triển nhanh chóng của mạng xã hội.",
+  "em": "🏃"
+ },
+ {
+  "w": "pave the way for sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "mở đường cho, tạo tiền đề cho cái gì",
+  "use": "Rất hợp Writing Task 2 khi nói về hệ quả lâu dài. Sau \"for\" là danh từ hoặc \"sb to do sth\".",
+  "alt": [
+   "lay the groundwork for sth",
+   "open the door to sth",
+   "pave the way for sb to do sth"
+  ],
+  "ex": "Early experiments with electric cars paved the way for the affordable models we see on the roads today.",
+  "exvi": "Những thử nghiệm đầu tiên với xe điện đã mở đường cho các mẫu xe giá phải chăng mà ta thấy trên đường ngày nay.",
+  "em": "🛣️"
+ },
+ {
+  "w": "harness the power of sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "khai thác, tận dụng sức mạnh của cái gì",
+  "use": "Hợp Writing khi nói về năng lượng, dữ liệu, AI. Không nói \"use the power of\" mãi; \"harness\" cho thấy vốn từ rộng hơn.",
+  "alt": [
+   "harness the potential of sth",
+   "make the most of sth",
+   "tap into sth"
+  ],
+  "ex": "Farmers are beginning to harness the power of artificial intelligence to predict crop yields more accurately.",
+  "exvi": "Nông dân bắt đầu khai thác sức mạnh của trí tuệ nhân tạo để dự đoán năng suất cây trồng chính xác hơn.",
+  "em": "⚡"
+ },
+ {
+  "w": "revolutionise the way we live",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "thay đổi hoàn toàn cách chúng ta sống",
+  "use": "Hợp mở bài Writing Task 2 về công nghệ, nhưng tránh dùng như câu mở bài sáo rỗng. Có thể đổi \"live\" thành work, learn, communicate. Anh Anh viết \"revolutionise\", Anh Mỹ viết \"revolutionize\".",
+  "alt": [
+   "transform the way we work",
+   "revolutionise the way people communicate",
+   "change the way we live"
+  ],
+  "ex": "Smartphones have revolutionised the way we live, from paying bills to finding a partner.",
+  "exvi": "Điện thoại thông minh đã thay đổi hoàn toàn cách chúng ta sống, từ thanh toán hóa đơn đến tìm người yêu.",
+  "em": "📱"
+ },
+ {
+  "w": "widespread adoption",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "việc được áp dụng, sử dụng rộng rãi",
+  "use": "Dùng trong Writing học thuật, thường đi với \"of sth\". \"Adoption\" ở đây là áp dụng, không phải nhận con nuôi.",
+  "alt": [
+   "mass adoption",
+   "the widespread use of sth",
+   "slow uptake"
+  ],
+  "ex": "The widespread adoption of online banking has led to the closure of many local branches.",
+  "exvi": "Việc ngân hàng trực tuyến được dùng rộng rãi đã khiến nhiều chi nhánh địa phương phải đóng cửa.",
+  "em": ""
+ },
+ {
+  "w": "early adopter",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "người dùng sớm, người chịu thử công nghệ mới đầu tiên",
+  "use": "Dùng được cả Speaking (nói về bản thân) và Writing. Thường đi với \"of sth\": \"an early adopter of smartwatches\".",
+  "alt": [
+   "late adopter",
+   "trendsetter",
+   "tech-savvy"
+  ],
+  "ex": "I'm not really an early adopter; I usually wait until a new phone has been out for a year.",
+  "exvi": "Tôi không phải người hay dùng thử sớm; tôi thường đợi một mẫu điện thoại mới ra được một năm rồi mới mua.",
+  "em": ""
+ },
+ {
+  "w": "user-friendly interface",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "giao diện thân thiện, dễ dùng",
+  "use": "Hợp cả Speaking và Writing khi nói về app, website. Nhớ gạch nối \"user-friendly\" khi đứng trước danh từ.",
+  "alt": [
+   "intuitive interface",
+   "easy-to-use design",
+   "clunky interface"
+  ],
+  "ex": "The app became popular with older users mainly because of its simple, user-friendly interface.",
+  "exvi": "Ứng dụng này được người lớn tuổi ưa chuộng chủ yếu nhờ giao diện đơn giản, dễ dùng.",
+  "em": "🖥️"
+ },
+ {
+  "w": "heavily reliant on sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "C1",
+  "vi": "phụ thuộc nặng nề vào cái gì",
+  "use": "Hợp Writing học thuật. Giới từ luôn là \"on\": không nói \"reliant in\" hay \"reliant to\".",
+  "alt": [
+   "heavily dependent on sth",
+   "overly reliant on sth",
+   "self-sufficient"
+  ],
+  "ex": "Many students have become heavily reliant on AI tools to write their essays.",
+  "exvi": "Nhiều sinh viên đã trở nên phụ thuộc nặng nề vào công cụ AI để viết bài luận.",
+  "em": ""
+ },
+ {
+  "w": "increasingly dependent on sth",
+  "deck": "col",
+  "pat": "adj + prep",
+  "cefr": "B2",
+  "vi": "ngày càng phụ thuộc vào cái gì",
+  "use": "Dùng tốt trong Writing để nói về xu hướng. Lỗi hay gặp: \"dependent of\"; đúng là \"dependent on\".",
+  "alt": [
+   "more and more reliant on sth",
+   "heavily dependent on sth",
+   "less dependent on sth"
+  ],
+  "ex": "Society has become increasingly dependent on the internet for banking, shopping and even healthcare.",
+  "exvi": "Xã hội ngày càng phụ thuộc vào internet cho ngân hàng, mua sắm và thậm chí cả chăm sóc sức khỏe.",
+  "em": ""
+ },
+ {
+  "w": "groundbreaking research",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nghiên cứu mang tính đột phá, tiên phong",
+  "use": "Hợp Writing khi nói về khoa học, y học. \"Groundbreaking\" viết liền một từ.",
+  "alt": [
+   "pioneering research",
+   "innovative research",
+   "cutting-edge research"
+  ],
+  "ex": "Her groundbreaking research on vaccines saved thousands of lives during the pandemic.",
+  "exvi": "Nghiên cứu đột phá của bà về vắc-xin đã cứu hàng nghìn người trong đại dịch.",
+  "em": "🧪"
+ },
+ {
+  "w": "achieve a breakthrough",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đạt được bước đột phá",
+  "use": "Hợp Writing. Cũng nói \"make a breakthrough\". Không nói \"do a breakthrough\".",
+  "alt": [
+   "make a breakthrough",
+   "a major breakthrough",
+   "reach a dead end"
+  ],
+  "ex": "Scientists hope to achieve a breakthrough in battery design that could make electric cars much cheaper.",
+  "exvi": "Các nhà khoa học hy vọng đạt được bước đột phá trong thiết kế pin có thể giúp xe điện rẻ hơn nhiều.",
+  "em": "💡"
+ },
+ {
+  "w": "develop a prototype",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "phát triển mẫu thử, nguyên mẫu",
+  "use": "Dùng khi nói về sản phẩm, khởi nghiệp, kỹ thuật. Cũng nói \"build a prototype\", \"test a prototype\".",
+  "alt": [
+   "build a prototype",
+   "test a prototype",
+   "a working prototype"
+  ],
+  "ex": "The students developed a prototype of a cheap water filter for villages without clean drinking water.",
+  "exvi": "Nhóm sinh viên đã phát triển mẫu thử một bộ lọc nước giá rẻ cho những ngôi làng không có nước sạch.",
+  "em": ""
+ },
+ {
+  "w": "automate routine tasks",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tự động hóa các công việc lặp đi lặp lại",
+  "use": "Rất hợp Writing Task 2 về AI và việc làm. \"Automate\" là động từ; không nói \"automatic the tasks\".",
+  "alt": [
+   "automate repetitive tasks",
+   "mundane tasks",
+   "do sth manually"
+  ],
+  "ex": "Many firms now use software to automate routine tasks such as data entry and invoicing.",
+  "exvi": "Nhiều công ty hiện dùng phần mềm để tự động hóa các việc lặp lại như nhập liệu và lập hóa đơn.",
+  "em": "🤖"
+ },
+ {
+  "w": "ethical implications",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "hệ quả, vấn đề về mặt đạo đức",
+  "use": "Rất hợp Writing Task 2 về AI, gen, dữ liệu. Thường dùng số nhiều và đi với \"of sth\".",
+  "alt": [
+   "ethical concerns",
+   "moral implications",
+   "ethical dilemma"
+  ],
+  "ex": "Governments need to think carefully about the ethical implications of using facial recognition in public spaces.",
+  "exvi": "Chính phủ cần cân nhắc kỹ các vấn đề đạo đức của việc dùng nhận diện khuôn mặt ở nơi công cộng.",
+  "em": "⚖️"
+ },
+ {
+  "w": "an ever-changing world",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "một thế giới không ngừng thay đổi",
+  "use": "Dùng được trong Writing và Speaking, nhưng đừng lạm dụng ở câu mở bài. \"Ever-changing\" có gạch nối.",
+  "alt": [
+   "a fast-changing world",
+   "a rapidly evolving world",
+   "a constantly changing environment"
+  ],
+  "ex": "In an ever-changing world, schools should teach students how to learn rather than what to memorise.",
+  "exvi": "Trong một thế giới không ngừng thay đổi, nhà trường nên dạy học sinh cách học thay vì những thứ phải học thuộc.",
+  "em": "🌍"
+ },
+ {
+  "w": "the pace of change",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "B2",
+  "vi": "tốc độ thay đổi",
+  "use": "Hợp cả Writing và Speaking, hay đi với rapid, relentless, slow. The speed of change không sai, nhưng the pace of change tự nhiên và phổ biến hơn.",
+  "alt": [
+   "the rate of change",
+   "the pace of innovation",
+   "rapid pace"
+  ],
+  "ex": "The pace of change in the workplace means employees must keep learning new skills throughout their careers.",
+  "exvi": "Tốc độ thay đổi ở nơi làm việc khiến nhân viên phải liên tục học kỹ năng mới suốt sự nghiệp.",
+  "em": "⏩"
+ },
+ {
+  "w": "the advent of sth",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "sự ra đời, sự xuất hiện của cái gì",
+  "use": "Trang trọng, rất hợp Writing Task 2: \"With the advent of the internet, ...\". Chỉ dùng cho thứ quan trọng, không dùng cho chuyện vặt.",
+  "alt": [
+   "the arrival of sth",
+   "the emergence of sth",
+   "the rise of sth"
+  ],
+  "ex": "With the advent of online learning, students in remote areas can now attend lectures from top universities.",
+  "exvi": "Với sự ra đời của học trực tuyến, học sinh ở vùng xa giờ có thể nghe giảng từ các trường đại học hàng đầu.",
+  "em": ""
+ },
+ {
+  "w": "a wealth of information",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "B2",
+  "vi": "một kho thông tin phong phú",
+  "use": "Dùng tốt cả Writing và Speaking. \"Wealth\" ở đây là số lượng lớn, không phải tiền.",
+  "alt": [
+   "a wealth of knowledge",
+   "a wealth of experience",
+   "a lack of information"
+  ],
+  "ex": "The internet gives us a wealth of information, but not all of it is accurate or reliable.",
+  "exvi": "Internet cho chúng ta một kho thông tin phong phú, nhưng không phải tất cả đều chính xác hay đáng tin.",
+  "em": "📚"
+ },
+ {
+  "w": "raise concerns about sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "làm dấy lên lo ngại về cái gì",
+  "use": "Rất hợp Writing Task 2. Không nói \"rise concerns\"; \"raise\" là ngoại động từ, \"rise\" không có tân ngữ.",
+  "alt": [
+   "raise questions about sth",
+   "express concern about sth",
+   "allay concerns"
+  ],
+  "ex": "The rapid spread of deepfake videos has raised concerns about the future of trustworthy news.",
+  "exvi": "Việc video deepfake lan nhanh đã làm dấy lên lo ngại về tương lai của tin tức đáng tin cậy.",
+  "em": "⚠️"
+ },
+ {
+  "w": "the digital age",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "thời đại kỹ thuật số",
+  "use": "Dùng được cả Writing và Speaking, thường đi với \"in the digital age\". Nhớ có \"the\".",
+  "alt": [
+   "the information age",
+   "the internet era",
+   "the pre-digital era"
+  ],
+  "ex": "In the digital age, protecting personal data has become as important as locking your front door.",
+  "exvi": "Trong thời đại kỹ thuật số, bảo vệ dữ liệu cá nhân đã trở nên quan trọng như khóa cửa nhà.",
+  "em": "💾"
+ },
+ {
+  "w": "drive innovation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "thúc đẩy đổi mới sáng tạo",
+  "use": "Hợp Writing về kinh tế, doanh nghiệp, chính sách. Chủ ngữ thường là competition, investment, demand.",
+  "alt": [
+   "foster innovation",
+   "spur innovation",
+   "stifle innovation"
+  ],
+  "ex": "Fierce competition between tech firms tends to drive innovation and lower prices for consumers.",
+  "exvi": "Sự cạnh tranh gay gắt giữa các công ty công nghệ thường thúc đẩy đổi mới và làm giảm giá cho người tiêu dùng.",
+  "em": "🚀"
+ },
+ {
+  "w": "foster innovation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "nuôi dưỡng, khuyến khích đổi mới sáng tạo",
+  "use": "Trang trọng, hợp Writing khi nói về giáo dục, chính phủ, môi trường làm việc. Nhấn mạnh tạo điều kiện lâu dài hơn \"drive\".",
+  "alt": [
+   "encourage innovation",
+   "nurture creativity",
+   "stifle innovation"
+  ],
+  "ex": "Schools can foster innovation by letting students work on real problems instead of only taking tests.",
+  "exvi": "Nhà trường có thể khuyến khích đổi mới bằng cách cho học sinh giải quyết vấn đề thật thay vì chỉ làm bài kiểm tra.",
+  "em": "🌱"
+ },
+ {
+  "w": "stifle innovation",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "kìm hãm, bóp nghẹt sự đổi mới",
+  "use": "Học thuật, hợp Writing khi phản biện về luật lệ, độc quyền. Ngược nghĩa với drive/foster innovation.",
+  "alt": [
+   "hamper innovation",
+   "hold back progress",
+   "foster innovation"
+  ],
+  "ex": "Some critics argue that strict regulation of AI could stifle innovation and push start-ups abroad.",
+  "exvi": "Một số người phản biện cho rằng quản lý AI quá chặt có thể kìm hãm đổi mới và đẩy các công ty khởi nghiệp ra nước ngoài.",
+  "em": ""
+ },
+ {
+  "w": "at the forefront of sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "đi đầu, ở vị trí tiên phong trong lĩnh vực gì",
+  "use": "Hợp Writing và Speaking trang trọng, hay đi với be, remain, stay. In the forefront of cũng gặp nhưng ít hơn; at the forefront of là dạng chuẩn.",
+  "alt": [
+   "lead the way in sth",
+   "at the cutting edge of sth",
+   "lag behind"
+  ],
+  "ex": "South Korea has remained at the forefront of mobile technology for more than two decades.",
+  "exvi": "Hàn Quốc vẫn đi đầu về công nghệ di động suốt hơn hai thập kỷ.",
+  "em": "🥇"
+ },
+ {
+  "w": "in its infancy",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "còn ở giai đoạn sơ khai, mới bắt đầu",
+  "use": "Hợp Writing khi nói về công nghệ, ngành mới. Đổi tính từ sở hữu theo chủ ngữ: \"still in their infancy\".",
+  "alt": [
+   "in the early stages",
+   "at an early stage",
+   "fully mature"
+  ],
+  "ex": "Quantum computing is still in its infancy, but it could transform medicine and finance in the future.",
+  "exvi": "Máy tính lượng tử vẫn còn ở giai đoạn sơ khai, nhưng có thể thay đổi y học và tài chính trong tương lai.",
+  "em": "👶"
+ },
+ {
+  "w": "fundamentally transform",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "C1",
+  "vi": "thay đổi tận gốc, thay đổi căn bản",
+  "use": "Hợp Writing học thuật. \"Fundamentally\" nhấn mạnh thay đổi từ bản chất, mạnh hơn \"greatly change\".",
+  "alt": [
+   "radically transform",
+   "completely change",
+   "slightly alter"
+  ],
+  "ex": "Remote work has fundamentally transformed how companies think about offices and working hours.",
+  "exvi": "Làm việc từ xa đã thay đổi căn bản cách các công ty nhìn nhận văn phòng và giờ làm.",
+  "em": ""
+ },
+ {
+  "w": "seamlessly integrate",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "C2",
+  "vi": "tích hợp liền mạch, trơn tru",
+  "use": "Hay gặp trong văn bản công nghệ, hợp Writing. Thường đi với \"into\" hoặc \"with\".",
+  "alt": [
+   "integrate smoothly",
+   "seamless integration",
+   "fully integrate"
+  ],
+  "ex": "The new system seamlessly integrates with the apps employees already use, so little training is needed.",
+  "exvi": "Hệ thống mới tích hợp liền mạch với các ứng dụng nhân viên đang dùng, nên không cần đào tạo nhiều.",
+  "em": ""
+ },
+ {
+  "w": "incremental change",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "thay đổi từng bước nhỏ, dần dần",
+  "use": "Học thuật, hợp Writing khi so sánh với thay đổi đột ngột. Đối lập với \"radical change\".",
+  "alt": [
+   "gradual change",
+   "incremental improvements",
+   "radical change"
+  ],
+  "ex": "Most progress in medicine comes from incremental change rather than sudden, dramatic discoveries.",
+  "exvi": "Phần lớn tiến bộ trong y học đến từ những thay đổi từng chút một hơn là những phát hiện đột ngột, ngoạn mục.",
+  "em": ""
+ },
+ {
+  "w": "unleash the potential of sth",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C2",
+  "vi": "giải phóng, khai mở tiềm năng của cái gì",
+  "use": "Mạnh và hơi văn hoa, hợp Writing khi nói về công nghệ hay con người. Không lạm dụng trong cùng một bài.",
+  "alt": [
+   "unlock the potential of sth",
+   "harness the potential of sth",
+   "realise the potential of sth"
+  ],
+  "ex": "Cheap internet access could unleash the potential of millions of young people in rural areas.",
+  "exvi": "Internet giá rẻ có thể khai mở tiềm năng của hàng triệu người trẻ ở nông thôn.",
+  "em": ""
+ },
+ {
+  "w": "a proliferation of sth",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C2",
+  "vi": "sự gia tăng nhanh, nở rộ của cái gì",
+  "use": "Trang trọng, hợp Writing. Thường mang sắc thái hơi tiêu cực, kiểu quá nhiều.",
+  "alt": [
+   "a rapid increase in sth",
+   "the spread of sth",
+   "a decline in sth"
+  ],
+  "ex": "There has been a proliferation of fitness apps, yet obesity rates continue to rise in many countries.",
+  "exvi": "Ứng dụng thể dục nở rộ, vậy mà tỷ lệ béo phì vẫn tiếp tục tăng ở nhiều nước.",
+  "em": ""
+ },
+ {
+  "w": "ahead of the curve",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đi trước xu hướng, đi trước người khác",
+  "use": "Hợp IELTS Speaking và văn nói công sở. Có thể dùng hạn chế trong Writing, nhưng đừng cố nhét thành ngữ vào Writing Task 2.",
+  "alt": [
+   "stay ahead of the curve",
+   "behind the curve",
+   "ahead of the game"
+  ],
+  "ex": "Our school was ahead of the curve, teaching coding to young children long before it became common.",
+  "exvi": "Trường tôi đi trước xu hướng, dạy lập trình cho trẻ nhỏ từ lâu trước khi việc này trở nên phổ biến.",
+  "em": "📈"
+ },
+ {
+  "w": "a double-edged sword",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "con dao hai lưỡi",
+  "use": "Rất tự nhiên trong IELTS Speaking. Có thể dùng một lần trong Writing vì khá trung tính, nhưng không nên cố nhét thành ngữ vào Writing Task 2.",
+  "alt": [
+   "a mixed blessing",
+   "have pros and cons",
+   "cut both ways"
+  ],
+  "ex": "Social media is a double-edged sword: it connects people but can also harm their mental health.",
+  "exvi": "Mạng xã hội là con dao hai lưỡi: nó kết nối mọi người nhưng cũng có thể hại sức khỏe tinh thần.",
+  "em": "🗡️"
+ },
+ {
+  "w": "a game changer",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "thứ làm thay đổi cuộc chơi, tạo bước ngoặt",
+  "use": "Thân mật, hợp IELTS Speaking. Trong Writing Task 2 nên thay bằng \"a turning point\" hoặc \"transformative\".",
+  "alt": [
+   "a turning point",
+   "a breakthrough",
+   "transformative"
+  ],
+  "ex": "For me, noise-cancelling headphones were a game changer when I was studying in a busy dormitory.",
+  "exvi": "Với tôi, tai nghe chống ồn thực sự là bước ngoặt khi tôi học trong ký túc xá ồn ào.",
+  "em": "🎮"
+ },
+ {
+  "w": "reinvent the wheel",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "làm lại từ đầu thứ đã có sẵn, tốn công vô ích",
+  "use": "Hợp Speaking và văn nói công việc, thường dùng ở dạng phủ định \"there's no need to reinvent the wheel\". Không nên cố đưa vào Writing Task 2.",
+  "alt": [
+   "don't reinvent the wheel",
+   "start from scratch",
+   "build on existing work"
+  ],
+  "ex": "There's no need to reinvent the wheel; we can adapt an existing app instead of building one ourselves.",
+  "exvi": "Không cần phải làm lại từ đầu; ta có thể chỉnh sửa một ứng dụng có sẵn thay vì tự xây.",
+  "em": "🛞"
+ },
+ {
+  "w": "jump on the bandwagon",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "chạy theo trào lưu, a dua theo số đông",
+  "use": "Hợp IELTS Speaking khi nói về xu hướng, thường mang ý hơi chê. Không nên đưa vào Writing Task 2.",
+  "alt": [
+   "climb on the bandwagon",
+   "follow the crowd",
+   "go against the tide"
+  ],
+  "ex": "Lots of companies jumped on the bandwagon and added AI features nobody actually needed.",
+  "exvi": "Rất nhiều công ty chạy theo trào lưu và thêm những tính năng AI mà chẳng ai thực sự cần.",
+  "em": "🚌"
+ },
+ {
+  "w": "push the envelope",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "vượt qua giới hạn, thử những điều táo bạo hơn",
+  "use": "Hợp Speaking và văn nói, thường khen người sáng tạo, nhà thiết kế. Không cần dùng trong Writing Task 2.",
+  "alt": [
+   "push the limits",
+   "break new ground",
+   "play it safe"
+  ],
+  "ex": "The designers really pushed the envelope with this electric car, which can charge in just ten minutes.",
+  "exvi": "Các nhà thiết kế đã thực sự vượt giới hạn với mẫu xe điện này, chỉ cần sạc mười phút.",
+  "em": "✉️"
+ },
+ {
+  "w": "old habits die hard",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "thói quen cũ khó bỏ",
+  "use": "Rất tự nhiên trong IELTS Speaking khi nói về việc khó thay đổi. Là câu hoàn chỉnh, không nên dùng trong Writing Task 2.",
+  "alt": [
+   "set in one's ways",
+   "a creature of habit",
+   "break the habit"
+  ],
+  "ex": "My dad still prints out his emails to read them; old habits die hard, I suppose.",
+  "exvi": "Bố tôi vẫn in email ra để đọc; chắc thói quen cũ khó bỏ.",
+  "em": ""
+ },
+ {
+  "w": "you can't teach an old dog new tricks",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "người có tuổi khó học cái mới, khó thay đổi",
+  "use": "Thân mật, hợp IELTS Speaking, thường dùng để đùa hoặc phản bác. Tránh dùng trong Writing Task 2 vì nghe như định kiến về tuổi tác.",
+  "alt": [
+   "old habits die hard",
+   "set in one's ways",
+   "it's never too late to learn"
+  ],
+  "ex": "People say you can't teach an old dog new tricks, but my grandfather learned to use a tablet at 80.",
+  "exvi": "Người ta bảo người già khó học cái mới, nhưng ông tôi đã học dùng máy tính bảng năm 80 tuổi.",
+  "em": "🐕"
+ },
+ {
+  "w": "a quantum leap",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "bước nhảy vọt, tiến bộ vượt bậc",
+  "use": "Hợp Speaking, có thể dùng hạn chế trong Writing vì khá trang trọng. Nghĩa là thay đổi rất lớn, không phải thay đổi nhỏ như trong vật lý.",
+  "alt": [
+   "a giant leap forward",
+   "a huge step forward",
+   "a step backwards"
+  ],
+  "ex": "The move from paper maps to GPS navigation was a quantum leap for travellers and delivery drivers.",
+  "exvi": "Việc chuyển từ bản đồ giấy sang định vị GPS là một bước nhảy vọt với người đi du lịch và tài xế giao hàng.",
+  "em": ""
+ },
+ {
+  "w": "a flash in the pan",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "hiện tượng nhất thời, sớm nở tối tàn",
+  "use": "Hợp IELTS Speaking khi nói về trào lưu, sản phẩm. Không nên đưa vào Writing Task 2.",
+  "alt": [
+   "a passing fad",
+   "short-lived",
+   "here to stay"
+  ],
+  "ex": "Many experts thought virtual reality headsets would be a flash in the pan, but sales keep growing.",
+  "exvi": "Nhiều chuyên gia nghĩ kính thực tế ảo chỉ là hiện tượng nhất thời, nhưng doanh số vẫn tiếp tục tăng.",
+  "em": "🍳"
+ },
+ {
+  "w": "the next big thing",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "thứ được kỳ vọng sẽ hot, sẽ thành trào lưu lớn tiếp theo",
+  "use": "Thân mật, hợp IELTS Speaking. Trong Writing nên dùng \"a major trend\" hoặc \"an emerging technology\".",
+  "alt": [
+   "the latest craze",
+   "the latest trend",
+   "old news"
+  ],
+  "ex": "Investors are always searching for the next big thing, and right now that seems to be AI.",
+  "exvi": "Nhà đầu tư luôn tìm kiếm thứ sẽ thành trào lưu lớn tiếp theo, và hiện tại có vẻ đó là AI.",
+  "em": "🔥"
+ },
+ {
+  "w": "ahead of its time",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "đi trước thời đại",
+  "use": "Dùng được trong Speaking và cả Writing vì khá trung tính. Đổi sở hữu theo chủ ngữ: \"ahead of his time\".",
+  "alt": [
+   "ahead of one's time",
+   "before its time",
+   "behind the times"
+  ],
+  "ex": "The first tablet computers were ahead of their time, but the internet was too slow to make them useful.",
+  "exvi": "Những chiếc máy tính bảng đầu tiên đi trước thời đại, nhưng internet khi đó quá chậm nên chúng chưa hữu dụng.",
+  "em": "⏳"
+ },
+ {
+  "w": "in uncharted waters",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "ở tình huống hoàn toàn mới, chưa ai trải qua",
+  "use": "Hợp Speaking và báo chí, có thể dùng thận trọng trong Writing. Thường đi với \"be\", \"enter\", \"sail into\". Đừng cố đưa vào Writing Task 2.",
+  "alt": [
+   "uncharted territory",
+   "new ground",
+   "familiar territory"
+  ],
+  "ex": "With AI writing news articles, the media industry is now in uncharted waters.",
+  "exvi": "Khi AI đã viết được bài báo, ngành truyền thông giờ đang bước vào một tình thế hoàn toàn mới, chưa có tiền lệ.",
+  "em": "🌊"
+ },
+ {
+  "w": "turn back the clock",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "quay ngược thời gian, trở lại như xưa",
+  "use": "Hợp Speaking, hay dùng ở dạng phủ định \"we can't turn back the clock\". Không nên cố đưa vào Writing Task 2.",
+  "alt": [
+   "put the clock back",
+   "go back to the old days",
+   "move with the times"
+  ],
+  "ex": "We can't turn back the clock and ban smartphones, so we need to teach children to use them wisely.",
+  "exvi": "Chúng ta không thể quay ngược thời gian và cấm điện thoại thông minh, nên cần dạy trẻ dùng chúng khôn ngoan.",
+  "em": "🕰️"
+ },
+ {
+  "w": "a sign of the times",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "dấu hiệu của thời đại, điều phản ánh xã hội hiện nay",
+  "use": "Hợp IELTS Speaking, thường để bình luận một thay đổi trong xã hội. Không nên dùng trong Writing Task 2.",
+  "alt": [
+   "typical of the times",
+   "a reflection of society",
+   "the spirit of the age"
+  ],
+  "ex": "Seeing a café full of people working on laptops instead of chatting is a sign of the times.",
+  "exvi": "Thấy quán cà phê đầy người làm việc trên laptop thay vì trò chuyện đúng là dấu hiệu của thời đại.",
+  "em": ""
+ },
+ {
+  "w": "here to stay",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "sẽ tồn tại lâu dài, không phải trào lưu nhất thời",
+  "use": "Trung tính, hợp Speaking và có thể dùng trong Writing. Thường nói \"sth is here to stay\".",
+  "alt": [
+   "a permanent fixture",
+   "not going anywhere",
+   "a passing fad"
+  ],
+  "ex": "Whether we like it or not, online shopping is here to stay and will keep growing.",
+  "exvi": "Dù thích hay không, mua sắm trực tuyến sẽ còn tồn tại lâu dài và tiếp tục phát triển.",
+  "em": ""
+ },
+ {
+  "w": "roll out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "tung ra, triển khai rộng (sản phẩm, dịch vụ)",
+  "use": "Hay dùng trong tin tức công nghệ và kinh doanh, hợp cả Writing và Speaking. Danh từ là \"rollout\".",
+  "alt": [
+   "launch sth",
+   "introduce sth",
+   "phase in sth"
+  ],
+  "ex": "The government plans to roll out high-speed internet to every village by the end of the decade.",
+  "exvi": "Chính phủ dự định triển khai internet tốc độ cao đến mọi ngôi làng trước cuối thập kỷ này.",
+  "em": "🚀"
+ },
+ {
+  "w": "kick in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bắt đầu có tác dụng, bắt đầu có hiệu lực",
+  "use": "Thân mật đến trung tính, hợp Speaking và Writing bán trang trọng. Không có tân ngữ. Chủ ngữ thường là thuốc, luật mới, thay đổi: the new rules kick in next year.",
+  "alt": [
+   "take effect",
+   "come into force",
+   "wear off"
+  ],
+  "ex": "The new data protection rules kick in next month, so every app must ask users for clear consent.",
+  "exvi": "Quy định bảo vệ dữ liệu mới bắt đầu có hiệu lực từ tháng sau, nên mọi ứng dụng phải xin sự đồng ý rõ ràng của người dùng.",
+  "em": ""
+ },
+ {
+  "w": "back up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "sao lưu (dữ liệu); ủng hộ, chứng minh",
+  "use": "Nghĩa công nghệ hợp Speaking. Danh từ viết liền \"backup\". Nghĩa \"back up an argument with evidence\" rất hợp Writing.",
+  "alt": [
+   "make a backup",
+   "save a copy of sth",
+   "back up a claim"
+  ],
+  "ex": "I back up my photos to the cloud every week in case my phone gets lost or stolen.",
+  "exvi": "Tôi sao lưu ảnh lên đám mây mỗi tuần phòng khi điện thoại bị mất hoặc bị trộm.",
+  "em": "💾"
+ },
+ {
+  "w": "shut down sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "tắt máy; đóng cửa, ngừng hoạt động",
+  "use": "Dùng cho máy tính, hệ thống, nhà máy, dịch vụ. Danh từ là \"shutdown\". Không nhầm với \"shut up\" (im miệng).",
+  "alt": [
+   "switch off sth",
+   "close down sth",
+   "boot up sth"
+  ],
+  "ex": "Hackers managed to shut down the city's transport system for several hours last year.",
+  "exvi": "Năm ngoái tin tặc đã làm tê liệt hệ thống giao thông của thành phố trong vài giờ.",
+  "em": "🔌"
+ },
+ {
+  "w": "do away with sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "bãi bỏ, loại bỏ hẳn cái gì",
+  "use": "Hợp cả Writing và Speaking khi nói về quy định, thói quen, thứ cũ. Không tách được: không nói \"do sth away with\".",
+  "alt": [
+   "abolish sth",
+   "get rid of sth",
+   "phase out sth"
+  ],
+  "ex": "Many shops have done away with cash payments and now accept only cards or mobile apps.",
+  "exvi": "Nhiều cửa hàng đã bỏ hẳn thanh toán tiền mặt và giờ chỉ nhận thẻ hoặc ứng dụng di động.",
+  "em": ""
+ },
+ {
+  "w": "give way to sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nhường chỗ cho, bị thay thế bởi cái gì",
+  "use": "Hợp Writing khi mô tả thay đổi theo thời gian. Không tách được.",
+  "alt": [
+   "be replaced by sth",
+   "make way for sth",
+   "be superseded by sth"
+  ],
+  "ex": "Traditional classrooms are slowly giving way to blended learning that mixes online and face-to-face teaching.",
+  "exvi": "Lớp học truyền thống đang dần nhường chỗ cho mô hình học kết hợp giữa trực tuyến và trực tiếp.",
+  "em": ""
+ },
+ {
+  "w": "usher in sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "mở ra, khởi đầu (một thời kỳ, giai đoạn mới)",
+  "use": "Trang trọng, hợp Writing học thuật. Thường đi với era, age, period. Ít khi tách tân ngữ ra giữa.",
+  "alt": [
+   "herald sth",
+   "mark the beginning of sth",
+   "bring in sth"
+  ],
+  "ex": "The invention of the printing press ushered in an age of mass literacy across Europe.",
+  "exvi": "Việc phát minh ra máy in đã mở ra thời kỳ phổ cập chữ viết trên khắp châu Âu.",
+  "em": ""
+ },
+ {
+  "w": "hack into sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "xâm nhập trái phép (máy tính, hệ thống, tài khoản)",
+  "use": "Dùng được cả Speaking và Writing về an ninh mạng. Không tách được: hack into the system. Danh từ chỉ người là hacker.",
+  "alt": [
+   "break into sth",
+   "gain unauthorised access to sth",
+   "a data breach"
+  ],
+  "ex": "Criminals hacked into the hospital's computer system and demanded money to unlock thousands of patient records.",
+  "exvi": "Tội phạm đã xâm nhập trái phép vào hệ thống máy tính của bệnh viện và đòi tiền để mở khóa hàng nghìn hồ sơ bệnh nhân.",
+  "em": ""
+ },
+ {
+  "w": "scale up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "mở rộng quy mô",
+  "use": "Hay dùng trong kinh doanh, khởi nghiệp, sản xuất. Hợp Writing. Ngược lại là \"scale back\" hoặc \"scale down\".",
+  "alt": [
+   "expand sth",
+   "ramp up sth",
+   "scale back sth"
+  ],
+  "ex": "The start-up needs more investment before it can scale up production of its solar panels.",
+  "exvi": "Công ty khởi nghiệp cần thêm vốn đầu tư trước khi có thể mở rộng sản xuất tấm pin mặt trời.",
+  "em": "📈"
+ },
+ {
+  "w": "churn out sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C2",
+  "vi": "sản xuất ồ ạt, làm ra hàng loạt (thường kém chất lượng)",
+  "use": "Thân mật, mang ý chê, hợp Speaking. Trong Writing có thể dùng khi phê phán, nhưng \"mass-produce\" trung tính hơn.",
+  "alt": [
+   "mass-produce sth",
+   "crank out sth",
+   "turn out sth"
+  ],
+  "ex": "Some websites now use AI to churn out hundreds of low-quality articles every day.",
+  "exvi": "Một số trang web giờ dùng AI để cho ra hàng trăm bài viết kém chất lượng mỗi ngày.",
+  "em": "🏭"
+ },
+ {
+  "w": "hold back sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "cản trở, kìm hãm sự phát triển",
+  "use": "Dùng được cả Writing và Speaking. Thường đi với progress, development, growth hoặc người: \"hold sb back\".",
+  "alt": [
+   "hinder sth",
+   "stifle sth",
+   "drive sth forward"
+  ],
+  "ex": "Poor internet connections are holding back small businesses in many rural areas.",
+  "exvi": "Kết nối internet kém đang cản trở các doanh nghiệp nhỏ ở nhiều vùng nông thôn.",
+  "em": ""
+ },
+ {
+  "w": "open up sth",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "mở ra (cơ hội, khả năng mới)",
+  "use": "Hợp cả Writing và Speaking, hay đi với opportunities, possibilities, markets.",
+  "alt": [
+   "create opportunities",
+   "open the door to sth",
+   "close off sth"
+  ],
+  "ex": "Online courses have opened up new opportunities for people who cannot afford university.",
+  "exvi": "Các khóa học trực tuyến đã mở ra cơ hội mới cho những người không đủ tiền học đại học.",
+  "em": "🚪"
+ },
+ {
+  "w": "branch out into sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "mở rộng sang lĩnh vực mới",
+  "use": "Dùng cho công ty hoặc cá nhân, hợp cả Writing và Speaking. Không tách được.",
+  "alt": [
+   "diversify into sth",
+   "expand into sth",
+   "stick to sth"
+  ],
+  "ex": "The company started by selling books online and later branched out into cloud computing.",
+  "exvi": "Công ty khởi đầu bằng việc bán sách trực tuyến rồi sau đó mở rộng sang điện toán đám mây.",
+  "em": "🌿"
+ },
+ {
+  "w": "switch over to sth",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "chuyển hẳn sang (hệ thống, phương thức khác)",
+  "use": "Hợp Speaking và cả Writing khi nói về chuyển đổi năng lượng, phần mềm. Cũng nói gọn \"switch to\".",
+  "alt": [
+   "switch to sth",
+   "convert to sth",
+   "make the switch"
+  ],
+  "ex": "Our office switched over to digital documents last year, which saved thousands of sheets of paper.",
+  "exvi": "Văn phòng chúng tôi đã chuyển hẳn sang tài liệu số từ năm ngoái, tiết kiệm được hàng nghìn tờ giấy.",
+  "em": "🔄"
+ }
+]
