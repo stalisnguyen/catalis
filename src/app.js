@@ -492,10 +492,11 @@ function runQuiz(el,{title,items,kind='review',onDone,intro=''}){
       $('#qzAgain').onclick=()=>{i=0;score=0;items=shuffle(items);draw();};$('#qzHome').onclick=()=>go('home');onDone&&onDone(score,items.length);return;}
     const isMc=Array.isArray(x.o);
     el.innerHTML=`<div class="view"><div class="spread"><h2>${esc(title)}</h2><span class="note num">${i+1}/${items.length}</span></div>${i===0&&intro?`<p class="note">${intro}</p>`:''}
-      <div class="panel qz"><div class="qz-q">${esc(x.q)}</div>
+      <div class="panel qz">${x.pre||''}<div class="qz-q">${esc(x.q)}</div>
       ${isMc?`<div class="opts">${x.o.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`
         :`<form class="row" id="qzF"><input type="text" id="qzI" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Gõ đáp án" style="flex:1 1 200px"><button class="btn primary">Kiểm tra</button></form>`}
       <div id="qzW"></div></div></div>`;
+    const hl=$('.qz-hl',el);if(hl){const b=hl.closest('.qz-ctxb');b.scrollTop=hl.offsetTop-b.offsetTop-12;}
     const after=ok=>{if(ok)score++;else window.__mistake&&window.__mistake('q',x);if(ok&&window.__mistOk)window.__mistOk(x);
       window.__award&&window.__award(kind,1);
       $('#qzW').innerHTML=`<div class="fb ${ok?'ok':'bad'}"><b>${ok?'Đúng rồi.':'Chưa đúng.'}</b>${!ok&&!isMc?` Đáp án: <b>${esc(String(x.a).split('|')[0])}</b>.`:''} ${esc(x.w||'')}</div><button class="btn primary" id="qzN">Câu tiếp ${ic('chevron-right')}</button>`;

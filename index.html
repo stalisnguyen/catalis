@@ -1069,6 +1069,12 @@ details .ls-trb{padding:4px 14px 12px}
 .chip.ts-xc[aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}
 .ts-pick-l{display:flex;flex-direction:column;gap:6px}
 
+/* passage / dialogue shown above a question in the mistakes review */
+.qz-ctx{margin:0 0 14px}
+.qz-ctxb{max-height:46vh;overflow:auto;padding:6px 4px 2px;overscroll-behavior:contain}
+.qz-ctxb .rd-p{margin-bottom:10px}
+.qz-hl{background:var(--orange-soft);box-shadow:inset 3px 0 0 var(--orange)}
+
 /* ===== Writing (30-write.js) ===== */
 .wr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
 .wr-card{text-align:left;align-items:flex-start;gap:8px;cursor:pointer;border:1.5px solid transparent;font:inherit;color:inherit}
@@ -2152,10 +2158,11 @@ function runQuiz(el,{title,items,kind='review',onDone,intro=''}){
       $('#qzAgain').onclick=()=>{i=0;score=0;items=shuffle(items);draw();};$('#qzHome').onclick=()=>go('home');onDone&&onDone(score,items.length);return;}
     const isMc=Array.isArray(x.o);
     el.innerHTML=`<div class="view"><div class="spread"><h2>${esc(title)}</h2><span class="note num">${i+1}/${items.length}</span></div>${i===0&&intro?`<p class="note">${intro}</p>`:''}
-      <div class="panel qz"><div class="qz-q">${esc(x.q)}</div>
+      <div class="panel qz">${x.pre||''}<div class="qz-q">${esc(x.q)}</div>
       ${isMc?`<div class="opts">${x.o.map((o,k)=>`<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`
         :`<form class="row" id="qzF"><input type="text" id="qzI" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Gõ đáp án" style="flex:1 1 200px"><button class="btn primary">Kiểm tra</button></form>`}
       <div id="qzW"></div></div></div>`;
+    const hl=$('.qz-hl',el);if(hl){const b=hl.closest('.qz-ctxb');b.scrollTop=hl.offsetTop-b.offsetTop-12;}
     const after=ok=>{if(ok)score++;else window.__mistake&&window.__mistake('q',x);if(ok&&window.__mistOk)window.__mistOk(x);
       window.__award&&window.__award(kind,1);
       $('#qzW').innerHTML=`<div class="fb ${ok?'ok':'bad'}"><b>${ok?'Đúng rồi.':'Chưa đúng.'}</b>${!ok&&!isMc?` Đáp án: <b>${esc(String(x.a).split('|')[0])}</b>.`:''} ${esc(x.w||'')}</div><button class="btn primary" id="qzN">Câu tiếp ${ic('chevron-right')}</button>`;
@@ -2737,7 +2744,8 @@ function plMistList(){P.mist=P.mist||{};return Object.entries(P.mist).filter(([k
 const mkKey=(type,x)=>type==='word'?'w:'+x:'q:'+String(x.q||x.s||'').slice(0,80)+'|'+(Array.isArray(x.o)?x.o.join('/'):x.a);
 window.__mistake=(type,x)=>{
   P.mist=P.mist||{}; const key=mkKey(type,x);
-  const e=P.mist[key]||{t:type,n:0,ok:0,x:type==='word'?x:{q:x.q||x.s,o:x.o,a:x.a,w:x.w||x.why||'',src:x.src||''}};
+  const e=P.mist[key]||{t:type,n:0,ok:0,x:type==='word'?x:{q:x.q||x.s,o:x.o,a:x.a,w:x.w||x.why||'',src:x.src||'',ctx:x.ctx||null}};
+  if(type!=='word'&&x.ctx&&!e.x.ctx)e.x.ctx=x.ctx;
   e.n++;e.ok=0;e.last=Date.now();P.mist[key]=e;
   const keys=Object.keys(P.mist);if(keys.length>400)keys.sort((a,b)=>P.mist[a].last-P.mist[b].last).slice(0,keys.length-400).forEach(k=>delete P.mist[k]);
   touch('main');
@@ -2752,13 +2760,37 @@ VIEWS.mistakes=el=>{
    ${words.length?`<div class="panel"><h3>Từ hay quên</h3><div class="pexs">${words.slice(0,60).map(([k,v])=>{const w=VI.get(v.x);return w?`<button class="pex" data-wd="${esc(w.k)}"><b>${esc(w.w)}</b> <span class="muted small">${esc(w.vi)}</span> <span class="pill">${v.n}</span></button>`:'';}).join('')}</div></div>`:''}
    ${qs.length?`<div class="panel"><h3>Câu hay sai</h3>${qs.slice(0,40).map(([k,v])=>`<div class="mk-q"><div>${esc(v.x.q)} <span class="pill">${v.n}</span></div>${v.x.src?`<div class="small muted">${esc(v.x.src)}</div>`:''}<div class="small">Đáp án: <b>${esc(Array.isArray(v.x.o)?v.x.o[v.x.a]:String(v.x.a).split('|')[0])}</b></div>${v.x.w?`<div class="small muted">${esc(v.x.w)}</div>`:''}</div>`).join('')}</div>`:''}</div>`;
   $$('[data-wd]',el).forEach(b=>b.onclick=()=>openWord(b.dataset.wd));
-  const g=$('#mkGo');if(g)g.onclick=()=>{
+  const g=$('#mkGo');if(g)g.onclick=async()=>{
     const items=list.slice(0,15).map(([k,v])=>{if(v.t==='q')return Object.assign({},v.x);const w=VI.get(v.x);if(!w)return null;
       const o=shuffle([w,...shuffle(V.filter(x=>x.lv===w.lv&&x.vi!==w.vi)).slice(0,3)]);return {q:'"'+w.w+'" nghĩa là gì?',o:o.map(x=>x.vi),a:o.indexOf(w),w:w.w+' '+w.ipa+': '+w.vi,wk:w.k};}).filter(Boolean);
+    g.disabled=true;await mkCtx(items);
     plDay().mist=(plDay().mist||0)+1;touch('main');
     runQuiz(el,{title:'Ôn sổ lỗi',items,kind:'review'});
   };
 };
+
+/* Reading and Listening questions need their passage or dialogue to be answerable again.
+   New entries carry ctx {t:'rd'|'ls', id, para}; older ones are matched by their source title. */
+const MK_RD=/^(Academic|GT) Test \d+ (Passage|Section) \d+$/, MK_LS=/^Listening Test (\d+) Part (\d+)$/;
+async function mkCtx(items){
+  const kind=x=>x.ctx?x.ctx.t:MK_LS.test(x.src||'')?'ls':MK_RD.test(x.src||'')?'rd':'';
+  const need=items.filter(x=>kind(x));if(!need.length)return;
+  let R=null,L=null;
+  if(need.some(x=>kind(x)==='rd'))try{R=await loadJSON('reading');}catch(e){}
+  if(need.some(x=>kind(x)==='ls'))try{L=await loadJSON('listening');}catch(e){}
+  need.forEach(x=>{
+    if(kind(x)==='rd'&&R){const p=x.ctx?R.find(p=>p.id===x.ctx.id):R.find(p=>RD_title(p)===x.src);if(p)x.pre=mkRdHTML(p,x.ctx&&x.ctx.para);}
+    if(kind(x)==='ls'&&L){let p;if(x.ctx)p=L.find(p=>p.id===x.ctx.id);else{const m=x.src.match(MK_LS);p=L.find(p=>p.test===+m[1]&&p.part===+m[2]);}if(p)x.pre=mkLsHTML(p);}
+  });
+}
+function mkRdHTML(p,para){
+  return `<details class="g qz-ctx" open><summary><span class="t">Đoạn văn: ${esc(p.title||RD_title(p))}${para?` (đáp án nằm ở đoạn ${esc(para)})`:''}</span>${ic('chevron-right')}</summary>
+    <div class="qz-ctxb">${p.paras.map(([l,t])=>`<p class="rd-p en-s${para&&l===para?' qz-hl':''}"><b class="rd-l">${esc(l)}</b>${esc(t)}</p>`).join('')}</div></details>`;
+}
+function mkLsHTML(p){
+  return `<details class="g qz-ctx"><summary><span class="t">Nghe lại hoặc đọc lời thoại: Part ${p.part}${p.title?', '+esc(p.title):''}</span>${ic('chevron-right')}</summary>
+    <div class="qz-ctxb">${p.lines.map(([sid,t],li)=>{const sp=LS_spk(p,sid);return `<div class="ls-tl"><button class="spk sm" data-pid="${p.id}" data-li="${li}" data-say="${esc(t)}" data-lang="${esc(sp.accent)}" data-voice="${esc(sp.voice)}" aria-label="Nghe dòng này">${SPK}</button><div class="ls-tlt"><span class="ls-sp">${esc(sp.name)}</span><span class="en-s">${esc(t)}</span></div></div>`;}).join('')}</div></details>`;
+}
 
 /* ---------- tip of the day ---------- */
 const DLY_CAT={idiom:'Idiom',collocation:'Collocation',phrasal:'Phrasal verb',tip:'Mẹo thi',mistake:'Lỗi hay gặp',fact:'Có thể bạn chưa biết'};
@@ -2949,7 +2981,7 @@ function TS_log(results){
     else if(k==='matchinfo')x={q:it.q+' (đoạn nào?)',a:it.a};
     else if(r.g.opts)x={q:it.q,o:r.g.opts,a:it.a};
     else x={q:it.q,a:it.a};
-    x.w=it.why||'';x.src=r.sec.src;
+    x.w=it.why||'';x.src=r.sec.src;x.ctx={t:r.sec.p&&r.sec.p.lines?'ls':'rd',id:r.sec.sid,para:it.para||''};
     if(r.multi?r.c===2:r.ok){window.__mistOk&&window.__mistOk(x);}else window.__mistake&&window.__mistake('q',x);
   });
 }

@@ -200,3 +200,9 @@ details .ls-trb{padding:4px 14px 12px}
 .btn.ts-xb{border-color:var(--orange-soft);background:var(--orange-soft);color:var(--orange-ink)}
 .chip.ts-xc[aria-pressed="true"]{background:var(--orange-soft);color:var(--orange-ink);border-color:var(--orange)}
 .ts-pick-l{display:flex;flex-direction:column;gap:6px}
+
+/* passage / dialogue shown above a question in the mistakes review */
+.qz-ctx{margin:0 0 14px}
+.qz-ctxb{max-height:46vh;overflow:auto;padding:6px 4px 2px;overscroll-behavior:contain}
+.qz-ctxb .rd-p{margin-bottom:10px}
+.qz-hl{background:var(--orange-soft);box-shadow:inset 3px 0 0 var(--orange)}

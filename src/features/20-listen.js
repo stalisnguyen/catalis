@@ -119,7 +119,7 @@ function TS_log(results){
     else if(k==='matchinfo')x={q:it.q+' (đoạn nào?)',a:it.a};
     else if(r.g.opts)x={q:it.q,o:r.g.opts,a:it.a};
     else x={q:it.q,a:it.a};
-    x.w=it.why||'';x.src=r.sec.src;
+    x.w=it.why||'';x.src=r.sec.src;x.ctx={t:r.sec.p&&r.sec.p.lines?'ls':'rd',id:r.sec.sid,para:it.para||''};
     if(r.multi?r.c===2:r.ok){window.__mistOk&&window.__mistOk(x);}else window.__mistake&&window.__mistake('q',x);
   });
 }
