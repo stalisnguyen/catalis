@@ -40,10 +40,10 @@ function gmBlank(w){
 }
 async function gmPool(){
   await loadAllVocab();
-  const seenWords=Object.keys(P.srs||{}).map(k=>VI.get(k)).filter(w=>w&&w.vi);
+  const seenWords=Object.keys(P.srs||{}).map(k=>VI.get(k)).filter(w=>w&&w.vi&&!PHR_LV(w.lv));
   if(seenWords.length>=20){GM_S.src='seen';return seenWords;}
   GM_S.src='lv';const lv=P.settings.lv&&P.settings.lv.length?P.settings.lv:[1];
-  return V.filter(w=>lv.includes(w.lv)&&w.vi);
+  const words=V.filter(w=>lv.includes(w.lv)&&w.vi&&!PHR_LV(w.lv));return words.length>=20?words:V.filter(w=>w.lv===1&&w.vi);
 }
 function gmDistract(w,pool,n,key){
   const val=key||(x=>gmVi(x)), mine=val(w), same=pool.filter(x=>x!==w&&x.pos===w.pos&&val(x)!==mine);

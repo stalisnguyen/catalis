@@ -76,7 +76,7 @@ VIEWS.home=el=>{
   const doneN=tasks.filter(t=>t.done).length, next=tasks.find(t=>!t.done);
   let due=0,nw=0;try{due=dueList(P.settings.lv).length;nw=Math.max(0,P.settings.newPerDay-newToday());}catch(e){}
   const label=next?(doneN?'Tiếp tục: ':'Bắt đầu: ')+(next.k==='srs'&&due+nw?`ôn ${due+nw} thẻ`:next.t.charAt(0).toLowerCase()+next.t.slice(1)):'Xong hôm nay. Học thêm?';
-  const pool=V.filter(w=>w.lv&&P.settings.lv.includes(w.lv)&&w.col&&w.col.length); const wd=pool.length?pool[(Math.floor(Date.now()/DAY)*7)%pool.length]:null;
+  const pool=V.filter(w=>w.lv&&!PHR_LV(w.lv)&&P.settings.lv.includes(w.lv)&&w.col&&w.col.length); const wd=pool.length?pool[(Math.floor(Date.now()/DAY)*7)%pool.length]:null;
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
   const est=estBand(); const days=c.date?Math.ceil((new Date(c.date).getTime()-today())/DAY):null;
   const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;

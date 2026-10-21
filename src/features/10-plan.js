@@ -20,7 +20,7 @@ function plGoalXP(){return Math.round(plCfg().minutes*3.5);}
 function plNewPerDay(){const m=plCfg().minutes;return m>=90?30:m>=60?22:m>=45?16:m>=30?12:8;}
 // vocabulary groups for a target band: skip groups far below the target so cards stay challenging
 function plLevels(t){return t<=5?[1]:t<=5.5?[1,2]:t<=6?[1,2,3]:t<=6.5?[2,3]:t<=7?[2,3,4]:t<=7.5?[3,4,5]:[3,4,5];}
-function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=plLevels(c.target);P.settings.newPerDay=plNewPerDay();}
+function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=[...plLevels(c.target),...(P.settings.lv||[]).filter(PHR_LV)];P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
   let due=0,nw=0;try{due=dueList(P.settings.lv).length;nw=Math.max(0,P.settings.newPerDay-newToday());}catch(e){}

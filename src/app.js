@@ -21,10 +21,10 @@ const fmtTime=s=>{s=Math.max(0,Math.round(s));return String(Math.floor(s/60)).pa
 const countWords=t=>(String(t).trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)||[]).length;
 
 /* ================= data ================= */
-const LVS=[1,2,3,4,5];
-const LV_NAME={0:'Từ của bạn',1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia'};
-const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề',5:'band 8.5-9, từ học thuật C2 và cách nói tự nhiên'};
-const V=[]; const VI=new Map(); const LV_COUNT=[0,0,0,0,0]; const loadedLv=new Set(); const lvLoading={};
+const LVS=[1,2,3,4,5,6,7,8]; const PHR_LV=L=>L>=6;
+const LV_NAME={0:'Từ của bạn',1:'Nền tảng',2:'Trung cấp',3:'Học thuật',4:'Band 7+',5:'Chuyên gia',6:'Collocation',7:'Idiom',8:'Phrasal verb'};
+const LV_BAND={1:'band 4.5-5.5',2:'band 5.5-6.5',3:'band 6.5-7.5',4:'band 7-8, theo chủ đề',5:'band 8.5-9, từ học thuật C2 và cách nói tự nhiên',6:'cụm từ hay đi cùng nhau, B2-C2, theo 13 chủ đề',7:'thành ngữ cho Speaking, B2-C2',8:'cụm động từ B2-C2'};
+const V=[]; const VI=new Map(); const LV_COUNT=[0,0,0,0,0,0,0,0,0]; const loadedLv=new Set(); const lvLoading={};
 async function loadLevel(L){
   if(loadedLv.has(L))return;
   if(!lvLoading[L])lvLoading[L]=(async()=>{
@@ -544,11 +544,14 @@ function nextCard(keep){if(!keep||!qcur)qcur=queue[0]||null;revealed=false;drawC
 function wordBack(w){
   return `${w.em?`<div class="emo">${w.em}</div>`:''}<div class="big en">${esc(w.w)}</div><div class="row" style="justify-content:center;gap:8px">${ipaHTML(w)}<span class="pill">${esc(w.pos)}</span></div>
     <div class="mean">${esc(w.vi)}</div>
-    ${w.col&&w.col.length?`<div class="cols">${w.col.map(c=>`<span class="cl-chip">${esc(c)}</span>`).join('')}</div>`:''}
-    ${w.fam?`<div class="small muted">Họ từ: ${esc(w.fam)}</div>`:''}
+    ${w.col&&w.col.length?`${PHR_LV(w.lv)?'<div class="small muted">Cụm liên quan</div>':''}<div class="cols">${w.col.map(c=>`<span class="cl-chip">${esc(c)}</span>`).join('')}</div>`:''}
+    ${w.fam?`<div class="small muted">${PHR_LV(w.lv)?'Cách dùng':'Họ từ'}: ${esc(w.fam)}</div>`:''}
     <div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="en-s">${hiWord(w.ex,w.w)}</div><div class="vil">${esc(w.exvi)}</div></div></div>`;
 }
 function hiWord(sent,word){
+  if(/\s/.test(word.trim())){ /* phrase: mark each content word */
+    const ws=word.toLowerCase().replace(/\b(sb|sth|someone|something|one's|sb's|sth's)\b/g,' ').split(/[^a-z']+/).filter(x=>x.length>2&&!['the','and','for','with','into','from','than','that'].includes(x));
+    let h=esc(sent);ws.forEach(x=>{const st=x.replace(/(e|y)$/,'').slice(0,Math.max(3,x.length-2));h=h.replace(new RegExp('\\b('+st.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+"[a-z']*)",'i'),'<mark>$1</mark>');});return h;}
   const stem=word.toLowerCase().split(' ')[0].replace(/(e|y)$/,'').slice(0,Math.max(3,word.length-2));
   return esc(sent).replace(new RegExp('\\b('+stem.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'[a-z]*)','i'),'<mark>$1</mark>');
 }
@@ -654,8 +657,8 @@ function openWord(k){
    <div class="row small">${['en-GB','en-US','en-AU'].map(L=>`<button class="lnk" data-say="${esc(w.w)}" data-lang="${L}">${L==='en-GB'?'Anh':L==='en-US'?'Mỹ':'Úc'}</button>`).join(' ')}</div>
    ${c?`<div class="small muted">${known(w.k)?'Đã thuộc':'Đang học'}, ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</div>`:''}
    <div style="font-size:19px;font-weight:600">${esc(w.vi)}</div>
-   ${w.col&&w.col.length?`<div><span class="label">Collocation</span><div class="cols">${w.col.map(x=>`<button class="cl-chip" data-say="${esc(x)}">${esc(x)}</button>`).join('')}</div></div>`:''}
-   ${w.fam?`<div class="small"><span class="label">Họ từ</span>${esc(w.fam)}</div>`:''}
+   ${w.col&&w.col.length?`<div><span class="label">${PHR_LV(w.lv)?'Cụm liên quan':'Collocation'}</span><div class="cols">${w.col.map(x=>`<button class="cl-chip" data-say="${esc(x)}">${esc(x)}</button>`).join('')}</div></div>`:''}
+   ${w.fam?`<div class="small"><span class="label">${PHR_LV(w.lv)?'Cách dùng':'Họ từ'}</span>${esc(w.fam)}</div>`:''}
    ${w.ex?`<div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="en-s">${hiWord(w.ex,w.w)}</div><div class="muted small">${esc(w.exvi)}</div></div></div>`:''}
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào thẻ ôn</button>'}<button class="btn sm need-ai" id="wdMore">${ic('sparkles')} AI giải thích thêm</button><button class="btn ghost sm" id="wdRep">Báo lỗi</button></div>
    <div id="wdAiOut"></div>`);

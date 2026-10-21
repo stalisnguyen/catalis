@@ -1,0 +1,1074 @@
+[
+ {
+  "w": "spark a debate",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "làm dấy lên cuộc tranh luận",
+  "use": "Rất hợp Writing Task 2 và Speaking khi nói về một sự kiện hay chính sách gây tranh cãi. Chủ ngữ thường là sự việc, không phải người.",
+  "alt": [
+   "trigger a debate",
+   "fuel the debate",
+   "ignite controversy"
+  ],
+  "ex": "The documentary sparked a fierce debate about whether social media companies should be responsible for harmful content.",
+  "exvi": "Bộ phim tài liệu đã làm dấy lên cuộc tranh luận gay gắt về việc các công ty mạng xã hội có phải chịu trách nhiệm cho nội dung độc hại hay không.",
+  "em": "🔥"
+ },
+ {
+  "w": "heated argument",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "cuộc cãi vã gay gắt",
+  "use": "Dùng được cả Speaking lẫn Writing. Không nói: hot argument.",
+  "alt": [
+   "heated debate",
+   "fierce argument",
+   "calm discussion"
+  ],
+  "ex": "My parents had a heated argument about how much time my younger brother spends on his phone.",
+  "exvi": "Bố mẹ tôi đã cãi nhau gay gắt về việc em trai tôi dành quá nhiều thời gian cho điện thoại.",
+  "em": "😠"
+ },
+ {
+  "w": "make a compelling case for sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "đưa ra lập luận thuyết phục cho điều gì",
+  "use": "Rất hợp Writing học thuật khi đánh giá một quan điểm. Đi với \"for\" (ủng hộ) hoặc \"against\" (phản đối). Không nói: say a compelling case.",
+  "alt": [
+   "make a strong case for sth",
+   "present a convincing argument",
+   "make a case against sth"
+  ],
+  "ex": "The article makes a compelling case for teaching media literacy in every secondary school.",
+  "exvi": "Bài báo đưa ra lập luận thuyết phục cho việc dạy kỹ năng đọc hiểu truyền thông ở mọi trường trung học.",
+  "em": ""
+ },
+ {
+  "w": "voice concerns about sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "bày tỏ lo ngại về điều gì",
+  "use": "Trang trọng, hợp Writing và bản tin. Người Việt hay viết \"speak concerns\", sai; dùng voice hoặc express.",
+  "alt": [
+   "express concerns about sth",
+   "raise concerns about sth",
+   "allay concerns"
+  ],
+  "ex": "Several teachers have voiced concerns about students relying on AI chatbots to write their essays.",
+  "exvi": "Nhiều giáo viên đã bày tỏ lo ngại về việc học sinh dựa vào chatbot AI để viết bài luận.",
+  "em": ""
+ },
+ {
+  "w": "hit the headlines",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "lên trang nhất, được báo chí đưa tin rầm rộ",
+  "use": "Hợp Speaking và Writing bán trang trọng. Có thể nói make the headlines với nghĩa tương tự.",
+  "alt": [
+   "make the headlines",
+   "grab the headlines",
+   "make front-page news"
+  ],
+  "ex": "The small town hit the headlines when a local teenager invented a cheap water filter.",
+  "exvi": "Thị trấn nhỏ lên trang nhất khi một thiếu niên địa phương sáng chế ra bộ lọc nước giá rẻ.",
+  "em": "📰"
+ },
+ {
+  "w": "break the news to sb",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "báo tin (thường là tin xấu) cho ai",
+  "use": "Dùng nhiều trong Speaking khi kể chuyện. Không nói: tell the news to sb khi muốn nhấn mạnh việc báo tin khó nói.",
+  "alt": [
+   "break it to sb gently",
+   "deliver bad news",
+   "tell sb the news"
+  ],
+  "ex": "My manager had to break the news to the team that the project had been cancelled.",
+  "exvi": "Quản lý của tôi phải báo cho cả nhóm biết rằng dự án đã bị hủy.",
+  "em": ""
+ },
+ {
+  "w": "sensationalist reporting",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "lối đưa tin giật gân",
+  "use": "Rất hợp Writing Task 2 về báo chí. Mang nghĩa phê phán. Có thể dùng sensationalist headlines, sensationalist coverage.",
+  "alt": [
+   "sensationalist headlines",
+   "tabloid journalism",
+   "balanced reporting"
+  ],
+  "ex": "Sensationalist reporting about crime can make people feel far less safe than they really are.",
+  "exvi": "Lối đưa tin giật gân về tội phạm có thể khiến mọi người cảm thấy kém an toàn hơn nhiều so với thực tế.",
+  "em": ""
+ },
+ {
+  "w": "reliable source",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "nguồn tin đáng tin cậy",
+  "use": "Dùng được cả Speaking và Writing. Khi nói về thông tin, dùng source, không dùng resource.",
+  "alt": [
+   "credible source",
+   "trustworthy source",
+   "dubious source"
+  ],
+  "ex": "Students should learn to check whether a website is a reliable source before quoting it in assignments.",
+  "exvi": "Học sinh nên học cách kiểm tra một trang web có phải là nguồn đáng tin cậy hay không trước khi trích dẫn trong bài tập.",
+  "em": ""
+ },
+ {
+  "w": "misleading claims",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "B2",
+  "vi": "những tuyên bố gây hiểu lầm",
+  "use": "Hay dùng khi nói về quảng cáo và tin giả. Không nhầm misleading (gây hiểu lầm) với mistaken (bị nhầm).",
+  "alt": [
+   "false claims",
+   "exaggerated claims",
+   "unsubstantiated claims"
+  ],
+  "ex": "The company was fined for making misleading claims about the health benefits of its energy drinks.",
+  "exvi": "Công ty bị phạt vì đưa ra những tuyên bố gây hiểu lầm về lợi ích sức khỏe của nước tăng lực.",
+  "em": ""
+ },
+ {
+  "w": "press release",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "thông cáo báo chí",
+  "use": "Dùng với issue hoặc put out a press release. Không nói: make a press release.",
+  "alt": [
+   "issue a press release",
+   "press conference",
+   "official statement"
+  ],
+  "ex": "The university issued a press release announcing a new scholarship for students from rural areas.",
+  "exvi": "Trường đại học đã ra thông cáo báo chí công bố học bổng mới cho sinh viên vùng nông thôn.",
+  "em": ""
+ },
+ {
+  "w": "editorial independence",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "sự độc lập trong biên tập",
+  "use": "Từ chuyên về báo chí, rất hợp Writing Task 2 bàn về quyền sở hữu truyền thông.",
+  "alt": [
+   "editorial control",
+   "journalistic integrity",
+   "editorial interference"
+  ],
+  "ex": "Critics fear that billionaire owners may threaten the editorial independence of the newspapers they buy.",
+  "exvi": "Giới phê bình lo ngại các ông chủ tỷ phú có thể đe dọa sự độc lập biên tập của những tờ báo họ mua lại.",
+  "em": ""
+ },
+ {
+  "w": "polarised debate",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "cuộc tranh luận phân cực",
+  "use": "Hợp Writing học thuật khi mô tả xã hội chia rẽ. Anh Mỹ viết polarized.",
+  "alt": [
+   "deeply divided opinion",
+   "highly charged debate",
+   "polarising issue"
+  ],
+  "ex": "Online platforms often turn complex issues into a polarised debate where compromise seems impossible.",
+  "exvi": "Các nền tảng trực tuyến thường biến những vấn đề phức tạp thành cuộc tranh luận phân cực, nơi thỏa hiệp gần như không thể.",
+  "em": ""
+ },
+ {
+  "w": "clickbait headline",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "C1",
+  "vi": "tiêu đề câu view",
+  "use": "Hợp cả Speaking và Writing khi nói về báo mạng. Clickbait có thể đứng một mình làm danh từ không đếm được.",
+  "alt": [
+   "sensationalist headline",
+   "misleading headline",
+   "catchy headline"
+  ],
+  "ex": "Many readers share articles after seeing only a clickbait headline, without reading the actual story.",
+  "exvi": "Nhiều người chia sẻ bài báo chỉ sau khi đọc tiêu đề câu view, mà không đọc nội dung thật.",
+  "em": "🎣"
+ },
+ {
+  "w": "a barrage of criticism",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "một loạt chỉ trích dồn dập",
+  "use": "Hay đi với face hoặc come under. Hợp Writing và Speaking nâng cao.",
+  "alt": [
+   "a storm of criticism",
+   "a wave of criticism",
+   "face fierce criticism"
+  ],
+  "ex": "The government faced a barrage of criticism after cutting funding for public libraries.",
+  "exvi": "Chính phủ hứng chịu một loạt chỉ trích dồn dập sau khi cắt giảm ngân sách cho thư viện công cộng.",
+  "em": ""
+ },
+ {
+  "w": "a torrent of abuse",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C2",
+  "vi": "một tràng lời lẽ lăng mạ",
+  "use": "Hay dùng khi nói về bắt nạt trên mạng. Mạnh hơn nhiều so với criticism.",
+  "alt": [
+   "a stream of abuse",
+   "online abuse",
+   "a torrent of insults"
+  ],
+  "ex": "The young athlete received a torrent of abuse on social media after missing the final penalty.",
+  "exvi": "Vận động viên trẻ nhận một tràng lời lẽ lăng mạ trên mạng xã hội sau khi đá hỏng quả phạt đền cuối.",
+  "em": ""
+ },
+ {
+  "w": "draw attention to sth",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "thu hút sự chú ý đến điều gì",
+  "use": "Rất hợp Writing Task 2. Không nói: pull attention to sth.",
+  "alt": [
+   "call attention to sth",
+   "highlight sth",
+   "divert attention from sth"
+  ],
+  "ex": "The campaign used short videos to draw attention to the problem of plastic waste in rivers.",
+  "exvi": "Chiến dịch dùng các video ngắn để thu hút sự chú ý đến vấn đề rác thải nhựa trên sông.",
+  "em": ""
+ },
+ {
+  "w": "issue a statement",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "ra tuyên bố",
+  "use": "Trang trọng, hay gặp trong tin tức. Không nói: give out a statement khi nói về tổ chức.",
+  "alt": [
+   "release a statement",
+   "make a statement",
+   "put out a statement"
+  ],
+  "ex": "The airline issued a statement apologising to passengers whose flights had been delayed by the strike.",
+  "exvi": "Hãng hàng không ra tuyên bố xin lỗi những hành khách bị hoãn chuyến do cuộc đình công.",
+  "em": ""
+ },
+ {
+  "w": "retract a statement",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "rút lại phát ngôn",
+  "use": "Trang trọng, hợp bài về báo chí và chính trị. Retract cũng đi với claim, story.",
+  "alt": [
+   "withdraw a statement",
+   "retract a claim",
+   "stand by a statement"
+  ],
+  "ex": "The newspaper was forced to retract its statement after the minister proved the story was false.",
+  "exvi": "Tờ báo buộc phải rút lại phát ngôn sau khi vị bộ trưởng chứng minh câu chuyện là sai.",
+  "em": ""
+ },
+ {
+  "w": "a slip of the tongue",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "lỡ lời, nói nhầm",
+  "use": "Dùng nhiều trong Speaking, cũng gặp trong tin tức về chính trị gia. Thường đi với It was just a slip of the tongue.",
+  "alt": [
+   "a verbal slip",
+   "a Freudian slip",
+   "misspeak"
+  ],
+  "ex": "The presenter called the prime minister by the wrong name, but insisted it was a slip of the tongue.",
+  "exvi": "Người dẫn chương trình gọi nhầm tên thủ tướng nhưng khẳng định đó chỉ là lỡ lời.",
+  "em": "👅"
+ },
+ {
+  "w": "conflicting reports",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "các nguồn tin trái ngược nhau",
+  "use": "Hay gặp trong tin tức khi sự việc chưa rõ. Hợp Writing khi bàn về độ tin cậy của thông tin.",
+  "alt": [
+   "contradictory reports",
+   "conflicting evidence",
+   "unconfirmed reports"
+  ],
+  "ex": "There were conflicting reports about the number of people injured in the factory fire.",
+  "exvi": "Có những nguồn tin trái ngược nhau về số người bị thương trong vụ cháy nhà máy.",
+  "em": ""
+ },
+ {
+  "w": "widely reported",
+  "deck": "col",
+  "pat": "adv + v",
+  "cefr": "C1",
+  "vi": "được đưa tin rộng rãi",
+  "use": "Thường ở dạng bị động: It was widely reported that... Hợp Writing học thuật.",
+  "alt": [
+   "widely publicised",
+   "extensively covered",
+   "under-reported"
+  ],
+  "ex": "It was widely reported that the new law would ban mobile phones in all primary schools.",
+  "exvi": "Nhiều nơi đưa tin rằng luật mới sẽ cấm điện thoại di động ở mọi trường tiểu học.",
+  "em": ""
+ },
+ {
+  "w": "heavily biased",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "thiên vị nặng nề",
+  "use": "Hợp Writing khi phê phán truyền thông. Không nói: strongly biased trong văn viết tự nhiên ít dùng hơn heavily.",
+  "alt": [
+   "deeply biased",
+   "one-sided",
+   "impartial"
+  ],
+  "ex": "Some viewers believe the channel's coverage of the election was heavily biased towards one party.",
+  "exvi": "Một số khán giả cho rằng cách kênh này đưa tin về cuộc bầu cử thiên vị nặng nề cho một đảng.",
+  "em": ""
+ },
+ {
+  "w": "blatantly untrue",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "sai sự thật một cách trắng trợn",
+  "use": "Mạnh và hơi cảm xúc, hợp Speaking và văn nghị luận. Blatantly cũng đi với obvious, unfair.",
+  "alt": [
+   "patently false",
+   "completely untrue",
+   "blatant lie"
+  ],
+  "ex": "The advert claimed the cream could remove wrinkles in a week, which is blatantly untrue.",
+  "exvi": "Quảng cáo nói kem có thể xóa nếp nhăn trong một tuần, điều này sai sự thật một cách trắng trợn.",
+  "em": ""
+ },
+ {
+  "w": "mutually intelligible",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C2",
+  "vi": "(hai ngôn ngữ) nghe hiểu được lẫn nhau",
+  "use": "Thuật ngữ ngôn ngữ học, rất hợp Writing về ngôn ngữ. Không dùng cho người.",
+  "alt": [
+   "closely related languages",
+   "mutual understanding",
+   "language family"
+  ],
+  "ex": "Spanish and Portuguese are partly mutually intelligible, so speakers can often follow each other's conversations.",
+  "exvi": "Tiếng Tây Ban Nha và tiếng Bồ Đào Nha phần nào nghe hiểu được lẫn nhau, nên người nói thường theo kịp cuộc trò chuyện của nhau.",
+  "em": ""
+ },
+ {
+  "w": "eloquent speaker",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "người ăn nói lưu loát, có sức thuyết phục",
+  "use": "Dùng để khen người nói hay. Eloquent cũng đi với speech, plea, argument.",
+  "alt": [
+   "articulate speaker",
+   "persuasive speaker",
+   "eloquent speech"
+  ],
+  "ex": "Our debate coach was an eloquent speaker who could explain difficult ideas in very simple words.",
+  "exvi": "Huấn luyện viên tranh biện của chúng tôi là người nói rất lưu loát, có thể giải thích ý khó bằng những từ rất đơn giản.",
+  "em": "🎤"
+ },
+ {
+  "w": "refute a claim",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C2",
+  "vi": "bác bỏ một tuyên bố (bằng lý lẽ, bằng chứng)",
+  "use": "Rất trang trọng, hợp Writing học thuật. Refute nghĩa là chứng minh sai, mạnh hơn deny (chỉ phủ nhận).",
+  "alt": [
+   "disprove a claim",
+   "dismiss a claim",
+   "back up a claim"
+  ],
+  "ex": "Scientists quickly refuted the claim that the new vaccine could change a person's DNA.",
+  "exvi": "Các nhà khoa học nhanh chóng bác bỏ tuyên bố rằng vắc xin mới có thể thay đổi DNA của con người.",
+  "em": ""
+ },
+ {
+  "w": "launch an advertising campaign",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "B2",
+  "vi": "tung ra chiến dịch quảng cáo",
+  "use": "Hợp cả Speaking và Writing. Không nói: open an advertising campaign.",
+  "alt": [
+   "run an advertising campaign",
+   "launch a marketing campaign",
+   "advertising blitz"
+  ],
+  "ex": "The city launched an advertising campaign to encourage residents to use public transport instead of cars.",
+  "exvi": "Thành phố tung ra chiến dịch quảng cáo khuyến khích người dân dùng phương tiện công cộng thay vì ô tô.",
+  "em": "📢"
+ },
+ {
+  "w": "subliminal messaging",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "thông điệp tiềm thức (tác động mà người xem không nhận ra)",
+  "use": "Hợp Writing về quảng cáo và tâm lý người tiêu dùng.",
+  "alt": [
+   "subliminal advertising",
+   "hidden persuasion",
+   "subtle messaging"
+  ],
+  "ex": "Some psychologists doubt that subliminal messaging in adverts has any real effect on what we buy.",
+  "exvi": "Một số nhà tâm lý học nghi ngờ rằng thông điệp tiềm thức trong quảng cáo thực sự ảnh hưởng đến việc chúng ta mua gì.",
+  "em": ""
+ },
+ {
+  "w": "brand awareness",
+  "deck": "col",
+  "pat": "n + n",
+  "cefr": "B2",
+  "vi": "mức độ nhận biết thương hiệu",
+  "use": "Thuật ngữ marketing phổ biến, hợp Writing và Speaking về kinh doanh. Thường đi với build, raise, increase.",
+  "alt": [
+   "build brand awareness",
+   "brand recognition",
+   "brand image"
+  ],
+  "ex": "Small businesses often use social media to build brand awareness without spending much money.",
+  "exvi": "Doanh nghiệp nhỏ thường dùng mạng xã hội để xây dựng độ nhận biết thương hiệu mà không tốn nhiều tiền.",
+  "em": ""
+ },
+ {
+  "w": "user-generated content",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C1",
+  "vi": "nội dung do người dùng tạo ra",
+  "use": "Hợp Writing về mạng xã hội và báo chí công dân. Danh từ không đếm được.",
+  "alt": [
+   "citizen journalism",
+   "professional content",
+   "viral content"
+  ],
+  "ex": "News websites increasingly rely on user-generated content, such as videos filmed by witnesses on their phones.",
+  "exvi": "Các trang tin ngày càng dựa vào nội dung do người dùng tạo ra, như video nhân chứng quay bằng điện thoại.",
+  "em": ""
+ },
+ {
+  "w": "a war of words",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "C1",
+  "vi": "cuộc khẩu chiến",
+  "use": "Hay gặp trong tin tức và Speaking. Thường đi với a public war of words between A and B.",
+  "alt": [
+   "a public row",
+   "a slanging match",
+   "exchange insults"
+  ],
+  "ex": "The two tech companies are locked in a war of words over who invented the feature first.",
+  "exvi": "Hai công ty công nghệ đang khẩu chiến về việc ai phát minh ra tính năng đó trước.",
+  "em": "⚔️"
+ },
+ {
+  "w": "word of mouth",
+  "deck": "col",
+  "pat": "n + of + n",
+  "cefr": "B2",
+  "vi": "truyền miệng",
+  "use": "Hay đi với by word of mouth hoặc word-of-mouth marketing. Không nói: by mouth words.",
+  "alt": [
+   "word-of-mouth marketing",
+   "personal recommendation",
+   "spread the word"
+  ],
+  "ex": "The small café became popular through word of mouth rather than paid advertising.",
+  "exvi": "Quán cà phê nhỏ trở nên nổi tiếng nhờ truyền miệng chứ không phải quảng cáo trả tiền.",
+  "em": "🗣️"
+ },
+ {
+  "w": "come under scrutiny",
+  "deck": "col",
+  "pat": "phrase",
+  "cefr": "C1",
+  "vi": "bị soi xét kỹ, bị giám sát chặt",
+  "use": "Trang trọng, hợp Writing Task 2. Có thể thêm close hoặc intense trước scrutiny.",
+  "alt": [
+   "come under fire",
+   "face scrutiny",
+   "public scrutiny"
+  ],
+  "ex": "The way social media platforms collect personal data has come under close scrutiny in recent years.",
+  "exvi": "Cách các nền tảng mạng xã hội thu thập dữ liệu cá nhân bị soi xét kỹ trong những năm gần đây.",
+  "em": "🔍"
+ },
+ {
+  "w": "distort the facts",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "bóp méo sự thật",
+  "use": "Hợp Writing khi phê phán truyền thông hoặc tuyên truyền. Distort cũng đi với the truth, the picture.",
+  "alt": [
+   "twist the facts",
+   "misrepresent the facts",
+   "present the facts accurately"
+  ],
+  "ex": "Some documentaries distort the facts by showing only the most shocking scenes from a story.",
+  "exvi": "Một số phim tài liệu bóp méo sự thật bằng cách chỉ chiếu những cảnh gây sốc nhất của câu chuyện.",
+  "em": ""
+ },
+ {
+  "w": "off-the-record comment",
+  "deck": "col",
+  "pat": "adj + n",
+  "cefr": "C2",
+  "vi": "phát ngôn không chính thức (không được phép trích đăng)",
+  "use": "Thuật ngữ báo chí. Cũng dùng như trạng từ: speak off the record.",
+  "alt": [
+   "speak off the record",
+   "on the record",
+   "anonymous source"
+  ],
+  "ex": "The journalist was criticised for publishing an off-the-record comment made by a hospital director.",
+  "exvi": "Nhà báo bị chỉ trích vì đăng một phát ngôn không chính thức của giám đốc bệnh viện.",
+  "em": "🤫"
+ },
+ {
+  "w": "sway public opinion",
+  "deck": "col",
+  "pat": "v + n",
+  "cefr": "C1",
+  "vi": "tác động, làm lay chuyển dư luận",
+  "use": "Rất hợp Writing Task 2 về truyền thông và quảng cáo. Không nói: change the public opinion (thừa the).",
+  "alt": [
+   "shape public opinion",
+   "influence public opinion",
+   "mould public opinion"
+  ],
+  "ex": "Celebrity endorsements can sway public opinion on issues that the celebrities themselves know little about.",
+  "exvi": "Sự ủng hộ của người nổi tiếng có thể làm lay chuyển dư luận về những vấn đề mà chính họ cũng không hiểu nhiều.",
+  "em": ""
+ },
+ {
+  "w": "deliberately vague",
+  "deck": "col",
+  "pat": "adv + adj",
+  "cefr": "C1",
+  "vi": "cố tình mơ hồ",
+  "use": "Hợp Writing và Speaking khi bàn về phát ngôn của chính trị gia hay doanh nghiệp.",
+  "alt": [
+   "intentionally ambiguous",
+   "evasive answer",
+   "crystal clear"
+  ],
+  "ex": "The company's response to the data leak was deliberately vague and did not explain what had happened.",
+  "exvi": "Phản hồi của công ty về vụ rò rỉ dữ liệu cố tình mơ hồ và không giải thích chuyện gì đã xảy ra.",
+  "em": ""
+ },
+ {
+  "w": "hear sth on the grapevine",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "nghe phong thanh, nghe đồn",
+  "use": "Hợp IELTS Speaking, thân mật. Không nên đưa vào Writing Task 2.",
+  "alt": [
+   "word has it that",
+   "hear through the grapevine",
+   "a little bird told me"
+  ],
+  "ex": "I heard on the grapevine that our school is going to stop printing its student newspaper.",
+  "exvi": "Tôi nghe phong thanh rằng trường mình sẽ ngừng in báo học sinh.",
+  "em": "🍇"
+ },
+ {
+  "w": "beat about the bush",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "nói vòng vo, không vào thẳng vấn đề",
+  "use": "Rất tự nhiên trong IELTS Speaking, thường ở dạng phủ định: Don't beat about the bush. Không dùng trong Writing Task 2. Anh Mỹ nói beat around the bush.",
+  "alt": [
+   "get to the point",
+   "talk in circles",
+   "not mince your words"
+  ],
+  "ex": "Our teacher never beats about the bush when giving feedback, so we always know what to improve.",
+  "exvi": "Cô giáo chúng tôi không bao giờ nói vòng vo khi nhận xét, nên chúng tôi luôn biết cần cải thiện gì.",
+  "em": ""
+ },
+ {
+  "w": "get the wrong end of the stick",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "hiểu nhầm hoàn toàn ý ai",
+  "use": "Phổ biến trong Anh Anh, hợp IELTS Speaking. Không đưa vào Writing Task 2.",
+  "alt": [
+   "misunderstand sb",
+   "get the wrong idea",
+   "get the message"
+  ],
+  "ex": "My grandmother got the wrong end of the stick and thought I had quit my job to become an influencer.",
+  "exvi": "Bà tôi hiểu nhầm hoàn toàn và tưởng tôi bỏ việc để làm người có ảnh hưởng trên mạng.",
+  "em": ""
+ },
+ {
+  "w": "put sb in the picture",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "cho ai biết tình hình",
+  "use": "Thân mật, hợp IELTS Speaking khi nói về công việc. Không dùng trong Writing Task 2.",
+  "alt": [
+   "fill sb in",
+   "bring sb up to speed",
+   "keep sb in the loop"
+  ],
+  "ex": "When I joined the project late, a colleague kindly put me in the picture over coffee.",
+  "exvi": "Khi tôi tham gia dự án muộn, một đồng nghiệp đã tử tế kể cho tôi nắm tình hình trong lúc uống cà phê.",
+  "em": ""
+ },
+ {
+  "w": "talk at cross purposes",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "nói chuyện mà mỗi người hiểu một kiểu, ông nói gà bà nói vịt",
+  "use": "Hợp IELTS Speaking khi kể chuyện hiểu lầm. Có thể dùng thận trọng trong văn bán trang trọng, nhưng không nên ép vào Writing Task 2.",
+  "alt": [
+   "be on different wavelengths",
+   "miscommunication",
+   "be on the same page"
+  ],
+  "ex": "We argued for ten minutes before realising we were talking at cross purposes about two different meetings.",
+  "exvi": "Chúng tôi tranh cãi mười phút mới nhận ra mỗi người đang nói về một cuộc họp khác nhau.",
+  "em": ""
+ },
+ {
+  "w": "keep sb in the loop",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "cập nhật thông tin cho ai thường xuyên",
+  "use": "Rất phổ biến ở công sở, hợp IELTS Speaking. Không dùng trong Writing Task 2.",
+  "alt": [
+   "keep sb posted",
+   "keep sb informed",
+   "out of the loop"
+  ],
+  "ex": "Our team uses a group chat to keep everyone in the loop when plans change at the last minute.",
+  "exvi": "Nhóm chúng tôi dùng nhóm chat để cập nhật cho mọi người khi kế hoạch thay đổi vào phút chót.",
+  "em": "🔁"
+ },
+ {
+  "w": "spill the beans",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "để lộ bí mật",
+  "use": "Thân mật, hợp IELTS Speaking. Không đưa vào Writing Task 2.",
+  "alt": [
+   "let the cat out of the bag",
+   "give the game away",
+   "keep sth under wraps"
+  ],
+  "ex": "A journalist spilled the beans about the new phone before the company could announce it officially.",
+  "exvi": "Một nhà báo đã để lộ thông tin về chiếc điện thoại mới trước khi công ty kịp công bố chính thức.",
+  "em": "🫘"
+ },
+ {
+  "w": "get a word in edgeways",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "chen được một lời (khi người khác nói liên tục)",
+  "use": "Hầu như luôn ở dạng phủ định: I couldn't get a word in edgeways. Hợp IELTS Speaking, không dùng trong Writing. Anh Mỹ nói edgewise.",
+  "alt": [
+   "can't get a word in",
+   "talk nineteen to the dozen",
+   "hog the conversation"
+  ],
+  "ex": "On the TV debate, one guest talked so much that the others could hardly get a word in edgeways.",
+  "exvi": "Trong buổi tranh luận trên truyền hình, một khách mời nói nhiều đến mức những người khác gần như không chen được lời nào.",
+  "em": ""
+ },
+ {
+  "w": "read between the lines",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "hiểu ý ngầm, đọc được ẩn ý",
+  "use": "Phổ biến và tự nhiên, hợp IELTS Speaking. Trong Writing Task 2 nên thay bằng interpret the underlying message.",
+  "alt": [
+   "read into sth",
+   "take sth at face value",
+   "hidden meaning"
+  ],
+  "ex": "If you read between the lines, the company's statement suggests that more job cuts are coming.",
+  "exvi": "Nếu đọc kỹ ẩn ý, tuyên bố của công ty cho thấy sẽ còn cắt giảm việc làm nữa.",
+  "em": "📖"
+ },
+ {
+  "w": "a storm in a teacup",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "chuyện bé xé ra to",
+  "use": "Anh Anh, hợp IELTS Speaking khi nói về tin tức bị thổi phồng. Không dùng trong Writing Task 2. Anh Mỹ nói a tempest in a teapot.",
+  "alt": [
+   "make a mountain out of a molehill",
+   "blow sth out of proportion",
+   "a fuss about nothing"
+  ],
+  "ex": "The online row over the singer's outfit was really a storm in a teacup and was forgotten within days.",
+  "exvi": "Vụ ồn ào trên mạng về trang phục của ca sĩ thực ra là chuyện bé xé ra to và bị quên chỉ sau vài ngày.",
+  "em": "🫖"
+ },
+ {
+  "w": "put words into sb's mouth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "gán cho ai điều họ không nói",
+  "use": "Hay dùng khi phản bác: Don't put words into my mouth. Hợp IELTS Speaking, không đưa vào Writing.",
+  "alt": [
+   "twist sb's words",
+   "quote sb out of context",
+   "misquote sb"
+  ],
+  "ex": "The interviewer kept putting words into the scientist's mouth to make the story more dramatic.",
+  "exvi": "Người phỏng vấn liên tục gán cho nhà khoa học những điều ông không nói để câu chuyện thêm kịch tính.",
+  "em": ""
+ },
+ {
+  "w": "be economical with the truth",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C2",
+  "vi": "không nói hết sự thật, nói dối khéo",
+  "use": "Cách nói giảm nhẹ, hơi mỉa mai. Hợp IELTS Speaking và văn bình luận, nhưng không nên ép vào Writing Task 2.",
+  "alt": [
+   "bend the truth",
+   "tell a white lie",
+   "be upfront"
+  ],
+  "ex": "Some advertisers are economical with the truth when they describe their products as natural.",
+  "exvi": "Một số nhà quảng cáo không nói hết sự thật khi mô tả sản phẩm của họ là tự nhiên.",
+  "em": ""
+ },
+ {
+  "w": "take sth with a pinch of salt",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "nghe nhưng không tin hoàn toàn, bán tín bán nghi",
+  "use": "Rất hữu ích trong IELTS Speaking khi nói về tin trên mạng. Không dùng trong Writing Task 2. Anh Mỹ nói a grain of salt.",
+  "alt": [
+   "take sth at face value",
+   "be sceptical about sth",
+   "believe sth wholeheartedly"
+  ],
+  "ex": "I take online product reviews with a pinch of salt because many of them are paid for.",
+  "exvi": "Tôi không tin hoàn toàn các bài đánh giá sản phẩm trên mạng vì nhiều bài là được trả tiền.",
+  "em": "🧂"
+ },
+ {
+  "w": "speak volumes",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "nói lên rất nhiều điều, cho thấy rõ",
+  "use": "Có thể dùng trong cả Speaking và văn viết bán trang trọng. Chủ ngữ là sự việc: Her silence spoke volumes.",
+  "alt": [
+   "say a lot about sth",
+   "tell you everything",
+   "actions speak louder than words"
+  ],
+  "ex": "The fact that so few young people watch the evening news speaks volumes about how media habits have changed.",
+  "exvi": "Việc quá ít người trẻ xem bản tin buổi tối cho thấy rõ thói quen tiếp nhận truyền thông đã thay đổi thế nào.",
+  "em": ""
+ },
+ {
+  "w": "set the record straight",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "C1",
+  "vi": "đính chính, làm rõ sự thật",
+  "use": "Khá trung tính, dùng được trong Speaking và văn bán trang trọng. Không nên ép vào Writing Task 2.",
+  "alt": [
+   "put the record straight",
+   "clear the air",
+   "correct a misunderstanding"
+  ],
+  "ex": "The actor gave an interview to set the record straight about the rumours surrounding his retirement.",
+  "exvi": "Nam diễn viên trả lời phỏng vấn để đính chính những tin đồn xoay quanh việc anh giải nghệ.",
+  "em": ""
+ },
+ {
+  "w": "bite your tongue",
+  "deck": "idiom",
+  "pat": "idiom",
+  "cefr": "B2",
+  "vi": "cố nhịn không nói ra",
+  "use": "Hợp IELTS Speaking khi kể chuyện bất đồng. Không dùng trong Writing Task 2.",
+  "alt": [
+   "hold your tongue",
+   "keep your mouth shut",
+   "speak your mind"
+  ],
+  "ex": "I had to bite my tongue when my uncle started sharing fake news at the family dinner.",
+  "exvi": "Tôi phải cố nhịn không nói khi chú tôi bắt đầu chia sẻ tin giả trong bữa cơm gia đình.",
+  "em": "🤐"
+ },
+ {
+  "w": "play down",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "giảm nhẹ, xem nhẹ (mức độ nghiêm trọng)",
+  "use": "Hợp cả Writing và Speaking khi nói về chính phủ, công ty. Thường: play down the risks / the importance of sth.",
+  "alt": [
+   "downplay",
+   "minimise",
+   "play up"
+  ],
+  "ex": "The company tried to play down the security problem, but users were still worried about their data.",
+  "exvi": "Công ty cố giảm nhẹ sự cố bảo mật, nhưng người dùng vẫn lo cho dữ liệu của mình.",
+  "em": ""
+ },
+ {
+  "w": "play up",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "thổi phồng, nhấn mạnh quá mức",
+  "use": "Ngược nghĩa với play down. Lưu ý play up còn có nghĩa thân mật khác là (máy móc, trẻ con) quậy, trục trặc.",
+  "alt": [
+   "exaggerate",
+   "overstate",
+   "play down"
+  ],
+  "ex": "Tabloids tend to play up conflicts between celebrities because dramatic stories attract more readers.",
+  "exvi": "Báo lá cải hay thổi phồng mâu thuẫn giữa người nổi tiếng vì chuyện kịch tính thu hút nhiều độc giả hơn.",
+  "em": ""
+ },
+ {
+  "w": "hush up",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "ỉm đi, bưng bít (chuyện xấu)",
+  "use": "Thường dùng ở bị động: The scandal was hushed up. Hợp Speaking và văn báo chí.",
+  "alt": [
+   "cover up",
+   "keep sth quiet",
+   "bring sth to light"
+  ],
+  "ex": "The hospital tried to hush up the mistake, but a nurse eventually told a local journalist.",
+  "exvi": "Bệnh viện cố ỉm sai sót đi, nhưng cuối cùng một y tá đã kể với nhà báo địa phương.",
+  "em": "🤫"
+ },
+ {
+  "w": "spell out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "nói rõ ràng, giải thích cặn kẽ",
+  "use": "Dùng được trong Writing và Speaking. Thường: spell out the details / the consequences.",
+  "alt": [
+   "make sth clear",
+   "explain in detail",
+   "lay out"
+  ],
+  "ex": "The new guidelines spell out exactly what kind of content is not allowed on the platform.",
+  "exvi": "Hướng dẫn mới nói rõ chính xác loại nội dung nào không được phép trên nền tảng.",
+  "em": ""
+ },
+ {
+  "w": "get across",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "truyền đạt (ý, thông điệp) cho người khác hiểu",
+  "use": "Rất hợp Speaking: get my message across, get my point across. Người Việt hay nói transmit my idea, nghe không tự nhiên.",
+  "alt": [
+   "put across",
+   "convey",
+   "come across"
+  ],
+  "ex": "Good presenters use simple examples to get complex ideas across to a general audience.",
+  "exvi": "Người thuyết trình giỏi dùng ví dụ đơn giản để truyền đạt ý phức tạp đến khán giả phổ thông.",
+  "em": ""
+ },
+ {
+  "w": "butt in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "chen ngang, ngắt lời",
+  "use": "Thân mật, có ý chê. Hợp IELTS Speaking. Không dùng trong Writing.",
+  "alt": [
+   "interrupt",
+   "cut in",
+   "chime in"
+  ],
+  "ex": "It is hard to have a proper discussion when someone keeps butting in with their own stories.",
+  "exvi": "Thật khó thảo luận tử tế khi có người cứ chen ngang để kể chuyện của mình.",
+  "em": ""
+ },
+ {
+  "w": "chime in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "góp lời, xen vào cuộc trò chuyện",
+  "use": "Trung tính hơn butt in, không mang ý chê. Hợp Speaking và giao tiếp công sở.",
+  "alt": [
+   "join in",
+   "add your two cents",
+   "butt in"
+  ],
+  "ex": "During the online meeting, several students chimed in with useful ideas for the class project.",
+  "exvi": "Trong buổi họp trực tuyến, nhiều học sinh góp lời với những ý tưởng hữu ích cho dự án lớp.",
+  "em": "🔔"
+ },
+ {
+  "w": "back up",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "chứng minh, củng cố (bằng chứng); ủng hộ ai",
+  "use": "Rất hợp Writing Task 2: back up your argument with evidence. Đừng nhầm với back up dữ liệu.",
+  "alt": [
+   "support",
+   "substantiate",
+   "undermine"
+  ],
+  "ex": "Journalists should back up their claims with evidence from at least two independent sources.",
+  "exvi": "Nhà báo nên củng cố các tuyên bố của mình bằng bằng chứng từ ít nhất hai nguồn độc lập.",
+  "em": ""
+ },
+ {
+  "w": "blurt out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "B2",
+  "vi": "buột miệng nói ra",
+  "use": "Hợp Speaking khi kể chuyện. Thường dùng với bí mật hoặc câu trả lời vội.",
+  "alt": [
+   "let slip",
+   "come out with",
+   "keep quiet"
+  ],
+  "ex": "Nervous during the interview, he blurted out his salary expectations before the manager asked.",
+  "exvi": "Lo lắng trong buổi phỏng vấn, anh ấy buột miệng nói mức lương mong muốn trước khi quản lý hỏi.",
+  "em": ""
+ },
+ {
+  "w": "talk down to sb",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "nói chuyện kẻ cả, coi thường người nghe",
+  "use": "Hợp Speaking và Writing về giáo dục, truyền thông. Không nói: talk sb down to.",
+  "alt": [
+   "patronise sb",
+   "be condescending",
+   "treat sb as an equal"
+  ],
+  "ex": "Young viewers quickly switch off programmes that talk down to them instead of respecting their intelligence.",
+  "exvi": "Khán giả trẻ nhanh chóng tắt những chương trình nói chuyện kẻ cả thay vì tôn trọng trí tuệ của họ.",
+  "em": ""
+ },
+ {
+  "w": "tune in",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "B2",
+  "vi": "bật xem, nghe (kênh, chương trình)",
+  "use": "Hay gặp: tune in to a channel. Dùng được cả Speaking lẫn Writing về truyền thông.",
+  "alt": [
+   "watch live",
+   "switch off",
+   "stream"
+  ],
+  "ex": "Millions of people tuned in to watch the final episode, even though it was available online the next day.",
+  "exvi": "Hàng triệu người đã bật xem tập cuối, dù ngày hôm sau nó đã có trên mạng.",
+  "em": "📻"
+ },
+ {
+  "w": "shout down",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "la ó át tiếng, không cho ai nói",
+  "use": "Hay dùng ở bị động: The speaker was shouted down. Hợp Writing về tự do ngôn luận.",
+  "alt": [
+   "drown out",
+   "silence",
+   "give sb a fair hearing"
+  ],
+  "ex": "The guest speaker was shouted down by protesters before she could finish her talk on climate policy.",
+  "exvi": "Diễn giả khách mời bị người biểu tình la ó át tiếng trước khi kịp kết thúc bài nói về chính sách khí hậu.",
+  "em": ""
+ },
+ {
+  "w": "leak out",
+  "deck": "pv",
+  "pat": "phrasal verb",
+  "cefr": "C1",
+  "vi": "(tin tức, bí mật) bị rò rỉ ra ngoài",
+  "use": "Chủ ngữ là thông tin. Dạng có tân ngữ là leak sth to the press.",
+  "alt": [
+   "get out",
+   "leak sth to the press",
+   "come to light"
+  ],
+  "ex": "Details of the new tax plan leaked out a week before the government was ready to announce it.",
+  "exvi": "Chi tiết kế hoạch thuế mới bị rò rỉ ra ngoài một tuần trước khi chính phủ sẵn sàng công bố.",
+  "em": "💧"
+ },
+ {
+  "w": "drown out",
+  "deck": "pv",
+  "pat": "phrasal verb, tách được",
+  "cefr": "C1",
+  "vi": "lấn át, làm không nghe thấy; làm lu mờ (ý kiến khác)",
+  "use": "Nghĩa bóng rất hợp Writing về mạng xã hội: loud voices drown out moderate opinions.",
+  "alt": [
+   "shout down",
+   "overpower",
+   "amplify"
+  ],
+  "ex": "On social media, extreme opinions often drown out the moderate voices of ordinary users.",
+  "exvi": "Trên mạng xã hội, những ý kiến cực đoan thường lấn át tiếng nói ôn hòa của người dùng bình thường.",
+  "em": ""
+ }
+]

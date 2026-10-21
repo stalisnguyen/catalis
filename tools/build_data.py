@@ -1,7 +1,7 @@
 """Build the app data files in data/ from the checked content in content/out.
 Run: python3 tools/build_data.py
 """
-import json, glob, collections
+import re, json, glob, collections
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
@@ -28,6 +28,23 @@ for f in ('topic_a.json', 'topic_b.json', 'topic_c.json', 'topic_d.json', 'topic
         if w['w'].lower() in seen: continue
         seen.add(w['w'].lower())
         by[w.get('lv', 4)].append([w['w'], w['ipa'], w['pos'], w['vi'], w['ex'], w['exvi'], w['col'], w['fam'], w['em'], w['topic']])
+# phrase decks (content/out/phr/t*.json, spec content/PHRASE_SPEC.md): 6 collocation, 7 idiom, 8 phrasal verb
+PHR_TOPIC = ['Thinking and learning', 'Change and technology', 'Time and work', 'Movement and transport', 'Communication and the media',
+             'Chance and nature', 'Quantity and money', 'Materials and the built environment', 'Reactions and health',
+             'Power and social issues', 'Quality and the arts', 'Relationships and people', 'Preference and leisure']
+PHR_LV = {'col': 6, 'idiom': 7, 'pv': 8}
+CEFR = {'B2': 0, 'C1': 1, 'C2': 2}
+phr = []
+for f in sorted(glob.glob(str(out / 'phr' / 't[0-9]*.json'))):
+    t = PHR_TOPIC[int(re.search(r't(\d+)', f).group(1)) - 1]
+    for x in json.load(open(f, encoding='utf-8')):
+        k = x['w'].lower()
+        if k in seen: continue
+        seen.add(k)
+        phr.append((PHR_LV[x['deck']], CEFR[x['cefr']], x, t))
+phr.sort(key=lambda r: (r[0], r[1]))
+for lv, _, x, t in phr:
+    by[lv].append([x['w'], '', x['pat'] + ', ' + x['cefr'], x['vi'], x['ex'], x['exvi'], x['alt'], x['use'], x.get('em', ''), t])
 for lv, rows in by.items():
     dump(f'vocab-{lv}.json', rows)
     print('vocab', lv, len(rows))
