@@ -184,7 +184,7 @@ VIEWS.settings=el=>{
    <div class="panel"><h3>Đồng bộ và trợ lý AI</h3>
      <div class="kv"><span>Đồng bộ tiến độ</span><b>${syTxt}</b></div><div class="kv"><span>Trợ lý AI</span><b>${aiTxt}</b></div>
      ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời hoặc mật khẩu nhóm</button>':''}
-     ${WEB&&getKey()?'<button class="btn ghost sm" id="stOut" style="align-self:flex-start">Quên mật khẩu trên máy này</button>':''}
+     ${WEB&&getKey()?'<div class="row" style="gap:8px"><button class="btn sm" id="stChg">Đổi mật khẩu hoặc mã trên máy này</button><button class="btn ghost sm" id="stOut">Xóa mật khẩu khỏi máy này</button></div>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
    <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button><button class="btn sm" id="stPlR">Xóa kết quả xếp lớp</button></div>
      <p class="note">Catalis, Stalis's IELTS. Danh sách từ: NGSL và NAWL (Browne, Culligan, Phillips; CC BY-SA 4.0). Phiên âm tham khảo ipa-dict (MIT). Đề luyện, bài mẫu do Catalis soạn riêng theo định dạng IELTS, không phải đề thi thật.</p></div>
@@ -194,7 +194,8 @@ VIEWS.settings=el=>{
   $('#stNew').onchange=e=>{P.settings.newPerDay=Math.max(0,Math.min(60,+e.target.value||0));c.auto=false;queue=[];touch('main');};
   uiToggles(el);
   const k=$('#stKey');if(k)k.onclick=async()=>{const ok=await askPassword(false);if(ok){await initPlatform();VIEWS.settings(el);}};
-  const o=$('#stOut');if(o)o.onclick=()=>{setKey('');toast('Đã xóa mật khẩu trên máy này.');VIEWS.settings(el);};
+  const ch=$('#stChg');if(ch)ch.onclick=async()=>{const ok=await askPassword(false);if(ok){await initPlatform();VIEWS.settings(el);toast('Đã đổi. Máy này giờ dùng mật khẩu hoặc mã mới.');}};
+  const o=$('#stOut');if(o)o.onclick=()=>{if(!confirm('Máy này sẽ không dùng được AI và đồng bộ cho tới khi nhập lại mật khẩu hoặc mã. Tiến độ đã lưu trên máy không bị mất. Xóa không?'))return;setKey('');toast('Đã xóa mật khẩu trên máy này.');VIEWS.settings(el);};
   $('#stRep').onclick=reportsList;$('#stHi').onclick=()=>uiIntro(true);$('#stPlR').onclick=plResetPlacement;$('#stPlR2').onclick=plResetPlacement;
 };
 
