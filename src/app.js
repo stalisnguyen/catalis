@@ -132,7 +132,7 @@ async function api(path,{method='POST',body}={}){
     try{r=await fetch(path,{method,headers:hd,body:body?JSON.stringify(body):undefined});}catch(e){throw {code:'network'};}
     if(r.status===401){setKey('');const ok=await askPassword(true);if(!ok)throw {code:'not_granted'};continue;}
     if(r.status===402){if(path.includes('sync'))throw {code:'inactive'};const ok=await askPassword(false);if(!ok)throw {code:'not_granted'};continue;}
-    if(r.status===429)throw {code:'rate_limited'};
+    if(r.status===429){const j=await r.json().catch(()=>({}));throw {code:j.error==='daily_limit'?'daily_limit':'rate_limited',data:j};}
     if(r.status===403||(r.status===400&&path.includes('sync'))){const ok=await askPin(r.status===403&&WHO&&WHO.pin);if(!ok)throw {code:'not_granted'};continue;}
     const j=await r.json().catch(()=>({}));
     if(!r.ok)throw {code:j.error||'upstream',data:j.data};
@@ -170,6 +170,8 @@ function aiError(e){
   const c=e&&e.code;
   if(c==='no_ai')return 'Trợ lý AI chưa bật trên máy chủ (cần APP_PASSWORD và GROQ_API_KEY trong Vercel).';
   if(c==='not_granted')return 'Cần nhập mật khẩu nhóm để dùng phần này.';
+  if(c==='daily_limit')return `Hôm nay bạn đã dùng hết ${(e.data&&e.data.limit)||50} lượt AI. Lượt mới mở lại lúc 0 giờ.`;
+  if(c==='inactive')return 'Tài khoản này hiện chưa có quyền dùng trợ lý AI.';
   if(c==='rate_limited')return 'Đã chạm giới hạn lượt dùng miễn phí. Đợi một lúc rồi thử lại.';
   if(c==='no_key')return 'Chưa có API key cho AI trong Vercel (GROQ_API_KEY).';
   if(c==='no_password')return 'Chưa đặt mật khẩu nhóm trong Vercel (APP_PASSWORD).';
