@@ -3,7 +3,7 @@
 // Fixed app texts never come here: they are pre-generated Kokoro files (audio/t, audio/l). Responses are cacheable, so each line is
 // synthesised once and then served from the CDN / browser cache.
 //   POST {text, lang:'en-GB'|'en-AU'|'en-US', voice:'f'|'m'|'f2'|'m2', rate:0.6..1.3} -> audio/mpeg
-const { checkKey, track } = require('./_lib');
+const { deny, track } = require('./_lib');
 
 const VOICES = {
   'en-GB': { f: 'en-GB-SoniaNeural', m: 'en-GB-RyanNeural', f2: 'en-GB-LibbyNeural', m2: 'en-GB-ThomasNeural' },
@@ -78,7 +78,7 @@ module.exports = async (req, res) => {
     catch (e) { return res.status(200).json({ ok: false, err: String(e.message).slice(0, 300), ms: Date.now() - t0 }); }
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
-  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  if (await deny(req, res)) return;
   track('tts', req);
   const body = req.body || {};
   const text = String(body.text || '').slice(0, 1500);
