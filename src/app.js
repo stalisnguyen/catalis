@@ -113,8 +113,8 @@ async function initPlatform(){
 }
 function askPassword(wrong){
   return new Promise(res=>{
-    const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
+    const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false; const fin=v=>{if(done)return;done=true;res(v);};
@@ -169,7 +169,7 @@ async function askJSON(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI.j
 function aiError(e){
   const c=e&&e.code;
   if(c==='no_ai')return 'Trợ lý AI chưa bật trên máy chủ (cần APP_PASSWORD và GROQ_API_KEY trong Vercel).';
-  if(c==='not_granted')return 'Cần nhập mật khẩu nhóm để dùng phần này.';
+  if(c==='not_granted')return 'Cần đăng nhập (hoặc nhập mã mời) để dùng phần này.';
   if(c==='daily_limit')return `Hôm nay bạn đã dùng hết ${(e.data&&e.data.limit)||50} lượt AI. Lượt mới mở lại lúc 0 giờ.`;
   if(c==='inactive')return 'Tài khoản này hiện chưa có quyền dùng trợ lý AI.';
   if(c==='rate_limited')return 'Đã chạm giới hạn lượt dùng miễn phí. Đợi một lúc rồi thử lại.';
@@ -424,7 +424,7 @@ function openVoice(){
   const opts=g=>{const L=P.settings.accent;const list=voices.slice().sort((a,b)=>voiceScore(b,L)-voiceScore(a,L));const cur=pickVoice(L,g);
     return list.length?list.map(v=>`<option value="${esc(v.name)}" ${cur&&v.name===cur.name?'selected':''}>${esc(v.name)} (${esc(v.lang)})</option>`).join(''):'<option>Máy chưa có giọng tiếng Anh</option>';};
   const m=modal(`<h2>Giọng đọc</h2>
-    <p class="note">${WEB&&WEB.tts?'Đang dùng giọng neural của Azure (cần mật khẩu nhóm), máy chỉ dùng giọng có sẵn khi mất mạng.':'App dùng giọng đọc tiếng Anh có sẵn trên máy. Bài nghe tự đổi giọng nam, nữ và giọng Anh, Úc, Mỹ nếu máy có.'}</p>
+    <p class="note">${WEB&&WEB.tts?'Đang dùng giọng neural của Azure (cần đăng nhập), máy chỉ dùng giọng có sẵn khi mất mạng.':'App dùng giọng đọc tiếng Anh có sẵn trên máy. Bài nghe tự đổi giọng nam, nữ và giọng Anh, Úc, Mỹ nếu máy có.'}</p>
     <label class="label">Giọng mặc định</label><div class="row">${[['en-GB','Anh (UK)'],['en-AU','Úc'],['en-US','Mỹ']].map(([k,t])=>`<button class="chip" data-acc="${k}" aria-pressed="${P.settings.accent===k}">${t}</button>`).join('')}</div>
     <label class="label" for="vRate">Tốc độ</label>
     <div class="row"><input type="range" id="vRate" min="0.6" max="1.2" step="0.05" value="${P.settings.voiceRate}" style="flex:1"><span class="num" id="vRateT"></span></div>

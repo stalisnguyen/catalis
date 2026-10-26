@@ -129,7 +129,7 @@ function prSpeak(box,D){
     <div class="pr-target"><div class="pr-tw2 en">${esc(word)}</div><button class="spk" id="prHear" aria-label="Nghe mẫu">${SPK}</button></div>
     <div class="pr-micw"><button class="micbtn" id="prMic" aria-label="Bấm để nói" ${hasSR?'':'disabled'}><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
       <span class="note" id="prMicT">${hasSR?'Nghe mẫu, rồi bấm micro và đọc từ này':''}</span></div>
-    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>'}</div>
+    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Máy này chưa ghi âm được. Đăng nhập (hoặc nhập mã mời) và cho phép micro để luyện nói.</div>'}</div>
     <div class="row pr-spnav"><button class="btn sm" id="prPrevW">${ic('chevron-left')} Từ trước</button><button class="btn sm" id="prNextW">Từ tiếp ${ic('chevron-right')}</button></div>
   </div>`;
   $('#prSrc').onchange=e=>{PR_S.spSrc=e.target.value;PR_S.spIdx=0;prSpeak(box,D);};
@@ -154,7 +154,7 @@ function prSpeak(box,D){
       if(ok){award('pron',1);uiSfx('ok');}else uiSfx('bad');
       res.innerHTML=`<div class="pr-heard ${ok?'ok':'retry'}"><span class="pr-hi">${ok?ic('check'):ic('rotate-ccw')}</span><div><div>Máy nghe thấy: <b>${esc(fin||heard)}</b></div><div class="small">${ok?'Chuẩn rồi. Sang từ tiếp nhé.':'Chưa khớp với <b>'+esc(word)+'</b>. Nghe mẫu rồi thử lại.'}</div></div></div>`;
     }});
-    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>';return;}
+    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Máy này chưa ghi âm được. Đăng nhập (hoặc nhập mã mời) và cho phép micro để luyện nói.</div>';return;}
     mic.classList.add('on');t.textContent=rec.whisper?'Đang ghi âm, đọc xong dừng một chút là app tự chấm':'Đang nghe...';$('#prRes').innerHTML='';
   };
 }

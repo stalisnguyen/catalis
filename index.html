@@ -1668,6 +1668,11 @@ details[open]>summary .pr-chev{transform:rotate(90deg)}
 #gIn{display:flex;justify-content:center;min-height:44px;margin:6px 0}
 #gOr{text-align:center;margin:4px 0 8px}
 #acG iframe,#gIn iframe{color-scheme:light;clip-path:inset(2px 3px round 20px)}
+.ac-nudge{display:block!important}
+.ac-nudge-t p{margin:4px 0 0}
+.ac-nudge .ac-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:10px}
+.ac-nudge #acNG{min-height:40px;display:flex;align-items:center}
+.g-inapp{border:1px dashed var(--line,#ccc);border-radius:12px;padding:10px 12px;text-align:left}.g-inapp p{margin:0 0 6px}
 
 .up-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .up-plan{position:relative;display:flex;flex-direction:column;gap:6px}
@@ -1818,8 +1823,8 @@ async function initPlatform(){
 }
 function askPassword(wrong){
   return new Promise(res=>{
-    const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
+    const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false; const fin=v=>{if(done)return;done=true;res(v);};
@@ -1874,7 +1879,7 @@ async function askJSON(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI.j
 function aiError(e){
   const c=e&&e.code;
   if(c==='no_ai')return 'Trợ lý AI chưa bật trên máy chủ (cần APP_PASSWORD và GROQ_API_KEY trong Vercel).';
-  if(c==='not_granted')return 'Cần nhập mật khẩu nhóm để dùng phần này.';
+  if(c==='not_granted')return 'Cần đăng nhập (hoặc nhập mã mời) để dùng phần này.';
   if(c==='daily_limit')return `Hôm nay bạn đã dùng hết ${(e.data&&e.data.limit)||50} lượt AI. Lượt mới mở lại lúc 0 giờ.`;
   if(c==='inactive')return 'Tài khoản này hiện chưa có quyền dùng trợ lý AI.';
   if(c==='rate_limited')return 'Đã chạm giới hạn lượt dùng miễn phí. Đợi một lúc rồi thử lại.';
@@ -2129,7 +2134,7 @@ function openVoice(){
   const opts=g=>{const L=P.settings.accent;const list=voices.slice().sort((a,b)=>voiceScore(b,L)-voiceScore(a,L));const cur=pickVoice(L,g);
     return list.length?list.map(v=>`<option value="${esc(v.name)}" ${cur&&v.name===cur.name?'selected':''}>${esc(v.name)} (${esc(v.lang)})</option>`).join(''):'<option>Máy chưa có giọng tiếng Anh</option>';};
   const m=modal(`<h2>Giọng đọc</h2>
-    <p class="note">${WEB&&WEB.tts?'Đang dùng giọng neural của Azure (cần mật khẩu nhóm), máy chỉ dùng giọng có sẵn khi mất mạng.':'App dùng giọng đọc tiếng Anh có sẵn trên máy. Bài nghe tự đổi giọng nam, nữ và giọng Anh, Úc, Mỹ nếu máy có.'}</p>
+    <p class="note">${WEB&&WEB.tts?'Đang dùng giọng neural của Azure (cần đăng nhập), máy chỉ dùng giọng có sẵn khi mất mạng.':'App dùng giọng đọc tiếng Anh có sẵn trên máy. Bài nghe tự đổi giọng nam, nữ và giọng Anh, Úc, Mỹ nếu máy có.'}</p>
     <label class="label">Giọng mặc định</label><div class="row">${[['en-GB','Anh (UK)'],['en-AU','Úc'],['en-US','Mỹ']].map(([k,t])=>`<button class="chip" data-acc="${k}" aria-pressed="${P.settings.accent===k}">${t}</button>`).join('')}</div>
     <label class="label" for="vRate">Tốc độ</label>
     <div class="row"><input type="range" id="vRate" min="0.6" max="1.2" step="0.05" value="${P.settings.voiceRate}" style="flex:1"><span class="num" id="vRateT"></span></div>
@@ -3781,7 +3786,7 @@ function WR_open(el,id,showHist){
         <div class="spread wr-bar"><span class="wr-wc" id="wrWc"></span><div class="row" id="wrTm"></div></div>
         <textarea id="wrTx" class="wr-tx en-s" spellcheck="false" autocomplete="off" autocorrect="off" placeholder="${x._k==='t1g'?'Dear ...':'Viết bài của bạn bằng tiếng Anh ở đây...'}" aria-label="Bài viết"></textarea>
         <div class="spread"><button class="btn primary" id="wrSub">${ic('sparkles')} Nộp bài và chấm</button><span class="small muted" id="wrSaved">Bài nháp tự lưu</span></div>
-        <p class="note no-ai">AI chấm bài cần mật khẩu nhóm và máy chủ đã cấu hình. Bạn vẫn có thể nộp để so sánh với bài mẫu.</p>
+        <p class="note no-ai">AI chấm bài cần đăng nhập và máy chủ đã cấu hình. Bạn vẫn có thể nộp để so sánh với bài mẫu.</p>
       </section>
       <section class="wr-ha">${WR_helpHTML(x)}</section>
     </div>
@@ -3807,7 +3812,7 @@ function WR_open(el,id,showHist){
   const out=$('#wrOut',el);
   const showModelOnly=text=>{
     out.innerHTML=`<div class="panel">${mcSay('calm','Bài đã được lưu. Hãy đọc bài mẫu và tự so sánh: bố cục, câu tổng quan, từ nối và cách dùng từ.',56)}
-      <p class="note">${AI?'':'AI chấm bài cần mật khẩu nhóm (nhập ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
+      <p class="note">${AI?'':'AI chấm bài cần đăng nhập (ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
       <div class="grid2 wr-cmp"><div class="panel"><h3>Bài của bạn</h3><div class="en-s wr-essay">${esc(text)}</div></div>
       <div class="panel"><h3>Bài mẫu</h3>${WR_models(x)}</div></div>`;
   };
@@ -3884,7 +3889,7 @@ window.WR_exam=async(el,{onDone}={})=>{
     const modelsOnly=(msg)=>{out.innerHTML=`<div class="panel">${mcSay('calm',msg,56)}</div>
       ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu</h3>${WR_models(x)}</div></div>`).join('')}
       <div class="row"><button class="btn primary" id="wxDone">Tiếp tục</button></div>`;cont(null);};
-    if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần mật khẩu nhóm và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
+    if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần đăng nhập và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
     const grade=async()=>{
       out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
       try{
@@ -3921,7 +3926,7 @@ const SP_CRIT=[['fc','Trôi chảy và mạch lạc','Fluency and Coherence','N�
   ['gra','Ngữ pháp','Grammatical Range and Accuracy','Dùng cả câu đơn lẫn câu phức, ít lỗi.'],
   ['pr','Phát âm','Pronunciation','Dễ nghe, rõ âm cuối, đúng trọng âm, ngữ điệu tự nhiên.']];
 const SP_TOP={person:'Người',place:'Nơi chốn',object:'Đồ vật',event:'Sự kiện',experience:'Trải nghiệm',activity:'Hoạt động',media:'Sách, phim, mạng'};
-const SP_NOSR='Máy này chưa ghi âm được (cần mật khẩu nhóm và quyền micro), hãy gõ câu trả lời';
+const SP_NOSR='Máy này chưa ghi âm được (cần đăng nhập và quyền micro), hãy gõ câu trả lời';
 const SP_ms=()=>window.__spFast?50:1000;
 const SP_c=s=>String(s==null?'':s).replace(/\s*[\u2014\u2013]\s*/g,', ').replace(/\u2192/g,'->').replace(/\u2190/g,'<-').replace(/\u2194/g,'<->');
 const SP_hasSR=()=>canListen();
@@ -4013,7 +4018,7 @@ function SP_rec(host,o){
       <div class="sp-stats" data-stats></div>
       ${st.secs&&words()&&st.secs>=10?`<p class="note">${SP_paceNote(words(),st.secs)}</p>`:''}
       <div class="row">${o.exam?'':`<button class="btn sm need-ai" data-ai>${ic('sparkles')} Nhận xét bằng AI</button><button class="btn ghost sm" data-again>${ic('rotate-ccw')} Nói lại</button>`}</div>
-      ${o.exam?'':'<p class="note no-ai">Bật trợ lý AI (mật khẩu nhóm) để được chấm band và sửa câu.</p>'}
+      ${o.exam?'':'<p class="note no-ai">Đăng nhập để bật trợ lý AI để được chấm band và sửa câu.</p>'}
       <div class="sp-ai"></div>`;
     stats(); refreshAIBits();
     const ta=$('.sp-tr',body);
@@ -4148,7 +4153,7 @@ function SP_home(el){
         <h3>${ic('message-circle')} Phỏng vấn với giám khảo AI</h3>
         <p class="note">Giám khảo AI hỏi Part 1, đưa cue card cho Part 2 (có giờ chuẩn bị và giờ nói), rồi hỏi tiếp Part 3 dựa trên những gì bạn nói. Trong lúc thi giám khảo không sửa lỗi. Bấm "Kết thúc và chấm" để nhận band và nhận xét.</p>
         <div class="row need-ai"><button class="btn primary" data-chat>${ic('mic')} Bắt đầu phỏng vấn</button></div>
-        <p class="note no-ai">Cần bật trợ lý AI (mật khẩu nhóm) để dùng giám khảo AI. Bạn vẫn có thể làm bài thi đủ 3 phần bên dưới.</p>
+        <p class="note no-ai">Cần đăng nhập để bật trợ lý AI để dùng giám khảo AI. Bạn vẫn có thể làm bài thi đủ 3 phần bên dưới.</p>
       </div>
       <div class="panel"><h3>${ic('clipboard-check')} Thi thử Speaking đủ 3 phần</h3>
         <p class="note">Khoảng 12 phút: Part 1 (4 câu), Part 2 (1 phút chuẩn bị, 2 phút nói), Part 3 (3-4 câu). Câu hỏi lấy từ ngân hàng đề, không cần AI. Có AI thì được chấm cả bài.</p>
@@ -4533,8 +4538,8 @@ VIEWS.lab=el=>{
   const body=$('#lbBody',el);
   if(!AI){
     const srv=WEB&&!WEB.ai;
-    body.innerHTML=`<div class="panel lb-noai">${mcSay('hmm',srv?'Phòng AI cần trợ lý AI, nhưng máy chủ chưa bật AI. Người quản lý cần đặt APP_PASSWORD và GROQ_API_KEY trong Vercel.':'Jack cần trợ lý AI để tranh luận, chấm paraphrase và lọc từ cho bạn. Nhập mật khẩu nhóm để mở khóa, mỗi máy chỉ cần nhập một lần.',72)}
-      ${srv?'':`<div class="row"><button class="btn primary" id="lbKey">${ic('sparkles')} Nhập mật khẩu nhóm</button></div>`}
+    body.innerHTML=`<div class="panel lb-noai">${mcSay('hmm',srv?'Phòng AI cần trợ lý AI, nhưng máy chủ chưa bật AI. Người quản lý cần đặt APP_PASSWORD và GROQ_API_KEY trong Vercel.':'Jack cần trợ lý AI để tranh luận, chấm paraphrase và lọc từ cho bạn. Đăng nhập Google (hoặc nhập mã mời) để mở khóa, chỉ cần một lần.',72)}
+      ${srv?'':`<div class="row"><button class="btn primary" id="lbKey">${ic('sparkles')} Đăng nhập hoặc nhập mã</button></div>`}
       <ul class="lb-ul note"><li><b>Tranh luận:</b> Jack phản biện từng lập luận của bạn bằng giọng nói, cuối trận chấm band và gợi ý dàn bài Task 2.</li><li><b>Paraphrase:</b> viết lại câu học thuật và được chấm độ giữ nghĩa, độ tự nhiên, độ khác cấu trúc.</li><li><b>Từ đời thật:</b> dán email, bài báo tiếng Anh, Jack lọc ra cụm từ đáng học và đưa vào thẻ ôn.</li></ul></div>`;
     if(!WEB){let n=0;const iv=setInterval(()=>{n++;if(!LB_body()||current!=='lab'){clearInterval(iv);return;}if(AI){clearInterval(iv);VIEWS.lab(el);}else if(WEB||n>40)clearInterval(iv);},250);}
     const k=$('#lbKey',body);
@@ -5216,7 +5221,7 @@ function prSpeak(box,D){
     <div class="pr-target"><div class="pr-tw2 en">${esc(word)}</div><button class="spk" id="prHear" aria-label="Nghe mẫu">${SPK}</button></div>
     <div class="pr-micw"><button class="micbtn" id="prMic" aria-label="Bấm để nói" ${hasSR?'':'disabled'}><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg></button>
       <span class="note" id="prMicT">${hasSR?'Nghe mẫu, rồi bấm micro và đọc từ này':''}</span></div>
-    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>'}</div>
+    <div id="prRes" class="pr-res">${hasSR?'':'<div class="fb bad">Máy này chưa ghi âm được. Đăng nhập (hoặc nhập mã mời) và cho phép micro để luyện nói.</div>'}</div>
     <div class="row pr-spnav"><button class="btn sm" id="prPrevW">${ic('chevron-left')} Từ trước</button><button class="btn sm" id="prNextW">Từ tiếp ${ic('chevron-right')}</button></div>
   </div>`;
   $('#prSrc').onchange=e=>{PR_S.spSrc=e.target.value;PR_S.spIdx=0;prSpeak(box,D);};
@@ -5241,7 +5246,7 @@ function prSpeak(box,D){
       if(ok){award('pron',1);uiSfx('ok');}else uiSfx('bad');
       res.innerHTML=`<div class="pr-heard ${ok?'ok':'retry'}"><span class="pr-hi">${ok?ic('check'):ic('rotate-ccw')}</span><div><div>Máy nghe thấy: <b>${esc(fin||heard)}</b></div><div class="small">${ok?'Chuẩn rồi. Sang từ tiếp nhé.':'Chưa khớp với <b>'+esc(word)+'</b>. Nghe mẫu rồi thử lại.'}</div></div></div>`;
     }});
-    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Máy này chưa ghi âm được. Nhập mật khẩu nhóm và cho phép micro để luyện nói.</div>';return;}
+    if(!rec){$('#prRes').innerHTML='<div class="fb bad">Máy này chưa ghi âm được. Đăng nhập (hoặc nhập mã mời) và cho phép micro để luyện nói.</div>';return;}
     mic.classList.add('on');t.textContent=rec.whisper?'Đang ghi âm, đọc xong dừng một chút là app tự chấm':'Đang nghe...';$('#prRes').innerHTML='';
   };
 }
@@ -5693,7 +5698,7 @@ VIEWS.home=el=>{
   const firstTime=Object.keys(P.srs).length<20&&!P.placed&&!P.placeRedo;
   el.innerHTML=`<div class="view home2">
    <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Jack tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Thêm chút nữa nhé.`:'Mỗi ngày một chút, band sẽ lên. Học cùng Jack nhé.'}</p></div></div>
-   ${SYNC==='web'&&syncState==='off'?`<div class="vbanner">${mcSay('hmm','Tiến độ đang chỉ lưu trên máy này. Nhập mật khẩu nhóm để đồng bộ với các máy khác và hiện trên bảng Bạn học.',48)}<div class="row"><button class="btn primary sm" id="hmSync">Nhập mật khẩu nhóm</button></div></div>`:''}
+   ${SYNC==='web'&&syncState==='off'?`<div class="vbanner">${mcSay('hmm','Tiến độ đang chỉ lưu trên máy này. Đăng nhập Google (hoặc nhập mã mời) để đồng bộ với các máy khác và hiện trên bảng Bạn học.',48)}<div class="row"><button class="btn primary sm" id="hmSync">Đăng nhập hoặc nhập mã</button></div></div>`:''}
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
@@ -5782,8 +5787,8 @@ function uiAaSheet(){
 }
 VIEWS.settings=el=>{
   const c=plCfg();
-  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần nhập mật khẩu':'Chưa cấu hình trên máy chủ'):'Không kết nối được máy chủ';
-  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần mật khẩu)':'Chỉ lưu trên máy này';
+  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần đăng nhập':'Chưa cấu hình trên máy chủ'):'Không kết nối được máy chủ';
+  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần đăng nhập)':'Chỉ lưu trên máy này';
   el.innerHTML=`<div class="view set">
    <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0"><b>${c.exam==='general'?'General Training':'Academic'}</b>, mục tiêu band <b>${c.target.toFixed(1)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
@@ -5936,7 +5941,7 @@ function profileForm(fresh){
   return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Stalis" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
     <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
     ${getKey()?'':`<label class="pf-l">Mật khẩu nhóm (để đồng bộ giữa các máy)<input type="password" id="pfK" autocomplete="current-password" placeholder="Mật khẩu chung của nhóm"></label>`}
-    <p class="pf-n">Dùng đúng tên, PIN và mật khẩu nhóm này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+    <p class="pf-n">Đăng nhập cùng tài khoản Google trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
 }
 function switchProfile(){
   const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
@@ -5959,11 +5964,11 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')?location.origin:'https://catalis.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học cần đồng bộ trên máy chủ. Khi máy chủ bật đồng bộ, cả nhóm sẽ thấy nhau ở đây.',64)}${invite}</div>`;bindInv();return;}
-  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Nhập mật khẩu nhóm để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>${invite}</div>`;
+  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Đăng nhập Google (hoặc nhập mã mời) để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Đăng nhập hoặc nhập mã</button>${invite}</div>`;
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
@@ -6134,6 +6139,13 @@ const AUTH_T={loc:"vi",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
+  nudgeTitle:"Đăng nhập để học liền mạch",
+  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  later:"Để sau",
+  inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
+  inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
+  copyLink:"Chép link",
+  linkCopied:"Đã chép link. Dán vào Safari hoặc Chrome nhé.",
   adm:"Tài khoản Google",
   admTrial:"Số ngày dùng thử cho tài khoản mới (0 = tắt, để 0 trong giai đoạn beta)",
   admLimit:"Lượt AI mỗi người mỗi ngày",
@@ -6161,7 +6173,13 @@ async function authPost(action,extra){
   return {ok:r.ok,status:r.status,j:await r.json().catch(()=>({}))};
 }
 /* Google button in box; onAcct(acct) once the server has accepted the sign-in */
+/* Facebook, Messenger, Instagram, Zalo, Line... open links in their own browser, where Google refuses to sign in */
+const authInApp=()=>/FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Zalo|Line\/|MicroMessenger|TikTok|musical_ly|BytedanceWebview/i.test(navigator.userAgent||'');
+function authInAppHTML(){return `<div class="g-inapp"><p class="small"><b>${AUTH_T.inAppTitle}</b></p><p class="small">${AUTH_T.inAppSteps}</p>
+  <button class="btn sm" type="button" data-cplink>${AUTH_T.copyLink}</button></div>`;}
 async function authButton(box,onAcct,onErr){
+  if(authInApp()){box.innerHTML=authInAppHTML();const b=$('[data-cplink]',box);if(b)b.onclick=()=>{const u=location.origin+location.pathname;
+    try{navigator.clipboard.writeText(u);toast(AUTH_T.linkCopied);}catch(e){prompt('',u);}};return;}
   try{await loadGIS();}catch(e){box.innerHTML=`<p class="small">${AUTH_T.noGis}</p>`;return;}
   /* phones and home-screen apps: full-page redirect, because the popup window cannot report back there */
   const redirect=navigator.standalone===true||matchMedia('(display-mode: standalone)').matches||matchMedia('(pointer: coarse)').matches;
@@ -6261,6 +6279,20 @@ async function authAdmin(host){
       if(!r.ok||!r.j.token){toast(r.status===429?AUTH_T.slow:AUTH_T.fail,5000);return;}
       setKey(r.j.token);acctSet(r.j.acct);toast(r.j.acct.active?AUTH_T.hi(r.j.acct.name||r.j.acct.email):AUTH_T.signedNeed,4500);
       await initPlatform();go('settings');},300);}}
+/* Home: a gentle invitation to sign in (not required for the free parts). "Later" hides it for 7 days. */
+function authNudge(el){
+  if(!WEB||acctGet()||!document.body.contains(el))return;
+  const host=$('.view',el)||el;if($('#acNudge',host))return;
+  let until=0;try{until=+localStorage.getItem('catalis-nudge')||0;}catch(e){}
+  if(Date.now()<until)return;
+  const p=document.createElement('div');p.className='panel ac-nudge';p.id='acNudge';
+  p.innerHTML=`<div class="ac-nudge-t"><b>${AUTH_T.nudgeTitle}</b><p class="small">${AUTH_T.nudgeText}</p></div><div class="ac-row"><div id="acNG"></div><button class="btn ghost sm" type="button" id="acNL">${AUTH_T.later}</button></div>`;
+  host.insertBefore(p,host.firstChild);
+  $('#acNL',p).onclick=()=>{try{localStorage.setItem('catalis-nudge',String(Date.now()+7*864e5));}catch(e){}p.remove();};
+  authButton($('#acNG',p),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);p.remove();await initPlatform();if(current==='home')route();},e=>toast(e,4000));
+}
+{const _home=VIEWS.home;VIEWS.home=function(el){const r=_home.apply(this,arguments);
+  Promise.resolve(r).then(async()=>{for(let i=0;i<40&&WEB===null;i++)await new Promise(z=>setTimeout(z,150));authNudge(el);});return r;};}
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);
   Promise.resolve(r).then(()=>{const host=$('.view',el)||el;authPanel(el,host);authAdmin(host);});return r;};}
 

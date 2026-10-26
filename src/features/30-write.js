@@ -378,7 +378,7 @@ function WR_open(el,id,showHist){
         <div class="spread wr-bar"><span class="wr-wc" id="wrWc"></span><div class="row" id="wrTm"></div></div>
         <textarea id="wrTx" class="wr-tx en-s" spellcheck="false" autocomplete="off" autocorrect="off" placeholder="${x._k==='t1g'?'Dear ...':'Viết bài của bạn bằng tiếng Anh ở đây...'}" aria-label="Bài viết"></textarea>
         <div class="spread"><button class="btn primary" id="wrSub">${ic('sparkles')} Nộp bài và chấm</button><span class="small muted" id="wrSaved">Bài nháp tự lưu</span></div>
-        <p class="note no-ai">AI chấm bài cần mật khẩu nhóm và máy chủ đã cấu hình. Bạn vẫn có thể nộp để so sánh với bài mẫu.</p>
+        <p class="note no-ai">AI chấm bài cần đăng nhập và máy chủ đã cấu hình. Bạn vẫn có thể nộp để so sánh với bài mẫu.</p>
       </section>
       <section class="wr-ha">${WR_helpHTML(x)}</section>
     </div>
@@ -404,7 +404,7 @@ function WR_open(el,id,showHist){
   const out=$('#wrOut',el);
   const showModelOnly=text=>{
     out.innerHTML=`<div class="panel">${mcSay('calm','Bài đã được lưu. Hãy đọc bài mẫu và tự so sánh: bố cục, câu tổng quan, từ nối và cách dùng từ.',56)}
-      <p class="note">${AI?'':'AI chấm bài cần mật khẩu nhóm (nhập ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
+      <p class="note">${AI?'':'AI chấm bài cần đăng nhập (ở phần Cài đặt) và máy chủ có cấu hình AI. Khi có AI, bạn sẽ nhận band theo 4 tiêu chí và từng lỗi được sửa.'}</p></div>
       <div class="grid2 wr-cmp"><div class="panel"><h3>Bài của bạn</h3><div class="en-s wr-essay">${esc(text)}</div></div>
       <div class="panel"><h3>Bài mẫu</h3>${WR_models(x)}</div></div>`;
   };
@@ -481,7 +481,7 @@ window.WR_exam=async(el,{onDone}={})=>{
     const modelsOnly=(msg)=>{out.innerHTML=`<div class="panel">${mcSay('calm',msg,56)}</div>
       ${tasks.map((x,i)=>`<div class="grid2 wr-cmp"><div class="panel"><h3>Task ${i+1}: bài của bạn</h3><div class="en-s wr-essay">${esc(texts[i])||'<span class="muted">(bỏ trống)</span>'}</div></div><div class="panel"><h3>Task ${i+1}: bài mẫu</h3>${WR_models(x)}</div></div>`).join('')}
       <div class="row"><button class="btn primary" id="wxDone">Tiếp tục</button></div>`;cont(null);};
-    if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần mật khẩu nhóm và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
+    if(!AI){modelsOnly('Đã nộp bài. AI chấm bài cần đăng nhập và máy chủ có cấu hình AI, nên lần này bạn hãy tự so sánh với bài mẫu.');return;}
     const grade=async()=>{
       out.innerHTML=`<div class="panel wr-load">${mascot('idea',84)}<div><b>Jack đang chấm bài, khoảng 20-40 giây</b><p class="note">Đang chấm cả hai phần, có thể lâu hơn một chút.</p><div class="wr-bar-ld"><i></i></div></div></div>`;
       try{

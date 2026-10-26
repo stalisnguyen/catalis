@@ -60,8 +60,8 @@ VIEWS.lab=el=>{
   const body=$('#lbBody',el);
   if(!AI){
     const srv=WEB&&!WEB.ai;
-    body.innerHTML=`<div class="panel lb-noai">${mcSay('hmm',srv?'Phòng AI cần trợ lý AI, nhưng máy chủ chưa bật AI. Người quản lý cần đặt APP_PASSWORD và GROQ_API_KEY trong Vercel.':'Jack cần trợ lý AI để tranh luận, chấm paraphrase và lọc từ cho bạn. Nhập mật khẩu nhóm để mở khóa, mỗi máy chỉ cần nhập một lần.',72)}
-      ${srv?'':`<div class="row"><button class="btn primary" id="lbKey">${ic('sparkles')} Nhập mật khẩu nhóm</button></div>`}
+    body.innerHTML=`<div class="panel lb-noai">${mcSay('hmm',srv?'Phòng AI cần trợ lý AI, nhưng máy chủ chưa bật AI. Người quản lý cần đặt APP_PASSWORD và GROQ_API_KEY trong Vercel.':'Jack cần trợ lý AI để tranh luận, chấm paraphrase và lọc từ cho bạn. Đăng nhập Google (hoặc nhập mã mời) để mở khóa, chỉ cần một lần.',72)}
+      ${srv?'':`<div class="row"><button class="btn primary" id="lbKey">${ic('sparkles')} Đăng nhập hoặc nhập mã</button></div>`}
       <ul class="lb-ul note"><li><b>Tranh luận:</b> Jack phản biện từng lập luận của bạn bằng giọng nói, cuối trận chấm band và gợi ý dàn bài Task 2.</li><li><b>Paraphrase:</b> viết lại câu học thuật và được chấm độ giữ nghĩa, độ tự nhiên, độ khác cấu trúc.</li><li><b>Từ đời thật:</b> dán email, bài báo tiếng Anh, Jack lọc ra cụm từ đáng học và đưa vào thẻ ôn.</li></ul></div>`;
     if(!WEB){let n=0;const iv=setInterval(()=>{n++;if(!LB_body()||current!=='lab'){clearInterval(iv);return;}if(AI){clearInterval(iv);VIEWS.lab(el);}else if(WEB||n>40)clearInterval(iv);},250);}
     const k=$('#lbKey',body);

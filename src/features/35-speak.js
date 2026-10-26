@@ -7,7 +7,7 @@ const SP_CRIT=[['fc','Trôi chảy và mạch lạc','Fluency and Coherence','N�
   ['gra','Ngữ pháp','Grammatical Range and Accuracy','Dùng cả câu đơn lẫn câu phức, ít lỗi.'],
   ['pr','Phát âm','Pronunciation','Dễ nghe, rõ âm cuối, đúng trọng âm, ngữ điệu tự nhiên.']];
 const SP_TOP={person:'Người',place:'Nơi chốn',object:'Đồ vật',event:'Sự kiện',experience:'Trải nghiệm',activity:'Hoạt động',media:'Sách, phim, mạng'};
-const SP_NOSR='Máy này chưa ghi âm được (cần mật khẩu nhóm và quyền micro), hãy gõ câu trả lời';
+const SP_NOSR='Máy này chưa ghi âm được (cần đăng nhập và quyền micro), hãy gõ câu trả lời';
 const SP_ms=()=>window.__spFast?50:1000;
 const SP_c=s=>String(s==null?'':s).replace(/\s*[\u2014\u2013]\s*/g,', ').replace(/\u2192/g,'->').replace(/\u2190/g,'<-').replace(/\u2194/g,'<->');
 const SP_hasSR=()=>canListen();
@@ -99,7 +99,7 @@ function SP_rec(host,o){
       <div class="sp-stats" data-stats></div>
       ${st.secs&&words()&&st.secs>=10?`<p class="note">${SP_paceNote(words(),st.secs)}</p>`:''}
       <div class="row">${o.exam?'':`<button class="btn sm need-ai" data-ai>${ic('sparkles')} Nhận xét bằng AI</button><button class="btn ghost sm" data-again>${ic('rotate-ccw')} Nói lại</button>`}</div>
-      ${o.exam?'':'<p class="note no-ai">Bật trợ lý AI (mật khẩu nhóm) để được chấm band và sửa câu.</p>'}
+      ${o.exam?'':'<p class="note no-ai">Đăng nhập để bật trợ lý AI để được chấm band và sửa câu.</p>'}
       <div class="sp-ai"></div>`;
     stats(); refreshAIBits();
     const ta=$('.sp-tr',body);
@@ -234,7 +234,7 @@ function SP_home(el){
         <h3>${ic('message-circle')} Phỏng vấn với giám khảo AI</h3>
         <p class="note">Giám khảo AI hỏi Part 1, đưa cue card cho Part 2 (có giờ chuẩn bị và giờ nói), rồi hỏi tiếp Part 3 dựa trên những gì bạn nói. Trong lúc thi giám khảo không sửa lỗi. Bấm "Kết thúc và chấm" để nhận band và nhận xét.</p>
         <div class="row need-ai"><button class="btn primary" data-chat>${ic('mic')} Bắt đầu phỏng vấn</button></div>
-        <p class="note no-ai">Cần bật trợ lý AI (mật khẩu nhóm) để dùng giám khảo AI. Bạn vẫn có thể làm bài thi đủ 3 phần bên dưới.</p>
+        <p class="note no-ai">Cần đăng nhập để bật trợ lý AI để dùng giám khảo AI. Bạn vẫn có thể làm bài thi đủ 3 phần bên dưới.</p>
       </div>
       <div class="panel"><h3>${ic('clipboard-check')} Thi thử Speaking đủ 3 phần</h3>
         <p class="note">Khoảng 12 phút: Part 1 (4 câu), Part 2 (1 phút chuẩn bị, 2 phút nói), Part 3 (3-4 câu). Câu hỏi lấy từ ngân hàng đề, không cần AI. Có AI thì được chấm cả bài.</p>
