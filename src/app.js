@@ -114,9 +114,9 @@ async function initPlatform(){
 function askPassword(wrong){
   return new Promise(res=>{
     const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
+      <p class="note">${wrong?'Mã chưa đúng. Kiểm tra lại nhé.':'Đăng nhập Google để lưu tiến độ, học tiếp trên máy khác và dùng trợ lý AI (chấm Writing, Speaking). Có mã mời thì nhập ở dưới.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
-      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
+      <form id="pwF" class="row"><input type="text" id="pwI" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Mã mời" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false; const fin=v=>{if(done)return;done=true;res(v);};
     if(typeof authMount==='function')authMount(m,()=>{m.close();fin(true);});
     $('#pwF',m.el).onsubmit=async e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;if(await refSubmit(v,m)){m.close();fin(true);}};

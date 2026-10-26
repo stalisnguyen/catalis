@@ -1,5 +1,5 @@
 /* ================= PROFILES + STUDY GROUP (Bạn học) =================
-   Each learner: name + slug + personal PIN (web sync). Group password (APP_PASSWORD) is shared.
+   Each learner: name + slug + the account they sign in with (web sync). Older devices may still hold a group password + PIN.
    Board: api/board returns everyone's weekly XP, streak and rank. */
 function uiName(){return WHO&&WHO.name?WHO.name:'bạn';}
 function uiMonday(){const t=today();return ymd(t-((new Date(t).getDay()+6)%7)*DAY);}
@@ -37,22 +37,23 @@ async function setProfile(name,pin,key){
   route();return true;
 }
 function profileForm(fresh){
-  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Stalis" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
-    <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
-    ${getKey()?'':`<label class="pf-l">Mật khẩu nhóm (để đồng bộ giữa các máy)<input type="password" id="pfK" autocomplete="current-password" placeholder="Mật khẩu chung của nhóm"></label>`}
-    <p class="pf-n">Đăng nhập cùng tài khoản Google trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Minh Anh" value="${fresh?'':esc(WHO?WHO.name:'')}"></label></div>`;
 }
 function switchProfile(){
-  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
-  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}const k=$('#pfK',m.el);m.close();await setProfile(n,p,k&&k.value.trim());toast('Chào '+n+'!');};
+  const a=typeof acctGet==='function'&&acctGet();
+  if(a){const m=modal(`<h2>Đổi người học</h2><p class="note">Máy này đang đăng nhập bằng <b>${esc(a.email||a.name||'')}</b>. Để người khác học trên máy này, đăng xuất rồi nhập tên người đó. Họ đăng nhập Google của họ để giữ tiến độ riêng.</p><div class="row"><button class="btn primary" id="pfOut">Đăng xuất và đổi người</button><button class="btn ghost" id="pfNo">Thôi</button></div>`);
+    $('#pfNo',m.el).onclick=()=>m.close();
+    $('#pfOut',m.el).onclick=async()=>{m.close();await authLogout();await initPlatform();switchProfile();};return;}
+  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên của mình, tiến độ của từng người lưu riêng trên máy này. Đăng nhập Google để học tiếp trên máy khác.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}m.close();await setProfile(n,'');toast('Chào '+n+'!');};
 }
 
 /* ---------- Bạn học view ---------- */
-let BOARD=null, BOARD_AT=0;
+let BOARD=null, BOARD_AT=0, BOARD_ME='';
 async function boardLoad(force){
   if(!WEB||!WEB.sync||!getKey())return null;
   if(!force&&BOARD&&Date.now()-BOARD_AT<60000)return BOARD;
-  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_AT=Date.now();}catch(e){return BOARD;}
+  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_ME=j.me||'';BOARD_AT=Date.now();}catch(e){return BOARD;}
   return BOARD;
 }
 function boardRows(list){
@@ -63,7 +64,7 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')?location.origin:'https://catalis.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> cho bạn bè.</li><li>Họ mở link, nhập tên và đăng nhập Google.</li><li>Học xong bài đầu tiên là tên họ hiện trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học cần đồng bộ trên máy chủ. Khi máy chủ bật đồng bộ, cả nhóm sẽ thấy nhau ở đây.',64)}${invite}</div>`;bindInv();return;}
@@ -71,7 +72,7 @@ VIEWS.friends=async el=>{
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
-  const me=WHO?WHO.slug:'';
+  const me=BOARD_ME||(WHO?WHO.slug:'');
   el.innerHTML=`<div class="view">
     <div class="spread"><h2>Tuần này</h2><span class="note">Xếp theo XP từ thứ Hai</span></div>
     ${list.length?`<div class="board">${list.map((x,i)=>`<div class="bd-row ${x.slug===me?'me':''}"><span class="bd-pos num">${i+1}</span><span class="bd-mc">${catSVG(x.today?'hi':'zzz',48,x.rank||0)}</span>
@@ -82,7 +83,7 @@ VIEWS.friends=async el=>{
     ${invite}</div>`;
   bindInv();
   function bindInv(){
-    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Luyện IELTS cùng mình trên Catalis nhé: ${link}\nMở link, nhập tên và đặt mã PIN riêng. Mật khẩu nhóm mình gửi riêng.`;
+    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Luyện IELTS cùng mình trên Catalis nhé: ${link}\nMở link, nhập tên và đăng nhập Google là xong.`;
       (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Đã sao chép lời mời.')).catch(()=>toast(t,6000));};
     const s=$('#frSw');if(s)s.onclick=switchProfile;
   }
@@ -91,7 +92,7 @@ VIEWS.friends=async el=>{
 async function uiFriendsCard(){
   const side=$('.hm-side');if(!side)return;
   const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
-  const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
+  const rows=boardRows(list).slice(0,3),me=BOARD_ME||(WHO?WHO.slug:'');
   if($('#hmFr'))return;
   side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${catSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
   $('#hmFr').onclick=()=>go('friends');

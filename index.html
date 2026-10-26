@@ -1674,6 +1674,11 @@ details[open]>summary .pr-chev{transform:rotate(90deg)}
 .ac-nudge #acNG{min-height:40px;display:flex;align-items:center}
 .g-inapp{border:1px dashed var(--line,#ccc);border-radius:12px;padding:10px 12px;text-align:left}.g-inapp p{margin:0 0 6px}
 
+.in-g{display:flex;justify-content:center;min-height:44px;margin:6px 0}
+.in-g .g-inapp{text-align:left}
+.in-skip,.cele-in .in-skip{display:block;width:auto!important;min-width:0!important;background:none!important;border:0!important;box-shadow:none!important;color:inherit!important;margin:6px auto 0;background:none;border:0;color:inherit;font:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px;opacity:.9;padding:10px 14px;cursor:pointer}
+.in-skip:hover{opacity:1}
+
 .up-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .up-plan{position:relative;display:flex;flex-direction:column;gap:6px}
 .up-plan.best{outline:2px solid var(--accent,#2f5bd3)}
@@ -1824,9 +1829,9 @@ async function initPlatform(){
 function askPassword(wrong){
   return new Promise(res=>{
     const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại nhé.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI (chấm Writing, Speaking) và đồng bộ tiến độ giữa các máy. Mỗi máy chỉ cần nhập một lần.'}</p>
+      <p class="note">${wrong?'Mã chưa đúng. Kiểm tra lại nhé.':'Đăng nhập Google để lưu tiến độ, học tiếp trên máy khác và dùng trợ lý AI (chấm Writing, Speaking). Có mã mời thì nhập ở dưới.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
-      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
+      <form id="pwF" class="row"><input type="text" id="pwI" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Mã mời" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false; const fin=v=>{if(done)return;done=true;res(v);};
     if(typeof authMount==='function')authMount(m,()=>{m.close();fin(true);});
     $('#pwF',m.el).onsubmit=async e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;if(await refSubmit(v,m)){m.close();fin(true);}};
@@ -5799,7 +5804,7 @@ VIEWS.settings=el=>{
    <div class="panel"><h3>Hiển thị và âm thanh</h3><div class="tg-list">${uiToggleHTML()}</div></div>
    <div class="panel"><h3>Đồng bộ và trợ lý AI</h3>
      <div class="kv"><span>Đồng bộ tiến độ</span><b>${syTxt}</b></div><div class="kv"><span>Trợ lý AI</span><b>${aiTxt}</b></div>
-     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời hoặc mật khẩu nhóm</button>':''}
+     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời</button>':''}
      ${WEB&&getKey()?'<div class="row" style="gap:8px"><button class="btn sm" id="stChg">Đổi mật khẩu hoặc mã trên máy này</button><button class="btn ghost sm" id="stOut">Xóa mật khẩu khỏi máy này</button></div>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
    <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button><button class="btn sm" id="stPlR">Xóa kết quả xếp lớp</button></div>
@@ -5881,7 +5886,7 @@ function uiIntro(force){
   if(!force&&store.get('catalis-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, nơi luyện IELTS mỗi ngày, từ từ vựng đến Writing và Speaking. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}!</h2><p>Mình lớn lên theo danh hiệu của bạn, từ Freshman đến Professor. Mỗi lần lên hạng, mình được thêm phụ kiện mới.</p>
       <div class="hats">${[0,1,2,4,5,7].map(i=>catSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',96)}</div><h2>Bạn thi dạng nào?</h2><div class="row" style="justify-content:center">${[['academic','Academic'],['general','General Training']].map(([k,t])=>`<button class="chip big" data-ex="${k}" aria-pressed="${c.exam===k}">${t}</button>`).join('')}</div>
@@ -5889,9 +5894,9 @@ function uiIntro(force){
       <h2 style="margin-top:8px">Bắt đầu thế nào?</h2><div class="in-opts"><button class="btn" data-lv="test">Làm bài xếp lớp khoảng 15 phút (nên làm)</button><button class="btn" data-lv="new">Học từ nền tảng luôn</button></div>`;},
   ];
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
-  const draw=()=>{box.innerHTML=steps[i]();
-    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      const k=$('#pfK',box);await setProfile(n,p,k&&k.value.trim());m.el.classList.remove('locked');i=1;draw();};
+  const draw=()=>{if(i==='g'){introSignIn(box,()=>{i=1;draw();});return;}box.innerHTML=steps[i]();
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}
+      await setProfile(n,'');m.el.classList.remove('locked');i=typeof introAuthWanted==='function'&&introAuthWanted()?'g':1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('catalis-intro',1);m.close();}};
     $$('[data-ex]',box).forEach(b=>b.onclick=()=>{plCfg().exam=b.dataset.ex;touch('main');$$('[data-ex]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
@@ -5900,7 +5905,7 @@ function uiIntro(force){
 }
 
 /* ================= PROFILES + STUDY GROUP (Bạn học) =================
-   Each learner: name + slug + personal PIN (web sync). Group password (APP_PASSWORD) is shared.
+   Each learner: name + slug + the account they sign in with (web sync). Older devices may still hold a group password + PIN.
    Board: api/board returns everyone's weekly XP, streak and rank. */
 function uiName(){return WHO&&WHO.name?WHO.name:'bạn';}
 function uiMonday(){const t=today();return ymd(t-((new Date(t).getDay()+6)%7)*DAY);}
@@ -5938,22 +5943,23 @@ async function setProfile(name,pin,key){
   route();return true;
 }
 function profileForm(fresh){
-  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Stalis" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
-    <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
-    ${getKey()?'':`<label class="pf-l">Mật khẩu nhóm (để đồng bộ giữa các máy)<input type="password" id="pfK" autocomplete="current-password" placeholder="Mật khẩu chung của nhóm"></label>`}
-    <p class="pf-n">Đăng nhập cùng tài khoản Google trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Minh Anh" value="${fresh?'':esc(WHO?WHO.name:'')}"></label></div>`;
 }
 function switchProfile(){
-  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
-  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}const k=$('#pfK',m.el);m.close();await setProfile(n,p,k&&k.value.trim());toast('Chào '+n+'!');};
+  const a=typeof acctGet==='function'&&acctGet();
+  if(a){const m=modal(`<h2>Đổi người học</h2><p class="note">Máy này đang đăng nhập bằng <b>${esc(a.email||a.name||'')}</b>. Để người khác học trên máy này, đăng xuất rồi nhập tên người đó. Họ đăng nhập Google của họ để giữ tiến độ riêng.</p><div class="row"><button class="btn primary" id="pfOut">Đăng xuất và đổi người</button><button class="btn ghost" id="pfNo">Thôi</button></div>`);
+    $('#pfNo',m.el).onclick=()=>m.close();
+    $('#pfOut',m.el).onclick=async()=>{m.close();await authLogout();await initPlatform();switchProfile();};return;}
+  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên của mình, tiến độ của từng người lưu riêng trên máy này. Đăng nhập Google để học tiếp trên máy khác.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}m.close();await setProfile(n,'');toast('Chào '+n+'!');};
 }
 
 /* ---------- Bạn học view ---------- */
-let BOARD=null, BOARD_AT=0;
+let BOARD=null, BOARD_AT=0, BOARD_ME='';
 async function boardLoad(force){
   if(!WEB||!WEB.sync||!getKey())return null;
   if(!force&&BOARD&&Date.now()-BOARD_AT<60000)return BOARD;
-  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_AT=Date.now();}catch(e){return BOARD;}
+  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_ME=j.me||'';BOARD_AT=Date.now();}catch(e){return BOARD;}
   return BOARD;
 }
 function boardRows(list){
@@ -5964,7 +5970,7 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')?location.origin:'https://catalis.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Jack hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> cho bạn bè.</li><li>Họ mở link, nhập tên và đăng nhập Google.</li><li>Học xong bài đầu tiên là tên họ hiện trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học cần đồng bộ trên máy chủ. Khi máy chủ bật đồng bộ, cả nhóm sẽ thấy nhau ở đây.',64)}${invite}</div>`;bindInv();return;}
@@ -5972,7 +5978,7 @@ VIEWS.friends=async el=>{
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
-  const me=WHO?WHO.slug:'';
+  const me=BOARD_ME||(WHO?WHO.slug:'');
   el.innerHTML=`<div class="view">
     <div class="spread"><h2>Tuần này</h2><span class="note">Xếp theo XP từ thứ Hai</span></div>
     ${list.length?`<div class="board">${list.map((x,i)=>`<div class="bd-row ${x.slug===me?'me':''}"><span class="bd-pos num">${i+1}</span><span class="bd-mc">${catSVG(x.today?'hi':'zzz',48,x.rank||0)}</span>
@@ -5983,7 +5989,7 @@ VIEWS.friends=async el=>{
     ${invite}</div>`;
   bindInv();
   function bindInv(){
-    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Luyện IELTS cùng mình trên Catalis nhé: ${link}\nMở link, nhập tên và đặt mã PIN riêng. Mật khẩu nhóm mình gửi riêng.`;
+    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Luyện IELTS cùng mình trên Catalis nhé: ${link}\nMở link, nhập tên và đăng nhập Google là xong.`;
       (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Đã sao chép lời mời.')).catch(()=>toast(t,6000));};
     const s=$('#frSw');if(s)s.onclick=switchProfile;
   }
@@ -5992,7 +5998,7 @@ VIEWS.friends=async el=>{
 async function uiFriendsCard(){
   const side=$('.hm-side');if(!side)return;
   const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
-  const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
+  const rows=boardRows(list).slice(0,3),me=BOARD_ME||(WHO?WHO.slug:'');
   if($('#hmFr'))return;
   side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${catSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
   $('#hmFr').onclick=()=>go('friends');
@@ -6002,7 +6008,7 @@ async function uiFriendsCard(){
    New people unlock AI and sync with a shared invite code (limited places, see api/ref.js) instead of the group password.
    The password box accepts either: an invite code is exchanged for a personal access key, anything else is kept as the password.
    Whoever holds the group password sees an admin panel in Settings to set the code and the number of places. */
-const REF_T={wrong:'Mã mời hoặc mật khẩu chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
+const REF_T={wrong:'Mã mời chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
   st:{title:'Số liệu beta',today:'Hoạt động hôm nay',week:'Hoạt động 7 ngày',fresh7:'Máy mới 7 ngày',learners:'Người có tiến độ đồng bộ',ai7:'Lượt AI 7 ngày',aiu:'Người dùng AI hôm nay',ret:'Quay lại sau',retNote:'Tính theo máy, không theo người: một người dùng hai máy được tính là hai. Số trong ngoặc là số máy quay lại trên số máy mới của các ngày đủ tuổi.',day:'Ngày',active:'Hoạt động',new:'Mới'},
   ok:(n,m)=>`Đã mở khóa. Bạn là người thứ ${n}/${m} dùng mã này.`,full:m=>`Mã này đã đủ ${m} người. Bạn nhắn người chia sẻ để xin mã mới nhé.`,slow:'Bạn thử nhiều lần quá. Đợi một lúc rồi nhập lại.',
   title:'Mã mời cho người mới',note:'Người mới nhập mã này thay cho mật khẩu nhóm. Mỗi người nhận một khóa riêng, mã tự khóa khi đủ số suất. Người đang dùng mật khẩu nhóm không bị ảnh hưởng. Đổi sang mã mới thì bắt đầu đếm lại từ 0.',
@@ -6121,27 +6127,30 @@ async function refAdmin(el){
    While signed in, an invite code typed in the password box unlocks the account instead of only this device. */
 const AUTH_T={loc:"vi",
   title:"Tài khoản",
-  why:"Đăng nhập bằng Google để giữ quyền dùng trợ lý AI và đồng bộ trên mọi máy, không cần nhập lại mã. App chỉ nhận tên, email và ảnh đại diện của bạn.",
-  or:"hoặc nhập mã mời, mật khẩu nhóm",
-  needCode:"Tài khoản này chưa mở trợ lý AI và đồng bộ. Nhập mã mời (hoặc mật khẩu nhóm) để mở. Chỉ cần nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
+  why:"Đăng nhập bằng Google để lưu tiến độ, học tiếp trên máy khác và giữ quyền dùng trợ lý AI. App chỉ nhận tên, email và ảnh đại diện của bạn.",
+  or:"hoặc nhập mã mời",
+  needCode:"Đã đăng nhập, tiến độ của bạn được lưu theo tài khoản. Trợ lý AI cần mã mời: nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
   access:"Quyền dùng",
   owner:"Chủ app, dùng không giới hạn",
   betaEnded:"Đã hết thời gian beta miễn phí",
-  none:"Chưa mở trợ lý AI và đồng bộ",
+  none:"Chưa mở trợ lý AI",
   ended:"Hết hạn dùng thử",
   enterCode:"Nhập mã mời",
   out:"Đăng xuất khỏi máy này",
   outQ:"Đăng xuất khỏi máy này? Tiến độ học trên máy vẫn giữ nguyên.",
   outDone:"Đã đăng xuất.",
-  unlocked:"Đã mở trợ lý AI và đồng bộ cho tài khoản này.",
-  signedNeed:"Đã đăng nhập. Nhập mã mời để mở trợ lý AI và đồng bộ.",
+  unlocked:"Đã mở trợ lý AI cho tài khoản này.",
+  signedNeed:"Đã đăng nhập, tiến độ được lưu theo tài khoản. Nhập mã mời để mở trợ lý AI.",
   fail:"Đăng nhập chưa được. Thử lại sau ít phút nhé.",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
   nudgeTitle:"Đăng nhập để học liền mạch",
-  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  nudgeText:"Lưu tiến độ theo tài khoản để học tiếp trên mọi máy và mở trợ lý AI. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
   later:"Để sau",
+  inTitle:"Lưu tiến độ của bạn",
+  inText:"Đăng nhập Google để không mất bài đã học khi đổi máy và học tiếp trên điện thoại hay máy tính. Trợ lý AI cũng cần đăng nhập. Chưa muốn thì bấm Để sau, tiến độ vẫn lưu trên máy này.",
+  inSkip:"Để sau, học luôn",
   inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
   inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
   copyLink:"Chép link",
@@ -6250,6 +6259,13 @@ function authPanel(el,host){
   if(a){[ '#stChg','#stOut','#stKey'].forEach(s=>{const b=$(s,host);if(b)b.remove();});
     authPost('me').then(r=>{if(r.ok){acctSet(r.j.acct);if(document.body.contains(p))draw(acctGet());}else if(r.status===401){setKey('');acctSet(null);VIEWS.settings(el);}}).catch(()=>{});}
 }
+/* onboarding step right after the name: optional Google sign-in (next() continues the intro) */
+function introSignIn(box,next){
+  box.innerHTML=`<div class="cele-mc">${mascot('idea',96)}</div><h2>${AUTH_T.inTitle}</h2><p>${AUTH_T.inText}</p><div id="inG" class="in-g"></div><p class="small" id="inMsg"></p><button class="in-skip" type="button" id="inSkip">${AUTH_T.inSkip}</button>`;
+  $('#inSkip',box).onclick=next;
+  authButton($('#inG',box),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);const nn=$('#acNudge');if(nn)nn.remove();await initPlatform();next();},e=>{$('#inMsg',box).textContent=e;});
+}
+const introAuthWanted=()=>!!(WEB&&WEB.sync)&&!acctGet();
 /* owner only: how many accounts, and the free trial for new accounts (0 while the beta runs on invite codes) */
 async function authAdmin(host){
   if(!getKey()||$('#acAdm',host))return;

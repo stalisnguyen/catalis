@@ -183,7 +183,7 @@ VIEWS.settings=el=>{
    <div class="panel"><h3>Hiển thị và âm thanh</h3><div class="tg-list">${uiToggleHTML()}</div></div>
    <div class="panel"><h3>Đồng bộ và trợ lý AI</h3>
      <div class="kv"><span>Đồng bộ tiến độ</span><b>${syTxt}</b></div><div class="kv"><span>Trợ lý AI</span><b>${aiTxt}</b></div>
-     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời hoặc mật khẩu nhóm</button>':''}
+     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời</button>':''}
      ${WEB&&getKey()?'<div class="row" style="gap:8px"><button class="btn sm" id="stChg">Đổi mật khẩu hoặc mã trên máy này</button><button class="btn ghost sm" id="stOut">Xóa mật khẩu khỏi máy này</button></div>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Trợ lý AI chạy qua Groq, đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel: APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN. Giọng đọc neural (tùy chọn): AZURE_SPEECH_KEY, AZURE_SPEECH_REGION.</p></details></div>
    <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Jack</button><button class="btn sm" id="stPlR">Xóa kết quả xếp lớp</button></div>
@@ -265,7 +265,7 @@ function uiIntro(force){
   if(!force&&store.get('catalis-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, chỗ cả nhóm cùng luyện IELTS. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Jack</h2><p>Đây là <b>Catalis</b>, nơi luyện IELTS mỗi ngày, từ từ vựng đến Writing và Speaking. Catalis là cat + Stalis, cũng là chất xúc tác giúp band của bạn tăng nhanh hơn. Tên tiếng Việt của mình là Mít, mà mít là jackfruit, nên cứ gọi Jack nhé.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}!</h2><p>Mình lớn lên theo danh hiệu của bạn, từ Freshman đến Professor. Mỗi lần lên hạng, mình được thêm phụ kiện mới.</p>
       <div class="hats">${[0,1,2,4,5,7].map(i=>catSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',96)}</div><h2>Bạn thi dạng nào?</h2><div class="row" style="justify-content:center">${[['academic','Academic'],['general','General Training']].map(([k,t])=>`<button class="chip big" data-ex="${k}" aria-pressed="${c.exam===k}">${t}</button>`).join('')}</div>
@@ -273,9 +273,9 @@ function uiIntro(force){
       <h2 style="margin-top:8px">Bắt đầu thế nào?</h2><div class="in-opts"><button class="btn" data-lv="test">Làm bài xếp lớp khoảng 15 phút (nên làm)</button><button class="btn" data-lv="new">Học từ nền tảng luôn</button></div>`;},
   ];
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
-  const draw=()=>{box.innerHTML=steps[i]();
-    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      const k=$('#pfK',box);await setProfile(n,p,k&&k.value.trim());m.el.classList.remove('locked');i=1;draw();};
+  const draw=()=>{if(i==='g'){introSignIn(box,()=>{i=1;draw();});return;}box.innerHTML=steps[i]();
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}
+      await setProfile(n,'');m.el.classList.remove('locked');i=typeof introAuthWanted==='function'&&introAuthWanted()?'g':1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('catalis-intro',1);m.close();}};
     $$('[data-ex]',box).forEach(b=>b.onclick=()=>{plCfg().exam=b.dataset.ex;touch('main');$$('[data-ex]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
